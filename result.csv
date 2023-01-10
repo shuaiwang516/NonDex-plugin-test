@@ -1,0 +1,41 @@
+project name,compile,change gradle version,flaky tests
+srs/gradle-node-plugin,T,F,no flaky tests
+spockframework/spock-example,T,F,no flaky tests
+palantir/gradle-docker,T,F,error
+Transmode/gradle-docker,F,F,error
+linkedin/pygradle,T,F,error
+bndtools/bnd,F,F,error
+MinecraftForge/ForgeGradle,T,F,no test
+dropbox/focus,T,F,error
+uPhyca/gradle-android-aspectj-plugin,F,F,error
+jakeouellette/inspector,F,F,error
+geb/geb-example-gradle,T,F,no flaky tests
+xuexiangjys/XUpdateService,F,F,no flaky tests
+mfuerstenau/gradle-buildconfig-plugin,F,F,no flaky tests
+FabricMC/fabric-loom,T,F,no flaky tests
+etiennestuder/gradle-credentials-plugin,T,F,error
+Mindera/gradle-slack-plugin,F,F,error
+jbaruch/maven2gradle,F,F,error
+gradle/gradle-build-scan-quickstart,T,F,error
+novoda/gradle-build-properties-plugin,F,F,error
+hannesstruss/godot,F,F,error
+jonathanhood/gradle-plugin-example,F,F,error
+gigaSproule/swagger-gradle-plugin,F,F,error
+pablisco/ramBuild,F,F,error
+vivin/gradle-semantic-build-versioning,F,F,error
+samueltbrown/gradle-cucumber-plugin,F,F,error
+stempler/bnd-platform,F,F,error
+pedrovgs/Kuronometer,F,F,error
+xvik/gradle-use-python-plugin,T,F,no flaky tests
+HariSekhon/Templates,F,F,no flaky tests
+invertase/react-native-gradle-plugin,T,F,no test
+myniva/gradle-s3-build-cache,F,F,no test
+modrinth/minotaur,F,F,no test
+fstephany/gradle-build-variant-example,F,F,no test
+eleventigers/gradle-build-timer-plugin,F,F,no test
+lijingyao/microservice_coffeeshop,F,F,no test
+szaza/tensorflow-example-java,F,F,no test
+square/gradle-dependencies-sorter,F,F,no test
+Karumi/Hagu,T,F,error
+carlosvin/cpp_gradle,F,F,error
+echocat/gradle-golang-plugin,F,F,error
