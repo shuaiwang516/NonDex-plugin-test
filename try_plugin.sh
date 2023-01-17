@@ -43,7 +43,14 @@ function download_compile() {
         echo try to add the plugin
 		grep "classpath 'edu.illinois.nondex:edu.illinois.nondex.gradle.plugin:2.1.1'" build.gradle
 		if [ $? != 0 ]; then
-        	echo -e "\napply plugin: 'edu.illinois.nondex'" >> build.gradle
+			./gradlew projects | grep "No sub-projects"
+			sub=$?	# sub=0 if no subprojects; sub=1 if there are subprojects
+			if [ $sub == 0 ]; then # no subprojects
+				echo -e "\napply plugin: 'edu.illinois.nondex'" >> build.gradle
+			else
+				echo -e "\nsubprojects {\n    apply plugin: 'edu.illinois.nondex'\n}" >> build.gradle
+			fi
+        	
         	echo "buildscript {
   repositories {
     mavenLocal()
@@ -55,6 +62,7 @@ function download_compile() {
 }
 $(cat build.gradle)" > build.gradle
         fi
+
         # -----------------------------------------------------run nondexTest--------------------------------------------------------------#
         echo try to run nondexTest
         ./gradlew nondexTest --nondexRuns=10 1> nondex.log 2> nondex-err.log
