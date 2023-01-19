@@ -65,20 +65,32 @@ $(cat build.gradle)" > build.gradle
 
         # -----------------------------------------------------run nondexTest--------------------------------------------------------------#
         echo try to run nondexTest
-        ./gradlew nondexTest --nondexRuns=10 1> nondex.log 2> nondex-err.log
-		grep "NonDex SUMMARY:" nondex.log
-		if [ $? == 0 ]; then # if nondexTest is actually executed
-			flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex.log | sed -e '1d;$d' | cut -f2 -d' ' | tr '\n' ';' | sed 's/.$//') # no new line char at the end
-      		if [[ $flaky_tests = '' ]]; then flaky_tests="no flaky tests"; fi
-    	else
-			echo "error or no test in the project"
-			grep "BUILD SUCCESSFUL" nondex.log
-			if [ $? == 0 ]; then
-				flaky_tests="no test"
+		./gradlew clean	# so always run nondexTest even if the last run is a success
+
+		if [[ $sub == 0 ]]; then	# no subprojects
+			./gradlew nondexTest --nondexRuns=10 1> nondex.log 2> nondex-err.log
+			if ( grep "NonDex SUMMARY:" nondex.log ); then # if nondexTest is actually executed
+				flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex.log | sed -e '1d;$d' | cut -f1 -d' ' --complement | tr '\n' ';' | sed 's/.$//') # no new line char at the end
+				if [[ $flaky_tests = '' ]]; then flaky_tests="no flaky tests"; fi
 			else
-				flaky_tests="error"
+				echo "error or no test in the project"
+				if ( grep "BUILD SUCCESSFUL" nondex.log ); then flaky_tests="no test"; else flaky_tests="error"; fi
+				cp nondex-err.log ${path}/error_log/nondex-${user}-${repo}.log
 			fi
-			cp nondex-err.log ${path}/error_log/nondex-${user}-${repo}.log
+			echo -e "$1,${build},${ver},${flaky_tests}" >> ${path}/result.csv
+		else	# run each subprojects separately, cuz nondex generate summary report for each subprojects
+			for p in $(./gradlew projects | grep "Project" | cut -f3 -d' ' | tr -d "'"); do 
+				./gradlew $p:nondexTest  --nondexRuns=10 1> nondex$p.log 2> nondex-err$p.log
+				if ( grep "NonDex SUMMARY:" nondex$p.log ); then # if nondexTest is actually executed
+					flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex$p.log | sed -e '1d;$d' | cut -f1 -d' ' --complement | tr '\n' ';' | sed 's/.$//') # no new line char at the end
+					if [[ $flaky_tests = '' ]]; then flaky_tests="no flaky tests"; fi
+				else
+					echo "error or no test in the project"
+					if ( grep "BUILD SUCCESSFUL" nondex$p.log ); then flaky_tests="no test"; else flaky_tests="error"; fi
+					cp nondex-err$p.log ${path}/error_log/nondex-${user}-${repo}$p.log
+				fi
+				echo -e "$1$p,${build},${ver},${flaky_tests}" >> ${path}/result.csv
+			done
 		fi
     else 
     # ----------------------------------------build fail------------------------------------------------ #
@@ -86,8 +98,9 @@ $(cat build.gradle)" > build.gradle
         flaky_tests="N/A"
         echo project has error
         cp build-err.log ${path}/error_log/build-${user}-${repo}.log
+		echo -e "$1,${build},${ver},${flaky_tests}" >> ${path}/result.csv
     fi
-	echo -e "$1,${build},${ver},${flaky_tests}" >> ${path}/result.csv
+	# echo -e "$1,${build},${ver},${flaky_tests}" >> ${path}/result.csv
 }
 
 touch result.csv
