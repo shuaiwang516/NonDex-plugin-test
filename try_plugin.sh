@@ -19,14 +19,14 @@ function download_compile() {
     # ----------------------------------------------------check gradle version--------------------------------------------------------#
 	ver=$(grep distributionUrl gradle/wrapper/gradle-wrapper.properties | sed 's/.*gradle-//' | cut -f1 -d-)
 	echo gradle version: $ver
-	bigger_ver=$(echo -e "$ver\n4.7" | sort -rV | head -n 1)
+	bigger_ver=$(echo -e "$ver\n5.0" | sort -rV | head -n 1)
 	version_change=F
-	if [[ $ver != ${bigger_ver} ]]; then # the version is smaller than 4.7
+	if [[ $ver != ${bigger_ver} ]]; then # the version is smaller than 5.0
 		version_change=T
 		sed -i 's/distributionUrl.*//' gradle/wrapper/gradle-wrapper.properties
-		echo "distributionUrl=https\://services.gradle.org/distributions/gradle-4.7-bin.zip" >> gradle/wrapper/gradle-wrapper.properties
+		echo "distributionUrl=https\://services.gradle.org/distributions/gradle-5.0-bin.zip" >> gradle/wrapper/gradle-wrapper.properties
 		if [ $? == 0 ]; then # there is a wrapper block
-			sed -i 's/.*gradleVersion.*/    gradleVersion = "4.7"/' build.gradle 
+			sed -i 's/.*gradleVersion.*/    gradleVersion = "5.0"/' build.gradle 
 		fi
 	fi
 
@@ -38,7 +38,7 @@ function download_compile() {
     
     if [ $? == 0 ]; then # if build success
 		build=T
-
+		projects=$(./gradlew projects | grep Project | cut -f3 -d" " | tr -d "':")
     # ----------------------------------------------------adding the plugin-----------------------------------------------------------#
         echo try to add the plugin
 		grep "classpath 'edu.illinois.nondex:edu.illinois.nondex.gradle.plugin:2.1.1'" build.gradle
@@ -63,6 +63,13 @@ function download_compile() {
 $(cat build.gradle)" > build.gradle
         fi
 
+		# change test closures to tasks.withType(Test)
+		sed -i 's/test /tasks.withType(Test) /' build.gradle
+		if [[ $sub != 0 ]]; then # have subprojects
+			for p in ${projects}; do 
+				sed -i 's/^\( \|\t\)*test /tasks.withType(Test) /' $p/build.gradle
+			done
+		fi
         # -----------------------------------------------------run nondexTest--------------------------------------------------------------#
         echo try to run nondexTest
 		./gradlew clean	# so always run nondexTest even if the last run is a success
@@ -74,22 +81,22 @@ $(cat build.gradle)" > build.gradle
 				if [[ $flaky_tests = '' ]]; then flaky_tests="no flaky tests"; fi
 			else
 				echo "error or no test in the project"
-				if ( grep "BUILD SUCCESSFUL" nondex.log ); then flaky_tests="no test"; else flaky_tests="error"; fi
-				cp nondex-err.log ${path}/error_log/nondex-${user}-${repo}.log
+				if ( grep "BUILD SUCCESSFUL" nondex.log ); then flaky_tests="no test"
+				else flaky_tests="error"; cp nondex-err.log ${path}/error_log/nondex-${user}-${repo}.log; fi
 			fi
 			echo -e "$1,${build},${ver},${flaky_tests}" >> ${path}/result.csv
 		else	# run each subprojects separately, cuz nondex generate summary report for each subprojects
-			for p in $(./gradlew projects | grep "Project" | cut -f3 -d' ' | tr -d "'"); do 
-				./gradlew $p:nondexTest  --nondexRuns=10 1> nondex$p.log 2> nondex-err$p.log
-				if ( grep "NonDex SUMMARY:" nondex$p.log ); then # if nondexTest is actually executed
-					flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex$p.log | sed -e '1d;$d' | cut -f1 -d' ' --complement | tr '\n' ';' | sed 's/.$//') # no new line char at the end
+			for p in ${projects}; do 
+				./gradlew :$p:nondexTest  --nondexRuns=10 1> nondex:$p.log 2> nondex-err:$p.log
+				if ( grep "NonDex SUMMARY:" nondex:$p.log ); then # if nondexTest is actually executed
+					flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex:$p.log | sed -e '1d;$d' | cut -f1 -d' ' --complement | tr '\n' ';' | sed 's/.$//') # no new line char at the end
 					if [[ $flaky_tests = '' ]]; then flaky_tests="no flaky tests"; fi
 				else
 					echo "error or no test in the project"
-					if ( grep "BUILD SUCCESSFUL" nondex$p.log ); then flaky_tests="no test"; else flaky_tests="error"; fi
-					cp nondex-err$p.log ${path}/error_log/nondex-${user}-${repo}$p.log
+					if ( grep "BUILD SUCCESSFUL" nondex:$p.log ); then flaky_tests="no test"
+					else flaky_tests="error"; cp nondex-err:$p.log ${path}/error_log/nondex-${user}-${repo}:$p.log; fi
 				fi
-				echo -e "$1$p,${build},${ver},${flaky_tests}" >> ${path}/result.csv
+				echo -e "$1:$p,${build},${ver},${flaky_tests}" >> ${path}/result.csv
 			done
 		fi
     else 
