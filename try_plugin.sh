@@ -80,10 +80,8 @@ $(cat ${buildFile})" > ${buildFile}
 		if [[ $sub == 0 ]]; then	# no subprojects
 			./gradlew nondexTest --nondexRuns=10 1> nondex.log 2> nondex-err.log
 			if ( grep "NonDex SUMMARY:" nondex.log ); then # if nondexTest is actually executed
-				flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex.log | sed -e '1d;$d' | cut -f1 -d' ' --complement | tr '\n' ';' | sed 's/.$//') # no new line char at the end
-				if [[ $flaky_tests = '' ]]; then 
-					flaky_tests="no flaky tests"
-				else
+				flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex.log | sed -e '1d;$d' | wc -l)
+				if [[ $flaky_tests != '0' ]]; then 
 					sha=$(git rev-parse HEAD)
 					sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex.log | sed -e '1d;$d' | cut -f1 -d' ' --complement | while read line
 					do echo "https://github.com/$1,${sha},.,${line}" >> ${path}/flaky.csv
@@ -99,9 +97,8 @@ $(cat ${buildFile})" > ${buildFile}
 			for p in ${projects}; do 
 				./gradlew :$p:nondexTest  --nondexRuns=10 1> nondex:$p.log 2> nondex-err:$p.log
 				if ( grep "NonDex SUMMARY:" nondex:$p.log ); then # if nondexTest is actually executed
-					flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex:$p.log | sed -e '1d;$d' | cut -f1 -d' ' --complement | tr '\n' ';' | sed 's/.$//') # no new line char at the end
-					if [[ $flaky_tests = '' ]]; then flaky_tests="no flaky tests"
-					else 
+					flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex:$p.log | sed -e '1d;$d' | wc -l)
+					if [[ $flaky_tests != '0' ]]; then
 						sha=$(git rev-parse HEAD)
 						sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex:$p.log | sed -e '1d;$d' | cut -f1 -d' ' --complement | while read line
 						do echo "https://github.com/$1,${sha},$p,${line}" >> ${path}/flaky.csv
