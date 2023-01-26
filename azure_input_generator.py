@@ -52,4 +52,4 @@ if __name__ == '__main__':
         raise ValueError("Usage: python3 generate_azure_input.py <commit> <project_list_file> <proj_num_per_vm> <output_dir>")
     commit, project_list_file, proj_num_per_vm, output_dir = sys.argv[1:]
     project_list = get_project_list_from_file(project_list_file)
-    create_input_files("NONDEX", generate_input_for_each_chunk(nondex_git_url, commit, "NONDEX", project_list, int(proj_num_per_vm)), output_dir)
+    create_input_files("nondex", generate_input_for_each_chunk(nondex_git_url, commit, "nondex", project_list, int(proj_num_per_vm)), output_dir)
