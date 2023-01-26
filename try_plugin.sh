@@ -2,13 +2,13 @@
 
 # should use java veresion higher than 8, maybe 11. Because many projects are of higher version.
 
-path=$(pwd)
+CUR_DIR=$(pwd)
+mkdir -p ${CUR_DIR}/output
+path=${CUR_DIR}/output
 echo $path
-result_file=${path}/result.csv
-
 
 function download_compile() {
-    cd $path
+	cd $CUR_DIR
     user=$(dirname $1)
     repo=$(basename $1)
     dir=github.com/${user}/${repo}
@@ -123,13 +123,16 @@ $(cat ${buildFile})" > ${buildFile}
 	# echo -e "$1,${build},${ver},${flaky_tests}" >> ${path}/result.csv
 }
 
-touch result.csv
-touch flaky.csv
-echo "project name,compile,gradle version,flaky tests" > result.csv
-echo "Project URL,SHA Detected,Subproject Name,Fully-Qualified Test Name (packageName.ClassName.methodName)" > flaky.csv
-mkdir error_log
-for f in $(cat $1); do
-    echo ========== trying to dowload $f
-    download_compile $f
-done
 
+
+echo "project name,compile,gradle version,flaky tests" > output/result.csv
+echo "Project URL,SHA Detected,Subproject Name,Fully-Qualified Test Name (packageName.ClassName.methodName)" > output/flaky.csv
+mkdir -p output/error_log
+proj=$1
+# sepearte the project with semi-colon and stores into a list called projects
+IFS='%' read -a projects <<< "$proj"
+for proj in "${projects[@]}"
+do
+	echo ========== trying to dowload $proj
+    download_compile $proj
+done
