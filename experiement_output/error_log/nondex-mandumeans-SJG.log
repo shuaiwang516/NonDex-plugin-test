@@ -1,0 +1,345 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/domain/posts/Posts.java:53: error: cannot find symbol
+		this(entity.getTitle(), entity.getContent(), entity.getAuthor(), entity.getRootId(), entity.getLft(), entity.getRgt());
+		           ^
+  symbol:   method getTitle()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/domain/posts/Posts.java:53: error: cannot find symbol
+		this(entity.getTitle(), entity.getContent(), entity.getAuthor(), entity.getRootId(), entity.getLft(), entity.getRgt());
+		                              ^
+  symbol:   method getContent()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/domain/posts/Posts.java:53: error: cannot find symbol
+		this(entity.getTitle(), entity.getContent(), entity.getAuthor(), entity.getRootId(), entity.getLft(), entity.getRgt());
+		                                                   ^
+  symbol:   method getAuthor()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/domain/posts/Posts.java:53: error: cannot find symbol
+		this(entity.getTitle(), entity.getContent(), entity.getAuthor(), entity.getRootId(), entity.getLft(), entity.getRgt());
+		                                                                       ^
+  symbol:   method getRootId()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/domain/posts/Posts.java:53: error: cannot find symbol
+		this(entity.getTitle(), entity.getContent(), entity.getAuthor(), entity.getRootId(), entity.getLft(), entity.getRgt());
+		                                                                                           ^
+  symbol:   method getLft()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/domain/posts/Posts.java:53: error: cannot find symbol
+		this(entity.getTitle(), entity.getContent(), entity.getAuthor(), entity.getRootId(), entity.getLft(), entity.getRgt());
+		                                                                                                            ^
+  symbol:   method getRgt()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/domain/posts/Posts.java:54: error: cannot find symbol
+		this.id = entity.getId();
+		                ^
+  symbol:   method getId()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/posts/PostsMainResponseDto.java:27: error: cannot find symbol
+        id = entity.getId();
+                   ^
+  symbol:   method getId()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/posts/PostsMainResponseDto.java:28: error: cannot find symbol
+        title = entity.getTitle();
+                      ^
+  symbol:   method getTitle()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/posts/PostsMainResponseDto.java:29: error: cannot find symbol
+        content = entity.getContent();
+                        ^
+  symbol:   method getContent()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/posts/PostsMainResponseDto.java:30: error: cannot find symbol
+        author = entity.getAuthor();
+                       ^
+  symbol:   method getAuthor()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/posts/PostsMainResponseDto.java:31: error: cannot find symbol
+        lft = entity.getLft();
+                    ^
+  symbol:   method getLft()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/posts/PostsMainResponseDto.java:32: error: cannot find symbol
+        rgt = entity.getRgt();
+                    ^
+  symbol:   method getRgt()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/posts/PostsMainResponseDto.java:33: error: cannot find symbol
+        rootId = entity.getRootId();
+                       ^
+  symbol:   method getRootId()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/posts/PostsMainResponseDto.java:34: error: cannot find symbol
+        modifiedDate = toStringDateTime(entity.getModifiedDate());
+                                              ^
+  symbol:   method getModifiedDate()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/posts/PostsMainResponseDto.java:35: error: cannot find symbol
+        depth = entity.getDepth();
+                      ^
+  symbol:   method getDepth()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/util/MultipartFileToFileDtoConverter.java:31: error: cannot find symbol
+    	dto.setOrgFileName(sourceFileName);
+    	   ^
+  symbol:   method setOrgFileName(String)
+  location: variable dto of type FilesSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/util/MultipartFileToFileDtoConverter.java:32: error: cannot find symbol
+    	dto.setRealFileName(destinationFileName);
+    	   ^
+  symbol:   method setRealFileName(String)
+  location: variable dto of type FilesSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/util/MultipartFileToFileDtoConverter.java:33: error: cannot find symbol
+    	dto.setExt(sourceFileNameExtension);
+    	   ^
+  symbol:   method setExt(String)
+  location: variable dto of type FilesSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/util/MultipartFileToFileDtoConverter.java:34: error: cannot find symbol
+    	dto.setFileSize(sourceFile.getSize());
+    	   ^
+  symbol:   method setFileSize(long)
+  location: variable dto of type FilesSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/util/MultipartFileToFileDtoConverter.java:35: error: cannot find symbol
+    	dto.setFile(destinationFile);
+    	   ^
+  symbol:   method setFile(File)
+  location: variable dto of type FilesSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/util/MultipartFileToFileDtoConverter.java:36: error: cannot find symbol
+    	dto.setMultiPartfile(sourceFile);
+    	   ^
+  symbol:   method setMultiPartfile(MultipartFile)
+  location: variable dto of type FilesSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/files/FilesSaveRequestDto.java:31: error: cannot find symbol
+		return Files.builder()
+		            ^
+  symbol:   method builder()
+  location: class Files
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/web/WebRestController.java:49: error: cannot find symbol
+    	(sourceFile.getMultiPartfile()).transferTo(sourceFile.getFile());
+    	           ^
+  symbol:   method getMultiPartfile()
+  location: variable sourceFile of type FilesSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/web/WebRestController.java:49: error: cannot find symbol
+    	(sourceFile.getMultiPartfile()).transferTo(sourceFile.getFile());
+    	                                                     ^
+  symbol:   method getFile()
+  location: variable sourceFile of type FilesSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:28: error: cannot find symbol
+		if(dto.getUpperId() == null) {
+		      ^
+  symbol:   method getUpperId()
+  location: variable dto of type PostsSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:31: error: cannot find symbol
+			dto.setLft(result.getLft());
+			                 ^
+  symbol:   method getLft()
+  location: variable result of type PostsSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:32: error: cannot find symbol
+			dto.setRgt(result.getRgt());
+			                 ^
+  symbol:   method getRgt()
+  location: variable result of type PostsSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:33: error: cannot find symbol
+			savedId = postsRepository.save(dto.toEntity()).getId();
+			                                              ^
+  symbol:   method getId()
+  location: class Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:36: error: cannot find symbol
+			PostsMainResponseDto parent = postsRepository.findPostById(dto.getUpperId());
+			                                                              ^
+  symbol:   method getUpperId()
+  location: variable dto of type PostsSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:38: error: cannot find symbol
+			if(parent.getRootId() == null) {
+			         ^
+  symbol:   method getRootId()
+  location: variable parent of type PostsMainResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:39: error: cannot find symbol
+				rootId = parent.getId();
+				               ^
+  symbol:   method getId()
+  location: variable parent of type PostsMainResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:41: error: cannot find symbol
+				rootId = parent.getRootId();
+				               ^
+  symbol:   method getRootId()
+  location: variable parent of type PostsMainResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:45: error: cannot find symbol
+			postsRepository.updateLeft(rootId, parent.getLft());
+			                                         ^
+  symbol:   method getLft()
+  location: variable parent of type PostsMainResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:46: error: cannot find symbol
+			postsRepository.updateRight(rootId, parent.getLft());
+			                                          ^
+  symbol:   method getLft()
+  location: variable parent of type PostsMainResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:47: error: cannot find symbol
+			dto.setRootId(rootId);
+			   ^
+  symbol:   method setRootId(Long)
+  location: variable dto of type PostsSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:48: error: cannot find symbol
+			dto.setLft(parent.getLft() + 1);
+			                 ^
+  symbol:   method getLft()
+  location: variable parent of type PostsMainResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:49: error: cannot find symbol
+			dto.setRgt(parent.getLft() + 2);
+			                 ^
+  symbol:   method getLft()
+  location: variable parent of type PostsMainResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:52: error: cannot find symbol
+			savedId = savedData.getId();
+			                   ^
+  symbol:   method getId()
+  location: variable savedData of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:54: error: cannot find symbol
+			List<PostsMainResponseDto> parentPostList = postsRepository.findAllParentPosts(savedId, savedData.getLft())
+			                                                                                                 ^
+  symbol:   method getLft()
+  location: variable savedData of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:60: error: cannot find symbol
+				alertDto.setPostId(savedId);
+				        ^
+  symbol:   method setPostId(Long)
+  location: variable alertDto of type AlertsSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:61: error: cannot find symbol
+				alertDto.setAlertAuthor(parentPost.getAuthor());
+				                                  ^
+  symbol:   method getAuthor()
+  location: variable parentPost of type PostsMainResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:62: error: cannot find symbol
+				alertDto.setIsRead("N");
+				        ^
+  symbol:   method setIsRead(String)
+  location: variable alertDto of type AlertsSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:84: error: cannot find symbol
+			List<PostsMainResponseDto> rootList = postList.stream().filter(post->post.getRootId() == null).sorted(Comparator.comparing(PostsMainResponseDto::getId).reversed()).collect(Collectors.toList());
+			                                                                         ^
+  symbol:   method getRootId()
+  location: variable post of type PostsMainResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:84: error: invalid method reference
+			List<PostsMainResponseDto> rootList = postList.stream().filter(post->post.getRootId() == null).sorted(Comparator.comparing(PostsMainResponseDto::getId).reversed()).collect(Collectors.toList());
+			                                                                                                                           ^
+  cannot find symbol
+    symbol:   method getId()
+    location: class PostsMainResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:87: error: cannot find symbol
+				left = rootList.get(0).getLft() + 100L;
+				                      ^
+  symbol:   method getLft()
+  location: class PostsMainResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:88: error: cannot find symbol
+				right = rootList.get(0).getLft() + 101L;
+				                       ^
+  symbol:   method getLft()
+  location: class PostsMainResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:92: error: cannot find symbol
+		result.setLft(left);
+		      ^
+  symbol:   method setLft(Long)
+  location: variable result of type PostsSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/service/PostsService.java:93: error: cannot find symbol
+		result.setRgt(right);
+		      ^
+  symbol:   method setRgt(Long)
+  location: variable result of type PostsSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/posts/PostsSaveRequestDto.java:22: error: cannot find symbol
+		return Posts.builder()
+		            ^
+  symbol:   method builder()
+  location: class Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/scraps/ScrapsSaveRequestDto.java:17: error: cannot find symbol
+		return Scraps.builder()
+		             ^
+  symbol:   method builder()
+  location: class Scraps
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/scraps/ScrapsMainResponseDto.java:15: error: cannot find symbol
+        id = entity.getId();
+                   ^
+  symbol:   method getId()
+  location: variable entity of type Scraps
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/scraps/ScrapsMainResponseDto.java:16: error: cannot find symbol
+        postId = entity.getPostId();
+                       ^
+  symbol:   method getPostId()
+  location: variable entity of type Scraps
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/scraps/ScrapsMainResponseDto.java:17: error: cannot find symbol
+        scrapAuthor = entity.getScrapAuthor();
+                            ^
+  symbol:   method getScrapAuthor()
+  location: variable entity of type Scraps
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/alerts/AlertsMainResponseDto.java:15: error: cannot find symbol
+        id = entity.getId();
+                   ^
+  symbol:   method getId()
+  location: variable entity of type Alerts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/alerts/AlertsMainResponseDto.java:16: error: cannot find symbol
+        isRead = entity.getIsRead();
+                       ^
+  symbol:   method getIsRead()
+  location: variable entity of type Alerts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/alerts/AlertsMainResponseDto.java:17: error: cannot find symbol
+        postId = entity.getPostId();
+                       ^
+  symbol:   method getPostId()
+  location: variable entity of type Alerts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/alerts/AlertsMainResponseDto.java:18: error: cannot find symbol
+        alertAuthor = entity.getAlertAuthor();
+                            ^
+  symbol:   method getAlertAuthor()
+  location: variable entity of type Alerts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/SjgApplication.java:39: error: cannot find symbol
+        	oauthClientsRepository.save(OauthClients.builder()
+        	                                        ^
+  symbol:   method builder()
+  location: class OauthClients
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/SjgApplication.java:52: error: cannot find symbol
+        	usersRepository.save(Users.builder()
+        	                          ^
+  symbol:   method builder()
+  location: class Users
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/files/UploadAttachFileResponseDto.java:21: error: cannot find symbol
+		id = dto.getId();
+		        ^
+  symbol:   method getId()
+  location: variable dto of type Files
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/files/UploadAttachFileResponseDto.java:22: error: cannot find symbol
+		orgFileName = dto.getOrgFileName();
+		                 ^
+  symbol:   method getOrgFileName()
+  location: variable dto of type Files
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/files/UploadAttachFileResponseDto.java:23: error: cannot find symbol
+		realFileName = dto.getRealFileName();
+		                  ^
+  symbol:   method getRealFileName()
+  location: variable dto of type Files
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/files/UploadAttachFileResponseDto.java:24: error: cannot find symbol
+		ext = dto.getExt();
+		         ^
+  symbol:   method getExt()
+  location: variable dto of type Files
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/files/UploadAttachFileResponseDto.java:25: error: cannot find symbol
+		fileSize = dto.getFileSize();
+		              ^
+  symbol:   method getFileSize()
+  location: variable dto of type Files
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/mandumeans/SJG/src/main/java/com/sjg/webservice/dto/alerts/AlertsSaveRequestDto.java:18: error: cannot find symbol
+		return Alerts.builder()
+		             ^
+  symbol:   method builder()
+  location: class Alerts
+66 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

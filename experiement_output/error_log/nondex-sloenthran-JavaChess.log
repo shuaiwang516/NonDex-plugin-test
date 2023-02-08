@@ -1,0 +1,448 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:3: error: package javafx.concurrent does not exist
+import javafx.concurrent.Task;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:4: error: package javafx.concurrent does not exist
+import javafx.concurrent.WorkerStateEvent;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:5: error: package javafx.event does not exist
+import javafx.event.EventHandler;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:6: error: package javafx.scene.input does not exist
+import javafx.scene.input.KeyCode;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:7: error: package javafx.scene.input does not exist
+import javafx.scene.input.KeyEvent;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:8: error: package javafx.scene.input does not exist
+import javafx.scene.input.MouseEvent;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/Statistics.java:3: error: package javafx.scene.control does not exist
+import javafx.scene.control.Alert;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/Statistics.java:4: error: package javafx.scene.control does not exist
+import javafx.scene.control.ButtonType;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:3: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:4: error: package javafx.scene.image does not exist
+import javafx.scene.image.ImageView;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnPromote.java:3: error: package javafx.scene.control does not exist
+import javafx.scene.control.ChoiceDialog;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:108: error: cannot find symbol
+    public void readMouseEvent(MouseEvent event) {
+                               ^
+  symbol:   class MouseEvent
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:184: error: cannot find symbol
+    public void readKeyboard(KeyEvent event) {
+                             ^
+  symbol:   class KeyEvent
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:29: error: cannot find symbol
+    public ImageView getImage() {
+           ^
+  symbol:   class ImageView
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:34: error: cannot find symbol
+    public ImageView getLightImage() {
+           ^
+  symbol:   class ImageView
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:39: error: cannot find symbol
+    public ImageView getCheckedImage() {
+           ^
+  symbol:   class ImageView
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/Chess.java:3: error: package javafx.application does not exist
+import javafx.application.Application;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/Chess.java:4: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/Chess.java:5: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.GridPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/Chess.java:6: error: package javafx.scene.paint does not exist
+import javafx.scene.paint.Color;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/Chess.java:7: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/Chess.java:16: error: cannot find symbol
+public class Chess extends Application {
+                           ^
+  symbol: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:3: error: package javafx.geometry does not exist
+import javafx.geometry.HPos;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:4: error: package javafx.geometry does not exist
+import javafx.geometry.Insets;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:5: error: package javafx.geometry does not exist
+import javafx.geometry.VPos;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:6: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:7: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextArea;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:8: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:9: error: package javafx.scene.image does not exist
+import javafx.scene.image.ImageView;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/Chess.java:25: error: cannot find symbol
+    public void start(Stage primaryStage) {
+                      ^
+  symbol:   class Stage
+  location: class Chess
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:22: error: cannot find symbol
+    private static BorderPane borderPane = new BorderPane();
+                   ^
+  symbol:   class BorderPane
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:23: error: cannot find symbol
+    private static GridPane gridPane = new GridPane();
+                   ^
+  symbol:   class GridPane
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:24: error: cannot find symbol
+    private VBox vBox = new VBox();
+            ^
+  symbol:   class VBox
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:25: error: cannot find symbol
+    private static TextArea textArea = new TextArea();
+                   ^
+  symbol:   class TextArea
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:26: error: cannot find symbol
+    private HBox hBox = new HBox();
+            ^
+  symbol:   class HBox
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:27: error: cannot find symbol
+    private static Image lightMove = new Image(Resources.getPath("light.png"));
+                   ^
+  symbol:   class Image
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:40: error: cannot find symbol
+    public BorderPane getBorderPane() {
+           ^
+  symbol:   class BorderPane
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:44: error: cannot find symbol
+    public GridPane getGridPane() {
+           ^
+  symbol:   class GridPane
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:10: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/Difficulty.java:3: error: package javafx.scene.control does not exist
+import javafx.scene.control.Alert;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/Difficulty.java:4: error: package javafx.scene.control does not exist
+import javafx.scene.control.ButtonType;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/AuthorInfo.java:3: error: package javafx.scene.control does not exist
+import javafx.scene.control.Alert;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/AuthorInfo.java:4: error: package javafx.scene.control does not exist
+import javafx.scene.control.ButtonType;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/EndGame.java:3: error: package javafx.scene.control does not exist
+import javafx.scene.control.Alert;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/EndGame.java:4: error: package javafx.scene.control does not exist
+import javafx.scene.control.ButtonType;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:185: error: cannot find symbol
+        if(event.getCode().equals(KeyCode.R) || event.getCode().equals(KeyCode.N)) {
+                                  ^
+  symbol:   variable KeyCode
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:185: error: cannot find symbol
+        if(event.getCode().equals(KeyCode.R) || event.getCode().equals(KeyCode.N)) {
+                                                                       ^
+  symbol:   variable KeyCode
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:195: error: cannot find symbol
+        Task<Void> computerSleep = new Task<Void>() {
+        ^
+  symbol:   class Task
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:195: error: cannot find symbol
+        Task<Void> computerSleep = new Task<Void>() {
+                                       ^
+  symbol:   class Task
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:196: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:208: error: cannot find symbol
+        computerSleep.setOnSucceeded(new EventHandler<WorkerStateEvent>() {
+                                         ^
+  symbol:   class EventHandler
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:208: error: cannot find symbol
+        computerSleep.setOnSucceeded(new EventHandler<WorkerStateEvent>() {
+                                                      ^
+  symbol:   class WorkerStateEvent
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:210: error: cannot find symbol
+            public void handle(WorkerStateEvent event) {
+                               ^
+  symbol: class WorkerStateEvent
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/board/Board.java:209: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/Statistics.java:29: error: cannot find symbol
+        Alert alert = new Alert(Alert.AlertType.NONE);
+        ^
+  symbol:   class Alert
+  location: class Statistics
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/Statistics.java:29: error: cannot find symbol
+        Alert alert = new Alert(Alert.AlertType.NONE);
+                          ^
+  symbol:   class Alert
+  location: class Statistics
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/Statistics.java:29: error: package Alert does not exist
+        Alert alert = new Alert(Alert.AlertType.NONE);
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/Statistics.java:35: error: cannot find symbol
+        ButtonType reset = new ButtonType("Reset");
+        ^
+  symbol:   class ButtonType
+  location: class Statistics
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/Statistics.java:35: error: cannot find symbol
+        ButtonType reset = new ButtonType("Reset");
+                               ^
+  symbol:   class ButtonType
+  location: class Statistics
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/Statistics.java:36: error: cannot find symbol
+        ButtonType exit = new ButtonType("OK");
+        ^
+  symbol:   class ButtonType
+  location: class Statistics
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/Statistics.java:36: error: cannot find symbol
+        ButtonType exit = new ButtonType("OK");
+                              ^
+  symbol:   class ButtonType
+  location: class Statistics
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/menu/Statistics.java:40: error: cannot find symbol
+        Optional<ButtonType> result = alert.showAndWait();
+                 ^
+  symbol:   class ButtonType
+  location: class Statistics
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:30: error: cannot find symbol
+        Image image = new Image(Resources.getPath("pawns/" + color + "_" + pawn + ".png"));
+        ^
+  symbol:   class Image
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:30: error: cannot find symbol
+        Image image = new Image(Resources.getPath("pawns/" + color + "_" + pawn + ".png"));
+                          ^
+  symbol:   class Image
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:31: error: cannot find symbol
+        return new ImageView(image);
+                   ^
+  symbol:   class ImageView
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:35: error: cannot find symbol
+        Image image = new Image(Resources.getPath("pawns/light_" + color + "_" + pawn + ".png"));
+        ^
+  symbol:   class Image
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:35: error: cannot find symbol
+        Image image = new Image(Resources.getPath("pawns/light_" + color + "_" + pawn + ".png"));
+                          ^
+  symbol:   class Image
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:36: error: cannot find symbol
+        return new ImageView(image);
+                   ^
+  symbol:   class ImageView
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:40: error: cannot find symbol
+        Image image = new Image(Resources.getPath("pawns/check_" + color + "_KING.png"));
+        ^
+  symbol:   class Image
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:40: error: cannot find symbol
+        Image image = new Image(Resources.getPath("pawns/check_" + color + "_KING.png"));
+                          ^
+  symbol:   class Image
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnClass.java:41: error: cannot find symbol
+        return new ImageView(image);
+                   ^
+  symbol:   class ImageView
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnPromote.java:22: error: cannot find symbol
+        ChoiceDialog dialog = new ChoiceDialog(dialogData.get(0), dialogData);
+        ^
+  symbol:   class ChoiceDialog
+  location: class PawnPromote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/PawnPromote.java:22: error: cannot find symbol
+        ChoiceDialog dialog = new ChoiceDialog(dialogData.get(0), dialogData);
+                                  ^
+  symbol:   class ChoiceDialog
+  location: class PawnPromote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/Chess.java:21: error: cannot find symbol
+        launch(args);
+        ^
+  symbol:   method launch(String[])
+  location: class Chess
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/Chess.java:24: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/Chess.java:26: error: cannot find symbol
+        Scene scene = new Scene(design.getBorderPane(), 900, 790, Color.BLACK);
+        ^
+  symbol:   class Scene
+  location: class Chess
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/Chess.java:26: error: cannot find symbol
+        Scene scene = new Scene(design.getBorderPane(), 900, 790, Color.BLACK);
+                          ^
+  symbol:   class Scene
+  location: class Chess
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/Chess.java:26: error: cannot find symbol
+        Scene scene = new Scene(design.getBorderPane(), 900, 790, Color.BLACK);
+                                                                  ^
+  symbol:   variable Color
+  location: class Chess
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:22: error: cannot find symbol
+    private static BorderPane borderPane = new BorderPane();
+                                               ^
+  symbol:   class BorderPane
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:23: error: cannot find symbol
+    private static GridPane gridPane = new GridPane();
+                                           ^
+  symbol:   class GridPane
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:24: error: cannot find symbol
+    private VBox vBox = new VBox();
+                            ^
+  symbol:   class VBox
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:25: error: cannot find symbol
+    private static TextArea textArea = new TextArea();
+                                           ^
+  symbol:   class TextArea
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:26: error: cannot find symbol
+    private HBox hBox = new HBox();
+                            ^
+  symbol:   class HBox
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:27: error: cannot find symbol
+    private static Image lightMove = new Image(Resources.getPath("light.png"));
+                                         ^
+  symbol:   class Image
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:49: error: cannot find symbol
+        Image background = new Image(Resources.getPath("board.png"));
+        ^
+  symbol:   class Image
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:49: error: cannot find symbol
+        Image background = new Image(Resources.getPath("board.png"));
+                               ^
+  symbol:   class Image
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:50: error: cannot find symbol
+        BackgroundSize backgroundSize = new BackgroundSize(750, 750, false, false, true, false);
+        ^
+  symbol:   class BackgroundSize
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:50: error: cannot find symbol
+        BackgroundSize backgroundSize = new BackgroundSize(750, 750, false, false, true, false);
+                                            ^
+  symbol:   class BackgroundSize
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:51: error: cannot find symbol
+        BackgroundImage backgroundImage = new BackgroundImage(background, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, backgroundSize);
+        ^
+  symbol:   class BackgroundImage
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:51: error: cannot find symbol
+        BackgroundImage backgroundImage = new BackgroundImage(background, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, backgroundSize);
+                                              ^
+  symbol:   class BackgroundImage
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:51: error: cannot find symbol
+        BackgroundImage backgroundImage = new BackgroundImage(background, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, backgroundSize);
+                                                                          ^
+  symbol:   variable BackgroundRepeat
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:51: error: cannot find symbol
+        BackgroundImage backgroundImage = new BackgroundImage(background, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, backgroundSize);
+                                                                                                      ^
+  symbol:   variable BackgroundRepeat
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:51: error: cannot find symbol
+        BackgroundImage backgroundImage = new BackgroundImage(background, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, backgroundSize);
+                                                                                                                                  ^
+  symbol:   variable BackgroundPosition
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:52: error: cannot find symbol
+        gridPane.setBackground(new Background(backgroundImage));
+                                   ^
+  symbol:   class Background
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:54: error: cannot find symbol
+        hBox.setPadding(new Insets(15, 12, 15, 12));
+                            ^
+  symbol:   class Insets
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:64: error: cannot find symbol
+            ColumnConstraints column = new ColumnConstraints(84);
+            ^
+  symbol:   class ColumnConstraints
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:64: error: cannot find symbol
+            ColumnConstraints column = new ColumnConstraints(84);
+                                           ^
+  symbol:   class ColumnConstraints
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:65: error: cannot find symbol
+            column.setHgrow(Priority.ALWAYS);
+                            ^
+  symbol:   variable Priority
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:66: error: cannot find symbol
+            column.setHalignment(HPos.CENTER);
+                                 ^
+  symbol:   variable HPos
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/application/Design.java:69: error: cannot find symbol
+            RowConstraints row = new RowConstraints(84);
+            ^
+  symbol:   class RowConstraints
+  location: class Design
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1399/wd/NonDex-plugin-test/github.com/sloenthran/JavaChess/src/main/java/pl/nogacz/chess/pawns/moves/PawnMoves.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

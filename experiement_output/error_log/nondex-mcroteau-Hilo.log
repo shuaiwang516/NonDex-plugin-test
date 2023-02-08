@@ -1,0 +1,306 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/AccountController.groovy: 32: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 32, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/AccountController.groovy: 6: unable to resolve class org.apache.shiro.crypto.hash.Sha256Hash
+ @ line 6, column 1.
+   import org.apache.shiro.crypto.hash.Sha256Hash
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/AccountController.groovy: 7: unable to resolve class org.apache.shiro.authc.UsernamePasswordToken
+ @ line 7, column 1.
+   import org.apache.shiro.authc.UsernamePasswordToken
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/AdminController.groovy: 22: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 22, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/AdminController.groovy: 167: unable to resolve class JSON 
+ @ line 167, column 20.
+   			render response as JSON
+                      ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/AuthController.groovy: 4: unable to resolve class org.apache.shiro.authc.AuthenticationException
+ @ line 4, column 1.
+   import org.apache.shiro.authc.AuthenticationException
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/AuthController.groovy: 9: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 9, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/AuthController.groovy: 7: unable to resolve class org.apache.shiro.web.util.WebUtils
+ @ line 7, column 1.
+   import org.apache.shiro.web.util.WebUtils
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/AuthController.groovy: 3: unable to resolve class org.apache.shiro.SecurityUtils
+ @ line 3, column 1.
+   import org.apache.shiro.SecurityUtils
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/AuthController.groovy: 5: unable to resolve class org.apache.shiro.authc.UsernamePasswordToken
+ @ line 5, column 1.
+   import org.apache.shiro.authc.UsernamePasswordToken
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/AuthController.groovy: 6: unable to resolve class org.apache.shiro.web.util.SavedRequest
+ @ line 6, column 1.
+   import org.apache.shiro.web.util.SavedRequest
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/BlogController.groovy: 3: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 3, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/CatalogController.groovy: 14: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 14, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/ConfigurationController.groovy: 26: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 26, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/DataController.groovy: 3: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 3, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/DataController.groovy: 36: unable to resolve class JSON 
+ @ line 36, column 17.
+   		render states as JSON
+                   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/DataController.groovy: 96: unable to resolve class JSON 
+ @ line 96, column 15.
+   		render data as JSON
+                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/DevelopmentController.groovy: 12: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 12, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/DevelopmentController.groovy: 48: unable to resolve class JSON 
+ @ line 48, column 20.
+   			render products as JSON	
+                      ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/ExportController.groovy: 4: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 4, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/ExportController.groovy: 36: unable to resolve class grails.converters.JSON
+ @ line 36, column 1.
+   import grails.converters.JSON
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/ExportController.groovy: 37: unable to resolve class groovy.json.JsonOutput
+ @ line 37, column 1.
+   import groovy.json.JsonOutput
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/HealthController.groovy: 5: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 5, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/HealthController.groovy: 13: unable to resolve class JSON 
+ @ line 13, column 17.
+   		render health as JSON
+                   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/ImportController.groovy: 4: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 4, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/ImportController.groovy: 43: unable to resolve class grails.converters.JSON
+ @ line 43, column 1.
+   import grails.converters.JSON
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/ImportController.groovy: 41: unable to resolve class groovy.json.JsonSlurper
+ @ line 41, column 1.
+   import groovy.json.JsonSlurper
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/LayoutController.groovy: 10: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 10, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/NewsletterController.groovy: 6: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 6, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/PageController.groovy: 11: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 11, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/ProductController.groovy: 24: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 24, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/ProductOptionController.groovy: 15: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 15, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/ProductSpecificationController.groovy: 6: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 6, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/ShippingController.groovy: 12: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 12, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/ShoppingCartController.groovy: 34: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 34, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/SpecificationController.groovy: 11: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 11, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/StoreController.groovy: 3: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 3, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/controllers/hilo/TransactionController.groovy: 25: unable to resolve class grails.plugin.springsecurity.annotation.Secured
+ @ line 25, column 1.
+   import grails.plugin.springsecurity.annotation.Secured
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/domain/io/hilo/AccountRole.groovy: 6: unable to resolve class org.apache.commons.lang.builder.HashCodeBuilder
+ @ line 6, column 1.
+   import org.apache.commons.lang.builder.HashCodeBuilder
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/init/hilo/BootStrap.groovy: 4: unable to resolve class org.apache.shiro.crypto.hash.Sha256Hash
+ @ line 4, column 1.
+   import org.apache.shiro.crypto.hash.Sha256Hash
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/init/hilo/BootStrap.groovy: 3: unable to resolve class org.apache.shiro.crypto.hash.Sha512Hash
+ @ line 3, column 1.
+   import org.apache.shiro.crypto.hash.Sha512Hash
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/init/hilo/BootStrap.groovy: 5: unable to resolve class org.apache.shiro.crypto.hash.Sha1Hash
+ @ line 5, column 1.
+   import org.apache.shiro.crypto.hash.Sha1Hash
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/services/io/pelican/ApplicationService.groovy: 3: unable to resolve class org.apache.shiro.SecurityUtils
+ @ line 3, column 1.
+   import org.apache.shiro.SecurityUtils
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/services/io/pelican/ApplicationService.groovy: 8: unable to resolve class grails.web.servlet.mvc.GrailsParameterMap
+ @ line 8, column 1.
+   import grails.web.servlet.mvc.GrailsParameterMap 
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/services/io/pelican/ExportDataService.groovy: 35: unable to resolve class grails.converters.JSON
+ @ line 35, column 1.
+   import grails.converters.JSON
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/services/io/pelican/ExportDataService.groovy: 36: unable to resolve class groovy.json.JsonOutput
+ @ line 36, column 1.
+   import groovy.json.JsonOutput
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/services/io/pelican/SimpleCaptchaService.groovy: 12: unable to resolve class org.springframework.web.servlet.LocaleResolver
+ @ line 12, column 1.
+   import org.springframework.web.servlet.LocaleResolver
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/services/io/pelican/SimpleCaptchaService.groovy: 3: unable to resolve class grails.web.api.ServletAttributes
+ @ line 3, column 1.
+   import grails.web.api.ServletAttributes
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/grails-app/services/io/pelican/SimpleCaptchaService.groovy: 10: unable to resolve class org.apache.commons.lang.RandomStringUtils
+ @ line 10, column 1.
+   import org.apache.commons.lang.RandomStringUtils
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/src/main/groovy/io/hilo/BaseController.groovy: 27: unable to resolve class org.apache.shiro.SecurityUtils
+ @ line 27, column 1.
+   import org.apache.shiro.SecurityUtils
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/src/main/groovy/io/hilo/DevelopmentData.groovy: 3: unable to resolve class org.apache.shiro.crypto.hash.Sha256Hash
+ @ line 3, column 1.
+   import org.apache.shiro.crypto.hash.Sha256Hash
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/src/main/groovy/io/hilo/DevelopmentDataSimple.groovy: 3: unable to resolve class org.apache.shiro.crypto.hash.Sha256Hash
+ @ line 3, column 1.
+   import org.apache.shiro.crypto.hash.Sha256Hash
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/src/main/groovy/io/hilo/exception/BaseException.groovy: 9: unable to resolve class org.grails.web.util.WebUtils
+ @ line 9, column 1.
+   import org.grails.web.util.WebUtils
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/src/main/groovy/io/hilo/exception/BaseException.groovy: 4: unable to resolve class org.springframework.web.servlet.ModelAndView
+ @ line 4, column 1.
+   import org.springframework.web.servlet.ModelAndView
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/src/main/groovy/io/hilo/exception/BaseException.groovy: 3: unable to resolve class org.grails.web.errors.GrailsExceptionResolver
+ @ line 3, column 1.
+   import org.grails.web.errors.GrailsExceptionResolver
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/src/main/groovy/io/hilo/exception/BaseException.groovy: 71: unable to resolve class GrailsMVCException 
+ @ line 71, column 70.
+   tionException)||(e instanceof GrailsMVCE
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/src/main/groovy/io/hilo/handlers/GreenfieldAuthenticationSuccessHandler.groovy: 4: unable to resolve class org.springframework.security.core.Authentication
+ @ line 4, column 1.
+   import org.springframework.security.core.Authentication
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/mcroteau/Hilo/src/main/groovy/io/hilo/handlers/GreenfieldAuthenticationSuccessHandler.groovy: 3: unable to resolve class org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler
+ @ line 3, column 1.
+   import org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler
+   ^
+
+58 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

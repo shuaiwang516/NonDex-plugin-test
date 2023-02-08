@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1177/wd/NonDex-plugin-test/github.com/Renien/ETL-Starter-Kit/gradle/artifacts.gradle' line: 60
+
+* What went wrong:
+A problem occurred evaluating script.
+> Cannot cast object '[configuration ':providedCompile']' with class 'java.util.ArrayList' to class 'org.gradle.api.file.FileCollection' due to: groovy.lang.GroovyRuntimeException: Could not find matching constructor for: org.gradle.api.file.FileCollection(org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated)
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 28s

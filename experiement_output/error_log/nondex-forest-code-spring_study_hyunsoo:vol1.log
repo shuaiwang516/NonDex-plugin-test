@@ -1,0 +1,239 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/OxmSqlService.java:5: error: package javax.annotation does not exist
+import javax.annotation.PostConstruct;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/BaseSqlService.java:3: error: package javax.annotation does not exist
+import javax.annotation.PostConstruct;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/ObjectFactory.java:11: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlRegistry;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/ObjectFactory.java:28: error: cannot find symbol
+@XmlRegistry
+ ^
+  symbol: class XmlRegistry
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/Sqlmap.java:13: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlAccessType;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/Sqlmap.java:14: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlAccessorType;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/Sqlmap.java:15: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlElement;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/Sqlmap.java:16: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlRootElement;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/Sqlmap.java:17: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlType;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/Sqlmap.java:39: error: cannot find symbol
+@XmlAccessorType(XmlAccessType.FIELD)
+ ^
+  symbol: class XmlAccessorType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/Sqlmap.java:40: error: cannot find symbol
+@XmlType(name = "", propOrder = {
+ ^
+  symbol: class XmlType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/Sqlmap.java:43: error: cannot find symbol
+@XmlRootElement(name = "sqlmap")
+ ^
+  symbol: class XmlRootElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/SqlType.java:11: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlAccessType;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/SqlType.java:12: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlAccessorType;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/SqlType.java:13: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlAttribute;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/SqlType.java:14: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlType;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/SqlType.java:15: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlValue;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/SqlType.java:35: error: cannot find symbol
+@XmlAccessorType(XmlAccessType.FIELD)
+ ^
+  symbol: class XmlAccessorType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/SqlType.java:36: error: cannot find symbol
+@XmlType(name = "sqlType", propOrder = {
+ ^
+  symbol: class XmlType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/JaxbXmlSqlReader.java:5: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBContext;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/JaxbXmlSqlReader.java:6: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBException;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/JaxbXmlSqlReader.java:7: error: package javax.xml.bind does not exist
+import javax.xml.bind.Unmarshaller;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/XmlSqlService.java:7: error: package javax.annotation does not exist
+import javax.annotation.PostConstruct;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/XmlSqlService.java:8: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBContext;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/XmlSqlService.java:9: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBException;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/XmlSqlService.java:10: error: package javax.xml.bind does not exist
+import javax.xml.bind.Unmarshaller;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:3: error: package org.hamcrest does not exist
+import static org.hamcrest.CoreMatchers.is;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:3: error: static import only from classes and interfaces
+import static org.hamcrest.CoreMatchers.is;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:4: error: package org.junit does not exist
+import static org.junit.Assert.assertThat;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:4: error: static import only from classes and interfaces
+import static org.junit.Assert.assertThat;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:8: error: package org.junit does not exist
+import org.junit.Before;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:9: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/OxmSqlService.java:41: error: cannot find symbol
+	@PostConstruct
+	 ^
+  symbol:   class PostConstruct
+  location: class OxmSqlService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/BaseSqlService.java:24: error: cannot find symbol
+	@PostConstruct
+	 ^
+  symbol:   class PostConstruct
+  location: class BaseSqlService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/Sqlmap.java:39: error: cannot find symbol
+@XmlAccessorType(XmlAccessType.FIELD)
+                 ^
+  symbol: variable XmlAccessType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/SqlType.java:35: error: cannot find symbol
+@XmlAccessorType(XmlAccessType.FIELD)
+                 ^
+  symbol: variable XmlAccessType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/SqlType.java:41: error: cannot find symbol
+    @XmlValue
+     ^
+  symbol:   class XmlValue
+  location: class SqlType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/SqlType.java:43: error: cannot find symbol
+    @XmlAttribute(name = "key", required = true)
+     ^
+  symbol:   class XmlAttribute
+  location: class SqlType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/Sqlmap.java:46: error: cannot find symbol
+    @XmlElement(required = true)
+     ^
+  symbol:   class XmlElement
+  location: class Sqlmap
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/XmlSqlService.java:42: error: cannot find symbol
+	@PostConstruct
+	 ^
+  symbol:   class PostConstruct
+  location: class XmlSqlService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:16: error: cannot find symbol
+	@Before
+	 ^
+  symbol:   class Before
+  location: class CalcSumTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:22: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class CalcSumTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:27: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class CalcSumTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:32: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class CalcSumTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/package-info.java:8: error: package javax.xml.bind.annotation does not exist
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.epril.com/sqlmap", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/jaxb/package-info.java:8: error: package javax.xml.bind.annotation does not exist
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.epril.com/sqlmap", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+                                                                                                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/JaxbXmlSqlReader.java:29: error: cannot find symbol
+			JAXBContext context = JAXBContext.newInstance(contextPath);
+			^
+  symbol:   class JAXBContext
+  location: class JaxbXmlSqlReader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/JaxbXmlSqlReader.java:29: error: cannot find symbol
+			JAXBContext context = JAXBContext.newInstance(contextPath);
+			                      ^
+  symbol:   variable JAXBContext
+  location: class JaxbXmlSqlReader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/JaxbXmlSqlReader.java:30: error: cannot find symbol
+			Unmarshaller unmarshaller = context.createUnmarshaller();
+			^
+  symbol:   class Unmarshaller
+  location: class JaxbXmlSqlReader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/JaxbXmlSqlReader.java:37: error: cannot find symbol
+		} catch (JAXBException e) {
+		         ^
+  symbol:   class JAXBException
+  location: class JaxbXmlSqlReader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/XmlSqlService.java:77: error: cannot find symbol
+			JAXBContext context = JAXBContext.newInstance(contextPath);
+			^
+  symbol:   class JAXBContext
+  location: class XmlSqlService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/XmlSqlService.java:77: error: cannot find symbol
+			JAXBContext context = JAXBContext.newInstance(contextPath);
+			                      ^
+  symbol:   variable JAXBContext
+  location: class XmlSqlService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/XmlSqlService.java:78: error: cannot find symbol
+			Unmarshaller unmarshaller = context.createUnmarshaller();
+			^
+  symbol:   class Unmarshaller
+  location: class XmlSqlService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/reader/XmlSqlService.java:85: error: cannot find symbol
+		} catch (JAXBException e) {
+		         ^
+  symbol:   class JAXBException
+  location: class XmlSqlService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:24: error: cannot find symbol
+		assertThat(calculator.calcSum(this.numFilepath), is(10));
+		                                                 ^
+  symbol:   method is(int)
+  location: class CalcSumTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:29: error: cannot find symbol
+		assertThat(calculator.calcMultiply(this.numFilepath), is(24));
+		                                                      ^
+  symbol:   method is(int)
+  location: class CalcSumTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/learningtest/template/CalcSumTest.java:34: error: cannot find symbol
+		assertThat(calculator.concatenate(this.numFilepath), is("1234"));
+		                                                     ^
+  symbol:   method is(String)
+  location: class CalcSumTest
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/register/EmbeddedDbSqlRegistry.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/vol1/src/main/java/springbook/user/sqlservice/register/ConcurrentHashMapSqlRegistry.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+57 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':vol1:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

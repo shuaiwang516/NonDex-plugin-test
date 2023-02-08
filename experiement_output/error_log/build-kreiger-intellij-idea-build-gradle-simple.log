@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'intellij-idea-build-gradle-simple'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find gradle.plugin.org.jetbrains:gradle-intellij-plugin:1.0-SNAPSHOT.
+     Searched in the following locations:
+       - https://plugins.gradle.org/m2/gradle/plugin/org/jetbrains/gradle-intellij-plugin/1.0-SNAPSHOT/maven-metadata.xml
+       - https://plugins.gradle.org/m2/gradle/plugin/org/jetbrains/gradle-intellij-plugin/1.0-SNAPSHOT/gradle-intellij-plugin-1.0-SNAPSHOT.pom
+       - https://plugins.gradle.org/m2/gradle/plugin/org/jetbrains/gradle-intellij-plugin/1.0-SNAPSHOT/gradle-intellij-plugin-1.0-SNAPSHOT.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

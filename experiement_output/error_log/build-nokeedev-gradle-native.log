@@ -1,0 +1,37 @@
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task382/wd/NonDex-plugin-test/github.com/nokeedev/gradle-native/gradle/plugins/nokeebuild-plugins/build-cache/src/main/java/nokeebuild/buildcache/BuildCachePlugin.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task382/wd/NonDex-plugin-test/github.com/nokeedev/gradle-native/gradle/plugins/nokeebuild-plugins/build-scan/src/main/java/nokeebuild/buildscan/BuildScanPlugin.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task382/wd/NonDex-plugin-test/github.com/nokeedev/gradle-native/gradle/plugins/nokeebuild-plugins/basics/src/main/java/nokeebuild/util/NokeeVersion.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task382/wd/NonDex-plugin-test/github.com/nokeedev/gradle-native/gradle/plugins/nokeebuild-plugins/testing/src/main/java/nokeebuild/DisableNonDevelopmentTestTaskOnIdeaSync.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task382/wd/NonDex-plugin-test/github.com/nokeedev/gradle-native/gradle/plugins/documentation-kit-plugins/javadoc/src/main/java/dev/gradleplugins/dockit/javadoc/JavadocBasePlugin.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task382/wd/NonDex-plugin-test/github.com/nokeedev/gradle-native/gradle/plugins/nokeebuild-plugins/uber-plugins/src/main/java/nokeebuild/ConfigureMinimumSupportedGradle.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task382/wd/NonDex-plugin-test/github.com/nokeedev/gradle-native/gradle/plugins/nokeebuild-plugins/uber-plugins/src/main/java/nokeebuild/UniversalModuleDevelopmentPlugin.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task382/wd/NonDex-plugin-test/github.com/nokeedev/gradle-native/gradle/plugins/sample-kit-plugins/templates/src/main/java/nokeedocs/templates/GenerateSources.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':coreModel'.
+> Could not determine the dependencies of null.
+   > Could not resolve all task dependencies for configuration ':coreModel:classpath'.
+      > Could not find net.nokeedev:jbake-gradle-plugin:.
+        Required by:
+            project :coreModel > project :nokeedocs-plugins
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 19s

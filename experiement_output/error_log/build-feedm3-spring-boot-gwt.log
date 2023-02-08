@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task840/wd/NonDex-plugin-test/github.com/feedm3/spring-boot-gwt/build.gradle' line: 63
+
+* What went wrong:
+A problem occurred evaluating root project 'spring-boot-gwt'.
+> Cannot add task 'wrapper' as a task with that name already exists.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

@@ -1,0 +1,38 @@
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':ihub-base:compileGroovy'.
+> Could not resolve all files for configuration ':ihub-base:compileClasspath'.
+   > Could not download hutool-all-5.8.9.jar (cn.hutool:hutool-all:5.8.9)
+      > Could not get resource 'https://maven.aliyun.com/repository/public/cn/hutool/hutool-all/5.8.9/hutool-all-5.8.9.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/cn/hutool/hutool-all/5.8.9/hutool-all-5.8.9.jar?Expires=1675214811&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=aM8v4kd%2FfMjqYEcNhGTGJI6L%2B%2F4%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':ihub-base-test:compileGroovy'.
+> Could not resolve all files for configuration ':ihub-base-test:compileClasspath'.
+   > Could not download hutool-all-5.8.9.jar (cn.hutool:hutool-all:5.8.9)
+      > Could not get resource 'https://maven.aliyun.com/repository/public/cn/hutool/hutool-all/5.8.9/hutool-all-5.8.9.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/cn/hutool/hutool-all/5.8.9/hutool-all-5.8.9.jar?Expires=1675214811&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=aM8v4kd%2FfMjqYEcNhGTGJI6L%2B%2F4%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 50s

@@ -1,0 +1,522 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchGetMetricStatisticsTask.java:40: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchGetMetricStatisticsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchGetMetricStatisticsTask.java:44: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchGetMetricStatisticsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchGetMetricStatisticsTask.java:48: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchGetMetricStatisticsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchGetMetricStatisticsTask.java:52: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchGetMetricStatisticsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchGetMetricStatisticsTask.java:56: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchGetMetricStatisticsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchGetMetricStatisticsTask.java:60: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchGetMetricStatisticsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchGetMetricStatisticsTask.java:64: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchGetMetricStatisticsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchGetMetricStatisticsTask.java:68: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchGetMetricStatisticsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchGetMetricStatisticsTask.java:72: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchGetMetricStatisticsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchGetMetricStatisticsTask.java:76: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchGetMetricStatisticsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchGetMetricStatisticsTask.java:79: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchGetMetricStatisticsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/common/BaseRegionAwarePluginExtension.java:30: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class BaseRegionAwarePluginExtension<T>
+  where T is a type-variable:
+    T extends AmazonWebServiceClient declared in class BaseRegionAwarePluginExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/common/BasePluginExtension.java:35: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class BasePluginExtension<T>
+  where T is a type-variable:
+    T extends AmazonWebServiceClient declared in class BasePluginExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/common/BasePluginExtension.java:39: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class BasePluginExtension<T>
+  where T is a type-variable:
+    T extends AmazonWebServiceClient declared in class BasePluginExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/common/BasePluginExtension.java:43: error: cannot find symbol
+	@Getter(lazy = true, onMethod = @__({
+	                                 ^
+  symbol:   class __
+  location: class BasePluginExtension<T>
+  where T is a type-variable:
+    T extends AmazonWebServiceClient declared in class BasePluginExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchListMetricsTask.java:36: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchListMetricsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchListMetricsTask.java:40: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchListMetricsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/cloudwatch/AwsCloudWatchListMetricsTask.java:44: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AwsCloudWatchListMetricsTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2WaitInstanceStatusTask.java:37: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2WaitInstanceStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2WaitInstanceStatusTask.java:41: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2WaitInstanceStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2WaitInstanceStatusTask.java:48: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2WaitInstanceStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2WaitInstanceStatusTask.java:55: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2WaitInstanceStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2WaitInstanceStatusTask.java:59: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2WaitInstanceStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2WaitInstanceStatusTask.java:63: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2WaitInstanceStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2WaitInstanceStatusTask.java:66: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2WaitInstanceStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2WaitInstanceStatusTask.java:69: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2WaitInstanceStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2AuthorizeSecurityGroupIngressTask.java:31: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2AuthorizeSecurityGroupIngressTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2AuthorizeSecurityGroupIngressTask.java:35: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2AuthorizeSecurityGroupIngressTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2AuthorizeSecurityGroupIngressTask.java:39: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2AuthorizeSecurityGroupIngressTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2CreateSecurityGroupTask.java:33: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2CreateSecurityGroupTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2CreateSecurityGroupTask.java:37: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2CreateSecurityGroupTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2CreateSecurityGroupTask.java:41: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2CreateSecurityGroupTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2StopInstanceTask.java:34: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2StopInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2StopInstanceTask.java:38: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2StopInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RevokeSecurityGroupEgressTask.java:31: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RevokeSecurityGroupEgressTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RevokeSecurityGroupEgressTask.java:35: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RevokeSecurityGroupEgressTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2AuthorizeSecurityGroupEgressTask.java:31: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2AuthorizeSecurityGroupEgressTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2AuthorizeSecurityGroupEgressTask.java:35: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2AuthorizeSecurityGroupEgressTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2StartInstanceTask.java:34: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2StartInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2StartInstanceTask.java:38: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2StartInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2TerminateInstanceTask.java:34: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2TerminateInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2TerminateInstanceTask.java:38: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2TerminateInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RunInstanceTask.java:39: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RunInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RunInstanceTask.java:43: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RunInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RunInstanceTask.java:47: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RunInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RunInstanceTask.java:51: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RunInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RunInstanceTask.java:55: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RunInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RunInstanceTask.java:59: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RunInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RunInstanceTask.java:63: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RunInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RunInstanceTask.java:67: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RunInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RunInstanceTask.java:71: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RunInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RevokeSecurityGroupIngressTask.java:31: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RevokeSecurityGroupIngressTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RevokeSecurityGroupIngressTask.java:35: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RevokeSecurityGroupIngressTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2RevokeSecurityGroupIngressTask.java:39: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2RevokeSecurityGroupIngressTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2ImportKeyTask.java:35: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2ImportKeyTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2ImportKeyTask.java:39: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2ImportKeyTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2ImportKeyTask.java:43: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2ImportKeyTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2ImportKeyTask.java:47: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2ImportKeyTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2DeleteSecurityGroupTask.java:32: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2DeleteSecurityGroupTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/ec2/AmazonEC2DeleteSecurityGroupTask.java:36: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonEC2DeleteSecurityGroupTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:39: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:43: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:47: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:51: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:55: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:59: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:63: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:67: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:71: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:75: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:79: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:83: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:87: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:91: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:95: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:99: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:103: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:107: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:111: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:115: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:119: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:123: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:127: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:131: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:135: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:139: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:143: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:147: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSMigrateDBInstanceTask.java:150: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSMigrateDBInstanceTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSDescribeInstancesTask.java:39: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSDescribeInstancesTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSDescribeInstancesTask.java:43: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSDescribeInstancesTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSDescribeInstancesTask.java:47: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSDescribeInstancesTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSDescribeInstancesTask.java:51: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSDescribeInstancesTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSWaitClusterStatusTask.java:38: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSWaitClusterStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSWaitClusterStatusTask.java:42: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSWaitClusterStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSWaitClusterStatusTask.java:49: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSWaitClusterStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSWaitClusterStatusTask.java:59: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSWaitClusterStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSWaitClusterStatusTask.java:63: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSWaitClusterStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSWaitClusterStatusTask.java:67: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSWaitClusterStatusTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task13/wd/NonDex-plugin-test/github.com/JustinPihony/gradle-aws-plugin-reboot/src/main/java/jp/classmethod/aws/reboot/gradle/rds/AmazonRDSWaitClusterStatusTask.java:70: error: cannot find symbol
+	@Getter(onMethod = @__(@Internal))
+	                    ^
+  symbol:   class __
+  location: class AmazonRDSWaitClusterStatusTask
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> java.lang.ExceptionInInitializerError
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 25s

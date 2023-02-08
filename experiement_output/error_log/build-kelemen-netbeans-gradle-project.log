@@ -1,0 +1,18 @@
+warning: [options] bootstrap class path not set in conjunction with -source 8
+1 warning
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task484/wd/NonDex-plugin-test/github.com/kelemen/netbeans-gradle-project/netbeans-gradle-plugin/build.gradle' line: 132
+
+* What went wrong:
+A problem occurred evaluating project ':netbeans-gradle-plugin'.
+> Unable to find the JDK's tools.jar.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 42s

@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':plugin'.
+> Could not resolve all files for configuration ':plugin:classpath'.
+   > Could not resolve io.github.santaevpavel.gradle-metrics-plugin:gradle-metrics-plugin:1.0.0.
+     Required by:
+         project :plugin
+      > Could not resolve io.github.santaevpavel.gradle-metrics-plugin:gradle-metrics-plugin:1.0.0.
+         > Could not get resource 'https://maven.pkg.github.com/santaevpavel/gradle-metrics-plugin/io/github/santaevpavel/gradle-metrics-plugin/gradle-metrics-plugin/1.0.0/gradle-metrics-plugin-1.0.0.pom'.
+            > Username must not be null!
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 26s

@@ -1,0 +1,15 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'org.plcopen.xml.xcore'.
+> Failed to notify project evaluation listener.
+   > 'java.lang.String org.gradle.api.tasks.compile.CompileOptions.getBootClasspath()'
+   > 'java.lang.String org.gradle.api.tasks.compile.CompileOptions.getBootClasspath()'
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

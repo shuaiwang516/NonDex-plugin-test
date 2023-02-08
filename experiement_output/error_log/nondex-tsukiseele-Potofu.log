@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':nondexTest'.
+> Could not resolve all files for configuration ':testRuntimeClasspath'.
+   > Could not download snakeyaml-1.25.jar (org.yaml:snakeyaml:1.25)
+      > Could not get resource 'http://maven.aliyun.com/nexus/content/groups/public/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar?Expires=1675212756&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=liYiMIIKT6kaWEtz9SfTTyu6Aps%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7m 31s

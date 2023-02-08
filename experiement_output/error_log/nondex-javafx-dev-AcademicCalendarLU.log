@@ -1,0 +1,384 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/App.java:5: error: package javafx.scene does not exist
+import javafx.scene.Parent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/App.java:6: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/App.java:7: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/App.java:8: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/AbstractJavaFxApplicationSupport.java:3: error: package javafx.application does not exist
+import javafx.application.Application;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/AbstractJavaFxApplicationSupport.java:7: error: cannot find symbol
+public abstract class AbstractJavaFxApplicationSupport extends Application {
+                                                               ^
+  symbol: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/CustomFXMLLoader.java:3: error: package javafx.fxml does not exist
+import javafx.fxml.FXMLLoader;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/CustomFXMLLoader.java:4: error: package javafx.scene does not exist
+import javafx.scene.Parent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/App.java:31: error: cannot find symbol
+    public void start(Stage stage) throws Exception {
+                      ^
+  symbol:   class Stage
+  location: class App
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/CustomFXMLLoader.java:18: error: cannot find symbol
+    public Parent load(URL res) throws IOException {
+           ^
+  symbol:   class Parent
+  location: class CustomFXMLLoader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/utils/ColorConverter.java:3: error: package javafx.scene.paint does not exist
+import javafx.scene.paint.Color;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/utils/ColorConverter.java:10: error: cannot find symbol
+    public static String toRGBCode(Color color) {
+                                   ^
+  symbol:   class Color
+  location: class ColorConverter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/service/TermService.java:6: error: package javafx.collections does not exist
+import javafx.collections.FXCollections;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/service/TermService.java:7: error: package javafx.collections does not exist
+import javafx.collections.ObservableList;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/service/TermService.java:12: error: package javax.annotation does not exist
+import javax.annotation.PostConstruct;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/service/TermService.java:73: error: cannot find symbol
+    public ObservableList<String> getListOfTerms() {
+           ^
+  symbol:   class ObservableList
+  location: class TermService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/service/ColorGroupService.java:5: error: package javafx.scene.paint does not exist
+import javafx.scene.paint.Color;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/service/ColorGroupService.java:22: error: cannot find symbol
+    public void updateColor(Long groupId, Color color) {
+                                          ^
+  symbol:   class Color
+  location: class ColorGroupService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/service/ColorGroupService.java:28: error: cannot find symbol
+    private String getRGB(Color c) {
+                          ^
+  symbol:   class Color
+  location: class ColorGroupService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/service/ColorGroupService.java:35: error: cannot find symbol
+    public void save(String name, Color color) {
+                                  ^
+  symbol:   class Color
+  location: class ColorGroupService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/Rule.java:4: error: package javafx.beans.property does not exist
+import javafx.beans.property.SimpleStringProperty;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/Rule.java:7: error: cannot find symbol
+    private final SimpleStringProperty eventDescription;
+                  ^
+  symbol:   class SimpleStringProperty
+  location: class Rule
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/Rule.java:8: error: cannot find symbol
+    private final SimpleStringProperty termID;
+                  ^
+  symbol:   class SimpleStringProperty
+  location: class Rule
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/Rule.java:9: error: cannot find symbol
+    private final SimpleStringProperty daysFromStart;
+                  ^
+  symbol:   class SimpleStringProperty
+  location: class Rule
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/Calendar.java:4: error: package javafx.beans.property does not exist
+import javafx.beans.property.SimpleStringProperty;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/Calendar.java:7: error: cannot find symbol
+    private final SimpleStringProperty name;
+                  ^
+  symbol:   class SimpleStringProperty
+  location: class Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/Calendar.java:8: error: cannot find symbol
+    private final SimpleStringProperty startYear;
+                  ^
+  symbol:   class SimpleStringProperty
+  location: class Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/Calendar.java:9: error: cannot find symbol
+    private final SimpleStringProperty endYear;
+                  ^
+  symbol:   class SimpleStringProperty
+  location: class Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/Calendar.java:11: error: cannot find symbol
+    private final SimpleStringProperty startDate;
+                  ^
+  symbol:   class SimpleStringProperty
+  location: class Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:19: error: package javafx.beans.value does not exist
+import javafx.beans.value.ChangeListener;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:20: error: package javafx.beans.value does not exist
+import javafx.beans.value.ObservableValue;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:21: error: package javafx.collections does not exist
+import javafx.collections.FXCollections;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:22: error: package javafx.collections does not exist
+import javafx.collections.ObservableList;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:23: error: package javafx.fxml does not exist
+import javafx.fxml.FXML;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:24: error: package javafx.fxml does not exist
+import javafx.fxml.Initializable;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:25: error: package javafx.geometry does not exist
+import javafx.geometry.Insets;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:26: error: package javafx.print does not exist
+import javafx.print.PrinterJob;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:27: error: package javafx.scene does not exist
+import javafx.scene.Cursor;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:28: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:29: error: package javafx.scene does not exist
+import javafx.scene.Parent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:30: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:31: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:32: error: package javafx.scene.control does not exist
+import javafx.scene.control.ScrollPane;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:33: error: package javafx.scene.control does not exist
+import javafx.scene.control.TableColumn;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:34: error: package javafx.scene.control does not exist
+import javafx.scene.control.TableView;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:35: error: package javafx.scene.control.cell does not exist
+import javafx.scene.control.cell.PropertyValueFactory;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:36: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:37: error: package javafx.scene.image does not exist
+import javafx.scene.image.ImageView;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:38: error: package javafx.scene.input does not exist
+import javafx.scene.input.MouseEvent;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:39: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.GridPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:40: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.HBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:41: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.Priority;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:42: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.RowConstraints;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:43: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.StackPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:44: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.VBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:45: error: package javafx.stage does not exist
+import javafx.stage.FileChooser;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:46: error: package javafx.stage does not exist
+import javafx.stage.Modality;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:47: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:48: error: package javafx.stage does not exist
+import javafx.stage.StageStyle;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:75: error: cannot find symbol
+public class FXMLDocumentController implements Initializable {
+                                               ^
+  symbol: class Initializable
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:80: error: cannot find symbol
+    private Label monthLabel;
+            ^
+  symbol:   class Label
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:83: error: cannot find symbol
+    private HBox weekdayHeader;
+            ^
+  symbol:   class HBox
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:93: error: cannot find symbol
+    private GridPane calendarGrid;
+            ^
+  symbol:   class GridPane
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:95: error: cannot find symbol
+    private VBox centerArea;
+            ^
+  symbol:   class VBox
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:97: error: cannot find symbol
+    private ScrollPane scrollPane;
+            ^
+  symbol:   class ScrollPane
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/editevent/EditEventController.java:14: error: package javafx.fxml does not exist
+import javafx.fxml.FXML;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/editevent/EditEventController.java:15: error: package javafx.scene.control does not exist
+import javafx.scene.control.Alert;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/editevent/EditEventController.java:16: error: package javafx.scene.control.Alert does not exist
+import javafx.scene.control.Alert.AlertType;
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/editevent/EditEventController.java:17: error: package javafx.scene.control does not exist
+import javafx.scene.control.ButtonType;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/editevent/EditEventController.java:19: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/common/AbstractDraggableController.java:4: error: package javafx.event does not exist
+import javafx.event.EventHandler;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/common/AbstractDraggableController.java:5: error: package javafx.fxml does not exist
+import javafx.fxml.FXML;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/common/AbstractDraggableController.java:6: error: package javafx.fxml does not exist
+import javafx.fxml.Initializable;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/common/AbstractDraggableController.java:7: error: package javafx.scene does not exist
+import javafx.scene.Cursor;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/common/AbstractDraggableController.java:8: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/common/AbstractDraggableController.java:9: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/common/AbstractDraggableController.java:11: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.AnchorPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/common/AbstractDraggableController.java:12: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/common/AbstractDraggableController.java:17: error: cannot find symbol
+public class AbstractDraggableController implements Initializable {
+                                                    ^
+  symbol: class Initializable
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:116: error: cannot find symbol
+    private VBox colorRootPane;
+            ^
+  symbol:   class VBox
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/controls/ColorRow.java:6: error: package javafx.geometry does not exist
+import javafx.geometry.Insets;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/controls/ColorRow.java:7: error: package javafx.geometry does not exist
+import javafx.geometry.Pos;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/controls/ColorRow.java:8: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/controls/ColorRow.java:9: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.HBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/controls/ColorRow.java:10: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.VBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/controls/ColorRow.java:11: error: package javafx.scene.paint does not exist
+import javafx.scene.paint.Color;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/controls/ColorRow.java:14: error: cannot find symbol
+public class ColorRow extends HBox {
+                              ^
+  symbol: class HBox
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:121: error: cannot find symbol
+    private void addEvent(VBox day) {
+                          ^
+  symbol:   class VBox
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:663: error: cannot find symbol
+    private void newCalendar(MouseEvent event) {
+                             ^
+  symbol:   class MouseEvent
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:668: error: cannot find symbol
+    private void manageCalendars(MouseEvent event) {
+                                 ^
+  symbol:   class MouseEvent
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:673: error: cannot find symbol
+    private void manageRules(MouseEvent event) {
+                             ^
+  symbol:   class MouseEvent
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:678: error: cannot find symbol
+    private void newRule(MouseEvent event) {
+                         ^
+  symbol:   class MouseEvent
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:683: error: cannot find symbol
+    private void pdfBtn(MouseEvent event) {
+                        ^
+  symbol:   class MouseEvent
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:688: error: cannot find symbol
+    private void excelBtn(MouseEvent event) {
+                          ^
+  symbol:   class MouseEvent
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:693: error: cannot find symbol
+    private void updateColors(MouseEvent event) {
+                              ^
+  symbol:   class MouseEvent
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:701: error: cannot find symbol
+    private void manageTerms(MouseEvent event) {
+                             ^
+  symbol:   class MouseEvent
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/main/FXMLDocumentController.java:706: error: cannot find symbol
+    private void addNewColor(MouseEvent mouseEvent) {
+                             ^
+  symbol:   class MouseEvent
+  location: class FXMLDocumentController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/controls/ColorRow.java:57: error: cannot find symbol
+    public Color getCurrentColor() {
+           ^
+  symbol:   class Color
+  location: class ColorRow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/editevent/EditEventController.java:59: error: cannot find symbol
+    private void exit(MouseEvent event) {
+                      ^
+  symbol:   class MouseEvent
+  location: class EditEventController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task45/wd/NonDex-plugin-test/github.com/javafx-dev/AcademicCalendarLU/src/main/java/academiccalendar/ui/editevent/EditEventController.java:66: error: cannot find symbol
+    private void update(MouseEvent event) {
+                        ^
+  symbol:   class MouseEvent
+  location: class EditEventController
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s

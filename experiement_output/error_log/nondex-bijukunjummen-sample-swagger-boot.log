@@ -1,0 +1,43 @@
+[main] INFO io.swagger.parser.Swagger20Parser - reading from http://petstore.swagger.io/v2/swagger.json
+[main] INFO io.swagger.parser.Swagger20Parser - reading from http://petstore.swagger.io/v2/swagger.json
+[main] ERROR io.swagger.parser.SwaggerCompatConverter - failed to read resource listing
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+</body>
+</html>
+; line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:456)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1906)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:749)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:3834)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3783)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:2381)
+	at io.swagger.parser.SwaggerCompatConverter.readResourceListing(SwaggerCompatConverter.java:187)
+	at io.swagger.parser.SwaggerCompatConverter.read(SwaggerCompatConverter.java:116)
+	at io.swagger.parser.SwaggerParser.read(SwaggerParser.java:74)
+	at io.swagger.codegen.config.CodegenConfigurator.toClientOptInput(CodegenConfigurator.java:419)
+	at io.swagger.codegen.cmd.Generate.run(Generate.java:232)
+	at io.swagger.codegen.SwaggerCodegen.main(SwaggerCodegen.java:41)
+[main] WARN io.swagger.codegen.ignore.CodegenIgnoreProcessor - Directory does not exist, or is inaccessible. No file will be evaluated.
+Exception in thread "main" java.lang.RuntimeException: missing swagger input or config!
+	at io.swagger.codegen.DefaultGenerator.generate(DefaultGenerator.java:651)
+	at io.swagger.codegen.cmd.Generate.run(Generate.java:234)
+	at io.swagger.codegen.SwaggerCodegen.main(SwaggerCodegen.java:41)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':genSwagger'.
+> Process 'command '/usr/lib/jvm/java-11-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

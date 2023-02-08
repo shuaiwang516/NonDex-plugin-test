@@ -1,0 +1,27 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'wicc-sample-svc'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve org.jetbrains.kotlin:kotlin-build-common:1.3.50.
+     Required by:
+         project : > org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.50 > org.jetbrains.kotlin:kotlin-compiler-runner:1.3.50
+      > Could not resolve org.jetbrains.kotlin:kotlin-build-common:1.3.50.
+         > Could not get resource 'http://nexus.wisedev.cn/content/groups/public/org/jetbrains/kotlin/kotlin-build-common/1.3.50/kotlin-build-common-1.3.50.pom'.
+            > Could not GET 'http://nexus.wisedev.cn/content/groups/public/org/jetbrains/kotlin/kotlin-build-common/1.3.50/kotlin-build-common-1.3.50.pom'.
+               > Connect to nexus.wisedev.cn:80 [nexus.wisedev.cn/10.0.0.5] failed: connect timed out
+   > Could not resolve org.jetbrains.kotlin:kotlin-daemon-client:1.3.50.
+     Required by:
+         project : > org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.50 > org.jetbrains.kotlin:kotlin-compiler-runner:1.3.50
+      > Could not resolve org.jetbrains.kotlin:kotlin-daemon-client:1.3.50.
+         > Could not get resource 'http://nexus.wisedev.cn/content/groups/public/org/jetbrains/kotlin/kotlin-daemon-client/1.3.50/kotlin-daemon-client-1.3.50.pom'.
+            > Could not GET 'http://nexus.wisedev.cn/content/groups/public/org/jetbrains/kotlin/kotlin-daemon-client/1.3.50/kotlin-daemon-client-1.3.50.pom'.
+               > Connect to nexus.wisedev.cn:80 [nexus.wisedev.cn/10.0.0.5] failed: connect timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4m 46s

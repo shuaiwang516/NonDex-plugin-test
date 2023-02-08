@@ -1,0 +1,209 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/cars/application/tasks/CreateCarTask.java:39: error: cannot find symbol
+        Validate.notNull(carDTO.getUserId(), "userId is null");
+                               ^
+  symbol:   method getUserId()
+  location: variable carDTO of type CarDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/cars/application/tasks/CreateCarTask.java:40: error: cannot find symbol
+        Validate.isTrue(carDTO.getUserId() > 0, "userId is invalid");
+                              ^
+  symbol:   method getUserId()
+  location: variable carDTO of type CarDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/cars/application/tasks/CreateCarTask.java:42: error: cannot find symbol
+        Validate.notNull(carDTO.getFuelType(), "fuelType is null");
+                               ^
+  symbol:   method getFuelType()
+  location: variable carDTO of type CarDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/cars/application/tasks/CreateCarTask.java:44: error: cannot find symbol
+        if (StringUtils.isBlank(carDTO.getLicencePlate())) {
+                                      ^
+  symbol:   method getLicencePlate()
+  location: variable carDTO of type CarDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/cars/application/tasks/CreateCarTask.java:48: error: cannot find symbol
+        if (StringUtils.isBlank(carDTO.getMake())) {
+                                      ^
+  symbol:   method getMake()
+  location: variable carDTO of type CarDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/cars/application/tasks/CreateCarTask.java:52: error: cannot find symbol
+        if (StringUtils.isBlank(carDTO.getModel())) {
+                                      ^
+  symbol:   method getModel()
+  location: variable carDTO of type CarDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/cars/application/tasks/CreateCarTask.java:56: error: cannot find symbol
+        if (carDTO.getManufactureYear() == null || carDTO.getManufactureYear() <= 0) {
+                  ^
+  symbol:   method getManufactureYear()
+  location: variable carDTO of type CarDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/cars/application/tasks/CreateCarTask.java:56: error: cannot find symbol
+        if (carDTO.getManufactureYear() == null || carDTO.getManufactureYear() <= 0) {
+                                                         ^
+  symbol:   method getManufactureYear()
+  location: variable carDTO of type CarDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/cars/application/tasks/CreateCarTask.java:61: error: cannot find symbol
+        car.setCreatedDate(DateTime.now(DateTimeZone.UTC));
+           ^
+  symbol:   method setCreatedDate(DateTime)
+  location: variable car of type Car
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/cars/application/tasks/CreateCarTask.java:65: error: cannot find symbol
+        response.carId = car.getId();
+                            ^
+  symbol:   method getId()
+  location: variable car of type Car
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/transactions/application/tasks/CreateTransactionTask.java:40: error: cannot find symbol
+        Validate.notNull(transactionDTO.getCarId(), "carId is null");
+                                       ^
+  symbol:   method getCarId()
+  location: variable transactionDTO of type TransactionDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/transactions/application/tasks/CreateTransactionTask.java:41: error: cannot find symbol
+        Validate.isTrue(transactionDTO.getCarId() > 0, "carId is invalid");
+                                      ^
+  symbol:   method getCarId()
+  location: variable transactionDTO of type TransactionDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/transactions/application/tasks/CreateTransactionTask.java:43: error: cannot find symbol
+        Validate.notNull(transactionDTO.getUserId(), "userId is null");
+                                       ^
+  symbol:   method getUserId()
+  location: variable transactionDTO of type TransactionDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/transactions/application/tasks/CreateTransactionTask.java:44: error: cannot find symbol
+        Validate.isTrue(transactionDTO.getUserId() > 0, "userId is invalid");
+                                      ^
+  symbol:   method getUserId()
+  location: variable transactionDTO of type TransactionDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/transactions/application/tasks/CreateTransactionTask.java:46: error: cannot find symbol
+        Validate.notNull(transactionDTO.getTransactionType(), "transactionType is null");
+                                       ^
+  symbol:   method getTransactionType()
+  location: variable transactionDTO of type TransactionDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/transactions/application/tasks/CreateTransactionTask.java:48: error: cannot find symbol
+        if (transactionDTO.getAmount() == null || BigDecimal.ZERO.compareTo(transactionDTO.getAmount()) >= 0) {
+                          ^
+  symbol:   method getAmount()
+  location: variable transactionDTO of type TransactionDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/transactions/application/tasks/CreateTransactionTask.java:48: error: cannot find symbol
+        if (transactionDTO.getAmount() == null || BigDecimal.ZERO.compareTo(transactionDTO.getAmount()) >= 0) {
+                                                                                          ^
+  symbol:   method getAmount()
+  location: variable transactionDTO of type TransactionDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/transactions/application/tasks/CreateTransactionTask.java:53: error: cannot find symbol
+        transaction.setCreatedDate(DateTime.now(DateTimeZone.UTC));
+                   ^
+  symbol:   method setCreatedDate(DateTime)
+  location: variable transaction of type Transaction
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/transactions/application/tasks/CreateTransactionTask.java:57: error: cannot find symbol
+        response.transactionId = transaction.getId();
+                                            ^
+  symbol:   method getId()
+  location: variable transaction of type Transaction
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/users/application/tasks/RegisterUserTask.java:39: error: cannot find symbol
+        if (StringUtils.isBlank(userCredentialsDTO.getUsername())) {
+                                                  ^
+  symbol:   method getUsername()
+  location: variable userCredentialsDTO of type UserCredentialsDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/users/application/tasks/RegisterUserTask.java:42: error: cannot find symbol
+        if (userRepository.existsByUsername(userCredentialsDTO.getUsername())) {
+                                                              ^
+  symbol:   method getUsername()
+  location: variable userCredentialsDTO of type UserCredentialsDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/users/application/tasks/RegisterUserTask.java:45: error: cannot find symbol
+        if (StringUtils.isBlank(userCredentialsDTO.getPassword())) {
+                                                  ^
+  symbol:   method getPassword()
+  location: variable userCredentialsDTO of type UserCredentialsDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/users/application/tasks/RegisterUserTask.java:48: error: cannot find symbol
+        if (StringUtils.isBlank(userCredentialsDTO.getRepeatedPassword())) {
+                                                  ^
+  symbol:   method getRepeatedPassword()
+  location: variable userCredentialsDTO of type UserCredentialsDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/users/application/tasks/RegisterUserTask.java:51: error: cannot find symbol
+        if (!StringUtils.equals(userCredentialsDTO.getPassword(), userCredentialsDTO.getRepeatedPassword())) {
+                                                  ^
+  symbol:   method getPassword()
+  location: variable userCredentialsDTO of type UserCredentialsDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/users/application/tasks/RegisterUserTask.java:51: error: cannot find symbol
+        if (!StringUtils.equals(userCredentialsDTO.getPassword(), userCredentialsDTO.getRepeatedPassword())) {
+                                                                                    ^
+  symbol:   method getRepeatedPassword()
+  location: variable userCredentialsDTO of type UserCredentialsDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/users/application/tasks/RegisterUserTask.java:56: error: cannot find symbol
+        user.setUsername(userCredentialsDTO.getUsername());
+                                           ^
+  symbol:   method getUsername()
+  location: variable userCredentialsDTO of type UserCredentialsDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/users/application/tasks/RegisterUserTask.java:57: error: cannot find symbol
+        user.setPassword(bCryptPasswordEncoder.encode(userCredentialsDTO.getPassword()));
+                                                                        ^
+  symbol:   method getPassword()
+  location: variable userCredentialsDTO of type UserCredentialsDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/users/application/tasks/RegisterUserTask.java:58: error: cannot find symbol
+        user.setCreatedDate(DateTime.now(DateTimeZone.UTC));
+            ^
+  symbol:   method setCreatedDate(DateTime)
+  location: variable user of type ApplicationUser
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/main/users/application/tasks/RegisterUserTask.java:64: error: cannot find symbol
+        response.userId = user.getId();
+                              ^
+  symbol:   method getId()
+  location: variable user of type ApplicationUser
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/security/services/ApplicationUserDetailsService.java:29: error: cannot find symbol
+        return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), emptyList());
+                                                                          ^
+  symbol:   method getUsername()
+  location: variable user of type ApplicationUser
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/security/services/ApplicationUserDetailsService.java:29: error: cannot find symbol
+        return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), emptyList());
+                                                                                              ^
+  symbol:   method getPassword()
+  location: variable user of type ApplicationUser
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/security/services/ApplicationUserDetailsService.java:37: error: cannot find symbol
+        return user.getId();
+                   ^
+  symbol:   method getId()
+  location: variable user of type ApplicationUser
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/security/filters/JWTAuthenticationFilter.java:39: error: cannot find symbol
+            return authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(userDTO.getUsername(), userDTO.getPassword(), new ArrayList<>()));
+                                                                                                     ^
+  symbol:   method getUsername()
+  location: variable userDTO of type UserCredentialsDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/security/filters/JWTAuthenticationFilter.java:39: error: cannot find symbol
+            return authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(userDTO.getUsername(), userDTO.getPassword(), new ArrayList<>()));
+                                                                                                                            ^
+  symbol:   method getPassword()
+  location: variable userDTO of type UserCredentialsDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/security/services/CarAccessService.java:27: error: cannot find symbol
+            return car != null && applicationUser != null && car.getUser().getId().equals(applicationUser.getId());
+                                                                ^
+  symbol:   method getUser()
+  location: variable car of type Car
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/security/services/CarAccessService.java:27: error: cannot find symbol
+            return car != null && applicationUser != null && car.getUser().getId().equals(applicationUser.getId());
+                                                                                                         ^
+  symbol:   method getId()
+  location: variable applicationUser of type ApplicationUser
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/security/services/TransactionAccessService.java:27: error: cannot find symbol
+            return applicationUser != null && transaction != null && transaction.getUser().getId().equals(applicationUser.getId());
+                                                                                ^
+  symbol:   method getUser()
+  location: variable transaction of type Transaction
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/security/services/TransactionAccessService.java:27: error: cannot find symbol
+            return applicationUser != null && transaction != null && transaction.getUser().getId().equals(applicationUser.getId());
+                                                                                                                         ^
+  symbol:   method getId()
+  location: variable applicationUser of type ApplicationUser
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task353/wd/NonDex-plugin-test/github.com/SarunasDaubaris/car-expense-tracker-service/src/main/java/com/personalgarage/service/security/services/UserAccessService.java:22: error: cannot find symbol
+            return applicationUser != null && applicationUser.getId().equals(userId);
+                                                             ^
+  symbol:   method getId()
+  location: variable applicationUser of type ApplicationUser
+39 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

@@ -1,0 +1,25 @@
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Receiver class org.ajoberstar.grgit.Repository does not define or inherit an implementation of the resolved method 'abstract java.lang.Object getProperty(java.lang.String)' of interface groovy.lang.GroovyObject.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Failed to notify build listener.
+> Receiver class org.ajoberstar.grgit.Repository does not define or inherit an implementation of the resolved method 'abstract java.lang.Object getProperty(java.lang.String)' of interface groovy.lang.GroovyObject.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+==============================================================================
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 25s

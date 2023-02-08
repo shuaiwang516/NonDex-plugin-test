@@ -1,0 +1,26 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':yzp-auth:compileJava'.
+> Could not resolve all files for configuration ':yzp-auth:compileClasspath'.
+   > Could not download spring-boot-starter-web-2.3.10.RELEASE.jar (org.springframework.boot:spring-boot-starter-web:2.3.10.RELEASE): Skipped due to earlier error
+   > Could not download spring-cloud-starter-openfeign-2.2.5.RELEASE.jar (org.springframework.cloud:spring-cloud-starter-openfeign:2.2.5.RELEASE): Skipped due to earlier error
+   > Could not download spring-cloud-starter-alibaba-nacos-discovery-2.2.1.RELEASE.jar (com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.1.RELEASE): Skipped due to earlier error
+   > Could not download spring-cloud-starter-alibaba-nacos-config-2.2.1.RELEASE.jar (com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2.2.1.RELEASE): Skipped due to earlier error
+   > Could not download hutool-all-5.8.5.jar (cn.hutool:hutool-all:5.8.5): Skipped due to earlier error
+   > Could not download spring-boot-starter-security-2.3.10.RELEASE.jar (org.springframework.boot:spring-boot-starter-security:2.3.10.RELEASE): Skipped due to earlier error
+   > Could not download spring-security-oauth2-2.3.4.RELEASE.jar (org.springframework.security.oauth:spring-security-oauth2:2.3.4.RELEASE): Skipped due to earlier error
+   > Could not download spring-boot-starter-data-redis-2.3.5.RELEASE.jar (org.springframework.boot:spring-boot-starter-data-redis:2.3.5.RELEASE): Skipped due to earlier error
+   > Could not download mysql-connector-java-8.0.23.jar (mysql:mysql-connector-java:8.0.23): Skipped due to earlier error
+   > Could not download mybatis-plus-boot-starter-3.4.3.jar (com.baomidou:mybatis-plus-boot-starter:3.4.3): Skipped due to earlier error
+   > Could not download druid-1.1.12.jar (com.alibaba:druid:1.1.12): Skipped due to earlier error
+   > Could not download jaxb-runtime-2.3.0-b170127.1453.jar (org.glassfish.jaxb:jaxb-runtime:2.3.0-b170127.1453): Skipped due to earlier error
+   > Could not download activation-1.1.jar (javax.activation:activation:1.1): Skipped due to earlier error
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2m 49s

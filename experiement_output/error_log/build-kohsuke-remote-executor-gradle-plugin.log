@@ -1,0 +1,31 @@
+[Fatal Error] remoting-2.26.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] cli-1.520.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] remoting-2.26.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] cli-1.520.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] cli-1.520.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] remoting-2.26.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':buildSrc:compileJava'.
+> Could not resolve all files for configuration ':buildSrc:compileClasspath'.
+   > Could not resolve org.jenkins-ci.main:remoting:2.26.
+     Required by:
+         project :buildSrc
+      > Could not resolve org.jenkins-ci.main:remoting:2.26.
+         > Could not parse POM http://repo.jenkins-ci.org/public/org/jenkins-ci/main/remoting/2.26/remoting-2.26.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve org.jenkins-ci.main:cli:1.520.
+     Required by:
+         project :buildSrc
+      > Could not resolve org.jenkins-ci.main:cli:1.520.
+         > Could not parse POM http://repo.jenkins-ci.org/public/org/jenkins-ci/main/cli/1.520/cli-1.520.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

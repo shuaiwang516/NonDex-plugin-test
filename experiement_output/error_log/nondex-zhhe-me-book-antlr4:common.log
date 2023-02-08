@@ -1,0 +1,22 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task428/wd/NonDex-plugin-test/github.com/zhhe-me/book-antlr4/common/src/test/java/me/zhhe/exercise/antlr/book/common/AntlrSampleRunner.java:7: error: package org.antlr.v4.gui does not exist
+import org.antlr.v4.gui.TestRig;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task428/wd/NonDex-plugin-test/github.com/zhhe-me/book-antlr4/common/src/test/java/me/zhhe/exercise/antlr/book/common/AntlrSampleRunner.java:112: error: cannot find symbol
+        TestRig.main(new String[] {runner.fullGrammar, runner.startRuler, "-" + runner.mode, runner.dataFile});
+        ^
+  symbol:   variable TestRig
+  location: class AntlrSampleRunner
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':common:compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

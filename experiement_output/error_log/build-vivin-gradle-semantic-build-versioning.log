@@ -1,0 +1,17 @@
+Exception in thread "build-scan-data-write-0" java.lang.NoSuchMethodError: 'boolean org.gradle.StartParameter.isTaskOutputCacheEnabled()'
+	at com.gradle.scan.plugin.internal.a.e.a.a(SourceFile:2120)
+	at com.gradle.scan.plugin.internal.a.e.b.a(SourceFile:51)
+	at com.gradle.scan.plugin.internal.c.e.run(SourceFile:62)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+org/gradle/api/execution/internal/InternalTaskExecutionListener
+> org.gradle.api.execution.internal.InternalTaskExecutionListener
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s

@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'git-publish-plugin'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve org.kajip:git-publish-plugin:0.1.0.2.
+     Required by:
+         project :
+      > Could not resolve org.kajip:git-publish-plugin:0.1.0.2.
+         > Could not get resource 'http://54.65.64.46/org/kajip/git-publish-plugin/0.1.0.2/git-publish-plugin-0.1.0.2.pom'.
+            > Could not GET 'http://54.65.64.46/org/kajip/git-publish-plugin/0.1.0.2/git-publish-plugin-0.1.0.2.pom'.
+               > Connect to 54.65.64.46:80 [/54.65.64.46] failed: connect timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 34s

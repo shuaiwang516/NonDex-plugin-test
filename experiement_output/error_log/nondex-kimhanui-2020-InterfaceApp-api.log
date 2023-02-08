@@ -1,0 +1,513 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/config/Scheduler.java:36: error: cannot find symbol
+                .filter(m -> m.getCreatedDateTime().isBefore(LocalDateTime.now()))
+                              ^
+  symbol:   method getCreatedDateTime()
+  location: variable m of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/config/Scheduler.java:37: error: invalid method reference
+                .map(Meeting::getId)
+                     ^
+  cannot find symbol
+    symbol:   method getId()
+    location: class Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/config/Scheduler.java:41: error: cannot find symbol
+        log.info("Cron Job Success: delete meeting every SUNDAY");
+        ^
+  symbol:   variable log
+  location: class Scheduler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/config/Scheduler.java:49: error: cannot find symbol
+                .filter(m -> m.getCreatedDateTime().isBefore(LocalDateTime.now()))
+                              ^
+  symbol:   method getCreatedDateTime()
+  location: variable m of type Participant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/config/Scheduler.java:50: error: invalid method reference
+                .map(Participant::getId)
+                     ^
+  cannot find symbol
+    symbol:   method getId()
+    location: class Participant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/config/Scheduler.java:54: error: cannot find symbol
+        log.info("Cron Job Success: delete participant every SEMESTER");
+        ^
+  symbol:   variable log
+  location: class Scheduler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/CalendarService.java:25: error: cannot find symbol
+        Optional<Calendar> calendar = calendarRepository.findByDate(calendarRequestDto.getDate());//.orElseThrow(()->new IllegalArgumentException(ErrorMessage.NoExist("일정")));
+                                                                                      ^
+  symbol:   method getDate()
+  location: variable calendarRequestDto of type CalendarRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/CalendarService.java:27: error: cannot find symbol
+        return calendarRepository.save(calendarRequestDto.toEntity()).getId();
+                                                                     ^
+  symbol:   method getId()
+  location: class Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/CalendarService.java:32: error: cannot find symbol
+        log.info(calendar.toString());
+        ^
+  symbol:   variable log
+  location: class CalendarService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/CalendarService.java:34: error: cannot find symbol
+        return calendar.getId();
+                       ^
+  symbol:   method getId()
+  location: variable calendar of type Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/CalendarService.java:39: error: cannot find symbol
+        log.info(calendar.toString());
+        ^
+  symbol:   variable log
+  location: class CalendarService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/CalendarService.java:48: error: cannot find symbol
+                .sorted((c1, c2) -> c1.getDate().isBefore(c2.getDate())?1:0)
+                                      ^
+  symbol:   method getDate()
+  location: variable c1 of type CalendarResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/CalendarService.java:48: error: cannot find symbol
+                .sorted((c1, c2) -> c1.getDate().isBefore(c2.getDate())?1:0)
+                                                            ^
+  symbol:   method getDate()
+  location: variable c2 of type CalendarResponseDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/CalendarRequestDto.java:20: error: cannot find symbol
+        return Calendar.builder()
+                       ^
+  symbol:   method builder()
+  location: class Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/CalendarResponseDto.java:20: error: cannot find symbol
+        this.id = calendar.getId();
+                          ^
+  symbol:   method getId()
+  location: variable calendar of type Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/CalendarResponseDto.java:21: error: cannot find symbol
+        this.title = calendar.getTitle();
+                             ^
+  symbol:   method getTitle()
+  location: variable calendar of type Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/CalendarResponseDto.java:22: error: cannot find symbol
+        this.date = calendar.getDate();
+                            ^
+  symbol:   method getDate()
+  location: variable calendar of type Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/CalendarResponseDto.java:23: error: cannot find symbol
+        this.content = calendar.getContent();
+                               ^
+  symbol:   method getContent()
+  location: variable calendar of type Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/calendar/Calendar.java:26: error: cannot find symbol
+        this.date = calendar.getDate();
+                            ^
+  symbol:   method getDate()
+  location: variable calendar of type Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/calendar/Calendar.java:27: error: cannot find symbol
+        this.title = calendar.getTitle();
+                             ^
+  symbol:   method getTitle()
+  location: variable calendar of type Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/calendar/Calendar.java:28: error: cannot find symbol
+        this.content = calendar.getContent();
+                               ^
+  symbol:   method getContent()
+  location: variable calendar of type Calendar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MeetingService.java:27: error: cannot find symbol
+        Optional<Meeting> target = meetingRepository.findByPasskey(dto.getPasskey());
+                                                                      ^
+  symbol:   method getPasskey()
+  location: variable dto of type AdminRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MeetingService.java:32: error: cannot find symbol
+        if (dto.getStartTime()!=null && dto.getStartTime().isBefore(LocalDateTime.now().minusMinutes(1L))) {
+               ^
+  symbol:   method getStartTime()
+  location: variable dto of type AdminRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MeetingService.java:32: error: cannot find symbol
+        if (dto.getStartTime()!=null && dto.getStartTime().isBefore(LocalDateTime.now().minusMinutes(1L))) {
+                                           ^
+  symbol:   method getStartTime()
+  location: variable dto of type AdminRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MeetingService.java:35: error: cannot find symbol
+        return meetingRepository.save(dto.toEntity()).getId();
+                                                     ^
+  symbol:   method getId()
+  location: class Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MeetingService.java:42: error: cannot find symbol
+        return meeting.getId();
+                      ^
+  symbol:   method getId()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MeetingService.java:49: error: cannot find symbol
+                .sorted((m1, m2) -> m1.getCreatedDateTime().isAfter(m2.getCreatedDateTime()) ? 1 : 0) //최신순
+                                      ^
+  symbol:   method getCreatedDateTime()
+  location: variable m1 of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MeetingService.java:49: error: cannot find symbol
+                .sorted((m1, m2) -> m1.getCreatedDateTime().isAfter(m2.getCreatedDateTime()) ? 1 : 0) //최신순
+                                                                      ^
+  symbol:   method getCreatedDateTime()
+  location: variable m2 of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:35: error: cannot find symbol
+        log.info(dto.toString());
+        ^
+  symbol:   variable log
+  location: class AttendanceService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:37: error: cannot find symbol
+        Meeting meeting = meetingRepository.findByPasskey(dto.getPasskey())
+                                                             ^
+  symbol:   method getPasskey()
+  location: variable dto of type AttendanceRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:41: error: cannot find symbol
+        Participant participant = participantRepository.findByStudentId(dto.getStudentId()).orElse(null);
+                                                                           ^
+  symbol:   method getStudentId()
+  location: variable dto of type AttendanceRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:42: error: cannot find symbol
+        if (participant == null || !(participant.getToken().equals(dto.getToken()))){
+                                                ^
+  symbol:   method getToken()
+  location: variable participant of type Participant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:42: error: cannot find symbol
+        if (participant == null || !(participant.getToken().equals(dto.getToken()))){
+                                                                      ^
+  symbol:   method getToken()
+  location: variable dto of type AttendanceRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:44: error: invalid method reference
+                    .map(Participant::getToken)
+                         ^
+  cannot find symbol
+    symbol:   method getToken()
+    location: class Participant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:45: error: cannot find symbol
+                    .noneMatch(t -> dto.getToken().equals(t));
+                                       ^
+  symbol:   method getToken()
+  location: variable dto of type AttendanceRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:53: error: cannot find symbol
+        List<Participant> participantList = meeting.getAttendances()
+                                                   ^
+  symbol:   method getAttendances()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:55: error: invalid method reference
+                .map(Attendance::getParticipant)
+                     ^
+  cannot find symbol
+    symbol:   method getParticipant()
+    location: class Attendance
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:62: error: cannot find symbol
+        LocalDateTime meetingStart = meeting.getCreatedDateTime();
+                                            ^
+  symbol:   method getCreatedDateTime()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:63: error: cannot find symbol
+        LocalDateTime meetingEnd = meeting.getEndDateTime();
+                                          ^
+  symbol:   method getEndDateTime()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:64: error: cannot find symbol
+        LocalDateTime inputTime = dto.getDateTime();
+                                     ^
+  symbol:   method getDateTime()
+  location: variable dto of type AttendanceRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:70: error: cannot find symbol
+        if (!(((meeting.getLat() - DIFF < dto.getLat() && dto.getLat() < meeting.getLat() + DIFF)
+                       ^
+  symbol:   method getLat()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:70: error: cannot find symbol
+        if (!(((meeting.getLat() - DIFF < dto.getLat() && dto.getLat() < meeting.getLat() + DIFF)
+                                             ^
+  symbol:   method getLat()
+  location: variable dto of type AttendanceRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:70: error: cannot find symbol
+        if (!(((meeting.getLat() - DIFF < dto.getLat() && dto.getLat() < meeting.getLat() + DIFF)
+                                                             ^
+  symbol:   method getLat()
+  location: variable dto of type AttendanceRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:70: error: cannot find symbol
+        if (!(((meeting.getLat() - DIFF < dto.getLat() && dto.getLat() < meeting.getLat() + DIFF)
+                                                                                ^
+  symbol:   method getLat()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:71: error: cannot find symbol
+                && (meeting.getLon() - DIFF < dto.getLon() && dto.getLon() < meeting.getLon() + DIFF)))) {
+                           ^
+  symbol:   method getLon()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:71: error: cannot find symbol
+                && (meeting.getLon() - DIFF < dto.getLon() && dto.getLon() < meeting.getLon() + DIFF)))) {
+                                                 ^
+  symbol:   method getLon()
+  location: variable dto of type AttendanceRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:71: error: cannot find symbol
+                && (meeting.getLon() - DIFF < dto.getLon() && dto.getLon() < meeting.getLon() + DIFF)))) {
+                                                                 ^
+  symbol:   method getLon()
+  location: variable dto of type AttendanceRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:71: error: cannot find symbol
+                && (meeting.getLon() - DIFF < dto.getLon() && dto.getLon() < meeting.getLon() + DIFF)))) {
+                                                                                    ^
+  symbol:   method getLon()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:76: error: cannot find symbol
+        Attendance attendance = Attendance.builder()
+                                          ^
+  symbol:   method builder()
+  location: class Attendance
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:79: error: cannot find symbol
+        return attendanceRepository.save(attendance).getId();
+                                                    ^
+  symbol:   method getId()
+  location: class Attendance
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:86: error: cannot find symbol
+                .getAttendances()
+                ^
+  symbol:   method getAttendances()
+  location: class Participant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:88: error: invalid method reference
+                .map(Attendance::getMeeting)
+                     ^
+  cannot find symbol
+    symbol:   method getMeeting()
+    location: class Attendance
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:98: error: cannot find symbol
+                .getAttendances()
+                ^
+  symbol:   method getAttendances()
+  location: class Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:110: error: cannot find symbol
+        Long id = meeting.getId();
+                         ^
+  symbol:   method getId()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/AttendanceService.java:112: error: cannot find symbol
+        attendanceRepository.deleteAllByMeetingId(meeting.getId());
+                                                         ^
+  symbol:   method getId()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/AdminRequestDto.java:33: error: cannot find symbol
+        return Meeting.builder()
+                      ^
+  symbol:   method builder()
+  location: class Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/AdminRequestDto.java:34: error: cannot find symbol
+                .passkey(this.getPasskey())
+                             ^
+  symbol: method getPasskey()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/AdminRequestDto.java:35: error: cannot find symbol
+                .lat(this.getLat())
+                         ^
+  symbol: method getLat()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/AdminRequestDto.java:36: error: cannot find symbol
+                .lon(this.getLon())
+                         ^
+  symbol: method getLon()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/AdminRequestDto.java:37: error: cannot find symbol
+                .createdDateTime((this.getStartTime()==null)? LocalDateTime.now(): this.getStartTime())
+                                      ^
+  symbol: method getStartTime()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/AdminRequestDto.java:37: error: cannot find symbol
+                .createdDateTime((this.getStartTime()==null)? LocalDateTime.now(): this.getStartTime())
+                                                                                       ^
+  symbol: method getStartTime()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/AdminRequestDto.java:38: error: cannot find symbol
+                .endDateTime((this.getStartTime()==null)? LocalDateTime.now().plusHours(1L): this.getStartTime().plusHours(1L))
+                                  ^
+  symbol: method getStartTime()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/AdminRequestDto.java:38: error: cannot find symbol
+                .endDateTime((this.getStartTime()==null)? LocalDateTime.now().plusHours(1L): this.getStartTime().plusHours(1L))
+                                                                                                 ^
+  symbol: method getStartTime()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/AttendanceRequestDto.java:42: error: cannot find symbol
+        return Participant.builder()
+                          ^
+  symbol:   method builder()
+  location: class Participant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/MeetingResponseDto.java:20: error: cannot find symbol
+        this.passkey = meeting.getPasskey();
+                              ^
+  symbol:   method getPasskey()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/MeetingResponseDto.java:21: error: cannot find symbol
+        this.startTime = meeting.getCreatedDateTime();
+                                ^
+  symbol:   method getCreatedDateTime()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/MeetingResponseDto.java:22: error: cannot find symbol
+        this.endTime = meeting.getEndDateTime();
+                              ^
+  symbol:   method getEndDateTime()
+  location: variable meeting of type Meeting
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/AttendanceResponseDto.java:19: error: cannot find symbol
+        this.studentId = participant.getStudentId();
+                                    ^
+  symbol:   method getStudentId()
+  location: variable participant of type Participant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/AttendanceResponseDto.java:20: error: cannot find symbol
+        this.name = participant.getName();
+                               ^
+  symbol:   method getName()
+  location: variable participant of type Participant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/Meeting/AttendanceResponseDto.java:21: error: cannot find symbol
+        this.generation = participant.getGeneration();
+                                     ^
+  symbol:   method getGeneration()
+  location: variable participant of type Participant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MemberService.java:30: error: cannot find symbol
+        Optional<Member> member = memberRepository.findByStudentId(dto.getStudentId());
+                                                                      ^
+  symbol:   method getStudentId()
+  location: variable dto of type MemberRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MemberService.java:34: error: cannot find symbol
+        return memberRepository.save(dto.toEntity()).getId();
+                                                    ^
+  symbol:   method getId()
+  location: class Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MemberService.java:42: error: cannot find symbol
+        Optional<Member> isExist = memberRepository.findByStudentId(dto.getStudentId());
+                                                                       ^
+  symbol:   method getStudentId()
+  location: variable dto of type MemberRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MemberService.java:44: error: cannot find symbol
+            if(!member.getStudentId().equals(val.getStudentId()))
+                      ^
+  symbol:   method getStudentId()
+  location: variable member of type Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MemberService.java:44: error: cannot find symbol
+            if(!member.getStudentId().equals(val.getStudentId()))
+                                                ^
+  symbol:   method getStudentId()
+  location: variable val of type Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/MemberService.java:48: error: cannot find symbol
+        return member.getId();
+                     ^
+  symbol:   method getId()
+  location: variable member of type Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/MemberRequestDto.java:39: error: cannot find symbol
+        return Member.builder()
+                     ^
+  symbol:   method builder()
+  location: class Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/MemberResponseDto.java:27: error: cannot find symbol
+        this.id = m.getId();
+                   ^
+  symbol:   method getId()
+  location: variable m of type Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/MemberResponseDto.java:28: error: cannot find symbol
+        this.studentId = Long.toString(m.getStudentId());
+                                        ^
+  symbol:   method getStudentId()
+  location: variable m of type Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/MemberResponseDto.java:29: error: cannot find symbol
+        this.name = m.getName();
+                     ^
+  symbol:   method getName()
+  location: variable m of type Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/MemberResponseDto.java:30: error: cannot find symbol
+        this.generation = Long.toString(m.getGeneration());
+                                         ^
+  symbol:   method getGeneration()
+  location: variable m of type Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/MemberResponseDto.java:31: error: cannot find symbol
+        this.contact = m.getContact();
+                        ^
+  symbol:   method getContact()
+  location: variable m of type Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/MemberResponseDto.java:32: error: cannot find symbol
+        this.phone = m.getPhone();
+                      ^
+  symbol:   method getPhone()
+  location: variable m of type Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/MemberResponseDto.java:33: error: cannot find symbol
+        this.department = m.getDepartment();
+                           ^
+  symbol:   method getDepartment()
+  location: variable m of type Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/MemberResponseDto.java:34: error: cannot find symbol
+        this.state = m.getState().getValue();
+                      ^
+  symbol:   method getState()
+  location: variable m of type Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/MemberResponseDto.java:35: error: cannot find symbol
+        this.manageStatus = m.getManageStatus().toDto();
+                             ^
+  symbol:   method getManageStatus()
+  location: variable m of type Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/web/dto/MemberResponseDto.java:39: error: cannot find symbol
+        return Member.builder()
+                     ^
+  symbol:   method builder()
+  location: class Member
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/member/Member.java:63: error: cannot find symbol
+        this.studentId = dto.getStudentId();
+                            ^
+  symbol:   method getStudentId()
+  location: variable dto of type MemberRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/member/Member.java:64: error: cannot find symbol
+        this.name = dto.getName();
+                       ^
+  symbol:   method getName()
+  location: variable dto of type MemberRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/member/Member.java:65: error: cannot find symbol
+        this.generation = dto.getGeneration();
+                             ^
+  symbol:   method getGeneration()
+  location: variable dto of type MemberRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/member/Member.java:66: error: cannot find symbol
+        this.contact = dto.getContact();
+                          ^
+  symbol:   method getContact()
+  location: variable dto of type MemberRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/member/Member.java:67: error: cannot find symbol
+        this.phone = dto.getPhone();
+                        ^
+  symbol:   method getPhone()
+  location: variable dto of type MemberRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/member/Member.java:68: error: cannot find symbol
+        this.department = dto.getDepartment();
+                             ^
+  symbol:   method getDepartment()
+  location: variable dto of type MemberRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/member/Member.java:69: error: cannot find symbol
+        this.state = State.valueOfLabel(dto.getState());
+                                           ^
+  symbol:   method getState()
+  location: variable dto of type MemberRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/member/Member.java:70: error: cannot find symbol
+        this.manageStatus = new ManageStatus(dto.getManageStatus());
+                                                ^
+  symbol:   method getManageStatus()
+  location: variable dto of type MemberRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/member/State.java:27: error: cannot find symbol
+                .filter(v -> v.getValue().equals(value) )
+                              ^
+  symbol:   method getValue()
+  location: variable v of type State
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/domain/member/ManageStatus.java:31: error: constructor ManageStatus in class ManageStatus cannot be applied to given types;
+            new ManageStatus(); // default false
+            ^
+  required: Map<String,String>
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/LoginService.java:22: error: cannot find symbol
+        return login.getRole().getValue();
+                    ^
+  symbol:   method getRole()
+  location: variable login of type Login
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/LoginService.java:27: error: cannot find symbol
+        Login login = loginRepository.findByRole(Login.Role.valueOfLabel(loginDto.getRole())).orElseThrow(() -> new IllegalArgumentException(ErrorMessage.NoExist("권한 종류")));
+                                                                                 ^
+  symbol:   method getRole()
+  location: variable loginDto of type LoginDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task279/wd/NonDex-plugin-test/github.com/kimhanui/2020-InterfaceApp-api/src/main/java/com/infe/app/service/LoginService.java:28: error: cannot find symbol
+        login.updatePassword(loginDto.getPw());
+                                     ^
+  symbol:   method getPw()
+  location: variable loginDto of type LoginDto
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

@@ -1,0 +1,10 @@
+./gradlew: line 1: #!/usr/bin/env: No such file or directory
+./gradlew: line 3: ##############################################################################: command not found
+./gradlew: line 4: ##: command not found
+./gradlew: line 5: ##: command not found
+./gradlew: line 6: ##: command not found
+./gradlew: line 7: ##############################################################################: command not found
+./gradlew: line 9: #: command not found
+./gradlew: line 15: #: command not found
+./gradlew: line 29: syntax error near unexpected token `('
+./gradlew: line 29: `\# OS specific support (must be 'true' or 'false').'

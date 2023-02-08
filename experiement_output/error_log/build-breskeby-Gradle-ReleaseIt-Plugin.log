@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'releaseit-plugin'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve com.jfrog.bintray.gradle:gradle-bintray-plugin:0.3.
+     Required by:
+         project :
+      > Could not resolve com.jfrog.bintray.gradle:gradle-bintray-plugin:0.3.
+         > Could not get resource 'http://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/0.3/gradle-bintray-plugin-0.3.pom'.
+            > Could not GET 'http://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/0.3/gradle-bintray-plugin-0.3.pom'.
+               > Connection reset
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

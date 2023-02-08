@@ -1,0 +1,296 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/BaseTask.groovy: 18: unable to resolve class com.ibm.team.repository.client.ITeamRepository
+ @ line 18, column 1.
+   import com.ibm.team.repository.client.ITeamRepository
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/BaseTask.groovy: 22: unable to resolve class org.eclipse.core.runtime.NullProgressMonitor
+ @ line 22, column 1.
+   import org.eclipse.core.runtime.NullProgressMonitor
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/BaseTask.groovy: 21: unable to resolve class org.eclipse.core.runtime.IProgressMonitor
+ @ line 21, column 1.
+   import org.eclipse.core.runtime.IProgressMonitor
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/BaseTask.groovy: 19: unable to resolve class com.ibm.team.repository.client.TeamPlatform
+ @ line 19, column 1.
+   import com.ibm.team.repository.client.TeamPlatform
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/BaseTask.groovy: 20: unable to resolve class com.ibm.team.repository.common.TeamRepositoryException
+ @ line 20, column 1.
+   import com.ibm.team.repository.common.TeamRepositoryException
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/BaseTask.groovy: 32: unable to resolve class org.eclipse.core.runtime.IProgressMonitor 
+ @ line 32, column 101.
+   ring user, final String pass, IProgressM
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/BaseTask.groovy: 32: unable to resolve class com.ibm.team.repository.common.TeamRepositoryException 
+ @ line 32, column 5.
+       protected ITeamRepository login(String repositoryAddress, final String user, final String pass, IProgressMonitor monitor) throws TeamRepositoryException {
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/BaseTask.groovy: 32: unable to resolve class com.ibm.team.repository.client.ITeamRepository 
+ @ line 32, column 5.
+       protected ITeamRepository login(String repositoryAddress, final String user, final String pass, IProgressMonitor monitor) throws TeamRepositoryException {
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/BaseTask.groovy: 36: unable to resolve class ITeamRepository.ILoginHandler.ILoginInfo 
+ @ line 36, column 71.
+   ry.ILoginHandler.ILoginInfo() {
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/BaseTask.groovy: 34: unable to resolve class ITeamRepository.ILoginHandler 
+ @ line 34, column 77.
+   eamRepository.ILoginHandler() {
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/BaseTask.groovy: 35: unable to resolve class com.ibm.team.repository.client.ITeamRepository 
+ @ line 35, column 71.
+   nHandler.ILoginInfo challenge(ITeamRepos
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/BaseTask.groovy: 35: unable to resolve class ITeamRepository.ILoginHandler.ILoginInfo 
+ @ line 35, column 13.
+               public ITeamRepository.ILoginHandler.ILoginInfo challenge(ITeamRepository repo) {
+               ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 25: unable to resolve class com.ibm.team.repository.client.ITeamRepository
+ @ line 25, column 1.
+   import com.ibm.team.repository.client.ITeamRepository
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 30: unable to resolve class org.eclipse.core.runtime.NullProgressMonitor
+ @ line 30, column 1.
+   import org.eclipse.core.runtime.NullProgressMonitor
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 26: unable to resolve class com.ibm.team.repository.client.TeamPlatform
+ @ line 26, column 1.
+   import com.ibm.team.repository.client.TeamPlatform
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 24: unable to resolve class com.ibm.team.process.internal.client.ProcessClientService
+ @ line 24, column 1.
+   import com.ibm.team.process.internal.client.ProcessClientService
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 31: unable to resolve class org.eclipse.core.runtime.SubProgressMonitor
+ @ line 31, column 1.
+   import org.eclipse.core.runtime.SubProgressMonitor
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 19: unable to resolve class com.ibm.team.process.client.IProcessItemService
+ @ line 19, column 1.
+   import com.ibm.team.process.client.IProcessItemService
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 23: unable to resolve class com.ibm.team.process.internal.client.IProcessInternalClientService
+ @ line 23, column 1.
+   import com.ibm.team.process.internal.client.IProcessInternalClientService
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 29: unable to resolve class org.eclipse.core.runtime.IProgressMonitor
+ @ line 29, column 1.
+   import org.eclipse.core.runtime.IProgressMonitor
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 18: unable to resolve class com.ibm.team.process.client.IProcessClientService
+ @ line 18, column 1.
+   import com.ibm.team.process.client.IProcessClientService
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 27: unable to resolve class com.ibm.team.repository.common.IContent
+ @ line 27, column 1.
+   import com.ibm.team.repository.common.IContent
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 20: unable to resolve class com.ibm.team.process.common.IProcessDefinition
+ @ line 20, column 1.
+   import com.ibm.team.process.common.IProcessDefinition
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 21: unable to resolve class com.ibm.team.process.common.IProjectArea
+ @ line 21, column 1.
+   import com.ibm.team.process.common.IProjectArea
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 22: unable to resolve class com.ibm.team.process.common.IProjectAreaHandle
+ @ line 22, column 1.
+   import com.ibm.team.process.common.IProjectAreaHandle
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 28: unable to resolve class com.ibm.team.repository.common.TeamRepositoryException
+ @ line 28, column 1.
+   import com.ibm.team.repository.common.TeamRepositoryException
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 42: unable to resolve class com.ibm.team.process.client.IProcessItemService 
+ @ line 42, column 5.
+       IProcessItemService service
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 43: unable to resolve class com.ibm.team.repository.client.ITeamRepository 
+ @ line 43, column 5.
+       ITeamRepository teamRepo
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 44: unable to resolve class org.eclipse.core.runtime.IProgressMonitor 
+ @ line 44, column 5.
+       IProgressMonitor monitor
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 72: unable to resolve class com.ibm.team.repository.common.TeamRepositoryException 
+ @ line 72, column 5.
+       private IProjectArea getProjectArea(final String projectAreaName) throws TeamRepositoryException
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 72: unable to resolve class com.ibm.team.process.common.IProjectArea 
+ @ line 72, column 5.
+       private IProjectArea getProjectArea(final String projectAreaName) throws TeamRepositoryException
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 88: unable to resolve class com.ibm.team.process.common.IProcessDefinition 
+ @ line 88, column 84.
+   hivePath, String archiveName, IProcessDe
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 88: unable to resolve class org.eclipse.core.runtime.IProgressMonitor 
+ @ line 88, column 115.
+   ProcessDefinition definition, IProgressM
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 88: unable to resolve class com.ibm.team.repository.common.TeamRepositoryException 
+ @ line 88, column 5.
+       private String exportProcessDefinition(String archivePath, String archiveName, IProcessDefinition definition, IProgressMonitor monitor) throws TeamRepositoryException, IOException {
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 118: unable to resolve class com.ibm.team.process.common.IProcessDefinition 
+ @ line 118, column 34.
+       private void exportToArchive(IProcessDefinition definition, File archive, IProgressMonitor monitor) throws TeamRepositoryException {
+                                    ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 118: unable to resolve class org.eclipse.core.runtime.IProgressMonitor 
+ @ line 118, column 79.
+   ion definition, File archive, IProgressM
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/ExportProcessTemplate.groovy: 118: unable to resolve class com.ibm.team.repository.common.TeamRepositoryException 
+ @ line 118, column 5.
+       private void exportToArchive(IProcessDefinition definition, File archive, IProgressMonitor monitor) throws TeamRepositoryException {
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 21: unable to resolve class com.ibm.team.repository.client.ITeamRepository
+ @ line 21, column 1.
+   import com.ibm.team.repository.client.ITeamRepository
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 27: unable to resolve class org.eclipse.core.runtime.NullProgressMonitor
+ @ line 27, column 1.
+   import org.eclipse.core.runtime.NullProgressMonitor
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 22: unable to resolve class com.ibm.team.repository.client.TeamPlatform
+ @ line 22, column 1.
+   import com.ibm.team.repository.client.TeamPlatform
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 28: unable to resolve class org.eclipse.core.runtime.SubProgressMonitor
+ @ line 28, column 1.
+   import org.eclipse.core.runtime.SubProgressMonitor
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 19: unable to resolve class com.ibm.team.process.internal.client.IProcessInternalClientService
+ @ line 19, column 1.
+   import com.ibm.team.process.internal.client.IProcessInternalClientService
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 26: unable to resolve class org.eclipse.core.runtime.IProgressMonitor
+ @ line 26, column 1.
+   import org.eclipse.core.runtime.IProgressMonitor
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 23: unable to resolve class com.ibm.team.repository.common.IContent
+ @ line 23, column 1.
+   import com.ibm.team.repository.common.IContent
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 24: unable to resolve class com.ibm.team.repository.common.LineDelimiter
+ @ line 24, column 1.
+   import com.ibm.team.repository.common.LineDelimiter
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 18: unable to resolve class com.ibm.team.process.common.IProcessDefinition
+ @ line 18, column 1.
+   import com.ibm.team.process.common.IProcessDefinition
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 20: unable to resolve class com.ibm.team.process.internal.common.util.ApplicationVisibilityConstants
+ @ line 20, column 1.
+   import com.ibm.team.process.internal.common.util.ApplicationVisibilityConstants
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 25: unable to resolve class com.ibm.team.repository.common.TeamRepositoryException
+ @ line 25, column 1.
+   import com.ibm.team.repository.common.TeamRepositoryException
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 42: unable to resolve class com.ibm.team.repository.client.ITeamRepository 
+ @ line 42, column 5.
+       ITeamRepository teamRepo
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 43: unable to resolve class org.eclipse.core.runtime.IProgressMonitor 
+ @ line 43, column 5.
+       IProgressMonitor monitor
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 65: unable to resolve class org.eclipse.core.runtime.IProgressMonitor 
+ @ line 65, column 147.
+   String definitionToOverwrite, IProgressM
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 65: unable to resolve class com.ibm.team.repository.common.TeamRepositoryException 
+ @ line 65, column 5.
+       public IProcessDefinition importProcessDefinition(File archiveFile, String definitionId, String definitionName, String definitionToOverwrite, IProgressMonitor monitor) throws TeamRepositoryException {
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 65: unable to resolve class com.ibm.team.process.common.IProcessDefinition 
+ @ line 65, column 5.
+       public IProcessDefinition importProcessDefinition(File archiveFile, String definitionId, String definitionName, String definitionToOverwrite, IProgressMonitor monitor) throws TeamRepositoryException {
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 90: unable to resolve class org.eclipse.core.runtime.IProgressMonitor 
+ @ line 90, column 61.
+   aryContentFromFile(File file, IProgressM
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 90: unable to resolve class com.ibm.team.repository.common.TeamRepositoryException 
+ @ line 90, column 5.
+       private IContent createBinaryContentFromFile(File file, IProgressMonitor monitor) throws TeamRepositoryException {
+       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task52/wd/NonDex-plugin-test/github.com/dentsads/gradle-jazz-plugin/src/main/groovy/com/dentsads/rtc/build/gradle/tasks/InstantiateProcessTemplate.groovy: 90: unable to resolve class com.ibm.team.repository.common.IContent 
+ @ line 90, column 5.
+       private IContent createBinaryContentFromFile(File file, IProgressMonitor monitor) throws TeamRepositoryException {
+       ^
+
+56 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

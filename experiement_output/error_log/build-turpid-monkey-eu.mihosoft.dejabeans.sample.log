@@ -1,0 +1,29 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'eu.mihosoft.dejabeans.sample'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find eu.mihosoft.dejabeans:dejabeans:0.1.
+     Searched in the following locations:
+       - file:/root/.m2/repository/eu/mihosoft/dejabeans/dejabeans/0.1/dejabeans-0.1.pom
+       - file:/root/.m2/repository/eu/mihosoft/dejabeans/dejabeans/0.1/dejabeans-0.1.jar
+       - https://jcenter.bintray.com/eu/mihosoft/dejabeans/dejabeans/0.1/dejabeans-0.1.pom
+       - https://jcenter.bintray.com/eu/mihosoft/dejabeans/dejabeans/0.1/dejabeans-0.1.jar
+     Required by:
+         project :
+   > Could not find eu.mihosoft.dejabeans.gradle:dejabeans-plugin:0.1.
+     Searched in the following locations:
+       - file:/root/.m2/repository/eu/mihosoft/dejabeans/gradle/dejabeans-plugin/0.1/dejabeans-plugin-0.1.pom
+       - file:/root/.m2/repository/eu/mihosoft/dejabeans/gradle/dejabeans-plugin/0.1/dejabeans-plugin-0.1.jar
+       - https://jcenter.bintray.com/eu/mihosoft/dejabeans/gradle/dejabeans-plugin/0.1/dejabeans-plugin-0.1.pom
+       - https://jcenter.bintray.com/eu/mihosoft/dejabeans/gradle/dejabeans-plugin/0.1/dejabeans-plugin-0.1.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

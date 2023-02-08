@@ -1,0 +1,397 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:6: error: package javafx.scene does not exist
+import javafx.scene.Group;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:7: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:8: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:9: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:10: error: package javafx.scene.control does not exist
+import javafx.scene.control.ListView;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:11: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:12: error: package javafx.scene.image does not exist
+import javafx.scene.image.ImageView;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:13: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.Pane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:14: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:19: error: cannot find symbol
+    private Pane deckLook;
+            ^
+  symbol:   class Pane
+  location: class ChangeCardBack
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:20: error: cannot find symbol
+    private ListView select;
+            ^
+  symbol:   class ListView
+  location: class ChangeCardBack
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:21: error: cannot find symbol
+    private Label lblInstruction;
+            ^
+  symbol:   class Label
+  location: class ChangeCardBack
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:22: error: cannot find symbol
+    private Button ok, cancel;
+            ^
+  symbol:   class Button
+  location: class ChangeCardBack
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:23: error: cannot find symbol
+    private ImageView look;
+            ^
+  symbol:   class ImageView
+  location: class ChangeCardBack
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:27: error: cannot find symbol
+    public ChangeCardBack(Stage secondery, Game actualGame) {
+                          ^
+  symbol:   class Stage
+  location: class ChangeCardBack
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/Game.java:8: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeCardBack.java:55: error: cannot find symbol
+    private Pane deckLook() {
+            ^
+  symbol:   class Pane
+  location: class ChangeCardBack
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/domain/Card.java:5: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/domain/Card.java:6: error: package javafx.scene.image does not exist
+import javafx.scene.image.ImageView;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/domain/Card.java:10: error: cannot find symbol
+public class Card extends ImageView {
+                          ^
+  symbol: class ImageView
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:6: error: package javafx.event does not exist
+import javafx.event.ActionEvent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:7: error: package javafx.event does not exist
+import javafx.event.EventHandler;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:8: error: package javafx.scene.input does not exist
+import javafx.scene.input.MouseEvent;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/Game.java:16: error: cannot find symbol
+    protected Pane board;
+              ^
+  symbol:   class Pane
+  location: class Game
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/Game.java:49: error: cannot find symbol
+    public Pane getBoard() {
+           ^
+  symbol:   class Pane
+  location: class Game
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:8: error: package javafx.scene does not exist
+import javafx.scene.Group;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:9: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:10: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:11: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:12: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:13: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:30: error: cannot find symbol
+    public EventHandler<ActionEvent> getOnUndo() {
+           ^
+  symbol:   class EventHandler
+  location: class MouseGestures
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:30: error: cannot find symbol
+    public EventHandler<ActionEvent> getOnUndo() {
+                        ^
+  symbol:   class ActionEvent
+  location: class MouseGestures
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:34: error: cannot find symbol
+    protected EventHandler<ActionEvent> onUndo;
+              ^
+  symbol:   class EventHandler
+  location: class MouseGestures
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:34: error: cannot find symbol
+    protected EventHandler<ActionEvent> onUndo;
+                           ^
+  symbol:   class ActionEvent
+  location: class MouseGestures
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:35: error: cannot find symbol
+    protected EventHandler<MouseEvent> onMousePressedEventHandler;
+              ^
+  symbol:   class EventHandler
+  location: class MouseGestures
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:35: error: cannot find symbol
+    protected EventHandler<MouseEvent> onMousePressedEventHandler;
+                           ^
+  symbol:   class MouseEvent
+  location: class MouseGestures
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:36: error: cannot find symbol
+    protected EventHandler<MouseEvent> onMouseDraggedEventHandler;
+              ^
+  symbol:   class EventHandler
+  location: class MouseGestures
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:36: error: cannot find symbol
+    protected EventHandler<MouseEvent> onMouseDraggedEventHandler;
+                           ^
+  symbol:   class MouseEvent
+  location: class MouseGestures
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:37: error: cannot find symbol
+    protected EventHandler<MouseEvent> onMouseReleasedEventHandler;
+              ^
+  symbol:   class EventHandler
+  location: class MouseGestures
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/mousegestures/MouseGestures.java:37: error: cannot find symbol
+    protected EventHandler<MouseEvent> onMouseReleasedEventHandler;
+                           ^
+  symbol:   class MouseEvent
+  location: class MouseGestures
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:22: error: cannot find symbol
+    private Label gameName;
+            ^
+  symbol:   class Label
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:23: error: cannot find symbol
+    private TextField scoreText;
+            ^
+  symbol:   class TextField
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:4: error: package javafx.beans.property does not exist
+import javafx.beans.property.ReadOnlyDoubleProperty;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:5: error: package javafx.event does not exist
+import javafx.event.ActionEvent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:6: error: package javafx.geometry does not exist
+import javafx.geometry.Pos;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:7: error: package javafx.scene.control does not exist
+import javafx.scene.control.Menu;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:8: error: package javafx.scene.control does not exist
+import javafx.scene.control.MenuBar;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:9: error: package javafx.scene.control does not exist
+import javafx.scene.control.MenuItem;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:10: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:11: error: package javafx.scene.paint does not exist
+import javafx.scene.paint.Color;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:12: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:25: error: cannot find symbol
+    private Group root;
+            ^
+  symbol:   class Group
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:28: error: cannot find symbol
+    public MainController(Stage primaryStage) {
+                          ^
+  symbol:   class Stage
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:128: error: cannot find symbol
+    public Label getGameName() {
+           ^
+  symbol:   class Label
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:132: error: cannot find symbol
+    public void setGameName(Label gameName) {
+                            ^
+  symbol:   class Label
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:140: error: cannot find symbol
+    public TextField getScoreText() {
+           ^
+  symbol:   class TextField
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/MainController.java:144: error: cannot find symbol
+    public void setScoreText(TextField scoreText) {
+                             ^
+  symbol:   class TextField
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:22: error: cannot find symbol
+    private static Stage secondery;
+                   ^
+  symbol:   class Stage
+  location: class OwnMenu
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:28: error: cannot find symbol
+    public OwnMenu(ReadOnlyDoubleProperty stageWidth, MainController mainController) {
+                   ^
+  symbol:   class ReadOnlyDoubleProperty
+  location: class OwnMenu
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:38: error: cannot find symbol
+    private MenuBar createDefaultMenuBar(ReadOnlyDoubleProperty width) {
+                                         ^
+  symbol:   class ReadOnlyDoubleProperty
+  location: class OwnMenu
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:168: error: package javafx.scene.control does not exist
+    public javafx.scene.control.Label setLabel(javafx.scene.control.Label gameName, String text, String colour) {
+                                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/OwnMenu.java:168: error: package javafx.scene.control does not exist
+    public javafx.scene.control.Label setLabel(javafx.scene.control.Label gameName, String text, String colour) {
+                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/domain/Card.java:16: error: cannot find symbol
+    private Image front, back;
+            ^
+  symbol:   class Image
+  location: class Card
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/domain/Card.java:94: error: cannot find symbol
+    public Image getFront() {
+           ^
+  symbol:   class Image
+  location: class Card
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/domain/Card.java:98: error: cannot find symbol
+    public void setFront(Image image) {
+                         ^
+  symbol:   class Image
+  location: class Card
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/domain/Card.java:119: error: cannot find symbol
+    public Image getBack() {
+           ^
+  symbol:   class Image
+  location: class Card
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/domain/Card.java:123: error: cannot find symbol
+    public void setBack(Image back) {
+                        ^
+  symbol:   class Image
+  location: class Card
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/backEnd/services/game/Game.java:9: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:5: error: package javafx.scene does not exist
+import javafx.scene.Group;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:6: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:7: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:8: error: package javafx.scene.control does not exist
+import javafx.scene.control.TableColumn;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:9: error: package javafx.scene.control does not exist
+import javafx.scene.control.TableView;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:10: error: package javafx.scene.control.cell does not exist
+import javafx.scene.control.cell.PropertyValueFactory;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:11: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:12: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.Pane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:13: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:20: error: cannot find symbol
+    private Button ok, clear;
+            ^
+  symbol:   class Button
+  location: class ScoreBoard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:21: error: cannot find symbol
+    private Pane scoreBoard;
+            ^
+  symbol:   class Pane
+  location: class ScoreBoard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:22: error: cannot find symbol
+    private TableView table;
+            ^
+  symbol:   class TableView
+  location: class ScoreBoard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:23: error: cannot find symbol
+    private TableColumn rank, name, point;
+            ^
+  symbol:   class TableColumn
+  location: class ScoreBoard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:27: error: cannot find symbol
+    public ScoreBoard(Stage secondery) {
+                      ^
+  symbol:   class Stage
+  location: class ScoreBoard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ScoreBoard.java:53: error: cannot find symbol
+    private Pane scoreBoard() {
+            ^
+  symbol:   class Pane
+  location: class ScoreBoard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/Alerts.java:5: error: package javafx.geometry does not exist
+import javafx.geometry.Insets;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/Alerts.java:6: error: package javafx.scene.control does not exist
+import javafx.scene.control.Alert;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/Alerts.java:7: error: package javafx.scene.control does not exist
+import javafx.scene.control.ButtonType;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/Alerts.java:8: error: package javafx.scene.control does not exist
+import javafx.scene.control.Dialog;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/Alerts.java:9: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextInputDialog;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/Alerts.java:10: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/Alerts.java:11: error: package javafx.scene.image does not exist
+import javafx.scene.image.ImageView;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/Alerts.java:12: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.GridPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/Alerts.java:13: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/Alerts.java:14: error: package javafx.util does not exist
+import javafx.util.Pair;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeDeckLook.java:6: error: package javafx.scene does not exist
+import javafx.scene.Group;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeDeckLook.java:7: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeDeckLook.java:8: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeDeckLook.java:9: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeDeckLook.java:10: error: package javafx.scene.control does not exist
+import javafx.scene.control.ListView;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task638/wd/NonDex-plugin-test/github.com/TorokNiki/Kartyajatek_Soliter/src/main/java/frontEnd/settings/ChangeDeckLook.java:11: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

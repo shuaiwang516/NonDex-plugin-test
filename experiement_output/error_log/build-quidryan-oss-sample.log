@@ -1,0 +1,31 @@
+[Fatal Error] gradle-release-1.1.5.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] license-gradle-plugin-0.6.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-release-1.1.5.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] license-gradle-plugin-0.6.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-release-1.1.5.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] license-gradle-plugin-0.6.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'oss-sample'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve nl.javadude.gradle.plugins:license-gradle-plugin:0.6.1.
+     Required by:
+         project :
+      > Could not resolve nl.javadude.gradle.plugins:license-gradle-plugin:0.6.1.
+         > Could not parse POM http://dl.bintray.com/content/netflixoss/external-gradle-plugins/nl/javadude/gradle/plugins/license-gradle-plugin/0.6.1/license-gradle-plugin-0.6.1.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve gradle-release:gradle-release:1.1.5.
+     Required by:
+         project :
+      > Could not resolve gradle-release:gradle-release:1.1.5.
+         > Could not parse POM http://dl.bintray.com/content/netflixoss/external-gradle-plugins/gradle-release/gradle-release/1.1.5/gradle-release-1.1.5.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

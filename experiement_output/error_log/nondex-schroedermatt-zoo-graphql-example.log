@@ -1,0 +1,84 @@
+startup failed:
+General error during semantic analysis: java.lang.NoClassDefFoundError: Unable to load class graphql.GraphQL due to missing dependency org/antlr/v4/runtime/misc/ParseCancellationException
+
+java.lang.RuntimeException: java.lang.NoClassDefFoundError: Unable to load class graphql.GraphQL due to missing dependency org/antlr/v4/runtime/misc/ParseCancellationException
+	at org.codehaus.groovy.control.CompilationUnit.convertUncaughtExceptionToCompilationError(CompilationUnit.java:1101)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1079)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:603)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:581)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:558)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:537)
+	at org.gradle.api.internal.tasks.compile.ApiGroovyCompiler.execute(ApiGroovyCompiler.java:179)
+	at org.gradle.api.internal.tasks.compile.ApiGroovyCompiler.execute(ApiGroovyCompiler.java:57)
+	at org.gradle.api.internal.tasks.compile.GroovyCompilerFactory$DaemonSideCompiler.execute(GroovyCompilerFactory.java:80)
+	at org.gradle.api.internal.tasks.compile.GroovyCompilerFactory$DaemonSideCompiler.execute(GroovyCompilerFactory.java:68)
+	at org.gradle.api.internal.tasks.compile.daemon.AbstractDaemonCompiler$CompilerCallable.call(AbstractDaemonCompiler.java:86)
+	at org.gradle.api.internal.tasks.compile.daemon.AbstractDaemonCompiler$CompilerCallable.call(AbstractDaemonCompiler.java:74)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:42)
+	at org.gradle.workers.internal.WorkerDaemonServer.execute(WorkerDaemonServer.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.process.internal.worker.request.WorkerAction.run(WorkerAction.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: Unable to load class graphql.GraphQL due to missing dependency org/antlr/v4/runtime/misc/ParseCancellationException
+	at org.codehaus.groovy.vmplugin.v5.Java5.configureClassNode(Java5.java:392)
+	at org.codehaus.groovy.ast.ClassNode.lazyClassInit(ClassNode.java:280)
+	at org.codehaus.groovy.ast.ClassNode.getDeclaredMethods(ClassNode.java:877)
+	at org.codehaus.groovy.ast.ClassNode.getMethods(ClassNode.java:892)
+	at org.codehaus.groovy.ast.ClassNode.hasPossibleStaticMethod(ClassNode.java:1313)
+	at org.codehaus.groovy.control.StaticImportVisitor.findStaticMethod(StaticImportVisitor.java:597)
+	at org.codehaus.groovy.control.StaticImportVisitor.findStaticMethodImportFromModule(StaticImportVisitor.java:463)
+	at org.codehaus.groovy.control.StaticImportVisitor.transformMethodCallExpression(StaticImportVisitor.java:270)
+	at org.codehaus.groovy.control.StaticImportVisitor.transform(StaticImportVisitor.java:108)
+	at org.codehaus.groovy.control.StaticImportVisitor.transformMethodCallExpression(StaticImportVisitor.java:259)
+	at org.codehaus.groovy.control.StaticImportVisitor.transform(StaticImportVisitor.java:108)
+	at org.codehaus.groovy.control.StaticImportVisitor.transformMethodCallExpression(StaticImportVisitor.java:259)
+	at org.codehaus.groovy.control.StaticImportVisitor.transform(StaticImportVisitor.java:108)
+	at org.codehaus.groovy.ast.ClassCodeExpressionTransformer.visitReturnStatement(ClassCodeExpressionTransformer.java:104)
+	at org.codehaus.groovy.ast.stmt.ReturnStatement.visit(ReturnStatement.java:49)
+	at org.codehaus.groovy.ast.CodeVisitorSupport.visitBlockStatement(CodeVisitorSupport.java:37)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitBlockStatement(ClassCodeVisitorSupport.java:166)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)
+	at org.codehaus.groovy.ast.ClassCodeExpressionTransformer.visitConstructorOrMethod(ClassCodeExpressionTransformer.java:53)
+	at org.codehaus.groovy.control.StaticImportVisitor.visitConstructorOrMethod(StaticImportVisitor.java:84)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)
+	at org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1081)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)
+	at org.codehaus.groovy.control.StaticImportVisitor.visitClass(StaticImportVisitor.java:78)
+	at org.codehaus.groovy.control.CompilationUnit$13.call(CompilationUnit.java:671)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1065)
+	... 32 more
+
+1 error
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

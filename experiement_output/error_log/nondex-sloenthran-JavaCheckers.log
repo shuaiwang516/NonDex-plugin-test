@@ -1,0 +1,369 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:3: error: package javafx.geometry does not exist
+import javafx.geometry.HPos;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:4: error: package javafx.geometry does not exist
+import javafx.geometry.Insets;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:5: error: package javafx.geometry does not exist
+import javafx.geometry.VPos;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:6: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:7: error: package javafx.scene.image does not exist
+import javafx.scene.image.ImageView;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:16: error: cannot find symbol
+    private static GridPane gridPane = new GridPane();
+                   ^
+  symbol:   class GridPane
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:17: error: cannot find symbol
+    private static Image lightMove = new Image(Resources.getPath("light.png"));
+                   ^
+  symbol:   class Image
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:24: error: cannot find symbol
+    public static GridPane getGridPane() {
+                  ^
+  symbol:   class GridPane
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/pawns/PawnClass.java:3: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/pawns/PawnClass.java:4: error: package javafx.scene.image does not exist
+import javafx.scene.image.ImageView;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/pawns/PawnClass.java:27: error: cannot find symbol
+    public ImageView getImage() {
+           ^
+  symbol:   class ImageView
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/pawns/PawnClass.java:32: error: cannot find symbol
+    public ImageView getLightImage() {
+           ^
+  symbol:   class ImageView
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:8: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/EndGame.java:3: error: package javafx.scene.control does not exist
+import javafx.scene.control.Alert;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/EndGame.java:4: error: package javafx.scene.control does not exist
+import javafx.scene.control.ButtonType;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:3: error: package javafx.concurrent does not exist
+import javafx.concurrent.Task;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:4: error: package javafx.concurrent does not exist
+import javafx.concurrent.WorkerStateEvent;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:5: error: package javafx.event does not exist
+import javafx.event.EventHandler;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:6: error: package javafx.scene.input does not exist
+import javafx.scene.input.KeyCode;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:7: error: package javafx.scene.input does not exist
+import javafx.scene.input.KeyEvent;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:8: error: package javafx.scene.input does not exist
+import javafx.scene.input.MouseEvent;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:82: error: cannot find symbol
+    public void readMouseEvent(MouseEvent event) {
+                               ^
+  symbol:   class MouseEvent
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:135: error: cannot find symbol
+    public void readKeyboard(KeyEvent event) {
+                             ^
+  symbol:   class KeyEvent
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/Checkers.java:3: error: package javafx.application does not exist
+import javafx.application.Application;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/Checkers.java:4: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/Checkers.java:5: error: package javafx.scene.paint does not exist
+import javafx.scene.paint.Color;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/Checkers.java:6: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/Checkers.java:13: error: cannot find symbol
+public class Checkers extends Application {
+                              ^
+  symbol: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/Checkers.java:22: error: cannot find symbol
+    public void start(Stage primaryStage) {
+                      ^
+  symbol:   class Stage
+  location: class Checkers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:16: error: cannot find symbol
+    private static GridPane gridPane = new GridPane();
+                                           ^
+  symbol:   class GridPane
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:17: error: cannot find symbol
+    private static Image lightMove = new Image(Resources.getPath("light.png"));
+                                         ^
+  symbol:   class Image
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:29: error: cannot find symbol
+        Image background = new Image(Resources.getPath("board.png"));
+        ^
+  symbol:   class Image
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:29: error: cannot find symbol
+        Image background = new Image(Resources.getPath("board.png"));
+                               ^
+  symbol:   class Image
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:30: error: cannot find symbol
+        BackgroundSize backgroundSize = new BackgroundSize(750, 750, false, false, true, false);
+        ^
+  symbol:   class BackgroundSize
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:30: error: cannot find symbol
+        BackgroundSize backgroundSize = new BackgroundSize(750, 750, false, false, true, false);
+                                            ^
+  symbol:   class BackgroundSize
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:31: error: cannot find symbol
+        BackgroundImage backgroundImage = new BackgroundImage(background, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, backgroundSize);
+        ^
+  symbol:   class BackgroundImage
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:31: error: cannot find symbol
+        BackgroundImage backgroundImage = new BackgroundImage(background, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, backgroundSize);
+                                              ^
+  symbol:   class BackgroundImage
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:31: error: cannot find symbol
+        BackgroundImage backgroundImage = new BackgroundImage(background, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, backgroundSize);
+                                                                          ^
+  symbol:   variable BackgroundRepeat
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:31: error: cannot find symbol
+        BackgroundImage backgroundImage = new BackgroundImage(background, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, backgroundSize);
+                                                                                                      ^
+  symbol:   variable BackgroundRepeat
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:31: error: cannot find symbol
+        BackgroundImage backgroundImage = new BackgroundImage(background, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, backgroundSize);
+                                                                                                                                  ^
+  symbol:   variable BackgroundPosition
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:32: error: cannot find symbol
+        gridPane.setBackground(new Background(backgroundImage));
+                                   ^
+  symbol:   class Background
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:40: error: cannot find symbol
+            ColumnConstraints column = new ColumnConstraints(85);
+            ^
+  symbol:   class ColumnConstraints
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:40: error: cannot find symbol
+            ColumnConstraints column = new ColumnConstraints(85);
+                                           ^
+  symbol:   class ColumnConstraints
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:41: error: cannot find symbol
+            column.setHgrow(Priority.ALWAYS);
+                            ^
+  symbol:   variable Priority
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:42: error: cannot find symbol
+            column.setHalignment(HPos.CENTER);
+                                 ^
+  symbol:   variable HPos
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:45: error: cannot find symbol
+            RowConstraints row = new RowConstraints(85);
+            ^
+  symbol:   class RowConstraints
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:45: error: cannot find symbol
+            RowConstraints row = new RowConstraints(85);
+                                     ^
+  symbol:   class RowConstraints
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:46: error: cannot find symbol
+            row.setVgrow(Priority.ALWAYS);
+                         ^
+  symbol:   variable Priority
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:47: error: cannot find symbol
+            row.setValignment(VPos.CENTER);
+                              ^
+  symbol:   variable VPos
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:51: error: cannot find symbol
+        gridPane.setPadding(new Insets(37, 0, 0, 37));
+                                ^
+  symbol:   class Insets
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:63: error: cannot find symbol
+        gridPane.add(new ImageView(lightMove), coordinates.getX(), coordinates.getY());
+                         ^
+  symbol:   class ImageView
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:67: error: cannot find symbol
+        gridPane.getChildren().removeIf(node -> GridPane.getColumnIndex(node) == coordinates.getX() && GridPane.getRowIndex(node) == coordinates.getY());
+                                                ^
+  symbol:   variable GridPane
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/Design.java:67: error: cannot find symbol
+        gridPane.getChildren().removeIf(node -> GridPane.getColumnIndex(node) == coordinates.getX() && GridPane.getRowIndex(node) == coordinates.getY());
+                                                                                                       ^
+  symbol:   variable GridPane
+  location: class Design
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/pawns/PawnClass.java:28: error: cannot find symbol
+        Image image = new Image(Resources.getPath("pawns/" + color + "_" + pawn + ".png"));
+        ^
+  symbol:   class Image
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/pawns/PawnClass.java:28: error: cannot find symbol
+        Image image = new Image(Resources.getPath("pawns/" + color + "_" + pawn + ".png"));
+                          ^
+  symbol:   class Image
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/pawns/PawnClass.java:29: error: cannot find symbol
+        return new ImageView(image);
+                   ^
+  symbol:   class ImageView
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/pawns/PawnClass.java:33: error: cannot find symbol
+        Image image = new Image(Resources.getPath("pawns/light_" + color + "_" + pawn + ".png"));
+        ^
+  symbol:   class Image
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/pawns/PawnClass.java:33: error: cannot find symbol
+        Image image = new Image(Resources.getPath("pawns/light_" + color + "_" + pawn + ".png"));
+                          ^
+  symbol:   class Image
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/pawns/PawnClass.java:34: error: cannot find symbol
+        return new ImageView(image);
+                   ^
+  symbol:   class ImageView
+  location: class PawnClass
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/EndGame.java:20: error: cannot find symbol
+        Alert alert = new Alert(Alert.AlertType.NONE);
+        ^
+  symbol:   class Alert
+  location: class EndGame
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/EndGame.java:20: error: cannot find symbol
+        Alert alert = new Alert(Alert.AlertType.NONE);
+                          ^
+  symbol:   class Alert
+  location: class EndGame
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/EndGame.java:20: error: package Alert does not exist
+        Alert alert = new Alert(Alert.AlertType.NONE);
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/EndGame.java:24: error: cannot find symbol
+        ButtonType newGameButton = new ButtonType("New game");
+        ^
+  symbol:   class ButtonType
+  location: class EndGame
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/EndGame.java:24: error: cannot find symbol
+        ButtonType newGameButton = new ButtonType("New game");
+                                       ^
+  symbol:   class ButtonType
+  location: class EndGame
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/EndGame.java:25: error: cannot find symbol
+        ButtonType exitButton = new ButtonType("Exit");
+        ^
+  symbol:   class ButtonType
+  location: class EndGame
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/EndGame.java:25: error: cannot find symbol
+        ButtonType exitButton = new ButtonType("Exit");
+                                    ^
+  symbol:   class ButtonType
+  location: class EndGame
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/application/EndGame.java:29: error: cannot find symbol
+        Optional<ButtonType> result = alert.showAndWait();
+                 ^
+  symbol:   class ButtonType
+  location: class EndGame
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:136: error: cannot find symbol
+        if(event.getCode().equals(KeyCode.R) || event.getCode().equals(KeyCode.N)) {
+                                  ^
+  symbol:   variable KeyCode
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:136: error: cannot find symbol
+        if(event.getCode().equals(KeyCode.R) || event.getCode().equals(KeyCode.N)) {
+                                                                       ^
+  symbol:   variable KeyCode
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:148: error: cannot find symbol
+        Task<Void> computerSleep = new Task<Void>() {
+        ^
+  symbol:   class Task
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:148: error: cannot find symbol
+        Task<Void> computerSleep = new Task<Void>() {
+                                       ^
+  symbol:   class Task
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:149: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:161: error: cannot find symbol
+        computerSleep.setOnSucceeded(new EventHandler<WorkerStateEvent>() {
+                                         ^
+  symbol:   class EventHandler
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:161: error: cannot find symbol
+        computerSleep.setOnSucceeded(new EventHandler<WorkerStateEvent>() {
+                                                      ^
+  symbol:   class WorkerStateEvent
+  location: class Board
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:163: error: cannot find symbol
+            public void handle(WorkerStateEvent event) {
+                               ^
+  symbol: class WorkerStateEvent
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/board/Board.java:162: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/Checkers.java:18: error: cannot find symbol
+        launch(args);
+        ^
+  symbol:   method launch(String[])
+  location: class Checkers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/Checkers.java:21: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/Checkers.java:23: error: cannot find symbol
+        Scene scene = new Scene(design.getGridPane(), 750, 750, Color.BLACK);
+        ^
+  symbol:   class Scene
+  location: class Checkers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/Checkers.java:23: error: cannot find symbol
+        Scene scene = new Scene(design.getGridPane(), 750, 750, Color.BLACK);
+                          ^
+  symbol:   class Scene
+  location: class Checkers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/sloenthran/JavaCheckers/src/main/java/pl/nogacz/checkers/Checkers.java:23: error: cannot find symbol
+        Scene scene = new Scene(design.getGridPane(), 750, 750, Color.BLACK);
+                                                                ^
+  symbol:   variable Color
+  location: class Checkers
+81 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

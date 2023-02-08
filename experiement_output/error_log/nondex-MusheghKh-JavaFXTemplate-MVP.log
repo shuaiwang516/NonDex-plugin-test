@@ -1,0 +1,199 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/BaseView.java:3: error: package javafx.fxml does not exist
+import javafx.fxml.Initializable;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/BaseView.java:5: error: cannot find symbol
+public interface BaseView<T> extends Initializable {
+                                     ^
+  symbol: class Initializable
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:4: error: package javafx.fxml does not exist
+import javafx.fxml.FXML;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:5: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:6: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:7: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.BorderPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:19: error: cannot find symbol
+    private BorderPane mainPane;
+            ^
+  symbol:   class BorderPane
+  location: class MainViewController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:21: error: cannot find symbol
+    private Button btnShow;
+            ^
+  symbol:   class Button
+  location: class MainViewController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:23: error: cannot find symbol
+    private Label lblResult;
+            ^
+  symbol:   class Label
+  location: class MainViewController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/FxmlLoader.java:4: error: package javafx.fxml does not exist
+import javafx.fxml.FXMLLoader;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/FxmlLoader.java:5: error: package javafx.scene does not exist
+import javafx.scene.Parent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/FxmlLoader.java:13: error: cannot find symbol
+    Parent load(String location){
+    ^
+  symbol:   class Parent
+  location: class FxmlLoader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/ViewFactory.java:3: error: package javafx.scene does not exist
+import javafx.scene.Parent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/ViewFactory.java:13: error: cannot find symbol
+    private Map<String, Parent> viewInstances;
+                        ^
+  symbol:   class Parent
+  location: class ViewFactory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/ViewFactory.java:20: error: cannot find symbol
+    public Parent getView(String view){
+           ^
+  symbol:   class Parent
+  location: class ViewFactory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/FXApplication.java:6: error: package javafx.application does not exist
+import javafx.application.Application;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/FXApplication.java:7: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/FXApplication.java:8: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/FXApplication.java:12: error: cannot find symbol
+public class FXApplication extends Application {
+                                   ^
+  symbol: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/FXApplication.java:23: error: cannot find symbol
+    public void start(Stage primaryStage) throws Exception {
+                      ^
+  symbol:   class Stage
+  location: class FXApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:18: error: cannot find symbol
+    @FXML
+     ^
+  symbol:   class FXML
+  location: class MainViewController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:20: error: cannot find symbol
+    @FXML
+     ^
+  symbol:   class FXML
+  location: class MainViewController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:22: error: cannot find symbol
+    @FXML
+     ^
+  symbol:   class FXML
+  location: class MainViewController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:33: error: cannot find symbol
+    @FXML
+     ^
+  symbol:   class FXML
+  location: class MainViewController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/service/PersonService.java:10: error: cannot find symbol
+        log.info("Initializing Person Service");
+        ^
+  symbol:   variable log
+  location: class PersonService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainPresenter.java:23: error: cannot find symbol
+        log.debug("in showPerson");
+        ^
+  symbol:   variable log
+  location: class MainPresenter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:28: error: cannot find symbol
+        log.debug("Displaying person");
+        ^
+  symbol:   variable log
+  location: class MainViewController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/components/main/MainViewController.java:34: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/FxmlLoader.java:14: error: cannot find symbol
+        log.debug("Loading FXML from " + location);
+        ^
+  symbol:   variable log
+  location: class FxmlLoader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/FxmlLoader.java:16: error: cannot find symbol
+        FXMLLoader loader = new FXMLLoader(FXApplication.class.getResource(location));
+        ^
+  symbol:   class FXMLLoader
+  location: class FxmlLoader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/FxmlLoader.java:16: error: cannot find symbol
+        FXMLLoader loader = new FXMLLoader(FXApplication.class.getResource(location));
+                                ^
+  symbol:   class FXMLLoader
+  location: class FxmlLoader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/FxmlLoader.java:18: error: cannot find symbol
+        Parent parent = null;
+        ^
+  symbol:   class Parent
+  location: class FxmlLoader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/FxmlLoader.java:23: error: cannot find symbol
+            log.error("Error on load fxml", e);
+            ^
+  symbol:   variable log
+  location: class FxmlLoader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/ViewFactory.java:21: error: cannot find symbol
+        Parent node = viewInstances.get(view);
+        ^
+  symbol:   class Parent
+  location: class ViewFactory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/ViewFactory.java:24: error: cannot find symbol
+            log.debug("Loading View");
+            ^
+  symbol:   variable log
+  location: class ViewFactory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/view/ViewFactory.java:30: error: cannot find symbol
+            log.debug("View already loaded");
+            ^
+  symbol:   variable log
+  location: class ViewFactory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/FXApplication.java:16: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/FXApplication.java:18: error: cannot find symbol
+        super.init();
+        ^
+  symbol:   variable super
+  location: class FXApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/FXApplication.java:22: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/FXApplication.java:25: error: cannot find symbol
+        Scene scene = new Scene(viewFactory.getView(ViewLocation.MAIN_VIEW));
+        ^
+  symbol:   class Scene
+  location: class FXApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/FXApplication.java:25: error: cannot find symbol
+        Scene scene = new Scene(viewFactory.getView(ViewLocation.MAIN_VIEW));
+                          ^
+  symbol:   class Scene
+  location: class FXApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/FXApplication.java:32: error: cannot find symbol
+        log.info("Launching app");
+        ^
+  symbol:   variable log
+  location: class FXApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MusheghKh/JavaFXTemplate-MVP/src/main/java/com/rise/fxapp/FXApplication.java:33: error: cannot find symbol
+        launch(args);
+        ^
+  symbol:   method launch(String[])
+  location: class FXApplication
+43 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

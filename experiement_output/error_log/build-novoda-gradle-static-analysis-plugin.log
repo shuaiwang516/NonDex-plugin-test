@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':plugin'.
+> Could not resolve all artifacts for configuration ':plugin:classpath'.
+   > Could not resolve com.novoda:bintray-release:SNAPSHOT-6.
+     Required by:
+         project :plugin
+      > Could not resolve com.novoda:bintray-release:SNAPSHOT-6.
+         > Could not get resource 'https://novoda.bintray.com/snapshots/com/novoda/bintray-release/SNAPSHOT-6/bintray-release-SNAPSHOT-6.pom'.
+            > Could not GET 'https://novoda.bintray.com/snapshots/com/novoda/bintray-release/SNAPSHOT-6/bintray-release-SNAPSHOT-6.pom'.
+               > Certificate for <novoda.bintray.com> doesn't match any of the subject alternative names: [*.jfrog.io, jfrog.io]
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 40s

@@ -1,0 +1,27 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ihub-gateway:generateMainEffectiveLombokConfig1'.
+> Could not resolve all dependencies for configuration ':ihub-gateway:detachedConfiguration1'.
+   > Could not find pub.ihub.lib:ihub-libs:main-SNAPSHOT.
+     Searched in the following locations:
+       - https://maven.aliyun.com/repository/public/pub/ihub/lib/ihub-libs/main-SNAPSHOT/maven-metadata.xml
+       - https://maven.aliyun.com/repository/public/pub/ihub/lib/ihub-libs/main-SNAPSHOT/ihub-libs-main-SNAPSHOT.pom
+       - https://maven.aliyun.com/repository/google/pub/ihub/lib/ihub-libs/main-SNAPSHOT/maven-metadata.xml
+       - https://maven.aliyun.com/repository/google/pub/ihub/lib/ihub-libs/main-SNAPSHOT/ihub-libs-main-SNAPSHOT.pom
+       - https://maven.aliyun.com/repository/spring/pub/ihub/lib/ihub-libs/main-SNAPSHOT/maven-metadata.xml
+       - https://maven.aliyun.com/repository/spring/pub/ihub/lib/ihub-libs/main-SNAPSHOT/ihub-libs-main-SNAPSHOT.pom
+       - https://repo.spring.io/release/pub/ihub/lib/ihub-libs/main-SNAPSHOT/maven-metadata.xml
+       - https://repo.spring.io/release/pub/ihub/lib/ihub-libs/main-SNAPSHOT/ihub-libs-main-SNAPSHOT.pom
+       - https://repo.maven.apache.org/maven2/pub/ihub/lib/ihub-libs/main-SNAPSHOT/maven-metadata.xml
+       - https://repo.maven.apache.org/maven2/pub/ihub/lib/ihub-libs/main-SNAPSHOT/ihub-libs-main-SNAPSHOT.pom
+     Required by:
+         project :ihub-gateway
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s

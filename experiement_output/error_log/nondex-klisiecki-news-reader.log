@@ -1,0 +1,77 @@
+e: java.lang.ArrayIndexOutOfBoundsException: Index 11058 out of bounds for length 11058
+	at org.jetbrains.org.objectweb.asm.ClassReader.readUnsignedShort(ClassReader.java:2464)
+	at org.jetbrains.org.objectweb.asm.ClassReader.readUTF8(ClassReader.java:2525)
+	at org.jetbrains.org.objectweb.asm.ClassReader.readModule(ClassReader.java:761)
+	at org.jetbrains.org.objectweb.asm.ClassReader.accept(ClassReader.java:646)
+	at org.jetbrains.org.objectweb.asm.ClassReader.accept(ClassReader.java:507)
+	at org.jetbrains.kotlin.resolve.jvm.modules.JavaModuleInfo$Companion.read(JavaModuleInfo.kt:67)
+	at org.jetbrains.kotlin.cli.jvm.modules.CliJavaModuleFinder.findSystemModule(CliJavaModuleFinder.kt:44)
+	at org.jetbrains.kotlin.cli.jvm.modules.CliJavaModuleFinder.access$findSystemModule(CliJavaModuleFinder.kt:25)
+	at org.jetbrains.kotlin.cli.jvm.modules.CliJavaModuleFinder$systemModules$1.invoke(CliJavaModuleFinder.kt:37)
+	at org.jetbrains.kotlin.cli.jvm.modules.CliJavaModuleFinder$systemModules$1.invoke(CliJavaModuleFinder.kt:25)
+	at kotlin.sequences.TransformingSequence$iterator$1.next(Sequences.kt:149)
+	at kotlin.sequences.FilteringSequence$iterator$1.calcNext(Sequences.kt:109)
+	at kotlin.sequences.FilteringSequence$iterator$1.hasNext(Sequences.kt:133)
+	at kotlin.sequences.FlatteningSequence$iterator$1.ensureItemIterator(Sequences.kt:254)
+	at kotlin.sequences.FlatteningSequence$iterator$1.hasNext(Sequences.kt:241)
+	at kotlin.sequences.SequencesKt___SequencesKt.none(_Sequences.kt:1239)
+	at org.jetbrains.kotlin.cli.jvm.compiler.ClasspathRootsResolver.addModularRoots(ClasspathRootsResolver.kt:227)
+	at org.jetbrains.kotlin.cli.jvm.compiler.ClasspathRootsResolver.computeRoots(ClasspathRootsResolver.kt:124)
+	at org.jetbrains.kotlin.cli.jvm.compiler.ClasspathRootsResolver.convertClasspathRoots(ClasspathRootsResolver.kt:79)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment.<init>(KotlinCoreEnvironment.kt:230)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment.<init>(KotlinCoreEnvironment.kt:114)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment$Companion.createForProduction(KotlinCoreEnvironment.kt:409)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.createCoreEnvironment(K2JVMCompiler.kt:286)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.createEnvironmentWithScriptingSupport(K2JVMCompiler.kt:276)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:155)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:63)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.java:109)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.java:53)
+	at org.jetbrains.kotlin.cli.common.CLITool.exec(CLITool.kt:92)
+	at org.jetbrains.kotlin.incremental.IncrementalJvmCompilerRunner.runCompiler(IncrementalJvmCompilerRunner.kt:451)
+	at org.jetbrains.kotlin.incremental.IncrementalJvmCompilerRunner.runCompiler(IncrementalJvmCompilerRunner.kt:97)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compileIncrementally(IncrementalCompilerRunner.kt:218)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.access$compileIncrementally(IncrementalCompilerRunner.kt:37)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner$compile$2.invoke(IncrementalCompilerRunner.kt:80)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compile(IncrementalCompilerRunner.kt:92)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.execIncrementalCompiler(CompileServiceImpl.kt:518)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.access$execIncrementalCompiler(CompileServiceImpl.kt:97)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl$compile$$inlined$ifAlive$lambda$2.invoke(CompileServiceImpl.kt:400)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl$compile$$inlined$ifAlive$lambda$2.invoke(CompileServiceImpl.kt:97)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl$doCompile$$inlined$ifAlive$lambda$2.invoke(CompileServiceImpl.kt:895)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl$doCompile$$inlined$ifAlive$lambda$2.invoke(CompileServiceImpl.kt:97)
+	at org.jetbrains.kotlin.daemon.common.DummyProfiler.withMeasure(PerfUtils.kt:137)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.checkedCompile(CompileServiceImpl.kt:925)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.doCompile(CompileServiceImpl.kt:894)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.compile(CompileServiceImpl.kt:399)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Internal compiler error. See log for more details
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

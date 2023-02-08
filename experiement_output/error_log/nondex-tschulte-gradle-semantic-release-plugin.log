@@ -1,0 +1,23 @@
+[Fatal Error] grgit-1.9.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve org.ajoberstar:grgit:1.9.3.
+     Required by:
+         project :
+      > Could not resolve org.ajoberstar:grgit:1.9.3.
+         > Could not parse POM http://oss.jfrog.org/artifactory/libs-release/org/ajoberstar/grgit/1.9.3/grgit-1.9.3.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+      > Could not resolve org.ajoberstar:grgit:1.9.3.
+         > Could not parse Ivy file http://oss.jfrog.org/artifactory/libs-release/org.ajoberstar/grgit/ivy-1.9.3.xml
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

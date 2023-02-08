@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ihub-base-test:compileGroovy'.
+> Could not resolve all files for configuration ':ihub-base-test:detachedConfiguration96'.
+   > Could not resolve com.thoughtworks.qdox:qdox:1.12.1.
+     Required by:
+         project :ihub-base-test > org.codehaus.groovy:groovy-groovydoc:3.0.13 > org.codehaus.groovy:groovy-docgenerator:3.0.13
+      > Skipped due to earlier error
+      > Could not resolve com.thoughtworks.qdox:qdox:1.12.1.
+         > Could not get resource 'https://maven.aliyun.com/repository/spring/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/spring/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.pom?Expires=1675215220&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=swqfli4kYR3k3Jc0xmjBGQ8Zb%2Fo%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4m 40s

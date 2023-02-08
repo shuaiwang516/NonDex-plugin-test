@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'KeywordChanger'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find ir.irezaa:keywordchanger:1.0.0.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/ir/irezaa/keywordchanger/1.0.0/keywordchanger-1.0.0.pom
+       - https://repo.maven.apache.org/maven2/ir/irezaa/keywordchanger/1.0.0/keywordchanger-1.0.0.pom
+       - file:/root/.m2/repository/ir/irezaa/keywordchanger/1.0.0/keywordchanger-1.0.0.pom
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s

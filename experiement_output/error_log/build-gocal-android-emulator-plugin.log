@@ -1,0 +1,22 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':sample'.
+> Could not resolve all artifacts for configuration ':sample:classpath'.
+   > Could not find com.gocal.emulator:android-emulator:1.0-SNAPSHOT.
+     Searched in the following locations:
+       - https://jcenter.bintray.com/com/gocal/emulator/android-emulator/1.0-SNAPSHOT/maven-metadata.xml
+       - https://jcenter.bintray.com/com/gocal/emulator/android-emulator/1.0-SNAPSHOT/android-emulator-1.0-SNAPSHOT.pom
+       - https://jcenter.bintray.com/com/gocal/emulator/android-emulator/1.0-SNAPSHOT/android-emulator-1.0-SNAPSHOT.jar
+       - file:/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task366/wd/NonDex-plugin-test/github.com/gocal/android-emulator-plugin/plugin/build/libs/android-emulator-1.0-SNAPSHOT.jar
+       - file:/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task366/wd/NonDex-plugin-test/github.com/gocal/android-emulator-plugin/plugin/build/libs/android-emulator.jar
+     Required by:
+         project :sample
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

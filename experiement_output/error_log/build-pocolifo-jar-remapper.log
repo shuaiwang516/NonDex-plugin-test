@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/pocolifo/jar-remapper/build.gradle' line: 4
+
+* What went wrong:
+Plugin [id: 'com.pocolifo.jarremapper.devplugin', version: '1.0-SNAPSHOT'] was not found in any of the following sources:
+
+- Gradle Core Plugins (plugin is not in 'org.gradle' namespace)
+- Plugin Repositories (could not resolve plugin artifact 'com.pocolifo.jarremapper.devplugin:com.pocolifo.jarremapper.devplugin.gradle.plugin:1.0-SNAPSHOT')
+  Searched in the following repositories:
+    Pocolifo(https://maven.services.pocolifo.com/releases)
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

@@ -1,0 +1,63 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task299/wd/NonDex-plugin-test/github.com/bigdaz/gradle-trace/src/main/java/org/gradle/trace/GradleTracingPlugin.java:14: error: cannot find symbol
+import org.gradle.internal.progress.BuildOperationInternal;
+                                   ^
+  symbol:   class BuildOperationInternal
+  location: package org.gradle.internal.progress
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task299/wd/NonDex-plugin-test/github.com/bigdaz/gradle-trace/src/main/java/org/gradle/trace/GradleTracingPlugin.java:15: error: cannot find symbol
+import org.gradle.internal.progress.InternalBuildListener;
+                                   ^
+  symbol:   class InternalBuildListener
+  location: package org.gradle.internal.progress
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task299/wd/NonDex-plugin-test/github.com/bigdaz/gradle-trace/src/main/java/org/gradle/trace/GradleTracingPlugin.java:16: error: cannot find symbol
+import org.gradle.internal.progress.OperationResult;
+                                   ^
+  symbol:   class OperationResult
+  location: package org.gradle.internal.progress
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task299/wd/NonDex-plugin-test/github.com/bigdaz/gradle-trace/src/main/java/org/gradle/trace/GradleTracingPlugin.java:17: error: cannot find symbol
+import org.gradle.internal.progress.OperationStartEvent;
+                                   ^
+  symbol:   class OperationStartEvent
+  location: package org.gradle.internal.progress
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task299/wd/NonDex-plugin-test/github.com/bigdaz/gradle-trace/src/main/java/org/gradle/trace/GradleTracingPlugin.java:89: error: cannot find symbol
+        gradle.addListener(new InternalBuildListener() {
+                               ^
+  symbol:   class InternalBuildListener
+  location: class GradleTracingPlugin
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task299/wd/NonDex-plugin-test/github.com/bigdaz/gradle-trace/src/main/java/org/gradle/trace/GradleTracingPlugin.java:91: error: cannot find symbol
+            public void started(BuildOperationInternal buildOperationInternal, OperationStartEvent operationStartEvent) {
+                                ^
+  symbol: class BuildOperationInternal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task299/wd/NonDex-plugin-test/github.com/bigdaz/gradle-trace/src/main/java/org/gradle/trace/GradleTracingPlugin.java:91: error: cannot find symbol
+            public void started(BuildOperationInternal buildOperationInternal, OperationStartEvent operationStartEvent) {
+                                                                               ^
+  symbol: class OperationStartEvent
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task299/wd/NonDex-plugin-test/github.com/bigdaz/gradle-trace/src/main/java/org/gradle/trace/GradleTracingPlugin.java:96: error: cannot find symbol
+            public void finished(BuildOperationInternal buildOperationInternal, OperationResult operationResult) {
+                                 ^
+  symbol: class BuildOperationInternal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task299/wd/NonDex-plugin-test/github.com/bigdaz/gradle-trace/src/main/java/org/gradle/trace/GradleTracingPlugin.java:96: error: cannot find symbol
+            public void finished(BuildOperationInternal buildOperationInternal, OperationResult operationResult) {
+                                                                                ^
+  symbol: class OperationResult
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task299/wd/NonDex-plugin-test/github.com/bigdaz/gradle-trace/src/main/java/org/gradle/trace/GradleTracingPlugin.java:90: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task299/wd/NonDex-plugin-test/github.com/bigdaz/gradle-trace/src/main/java/org/gradle/trace/GradleTracingPlugin.java:95: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task299/wd/NonDex-plugin-test/github.com/bigdaz/gradle-trace/src/main/java/org/gradle/trace/GradleTracingPlugin.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+11 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 18s

@@ -1,0 +1,62 @@
+[Fatal Error] ueditor-mini-1.0.pom:2:10: Already seen doctype.
+[Fatal Error] commons-chalics-2.7.1.pom:2:10: Already seen doctype.
+[Fatal Error] jeewx-boot-start-core-1.0.7.pom:2:10: Already seen doctype.
+[Fatal Error] jeewx-boot-start-core-1.0.7.pom:2:10: Already seen doctype.
+[Fatal Error] autopoi-web-1.0.4.pom:2:10: Already seen doctype.
+[Fatal Error] autopoi-web-1.0.4.pom:2:10: Already seen doctype.
+[Fatal Error] baidu-sdk-1.4.5.pom:2:10: Already seen doctype.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':jeewx-boot-base-api:compileJava'.
+> Could not resolve all files for configuration ':jeewx-boot-base-api:compileClasspath'.
+   > Could not resolve com.baidu.ueditor:ueditor-mini:1.0.
+     Required by:
+         project :jeewx-boot-base-api
+      > Could not resolve com.baidu.ueditor:ueditor-mini:1.0.
+         > Could not parse POM http://maven.jeewx.com/nexus/content/repositories/jeecg/com/baidu/ueditor/ueditor-mini/1.0/ueditor-mini-1.0.pom
+            > Already seen doctype.
+   > Could not resolve org.apache.commons:commons-chalics:2.7.1.
+     Required by:
+         project :jeewx-boot-base-api
+      > Could not resolve org.apache.commons:commons-chalics:2.7.1.
+         > Could not parse POM http://maven.jeewx.com/nexus/content/repositories/jeecg/org/apache/commons/commons-chalics/2.7.1/commons-chalics-2.7.1.pom
+            > Already seen doctype.
+   > Could not resolve org.jeecgframework:autopoi-web:1.0.4.
+     Required by:
+         project :jeewx-boot-base-api
+      > Could not resolve org.jeecgframework:autopoi-web:1.0.4.
+         > Could not parse POM http://maven.jeewx.com/nexus/content/repositories/jeecg/org/jeecgframework/autopoi-web/1.0.4/autopoi-web-1.0.4.pom
+            > Already seen doctype.
+   > Could not resolve org.jeewxframework.boot:jeewx-boot-start-core:1.0.7.
+     Required by:
+         project :jeewx-boot-base-api
+      > Could not resolve org.jeewxframework.boot:jeewx-boot-start-core:1.0.7.
+         > Could not parse POM http://maven.jeewx.com/nexus/content/repositories/jeecg/org/jeewxframework/boot/jeewx-boot-start-core/1.0.7/jeewx-boot-start-core-1.0.7.pom
+            > Already seen doctype.
+   > Could not resolve org.jeewxframework.boot:jeewx-boot-start-core:1.0.7.
+     Required by:
+         project :jeewx-boot-base-api
+      > Could not resolve org.jeewxframework.boot:jeewx-boot-start-core:1.0.7.
+         > Could not parse POM http://maven.jeewx.com/nexus/content/repositories/jeecg/org/jeewxframework/boot/jeewx-boot-start-core/1.0.7/jeewx-boot-start-core-1.0.7.pom
+            > Already seen doctype.
+   > Could not resolve org.jeecgframework:autopoi-web:1.0.4.
+     Required by:
+         project :jeewx-boot-base-api
+      > Could not resolve org.jeecgframework:autopoi-web:1.0.4.
+         > Could not parse POM http://maven.jeewx.com/nexus/content/repositories/jeecg/org/jeecgframework/autopoi-web/1.0.4/autopoi-web-1.0.4.pom
+            > Already seen doctype.
+   > Could not resolve com.baidu.bcs:baidu-sdk:1.4.5.
+     Required by:
+         project :jeewx-boot-base-api > org.jeecgframework:jeewx-api:1.3.1
+      > Could not resolve com.baidu.bcs:baidu-sdk:1.4.5.
+         > Could not parse POM http://maven.jeewx.com/nexus/content/repositories/jeecg/com/baidu/bcs/baidu-sdk/1.4.5/baidu-sdk-1.4.5.pom
+            > Already seen doctype.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

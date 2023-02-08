@@ -1,0 +1,396 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:8: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:9: error: cannot find symbol
+@Table(name = "USERS", schema = "", catalog = "socsec")
+ ^
+  symbol: class Table
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:3: error: package javax.persistence does not exist
+import javax.persistence.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/dao/UserDaoImpl.java:3: error: package org.hibernate does not exist
+import org.hibernate.Criteria;
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/dao/UserDaoImpl.java:4: error: package org.hibernate does not exist
+import org.hibernate.Transaction;
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/dao/UserDaoImpl.java:5: error: package org.springframework.stereotype does not exist
+import org.springframework.stereotype.Repository;
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/dao/UserDaoImpl.java:16: error: cannot find symbol
+@Repository
+ ^
+  symbol: class Repository
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/configuration/SessionFactoryHelper.java:7: error: package org.hibernate does not exist
+import org.hibernate.SessionFactory;
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/configuration/SessionFactoryHelper.java:8: error: package org.hibernate.cfg does not exist
+import org.hibernate.cfg.Configuration;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/configuration/SessionFactoryHelper.java:11: error: cannot find symbol
+    private static final SessionFactory sessionFactory;
+                         ^
+  symbol:   class SessionFactory
+  location: class SessionFactoryHelper
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/configuration/SessionFactoryHelper.java:33: error: cannot find symbol
+    public static SessionFactory getSessionFactory() {
+                  ^
+  symbol:   class SessionFactory
+  location: class SessionFactoryHelper
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PackageEntity.java:8: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PackageEntity.java:9: error: cannot find symbol
+@Table(name = "package", schema = "", catalog = "socsec")
+ ^
+  symbol: class Table
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PackageEntity.java:3: error: package javax.persistence does not exist
+import javax.persistence.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/InOutEntity.java:9: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/InOutEntity.java:10: error: cannot find symbol
+@Table(name = "in_out", schema = "", catalog = "socsec")
+ ^
+  symbol: class Table
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/InOutEntity.java:3: error: package javax.persistence does not exist
+import javax.persistence.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/RoleEntity.java:8: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/RoleEntity.java:9: error: cannot find symbol
+@Table(name = "ROLE", schema = "", catalog = "socsec")
+ ^
+  symbol: class Table
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/RoleEntity.java:3: error: package javax.persistence does not exist
+import javax.persistence.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/CompanyPackEntity.java:3: error: package javax.persistence does not exist
+import javax.persistence.Column;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/CompanyPackEntity.java:4: error: package javax.persistence does not exist
+import javax.persistence.Entity;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/CompanyPackEntity.java:5: error: package javax.persistence does not exist
+import javax.persistence.Id;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/CompanyPackEntity.java:6: error: package javax.persistence does not exist
+import javax.persistence.Table;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/CompanyPackEntity.java:11: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/CompanyPackEntity.java:12: error: cannot find symbol
+@Table(name = "company_pack", schema = "", catalog = "socsec")
+ ^
+  symbol: class Table
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/OrdersEntity.java:9: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/OrdersEntity.java:10: error: cannot find symbol
+@Table(name = "orders", schema = "", catalog = "socsec")
+ ^
+  symbol: class Table
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/OrdersEntity.java:3: error: package javax.persistence does not exist
+import javax.persistence.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PersistentLoginsEntity.java:9: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PersistentLoginsEntity.java:10: error: cannot find symbol
+@Table(name = "persistent_logins", schema = "", catalog = "socsec")
+ ^
+  symbol: class Table
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PersistentLoginsEntity.java:3: error: package javax.persistence does not exist
+import javax.persistence.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UserRolesEntity.java:8: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UserRolesEntity.java:9: error: cannot find symbol
+@Table(name = "USER_ROLES", schema = "", catalog = "socsec")
+ ^
+  symbol: class Table
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UserRolesEntity.java:3: error: package javax.persistence does not exist
+import javax.persistence.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/CompanyEntity.java:9: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/CompanyEntity.java:10: error: cannot find symbol
+@Table(name = "company", schema = "", catalog = "socsec")
+ ^
+  symbol: class Table
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/CompanyEntity.java:3: error: package javax.persistence does not exist
+import javax.persistence.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/controller/MainController.java:3: error: package org.springframework.beans.factory.annotation does not exist
+import org.springframework.beans.factory.annotation.Autowired;
+                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/controller/MainController.java:4: error: package org.springframework.stereotype does not exist
+import org.springframework.stereotype.Controller;
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/controller/MainController.java:5: error: package org.springframework.ui does not exist
+import org.springframework.ui.Model;
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/controller/MainController.java:6: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RequestMapping;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/controller/MainController.java:7: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RequestMethod;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/controller/MainController.java:8: error: package org.springframework.web.servlet.mvc.support does not exist
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/controller/MainController.java:16: error: cannot find symbol
+@Controller
+ ^
+  symbol: class Controller
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/controller/MainController.java:29: error: cannot find symbol
+    public String gettopage(Model model) {
+                            ^
+  symbol:   class Model
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/controller/MainController.java:37: error: cannot find symbol
+    public String securityError(RedirectAttributes redirectAttributes) {
+                                ^
+  symbol:   class RedirectAttributes
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/controller/MainController.java:43: error: cannot find symbol
+    public String testPage(Model model) {
+                           ^
+  symbol:   class Model
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/service/UserServiceImpl.java:4: error: package org.springframework.beans.factory.annotation does not exist
+import org.springframework.beans.factory.annotation.Autowired;
+                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/service/UserServiceImpl.java:5: error: package org.springframework.stereotype does not exist
+import org.springframework.stereotype.Service;
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/service/UserServiceImpl.java:15: error: cannot find symbol
+@Service
+ ^
+  symbol: class Service
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:3: error: package org.junit does not exist
+import org.junit.Before;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:4: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:5: error: package org.junit.runner does not exist
+import org.junit.runner.RunWith;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:6: error: package org.mockito does not exist
+import org.mockito.Mock;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:7: error: package org.mockito.junit does not exist
+import org.mockito.junit.MockitoJUnitRunner;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:8: error: package org.springframework.test.web.servlet does not exist
+import org.springframework.test.web.servlet.MockMvc;
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:9: error: package org.springframework.test.web.servlet.setup does not exist
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+                                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:14: error: package org.hamcrest does not exist
+import static org.hamcrest.CoreMatchers.any;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:14: error: static import only from classes and interfaces
+import static org.hamcrest.CoreMatchers.any;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:15: error: package org.springframework.test.web.servlet.request does not exist
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+                                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:15: error: static import only from classes and interfaces
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:16: error: package org.springframework.test.web.servlet.result does not exist
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:16: error: static import only from classes and interfaces
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:17: error: package org.springframework.test.web.servlet.result does not exist
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:17: error: static import only from classes and interfaces
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:23: error: cannot find symbol
+@RunWith(MockitoJUnitRunner.class)
+ ^
+  symbol: class RunWith
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoMockitoTestImpl.java:26: error: cannot find symbol
+    private MockMvc mockMvc;
+            ^
+  symbol:   class MockMvc
+  location: class UserDaoMockitoTestImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoSpringJunitTest.java:3: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoSpringJunitTest.java:4: error: package org.junit.runner does not exist
+import org.junit.runner.RunWith;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoSpringJunitTest.java:5: error: package org.springframework.beans.factory.annotation does not exist
+import org.springframework.beans.factory.annotation.Autowired;
+                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoSpringJunitTest.java:6: error: package org.springframework.test.context does not exist
+import org.springframework.test.context.ContextConfiguration;
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoSpringJunitTest.java:7: error: package org.springframework.test.context.junit4 does not exist
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoSpringJunitTest.java:11: error: package org.junit does not exist
+import static org.junit.Assert.assertNotNull;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoSpringJunitTest.java:11: error: static import only from classes and interfaces
+import static org.junit.Assert.assertNotNull;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoSpringJunitTest.java:17: error: cannot find symbol
+@RunWith(SpringJUnit4ClassRunner.class)
+ ^
+  symbol: class RunWith
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/test/java/rashjz/info/app/test/UserDaoSpringJunitTest.java:18: error: cannot find symbol
+@ContextConfiguration(locations = {"classpath:/rashjz/info/app/test/test-context.xml"})
+ ^
+  symbol: class ContextConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:20: error: cannot find symbol
+    @Id
+     ^
+  symbol:   class Id
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:21: error: cannot find symbol
+    @Column(name = "USER_ID")
+     ^
+  symbol:   class Column
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:30: error: cannot find symbol
+    @Basic
+     ^
+  symbol:   class Basic
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:31: error: cannot find symbol
+    @Column(name = "ACTIVE")
+     ^
+  symbol:   class Column
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:40: error: cannot find symbol
+    @Basic
+     ^
+  symbol:   class Basic
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:41: error: cannot find symbol
+    @Column(name = "EMAIL")
+     ^
+  symbol:   class Column
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:50: error: cannot find symbol
+    @Basic
+     ^
+  symbol:   class Basic
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:51: error: cannot find symbol
+    @Column(name = "NAME")
+     ^
+  symbol:   class Column
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:60: error: cannot find symbol
+    @Basic
+     ^
+  symbol:   class Basic
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:61: error: cannot find symbol
+    @Column(name = "PASSWORD")
+     ^
+  symbol:   class Column
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:70: error: cannot find symbol
+    @Basic
+     ^
+  symbol:   class Basic
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:71: error: cannot find symbol
+    @Column(name = "PROVIDER")
+     ^
+  symbol:   class Column
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:80: error: cannot find symbol
+    @Basic
+     ^
+  symbol:   class Basic
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:81: error: cannot find symbol
+    @Column(name = "user_type")
+     ^
+  symbol:   class Column
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:90: error: cannot find symbol
+    @Basic
+     ^
+  symbol:   class Basic
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/UsersEntity.java:91: error: cannot find symbol
+    @Column(name = "balance")
+     ^
+  symbol:   class Column
+  location: class UsersEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PackageEntity.java:16: error: cannot find symbol
+    @Id
+     ^
+  symbol:   class Id
+  location: class PackageEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PackageEntity.java:17: error: cannot find symbol
+    @Column(name = "id")
+     ^
+  symbol:   class Column
+  location: class PackageEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PackageEntity.java:26: error: cannot find symbol
+    @Basic
+     ^
+  symbol:   class Basic
+  location: class PackageEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PackageEntity.java:27: error: cannot find symbol
+    @Column(name = "name")
+     ^
+  symbol:   class Column
+  location: class PackageEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PackageEntity.java:36: error: cannot find symbol
+    @Basic
+     ^
+  symbol:   class Basic
+  location: class PackageEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PackageEntity.java:37: error: cannot find symbol
+    @Column(name = "desc")
+     ^
+  symbol:   class Column
+  location: class PackageEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/rashjz/test-gradle/src/main/java/rashjz/info/app/domain/PackageEntity.java:46: error: cannot find symbol
+    @Basic
+     ^
+  symbol:   class Basic
+  location: class PackageEntity
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

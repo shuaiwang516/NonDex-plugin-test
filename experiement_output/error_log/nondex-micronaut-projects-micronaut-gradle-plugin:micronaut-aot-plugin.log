@@ -1,0 +1,51 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task648/wd/NonDex-plugin-test/github.com/micronaut-projects/micronaut-gradle-plugin/docker-plugin/src/main/java/io/micronaut/gradle/docker/MicronautDockerfile.java:186: error: ')' expected
+        if (task instanceof DockerBuildOptions dbo) {
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task648/wd/NonDex-plugin-test/github.com/micronaut-projects/micronaut-gradle-plugin/docker-plugin/src/main/java/io/micronaut/gradle/docker/MicronautDockerfile.java:186: error: not a statement
+        if (task instanceof DockerBuildOptions dbo) {
+                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task648/wd/NonDex-plugin-test/github.com/micronaut-projects/micronaut-gradle-plugin/docker-plugin/src/main/java/io/micronaut/gradle/docker/MicronautDockerfile.java:186: error: ';' expected
+        if (task instanceof DockerBuildOptions dbo) {
+                                                  ^
+3 errors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task648/wd/NonDex-plugin-test/github.com/micronaut-projects/micronaut-gradle-plugin/graalvm-plugin/src/main/java/io/micronaut/gradle/graalvm/MicronautGraalPlugin.java:125: error: cannot find symbol
+                        .toList()
+                        ^
+  symbol:   method toList()
+  location: interface Stream<SourceSet>
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task648/wd/NonDex-plugin-test/github.com/micronaut-projects/micronaut-gradle-plugin/graalvm-plugin/src/main/java/io/micronaut/gradle/graalvm/MicronautGraalPlugin.java:141: error: cannot find symbol
+                .toList();
+                ^
+  symbol:   method toList()
+  location: interface Stream<String>
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task648/wd/NonDex-plugin-test/github.com/micronaut-projects/micronaut-gradle-plugin/graalvm-plugin/src/main/java/io/micronaut/gradle/graalvm/MicronautGraalPlugin.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':micronaut-docker-plugin:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':micronaut-graalvm-plugin:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+==============================================================================
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

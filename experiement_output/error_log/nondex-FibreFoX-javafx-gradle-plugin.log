@@ -1,0 +1,384 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxListBundlersWorker.java:18: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.BundlerParamInfo;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxListBundlersWorker.java:19: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.Bundlers;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxListBundlersWorker.java:20: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.ConfigException;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxListBundlersWorker.java:21: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.UnsupportedPlatformException;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxRunWorker.java:18: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.Log;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:18: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.AbstractBundler;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:19: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.Bundler;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:20: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.Bundlers;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:21: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.ConfigException;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:22: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.RelativeFileSet;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:23: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.StandardBundlerParam;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:24: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.UnsupportedPlatformException;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:25: error: package com.sun.javafx.tools.packager does not exist
+import com.sun.javafx.tools.packager.PackagerException;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:26: error: package com.sun.javafx.tools.packager does not exist
+import com.sun.javafx.tools.packager.PackagerLib;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:27: error: package com.sun.javafx.tools.packager does not exist
+import com.sun.javafx.tools.packager.SignJarParams;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/Workarounds.java:18: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.Bundler;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/Workarounds.java:19: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.IOUtils;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/Workarounds.java:20: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.RelativeFileSet;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/Workarounds.java:21: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.StandardBundlerParam;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/Workarounds.java:346: error: cannot find symbol
+    public Bundler applyWorkaroundForNativeMacBundler(final Bundler b, String currentRunningBundlerID, Map<String, Object> params, File additionalBundlerResources) {
+                                                            ^
+  symbol:   class Bundler
+  location: class Workarounds
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/Workarounds.java:346: error: cannot find symbol
+    public Bundler applyWorkaroundForNativeMacBundler(final Bundler b, String currentRunningBundlerID, Map<String, Object> params, File additionalBundlerResources) {
+           ^
+  symbol:   class Bundler
+  location: class Workarounds
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxGenerateKeystoreWorker.java:18: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.Log;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxJarWorker.java:18: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.Log;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxJarWorker.java:19: error: package com.sun.javafx.tools.packager does not exist
+import com.sun.javafx.tools.packager.CreateJarParams;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxJarWorker.java:20: error: package com.sun.javafx.tools.packager does not exist
+import com.sun.javafx.tools.packager.PackagerException;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxJarWorker.java:21: error: package com.sun.javafx.tools.packager does not exist
+import com.sun.javafx.tools.packager.PackagerLib;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:18: error: package com.oracle.tools.packager does not exist
+import static com.oracle.tools.packager.AbstractBundler.IMAGES_ROOT;
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:18: error: static import only from classes and interfaces
+import static com.oracle.tools.packager.AbstractBundler.IMAGES_ROOT;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:19: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.BundlerParamInfo;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:20: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.ConfigException;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:21: error: package com.oracle.tools.packager does not exist
+import com.oracle.tools.packager.StandardBundlerParam;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:22: error: package com.oracle.tools.packager does not exist
+import static com.oracle.tools.packager.StandardBundlerParam.VERSION;
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:22: error: static import only from classes and interfaces
+import static com.oracle.tools.packager.StandardBundlerParam.VERSION;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:33: error: cannot find symbol
+    public static final BundlerParamInfo<File> EXE_IMAGE_DIR = new StandardBundlerParam<>(
+                        ^
+  symbol:   class BundlerParamInfo
+  location: class ParameterMapEntries
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:47: error: cannot find symbol
+    public static final BundlerParamInfo<File> MSI_IMAGE_DIR = new StandardBundlerParam<>(
+                        ^
+  symbol:   class BundlerParamInfo
+  location: class ParameterMapEntries
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:64: error: cannot find symbol
+    public static final BundlerParamInfo<String> RPM_BUNDLE_NAME = new StandardBundlerParam<>(
+                        ^
+  symbol:   class BundlerParamInfo
+  location: class ParameterMapEntries
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:91: error: cannot find symbol
+    public static final BundlerParamInfo<File> RPM_IMAGE_DIR = new StandardBundlerParam<>(
+                        ^
+  symbol:   class BundlerParamInfo
+  location: class ParameterMapEntries
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:105: error: cannot find symbol
+    public static final BundlerParamInfo<String> DEB_FULL_PACKAGE_NAME = new StandardBundlerParam<>(
+                        ^
+  symbol:   class BundlerParamInfo
+  location: class ParameterMapEntries
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/ParameterMapEntries.java:113: error: cannot find symbol
+    public static final BundlerParamInfo<File> DEB_IMAGE_DIR = new StandardBundlerParam<>(
+                        ^
+  symbol:   class BundlerParamInfo
+  location: class ParameterMapEntries
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxListBundlersWorker.java:39: error: cannot find symbol
+        Bundlers bundlers = Bundlers.createBundlersInstance();
+        ^
+  symbol:   class Bundlers
+  location: class JfxListBundlersWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxListBundlersWorker.java:39: error: cannot find symbol
+        Bundlers bundlers = Bundlers.createBundlersInstance();
+                            ^
+  symbol:   variable Bundlers
+  location: class JfxListBundlersWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxListBundlersWorker.java:46: error: cannot find symbol
+            } catch(UnsupportedPlatformException ex){
+                    ^
+  symbol:   class UnsupportedPlatformException
+  location: class JfxListBundlersWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxListBundlersWorker.java:48: error: cannot find symbol
+            } catch(ConfigException ex){
+                    ^
+  symbol:   class ConfigException
+  location: class JfxListBundlersWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxListBundlersWorker.java:57: error: cannot find symbol
+            Collection<BundlerParamInfo<?>> bundleParameters = bundler.getBundleParameters();
+                       ^
+  symbol:   class BundlerParamInfo
+  location: class JfxListBundlersWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxRunWorker.java:39: error: package Log does not exist
+        Log.setLogger(new Log.Logger(ext.isVerbose()));
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxRunWorker.java:39: error: cannot find symbol
+        Log.setLogger(new Log.Logger(ext.isVerbose()));
+        ^
+  symbol:   variable Log
+  location: class JfxRunWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:81: error: package StandardBundlerParam does not exist
+        params.put(StandardBundlerParam.VERBOSE.getID(), ext.isVerbose());
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:83: error: package StandardBundlerParam does not exist
+            params.put(StandardBundlerParam.IDENTIFIER.getID(), id);
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:93: error: package StandardBundlerParam does not exist
+        params.put(StandardBundlerParam.APP_NAME.getID(), appName);
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:95: error: package StandardBundlerParam does not exist
+        params.put(StandardBundlerParam.VERSION.getID(), ext.getNativeReleaseVersion());
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:98: error: package StandardBundlerParam does not exist
+            params.put(StandardBundlerParam.VERSION.getID(), ext.getNativeReleaseVersion().replaceAll("[^\\d.]", ""));
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:104: error: package StandardBundlerParam does not exist
+        params.put(StandardBundlerParam.VENDOR.getID(), ext.getVendor());
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:105: error: package StandardBundlerParam does not exist
+        params.put(StandardBundlerParam.SHORTCUT_HINT.getID(), ext.isNeedShortcut());
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:106: error: package StandardBundlerParam does not exist
+        params.put(StandardBundlerParam.MENU_HINT.getID(), ext.isNeedMenu());
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:107: error: package StandardBundlerParam does not exist
+        params.put(StandardBundlerParam.MAIN_CLASS.getID(), ext.getMainClass());
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:110: error: package StandardBundlerParam does not exist
+            params.put(StandardBundlerParam.JVM_PROPERTIES.getID(), new HashMap<>(jvmProps));
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:113: error: package StandardBundlerParam does not exist
+            params.put(StandardBundlerParam.JVM_OPTIONS.getID(), new ArrayList<>(jvmOptions));
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:116: error: package StandardBundlerParam does not exist
+            params.put(StandardBundlerParam.USER_JVM_OPTIONS.getID(), new HashMap<>(userJvmOptions));
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:119: error: package StandardBundlerParam does not exist
+            params.put(StandardBundlerParam.ARGUMENTS.getID(), new ArrayList<>(arguments));
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:150: error: cannot find symbol
+        params.put(StandardBundlerParam.APP_RESOURCES.getID(), new RelativeFileSet(getAbsoluteOrProjectRelativeFile(project, ext.getJfxAppOutputDir(), ext.isCheckForAbsolutePaths()), resourceFiles));
+                                                                   ^
+  symbol:   class RelativeFileSet
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:150: error: package StandardBundlerParam does not exist
+        params.put(StandardBundlerParam.APP_RESOURCES.getID(), new RelativeFileSet(getAbsoluteOrProjectRelativeFile(project, ext.getJfxAppOutputDir(), ext.isCheckForAbsolutePaths()), resourceFiles));
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:183: error: package StandardBundlerParam does not exist
+                params.put(StandardBundlerParam.SECONDARY_LAUNCHERS.getID(), launchersMap.stream().map(launcherMap -> getNativeLauncher(launcherMap)).map(launcher -> {
+                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:186: error: package StandardBundlerParam does not exist
+                    addToMapWhenNotNull(launcher.getAppName(), StandardBundlerParam.APP_NAME.getID(), secondaryLauncherGenerationMap);
+                                                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:187: error: package StandardBundlerParam does not exist
+                    addToMapWhenNotNull(launcher.getMainClass(), StandardBundlerParam.MAIN_CLASS.getID(), secondaryLauncherGenerationMap);
+                                                                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:188: error: package StandardBundlerParam does not exist
+                    addToMapWhenNotNull(launcher.getJfxMainAppJarName(), StandardBundlerParam.MAIN_JAR.getID(), secondaryLauncherGenerationMap);
+                                                                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:189: error: package StandardBundlerParam does not exist
+                    addToMapWhenNotNull(launcher.getNativeReleaseVersion(), StandardBundlerParam.VERSION.getID(), secondaryLauncherGenerationMap);
+                                                                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:190: error: package StandardBundlerParam does not exist
+                    addToMapWhenNotNull(launcher.getVendor(), StandardBundlerParam.VENDOR.getID(), secondaryLauncherGenerationMap);
+                                                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:191: error: package StandardBundlerParam does not exist
+                    addToMapWhenNotNull(launcher.getIdentifier(), StandardBundlerParam.IDENTIFIER.getID(), secondaryLauncherGenerationMap);
+                                                                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:193: error: package StandardBundlerParam does not exist
+                    addToMapWhenNotNull(launcher.isNeedMenu(), StandardBundlerParam.MENU_HINT.getID(), secondaryLauncherGenerationMap);
+                                                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:194: error: package StandardBundlerParam does not exist
+                    addToMapWhenNotNull(launcher.isNeedShortcut(), StandardBundlerParam.SHORTCUT_HINT.getID(), secondaryLauncherGenerationMap);
+                                                                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:197: error: package StandardBundlerParam does not exist
+                    addToMapWhenNotNull(launcher.getClasspath(), StandardBundlerParam.CLASSPATH.getID(), secondaryLauncherGenerationMap);
+                                                                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:200: error: package StandardBundlerParam does not exist
+                        secondaryLauncherGenerationMap.put(StandardBundlerParam.JVM_OPTIONS.getID(), new ArrayList<>(jvmOptions));
+                                                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:203: error: package StandardBundlerParam does not exist
+                        secondaryLauncherGenerationMap.put(StandardBundlerParam.JVM_PROPERTIES.getID(), new HashMap<>(jvmProps));
+                                                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:206: error: package StandardBundlerParam does not exist
+                        secondaryLauncherGenerationMap.put(StandardBundlerParam.USER_JVM_OPTIONS.getID(), new HashMap<>(userJvmOptions));
+                                                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:209: error: package StandardBundlerParam does not exist
+                        secondaryLauncherGenerationMap.put(StandardBundlerParam.ARGUMENTS.getID(), new ArrayList<>(arguments));
+                                                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:232: error: package StandardBundlerParam does not exist
+                settings.put(StandardBundlerParam.FA_DESCRIPTION.getID(), association.getDescription());
+                                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:233: error: package StandardBundlerParam does not exist
+                settings.put(StandardBundlerParam.FA_ICON.getID(), association.getIcon());
+                                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:234: error: package StandardBundlerParam does not exist
+                settings.put(StandardBundlerParam.FA_EXTENSIONS.getID(), association.getExtensions());
+                                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:235: error: package StandardBundlerParam does not exist
+                settings.put(StandardBundlerParam.FA_CONTENT_TYPE.getID(), association.getContentType());
+                                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:238: error: package StandardBundlerParam does not exist
+            params.put(StandardBundlerParam.FILE_ASSOCIATIONS.getID(), allAssociations);
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:267: error: cannot find symbol
+        Bundlers bundlers = Bundlers.createBundlersInstance(); // service discovery?
+        ^
+  symbol:   class Bundlers
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:267: error: cannot find symbol
+        Bundlers bundlers = Bundlers.createBundlersInstance(); // service discovery?
+                            ^
+  symbol:   variable Bundlers
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:268: error: cannot find symbol
+        Collection<Bundler> loadedBundlers = bundlers.getBundlers();
+                   ^
+  symbol:   class Bundler
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:276: error: incompatible types: inference variable T has incompatible bounds
+        List<String> existingBundlerIds = loadedBundlers.stream().map(existingBundler -> existingBundler.getID()).collect(Collectors.toList());
+                                                                                                                         ^
+    equality constraints: String
+    lower bounds: Object
+  where T is a type-variable:
+    T extends Object declared in method <T>toList()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:282: error: cannot find symbol
+                    Bundler newCustomBundler = (Bundler) customBundlerClass.newInstance();
+                    ^
+  symbol:   class Bundler
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:282: error: cannot find symbol
+                    Bundler newCustomBundler = (Bundler) customBundlerClass.newInstance();
+                                                ^
+  symbol:   class Bundler
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:308: error: cannot find symbol
+        for( Bundler b : loadedBundlers ){
+             ^
+  symbol:   class Bundler
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:349: error: cannot find symbol
+            } catch(UnsupportedPlatformException e){
+                    ^
+  symbol:   class UnsupportedPlatformException
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:351: error: cannot find symbol
+            } catch(ConfigException e){
+                    ^
+  symbol:   class ConfigException
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:445: error: package AbstractBundler does not exist
+            File bundlerImageRoot = AbstractBundler.IMAGES_ROOT.fetchFrom(paramsToBundleWith);
+                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:681: error: cannot find symbol
+        SignJarParams signJarParams = new SignJarParams();
+        ^
+  symbol:   class SignJarParams
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:681: error: cannot find symbol
+        SignJarParams signJarParams = new SignJarParams();
+                                          ^
+  symbol:   class SignJarParams
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:699: error: cannot find symbol
+            new PackagerLib().signJar(signJarParams);
+                ^
+  symbol:   class PackagerLib
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/workers/JfxNativeWorker.java:700: error: cannot find symbol
+        } catch(PackagerException ex){
+                ^
+  symbol:   class PackagerException
+  location: class JfxNativeWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/Workarounds.java:286: error: cannot find symbol
+        List<RelativeFileSet> appResourcesList = new ArrayList<>();
+             ^
+  symbol:   class RelativeFileSet
+  location: class Workarounds
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/Workarounds.java:287: error: cannot find symbol
+        RelativeFileSet appResources = StandardBundlerParam.APP_RESOURCES.fetchFrom(params);
+        ^
+  symbol:   class RelativeFileSet
+  location: class Workarounds
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/Workarounds.java:287: error: package StandardBundlerParam does not exist
+        RelativeFileSet appResources = StandardBundlerParam.APP_RESOURCES.fetchFrom(params);
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/Workarounds.java:291: error: cannot find symbol
+        appResourcesList.add(new RelativeFileSet(appPath.toFile(), filenameFixedConfigFiles));
+                                 ^
+  symbol:   class RelativeFileSet
+  location: class Workarounds
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/Workarounds.java:300: error: cannot find symbol
+                for( RelativeFileSet sources : appResourcesList ){
+                     ^
+  symbol:   class RelativeFileSet
+  location: class Workarounds
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1405/wd/NonDex-plugin-test/github.com/FibreFoX/javafx-gradle-plugin/src/main/java/de/dynamicfiles/projects/gradle/plugins/javafx/tasks/internal/Workarounds.java:303: error: cannot find symbol
+                        IOUtils.copyFile(new File(baseDir, fname), new File(tempResourcesDirAsFile, fname));
+                        ^
+  symbol:   variable IOUtils
+  location: class Workarounds
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 24s

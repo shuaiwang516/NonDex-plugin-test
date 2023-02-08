@@ -1,0 +1,30 @@
+[23:52:27] [main/INFO]: Writing debug log file accesstransform.log
+[23:52:27] [main/INFO]: Access Transformer processor running version 1.0.5+4+02b7b69
+[23:52:27] [main/INFO]: Command line arguments [--inJar, /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.0.42/forge-1.16.5-36.0.42-injected.jar, --outJar, /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.0.42_mapped_snapshot_20201028-1.16.3/forge-1.16.5-36.0.42_mapped_snapshot_20201028-1.16.3.jar, --logFile, accesstransform.log, --atFile, /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task815/wd/NonDex-plugin-test/github.com/TheSledgeHammer/GroovyMC/build/_atJar_5/parent_at.cfg]
+[23:52:27] [main/INFO]: Reading from /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.0.42/forge-1.16.5-36.0.42-injected.jar
+[23:52:27] [main/INFO]: Writing to /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.0.42_mapped_snapshot_20201028-1.16.3/forge-1.16.5-36.0.42_mapped_snapshot_20201028-1.16.3.jar
+[23:52:27] [main/INFO]: Transformer file /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task815/wd/NonDex-plugin-test/github.com/TheSledgeHammer/GroovyMC/build/_atJar_5/parent_at.cfg
+[23:52:27] [main/WARN]: Found existing output jar /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.0.42_mapped_snapshot_20201028-1.16.3/forge-1.16.5-36.0.42_mapped_snapshot_20201028-1.16.3.jar, overwriting
+[23:52:32] [main/INFO]: JAR transformation complete /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.0.42_mapped_snapshot_20201028-1.16.3/forge-1.16.5-36.0.42_mapped_snapshot_20201028-1.16.3.jar
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve ooo.thesledgehammer:groovyforge:4.0.4.
+     Required by:
+         project :
+      > Could not resolve ooo.thesledgehammer:groovyforge:4.0.4.
+         > Could not get resource 'https://mvnrepository.com/artifact/org.codehaus.groovy/groovy/ooo/thesledgehammer/groovyforge/4.0.4/groovyforge-4.0.4.pom'.
+            > Could not GET 'https://mvnrepository.com/artifact/org.codehaus.groovy/groovy/ooo/thesledgehammer/groovyforge/4.0.4/groovyforge-4.0.4.pom'. Received status code 403 from server: Forbidden
+      > Could not resolve ooo.thesledgehammer:groovyforge:4.0.4.
+         > Could not get resource 'https://maven.pkg.github.com/TheSledgeHammer/GroovyForge/ooo/thesledgehammer/groovyforge/4.0.4/groovyforge-4.0.4.pom'.
+            > Username must not be null!
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 25s

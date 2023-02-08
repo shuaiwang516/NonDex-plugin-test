@@ -1,0 +1,18 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task355/wd/NonDex-plugin-test/github.com/hibernate/hibernate-orm/hibernate-core/hibernate-core.gradle' line: 97
+
+* What went wrong:
+A problem occurred evaluating project ':hibernate-core'.
+> No signature of method: hibernate_core_7ncjm2n6p61buixqjbks7oo8n.sourceSets() is applicable for argument types: (hibernate_core_7ncjm2n6p61buixqjbks7oo8n$_run_closure5) values: [hibernate_core_7ncjm2n6p61buixqjbks7oo8n$_run_closure5@3560602e]
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

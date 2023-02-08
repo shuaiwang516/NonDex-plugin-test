@@ -1,0 +1,71 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1163/wd/NonDex-plugin-test/github.com/ccrusius/gradle-erlang-plugin/src/main/groovy/org/ccrusius/erlang/tasks/Application.groovy: 9: unable to resolve class org.gradle.api.tasks.ParallelizableTask
+ @ line 9, column 1.
+   import org.gradle.api.tasks.ParallelizableTask
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1163/wd/NonDex-plugin-test/github.com/ccrusius/gradle-erlang-plugin/src/main/groovy/org/ccrusius/erlang/tasks/Compile.groovy: 9: unable to resolve class org.gradle.api.tasks.ParallelizableTask
+ @ line 9, column 1.
+   import org.gradle.api.tasks.ParallelizableTask
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1163/wd/NonDex-plugin-test/github.com/ccrusius/gradle-erlang-plugin/src/main/groovy/org/ccrusius/erlang/tasks/Conf.groovy: 11: unable to resolve class org.gradle.api.tasks.ParallelizableTask
+ @ line 11, column 1.
+   import org.gradle.api.tasks.ParallelizableTask
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1163/wd/NonDex-plugin-test/github.com/ccrusius/gradle-erlang-plugin/src/main/groovy/org/ccrusius/erlang/tasks/GitRepo.groovy: 12: unable to resolve class org.ajoberstar.grgit.Grgit
+ @ line 12, column 1.
+   import org.ajoberstar.grgit.Grgit
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1163/wd/NonDex-plugin-test/github.com/ccrusius/gradle-erlang-plugin/src/main/groovy/org/ccrusius/erlang/tasks/GitRepo.groovy: 13: unable to resolve class org.ajoberstar.grgit.operation.ResetOp
+ @ line 13, column 1.
+   import org.ajoberstar.grgit.operation.ResetOp
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1163/wd/NonDex-plugin-test/github.com/ccrusius/gradle-erlang-plugin/src/main/groovy/org/ccrusius/erlang/tasks/GitRepo.groovy: 10: unable to resolve class org.gradle.api.tasks.ParallelizableTask
+ @ line 10, column 1.
+   import org.gradle.api.tasks.ParallelizableTask
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1163/wd/NonDex-plugin-test/github.com/ccrusius/gradle-erlang-plugin/src/main/groovy/org/ccrusius/erlang/tasks/PrecompiledApplication.groovy: 6: unable to resolve class org.gradle.api.tasks.ParallelizableTask
+ @ line 6, column 1.
+   import org.gradle.api.tasks.ParallelizableTask
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1163/wd/NonDex-plugin-test/github.com/ccrusius/gradle-erlang-plugin/src/main/groovy/org/ccrusius/erlang/tasks/Rebar.groovy: 11: unable to resolve class org.ajoberstar.grgit.Grgit
+ @ line 11, column 1.
+   import org.ajoberstar.grgit.Grgit
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1163/wd/NonDex-plugin-test/github.com/ccrusius/gradle-erlang-plugin/src/main/groovy/org/ccrusius/erlang/tasks/Rebar.groovy: 12: unable to resolve class org.ajoberstar.grgit.operation.ResetOp
+ @ line 12, column 1.
+   import org.ajoberstar.grgit.operation.ResetOp
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1163/wd/NonDex-plugin-test/github.com/ccrusius/gradle-erlang-plugin/src/main/groovy/org/ccrusius/erlang/tasks/Rebar.groovy: 9: unable to resolve class org.gradle.api.tasks.ParallelizableTask
+ @ line 9, column 1.
+   import org.gradle.api.tasks.ParallelizableTask
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1163/wd/NonDex-plugin-test/github.com/ccrusius/gradle-erlang-plugin/src/main/groovy/org/ccrusius/erlang/tasks/RelTool.groovy: 10: unable to resolve class org.gradle.api.tasks.ParallelizableTask
+ @ line 10, column 1.
+   import org.gradle.api.tasks.ParallelizableTask
+   ^
+
+11 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 18s

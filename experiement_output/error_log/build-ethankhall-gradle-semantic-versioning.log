@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1182/wd/NonDex-plugin-test/github.com/ethankhall/gradle-semantic-versioning/build.gradle' line: 30
+
+* What went wrong:
+A problem occurred evaluating root project 'gradle-semantic-versioning'.
+> Could not find method sourceJar() for arguments [build_gq1f3kgivjcuskbcwhtnmrgf$_run_closure4$_closure9$_closure10$_closure11@33c2946e] on object of type org.gradle.api.publish.maven.internal.publication.DefaultMavenPublication.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

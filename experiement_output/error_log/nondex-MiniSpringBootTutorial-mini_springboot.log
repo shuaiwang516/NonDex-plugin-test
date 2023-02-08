@@ -1,0 +1,233 @@
+e: org.jetbrains.kotlin.util.KotlinFrontEndException: Front-end Internal error: Failed to analyze declaration CustomerController
+Cause: Unable to make field private static final jdk.internal.misc.Unsafe jdk.internal.misc.Unsafe.theUnsafe accessible: module java.base does not "opens jdk.internal.misc" to unnamed module @1859f936
+File being compiled and position: (10,1) in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1306/wd/NonDex-plugin-test/github.com/MiniSpringBootTutorial/mini_springboot/src/main/kotlin/jason/chen/mini_springboot/restful/controller/CustomerController.kt
+PsiElement: /**
+ * * 注意:
+ *      这里要使用@Controller注解
+ *      而不要使用@RestController
+ *      否则return "index";只是返回字符串"index"， 不能跳转到index.html
+ *
+ *      @RestController is a stereotype annotation that combines @ResponseBody and @Controller.
+ *      @RestController注解相当于@ResponseBody ＋ @Controller合在一起的作用。
+ */
+
+@Controller
+class CustomerController(val customerService: CustomerService) {
+
+    @GetMapping(value = "/")
+    fun index(): String {
+        return "index"
+    }
+
+    @GetMapping("/customers.do")
+    fun listAll(model: Model): String {
+        val allCustomers = customerService.findAll()
+        model.addAttribute("customers", allCustomers)
+        return "customers"
+    }
+
+    @GetMapping("/listCustomers")
+    @ResponseBody
+    fun listCustomers(model: Model) = customerService.findAll()
+
+    @GetMapping("/{lastName}")
+    @ResponseBody
+    fun findByLastName(@PathVariable lastName: String)
+            = customerService.findByLastName(lastName)
+}
+The root cause was thrown at: AccessibleObject.java:340
+	at org.jetbrains.kotlin.resolve.ExceptionWrappingKtVisitorVoid.visitDeclaration(ExceptionWrappingKtVisitorVoid.kt:41)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitDeclaration(KtVisitorVoid.java:445)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitDeclaration(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtVisitor.visitNamedDeclaration(KtVisitor.java:390)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitNamedDeclaration(KtVisitorVoid.java:373)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitNamedDeclaration(KtVisitorVoid.java:951)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitNamedDeclaration(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtVisitor.visitClassOrObject(KtVisitor.java:41)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClassOrObject(KtVisitorVoid.java:37)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClassOrObject(KtVisitorVoid.java:457)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClassOrObject(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtVisitor.visitClass(KtVisitor.java:33)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClass(KtVisitorVoid.java:33)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClass(KtVisitorVoid.java:451)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClass(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtClass.accept(KtClass.kt:34)
+	at org.jetbrains.kotlin.psi.KtElementImplStub.accept(KtElementImplStub.java:58)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer$analyzeDeclarations$1.registerDeclarations(LazyTopDownAnalyzer.kt:73)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer$analyzeDeclarations$1.visitKtFile(LazyTopDownAnalyzer.kt:91)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitKtFile(KtVisitorVoid.java:505)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitKtFile(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtFile.accept(KtFile.java:234)
+	at org.jetbrains.kotlin.psi.KtFile.accept(KtFile.java:214)
+	at org.jetbrains.kotlin.resolve.ExceptionWrappingKtVisitorVoid.visitElement(ExceptionWrappingKtVisitorVoid.kt:27)
+	at org.jetbrains.kotlin.com.intellij.psi.PsiElementVisitor.visitFile(PsiElementVisitor.java:34)
+	at org.jetbrains.kotlin.psi.KtVisitor.visitKtFile(KtVisitor.java:73)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitKtFile(KtVisitorVoid.java:69)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitKtFile(KtVisitorVoid.java:505)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitKtFile(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtFile.accept(KtFile.java:234)
+	at org.jetbrains.kotlin.psi.KtFile.accept(KtFile.java:214)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.analyzeDeclarations(LazyTopDownAnalyzer.kt:187)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.analyzeDeclarations$default(LazyTopDownAnalyzer.kt:56)
+	at org.jetbrains.kotlin.resolve.jvm.TopDownAnalyzerFacadeForJVM.analyzeFilesWithJavaIntegration(TopDownAnalyzerFacadeForJVM.kt:107)
+	at org.jetbrains.kotlin.resolve.jvm.TopDownAnalyzerFacadeForJVM.analyzeFilesWithJavaIntegration$default(TopDownAnalyzerFacadeForJVM.kt:79)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinToJVMBytecodeCompiler$analyze$1.analyze(KotlinToJVMBytecodeCompiler.kt:347)
+	at org.jetbrains.kotlin.cli.common.messages.AnalyzerWithCompilerReport.analyzeAndReport(AnalyzerWithCompilerReport.kt:104)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinToJVMBytecodeCompiler.analyze(KotlinToJVMBytecodeCompiler.kt:336)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinToJVMBytecodeCompiler.compileModules(KotlinToJVMBytecodeCompiler.kt:131)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:170)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:55)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.exec(CLICompiler.java:191)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.execCompiler(CompileServiceImpl.kt:391)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.access$execCompiler(CompileServiceImpl.kt:95)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl$compile$1$2.invoke(CompileServiceImpl.kt:359)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl$compile$1$2.invoke(CompileServiceImpl.kt:95)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl$doCompile$2$$special$$inlined$withValidClientOrSessionProxy$lambda$1.invoke(CompileServiceImpl.kt:717)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl$doCompile$2$$special$$inlined$withValidClientOrSessionProxy$lambda$1.invoke(CompileServiceImpl.kt:95)
+	at org.jetbrains.kotlin.daemon.common.DummyProfiler.withMeasure(PerfUtils.kt:137)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.checkedCompile(CompileServiceImpl.kt:744)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.access$checkedCompile(CompileServiceImpl.kt:95)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl$doCompile$2.invoke(CompileServiceImpl.kt:716)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl$doCompile$2.invoke(CompileServiceImpl.kt:95)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.ifAlive(CompileServiceImpl.kt:897)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.ifAlive$default(CompileServiceImpl.kt:784)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.doCompile(CompileServiceImpl.kt:710)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.access$doCompile(CompileServiceImpl.kt:95)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl$compile$1.invoke(CompileServiceImpl.kt:358)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl$compile$1.invoke(CompileServiceImpl.kt:95)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.ifAlive(CompileServiceImpl.kt:897)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.ifAlive$default(CompileServiceImpl.kt:784)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.compile(CompileServiceImpl.kt:331)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private static final jdk.internal.misc.Unsafe jdk.internal.misc.Unsafe.theUnsafe accessible: module java.base does not "opens jdk.internal.misc" to unnamed module @1859f936
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:340)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:280)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:176)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:170)
+	at org.jetbrains.kotlin.com.intellij.util.DebugReflectionUtil.getAllFields(DebugReflectionUtil.java:52)
+	at org.jetbrains.kotlin.com.intellij.util.DebugReflectionUtil.processStronglyReferencedValues(DebugReflectionUtil.java:90)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker.findReferencedPsi(CachedValueChecker.java:78)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker.access$000(CachedValueChecker.java:40)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker$1.process(CachedValueChecker.java:81)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker$1.process(CachedValueChecker.java:78)
+	at org.jetbrains.kotlin.com.intellij.util.DebugReflectionUtil.processStronglyReferencedValues(DebugReflectionUtil.java:104)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker.findReferencedPsi(CachedValueChecker.java:78)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker.access$000(CachedValueChecker.java:40)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker$1.process(CachedValueChecker.java:81)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker$1.process(CachedValueChecker.java:78)
+	at org.jetbrains.kotlin.com.intellij.util.DebugReflectionUtil.processStronglyReferencedValues(DebugReflectionUtil.java:104)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker.findReferencedPsi(CachedValueChecker.java:78)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker.access$000(CachedValueChecker.java:40)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker$1.process(CachedValueChecker.java:81)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker$1.process(CachedValueChecker.java:78)
+	at org.jetbrains.kotlin.com.intellij.util.DebugReflectionUtil.processStronglyReferencedValues(DebugReflectionUtil.java:104)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker.findReferencedPsi(CachedValueChecker.java:78)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker.access$000(CachedValueChecker.java:40)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker$1.process(CachedValueChecker.java:81)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker$1.process(CachedValueChecker.java:78)
+	at org.jetbrains.kotlin.com.intellij.util.DebugReflectionUtil.processStronglyReferencedValues(DebugReflectionUtil.java:104)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker.findReferencedPsi(CachedValueChecker.java:78)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker.access$000(CachedValueChecker.java:40)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker$1.process(CachedValueChecker.java:81)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker$1.process(CachedValueChecker.java:78)
+	at org.jetbrains.kotlin.com.intellij.util.DebugReflectionUtil.processStronglyReferencedValues(DebugReflectionUtil.java:104)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker.findReferencedPsi(CachedValueChecker.java:78)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValueChecker.checkProvider(CachedValueChecker.java:52)
+	at org.jetbrains.kotlin.com.intellij.util.CachedValuesManagerImpl.getCachedValue(CachedValuesManagerImpl.java:57)
+	at org.jetbrains.kotlin.com.intellij.psi.util.CachedValuesManager.getCachedValue(CachedValuesManager.java:133)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.source.ClassInnerStuffCache.getInnerClasses(ClassInnerStuffCache.java:82)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.compiled.ClsClassImpl.getInnerClasses(ClsClassImpl.java:184)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.compiled.ClsJavaCodeReferenceElementImpl.resolveElement(ClsJavaCodeReferenceElementImpl.java:244)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.compiled.ClsJavaCodeReferenceElementImpl.advancedResolveImpl(ClsJavaCodeReferenceElementImpl.java:129)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.compiled.ClsJavaCodeReferenceElementImpl.access$000(ClsJavaCodeReferenceElementImpl.java:44)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.compiled.ClsJavaCodeReferenceElementImpl$Resolver.resolve(ClsJavaCodeReferenceElementImpl.java:122)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.compiled.ClsJavaCodeReferenceElementImpl$Resolver.resolve(ClsJavaCodeReferenceElementImpl.java:116)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.source.resolve.ResolveCache$4.compute(ResolveCache.java:191)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.source.resolve.ResolveCache$4.compute(ResolveCache.java:188)
+	at org.jetbrains.kotlin.com.intellij.openapi.util.RecursionManager$2.doPreventingRecursion(RecursionManager.java:112)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.source.resolve.ResolveCache.resolveWithCaching(ResolveCache.java:188)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.compiled.ClsJavaCodeReferenceElementImpl.multiResolve(ClsJavaCodeReferenceElementImpl.java:219)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.compiled.ClsJavaCodeReferenceElementImpl.advancedResolve(ClsJavaCodeReferenceElementImpl.java:209)
+	at org.jetbrains.kotlin.com.intellij.psi.impl.compiled.ClsJavaCodeReferenceElementImpl.resolve(ClsJavaCodeReferenceElementImpl.java:226)
+	at org.jetbrains.kotlin.load.java.structure.impl.JavaAnnotationImpl.resolvePsi(JavaAnnotationImpl.java:86)
+	at org.jetbrains.kotlin.load.java.structure.impl.JavaAnnotationImpl.getClassId(JavaAnnotationImpl.java:50)
+	at org.jetbrains.kotlin.load.java.components.JavaAnnotationMapper.mapOrResolveJavaAnnotation(JavaAnnotationMapper.kt:55)
+	at org.jetbrains.kotlin.load.java.lazy.LazyJavaAnnotations$annotationDescriptors$1.invoke(LazyJavaAnnotations.kt:32)
+	at org.jetbrains.kotlin.load.java.lazy.LazyJavaAnnotations$annotationDescriptors$1.invoke(LazyJavaAnnotations.kt:27)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunction.invoke(LockBasedStorageManager.java:402)
+	at kotlin.sequences.TransformingSequence$iterator$1.next(Sequences.kt:135)
+	at kotlin.sequences.FlatteningSequence$iterator$1.next(Sequences.kt:223)
+	at kotlin.sequences.FilteringSequence$iterator$1.calcNext(Sequences.kt:96)
+	at kotlin.sequences.FilteringSequence$iterator$1.hasNext(Sequences.kt:119)
+	at org.jetbrains.kotlin.extensions.AnnotationBasedExtension$DefaultImpls.isASpecialAnnotation(AnnotationBasedExtension.kt:55)
+	at org.jetbrains.kotlin.extensions.AnnotationBasedExtension$DefaultImpls.isASpecialAnnotation$default(AnnotationBasedExtension.kt:45)
+	at org.jetbrains.kotlin.extensions.AnnotationBasedExtension$DefaultImpls.hasSpecialAnnotation(AnnotationBasedExtension.kt:30)
+	at org.jetbrains.kotlin.allopen.AbstractAllOpenDeclarationAttributeAltererExtension.hasSpecialAnnotation(AllOpenDeclarationAttributeAltererExtension.kt:35)
+	at org.jetbrains.kotlin.allopen.AbstractAllOpenDeclarationAttributeAltererExtension.refineDeclarationModality(AllOpenDeclarationAttributeAltererExtension.kt:52)
+	at org.jetbrains.kotlin.resolve.ModifiersChecker.resolveModalityFromModifiers(ModifiersChecker.java:132)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassDescriptor$3.invoke(LazyClassDescriptor.java:163)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassDescriptor$3.invoke(LazyClassDescriptor.java:160)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:323)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:364)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassDescriptor.getModality(LazyClassDescriptor.java:518)
+	at org.jetbrains.kotlin.resolve.DescriptorUtils.isSealedClass(DescriptorUtils.java:282)
+	at org.jetbrains.kotlin.resolve.DescriptorUtils.getDefaultConstructorVisibility(DescriptorUtils.java:378)
+	at org.jetbrains.kotlin.resolve.FunctionDescriptorResolver.createConstructorDescriptor(FunctionDescriptorResolver.kt:313)
+	at org.jetbrains.kotlin.resolve.FunctionDescriptorResolver.resolvePrimaryConstructorDescriptor(FunctionDescriptorResolver.kt:255)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassMemberScope.resolvePrimaryConstructor(LazyClassMemberScope.kt:346)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassMemberScope$primaryConstructor$1.invoke(LazyClassMemberScope.kt:96)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassMemberScope$primaryConstructor$1.invoke(LazyClassMemberScope.kt:49)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:323)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassMemberScope.getPrimaryConstructor(LazyClassMemberScope.kt:331)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassMemberScope.createPropertiesFromPrimaryConstructorParameters(LazyClassMemberScope.kt:265)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassMemberScope.getNonDeclaredProperties(LazyClassMemberScope.kt:250)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope.doGetProperties(AbstractLazyMemberScope.kt:126)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope$propertyDescriptors$1.invoke(AbstractLazyMemberScope.kt:50)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope$propertyDescriptors$1.invoke(AbstractLazyMemberScope.kt:39)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunction.invoke(LockBasedStorageManager.java:402)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunctionToNotNull.invoke(LockBasedStorageManager.java:470)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope.getContributedVariables(AbstractLazyMemberScope.kt:108)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassMemberScope.getContributedVariables(LazyClassMemberScope.kt:235)
+	at org.jetbrains.kotlin.resolve.lazy.LazyDeclarationResolver$1.visitParameter(LazyDeclarationResolver.java:179)
+	at org.jetbrains.kotlin.resolve.lazy.LazyDeclarationResolver$1.visitParameter(LazyDeclarationResolver.java:118)
+	at org.jetbrains.kotlin.psi.KtParameter.accept(KtParameter.java:50)
+	at org.jetbrains.kotlin.resolve.lazy.LazyDeclarationResolver.resolveToDescriptor(LazyDeclarationResolver.java:118)
+	at org.jetbrains.kotlin.resolve.lazy.LazyDeclarationResolver.resolveToDescriptor(LazyDeclarationResolver.java:113)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer$analyzeDeclarations$1.registerPrimaryConstructorParameters(LazyTopDownAnalyzer.kt:148)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer$analyzeDeclarations$1.visitClass(LazyTopDownAnalyzer.kt:142)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClass(KtVisitorVoid.java:451)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClass(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtClass.accept(KtClass.kt:34)
+	at org.jetbrains.kotlin.psi.KtElementImplStub.accept(KtElementImplStub.java:58)
+	at org.jetbrains.kotlin.resolve.ExceptionWrappingKtVisitorVoid.visitDeclaration(ExceptionWrappingKtVisitorVoid.kt:32)
+	... 78 more
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Internal compiler error. See log for more details
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

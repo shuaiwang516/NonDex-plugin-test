@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not find com.tomgregory:gradle-java-library-plugin-library:0.0.1-SNAPSHOT.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/com/tomgregory/gradle-java-library-plugin-library/0.0.1-SNAPSHOT/maven-metadata.xml
+       - https://repo.maven.apache.org/maven2/com/tomgregory/gradle-java-library-plugin-library/0.0.1-SNAPSHOT/gradle-java-library-plugin-library-0.0.1-SNAPSHOT.pom
+       - file:/root/.m2/repository/com/tomgregory/gradle-java-library-plugin-library/0.0.1-SNAPSHOT/maven-metadata.xml
+       - file:/root/.m2/repository/com/tomgregory/gradle-java-library-plugin-library/0.0.1-SNAPSHOT/gradle-java-library-plugin-library-0.0.1-SNAPSHOT.pom
+     Required by:
+         project :
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

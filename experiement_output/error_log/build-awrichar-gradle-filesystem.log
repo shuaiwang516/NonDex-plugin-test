@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-filesystem'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve com.gradle.publish:plugin-publish-plugin:0.9.7.
+     Required by:
+         project :
+      > Could not resolve com.gradle.publish:plugin-publish-plugin:0.9.7.
+         > Could not get resource 'https://plugins.gradle.org/m2/com/gradle/publish/plugin-publish-plugin/0.9.7/plugin-publish-plugin-0.9.7.pom'.
+            > Could not GET 'https://plugins.gradle.org/m2/com/gradle/publish/plugin-publish-plugin/0.9.7/plugin-publish-plugin-0.9.7.pom'.
+               > proxy-wsa.esl.cisco.com
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

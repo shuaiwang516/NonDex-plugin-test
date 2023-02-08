@@ -1,0 +1,13 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':applet'.
+> Invalid JavaCard SDK path : /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task863/wd/NonDex-plugin-test/github.com/ph4r05/javacard-gradle-template/libs-sdks/jc310b43_kit
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 17s

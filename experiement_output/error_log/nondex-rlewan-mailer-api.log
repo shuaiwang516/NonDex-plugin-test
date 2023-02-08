@@ -1,0 +1,22 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1271/wd/NonDex-plugin-test/github.com/rlewan/mailer-api/src/main/java/com/github/rlewan/mailer/model/SendEmailRequest.java:5: error: package org.apache.commons.lang3.builder does not exist
+import org.apache.commons.lang3.builder.ToStringBuilder;
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1271/wd/NonDex-plugin-test/github.com/rlewan/mailer-api/src/main/java/com/github/rlewan/mailer/model/SendEmailRequest.java:58: error: cannot find symbol
+        return new ToStringBuilder(this)
+                   ^
+  symbol:   class ToStringBuilder
+  location: class SendEmailRequest
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 20s

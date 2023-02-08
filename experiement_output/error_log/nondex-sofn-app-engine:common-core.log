@@ -1,0 +1,31 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':common-core:compileJava'.
+> Could not resolve all files for configuration ':common-core:compileClasspath'.
+   > Could not resolve org.springframework:spring-aop:5.3.14.
+     Required by:
+         project :common-core > org.springframework.boot:spring-boot-starter-aop:2.6.2
+         project :common-core > org.springframework.boot:spring-boot-starter-web:2.6.2 > org.springframework:spring-webmvc:5.3.14
+         project :common-core > org.springframework.boot:spring-boot-starter-data-jpa:2.6.2 > org.springframework.data:spring-data-jpa:2.6.0 > org.springframework:spring-context:5.3.14
+      > Could not resolve org.springframework:spring-aop:5.3.14.
+         > Could not get resource 'https://maven.aliyun.com/repository/public/org/springframework/spring-aop/5.3.14/spring-aop-5.3.14.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/springframework/spring-aop/5.3.14/spring-aop-5.3.14.pom?Expires=1675211450&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=tvyud23zS2YN6GS%2B5tCiN%2FwFFYc%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+   > Could not resolve org.springframework:spring-aop:5.3.14.
+     Required by:
+         project :common-core > org.springframework.boot:spring-boot-starter-data-jpa:2.6.2 > org.springframework.data:spring-data-jpa:2.6.0
+      > Could not resolve org.springframework:spring-aop:5.3.14.
+         > Could not get resource 'https://maven.aliyun.com/repository/public/org/springframework/spring-aop/5.3.14/spring-aop-5.3.14.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/springframework/spring-aop/5.3.14/spring-aop-5.3.14.pom?Expires=1675211450&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=tvyud23zS2YN6GS%2B5tCiN%2FwFFYc%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4m 35s

@@ -1,0 +1,54 @@
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task835/wd/NonDex-plugin-test/github.com/QMSTR/qmstr-gradle-plugin/.gradle/vcs-1/java-qmstr_4a81kbxrsa6pzkz4xf5kfa2jz/java-qmstr/src/main/java/org/qmstr/grpc/service/Controlservice.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task835/wd/NonDex-plugin-test/github.com/QMSTR/qmstr-gradle-plugin/src/main/java/org/qmstr/gradle/QmstrPackTask.java:7: error: cannot find symbol
+import org.qmstr.util.FilenodeUtils;
+                     ^
+  symbol:   class FilenodeUtils
+  location: package org.qmstr.util
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task835/wd/NonDex-plugin-test/github.com/QMSTR/qmstr-gradle-plugin/src/main/java/org/qmstr/gradle/QmstrCompileTask.java:9: error: cannot find symbol
+import org.qmstr.util.FilenodeUtils;
+                     ^
+  symbol:   class FilenodeUtils
+  location: package org.qmstr.util
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task835/wd/NonDex-plugin-test/github.com/QMSTR/qmstr-gradle-plugin/src/main/java/org/qmstr/gradle/QmstrPackTask.java:38: error: incompatible types: inference variable T has incompatible bounds
+        bsc.SendBuildFileNodes(arts.entrySet().parallelStream()
+           ^
+    equality constraints: FileNode
+    lower bounds: Object
+  where T is a type-variable:
+    T extends Object declared in method <T>toSet()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task835/wd/NonDex-plugin-test/github.com/QMSTR/qmstr-gradle-plugin/src/main/java/org/qmstr/gradle/QmstrPackTask.java:39: error: cannot find symbol
+                .map(artEntry -> FilenodeUtils.processArtifact(artEntry.getKey().getFile(), artEntry.getValue()))
+                                 ^
+  symbol:   variable FilenodeUtils
+  location: class QmstrPackTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task835/wd/NonDex-plugin-test/github.com/QMSTR/qmstr-gradle-plugin/src/main/java/org/qmstr/gradle/QmstrPackTask.java:40: error: cannot find symbol
+                .filter(o -> o.isPresent())
+                              ^
+  symbol:   method isPresent()
+  location: variable o of type Object
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task835/wd/NonDex-plugin-test/github.com/QMSTR/qmstr-gradle-plugin/src/main/java/org/qmstr/gradle/QmstrPackTask.java:41: error: cannot find symbol
+                .map(o -> o.get())
+                           ^
+  symbol:   method get()
+  location: variable o of type Object
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task835/wd/NonDex-plugin-test/github.com/QMSTR/qmstr-gradle-plugin/src/main/java/org/qmstr/gradle/QmstrCompileTask.java:35: error: cannot find symbol
+                    Set<Datamodel.FileNode> nodes = FilenodeUtils.processSourceFile(js, sourceDirs.getFiles(), outDirs.getFiles());
+                                                    ^
+  symbol:   variable FilenodeUtils
+  location: class QmstrCompileTask
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+7 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 39s

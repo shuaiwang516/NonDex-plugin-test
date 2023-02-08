@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'springboot-converged-project'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not download spring-boot-buildpack-platform-2.7.3.jar (org.springframework.boot:spring-boot-buildpack-platform:2.7.3)
+      > Could not get resource 'https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-buildpack-platform/2.7.3/spring-boot-buildpack-platform-2.7.3.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/springframework/boot/spring-boot-buildpack-platform/2.7.3/spring-boot-buildpack-platform-2.7.3.jar?Expires=1675211262&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=qNpa4a5%2FSYDn5BoVlwjSsgR%2Bems%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5m 6s

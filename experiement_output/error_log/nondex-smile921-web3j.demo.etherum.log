@@ -1,0 +1,25 @@
+[Fatal Error] solcJ-all-0.4.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] solcJ-all-0.4.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] solcJ-all-0.4.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] solcJ-all-0.4.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] solcJ-all-0.4.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] solcJ-all-0.4.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve org.ethereum:solcJ-all:0.4.8.
+     Required by:
+         project : > org.ethereum:ethereumj-core:1.4.3-RELEASE
+      > Could not resolve org.ethereum:solcJ-all:0.4.8.
+         > Could not parse POM http://oss.jfrog.org/artifactory/oss-snapshot-local/org/ethereum/solcJ-all/0.4.8/solcJ-all-0.4.8.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s

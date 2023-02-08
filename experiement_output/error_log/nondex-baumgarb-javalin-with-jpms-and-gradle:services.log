@@ -1,0 +1,21 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task401/wd/NonDex-plugin-test/github.com/baumgarb/javalin-with-jpms-and-gradle/services/src/main/java/org/example/services/inmemory/InMemoryPersonReader.java:23: error: cannot find symbol
+        ).stream().filter(this.filter::filter).toList();
+                                              ^
+  symbol:   method toList()
+  location: interface Stream<Person>
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':services:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

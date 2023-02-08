@@ -1,0 +1,360 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/AbstractSpringBootFx.java:8: error: package javafx.application does not exist
+import javafx.application.Application;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/AbstractSpringBootFx.java:9: error: package javafx.application does not exist
+import javafx.application.HostServices;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/AbstractSpringBootFx.java:10: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/AbstractSpringBootFx.java:12: error: cannot find symbol
+public abstract class AbstractSpringBootFx extends Application {
+                                                   ^
+  symbol: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/AbstractSpringBootFx.java:31: error: cannot find symbol
+	public abstract void start(Stage primaryStage) throws Exception;
+	                           ^
+  symbol:   class Stage
+  location: class AbstractSpringBootFx
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/StageManager.java:19: error: package javafx.fxml does not exist
+import javafx.fxml.FXMLLoader;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/StageManager.java:20: error: package javafx.scene does not exist
+import javafx.scene.Parent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/StageManager.java:21: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/StageManager.java:22: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.AnchorPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/StageManager.java:23: error: package javafx.stage does not exist
+import javafx.stage.Modality;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/StageManager.java:24: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/StageManager.java:29: error: cannot find symbol
+	private Stage primaryStage;
+	        ^
+  symbol:   class Stage
+  location: class StageManager
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/HomeController.java:11: error: package javafx.event does not exist
+import javafx.event.ActionEvent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/HomeController.java:12: error: package javafx.fxml does not exist
+import javafx.fxml.FXML;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/HomeController.java:13: error: package javafx.fxml does not exist
+import javafx.fxml.Initializable;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/HomeController.java:14: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/HomeController.java:15: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.StackPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/HomeController.java:16: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.VBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/HomeMenuController.java:10: error: package javafx.event does not exist
+import javafx.event.ActionEvent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/HomeMenuController.java:11: error: package javafx.fxml does not exist
+import javafx.fxml.FXMLLoader;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/HomeMenuController.java:12: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/HomeMenuController.java:13: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.Pane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/HomeMenuController.java:14: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.StackPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/HomeController.java:19: error: cannot find symbol
+public class HomeController extends HomeMenuController implements Initializable {
+                                                                  ^
+  symbol: class Initializable
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/SupplierController.java:16: error: package javafx.application does not exist
+import javafx.application.Platform;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/SupplierController.java:17: error: package javafx.collections does not exist
+import javafx.collections.FXCollections;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/SupplierController.java:18: error: package javafx.collections does not exist
+import javafx.collections.ObservableList;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/SupplierController.java:19: error: package javafx.event does not exist
+import javafx.event.ActionEvent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/SupplierController.java:20: error: package javafx.fxml does not exist
+import javafx.fxml.FXML;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/SupplierController.java:21: error: package javafx.fxml does not exist
+import javafx.fxml.Initializable;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/SupplierController.java:22: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/SupplierController.java:23: error: package javafx.scene.control does not exist
+import javafx.scene.control.TableColumn;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/SupplierController.java:24: error: package javafx.scene.control does not exist
+import javafx.scene.control.TableView;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/SupplierController.java:25: error: package javafx.scene.control.cell does not exist
+import javafx.scene.control.cell.PropertyValueFactory;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/SupplierController.java:28: error: cannot find symbol
+public class SupplierController implements Initializable, ContainerView {
+                                           ^
+  symbol: class Initializable
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/ContainerView.java:6: error: package javafx.fxml does not exist
+import javafx.fxml.Initializable;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/ContainerView.java:8: error: cannot find symbol
+public interface ContainerView extends Initializable {
+                                       ^
+  symbol: class Initializable
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/StageManager.java:43: error: cannot find symbol
+	public void setPrimaryStage(Stage primaryStage) {
+	                            ^
+  symbol:   class Stage
+  location: class StageManager
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/CategoryFormController.java:8: error: package javafx.event does not exist
+import javafx.event.ActionEvent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/CategoryFormController.java:9: error: package javafx.fxml does not exist
+import javafx.fxml.FXML;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/CategoryFormController.java:10: error: package javafx.fxml does not exist
+import javafx.fxml.Initializable;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/CategoryFormController.java:11: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/CategoryFormController.java:12: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/CategoryFormController.java:13: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/CategoryFormController.java:14: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/CategoryFormController.java:16: error: cannot find symbol
+public class CategoryFormController implements Initializable, BaseFormController<Category> {
+                                               ^
+  symbol: class Initializable
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/BaseFormController.java:5: error: package javafx.event does not exist
+import javafx.event.ActionEvent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/BaseFormController.java:6: error: package javafx.fxml does not exist
+import javafx.fxml.Initializable;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/BaseFormController.java:9: error: cannot find symbol
+public interface BaseFormController<T> extends Initializable {
+                                               ^
+  symbol: class Initializable
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/EmployeeFormController.java:8: error: package javafx.event does not exist
+import javafx.event.ActionEvent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/EmployeeFormController.java:9: error: package javafx.fxml does not exist
+import javafx.fxml.FXML;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/EmployeeFormController.java:10: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/EmployeeFormController.java:11: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/EmployeeFormController.java:12: error: package javafx.scene.control does not exist
+import javafx.scene.control.PasswordField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/EmployeeFormController.java:13: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/EmployeeFormController.java:14: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:15: error: package javafx.application does not exist
+import javafx.application.Platform;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:16: error: package javafx.event does not exist
+import javafx.event.ActionEvent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:17: error: package javafx.fxml does not exist
+import javafx.fxml.FXML;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:18: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:19: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:20: error: package javafx.scene.control does not exist
+import javafx.scene.control.ComboBox;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:21: error: package javafx.scene.control does not exist
+import javafx.scene.control.DatePicker;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:22: error: package javafx.scene.control does not exist
+import javafx.scene.control.ListCell;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:23: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:24: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:25: error: package javafx.util does not exist
+import javafx.util.StringConverter;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:15: error: package javafx.application does not exist
+import javafx.application.Platform;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:16: error: package javafx.event does not exist
+import javafx.event.ActionEvent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:17: error: package javafx.fxml does not exist
+import javafx.fxml.FXML;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:18: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:19: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:20: error: package javafx.scene.control does not exist
+import javafx.scene.control.ComboBox;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:21: error: package javafx.scene.control does not exist
+import javafx.scene.control.ListCell;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:22: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:23: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:24: error: package javafx.util does not exist
+import javafx.util.StringConverter;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/service/CategoryService.java:11: error: package javafx.collections does not exist
+import javafx.collections.FXCollections;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/service/CategoryService.java:12: error: package javafx.collections does not exist
+import javafx.collections.ObservableList;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/service/SupplierService.java:10: error: package javafx.collections does not exist
+import javafx.collections.FXCollections;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/service/SupplierService.java:11: error: package javafx.collections does not exist
+import javafx.collections.ObservableList;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:35: error: cannot find symbol
+	@FXML private ComboBox<Category> categoryCombo;
+	              ^
+  symbol:   class ComboBox
+  location: class ProductFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:36: error: cannot find symbol
+    @FXML private ComboBox<Supplier> supplierCombo;
+                  ^
+  symbol:   class ComboBox
+  location: class ProductFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:37: error: cannot find symbol
+    @FXML private TextField productNameField;
+                  ^
+  symbol:   class TextField
+  location: class ProductFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:38: error: cannot find symbol
+    @FXML private TextField quantityField;
+                  ^
+  symbol:   class TextField
+  location: class ProductFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:39: error: cannot find symbol
+    @FXML private TextField priceField;
+                  ^
+  symbol:   class TextField
+  location: class ProductFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:40: error: cannot find symbol
+    @FXML private TextField descriptionField;
+                  ^
+  symbol:   class TextField
+  location: class ProductFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:42: error: cannot find symbol
+    @FXML private Button cancelButton;
+                  ^
+  symbol:   class Button
+  location: class ProductFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:43: error: cannot find symbol
+    @FXML private Button saveButton;
+                  ^
+  symbol:   class Button
+  location: class ProductFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:143: error: cannot find symbol
+	public void updateItemAndCloseForm(ActionEvent event) {
+	                                   ^
+  symbol:   class ActionEvent
+  location: class ProductFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/ProductFormController.java:150: error: cannot find symbol
+	public void closFormByEvent(ActionEvent event) {
+	                            ^
+  symbol:   class ActionEvent
+  location: class ProductFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/service/SupplierService.java:19: error: cannot find symbol
+	public ObservableList<Supplier> getAllSuppliers() {
+	       ^
+  symbol:   class ObservableList
+  location: class SupplierService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/service/CategoryService.java:20: error: cannot find symbol
+	public ObservableList<Category> getAll() {
+	       ^
+  symbol:   class ObservableList
+  location: class CategoryService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/service/ProductService.java:14: error: package javafx.collections does not exist
+import javafx.collections.FXCollections;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/service/ProductService.java:15: error: package javafx.collections does not exist
+import javafx.collections.ObservableList;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:36: error: cannot find symbol
+	@FXML private ComboBox<Product> productCombo;
+	              ^
+  symbol:   class ComboBox
+  location: class PurchaseFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:37: error: cannot find symbol
+    @FXML private ComboBox<Supplier> supplierCombo;
+                  ^
+  symbol:   class ComboBox
+  location: class PurchaseFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:38: error: cannot find symbol
+    @FXML private TextField quantityField;
+                  ^
+  symbol:   class TextField
+  location: class PurchaseFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:39: error: cannot find symbol
+    @FXML private TextField priceField;
+                  ^
+  symbol:   class TextField
+  location: class PurchaseFormController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1085/wd/NonDex-plugin-test/github.com/juni103/SpringBootJPAGradle-JavaFx/src/main/java/com/example/demo/controller/form/PurchaseFormController.java:40: error: cannot find symbol
+    @FXML private TextField totalField;
+                  ^
+  symbol:   class TextField
+  location: class PurchaseFormController
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

@@ -1,0 +1,51 @@
+Errors occurred while build effective model from /root/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.1.10/ac5e374df42891b0c31e2247e1cc71802f023677/druid-1.1.10.pom:
+    'dependencies.dependency.systemPath' for com.alibaba:jconsole:jar must specify an absolute path but is ${env.JAVA_HOME}/lib/jconsole.jar in com.alibaba:druid:1.1.10
+    'dependencies.dependency.systemPath' for com.alibaba:tools:jar must specify an absolute path but is ${env.JAVA_HOME}/lib/tools.jar in com.alibaba:druid:1.1.10
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve com.lazyer.starter:http-client:1.1.2.
+     Required by:
+         project :
+      > Could not resolve com.lazyer.starter:http-client:1.1.2.
+         > Could not get resource 'http://central.maven.org/maven2/com/lazyer/starter/http-client/1.1.2/http-client-1.1.2.jar'.
+            > Could not HEAD 'http://central.maven.org/maven2/com/lazyer/starter/http-client/1.1.2/http-client-1.1.2.jar'.
+               > central.maven.org
+   > Could not resolve com.lazyer.starter:foundation:1.1.2.
+     Required by:
+         project :
+      > Could not resolve com.lazyer.starter:foundation:1.1.2.
+         > Could not get resource 'http://central.maven.org/maven2/com/lazyer/starter/foundation/1.1.2/foundation-1.1.2.jar'.
+            > Could not HEAD 'http://central.maven.org/maven2/com/lazyer/starter/foundation/1.1.2/foundation-1.1.2.jar'.
+               > central.maven.org
+   > Could not resolve com.lazyer.starter:api-generator:1.1.2.
+     Required by:
+         project :
+      > Could not resolve com.lazyer.starter:api-generator:1.1.2.
+         > Could not get resource 'http://central.maven.org/maven2/com/lazyer/starter/api-generator/1.1.2/api-generator-1.1.2.jar'.
+            > Could not HEAD 'http://central.maven.org/maven2/com/lazyer/starter/api-generator/1.1.2/api-generator-1.1.2.jar'.
+               > central.maven.org
+   > Could not resolve com.lazyer.starter:mybatis:1.1.2.
+     Required by:
+         project :
+      > Could not resolve com.lazyer.starter:mybatis:1.1.2.
+         > Could not get resource 'http://central.maven.org/maven2/com/lazyer/starter/mybatis/1.1.2/mybatis-1.1.2.jar'.
+            > Could not HEAD 'http://central.maven.org/maven2/com/lazyer/starter/mybatis/1.1.2/mybatis-1.1.2.jar'.
+               > central.maven.org
+   > Could not resolve com.lazyer.starter:tools:1.1.2.
+     Required by:
+         project :
+      > Could not resolve com.lazyer.starter:tools:1.1.2.
+         > Could not get resource 'http://central.maven.org/maven2/com/lazyer/starter/tools/1.1.2/tools-1.1.2.jar'.
+            > Could not HEAD 'http://central.maven.org/maven2/com/lazyer/starter/tools/1.1.2/tools-1.1.2.jar'.
+               > central.maven.org: Name or service not known
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 0s

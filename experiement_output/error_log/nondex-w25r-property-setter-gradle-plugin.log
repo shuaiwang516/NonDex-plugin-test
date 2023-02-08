@@ -1,0 +1,111 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:10: error: package org.junit does not exist
+import org.junit.Assert;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:11: error: package org.junit does not exist
+import org.junit.Before;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:12: error: package org.junit does not exist
+import org.junit.Ignore;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:13: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:19: error: cannot find symbol
+    @Before
+     ^
+  symbol:   class Before
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:24: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:29: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:39: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:53: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:70: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:80: error: cannot find symbol
+    @Ignore
+     ^
+  symbol:   class Ignore
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:81: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:90: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:36: error: cannot find symbol
+        Assert.assertEquals(VALUE, project.getExtensions().getByType(Extension.class).property);
+        ^
+  symbol:   variable Assert
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:47: error: cannot find symbol
+        Assert.assertEquals(null, project.getExtensions().getByType(Extension.class).property);
+        ^
+  symbol:   variable Assert
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:50: error: cannot find symbol
+        Assert.assertEquals(VALUE, project.getExtensions().getByType(Extension.class).property);
+        ^
+  symbol:   variable Assert
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:64: error: cannot find symbol
+        Assert.assertEquals(null, project.getExtensions().getByType(Extension.class).property);
+        ^
+  symbol:   variable Assert
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:67: error: cannot find symbol
+        Assert.assertEquals(VALUE, project.getExtensions().getByType(Extension.class).property);
+        ^
+  symbol:   variable Assert
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:77: error: cannot find symbol
+        Assert.assertEquals(VALUE, task.getExtensions().getByType(Extension.class).property);
+        ^
+  symbol:   variable Assert
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:87: error: cannot find symbol
+        Assert.assertEquals(VALUE, project.getExtensions().getByType(NestedExtension.class).childExtension.property);
+        ^
+  symbol:   variable Assert
+  location: class PropertySetterPluginTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task425/wd/NonDex-plugin-test/github.com/w25r/property-setter-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/psp/PropertySetterPluginTest.java:96: error: cannot find symbol
+        Assert.assertEquals(Arrays.asList(VALUE), echoTask.getCommandLine());
+        ^
+  symbol:   variable Assert
+  location: class PropertySetterPluginTest
+21 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 32s

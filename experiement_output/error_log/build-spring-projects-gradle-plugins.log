@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-plugins'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve org.jfrog.buildinfo:build-info-extractor-gradle:2.2.2.
+     Required by:
+         project :
+      > Could not resolve org.jfrog.buildinfo:build-info-extractor-gradle:2.2.2.
+         > Could not get resource 'https://repo.spring.io/plugins-release/org/jfrog/buildinfo/build-info-extractor-gradle/2.2.2/build-info-extractor-gradle-2.2.2.pom'.
+            > Could not GET 'https://repo.spring.io/plugins-release/org/jfrog/buildinfo/build-info-extractor-gradle/2.2.2/build-info-extractor-gradle-2.2.2.pom'. Received status code 401 from server: 
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

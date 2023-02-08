@@ -1,0 +1,22 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'WizzClient'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find com.github.asbyth:ForgeGradle:6f53277.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/com/github/asbyth/ForgeGradle/6f53277/ForgeGradle-6f53277.pom
+       - https://files.minecraftforge.net/maven/com/github/asbyth/ForgeGradle/6f53277/ForgeGradle-6f53277.pom
+       - https://repo.spongepowered.org/maven/com/github/asbyth/ForgeGradle/6f53277/ForgeGradle-6f53277.pom
+       - https://jitpack.io/com/github/asbyth/ForgeGradle/6f53277/ForgeGradle-6f53277.pom
+       - https://plugins.gradle.org/m2/com/github/asbyth/ForgeGradle/6f53277/ForgeGradle-6f53277.pom
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 25s

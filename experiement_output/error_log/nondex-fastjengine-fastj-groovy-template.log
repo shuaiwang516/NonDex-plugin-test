@@ -1,0 +1,39 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve io.github.lucasstarsz.fastj:fastj-library:1.7.0-SNAPSHOT-1.
+     Required by:
+         project :
+      > No matching variant of io.github.lucasstarsz.fastj:fastj-library:1.7.0-SNAPSHOT-1 was found. The consumer was configured to find an API of a library compatible with Java 11, preferably not packaged as a jar, preferably optimized for standard JVMs, and its dependencies declared externally but:
+          - Variant 'apiElements' capability io.github.lucasstarsz.fastj:fastj-library:1.7.0-SNAPSHOT-1 declares an API of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 18 and the consumer needed a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+          - Variant 'javadocElements' capability io.github.lucasstarsz.fastj:fastj-library:1.7.0-SNAPSHOT-1 declares a runtime of a component, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 11)
+                  - Doesn't say anything about its elements (required them preferably not packaged as a jar)
+          - Variant 'runtimeElements' capability io.github.lucasstarsz.fastj:fastj-library:1.7.0-SNAPSHOT-1 declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 18 and the consumer needed a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+          - Variant 'sourcesElements' capability io.github.lucasstarsz.fastj:fastj-library:1.7.0-SNAPSHOT-1 declares a runtime of a component, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 11)
+                  - Doesn't say anything about its elements (required them preferably not packaged as a jar)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

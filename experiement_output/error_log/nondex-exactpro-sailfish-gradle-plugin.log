@@ -1,0 +1,70 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1073/wd/NonDex-plugin-test/github.com/exactpro/sailfish-gradle-plugin/src/main/java/com/exactpro/sf/CompatibilityChecker.java:39: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBContext;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1073/wd/NonDex-plugin-test/github.com/exactpro/sailfish-gradle-plugin/src/main/java/com/exactpro/sf/CompatibilityChecker.java:40: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBElement;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1073/wd/NonDex-plugin-test/github.com/exactpro/sailfish-gradle-plugin/src/main/java/com/exactpro/sf/CompatibilityChecker.java:41: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBException;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1073/wd/NonDex-plugin-test/github.com/exactpro/sailfish-gradle-plugin/src/main/java/com/exactpro/sf/CompatibilityChecker.java:42: error: package javax.xml.bind does not exist
+import javax.xml.bind.Unmarshaller;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1073/wd/NonDex-plugin-test/github.com/exactpro/sailfish-gradle-plugin/src/main/java/com/exactpro/sf/CompatibilityChecker.java:285: error: cannot find symbol
+    private <T> JAXBElement<T> unmarshal(File file, Class<T> targetClass) throws FileNotFoundException, JAXBException {
+                ^
+  symbol:   class JAXBElement
+  location: class CompatibilityChecker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1073/wd/NonDex-plugin-test/github.com/exactpro/sailfish-gradle-plugin/src/main/java/com/exactpro/sf/CompatibilityChecker.java:285: error: cannot find symbol
+    private <T> JAXBElement<T> unmarshal(File file, Class<T> targetClass) throws FileNotFoundException, JAXBException {
+                                                                                                        ^
+  symbol:   class JAXBException
+  location: class CompatibilityChecker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1073/wd/NonDex-plugin-test/github.com/exactpro/sailfish-gradle-plugin/src/main/java/com/exactpro/sf/CompatibilityChecker.java:174: error: cannot find symbol
+        } catch(JAXBException | FileNotFoundException e) {
+                ^
+  symbol:   class JAXBException
+  location: class CompatibilityChecker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1073/wd/NonDex-plugin-test/github.com/exactpro/sailfish-gradle-plugin/src/main/java/com/exactpro/sf/CompatibilityChecker.java:233: error: cannot find symbol
+        } catch (JAXBException | IOException e) {
+                 ^
+  symbol:   class JAXBException
+  location: class CompatibilityChecker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1073/wd/NonDex-plugin-test/github.com/exactpro/sailfish-gradle-plugin/src/main/java/com/exactpro/sf/CompatibilityChecker.java:262: error: cannot find symbol
+        } catch(JAXBException | FileNotFoundException e) {
+                ^
+  symbol:   class JAXBException
+  location: class CompatibilityChecker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1073/wd/NonDex-plugin-test/github.com/exactpro/sailfish-gradle-plugin/src/main/java/com/exactpro/sf/CompatibilityChecker.java:287: error: cannot find symbol
+        Unmarshaller unmarshaller = JAXBContext.newInstance(targetClass).createUnmarshaller();
+        ^
+  symbol:   class Unmarshaller
+  location: class CompatibilityChecker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1073/wd/NonDex-plugin-test/github.com/exactpro/sailfish-gradle-plugin/src/main/java/com/exactpro/sf/CompatibilityChecker.java:287: error: cannot find symbol
+        Unmarshaller unmarshaller = JAXBContext.newInstance(targetClass).createUnmarshaller();
+                                    ^
+  symbol:   variable JAXBContext
+  location: class CompatibilityChecker
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1073/wd/NonDex-plugin-test/github.com/exactpro/sailfish-gradle-plugin/src/main/java/com/exactpro/sf/CollisionsUtilityFunctions.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors
+startup failed:
+Compilation failed; see the compiler error output for details.
+
+1 error
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 30s

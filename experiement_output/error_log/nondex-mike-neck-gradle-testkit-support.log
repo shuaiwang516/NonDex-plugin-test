@@ -1,0 +1,154 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidation.java:20: error: package org.mikeneck.gradle.plugin.model does not exist
+import org.mikeneck.gradle.plugin.model.TestKitSupport;
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidation.java:34: error: cannot find symbol
+    public static Either<TestKitSupport> validate(TestKitSupport conf) {
+                                                  ^
+  symbol:   class TestKitSupport
+  location: class ModelValidation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidation.java:34: error: cannot find symbol
+    public static Either<TestKitSupport> validate(TestKitSupport conf) {
+                         ^
+  symbol:   class TestKitSupport
+  location: class ModelValidation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidation.java:47: error: cannot find symbol
+    private static final Predicate<TestKitSupport> SRC_DIR_NOT_NULL = c -> c.getTestSrcDir() != null;
+                                   ^
+  symbol:   class TestKitSupport
+  location: class ModelValidation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidation.java:49: error: cannot find symbol
+    private static final Predicate<TestKitSupport> SRC_DIR_NOT_EMPTY = c -> !c.getTestSrcDir().isEmpty();
+                                   ^
+  symbol:   class TestKitSupport
+  location: class ModelValidation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidation.java:51: error: cannot find symbol
+    private static final Predicate<TestKitSupport> SRC_DIR_MATCHES_PATTERN = c -> DIRECTORY_NAME.validate(c.getTestSrcDir());
+                                   ^
+  symbol:   class TestKitSupport
+  location: class ModelValidation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidation.java:53: error: cannot find symbol
+    private static final Predicate<TestKitSupport> PACKAGE_NAME_NOT_NULL = c -> c.getPackageName() != null;
+                                   ^
+  symbol:   class TestKitSupport
+  location: class ModelValidation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidation.java:55: error: cannot find symbol
+    private static final Predicate<TestKitSupport> PACKAGE_NAME_NOT_EMPTY = c -> !c.getPackageName().isEmpty();
+                                   ^
+  symbol:   class TestKitSupport
+  location: class ModelValidation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidation.java:57: error: cannot find symbol
+    private static final Predicate<TestKitSupport> PACKAGE_NAME_MATCHES_PATTERN = c -> PACKAGE_NAME.validate(c.getPackageName());
+                                   ^
+  symbol:   class TestKitSupport
+  location: class ModelValidation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidation.java:59: error: cannot find symbol
+    private static final Predicate<TestKitSupport> CLASS_NAME_NOT_NULL = c -> c.getClassName() != null;
+                                   ^
+  symbol:   class TestKitSupport
+  location: class ModelValidation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidation.java:61: error: cannot find symbol
+    private static final Predicate<TestKitSupport> CLASS_NAME_NOT_EMPTY = c -> !c.getClassName().isEmpty();
+                                   ^
+  symbol:   class TestKitSupport
+  location: class ModelValidation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidation.java:63: error: cannot find symbol
+    private static final Predicate<TestKitSupport> CLASS_NAME_MATCHES_PATTERN = c -> CLASS_NAME.validate(c.getClassName());
+                                   ^
+  symbol:   class TestKitSupport
+  location: class ModelValidation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:23: error: package org.mikeneck.gradle.plugin.model does not exist
+import org.mikeneck.gradle.plugin.model.TestKitSupport;
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:24: error: package org.mikeneck.gradle.plugin.model does not exist
+import org.mikeneck.gradle.plugin.model.TestKitSupportPojo;
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:36: error: cannot find symbol
+    public static final UnaryOperator<TestKitSupport> TO_POJO = TestKitSupportPojo::new;
+                                      ^
+  symbol:   class TestKitSupport
+  location: class ValidationHandlingOnTaskDefinition
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:38: error: cannot find symbol
+    public static final Function<TestKitSupport, String> TO_YAML = function(m -> YamlUtil.convert(m).toText());
+                                 ^
+  symbol:   class TestKitSupport
+  location: class ValidationHandlingOnTaskDefinition
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:42: error: cannot find symbol
+    public static final Function<TestKitSupport, String> TO_SRC_DIR = TestKitSupport::getTestSrcDir;
+                                 ^
+  symbol:   class TestKitSupport
+  location: class ValidationHandlingOnTaskDefinition
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:44: error: cannot find symbol
+    public static final Function<TestKitSupport, String> TO_CLASS_NAME = TestKitSupport::getClassName;
+                                 ^
+  symbol:   class TestKitSupport
+  location: class ValidationHandlingOnTaskDefinition
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:46: error: cannot find symbol
+    public static final Function<TestKitSupport, String> TO_PACKAGE_NAME = TestKitSupport::getPackageName;
+                                 ^
+  symbol:   class TestKitSupport
+  location: class ValidationHandlingOnTaskDefinition
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:48: error: cannot find symbol
+    public static String getSupportFileDestDir(Either<TestKitSupport> validation, Project pj) {
+                                                      ^
+  symbol:   class TestKitSupport
+  location: class ValidationHandlingOnTaskDefinition
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:52: error: cannot find symbol
+    public static String toPackageName(Either<TestKitSupport> validation, Project pj) {
+                                              ^
+  symbol:   class TestKitSupport
+  location: class ValidationHandlingOnTaskDefinition
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:57: error: cannot find symbol
+    public static String toClassName(Either<TestKitSupport> validation) {
+                                            ^
+  symbol:   class TestKitSupport
+  location: class ValidationHandlingOnTaskDefinition
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:62: error: cannot find symbol
+    public static String toTestSrcDir(Either<TestKitSupport> validation) {
+                                             ^
+  symbol:   class TestKitSupport
+  location: class ValidationHandlingOnTaskDefinition
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:67: error: cannot find symbol
+    public static String serializeOrThrow(Either<TestKitSupport> validation) {
+                                                 ^
+  symbol:   class TestKitSupport
+  location: class ValidationHandlingOnTaskDefinition
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:73: error: cannot find symbol
+    public static OutputJavaFile toOutputJavaFile(Either<TestKitSupport> validation, final Collection<File> files) {
+                                                         ^
+  symbol:   class TestKitSupport
+  location: class ValidationHandlingOnTaskDefinition
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/build/tmp/compileGroovy/groovy-java-stubs/org/mikeneck/gradle/plugin/OutputJavaFile.java:15: error: package org.mikeneck.gradle.plugin.model does not exist
+(org.mikeneck.gradle.plugin.model.TestKitSupport conf, java.util.Collection<java.io.File> files) {}
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/build/tmp/compileGroovy/groovy-java-stubs/org/mikeneck/gradle/plugin/TestKitSupportPluginImpl.java:23: error: package org.mikeneck.gradle.plugin.model does not exist
+@org.gradle.model.Model() public static  void testKitSupport(org.mikeneck.gradle.plugin.model.TestKitSupport support) { }
+                                                                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/build/tmp/compileGroovy/groovy-java-stubs/org/mikeneck/gradle/plugin/TestKitSupportPluginImpl.java:24: error: package org.mikeneck.gradle.plugin.model does not exist
+@org.gradle.model.Mutate() public static  void createTask(org.gradle.model.ModelMap<org.gradle.api.Task> tasks, org.mikeneck.gradle.plugin.model.TestKitSupport conf) { }
+                                                                                                                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ModelValidationRule.java:46: warning: [removal] Compiler in java.lang has been deprecated and marked for removal
+            equalName(Comparable.class), equalName(Compiler.class),
+                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task248/wd/NonDex-plugin-test/github.com/mike-neck/gradle-testkit-support/src/main/groovy/org/mikeneck/gradle/plugin/util/ValidationHandlingOnTaskDefinition.java:75: error: incompatible types: Object cannot be converted to OutputJavaFile
+                .orThrow(WHEN_FAIL);
+                        ^
+29 errors
+1 warning
+startup failed:
+Compilation failed; see the compiler error output for details.
+
+1 error
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

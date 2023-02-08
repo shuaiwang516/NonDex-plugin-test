@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1205/wd/NonDex-plugin-test/github.com/schulzp/gradle-shadow-example/build.gradle' line: 4
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'com.github.johnrengelman.shadow', version: '1.1.2']
+> Failed to apply plugin [class 'com.github.jengelman.gradle.plugins.shadow.ShadowBasePlugin']
+   > No signature of method: org.gradle.internal.classloader.FilteringClassLoader.allowPackage() is applicable for argument types: (String) values: [org.apache.tools.zip]
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

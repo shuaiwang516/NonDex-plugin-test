@@ -1,0 +1,24 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task87/wd/NonDex-plugin-test/github.com/daggerok/spring-boot-backbone/src/main/java/daggerok/SpringBootBackboneApplication.java:23: error: cannot find symbol
+        userRestRepository.save(new User().setName("max"));
+                                          ^
+  symbol:   method setName(String)
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task87/wd/NonDex-plugin-test/github.com/daggerok/spring-boot-backbone/src/main/java/daggerok/SpringBootBackboneApplication.java:25: error: cannot find symbol
+        return args -> userRestRepository.findAll().stream().map(String::valueOf).forEach(log::info);
+                                                                                          ^
+  symbol:   variable log
+  location: class SpringBootBackboneApplication
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

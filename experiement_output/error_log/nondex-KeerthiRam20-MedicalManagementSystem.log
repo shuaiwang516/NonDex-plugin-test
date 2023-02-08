@@ -1,0 +1,37 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task208/wd/NonDex-plugin-test/github.com/KeerthiRam20/MedicalManagementSystem/src/main/java/com/example/medicine/MedicalManagementSystem/SwaggerConfig.java:5: error: package springfox.documentation.builders does not exist
+import springfox.documentation.builders.RequestHandlerSelectors;
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task208/wd/NonDex-plugin-test/github.com/KeerthiRam20/MedicalManagementSystem/src/main/java/com/example/medicine/MedicalManagementSystem/SwaggerConfig.java:6: error: package springfox.documentation.spi does not exist
+import springfox.documentation.spi.DocumentationType;
+                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task208/wd/NonDex-plugin-test/github.com/KeerthiRam20/MedicalManagementSystem/src/main/java/com/example/medicine/MedicalManagementSystem/SwaggerConfig.java:7: error: package springfox.documentation.spring.web.plugins does not exist
+import springfox.documentation.spring.web.plugins.Docket;
+                                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task208/wd/NonDex-plugin-test/github.com/KeerthiRam20/MedicalManagementSystem/src/main/java/com/example/medicine/MedicalManagementSystem/SwaggerConfig.java:8: error: package springfox.documentation.swagger2.annotations does not exist
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task208/wd/NonDex-plugin-test/github.com/KeerthiRam20/MedicalManagementSystem/src/main/java/com/example/medicine/MedicalManagementSystem/SwaggerConfig.java:11: error: cannot find symbol
+@EnableSwagger2
+ ^
+  symbol: class EnableSwagger2
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task208/wd/NonDex-plugin-test/github.com/KeerthiRam20/MedicalManagementSystem/src/main/java/com/example/medicine/MedicalManagementSystem/SwaggerConfig.java:15: error: cannot find symbol
+    public Docket api() {
+           ^
+  symbol:   class Docket
+  location: class SwaggerConfig
+6 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 17s

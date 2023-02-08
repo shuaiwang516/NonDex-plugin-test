@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/tednaleid/sample-gradle-spark-app/build.gradle' line: 19
+
+* What went wrong:
+A problem occurred evaluating root project 'sample-gradle-spark-app'.
+> Failed to apply plugin [id 'tomcat']
+   > class java.lang.String cannot be cast to class org.gradle.api.artifacts.Configuration (java.lang.String is in module java.base of loader 'bootstrap'; org.gradle.api.artifacts.Configuration is in unnamed module of loader org.gradle.internal.classloader.VisitableURLClassLoader @108c4c35)
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

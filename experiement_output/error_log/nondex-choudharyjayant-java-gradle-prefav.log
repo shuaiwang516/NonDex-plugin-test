@@ -1,0 +1,63 @@
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task619/wd/NonDex-plugin-test/github.com/choudharyjayant/java-gradle-prefav/src/main/java/com/poc/security/JwtTokenProvider.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task619/wd/NonDex-plugin-test/github.com/choudharyjayant/java-gradle-prefav/src/test/java/com/poc/services/ReplyServiceTests.java:12: error: cannot find symbol
+import org.mockito.MockedStatic;
+                  ^
+  symbol:   class MockedStatic
+  location: package org.mockito
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task619/wd/NonDex-plugin-test/github.com/choudharyjayant/java-gradle-prefav/src/test/java/com/poc/services/ReplyServiceTests.java:63: error: cannot find symbol
+		try (MockedStatic<AppUtils> utilities = Mockito.mockStatic(AppUtils.class)) {
+		     ^
+  symbol:   class MockedStatic
+  location: class ReplyServiceTests
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task619/wd/NonDex-plugin-test/github.com/choudharyjayant/java-gradle-prefav/src/test/java/com/poc/services/ReplyServiceTests.java:63: error: cannot find symbol
+		try (MockedStatic<AppUtils> utilities = Mockito.mockStatic(AppUtils.class)) {
+		                                               ^
+  symbol:   method mockStatic(Class<AppUtils>)
+  location: class Mockito
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task619/wd/NonDex-plugin-test/github.com/choudharyjayant/java-gradle-prefav/src/test/java/com/poc/services/ReplyServiceTests.java:67: error: cannot find symbol
+		try (MockedStatic<AppUtils> utilities = Mockito.mockStatic(AppUtils.class)) {
+		     ^
+  symbol:   class MockedStatic
+  location: class ReplyServiceTests
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task619/wd/NonDex-plugin-test/github.com/choudharyjayant/java-gradle-prefav/src/test/java/com/poc/services/ReplyServiceTests.java:67: error: cannot find symbol
+		try (MockedStatic<AppUtils> utilities = Mockito.mockStatic(AppUtils.class)) {
+		                                               ^
+  symbol:   method mockStatic(Class<AppUtils>)
+  location: class Mockito
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task619/wd/NonDex-plugin-test/github.com/choudharyjayant/java-gradle-prefav/src/test/java/com/poc/services/ReplyServiceTests.java:91: error: cannot find symbol
+		try (MockedStatic<AppUtils> utilities = Mockito.mockStatic(AppUtils.class)) {
+		     ^
+  symbol:   class MockedStatic
+  location: class ReplyServiceTests
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task619/wd/NonDex-plugin-test/github.com/choudharyjayant/java-gradle-prefav/src/test/java/com/poc/services/ReplyServiceTests.java:91: error: cannot find symbol
+		try (MockedStatic<AppUtils> utilities = Mockito.mockStatic(AppUtils.class)) {
+		                                               ^
+  symbol:   method mockStatic(Class<AppUtils>)
+  location: class Mockito
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task619/wd/NonDex-plugin-test/github.com/choudharyjayant/java-gradle-prefav/src/test/java/com/poc/services/ReplyServiceTests.java:96: error: cannot find symbol
+		try (MockedStatic<AppUtils> utilities = Mockito.mockStatic(AppUtils.class)) {
+		     ^
+  symbol:   class MockedStatic
+  location: class ReplyServiceTests
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task619/wd/NonDex-plugin-test/github.com/choudharyjayant/java-gradle-prefav/src/test/java/com/poc/services/ReplyServiceTests.java:96: error: cannot find symbol
+		try (MockedStatic<AppUtils> utilities = Mockito.mockStatic(AppUtils.class)) {
+		                                               ^
+  symbol:   method mockStatic(Class<AppUtils>)
+  location: class Mockito
+9 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 28s

@@ -1,0 +1,18 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1430/wd/NonDex-plugin-test/github.com/cxjava/apidemo/gradle/dependencyCheck.gradle' line: 3
+
+* What went wrong:
+A problem occurred evaluating script.
+> No signature of method: dependencyCheck_d2h540jzz8gfodxrwlmx063et.dependencyCheck() is applicable for argument types: (dependencyCheck_d2h540jzz8gfodxrwlmx063et$_run_closure1) values: [dependencyCheck_d2h540jzz8gfodxrwlmx063et$_run_closure1@2b4e1940]
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 48s

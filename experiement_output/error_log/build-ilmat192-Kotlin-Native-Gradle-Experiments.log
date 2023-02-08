@@ -1,0 +1,18 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task487/wd/NonDex-plugin-test/github.com/ilmat192/Kotlin-Native-Gradle-Experiments/build.gradle' line: 2
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'org.jetbrains.kotlin.platform.native', version: '0.8']
+> Failed to apply plugin [class 'org.jetbrains.kotlin.gradle.plugin.experimental.plugins.KotlinNativePlugin']
+   > Could not create an instance of type org.jetbrains.kotlin.gradle.plugin.experimental.internal.KotlinNativeMainComponent.
+      > Could not generate a proxy class for class org.jetbrains.kotlin.gradle.plugin.experimental.internal.KotlinNativeMainComponent.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

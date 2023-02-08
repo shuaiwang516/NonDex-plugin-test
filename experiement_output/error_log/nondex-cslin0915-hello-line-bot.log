@@ -1,0 +1,115 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:77: error: cannot find symbol
+        log.info("Got content-type: {}", responseBody.contentType());
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:81: error: cannot find symbol
+            log.info("Saved {}: {}", ext, tempFile);
+            ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:93: error: constructor DownloadedContent in class DownloadedContent cannot be applied to given types;
+        return new DownloadedContent(tempFile, createUri("/downloaded/"+tempFile.getFileName()));
+               ^
+  required: no arguments
+  found: Path,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:129: error: cannot find symbol
+        log.info("Received message(Ignored): {}", event);
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:134: error: cannot find symbol
+        log.info("Got text event: {}", event);
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:140: error: cannot find symbol
+        log.info("Got unfollow event: {}", event);
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:145: error: cannot find symbol
+        log.info("Got follow event: {}", event);
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:157: error: cannot find symbol
+        log.info("Got join event: {}", event);
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:171: error: cannot find symbol
+        log.info("Got postBack event: {}", event);
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:196: error: cannot find symbol
+        log.info("Got sticker event: {}", event);
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:202: error: cannot find symbol
+        log.info("Got location event: {}", event);
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:214: error: cannot find symbol
+        log.info("Got image event: {}", event);
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:220: error: cannot find symbol
+        log.info("Got audio event: {}", event);
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:226: error: cannot find symbol
+        log.info("Got video event: {}", event);
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:249: error: cannot find symbol
+            log.info("Sent messages: {} {}", apiResponse.message(), apiResponse.code());
+            ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:278: error: cannot find symbol
+        log.info("Got text message from {}: {}", replyToken, text);
+        ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:296: error: cannot find symbol
+                            new ImageMessage(jpg.getUri(), jpg.getUri()),
+                                                ^
+  symbol:   method getUri()
+  location: variable jpg of type DownloadedContent
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:296: error: cannot find symbol
+                            new ImageMessage(jpg.getUri(), jpg.getUri()),
+                                                              ^
+  symbol:   method getUri()
+  location: variable jpg of type DownloadedContent
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloController.java:444: error: cannot find symbol
+                log.info("Returns echo message {}: {}", replyToken, text);
+                ^
+  symbol:   variable log
+  location: class HelloController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1221/wd/NonDex-plugin-test/github.com/cslin0915/hello-line-bot/src/main/java/hello/HelloWebMvcConfigurer.java:21: error: cannot find symbol
+        log.info("downloaded dir : {}", downloadedContentUri);
+        ^
+  symbol:   variable log
+  location: class HelloWebMvcConfigurer
+20 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

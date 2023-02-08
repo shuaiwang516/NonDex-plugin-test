@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ch.vorburger.osgi.gradle.test:compileTestJava'.
+> Could not resolve all files for configuration ':ch.vorburger.osgi.gradle.test:testCompileClasspath'.
+   > Could not find org.apache.geronimo.specs:geronimo-atinject_1.1_spec:1.1.
+     Searched in the following locations:
+       - https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-atinject_1.1_spec/1.1/geronimo-atinject_1.1_spec-1.1.pom
+       - https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-atinject_1.1_spec/1.1/geronimo-atinject_1.1_spec-1.1.jar
+       - http://repo.spongepowered.org/maven/org/apache/geronimo/specs/geronimo-atinject_1.1_spec/1.1/geronimo-atinject_1.1_spec-1.1.pom
+       - http://repo.spongepowered.org/maven/org/apache/geronimo/specs/geronimo-atinject_1.1_spec/1.1/geronimo-atinject_1.1_spec-1.1.jar
+       - https://repo.gradle.org/gradle/libs-releases/org/apache/geronimo/specs/geronimo-atinject_1.1_spec/1.1/geronimo-atinject_1.1_spec-1.1.pom
+       - https://repo.gradle.org/gradle/libs-releases/org/apache/geronimo/specs/geronimo-atinject_1.1_spec/1.1/geronimo-atinject_1.1_spec-1.1.jar
+     Required by:
+         project :ch.vorburger.osgi.gradle.test
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

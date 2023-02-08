@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task196/wd/NonDex-plugin-test/github.com/fntsoftware/gradle-plugin-markdown2pdf/build.gradle' line: 46
+
+* What went wrong:
+A problem occurred evaluating root project 'markdown-to-pdf'.
+> Could not find method srcDir() for arguments [src/test/java] on object of type org.gradle.api.plugins.internal.DefaultJavaPluginExtension.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s

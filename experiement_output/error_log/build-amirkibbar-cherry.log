@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1302/wd/NonDex-plugin-test/github.com/amirkibbar/cherry/build.gradle' line: 70
+
+* What went wrong:
+A problem occurred evaluating root project 'gradle-rabbit-plugin'.
+> Could not find method leftShift() for arguments [build_3wa7k21k5b4obmhrhzthle5at$_run_closure7@7db2ce6e] on task ':install' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 16s

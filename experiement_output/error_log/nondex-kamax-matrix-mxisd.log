@@ -1,0 +1,24 @@
+[Fatal Error] matrix-java-sdk-0.0.14-8-g0e57ec6.pom:1:44: Content is not allowed in prolog.
+[Fatal Error] matrix-java-sdk-0.0.14-8-g0e57ec6.pom:1:44: Content is not allowed in prolog.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve io.kamax:matrix-java-sdk:0.0.14-8-g0e57ec6.
+     Required by:
+         project :
+      > Could not resolve io.kamax:matrix-java-sdk:0.0.14-8-g0e57ec6.
+         > Could not parse POM https://kamax.io/maven/releases/io/kamax/matrix-java-sdk/0.0.14-8-g0e57ec6/matrix-java-sdk-0.0.14-8-g0e57ec6.pom
+            > Content is not allowed in prolog.
+      > Could not resolve io.kamax:matrix-java-sdk:0.0.14-8-g0e57ec6.
+         > Could not parse POM https://kamax.io/maven/snapshots/io/kamax/matrix-java-sdk/0.0.14-8-g0e57ec6/matrix-java-sdk-0.0.14-8-g0e57ec6.pom
+            > Content is not allowed in prolog.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

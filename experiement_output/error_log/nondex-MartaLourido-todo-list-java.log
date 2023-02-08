@@ -1,0 +1,116 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:118: error: : expected
+            case 1 -> {
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:118: error: illegal start of expression
+            case 1 -> {
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:125: error: : expected
+            case 2 -> {
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:125: error: illegal start of expression
+            case 2 -> {
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:132: error: : expected
+            case 3 -> {
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:132: error: illegal start of expression
+            case 3 -> {
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:139: error: : expected
+            case 4 -> {
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:139: error: illegal start of expression
+            case 4 -> {
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:145: error: : expected
+            case 5 -> {
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:145: error: illegal start of expression
+            case 5 -> {
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:151: error: : expected
+            case 6 -> {
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:151: error: illegal start of expression
+            case 6 -> {
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:156: error: : expected
+            default -> throw new IllegalStateException("Unexpected value: " + editChoices);
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/TodoList/TodoList.java:156: error: illegal start of expression
+            default -> throw new IllegalStateException("Unexpected value: " + editChoices);
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:46: error: : expected
+                case 1 -> {
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:46: error: illegal start of expression
+                case 1 -> {
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:50: error: : expected
+                case 2 -> {
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:50: error: illegal start of expression
+                case 2 -> {
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:57: error: : expected
+                case 3 -> {
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:57: error: illegal start of expression
+                case 3 -> {
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:63: error: : expected
+                case 4 -> {
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:63: error: illegal start of expression
+                case 4 -> {
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:67: error: : expected
+                default -> throw new IllegalStateException("Unexpected value: " + editChoices);
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:67: error: illegal start of expression
+                default -> throw new IllegalStateException("Unexpected value: " + editChoices);
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:89: error: : expected
+                case 1 -> {
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:89: error: illegal start of expression
+                case 1 -> {
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:93: error: : expected
+                case 2 -> {
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:93: error: illegal start of expression
+                case 2 -> {
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:97: error: : expected
+                case 3 -> {
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:97: error: illegal start of expression
+                case 3 -> {
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:100: error: : expected
+                case 4 -> {
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:100: error: illegal start of expression
+                case 4 -> {
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:105: error: : expected
+                default -> System.out.println("please write a correct number between 1 and 4");
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task961/wd/NonDex-plugin-test/github.com/MartaLourido/todo-list-java/src/main/java/Main/UserInterface.java:105: error: illegal start of expression
+                default -> System.out.println("please write a correct number between 1 and 4");
+                        ^
+34 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

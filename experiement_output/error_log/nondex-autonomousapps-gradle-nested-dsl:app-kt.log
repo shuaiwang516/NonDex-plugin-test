@@ -1,0 +1,31 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Configuration cache state could not be cached: field 'testExecuter' from type 'edu.illinois.nondex.gradle.tasks.NonDexTest': error writing value of type 'edu.illinois.nondex.gradle.internal.NonDexTestExecuter'
+> Configuration cache state could not be cached: field 'delegate' from type 'edu.illinois.nondex.gradle.internal.NonDexTestExecuter': error writing value of type 'org.gradle.api.internal.tasks.testing.detection.DefaultTestExecuter'
+   > Configuration cache state could not be cached: field 'workerFactory' from type 'org.gradle.api.internal.tasks.testing.detection.DefaultTestExecuter': error writing value of type 'org.gradle.process.internal.worker.DefaultWorkerProcessFactory'
+      > Configuration cache state could not be cached: field 'loggingManager' from type 'org.gradle.process.internal.worker.DefaultWorkerProcessFactory': error writing value of type 'org.gradle.internal.logging.services.DefaultLoggingManager'
+         > Configuration cache state could not be cached: field 'javaUtilLoggingSystem' from type 'org.gradle.internal.logging.services.DefaultLoggingManager': error writing value of type 'org.gradle.internal.logging.services.DefaultLoggingManager$StartableLoggingSystem'
+            > Configuration cache state could not be cached: field 'loggingSystem' from type 'org.gradle.internal.logging.services.DefaultLoggingManager$StartableLoggingSystem': error writing value of type 'org.gradle.internal.logging.source.JavaUtilLoggingSystem'
+               > Configuration cache state could not be cached: field 'logger' from type 'org.gradle.internal.logging.source.JavaUtilLoggingSystem': error writing value of type 'java.util.logging.LogManager$RootLogger'
+                  > Configuration cache state could not be cached: field 'this$0' from type 'java.util.logging.LogManager$RootLogger': error writing value of type 'java.util.logging.LogManager'
+                     > Configuration cache state could not be cached: field 'systemContext' from type 'java.util.logging.LogManager': error writing value of type 'java.util.logging.LogManager$SystemLoggerContext'
+                        > Configuration cache state could not be cached: field 'namedLoggers' from type 'java.util.logging.LogManager$SystemLoggerContext': error writing value of type 'java.util.concurrent.ConcurrentHashMap'
+                           > Configuration cache state could not be cached: field 'node' from type 'java.util.logging.LogManager$LoggerWeakRef': error writing value of type 'java.util.logging.LogManager$LogNode'
+                              > Configuration cache state could not be cached: field 'children' from type 'java.util.logging.LogManager$LogNode': error writing value of type 'java.util.HashMap'
+                                 > Configuration cache state could not be cached: field 'children' from type 'java.util.logging.LogManager$LogNode': error writing value of type 'java.util.HashMap'
+                                    > Configuration cache state could not be cached: field 'children' from type 'java.util.logging.LogManager$LogNode': error writing value of type 'java.util.HashMap'
+                                       > Configuration cache state could not be cached: field 'loggerRef' from type 'java.util.logging.LogManager$LogNode': error writing value of type 'java.util.logging.LogManager$LoggerWeakRef'
+                                          > Configuration cache state could not be cached: field 'referent' from type 'java.util.logging.LogManager$LoggerWeakRef': error writing value of type 'java.util.logging.Logger'
+                                             > Configuration cache state could not be cached: field 'callerModuleRef' from type 'java.util.logging.Logger': error writing value of type 'java.lang.ref.WeakReference'
+                                                > Configuration cache state could not be cached: field 'referent' from type 'java.lang.ref.WeakReference': error writing value of type 'java.lang.Module'
+                                                   > Configuration cache state could not be cached: field 'descriptor' from type 'java.lang.Module': error writing value of type 'java.lang.module.ModuleDescriptor'
+                                                      > Unable to make field private final boolean java.lang.module.ModuleDescriptor.automatic accessible: module java.base does not "opens java.lang.module" to unnamed module @51920606
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

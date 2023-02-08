@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1265/wd/NonDex-plugin-test/github.com/OlivierLD/raspberry-coffee/build.gradle' line: 11
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'com.github.johnrengelman.shadow', version: '6.0.0']
+> Failed to apply plugin [class 'com.github.jengelman.gradle.plugins.shadow.ShadowBasePlugin']
+   > This version of Shadow supports Gradle 6.0+ only. Please upgrade.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

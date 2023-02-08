@@ -1,0 +1,24 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task355/wd/NonDex-plugin-test/github.com/cabaletta/baritone/buildSrc/src/main/java/baritone/gradle/task/CreateDistTask.java:22: error: package javax.xml.bind does not exist
+import javax.xml.bind.DatatypeConverter;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task355/wd/NonDex-plugin-test/github.com/cabaletta/baritone/buildSrc/src/main/java/baritone/gradle/task/CreateDistTask.java:80: error: cannot find symbol
+            return DatatypeConverter.printHexBinary(SHA1_DIGEST.digest(Files.readAllBytes(path))).toLowerCase();
+                   ^
+  symbol:   variable DatatypeConverter
+  location: class CreateDistTask
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task355/wd/NonDex-plugin-test/github.com/cabaletta/baritone/buildSrc/src/main/java/baritone/gradle/task/ProguardTask.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':buildSrc:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 28s

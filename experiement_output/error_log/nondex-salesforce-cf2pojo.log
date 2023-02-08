@@ -1,0 +1,24 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1086/wd/NonDex-plugin-test/github.com/salesforce/cf2pojo/src/main/java/com/salesforce/cf2pojo/tasks/GenerateTask.java:58: error: cannot find symbol
+import javax.annotation.Generated;
+                       ^
+  symbol:   class Generated
+  location: package javax.annotation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1086/wd/NonDex-plugin-test/github.com/salesforce/cf2pojo/src/main/java/com/salesforce/cf2pojo/tasks/GenerateTask.java:261: error: cannot find symbol
+        resourceClass.addAndGetAnnotation(Generated.class)
+                                          ^
+  symbol:   class Generated
+  location: class GenerateTask
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 19s

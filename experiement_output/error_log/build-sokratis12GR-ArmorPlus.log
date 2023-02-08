@@ -1,0 +1,18 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task184/wd/NonDex-plugin-test/github.com/sokratis12GR/ArmorPlus/build.gradle' line: 14
+
+* What went wrong:
+A problem occurred evaluating root project 'ArmorPlus'.
+> Failed to apply plugin 'net.minecraftforge.gradle'.
+   > Found Gradle version Gradle 6.8.1. Minimum required is Gradle 7.1.
+     Note: Upgrade your gradle version first before trying to switch to FG5.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 22s

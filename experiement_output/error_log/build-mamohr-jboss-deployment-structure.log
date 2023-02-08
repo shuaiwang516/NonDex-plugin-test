@@ -1,0 +1,19 @@
+Project evaluation failed including an error in afterEvaluate {}. Run with --stacktrace for details of the afterEvaluate {} error.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task170/wd/NonDex-plugin-test/github.com/mamohr/jboss-deployment-structure/build.gradle' line: 13
+
+* What went wrong:
+A problem occurred evaluating root project 'jboss-deployment-structure'.
+> Failed to apply plugin [class 'nebula.plugin.publishing.component.CustomComponentPlugin']
+   > Could not create plugin of type 'CustomComponentPlugin'.
+      > org/gradle/api/internal/component/Usage
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

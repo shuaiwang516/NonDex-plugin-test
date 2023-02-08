@@ -1,0 +1,397 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/parallelchat/events/OnJoinLeave.java:16: error: package parallelmc.parallelutils.modules.discordintegration does not exist
+import parallelmc.parallelutils.modules.discordintegration.JoinQuitSuppressorListener;
+                                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:3: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.FMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:4: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.XMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:5: error: package com.eclipsekingdom.fractalforest.util.theme does not exist
+import com.eclipsekingdom.fractalforest.util.theme.ITheme;
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:6: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.IMaterialFactory;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:7: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.MaterialSingleton;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:13: error: cannot find symbol
+public class WarpedTheme implements ITheme {
+                                    ^
+  symbol: class ITheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:16: error: cannot find symbol
+	public IMaterialFactory getLeaf() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class WarpedTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:21: error: cannot find symbol
+	public IMaterialFactory getThickBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class WarpedTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:26: error: cannot find symbol
+	public IMaterialFactory getThinBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class WarpedTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:31: error: cannot find symbol
+	public IMaterialFactory getRoot() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class WarpedTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RedMushroomTheme.java:3: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.FMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RedMushroomTheme.java:4: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.XMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RedMushroomTheme.java:5: error: package com.eclipsekingdom.fractalforest.util.theme does not exist
+import com.eclipsekingdom.fractalforest.util.theme.ITheme;
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RedMushroomTheme.java:6: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.IMaterialFactory;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RedMushroomTheme.java:7: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.MaterialSingleton;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RedMushroomTheme.java:13: error: cannot find symbol
+public class RedMushroomTheme implements ITheme {
+                                         ^
+  symbol: class ITheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RedMushroomTheme.java:17: error: cannot find symbol
+	public IMaterialFactory getLeaf() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class RedMushroomTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RedMushroomTheme.java:22: error: cannot find symbol
+	public IMaterialFactory getThickBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class RedMushroomTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RedMushroomTheme.java:27: error: cannot find symbol
+	public IMaterialFactory getThinBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class RedMushroomTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RedMushroomTheme.java:32: error: cannot find symbol
+	public IMaterialFactory getRoot() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class RedMushroomTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/BrownMushroomTheme.java:3: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.FMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/BrownMushroomTheme.java:4: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.XMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/BrownMushroomTheme.java:5: error: package com.eclipsekingdom.fractalforest.util.theme does not exist
+import com.eclipsekingdom.fractalforest.util.theme.ITheme;
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/BrownMushroomTheme.java:6: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.IMaterialFactory;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/BrownMushroomTheme.java:7: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.MaterialSingleton;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/BrownMushroomTheme.java:13: error: cannot find symbol
+public class BrownMushroomTheme implements ITheme {
+                                           ^
+  symbol: class ITheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/BrownMushroomTheme.java:16: error: cannot find symbol
+	public IMaterialFactory getLeaf() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class BrownMushroomTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/BrownMushroomTheme.java:21: error: cannot find symbol
+	public IMaterialFactory getThickBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class BrownMushroomTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/BrownMushroomTheme.java:26: error: cannot find symbol
+	public IMaterialFactory getThinBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class BrownMushroomTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/BrownMushroomTheme.java:31: error: cannot find symbol
+	public IMaterialFactory getRoot() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class BrownMushroomTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RandomTheme.java:3: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.FMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RandomTheme.java:4: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.XMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RandomTheme.java:5: error: package com.eclipsekingdom.fractalforest.util.theme does not exist
+import com.eclipsekingdom.fractalforest.util.theme.ITheme;
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RandomTheme.java:6: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.IMaterialFactory;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RandomTheme.java:7: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.MaterialJumble;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RandomTheme.java:8: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.MaterialSingleton;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RandomTheme.java:9: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.WeightedMaterialJumble;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RandomTheme.java:15: error: cannot find symbol
+public class RandomTheme implements ITheme {
+                                    ^
+  symbol: class ITheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RandomTheme.java:18: error: cannot find symbol
+	public IMaterialFactory getLeaf() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class RandomTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RandomTheme.java:28: error: cannot find symbol
+	public IMaterialFactory getThickBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class RandomTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RandomTheme.java:35: error: cannot find symbol
+	public IMaterialFactory getThinBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class RandomTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/RandomTheme.java:42: error: cannot find symbol
+	public IMaterialFactory getRoot() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class RandomTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/ChristmasTheme.java:3: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.FMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/ChristmasTheme.java:4: error: package com.eclipsekingdom.fractalforest.util.theme does not exist
+import com.eclipsekingdom.fractalforest.util.theme.ITheme;
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/ChristmasTheme.java:5: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.IMaterialFactory;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/ChristmasTheme.java:6: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.MaterialSingleton;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/ChristmasTheme.java:7: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.WeightedMaterialJumble;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/ChristmasTheme.java:13: error: cannot find symbol
+public class ChristmasTheme implements ITheme {
+                                       ^
+  symbol: class ITheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/ChristmasTheme.java:15: error: cannot find symbol
+	public IMaterialFactory getLeaf() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class ChristmasTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/ChristmasTheme.java:24: error: cannot find symbol
+	public IMaterialFactory getThickBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class ChristmasTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/ChristmasTheme.java:29: error: cannot find symbol
+	public IMaterialFactory getThinBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class ChristmasTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/ChristmasTheme.java:34: error: cannot find symbol
+	public IMaterialFactory getRoot() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class ChristmasTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CoralTheme.java:3: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.FMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CoralTheme.java:4: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.XMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CoralTheme.java:5: error: package com.eclipsekingdom.fractalforest.util.theme does not exist
+import com.eclipsekingdom.fractalforest.util.theme.ITheme;
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CoralTheme.java:6: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.IMaterialFactory;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CoralTheme.java:7: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.MaterialJumble;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CoralTheme.java:13: error: cannot find symbol
+public class CoralTheme implements ITheme {
+                                   ^
+  symbol: class ITheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CoralTheme.java:16: error: cannot find symbol
+	public IMaterialFactory getLeaf() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class CoralTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CoralTheme.java:23: error: cannot find symbol
+	public IMaterialFactory getThickBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class CoralTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CoralTheme.java:29: error: cannot find symbol
+	public IMaterialFactory getThinBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class CoralTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CoralTheme.java:35: error: cannot find symbol
+	public IMaterialFactory getRoot() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class CoralTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CrimsonTheme.java:3: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.FMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CrimsonTheme.java:4: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.XMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CrimsonTheme.java:5: error: package com.eclipsekingdom.fractalforest.util.theme does not exist
+import com.eclipsekingdom.fractalforest.util.theme.ITheme;
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CrimsonTheme.java:6: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.IMaterialFactory;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CrimsonTheme.java:7: error: package com.eclipsekingdom.fractalforest.util.theme.material does not exist
+import com.eclipsekingdom.fractalforest.util.theme.material.MaterialSingleton;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CrimsonTheme.java:13: error: cannot find symbol
+public class CrimsonTheme implements ITheme {
+                                     ^
+  symbol: class ITheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CrimsonTheme.java:15: error: cannot find symbol
+	public IMaterialFactory getLeaf() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class CrimsonTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CrimsonTheme.java:20: error: cannot find symbol
+	public IMaterialFactory getThickBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class CrimsonTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CrimsonTheme.java:25: error: cannot find symbol
+	public IMaterialFactory getThinBranch() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class CrimsonTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/CrimsonTheme.java:30: error: cannot find symbol
+	public IMaterialFactory getRoot() {
+	       ^
+  symbol:   class IMaterialFactory
+  location: class CrimsonTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/genomes/ChristmasGenome.java:3: error: package com.eclipsekingdom.fractalforest.trees.gen.fractal.genome does not exist
+import com.eclipsekingdom.fractalforest.trees.gen.fractal.genome.Genome;
+                                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/genomes/ChristmasGenome.java:5: error: package com.eclipsekingdom.fractalforest.util.math.functions does not exist
+import com.eclipsekingdom.fractalforest.util.math.functions.Exponential;
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/genomes/ChristmasGenome.java:6: error: package com.eclipsekingdom.fractalforest.util.math.range does not exist
+import com.eclipsekingdom.fractalforest.util.math.range.Bounds;
+                                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/genomes/ChristmasGenome.java:8: error: cannot find symbol
+public class ChristmasGenome extends Genome {
+                                     ^
+  symbol: class Genome
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/genomes/ChristmasGenome.java:4: error: package com.eclipsekingdom.fractalforest.trees.gen.fractal.genome.gene does not exist
+import com.eclipsekingdom.fractalforest.trees.gen.fractal.genome.gene.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/habitats/MushroomHabitat.java:3: error: package com.eclipsekingdom.fractalforest.trees.habitat does not exist
+import com.eclipsekingdom.fractalforest.trees.habitat.IHabitat;
+                                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/habitats/MushroomHabitat.java:4: error: package com.eclipsekingdom.fractalforest.util does not exist
+import com.eclipsekingdom.fractalforest.util.TreeUtil;
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/habitats/MushroomHabitat.java:12: error: cannot find symbol
+public class MushroomHabitat implements IHabitat {
+                                        ^
+  symbol: class IHabitat
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/habitats/NetherExtHabitat.java:3: error: package com.eclipsekingdom.fractalforest.trees.habitat does not exist
+import com.eclipsekingdom.fractalforest.trees.habitat.IHabitat;
+                                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/habitats/NetherExtHabitat.java:4: error: package com.eclipsekingdom.fractalforest.util does not exist
+import com.eclipsekingdom.fractalforest.util.TreeUtil;
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/habitats/NetherExtHabitat.java:12: error: cannot find symbol
+public class NetherExtHabitat implements IHabitat {
+                                         ^
+  symbol: class IHabitat
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/TreeInitializer.java:3: error: package com.eclipsekingdom.fractalforest.sapling does not exist
+import com.eclipsekingdom.fractalforest.sapling.MagicSapling;
+                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/TreeInitializer.java:4: error: package com.eclipsekingdom.fractalforest.trees does not exist
+import com.eclipsekingdom.fractalforest.trees.Species;
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/TreeInitializer.java:5: error: package com.eclipsekingdom.fractalforest.trees.effect does not exist
+import com.eclipsekingdom.fractalforest.trees.effect.EffectType;
+                                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/TreeInitializer.java:6: error: package com.eclipsekingdom.fractalforest.trees.gen.fractal.genome does not exist
+import com.eclipsekingdom.fractalforest.trees.gen.fractal.genome.GenomeType;
+                                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/TreeInitializer.java:7: error: package com.eclipsekingdom.fractalforest.trees.habitat does not exist
+import com.eclipsekingdom.fractalforest.trees.habitat.HabitatType;
+                                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/TreeInitializer.java:8: error: package com.eclipsekingdom.fractalforest.util does not exist
+import com.eclipsekingdom.fractalforest.util.Scale;
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/TreeInitializer.java:9: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.FSapling;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/TreeInitializer.java:10: error: package com.eclipsekingdom.fractalforest.util.X does not exist
+import com.eclipsekingdom.fractalforest.util.X.XMaterial;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/parallelchat/events/OnJoinLeave.java:39: error: cannot find symbol
+            synchronized (JoinQuitSuppressorListener.hiddenUsersLock) { // NOTE: This MIGHT cause lag problems. It shouldn't, but beware
+                          ^
+  symbol:   variable JoinQuitSuppressorListener
+  location: class OnJoinLeave
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/parallelchat/events/OnJoinLeave.java:40: error: package JoinQuitSuppressorListener does not exist
+                if (JoinQuitSuppressorListener.hiddenUsers.contains(player.getName().strip())) {
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/parallelchat/events/OnJoinLeave.java:85: error: cannot find symbol
+                synchronized (JoinQuitSuppressorListener.hiddenUsersLock) { // NOTE: This MIGHT cause lag problems. It shouldn't, but beware
+                              ^
+  symbol:   variable JoinQuitSuppressorListener
+  location: class OnJoinLeave
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/parallelchat/events/OnJoinLeave.java:86: error: package JoinQuitSuppressorListener does not exist
+                    if (JoinQuitSuppressorListener.hiddenUsers.contains(player.getName().strip())) {
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:15: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:17: error: cannot find symbol
+		return new MaterialSingleton(new FMaterial(XMaterial.WARPED_WART_BLOCK));
+		           ^
+  symbol:   class MaterialSingleton
+  location: class WarpedTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:17: error: cannot find symbol
+		return new MaterialSingleton(new FMaterial(XMaterial.WARPED_WART_BLOCK));
+		                                 ^
+  symbol:   class FMaterial
+  location: class WarpedTheme
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1000/wd/NonDex-plugin-test/github.com/ParallelMC/ParallelUtils/modules/src/main/java/parallelmc/parallelutils/modules/customtrees/themes/WarpedTheme.java:17: error: cannot find symbol
+		return new MaterialSingleton(new FMaterial(XMaterial.WARPED_WART_BLOCK));
+		                                           ^
+  symbol:   variable XMaterial
+  location: class WarpedTheme
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors
+only showing the first 100 errors, of 328 total; use -Xmaxerrs if you would like to see more
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':modules:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

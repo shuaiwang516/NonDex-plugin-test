@@ -1,0 +1,97 @@
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/main/java/ru/steklopod/config/WebSecurityConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:29: error: constructor Employee in class ComparingExample.Employee cannot be applied to given types;
+        employees.add(new Employee(6, "Yash", "Chopra", 25));
+                      ^
+  required: no arguments
+  found: int,String,String,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:30: error: constructor Employee in class ComparingExample.Employee cannot be applied to given types;
+        employees.add(new Employee(2, "Aman", "Sharma", 28));
+                      ^
+  required: no arguments
+  found: int,String,String,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:31: error: constructor Employee in class ComparingExample.Employee cannot be applied to given types;
+        employees.add(new Employee(3, "Aakash", "Yaadav", 52));
+                      ^
+  required: no arguments
+  found: int,String,String,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:32: error: constructor Employee in class ComparingExample.Employee cannot be applied to given types;
+        employees.add(new Employee(5, "David", "Kameron", 19));
+                      ^
+  required: no arguments
+  found: int,String,String,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:33: error: constructor Employee in class ComparingExample.Employee cannot be applied to given types;
+        employees.add(new Employee(4, "James", "Hedge", 72));
+                      ^
+  required: no arguments
+  found: int,String,String,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:34: error: constructor Employee in class ComparingExample.Employee cannot be applied to given types;
+        employees.add(new Employee(8, "Balaji", "Subbu", 88));
+                      ^
+  required: no arguments
+  found: int,String,String,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:35: error: constructor Employee in class ComparingExample.Employee cannot be applied to given types;
+        employees.add(new Employee(7, "Karan", "Johar", 59));
+                      ^
+  required: no arguments
+  found: int,String,String,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:36: error: constructor Employee in class ComparingExample.Employee cannot be applied to given types;
+        employees.add(new Employee(1, "Lokesh", "Gupta", 32));
+                      ^
+  required: no arguments
+  found: int,String,String,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:37: error: constructor Employee in class ComparingExample.Employee cannot be applied to given types;
+        employees.add(new Employee(9, "Vishu", "Bissi", 33));
+                      ^
+  required: no arguments
+  found: int,String,String,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:38: error: constructor Employee in class ComparingExample.Employee cannot be applied to given types;
+        employees.add(new Employee(10, "Lokesh", "Ramachandran", 60));
+                      ^
+  required: no arguments
+  found: int,String,String,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:44: error: invalid method reference
+        Comparator<Employee> compareById = Comparator.comparing(Employee::getId);
+                                                                ^
+  cannot find symbol
+    symbol:   method getId()
+    location: class ComparingExample.Employee
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:46: error: cannot find symbol
+        Comparator<Employee> compareById_2 = Comparator.comparing(e -> e.getId());
+                                                                        ^
+  symbol:   method getId()
+  location: variable e of type ComparingExample.Employee
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:47: error: cannot find symbol
+        Comparator<Employee> compareById_3 = (Employee o1, Employee o2) -> o1.getId().compareTo(o2.getId());
+                                                                             ^
+  symbol:   method getId()
+  location: variable o1 of type ComparingExample.Employee
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task473/wd/NonDex-plugin-test/github.com/steklopod/Java8_gradle_starter/src/test/java/ru/steklopod/ComparingExample.java:47: error: cannot find symbol
+        Comparator<Employee> compareById_3 = (Employee o1, Employee o2) -> o1.getId().compareTo(o2.getId());
+                                                                                                  ^
+  symbol:   method getId()
+  location: variable o2 of type ComparingExample.Employee
+14 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 27s

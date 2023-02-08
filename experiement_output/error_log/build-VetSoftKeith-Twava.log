@@ -1,0 +1,12 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Receiver class com.github.spotbugs.SpotBugsPlugin does not define or inherit an implementation of the resolved method 'abstract void configureConfiguration(org.gradle.api.artifacts.Configuration)' of abstract class org.gradle.api.plugins.quality.internal.AbstractCodeQualityPlugin.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 16s

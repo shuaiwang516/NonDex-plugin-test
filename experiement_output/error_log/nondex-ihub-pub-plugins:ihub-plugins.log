@@ -1,0 +1,25 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ihub-base-test:compileGroovy'.
+> Could not resolve all files for configuration ':ihub-base-test:detachedConfiguration96'.
+   > Could not download groovy-ant-3.0.13.jar (org.codehaus.groovy:groovy-ant:3.0.13): Skipped due to earlier error
+   > Could not download groovy-astbuilder-3.0.13.jar (org.codehaus.groovy:groovy-astbuilder:3.0.13): Skipped due to earlier error
+   > Could not download groovy-console-3.0.13.jar (org.codehaus.groovy:groovy-console:3.0.13): Skipped due to earlier error
+   > Could not download groovy-datetime-3.0.13.jar (org.codehaus.groovy:groovy-datetime:3.0.13): Skipped due to earlier error
+   > Could not download groovy-dateutil-3.0.13.jar (org.codehaus.groovy:groovy-dateutil:3.0.13): Skipped due to earlier error
+   > Could not download groovy-templates-3.0.13.jar (org.codehaus.groovy:groovy-templates:3.0.13): Skipped due to earlier error
+   > Could not download qdox-1.12.1.jar (com.thoughtworks.qdox:qdox:1.12.1)
+      > Could not get resource 'https://maven.aliyun.com/repository/spring/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/spring/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar?Expires=1675216004&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=huUEmLK4%2BHzDZREuVhge4794C%2FU%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8m 41s

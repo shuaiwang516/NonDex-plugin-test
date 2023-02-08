@@ -1,0 +1,157 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:122: error: ')' expected
+                if (el instanceof PackageElement p) {
+                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:122: error: not a statement
+                if (el instanceof PackageElement p) {
+                                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:122: error: ';' expected
+                if (el instanceof PackageElement p) {
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:208: error: ')' expected
+              if (e instanceof PackageElement pkg) {
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:208: error: not a statement
+              if (e instanceof PackageElement pkg) {
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:208: error: ';' expected
+              if (e instanceof PackageElement pkg) {
+                                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:210: error: ')' expected
+              } else if (e instanceof TypeElement classDoc) {
+                                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:210: error: not a statement
+              } else if (e instanceof TypeElement classDoc) {
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:210: error: ';' expected
+              } else if (e instanceof TypeElement classDoc) {
+                                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:210: error: 'else' without 'if'
+              } else if (e instanceof TypeElement classDoc) {
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:261: error: illegal start of expression
+          return switch (e.getKind()) {
+                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:262: error: : expected
+            case CONSTRUCTOR -> 0;
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:263: error: : expected
+            case METHOD -> 1;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:264: error: : expected
+            case FIELD -> 2;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:265: error: : expected
+            default -> 3;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:265: error: illegal start of expression
+            default -> 3;
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:318: error: illegal start of expression
+        switch (classDoc.getKind()) {
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:319: error: : expected
+          case INTERFACE, ANNOTATION_TYPE -> "interface ";
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:319: error: not a statement
+          case INTERFACE, ANNOTATION_TYPE -> "interface ";
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:320: error: : expected
+          case ENUM -> "enum ";
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:321: error: : expected
+          default -> "class ";
+                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:321: error: illegal start of expression
+          default -> "class ";
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:322: error: illegal start of expression
+        });
+         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:460: error: illegal start of expression
+    return switch (member.getKind()) {
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:461: error: : expected
+      case CONSTRUCTOR -> "ctor";
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:462: error: : expected
+      case METHOD -> "method";
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:463: error: : expected
+      case FIELD -> "field";
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:464: error: : expected
+      case ENUM_CONSTANT -> "enum_constant";
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:465: error: : expected
+      case ANNOTATION_TYPE -> "element";
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:466: error: : expected
+      default -> throw new IllegalArgumentException("Unexpected member: " + member.getKind());
+             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:466: error: illegal start of expression
+      default -> throw new IllegalArgumentException("Unexpected member: " + member.getKind());
+              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:761: error: ')' expected
+    if (member instanceof ExecutableElement executable) {
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:761: error: not a statement
+    if (member instanceof ExecutableElement executable) {
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:761: error: ';' expected
+    if (member instanceof ExecutableElement executable) {
+                                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:778: error: ')' expected
+    if (member instanceof Parameterizable parameterizable) {
+                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:778: error: not a statement
+    if (member instanceof Parameterizable parameterizable) {
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:778: error: ';' expected
+    if (member instanceof Parameterizable parameterizable) {
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:785: error: ')' expected
+      if (member instanceof ExecutableElement executable) {
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:785: error: not a statement
+      if (member instanceof ExecutableElement executable) {
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:785: error: ';' expected
+      if (member instanceof ExecutableElement executable) {
+                                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:787: error: 'else' without 'if'
+      } else if (member instanceof VariableElement) {
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:793: error: ')' expected
+    if (member instanceof ExecutableElement executable) {
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:793: error: not a statement
+    if (member instanceof ExecutableElement executable) {
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:793: error: ';' expected
+    if (member instanceof ExecutableElement executable) {
+                                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:797: error: ')' expected
+    if (member instanceof VariableElement variable) {
+                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:797: error: not a statement
+    if (member instanceof VariableElement variable) {
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task335/wd/NonDex-plugin-test/github.com/mozilla-mobile/gradle-apilint/apidoc-plugin/src/main/java/org/mozilla/doclet/ApiDoclet.java:797: error: ';' expected
+    if (member instanceof VariableElement variable) {
+                                                  ^
+47 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':apidoc-plugin:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

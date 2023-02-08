@@ -1,0 +1,20 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task136/wd/NonDex-plugin-test/github.com/project-aries/gradle-multi-project-example/projects/common-utils/src/main/java/com/github/gradle/common/utils/Library.java:20: error: cannot access Object
+public class Library {
+       ^
+  bad class file: /modules/java.base/java/lang/Object.class
+    class file has wrong version 55.0, should be 53.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':common-utils:compileJava'.
+> Compilation failed with exit code 1; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

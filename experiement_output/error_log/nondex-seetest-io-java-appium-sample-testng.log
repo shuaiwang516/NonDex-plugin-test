@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1168/wd/NonDex-plugin-test/github.com/seetest-io/java-appium-sample-testng/build.gradle' line: 36
+
+* What went wrong:
+A problem occurred evaluating root project 'java-appium-sample-testng'.
+> Failed to apply plugin [id 'edu.illinois.nondex']
+   > Could not resolve all files for configuration ':downloadNonDexCommonJar'.
+      > Could not resolve edu.illinois:nondex-common:2.1.1.
+        Required by:
+            project :
+         > Could not resolve edu.illinois:nondex-common:2.1.1.
+            > Could not get resource 'http://repo.maven.apache.org/maven2/edu/illinois/nondex-common/2.1.1/nondex-common-2.1.1.pom'.
+               > Could not HEAD 'http://repo.maven.apache.org/maven2/edu/illinois/nondex-common/2.1.1/nondex-common-2.1.1.pom'. Received status code 501 from server: HTTPS Required
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

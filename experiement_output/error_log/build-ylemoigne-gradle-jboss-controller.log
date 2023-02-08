@@ -1,0 +1,22 @@
+[Fatal Error] org.10ne.rest.gradle.plugin-0.3.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] com.jfrog.bintray.gradle.plugin-0.6.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] org.10ne.rest.gradle.plugin-0.3.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] com.jfrog.bintray.gradle.plugin-0.6.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] org.10ne.rest.gradle.plugin-0.3.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] com.jfrog.bintray.gradle.plugin-0.6.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task901/wd/NonDex-plugin-test/github.com/ylemoigne/gradle-jboss-controller/build.gradle' line: 108
+
+* What went wrong:
+A problem occurred evaluating root project 'gradle-jboss-controller'.
+> Could not get unknown property 'bintrayUser' for object of type com.jfrog.bintray.gradle.BintrayExtension.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

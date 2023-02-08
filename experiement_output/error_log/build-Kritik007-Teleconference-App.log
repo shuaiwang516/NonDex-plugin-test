@@ -1,0 +1,22 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1098/wd/NonDex-plugin-test/github.com/Kritik007/Teleconference-App/settings.gradle' line: 2
+
+* What went wrong:
+Could not compile settings file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1098/wd/NonDex-plugin-test/github.com/Kritik007/Teleconference-App/settings.gradle'.
+> startup failed:
+  settings file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1098/wd/NonDex-plugin-test/github.com/Kritik007/Teleconference-App/settings.gradle': 2: expecting EOF, found ':' @ line 2, column 11.
+     oid sha256:35c6e08aefa5377b8a976f493fc43141f800a58914897c3eeb1f1492ca84e369
+               ^
+  
+  1 error
+
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

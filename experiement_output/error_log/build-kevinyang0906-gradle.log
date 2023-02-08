@@ -1,0 +1,17 @@
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1106/wd/NonDex-plugin-test/github.com/kevinyang0906/gradle/buildSrc/build.gradle' line: 31
+
+* What went wrong:
+A problem occurred evaluating project ':buildSrc'.
+> Could not find method groovy() for arguments [org.gradle.api.internal.artifacts.dependencies.DefaultSelfResolvingDependency_Decorated@df91faf] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

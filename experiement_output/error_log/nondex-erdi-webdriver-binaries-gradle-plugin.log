@@ -1,0 +1,28 @@
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task698/wd/NonDex-plugin-test/github.com/erdi/webdriver-binaries-gradle-plugin/build.gradle.kts:7:15: Unexpected tokens (use ';' to separate expressions on the same line)
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task698/wd/NonDex-plugin-test/github.com/erdi/webdriver-binaries-gradle-plugin/build.gradle.kts:7:5: Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public final val NamedDomainObjectContainer<Configuration>.classpath: NamedDomainObjectProvider<Configuration> defined in org.gradle.kotlin.dsl.ScriptHandlerScope
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task698/wd/NonDex-plugin-test/github.com/erdi/webdriver-binaries-gradle-plugin/build.gradle.kts' line: 7
+
+* What went wrong:
+Script compilation errors:
+
+  Line 7:     classpath 'edu.illinois.nondex:edu.illinois.nondex.gradle.plugin:2.1.1'
+                        ^ Unexpected tokens (use ';' to separate expressions on the same line)
+
+  Line 7:     classpath 'edu.illinois.nondex:edu.illinois.nondex.gradle.plugin:2.1.1'
+              ^ Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+                  public final val NamedDomainObjectContainer<Configuration>.classpath: NamedDomainObjectProvider<Configuration> defined in org.gradle.kotlin.dsl.ScriptHandlerScope
+
+2 errors
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

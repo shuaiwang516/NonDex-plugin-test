@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-plugins-node'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve com.github.goldin.plugins.gradle:node:0.3.2-SNAPSHOT.
+     Required by:
+         project :
+      > Could not resolve com.github.goldin.plugins.gradle:node:0.3.2-SNAPSHOT.
+         > Unable to load Maven meta-data from http://evgenyg.artifactoryonline.com/evgenyg/plugins-snapshots-local/com/github/goldin/plugins/gradle/node/0.3.2-SNAPSHOT/maven-metadata.xml.
+            > Could not get resource 'http://evgenyg.artifactoryonline.com/evgenyg/plugins-snapshots-local/com/github/goldin/plugins/gradle/node/0.3.2-SNAPSHOT/maven-metadata.xml'.
+               > Could not GET 'http://evgenyg.artifactoryonline.com/evgenyg/plugins-snapshots-local/com/github/goldin/plugins/gradle/node/0.3.2-SNAPSHOT/maven-metadata.xml'.
+                  > evgenyg.artifactoryonline.com
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

@@ -1,0 +1,37 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task828/wd/NonDex-plugin-test/github.com/FlowArg/NMSRemapHelper/src/main/java/fr/flowarg/nmsremaphelper/Artifact.java:13: error: class, interface, or enum expected
+public record Artifact(String group, String name, String version, String classifier)
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task828/wd/NonDex-plugin-test/github.com/FlowArg/NMSRemapHelper/src/main/java/fr/flowarg/nmsremaphelper/Artifact.java:18: error: class, interface, or enum expected
+    public static final String CENTRAL = "https://repo1.maven.org/maven2/%s/%s/%s/%s";
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task828/wd/NonDex-plugin-test/github.com/FlowArg/NMSRemapHelper/src/main/java/fr/flowarg/nmsremaphelper/Artifact.java:27: error: class, interface, or enum expected
+    public String @NotNull [] genURL(String repo, String ext)
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task828/wd/NonDex-plugin-test/github.com/FlowArg/NMSRemapHelper/src/main/java/fr/flowarg/nmsremaphelper/Artifact.java:27: error: class, interface, or enum expected
+    public String @NotNull [] genURL(String repo, String ext)
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task828/wd/NonDex-plugin-test/github.com/FlowArg/NMSRemapHelper/src/main/java/fr/flowarg/nmsremaphelper/Artifact.java:29: error: class, interface, or enum expected
+        final String fileName = name + "-" + version + (classifier.isEmpty() ? "" : "-" + classifier) + "." + ext;
+              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task828/wd/NonDex-plugin-test/github.com/FlowArg/NMSRemapHelper/src/main/java/fr/flowarg/nmsremaphelper/Artifact.java:30: error: class, interface, or enum expected
+        return new String[]{String.format(repo, group.replace('.', '/'), name, version, fileName), fileName};
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task828/wd/NonDex-plugin-test/github.com/FlowArg/NMSRemapHelper/src/main/java/fr/flowarg/nmsremaphelper/Artifact.java:31: error: class, interface, or enum expected
+    }
+    ^
+7 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 19s

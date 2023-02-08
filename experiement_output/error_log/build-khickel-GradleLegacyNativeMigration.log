@@ -1,0 +1,53 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/root/.gradle/wrapper/dists/gradle-6.8.1-bin/292llow5buzp6wg9rco3vjhoc/gradle-6.8.1/lib/groovy-all-1.3-2.5.12.jar) to method java.util.AbstractCollection.hugeCapacity(int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/root/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.5.12/c5a65ece40ef0030e6958af990bd6d83b4e206ec/groovy-2.5.12.jar) to method java.util.AbstractCollection.hugeCapacity(int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1016/wd/NonDex-plugin-test/github.com/khickel/GradleLegacyNativeMigration/buildSrc/prebuilt-library-management/src/main/groovy/glm/prebuilt/GradleMetadataCache.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/root/.gradle/wrapper/dists/gradle-6.8.1-bin/292llow5buzp6wg9rco3vjhoc/gradle-6.8.1/lib/groovy-all-1.3-2.5.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/root/.gradle/wrapper/dists/gradle-6.8.1-bin/292llow5buzp6wg9rco3vjhoc/gradle-6.8.1/lib/groovy-all-1.3-2.5.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/root/.gradle/wrapper/dists/gradle-6.8.1-bin/292llow5buzp6wg9rco3vjhoc/gradle-6.8.1/lib/groovy-all-1.3-2.5.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/root/.gradle/wrapper/dists/gradle-6.8.1-bin/292llow5buzp6wg9rco3vjhoc/gradle-6.8.1/lib/groovy-all-1.3-2.5.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/root/.gradle/wrapper/dists/gradle-6.8.1-bin/292llow5buzp6wg9rco3vjhoc/gradle-6.8.1/lib/groovy-all-1.3-2.5.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1016/wd/NonDex-plugin-test/github.com/khickel/GradleLegacyNativeMigration/legacy_installer/legacy_installer.gradle' line: 20
+
+* What went wrong:
+A problem occurred evaluating project ':legacy_installer'.
+> Project with path ':subsystem_a:win_mfc_a' could not be found in project ':legacy_installer'.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3m 6s

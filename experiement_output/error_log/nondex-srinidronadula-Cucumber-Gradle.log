@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task524/wd/NonDex-plugin-test/github.com/srinidronadula/Cucumber-Gradle/build.gradle' line: 29
+
+* What went wrong:
+A problem occurred evaluating root project 'Cucumber-Gradle'.
+> No signature of method: build_1xeofl5f6tc1ex9ob4vezxlz6.sourceSets() is applicable for argument types: (build_1xeofl5f6tc1ex9ob4vezxlz6$_run_closure3) values: [build_1xeofl5f6tc1ex9ob4vezxlz6$_run_closure3@6ff51687]
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

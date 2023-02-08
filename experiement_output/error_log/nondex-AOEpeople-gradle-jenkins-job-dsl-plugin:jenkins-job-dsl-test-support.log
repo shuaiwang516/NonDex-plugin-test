@@ -1,0 +1,43 @@
+[Fatal Error] groovy-all-2.4.11.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] job-dsl-1.76.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] spock-core-1.1-groovy-2.4.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] jenkins-test-harness-2.49.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] jenkins-war-2.121.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] commons-io-2.4.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] servlet-api-2.4.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] commons-parent-25.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] apache-9.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] apache-9.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] junit-4.12.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] hamcrest-core-1.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':jenkins-job-dsl-test-support:compileGroovy'.
+> Could not resolve all files for configuration ':jenkins-job-dsl-test-support:compileClasspath'.
+   > Could not resolve org.jenkins-ci.plugins:job-dsl:1.76.
+     Required by:
+         project :jenkins-job-dsl-test-support
+      > Could not resolve org.jenkins-ci.plugins:job-dsl:1.76.
+         > Could not parse POM http://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/job-dsl/1.76/job-dsl-1.76.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve org.jenkins-ci.main:jenkins-test-harness:2.49.
+     Required by:
+         project :jenkins-job-dsl-test-support
+      > Could not resolve org.jenkins-ci.main:jenkins-test-harness:2.49.
+         > Could not parse POM http://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-test-harness/2.49/jenkins-test-harness-2.49.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve org.jenkins-ci.main:jenkins-war:2.121.
+     Required by:
+         project :jenkins-job-dsl-test-support
+      > Could not resolve org.jenkins-ci.main:jenkins-war:2.121.
+         > Could not parse POM http://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-war/2.121/jenkins-war-2.121.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

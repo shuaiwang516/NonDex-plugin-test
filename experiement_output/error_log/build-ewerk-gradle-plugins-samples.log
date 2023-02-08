@@ -1,0 +1,18 @@
+Project evaluation failed including an error in afterEvaluate {}. Run with --stacktrace for details of the afterEvaluate {} error.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task926/wd/NonDex-plugin-test/github.com/ewerk/gradle-plugins-samples/build.gradle' line: 9
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'com.ewerk.gradle.plugins.integration-test', version: '1.0.9']
+> Failed to apply plugin [id 'com.ewerk.gradle.plugins.integration-test']
+   > Could not get unknown property 'classesDir' for integration classes of type org.gradle.api.internal.tasks.DefaultSourceSetOutput.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 16s

@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script 'https://github.com/RockBottomGame/Gradle/raw/d83ec77a5b182ffb0540f6ff02c50d99913a7283/buildscript.gradle' line: 7
+
+* What went wrong:
+A problem occurred evaluating script.
+> Could not get unknown property 'JavaLanguageVersion' for root project 'Modding' of type org.gradle.api.Project.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

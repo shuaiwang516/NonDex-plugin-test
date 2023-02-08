@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task554/wd/NonDex-plugin-test/github.com/gosu-lang/example-gradle-simple/build.gradle' line: 2
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'org.gosu-lang.gosu', version: '0.2.2']
+> Failed to apply plugin [class 'org.gradle.api.plugins.JavaPlugin']
+   > Could not create task ':compileGosu'.
+      > Could not create task of type 'GosuCompile'.
+         > org.gradle.api.tasks.compile.CompileOptions: method 'void <init>()' not found
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

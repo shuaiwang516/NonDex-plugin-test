@@ -1,0 +1,185 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/ZipReader.java:33: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBContext;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/ZipReader.java:34: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBException;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/ZipReader.java:35: error: package javax.xml.bind does not exist
+import javax.xml.bind.Unmarshaller;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/ZipReader.java:53: error: cannot find symbol
+    private Unmarshaller tableUnmarshaller;
+            ^
+  symbol:   class Unmarshaller
+  location: class ZipReader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/ZipReader.java:57: error: cannot find symbol
+    public ZipReader(File importFile) throws JAXBException
+                                             ^
+  symbol:   class JAXBException
+  location: class ZipReader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/meta/Table.java:18: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlRootElement;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/meta/Table.java:25: error: cannot find symbol
+@XmlRootElement
+ ^
+  symbol: class XmlRootElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/ZipReader.java:87: error: cannot find symbol
+    public List<Table> getTables() throws IOException, JAXBException
+                                                       ^
+  symbol:   class JAXBException
+  location: class ZipReader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/ImportHandler.java:40: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBException;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/data/DataTable.java:22: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlRootElement;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/data/DataTable.java:31: error: cannot find symbol
+@XmlRootElement
+ ^
+  symbol: class XmlRootElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/ImportHandler.java:263: error: cannot find symbol
+    public void validateTables(final Connection con) throws SQLException, IOException, JAXBException
+                                                                                       ^
+  symbol:   class JAXBException
+  location: class ImportHandler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/meta/Row.java:22: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlRootElement;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/meta/Row.java:27: error: cannot find symbol
+@XmlRootElement
+ ^
+  symbol: class XmlRootElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/Importer.java:24: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBException;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/Importer.java:90: error: cannot find symbol
+    public void doImport(boolean forceImport) throws JAXBException, IOException, SQLException,
+                                                     ^
+  symbol:   class JAXBException
+  location: class Importer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/Importer.java:257: error: cannot find symbol
+    private boolean checkTableMetadata() throws JAXBException, IOException, SQLException
+                                                ^
+  symbol:   class JAXBException
+  location: class Importer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/DatabaseDumper.java:24: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBException;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/DatabaseDumper.java:157: error: cannot find symbol
+    private void createExportPackage() throws JAXBException, IOException, SQLException {
+                                              ^
+  symbol:   class JAXBException
+  location: class DatabaseDumper
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ExportHandler.java:39: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBException;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:22: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBContext;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:23: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBException;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:24: error: package javax.xml.bind does not exist
+import javax.xml.bind.Marshaller;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ExportHandler.java:120: error: cannot find symbol
+    public DataTable readData(final Table table, final Connection con) throws SQLException, IOException, JAXBException
+                                                                                                         ^
+  symbol:   class JAXBException
+  location: class ExportHandler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:37: error: cannot find symbol
+    private Marshaller marshaller;
+            ^
+  symbol:   class Marshaller
+  location: class ZipWriter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:39: error: cannot find symbol
+    public ZipWriter() throws JAXBException
+                              ^
+  symbol:   class JAXBException
+  location: class ZipWriter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:48: error: cannot find symbol
+    public void write(final DataTable dataTable) throws JAXBException, IOException
+                                                        ^
+  symbol:   class JAXBException
+  location: class ZipWriter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:53: error: cannot find symbol
+    public void write(final DataTable dataTable, final Integer suffix) throws JAXBException, IOException
+                                                                              ^
+  symbol:   class JAXBException
+  location: class ZipWriter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:71: error: cannot find symbol
+    public void write(final Table table) throws IOException, JAXBException
+                                                             ^
+  symbol:   class JAXBException
+  location: class ZipWriter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:86: error: cannot find symbol
+    public void setMarshaller(Marshaller marshaller)
+                              ^
+  symbol:   class Marshaller
+  location: class ZipWriter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/ZipReader.java:59: error: cannot find symbol
+        JAXBContext jc = JAXBContext.newInstance(Table.class);
+        ^
+  symbol:   class JAXBContext
+  location: class ZipReader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/ZipReader.java:59: error: cannot find symbol
+        JAXBContext jc = JAXBContext.newInstance(Table.class);
+                         ^
+  symbol:   variable JAXBContext
+  location: class ZipReader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/ZipReader.java:75: error: cannot find symbol
+		} catch (JAXBException e) {
+		         ^
+  symbol:   class JAXBException
+  location: class ZipReader
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/in/ImportHandler.java:78: error: cannot find symbol
+        catch(JAXBException e)
+              ^
+  symbol:   class JAXBException
+  location: class ImportHandler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/DatabaseDumper.java:143: error: cannot find symbol
+        } catch (JAXBException | IOException | SQLException e) {
+                 ^
+  symbol:   class JAXBException
+  location: class DatabaseDumper
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ExportHandler.java:284: error: cannot find symbol
+            catch(JAXBException e)
+                  ^
+  symbol:   class JAXBException
+  location: class ExportHandler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:42: error: cannot find symbol
+        JAXBContext jc = JAXBContext.newInstance(DataTable.class);
+        ^
+  symbol:   class JAXBContext
+  location: class ZipWriter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:42: error: cannot find symbol
+        JAXBContext jc = JAXBContext.newInstance(DataTable.class);
+                         ^
+  symbol:   variable JAXBContext
+  location: class ZipWriter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:44: error: cannot find symbol
+        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+                               ^
+  symbol:   variable Marshaller
+  location: class ZipWriter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task277/wd/NonDex-plugin-test/github.com/IntershopCommunicationsAG/databasedumper/src/main/java/com/intershop/databasedumper/ex/ZipWriter.java:45: error: cannot find symbol
+        marshaller.setProperty(Marshaller.JAXB_SCHEMA_LOCATION, "http://www.w3.org/2001/XMLSchema-Instance");
+                               ^
+  symbol:   variable Marshaller
+  location: class ZipWriter
+40 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 21s

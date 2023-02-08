@@ -1,0 +1,159 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/service/posts/PostsService.java:23: error: cannot find symbol
+        return postsRepository.save(requestDto.toEntity()).getId();
+                                                          ^
+  symbol:   method getId()
+  location: class Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/service/posts/PostsService.java:30: error: cannot find symbol
+        posts.update(requestDto.getTitle(), requestDto.getContent());
+                               ^
+  symbol:   method getTitle()
+  location: variable requestDto of type PostsUpdateRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/service/posts/PostsService.java:30: error: cannot find symbol
+        posts.update(requestDto.getTitle(), requestDto.getContent());
+                                                      ^
+  symbol:   method getContent()
+  location: variable requestDto of type PostsUpdateRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/web/dto/PostsSaveRequestDto.java:23: error: cannot find symbol
+        return Posts.builder().title(title).content(content).author(author).build();
+                    ^
+  symbol:   method builder()
+  location: class Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/web/dto/PostsResponseDto.java:14: error: cannot find symbol
+        this.id = entity.getId();
+                        ^
+  symbol:   method getId()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/web/dto/PostsResponseDto.java:15: error: cannot find symbol
+        this.title = entity.getTitle();
+                           ^
+  symbol:   method getTitle()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/web/dto/PostsResponseDto.java:16: error: cannot find symbol
+        this.content = entity.getContent();
+                             ^
+  symbol:   method getContent()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/web/dto/PostsResponseDto.java:17: error: cannot find symbol
+        this.author = entity.getAuthor();
+                            ^
+  symbol:   method getAuthor()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/web/dto/PostsListResponseDto.java:16: error: cannot find symbol
+        this.id = entity.getId();
+                        ^
+  symbol:   method getId()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/web/dto/PostsListResponseDto.java:17: error: cannot find symbol
+        this.title = entity.getTitle();
+                           ^
+  symbol:   method getTitle()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/web/dto/PostsListResponseDto.java:18: error: cannot find symbol
+        this.author = entity.getAuthor();
+                            ^
+  symbol:   method getAuthor()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/web/dto/PostsListResponseDto.java:19: error: cannot find symbol
+        this.modifiedDate = entity.getModifiedDate();
+                                  ^
+  symbol:   method getModifiedDate()
+  location: variable entity of type Posts
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/web/HelloController.java:18: error: constructor HelloResponseDto in class HelloResponseDto cannot be applied to given types;
+        return new HelloResponseDto(name, amount);
+               ^
+  required: no arguments
+  found: String,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/web/IndexController.java:26: error: cannot find symbol
+            model.addAttribute("userName", user.getName());
+                                               ^
+  symbol:   method getName()
+  location: variable user of type SessionUser
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/config/auth/dto/SessionUser.java:15: error: cannot find symbol
+        this.name = user.getName();
+                        ^
+  symbol:   method getName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/config/auth/dto/SessionUser.java:16: error: cannot find symbol
+        this.email = user.getEmail();
+                         ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/config/auth/dto/SessionUser.java:17: error: cannot find symbol
+        this.picture = user.getPicture();
+                           ^
+  symbol:   method getPicture()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/domain/user/User.java:47: error: cannot find symbol
+        return this.role.getKey();
+                        ^
+  symbol:   method getKey()
+  location: variable role of type Role
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/domain/user/Role.java:9: error: constructor Role in enum Role cannot be applied to given types;
+    GUEST("ROLE_GUEST", "손님"), USER("ROLE_USER", "일반 사용자");
+         ^
+  required: no arguments
+  found: String,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/domain/user/Role.java:9: error: constructor Role in enum Role cannot be applied to given types;
+    GUEST("ROLE_GUEST", "손님"), USER("ROLE_USER", "일반 사용자");
+                                   ^
+  required: no arguments
+  found: String,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/config/auth/dto/OAuthAttributes.java:37: error: cannot find symbol
+        return OAuthAttributes.builder().name((String) response.get("name"))
+                              ^
+  symbol:   method builder()
+  location: class OAuthAttributes
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/config/auth/dto/OAuthAttributes.java:46: error: cannot find symbol
+        return OAuthAttributes.builder().name((String) attributes.get("name"))
+                              ^
+  symbol:   method builder()
+  location: class OAuthAttributes
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/config/auth/dto/OAuthAttributes.java:55: error: cannot find symbol
+        return User.builder().name(name).email(email).picture(picture).role(Role.GUEST).build();
+                   ^
+  symbol:   method builder()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/config/auth/CustomOAuth2UserService.java:39: error: cannot find symbol
+        return new DefaultOAuth2User(Collections.singleton(new SimpleGrantedAuthority(user.getRoleKey())),attributes.getAttributes(),attributes.getNameAttributesKey());
+                                                                                                                    ^
+  symbol:   method getAttributes()
+  location: variable attributes of type OAuthAttributes
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/config/auth/CustomOAuth2UserService.java:39: error: cannot find symbol
+        return new DefaultOAuth2User(Collections.singleton(new SimpleGrantedAuthority(user.getRoleKey())),attributes.getAttributes(),attributes.getNameAttributesKey());
+                                                                                                                                               ^
+  symbol:   method getNameAttributesKey()
+  location: variable attributes of type OAuthAttributes
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/config/auth/CustomOAuth2UserService.java:43: error: cannot find symbol
+        User user = userRepository.findByEmail(attributes.getEmail()).map(entity -> entity.update(attributes.getName(),attributes.getPicture())).orElse(attributes.toEntity());
+                                                         ^
+  symbol:   method getEmail()
+  location: variable attributes of type OAuthAttributes
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/config/auth/CustomOAuth2UserService.java:43: error: cannot find symbol
+        User user = userRepository.findByEmail(attributes.getEmail()).map(entity -> entity.update(attributes.getName(),attributes.getPicture())).orElse(attributes.toEntity());
+                                                                                                            ^
+  symbol:   method getName()
+  location: variable attributes of type OAuthAttributes
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/config/auth/CustomOAuth2UserService.java:43: error: cannot find symbol
+        User user = userRepository.findByEmail(attributes.getEmail()).map(entity -> entity.update(attributes.getName(),attributes.getPicture())).orElse(attributes.toEntity());
+                                                                                                                                 ^
+  symbol:   method getPicture()
+  location: variable attributes of type OAuthAttributes
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/choihwan2/springboot2-webservice/src/main/java/com/choihwan2/book/springboot2/config/auth/dto/OAuthAttributes.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+28 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

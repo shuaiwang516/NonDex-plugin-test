@@ -1,0 +1,40 @@
+[Fatal Error] common4k-1.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] swing4k-1.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] common4k-1.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] swing4k-1.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] common4k-1.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] swing4k-1.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] olap4j-0.9.7.309-JS-3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] olap4j-0.9.7.309-JS-3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] olap4j-0.9.7.309-JS-3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve com.github.christophpickl.kpotpourri:common4k:1.8.
+     Required by:
+         project :
+      > Could not resolve com.github.christophpickl.kpotpourri:common4k:1.8.
+         > Could not parse POM http://dl.bintray.com/christophpickl/cpickl/com/github/christophpickl/kpotpourri/common4k/1.8/common4k-1.8.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve com.github.christophpickl.kpotpourri:swing4k:1.8.
+     Required by:
+         project :
+      > Could not resolve com.github.christophpickl.kpotpourri:swing4k:1.8.
+         > Could not parse POM http://dl.bintray.com/christophpickl/cpickl/com/github/christophpickl/kpotpourri/swing4k/1.8/swing4k-1.8.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve org.olap4j:olap4j:0.9.7.309-JS-3.
+     Required by:
+         project : > net.sf.jasperreports:jasperreports:6.4.3
+      > Could not resolve org.olap4j:olap4j:0.9.7.309-JS-3.
+         > Could not parse POM http://dl.bintray.com/christophpickl/cpickl/org/olap4j/olap4j/0.9.7.309-JS-3/olap4j-0.9.7.309-JS-3.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

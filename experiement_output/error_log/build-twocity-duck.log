@@ -1,0 +1,27 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':builder'.
+> Could not resolve all artifacts for configuration ':builder:classpath'.
+   > Could not resolve org.jetbrains.kotlinx:kotlinx-gradle-serialization-plugin:0.4.2.
+     Required by:
+         project :builder
+      > Could not resolve org.jetbrains.kotlinx:kotlinx-gradle-serialization-plugin:0.4.2.
+         > Could not get resource 'https://kotlin.bintray.com/kotlinx/org/jetbrains/kotlinx/kotlinx-gradle-serialization-plugin/0.4.2/kotlinx-gradle-serialization-plugin-0.4.2.pom'.
+            > Could not GET 'https://kotlin.bintray.com/kotlinx/org/jetbrains/kotlinx/kotlinx-gradle-serialization-plugin/0.4.2/kotlinx-gradle-serialization-plugin-0.4.2.pom'.
+               > Certificate for <kotlin.bintray.com> doesn't match any of the subject alternative names: [*.jfrog.io, jfrog.io]
+   > Could not resolve com.github.jengelman.gradle.plugins:shadow:2.0.3.
+     Required by:
+         project :builder
+      > Could not resolve com.github.jengelman.gradle.plugins:shadow:2.0.3.
+         > Could not get resource 'https://kotlin.bintray.com/kotlinx/com/github/jengelman/gradle/plugins/shadow/2.0.3/shadow-2.0.3.pom'.
+            > Could not GET 'https://kotlin.bintray.com/kotlinx/com/github/jengelman/gradle/plugins/shadow/2.0.3/shadow-2.0.3.pom'.
+               > Certificate for <kotlin.bintray.com> doesn't match any of the subject alternative names: [*.jfrog.io, jfrog.io]
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 16s

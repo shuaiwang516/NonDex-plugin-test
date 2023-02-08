@@ -1,0 +1,37 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not find net.dv8tion:JDA:4.3.0_283.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/net/dv8tion/JDA/4.3.0_283/JDA-4.3.0_283.pom
+     If the artifact you are trying to retrieve can be found in the repository but without metadata in 'Maven POM' format, you need to adjust the 'metadataSources { ... }' of the repository declaration.
+     Required by:
+         project :
+   > Could not find com.github.Yuuko-oh:Lavalink-Client:0409d4cf2b.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/com/github/Yuuko-oh/Lavalink-Client/0409d4cf2b/Lavalink-Client-0409d4cf2b.pom
+     If the artifact you are trying to retrieve can be found in the repository but without metadata in 'Maven POM' format, you need to adjust the 'metadataSources { ... }' of the repository declaration.
+     Required by:
+         project :
+   > Could not find com.github.DiscordBotList:DBL-Java-Wrapper:2.0.1.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/com/github/DiscordBotList/DBL-Java-Wrapper/2.0.1/DBL-Java-Wrapper-2.0.1.pom
+     If the artifact you are trying to retrieve can be found in the repository but without metadata in 'Maven POM' format, you need to adjust the 'metadataSources { ... }' of the repository declaration.
+     Required by:
+         project :
+   > Could not find com.github.BasketBandit:RuneAPI.java:0.4.4.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/com/github/BasketBandit/RuneAPI.java/0.4.4/RuneAPI.java-0.4.4.pom
+     If the artifact you are trying to retrieve can be found in the repository but without metadata in 'Maven POM' format, you need to adjust the 'metadataSources { ... }' of the repository declaration.
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

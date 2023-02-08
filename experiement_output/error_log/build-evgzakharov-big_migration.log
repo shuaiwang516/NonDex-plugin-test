@@ -1,0 +1,22 @@
+[Fatal Error] spring-boot-gradle-plugin-2.0.0.M5.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] spring-boot-gradle-plugin-2.0.0.M5.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] spring-boot-gradle-plugin-2.0.0.M5.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':step2_migration_to_spring5_junit5'.
+> Could not resolve all artifacts for configuration ':step2_migration_to_spring5_junit5:classpath'.
+   > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:2.0.0.M5.
+     Required by:
+         project :step2_migration_to_spring5_junit5
+      > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:2.0.0.M5.
+         > Could not parse POM http://repo.spring.io/milestone/org/springframework/boot/spring-boot-gradle-plugin/2.0.0.M5/spring-boot-gradle-plugin-2.0.0.M5.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s

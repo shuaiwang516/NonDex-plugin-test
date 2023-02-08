@@ -1,0 +1,24 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not find com.pathplanner.lib:PathplannerLib-java:2022.1.0.
+     Searched in the following locations:
+       - https://jitpack.io/com/pathplanner/lib/PathplannerLib-java/2022.1.0/PathplannerLib-java-2022.1.0.pom
+       - https://repo.maven.apache.org/maven2/com/pathplanner/lib/PathplannerLib-java/2022.1.0/PathplannerLib-java-2022.1.0.pom
+       - file:/root/wpilib/2022/maven/com/pathplanner/lib/PathplannerLib-java/2022.1.0/PathplannerLib-java-2022.1.0.pom
+       - https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/pathplanner/lib/PathplannerLib-java/2022.1.0/PathplannerLib-java-2022.1.0.pom
+       - https://3015rangerrobotics.github.io/pathplannerlib/repo/com/pathplanner/lib/PathplannerLib-java/2022.1.0/PathplannerLib-java-2022.1.0.pom
+     Required by:
+         project :
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

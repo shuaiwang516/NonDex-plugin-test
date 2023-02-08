@@ -1,0 +1,18 @@
+Project evaluation failed including an error in afterEvaluate {}. Run with --stacktrace for details of the afterEvaluate {} error.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1282/wd/NonDex-plugin-test/github.com/team-7108/robot2018-gradle/build.gradle' line: 46
+
+* What went wrong:
+A problem occurred evaluating root project 'robot2018-gradle'.
+> Could not create task ':jar'.
+   > DefaultTaskContainer#NamedDomainObjectProvider.configure(Action) on task set cannot be executed in the current context.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

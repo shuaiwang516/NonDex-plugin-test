@@ -1,0 +1,25 @@
+resolution of uriFragment '|3' failed.
+resource is empty: java:/Objects/java.io.File
+resolution of uriFragment '|1' failed.
+resolution of uriFragment '|0' failed.
+resolution of uriFragment '|0' failed.
+resolution of uriFragment '|1' failed.
+resource is empty: java:/Objects/java.lang.annotation.Target
+resource is empty: java:/Objects/java.lang.annotation.Documented
+resource is empty: java:/Objects/java.lang.annotation.Retention
+resolution of uriFragment '|1' failed.
+resource is empty: java:/Objects/java.lang.Override
+resource is empty: java:/Objects/java.lang.Object
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':xtext-gradle-plugin:generateXtext'.
+> javax/annotation/Generated
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

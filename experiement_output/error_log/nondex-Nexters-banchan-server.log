@@ -1,0 +1,412 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/response/CommonResponse.java:47: error: cannot find symbol
+        commonResponse.setReason(reason);
+                      ^
+  symbol:   method setReason(String)
+  location: variable commonResponse of type CommonResponse
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/reviews/ReviewsResponseDto.java:26: error: cannot find symbol
+        this.id = entity.getId();
+                        ^
+  symbol:   method getId()
+  location: variable entity of type Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/reviews/ReviewsResponseDto.java:27: error: cannot find symbol
+        this.questionId = entity.getQuestionId();
+                                ^
+  symbol:   method getQuestionId()
+  location: variable entity of type Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/reviews/ReviewsResponseDto.java:28: error: cannot find symbol
+        System.out.println(entity.getUser());
+                                 ^
+  symbol:   method getUser()
+  location: variable entity of type Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/reviews/ReviewsResponseDto.java:29: error: cannot find symbol
+        this.userName = entity.getUser().getUsername().getPrefix() + " " + entity.getUser().getUsername().getPostfix();
+                              ^
+  symbol:   method getUser()
+  location: variable entity of type Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/reviews/ReviewsResponseDto.java:29: error: cannot find symbol
+        this.userName = entity.getUser().getUsername().getPrefix() + " " + entity.getUser().getUsername().getPostfix();
+                                                                                 ^
+  symbol:   method getUser()
+  location: variable entity of type Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/reviews/ReviewsResponseDto.java:30: error: cannot find symbol
+        this.content = entity.getContent();
+                             ^
+  symbol:   method getContent()
+  location: variable entity of type Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/reviews/ReviewsResponseDto.java:31: error: cannot find symbol
+        this.reportState = entity.getReportState();
+                                 ^
+  symbol:   method getReportState()
+  location: variable entity of type Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/reviews/ReviewsResponseDto.java:32: error: cannot find symbol
+        this.createdAt = toStringDateTime(entity.getCreatedAt());
+                                                ^
+  symbol:   method getCreatedAt()
+  location: variable entity of type Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/reviews/ReviewsResponseDto.java:33: error: cannot find symbol
+        this.updatedAt = toStringDateTime(entity.getUpdatedAt());
+                                                ^
+  symbol:   method getUpdatedAt()
+  location: variable entity of type Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/reviews/ReviewsResponseDto.java:35: error: cannot find symbol
+        this.userId = entity.getUser().getId();
+                            ^
+  symbol:   method getUser()
+  location: variable entity of type Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/reviews/ReviewReportRequestDto.java:16: error: cannot find symbol
+        return Reports.builder()
+                      ^
+  symbol:   method builder()
+  location: class Reports
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/reviews/ReviewsSaveRequestDto.java:20: error: cannot find symbol
+        return Reviews.builder()
+                      ^
+  symbol:   method builder()
+  location: class Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/dto/questions/QuestionReportRequestDto.java:15: error: cannot find symbol
+        return Reports.builder()
+                      ^
+  symbol:   method builder()
+  location: class Reports
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/domain/question/AnswerTypeAttributeConverter.java:12: error: cannot find symbol
+        return Optional.ofNullable(attribute).orElse(AnswerType.UNDECIDED).getValue();
+                                                                          ^
+  symbol:   method getValue()
+  location: class AnswerType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/domain/question/QuestionTypeAttributeConverter.java:11: error: cannot find symbol
+        return attribute.getValue();
+                        ^
+  symbol:   method getValue()
+  location: variable attribute of type QuestionType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/domain/question/RewardTypeAttributeConverter.java:11: error: cannot find symbol
+        return attribute.getValue();
+                        ^
+  symbol:   method getValue()
+  location: variable attribute of type RewardType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/model/domain/question/DetailTypeAttributeConverter.java:11: error: cannot find symbol
+        return attribute.getValue();
+                        ^
+  symbol:   method getValue()
+  location: variable attribute of type DetailType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:45: error: cannot find symbol
+        User user = userRepository.findById(dto.getUserId()).get();
+                                               ^
+  symbol:   method getUserId()
+  location: variable dto of type ReviewsSaveRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:46: error: cannot find symbol
+        return reviewsRepository.save(dto.toEntity(user)).getId();
+                                                         ^
+  symbol:   method getId()
+  location: class Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:51: error: cannot find symbol
+        Reviews reviews = reviewsRepository.findById(dto.getReviewId()).get();
+                                                        ^
+  symbol:   method getReviewId()
+  location: variable dto of type ReviewsUpdateRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:52: error: cannot find symbol
+        reviews.updateContent(dto.getContent());
+                                 ^
+  symbol:   method getContent()
+  location: variable dto of type ReviewsUpdateRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:53: error: cannot find symbol
+        return reviewsRepository.save(reviews).getId();
+                                              ^
+  symbol:   method getId()
+  location: class Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:60: error: cannot find symbol
+        return reviewsRepository.save(deleteReview).getId();
+                                                   ^
+  symbol:   method getId()
+  location: class Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:69: error: cannot find symbol
+        Long reportId = reportsRepository.save(dto.toReviewReportEntity()).getId();
+                                                                          ^
+  symbol:   method getId()
+  location: class Reports
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:70: error: cannot find symbol
+        if (reportsRepository.countByReviewId(dto.getReviewId()) >= REPORT_MAX_SIZE) {
+                                                 ^
+  symbol:   method getReviewId()
+  location: variable dto of type ReviewReportRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:71: error: cannot find symbol
+            Reviews review = reviewsRepository.findById(dto.getReviewId()).get();
+                                                           ^
+  symbol:   method getReviewId()
+  location: variable dto of type ReviewReportRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:79: error: cannot find symbol
+        return reportsRepository.countByUserIdAndReviewId(dto.getUserId(), dto.getReviewId()) >= 1;
+                                                             ^
+  symbol:   method getUserId()
+  location: variable dto of type ReviewReportRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:79: error: cannot find symbol
+        return reportsRepository.countByUserIdAndReviewId(dto.getUserId(), dto.getReviewId()) >= 1;
+                                                                              ^
+  symbol:   method getReviewId()
+  location: variable dto of type ReviewReportRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:86: error: invalid method reference
+                                ReviewCountData::getQuestionId,
+                                ^
+  cannot find symbol
+    symbol:   method getQuestionId()
+    location: class ReviewCountData
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/reviews/ReviewsService.java:87: error: invalid method reference
+                                ReviewCountData::getReviewCount)));
+                                ^
+  cannot find symbol
+    symbol:   method getReviewCount()
+    location: class ReviewCountData
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:32: error: cannot find symbol
+        Questions question = questionsRepository.findById(vote.getQuestionId())
+                                                              ^
+  symbol:   method getQuestionId()
+  location: variable vote of type Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:35: error: cannot find symbol
+        if(question.getUserId().equals(vote.getUserId())) {
+                   ^
+  symbol:   method getUserId()
+  location: variable question of type Questions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:35: error: cannot find symbol
+        if(question.getUserId().equals(vote.getUserId())) {
+                                           ^
+  symbol:   method getUserId()
+  location: variable vote of type Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:36: error: cannot find symbol
+            question.setDecision(vote.getAnswer());
+                                     ^
+  symbol:   method getAnswer()
+  location: variable vote of type Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:46: error: cannot find symbol
+        return Stream.of(voteRepository.findAllByQuestionId(vote.getQuestionId()).stream()
+                                                                ^
+  symbol:   method getQuestionId()
+  location: variable vote of type Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:47: error: invalid method reference
+                .map(Vote::getUserId)
+                     ^
+  cannot find symbol
+    symbol:   method getUserId()
+    location: class Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:65: error: invalid method reference
+                .map(RewardHistory::getReward)
+                     ^
+  cannot find symbol
+    symbol:   method getReward()
+    location: class RewardHistory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:70: error: cannot find symbol
+        return this.makeRewardHistory(vote.getUserId(), RewardType.BASIC, rewarder.rewardOf(RewardType.BASIC));
+                                          ^
+  symbol:   method getUserId()
+  location: variable vote of type Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:74: error: cannot find symbol
+        return rewarder.checkNew(question.getWriteTime()) ?
+                                         ^
+  symbol:   method getWriteTime()
+  location: variable question of type Questions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:75: error: cannot find symbol
+                this.makeRewardHistory(vote.getUserId(), RewardType.NEW, rewarder.rewardOf(RewardType.NEW)) : null;
+                                           ^
+  symbol:   method getUserId()
+  location: variable vote of type Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:79: error: cannot find symbol
+        return rewarder.checkFirst(voteRepository.countAllByQuestionId(question.getId())) ?
+                                                                               ^
+  symbol:   method getId()
+  location: variable question of type Questions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:80: error: cannot find symbol
+                this.makeRewardHistory(vote.getUserId(), RewardType.FIRST, rewarder.rewardOf(RewardType.FIRST)) : null;
+                                           ^
+  symbol:   method getUserId()
+  location: variable vote of type Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:84: error: cannot find symbol
+        return vote.isRandom() ?
+                   ^
+  symbol:   method isRandom()
+  location: variable vote of type Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:85: error: cannot find symbol
+                this.makeRewardHistory(vote.getUserId(), RewardType.RANDOM, rewarder.rewardOf(RewardType.RANDOM)) : null;
+                                           ^
+  symbol:   method getUserId()
+  location: variable vote of type Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:89: error: cannot find symbol
+        return RewardHistory.builder()
+                            ^
+  symbol:   method builder()
+  location: class RewardHistory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:102: error: cannot find symbol
+        if(questionsRepository.findById(questionId).get().getUserId() == reviews.getUser().getId())
+                                                         ^
+  symbol:   method getUserId()
+  location: class Questions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:102: error: cannot find symbol
+        if(questionsRepository.findById(questionId).get().getUserId() == reviews.getUser().getId())
+                                                                                ^
+  symbol:   method getUser()
+  location: variable reviews of type Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/VoteService.java:105: error: cannot find symbol
+        return voteRepository.findByQuestionIdAndUserId(questionId, reviews.getUser().getId())
+                                                                           ^
+  symbol:   method getUser()
+  location: variable reviews of type Reviews
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/Rewarder.java:80: error: cannot find symbol
+        return RewardHistory.builder()
+                            ^
+  symbol:   method builder()
+  location: class RewardHistory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionDetailsService.java:22: error: method saveAll in interface JpaRepository<T#1,ID> cannot be applied to given types;
+        return questionDetailsRepository.saveAll(
+                                        ^
+  required: Iterable<S>
+  found: List<Object>
+  reason: inference variable T#2 has incompatible bounds
+    lower bounds: QuestionDetails,Object
+    lower bounds: Object
+  where S,T#1,ID,T#2 are type-variables:
+    S extends QuestionDetails declared in method <S>saveAll(Iterable<S>)
+    T#1 extends Object declared in interface JpaRepository
+    ID extends Object declared in interface JpaRepository
+    T#2 extends Object declared in method <T#2>toList()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionDetailsService.java:24: error: cannot find symbol
+                        .map(detail -> QuestionDetails.builder()
+                                                      ^
+  symbol:   method builder()
+  location: class QuestionDetails
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionDetailsService.java:36: error: invalid method reference
+                        EntryStream.of(details.stream().collect(Collectors.groupingBy(QuestionDetails::getQuestionId)))
+                                                                                      ^
+  cannot find symbol
+    symbol:   method getQuestionId()
+    location: class QuestionDetails
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionDetailsService.java:39: error: invalid method reference
+                                                QuestionDetails::getType,
+                                                ^
+  cannot find symbol
+    symbol:   method getType()
+    location: class QuestionDetails
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionDetailsService.java:40: error: invalid method reference
+                                                QuestionDetails::getContent)))
+                                                ^
+  cannot find symbol
+    symbol:   method getContent()
+    location: class QuestionDetails
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:40: error: cannot find symbol
+        if(rewardHistoryRepository.sumRewardByUserId(questionCard.getUserId()) < 1.0)
+                                                                 ^
+  symbol:   method getUserId()
+  location: variable questionCard of type QuestionCard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:45: error: cannot find symbol
+                Questions.builder()
+                         ^
+  symbol:   method builder()
+  location: class Questions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:46: error: cannot find symbol
+                        .userId(questionCard.getUserId())
+                                            ^
+  symbol:   method getUserId()
+  location: variable questionCard of type QuestionCard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:50: error: cannot find symbol
+                        .type(questionCard.getType())
+                                          ^
+  symbol:   method getType()
+  location: variable questionCard of type QuestionCard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:55: error: cannot find symbol
+                question.getId(),
+                        ^
+  symbol:   method getId()
+  location: variable question of type Questions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:56: error: cannot find symbol
+                EntryStream.of(questionCard.getDetail())
+                                           ^
+  symbol:   method getDetail()
+  location: variable questionCard of type QuestionCard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:61: error: cannot find symbol
+                                                "" + question.getId() + detail.getKey(),
+                                                             ^
+  symbol:   method getId()
+  location: variable question of type Questions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:66: error: cannot find symbol
+        rewardHistoryRepository.save(RewardHistory.builder()
+                                                  ^
+  symbol:   method builder()
+  location: class RewardHistory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:67: error: cannot find symbol
+                .userId(questionCard.getUserId())
+                                    ^
+  symbol:   method getUserId()
+  location: variable questionCard of type QuestionCard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:102: error: invalid method reference
+                .collect(Collectors.groupingBy(QuestionCardData::getId)))
+                                               ^
+  cannot find symbol
+    symbol:   method getId()
+    location: class QuestionCardData
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:106: error: invalid method reference
+                                .toMap(QuestionCardData::getDetailType,
+                                       ^
+  cannot find symbol
+    symbol:   method getDetailType()
+    location: class QuestionCardData
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:107: error: invalid method reference
+                                        QuestionCardData::getDetailContent)))
+                                        ^
+  cannot find symbol
+    symbol:   method getDetailContent()
+    location: class QuestionCardData
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:108: error: cannot find symbol
+                .mapKeyValue((key, detail) -> QuestionCard.builder()
+                                                          ^
+  symbol:   method builder()
+  location: class QuestionCard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:120: error: cannot find symbol
+                        .tag(QuestionCard.Tag.builder()
+                                             ^
+  symbol:   method builder()
+  location: class Tag
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:129: error: invalid method reference
+                .map(QuestionCardData::getId)
+                     ^
+  cannot find symbol
+    symbol:   method getId()
+    location: class QuestionCardData
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:142: error: cannot find symbol
+        Long reportId = reportsRepository.save(dto.toQuestionReportEntity()).getId();
+                                                                            ^
+  symbol:   method getId()
+  location: class Reports
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:143: error: cannot find symbol
+        if (reportsRepository.countByQuestionId(dto.getQuestionId()) >= REPORT_MAX_SIZE) {
+                                                   ^
+  symbol:   method getQuestionId()
+  location: variable dto of type QuestionReportRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:144: error: cannot find symbol
+            Questions question = questionsRepository.findById(Long.valueOf(dto.getQuestionId())).get();
+                                                                              ^
+  symbol:   method getQuestionId()
+  location: variable dto of type QuestionReportRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:155: error: cannot find symbol
+        return reportsRepository.countByUserIdAndQuestionId(dto.getUserId(), dto.getQuestionId()) >= 1;
+                                                               ^
+  symbol:   method getUserId()
+  location: variable dto of type QuestionReportRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/service/question/QuestionsService.java:155: error: cannot find symbol
+        return reportsRepository.countByUserIdAndQuestionId(dto.getUserId(), dto.getQuestionId()) >= 1;
+                                                                                ^
+  symbol:   method getQuestionId()
+  location: variable dto of type QuestionReportRequestDto
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/config/IntercepterConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1100/wd/NonDex-plugin-test/github.com/Nexters/banchan-server/src/main/java/com/banchan/controller/QuestionController.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+75 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 25s

@@ -1,0 +1,25 @@
+./gradlew: 39: cd: can't cd to "./
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task683/wd/NonDex-plugin-test/github.com/14SOF/HotThink/src/main/java/skhu/sof14/hotthink/model/dto/user/UserCreateDto.java:7: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+@Data
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task683/wd/NonDex-plugin-test/github.com/14SOF/HotThink/src/main/java/skhu/sof14/hotthink/model/dto/post/Pagination.java:11: warning: @NonNull is meaningless on a primitive.
+    @Getter
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task683/wd/NonDex-plugin-test/github.com/14SOF/HotThink/src/main/java/skhu/sof14/hotthink/model/entity/Point.java:3: error: package com.sun.javafx.geom.transform does not exist
+import com.sun.javafx.geom.transform.Identity;
+                                    ^
+1 error
+2 warnings
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 23s

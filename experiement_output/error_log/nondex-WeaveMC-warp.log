@@ -1,0 +1,18 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task433/wd/NonDex-plugin-test/github.com/WeaveMC/warp/src/main/java/io/github/daomephsta/warp/task/RemapNamedMinecraftJarTask.java:53: error: incompatible types: Logger cannot be converted to String
+					ConstantResolvers.bytecodeAnalysis(constantClassResolver), Logger.getLogger("unpick"));
+					                                                                           ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 26s

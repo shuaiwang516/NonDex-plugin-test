@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve me.kingtux:tuxjsitemap:1.1.
+     Required by:
+         project :
+      > Could not resolve me.kingtux:tuxjsitemap:1.1.
+         > Could not get resource 'https://repo.kingtux.me/storages/maven/kingtux-repo/me/kingtux/tuxjsitemap/1.1/tuxjsitemap-1.1.pom'.
+            > Could not GET 'https://repo.kingtux.me/storages/maven/kingtux-repo/me/kingtux/tuxjsitemap/1.1/tuxjsitemap-1.1.pom'.
+               > Connect to repo.kingtux.me:443 [repo.kingtux.me/167.160.91.50] failed: Connection refused (Connection refused)
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

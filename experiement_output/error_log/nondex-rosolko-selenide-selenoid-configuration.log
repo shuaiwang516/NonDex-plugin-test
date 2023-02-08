@@ -1,0 +1,20 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task460/wd/NonDex-plugin-test/github.com/rosolko/selenide-selenoid-configuration/src/test/java/CustomDriverTests.java:33: error: CustomProvider is not abstract and does not override abstract method createDriver(Capabilities) in WebDriverProvider
+    public static class CustomProvider implements WebDriverProvider {
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task460/wd/NonDex-plugin-test/github.com/rosolko/selenide-selenoid-configuration/src/test/java/CustomDriverTests.java:34: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

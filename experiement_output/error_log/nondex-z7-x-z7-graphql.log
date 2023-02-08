@@ -1,0 +1,29 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1264/wd/NonDex-plugin-test/github.com/z7-x/z7-graphql/build.gradle' line: 180
+
+* What went wrong:
+A problem occurred evaluating root project 'z7-graphql'.
+> Failed to apply plugin [id 'edu.illinois.nondex']
+   > Could not resolve all dependencies for configuration ':detachedConfiguration1'.
+      > Could not resolve org.springframework.boot:spring-boot-dependencies:2.2.4.RELEASE.
+        Required by:
+            project :
+         > Could not resolve org.springframework.boot:spring-boot-dependencies:2.2.4.RELEASE.
+            > Could not get resource 'https://artifactory.thuni-h.com/artifactory/libs-release/org/springframework/boot/spring-boot-dependencies/2.2.4.RELEASE/spring-boot-dependencies-2.2.4.RELEASE.pom'.
+               > Could not HEAD 'https://artifactory.thuni-h.com/artifactory/libs-release/org/springframework/boot/spring-boot-dependencies/2.2.4.RELEASE/spring-boot-dependencies-2.2.4.RELEASE.pom'. Received status code 503 from server: Service Temporarily Unavailable
+      > Could not resolve io.grpc:grpc-bom:1.23.0.
+        Required by:
+            project :
+         > Could not resolve io.grpc:grpc-bom:1.23.0.
+            > Could not get resource 'https://artifactory.thuni-h.com/artifactory/libs-release/io/grpc/grpc-bom/1.23.0/grpc-bom-1.23.0.pom'.
+               > Could not HEAD 'https://artifactory.thuni-h.com/artifactory/libs-release/io/grpc/grpc-bom/1.23.0/grpc-bom-1.23.0.pom'. Received status code 503 from server: Service Temporarily Unavailable
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1230/wd/NonDex-plugin-test/github.com/bingoogolapple/GradleNote/build.gradle' line: 6
+
+* What went wrong:
+A problem occurred evaluating root project 'GradleNote'.
+> Could not find method leftShift() for arguments [build_gf38byamj6on8o84jsgn4vnv$_run_closure1$_closure6@33e8d87f] on task ':allTask' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

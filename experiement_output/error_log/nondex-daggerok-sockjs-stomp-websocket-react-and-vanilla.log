@@ -1,0 +1,27 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task929/wd/NonDex-plugin-test/github.com/daggerok/sockjs-stomp-websocket-react-and-vanilla/src/main/java/hello/messages/dto/Greeting.java:13: error: variable content not initialized in the default constructor
+    final String content;
+                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task929/wd/NonDex-plugin-test/github.com/daggerok/sockjs-stomp-websocket-react-and-vanilla/src/main/java/hello/messages/GreetingMessageEndpoint.java:17: error: cannot find symbol
+        log.info("receinved: {}", message);
+        ^
+  symbol:   variable log
+  location: class GreetingMessageEndpoint
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task929/wd/NonDex-plugin-test/github.com/daggerok/sockjs-stomp-websocket-react-and-vanilla/src/main/java/hello/messages/GreetingMessageEndpoint.java:19: error: cannot find symbol
+        return new Greeting("Hello, " + message.getName() + "!");
+                                               ^
+  symbol:   method getName()
+  location: variable message of type HelloMessage
+3 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

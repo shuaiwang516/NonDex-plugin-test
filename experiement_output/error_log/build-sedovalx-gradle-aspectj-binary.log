@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':examples:app'.
+> Could not resolve all artifacts for configuration ':examples:app:classpath'.
+   > Could not find com.github.sedovalx.gradle:gradle-aspectj-binary:1.0-SNAPSHOT.
+     Searched in the following locations:
+       - file:/root/.m2/repository/com/github/sedovalx/gradle/gradle-aspectj-binary/1.0-SNAPSHOT/maven-metadata.xml
+       - file:/root/.m2/repository/com/github/sedovalx/gradle/gradle-aspectj-binary/1.0-SNAPSHOT/gradle-aspectj-binary-1.0-SNAPSHOT.pom
+       - file:/root/.m2/repository/com/github/sedovalx/gradle/gradle-aspectj-binary/1.0-SNAPSHOT/gradle-aspectj-binary-1.0-SNAPSHOT.jar
+       - https://jcenter.bintray.com/com/github/sedovalx/gradle/gradle-aspectj-binary/1.0-SNAPSHOT/maven-metadata.xml
+       - https://jcenter.bintray.com/com/github/sedovalx/gradle/gradle-aspectj-binary/1.0-SNAPSHOT/gradle-aspectj-binary-1.0-SNAPSHOT.pom
+       - https://jcenter.bintray.com/com/github/sedovalx/gradle/gradle-aspectj-binary/1.0-SNAPSHOT/gradle-aspectj-binary-1.0-SNAPSHOT.jar
+     Required by:
+         project :examples:app
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 20s

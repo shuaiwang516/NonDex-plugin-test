@@ -1,0 +1,48 @@
+warning: [options] bootstrap class path not set in conjunction with -source 7
+1 warning
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task252/wd/NonDex-plugin-test/github.com/lukin0110/poeditor-gradle/src/test/groovy/be/lukin/poeditor/gradle/PluginTest.groovy: 3: unable to resolve class org.junit.Test
+ @ line 3, column 1.
+   import org.junit.Test
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task252/wd/NonDex-plugin-test/github.com/lukin0110/poeditor-gradle/src/test/groovy/be/lukin/poeditor/gradle/PluginTest.groovy: 6: unable to resolve class org.junit.Assert
+ @ line 6, column 1.
+   import static org.junit.Assert.*
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task252/wd/NonDex-plugin-test/github.com/lukin0110/poeditor-gradle/src/test/groovy/be/lukin/poeditor/gradle/PluginTest.groovy: 6: unable to resolve class org.junit.Assert
+ @ line 6, column 1.
+   import static org.junit.Assert.*
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task252/wd/NonDex-plugin-test/github.com/lukin0110/poeditor-gradle/src/test/groovy/be/lukin/poeditor/gradle/TaskTest.groovy: 3: unable to resolve class org.junit.Test
+ @ line 3, column 1.
+   import org.junit.Test
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task252/wd/NonDex-plugin-test/github.com/lukin0110/poeditor-gradle/src/test/groovy/be/lukin/poeditor/gradle/TaskTest.groovy: 6: unable to resolve class org.junit.Assert
+ @ line 6, column 1.
+   import static org.junit.Assert.*
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task252/wd/NonDex-plugin-test/github.com/lukin0110/poeditor-gradle/src/test/groovy/be/lukin/poeditor/gradle/TaskTest.groovy: 6: unable to resolve class org.junit.Assert
+ @ line 6, column 1.
+   import static org.junit.Assert.*
+   ^
+
+6 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 17s

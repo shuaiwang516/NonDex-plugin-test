@@ -1,0 +1,18 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task282/wd/NonDex-plugin-test/github.com/nebula-plugins/nebula-blob-plugin/build.gradle' line: 7
+
+* What went wrong:
+A problem occurred evaluating root project 'nebula-s3-plugin'.
+> Failed to apply plugin [id 'nebula-plugin']
+   > Could not create plugin of type 'NebulaPluginPlugin'.
+      > org/gradle/api/internal/project/AbstractProject
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

@@ -1,0 +1,38 @@
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/DefaultRobotParser.kt: (3, 36): Unresolved reference: generated
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/DefaultRobotParser.kt: (4, 36): Unresolved reference: generated
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/DefaultRobotParser.kt: (21, 21): Unresolved reference: RobotsTxtLexer
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/DefaultRobotParser.kt: (24, 22): Unresolved reference: RobotsTxtParser
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/DefaultRobotParser.kt: (28, 21): Type mismatch: inferred type is GroupListener but ParseTreeListener! was expected
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (3, 36): Unresolved reference: generated
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (4, 36): Unresolved reference: generated
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (9, 23): Unresolved reference: RobotsTxtBaseListener
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (15, 5): 'enterGroup' overrides nothing
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (15, 34): Unresolved reference: RobotsTxtParser
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (19, 5): 'exitSitemapRule' overrides nothing
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (19, 39): Unresolved reference: RobotsTxtParser
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (24, 33): Unresolved reference: it
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (24, 43): 'return' is not allowed here
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (29, 34): Unresolved reference: it
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (32, 5): 'exitAgentRule' overrides nothing
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (32, 37): Unresolved reference: RobotsTxtParser
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (43, 5): 'exitGroup' overrides nothing
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (43, 33): Unresolved reference: RobotsTxtParser
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (54, 5): 'exitAllowRule' overrides nothing
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (54, 37): Unresolved reference: RobotsTxtParser
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (62, 5): 'exitDisallowRule' overrides nothing
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (62, 40): Unresolved reference: RobotsTxtParser
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (70, 5): 'exitCrawlDelayRule' overrides nothing
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1089/wd/NonDex-plugin-test/github.com/fooock/robots.txt/parser/src/main/kotlin/com/fooock/robotstxt/parser/GroupListener.kt: (70, 42): Unresolved reference: RobotsTxtParser
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':parser:compileKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

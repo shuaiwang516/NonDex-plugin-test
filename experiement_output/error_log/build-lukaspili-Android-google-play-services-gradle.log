@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':googleplayservices-gradle'.
+> Could not resolve all artifacts for configuration ':googleplayservices-gradle:classpath'.
+   > Could not resolve com.android.tools.build:gradle:0.4.
+     Required by:
+         project :googleplayservices-gradle
+      > Could not resolve com.android.tools.build:gradle:0.4.
+         > Could not get resource 'http://repo1.maven.org/maven2/com/android/tools/build/gradle/0.4/gradle-0.4.pom'.
+            > Could not GET 'http://repo1.maven.org/maven2/com/android/tools/build/gradle/0.4/gradle-0.4.pom'. Received status code 501 from server: HTTPS Required
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

@@ -1,0 +1,32 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'build'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find indi.jl.snail.platform:generator:0.4.0-SNAPSHOT.
+     Searched in the following locations:
+       - https://maven.aliyun.com/repository/public/indi/jl/snail/platform/generator/0.4.0-SNAPSHOT/maven-metadata.xml
+       - https://maven.aliyun.com/repository/public/indi/jl/snail/platform/generator/0.4.0-SNAPSHOT/generator-0.4.0-SNAPSHOT.pom
+       - https://packages.aliyun.com/maven/repository/2148082-release-ciEJd0/indi/jl/snail/platform/generator/0.4.0-SNAPSHOT/maven-metadata.xml
+       - https://packages.aliyun.com/maven/repository/2148082-release-ciEJd0/indi/jl/snail/platform/generator/0.4.0-SNAPSHOT/generator-0.4.0-SNAPSHOT.pom
+       - https://packages.aliyun.com/maven/repository/2148082-snapshot-UnYAZp/indi/jl/snail/platform/generator/0.4.0-SNAPSHOT/maven-metadata.xml
+       - https://packages.aliyun.com/maven/repository/2148082-snapshot-UnYAZp/indi/jl/snail/platform/generator/0.4.0-SNAPSHOT/generator-0.4.0-20220105.080611-4.pom
+       - https://repo.maven.apache.org/maven2/indi/jl/snail/platform/generator/0.4.0-SNAPSHOT/maven-metadata.xml
+       - https://repo.maven.apache.org/maven2/indi/jl/snail/platform/generator/0.4.0-SNAPSHOT/generator-0.4.0-SNAPSHOT.pom
+     Required by:
+         project :
+   > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:2.3.3.RELEASE.
+     Required by:
+         project :
+      > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:2.3.3.RELEASE.
+         > Could not get resource 'https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-gradle-plugin/2.3.3.RELEASE/spring-boot-gradle-plugin-2.3.3.RELEASE.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/springframework/boot/spring-boot-gradle-plugin/2.3.3.RELEASE/spring-boot-gradle-plugin-2.3.3.RELEASE.pom?Expires=1675212592&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=EkFeo1BZVbpYw8D9uuKcXiPLr2M%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 45s

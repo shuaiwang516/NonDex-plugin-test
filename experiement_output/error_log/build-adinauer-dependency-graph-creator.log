@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'dependency-graph-creator'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find at.dinauer.reporting:dependency-reporting-plugin:0.1-SNAPSHOT.
+     Searched in the following locations:
+       - file:/root/.m2/repository/at/dinauer/reporting/dependency-reporting-plugin/0.1-SNAPSHOT/maven-metadata.xml
+       - file:/root/.m2/repository/at/dinauer/reporting/dependency-reporting-plugin/0.1-SNAPSHOT/dependency-reporting-plugin-0.1-SNAPSHOT.pom
+       - file:/root/.m2/repository/at/dinauer/reporting/dependency-reporting-plugin/0.1-SNAPSHOT/dependency-reporting-plugin-0.1-SNAPSHOT.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1155/wd/NonDex-plugin-test/github.com/lucasalacerda/gatling-gradle-poc/build.gradle' line: 2
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'com.github.lkishalmi.gatling', version: '0.4.1']
+> Failed to apply plugin [id 'com.github.lkishalmi.gatling']
+   > Could not create task ':gatlingRun'.
+      > Could not create task of type 'GatlingRunTask'.
+         > Could not get unknown property 'classesDir' for gatling classes of type org.gradle.api.internal.tasks.DefaultSourceSetOutput.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

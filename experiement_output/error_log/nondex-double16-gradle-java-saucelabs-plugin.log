@@ -1,0 +1,127 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/WebDriverService.java:14: error: cannot find symbol
+import org.apache.commons.io.IOUtils;
+                            ^
+  symbol:   class IOUtils
+  location: package org.apache.commons.io
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:19: error: package org.junit does not exist
+import org.junit.After;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:20: error: package org.junit does not exist
+import org.junit.Before;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:21: error: package org.junit does not exist
+import org.junit.Rule;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:22: error: package org.junit.rules does not exist
+import org.junit.rules.ErrorCollector;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:23: error: package org.junit.rules does not exist
+import org.junit.rules.TestName;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:24: error: package org.junit.rules does not exist
+import org.junit.rules.TestRule;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:25: error: package org.junit.rules does not exist
+import org.junit.rules.TestWatcher;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:26: error: package org.junit.runners does not exist
+import org.junit.runners.Parameterized;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:27: error: package org.junit.runners.Parameterized does not exist
+import org.junit.runners.Parameterized.Parameter;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:89: error: cannot find symbol
+    public TestName testName = new TestName();
+           ^
+  symbol:   class TestName
+  location: class AbstractFunctionalTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:92: error: cannot find symbol
+    public final ErrorCollector collector = new ErrorCollector();
+                 ^
+  symbol:   class ErrorCollector
+  location: class AbstractFunctionalTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:300: error: cannot find symbol
+    public final TestRule sauceUpdater = new TestWatcher() {
+                 ^
+  symbol:   class TestRule
+  location: class AbstractFunctionalTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:80: error: cannot find symbol
+    @Parameter(0)
+     ^
+  symbol:   class Parameter
+  location: class AbstractFunctionalTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:88: error: cannot find symbol
+    @Rule
+     ^
+  symbol:   class Rule
+  location: class AbstractFunctionalTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:91: error: cannot find symbol
+    @Rule
+     ^
+  symbol:   class Rule
+  location: class AbstractFunctionalTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:168: error: package Parameterized does not exist
+    @Parameterized.Parameters(name = "{0}")
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:252: error: cannot find symbol
+    @Before
+     ^
+  symbol:   class Before
+  location: class AbstractFunctionalTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:288: error: cannot find symbol
+    @After
+     ^
+  symbol:   class After
+  location: class AbstractFunctionalTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:299: error: cannot find symbol
+    @Rule
+     ^
+  symbol:   class Rule
+  location: class AbstractFunctionalTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/WebDriverService.java:96: error: cannot find symbol
+                IOUtils.copy(is, os);
+                ^
+  symbol:   variable IOUtils
+  location: class WebDriverService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/WebDriverService.java:123: error: cannot find symbol
+                        IOUtils.copy(zis, zos);
+                        ^
+  symbol:   variable IOUtils
+  location: class WebDriverService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:89: error: cannot find symbol
+    public TestName testName = new TestName();
+                                   ^
+  symbol:   class TestName
+  location: class AbstractFunctionalTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:92: error: cannot find symbol
+    public final ErrorCollector collector = new ErrorCollector();
+                                                ^
+  symbol:   class ErrorCollector
+  location: class AbstractFunctionalTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:300: error: cannot find symbol
+    public final TestRule sauceUpdater = new TestWatcher() {
+                                             ^
+  symbol:   class TestWatcher
+  location: class AbstractFunctionalTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:316: error: package org.junit.runner does not exist
+    	protected void succeeded(org.junit.runner.Description description) {
+    	                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task495/wd/NonDex-plugin-test/github.com/double16/gradle-java-saucelabs-plugin/src/main/java/com/github/double16/AbstractFunctionalTest.java:322: error: package org.junit.runner does not exist
+        protected void failed(Throwable e, org.junit.runner.Description description) {
+                                                           ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+27 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 20s

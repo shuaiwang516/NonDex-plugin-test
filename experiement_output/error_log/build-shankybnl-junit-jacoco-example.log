@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task333/wd/NonDex-plugin-test/github.com/shankybnl/junit-jacoco-example/build.gradle' line: 20
+
+* What went wrong:
+A problem occurred evaluating root project 'JunitJacocoExample'.
+> Could not find method destination() for arguments [/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task333/wd/NonDex-plugin-test/github.com/shankybnl/junit-jacoco-example/build/jacocoHtml] on Report html of type org.gradle.api.reporting.internal.TaskGeneratedSingleDirectoryReport.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v7.Java7$1 (file:/root/.gradle/wrapper/dists/gradle-5.0-bin/pu5208521seraqlersebvqk/gradle-5.0/lib/groovy-all-1.0-2.5.4.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v7.Java7$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release

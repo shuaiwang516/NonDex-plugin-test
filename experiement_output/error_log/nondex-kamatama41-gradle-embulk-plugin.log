@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Did not resolve 'org.eclipse.jetty:jetty-servlet:9.2.12.v20150709' which is part of the dependency lock state
+   > Did not resolve 'org.eclipse.jetty:jetty-webapp:9.2.12.v20150709' which is part of the dependency lock state
+   > Did not resolve 'javax.servlet:javax.servlet-api:3.1.0' which is part of the dependency lock state
+   > Did not resolve 'org.eclipse.jetty:jetty-security:9.2.12.v20150709' which is part of the dependency lock state
+   > Did not resolve 'org.eclipse.jetty:jetty-http:9.2.12.v20150709' which is part of the dependency lock state
+   > Did not resolve 'org.eclipse.jetty:jetty-util:9.2.12.v20150709' which is part of the dependency lock state
+   > Did not resolve 'org.eclipse.jetty:jetty-io:9.2.12.v20150709' which is part of the dependency lock state
+   > Did not resolve 'de.saumya.mojo:rubygems:0.2.3' which is part of the dependency lock state
+   > Did not resolve 'org.eclipse.jetty:jetty-server:9.2.12.v20150709' which is part of the dependency lock state
+   > Did not resolve 'org.eclipse.jetty:jetty-xml:9.2.12.v20150709' which is part of the dependency lock state
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

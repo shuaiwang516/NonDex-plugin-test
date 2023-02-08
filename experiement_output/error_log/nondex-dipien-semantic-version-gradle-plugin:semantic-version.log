@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1298/wd/NonDex-plugin-test/github.com/dipien/semantic-version-gradle-plugin/semantic-version/build.gradle' line: 5
+
+* What went wrong:
+A problem occurred evaluating project ':semantic-version'.
+> Failed to apply plugin 'kotlin'.
+   > Could not create plugin of type 'KotlinPluginWrapper'.
+      > null cannot be cast to non-null type kotlin.String
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

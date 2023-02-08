@@ -1,0 +1,17 @@
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task242/wd/NonDex-plugin-test/github.com/opensearch-project/cross-cluster-replication/src/main/kotlin/org/opensearch/replication/task/index/IndexReplicationParams.kt: (81, 33): Type mismatch: inferred type is IndexReplicationParams but XContentBuilder! was expected
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task242/wd/NonDex-plugin-test/github.com/opensearch-project/cross-cluster-replication/src/main/kotlin/org/opensearch/replication/task/shard/ShardReplicationParams.kt: (85, 33): Type mismatch: inferred type is ShardReplicationParams but XContentBuilder! was expected
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 51s

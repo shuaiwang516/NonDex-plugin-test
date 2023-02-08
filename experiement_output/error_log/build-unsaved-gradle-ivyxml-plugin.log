@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task497/wd/NonDex-plugin-test/github.com/unsaved/gradle-ivyxml-plugin/build.gradle' line: 41
+
+* What went wrong:
+A problem occurred evaluating root project 'gradle-ivyxml-plugin'.
+> Could not find method leftShift() for arguments [build_9ac6lby724ae7niwh1ssc6vsa$_run_closure3@3aec25a] on task ':noop' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

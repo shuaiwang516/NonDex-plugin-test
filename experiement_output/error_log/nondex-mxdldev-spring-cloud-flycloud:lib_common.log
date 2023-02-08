@@ -1,0 +1,27 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':lib_common:compileJava'.
+> Could not resolve all files for configuration ':lib_common:compileClasspath'.
+   > Could not download spring-cloud-starter-netflix-hystrix-dashboard-2.0.1.RELEASE.jar (org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard:2.0.1.RELEASE): Skipped due to earlier error
+   > Could not download spring-cloud-starter-netflix-hystrix-2.0.1.RELEASE.jar (org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.0.1.RELEASE): Skipped due to earlier error
+   > Could not download spring-cloud-starter-openfeign-2.0.1.RELEASE.jar (org.springframework.cloud:spring-cloud-starter-openfeign:2.0.1.RELEASE): Skipped due to earlier error
+   > Could not download spring-cloud-starter-config-2.0.1.RELEASE.jar (org.springframework.cloud:spring-cloud-starter-config:2.0.1.RELEASE): Skipped due to earlier error
+   > Could not download spring-cloud-starter-oauth2-2.0.0.RELEASE.jar (org.springframework.cloud:spring-cloud-starter-oauth2:2.0.0.RELEASE): Skipped due to earlier error
+   > Could not download spring-boot-starter-web-2.0.5.RELEASE.jar (org.springframework.boot:spring-boot-starter-web:2.0.5.RELEASE): Skipped due to earlier error
+   > Could not download spring-boot-starter-actuator-2.0.5.RELEASE.jar (org.springframework.boot:spring-boot-starter-actuator:2.0.5.RELEASE): Skipped due to earlier error
+   > Could not download spring-cloud-starter-zipkin-2.0.1.RELEASE.jar (org.springframework.cloud:spring-cloud-starter-zipkin:2.0.1.RELEASE): Skipped due to earlier error
+   > Could not download springfox-swagger2-2.7.0.jar (io.springfox:springfox-swagger2:2.7.0): Skipped due to earlier error
+   > Could not download springfox-swagger-ui-2.7.0.jar (io.springfox:springfox-swagger-ui:2.7.0): Skipped due to earlier error
+   > Could not download mysql-connector-java-5.1.47.jar (mysql:mysql-connector-java:5.1.47): Skipped due to earlier error
+   > Could not download spring-boot-starter-data-jpa-2.0.5.RELEASE.jar (org.springframework.boot:spring-boot-starter-data-jpa:2.0.5.RELEASE): Skipped due to earlier error
+   > Could not download spring-boot-starter-amqp-2.0.5.RELEASE.jar (org.springframework.boot:spring-boot-starter-amqp:2.0.5.RELEASE): Skipped due to earlier error
+   > Could not download fastjson-1.2.31.jar (com.alibaba:fastjson:1.2.31): Skipped due to earlier error
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2m 4s

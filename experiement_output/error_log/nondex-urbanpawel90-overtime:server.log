@@ -1,0 +1,77 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1327/wd/NonDex-plugin-test/github.com/urbanpawel90/overtime/server/src/main/java/com/urbanpawel/overtime/overtime/ReportOvertimeDto.java:20: error: constructor ReportOvertimeDto in class ReportOvertimeDto cannot be applied to given types;
+        this(date, hours, null);
+        ^
+  required: LocalDate,BigDecimal
+  found: LocalDate,BigDecimal,<null>
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1327/wd/NonDex-plugin-test/github.com/urbanpawel90/overtime/server/src/main/java/com/urbanpawel/overtime/overtime/OvertimeSummary.java:37: error: constructor OvertimeSummary in class OvertimeSummary cannot be applied to given types;
+        this(null, date, BigDecimal.ZERO, Collections.emptyList());
+        ^
+  required: LocalDate
+  found: <null>,LocalDate,BigDecimal,List<Object>
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1327/wd/NonDex-plugin-test/github.com/urbanpawel90/overtime/server/src/main/java/com/urbanpawel/overtime/overtime/OvertimeSummary.java:45: error: cannot find symbol
+        return new OvertimeSummary(id, date, hours.add(change.getHours()),
+                                                             ^
+  symbol:   method getHours()
+  location: variable change of type ReportOvertimeDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1327/wd/NonDex-plugin-test/github.com/urbanpawel90/overtime/server/src/main/java/com/urbanpawel/overtime/overtime/OvertimeSummary.java:46: error: cannot find symbol
+                Stream.concat(Stream.of(new Change(change.getHours(), LocalDateTime.now(), change.getComment())),
+                                                         ^
+  symbol:   method getHours()
+  location: variable change of type ReportOvertimeDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1327/wd/NonDex-plugin-test/github.com/urbanpawel90/overtime/server/src/main/java/com/urbanpawel/overtime/overtime/OvertimeSummary.java:46: error: cannot find symbol
+                Stream.concat(Stream.of(new Change(change.getHours(), LocalDateTime.now(), change.getComment())),
+                                                                                                 ^
+  symbol:   method getComment()
+  location: variable change of type ReportOvertimeDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1327/wd/NonDex-plugin-test/github.com/urbanpawel90/overtime/server/src/main/java/com/urbanpawel/overtime/overtime/OvertimeSummary.java:48: error: invalid method reference
+                        .sorted(Comparator.comparing(Change::getWhen).reversed())
+                                                     ^
+  cannot find symbol
+    symbol:   method getWhen()
+    location: class Change
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1327/wd/NonDex-plugin-test/github.com/urbanpawel90/overtime/server/src/main/java/com/urbanpawel/overtime/overtime/OvertimeService.java:23: error: cannot find symbol
+        if (summary.getHours().equals(BigDecimal.ZERO)) {
+                   ^
+  symbol:   method getHours()
+  location: variable summary of type ReportOvertimeDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1327/wd/NonDex-plugin-test/github.com/urbanpawel90/overtime/server/src/main/java/com/urbanpawel/overtime/overtime/OvertimeService.java:26: error: cannot find symbol
+        repository.save(repository.summaryFor(summary.getDate())
+                                                     ^
+  symbol:   method getDate()
+  location: variable summary of type ReportOvertimeDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1327/wd/NonDex-plugin-test/github.com/urbanpawel90/overtime/server/src/main/java/com/urbanpawel/overtime/overtime/OvertimeService.java:28: error: cannot find symbol
+                .orElse(OvertimeSummary.emptySummary(summary.getDate()).apply(summary))
+                                                            ^
+  symbol:   method getDate()
+  location: variable summary of type ReportOvertimeDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1327/wd/NonDex-plugin-test/github.com/urbanpawel90/overtime/server/src/main/java/com/urbanpawel/overtime/summary/SummaryDto.java:21: error: cannot find symbol
+        return create(BigDecimal.ZERO, BigDecimal.ZERO, BigDecimal.ZERO);
+               ^
+  symbol:   method create(BigDecimal,BigDecimal,BigDecimal)
+  location: class SummaryDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1327/wd/NonDex-plugin-test/github.com/urbanpawel90/overtime/server/src/main/java/com/urbanpawel/overtime/summary/SummaryDto.java:32: error: cannot find symbol
+        return create(total.add(item.hours),
+               ^
+  symbol:   method create(BigDecimal,BigDecimal,BigDecimal)
+  location: class SummaryDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1327/wd/NonDex-plugin-test/github.com/urbanpawel90/overtime/server/src/main/java/com/urbanpawel/overtime/summary/SummaryDto.java:38: error: cannot find symbol
+        return create(total.add(second.total),
+               ^
+  symbol:   method create(BigDecimal,BigDecimal,BigDecimal)
+  location: class SummaryDto
+12 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':server:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

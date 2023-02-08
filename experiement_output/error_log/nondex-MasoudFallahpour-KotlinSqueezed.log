@@ -1,0 +1,17 @@
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1396/wd/NonDex-plugin-test/github.com/MasoudFallahpour/KotlinSqueezed/src/main/kotlin/ir/fallahpoor/kotlinsqueezed/_4collections/_14aggregateOperations/AggregateOperations.kt: (13, 60): Using 'max(): T?' is an error. Use maxOrNull instead.
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1396/wd/NonDex-plugin-test/github.com/MasoudFallahpour/KotlinSqueezed/src/main/kotlin/ir/fallahpoor/kotlinsqueezed/_4collections/_14aggregateOperations/AggregateOperations.kt: (14, 60): Using 'min(): T?' is an error. Use minOrNull instead.
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1396/wd/NonDex-plugin-test/github.com/MasoudFallahpour/KotlinSqueezed/src/main/kotlin/ir/fallahpoor/kotlinsqueezed/_4collections/_14aggregateOperations/AggregateOperations.kt: (26, 33): Using 'minBy((T) -> R): T?' is an error. Use minByOrNull instead.
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1396/wd/NonDex-plugin-test/github.com/MasoudFallahpour/KotlinSqueezed/src/main/kotlin/ir/fallahpoor/kotlinsqueezed/_4collections/_14aggregateOperations/AggregateOperations.kt: (30, 33): Using 'maxWith(kotlin.Comparator<in T> /* = java.util.Comparator<in T> */): T?' is an error. Use maxWithOrNull instead.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 23s

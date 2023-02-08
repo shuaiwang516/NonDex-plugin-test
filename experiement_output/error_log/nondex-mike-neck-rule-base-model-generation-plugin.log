@@ -1,0 +1,20 @@
+startup failed:
+Could not instantiate global transform class org.spockframework.compiler.SpockTransform specified at jar:file:/root/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.0-groovy-2.3/762fbf6c5f24baabf9addcf9cf3647151791f7eb/spock-core-1.0-groovy-2.3.jar!/META-INF/services/org.codehaus.groovy.transform.ASTTransformation  because of exception org.spockframework.util.IncompatibleGroovyVersionException: The Spock compiler plugin cannot execute because Spock 1.0.0-groovy-2.3 is not compatible with Groovy 2.5.4. For more information, see http://versioninfo.spockframework.org
+Spock artifact: file:/root/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.0-groovy-2.3/762fbf6c5f24baabf9addcf9cf3647151791f7eb/spock-core-1.0-groovy-2.3.jar
+Groovy artifact: file:/root/.gradle/wrapper/dists/gradle-5.0-bin/pu5208521seraqlersebvqk/gradle-5.0/lib/groovy-all-1.0-2.5.4.jar
+
+1 error
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 20s

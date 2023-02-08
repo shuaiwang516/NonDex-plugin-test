@@ -1,0 +1,47 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:3.0.2.
+     Required by:
+         project :
+      > No matching variant of org.springframework.boot:spring-boot-gradle-plugin:3.0.2 was found. The consumer was configured to find an API of a library compatible with Java 11, preferably in the form of class files, preferably optimized for standard JVMs, and its dependencies declared externally but:
+          - Variant 'apiElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.2 declares an API of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 17 and the consumer needed a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+          - Variant 'javadocElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.2 declares a runtime of a component, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 11)
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+          - Variant 'mavenOptionalApiElements' capability org.springframework.boot:spring-boot-gradle-plugin-maven-optional:3.0.2 declares an API of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 17 and the consumer needed a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+          - Variant 'mavenOptionalRuntimeElements' capability org.springframework.boot:spring-boot-gradle-plugin-maven-optional:3.0.2 declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 17 and the consumer needed a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+          - Variant 'runtimeElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.2 declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 17 and the consumer needed a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+          - Variant 'sourcesElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.2 declares a runtime of a component, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 11)
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

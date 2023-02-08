@@ -1,0 +1,74 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-postgresql-embedded/src/main/java/com/github/honourednihilist/gradle/postgresql/embedded/StartPostgresTask.java:48: error: cannot find symbol
+		if (extension.getTimeoutMillisBeforeStop() > 0) {
+		             ^
+  symbol:   method getTimeoutMillisBeforeStop()
+  location: variable extension of type PostgresqlEmbeddedExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-postgresql-embedded/src/main/java/com/github/honourednihilist/gradle/postgresql/embedded/StartPostgresTask.java:49: error: cannot find symbol
+			getLogger().info("Sleeping {} millis before stopping postgres", extension.getTimeoutMillisBeforeStop());
+			                                                                         ^
+  symbol:   method getTimeoutMillisBeforeStop()
+  location: variable extension of type PostgresqlEmbeddedExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-postgresql-embedded/src/main/java/com/github/honourednihilist/gradle/postgresql/embedded/StartPostgresTask.java:51: error: cannot find symbol
+				Thread.sleep(extension.getTimeoutMillisBeforeStop());
+				                      ^
+  symbol:   method getTimeoutMillisBeforeStop()
+  location: variable extension of type PostgresqlEmbeddedExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-postgresql-embedded/src/main/java/com/github/honourednihilist/gradle/postgresql/embedded/GradlePostgresqlEmbeddedPlugin.java:27: error: cannot find symbol
+			EmbeddedPostgres postgres = new EmbeddedPostgres(parseVersion(extension.getVersion()),
+			                                                                       ^
+  symbol:   method getVersion()
+  location: variable extension of type PostgresqlEmbeddedExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-postgresql-embedded/src/main/java/com/github/honourednihilist/gradle/postgresql/embedded/GradlePostgresqlEmbeddedPlugin.java:28: error: cannot find symbol
+					extension.getHost(),
+					         ^
+  symbol:   method getHost()
+  location: variable extension of type PostgresqlEmbeddedExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-postgresql-embedded/src/main/java/com/github/honourednihilist/gradle/postgresql/embedded/GradlePostgresqlEmbeddedPlugin.java:29: error: cannot find symbol
+					extension.getPort(),
+					         ^
+  symbol:   method getPort()
+  location: variable extension of type PostgresqlEmbeddedExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-postgresql-embedded/src/main/java/com/github/honourednihilist/gradle/postgresql/embedded/GradlePostgresqlEmbeddedPlugin.java:30: error: cannot find symbol
+					extension.getDbName(),
+					         ^
+  symbol:   method getDbName()
+  location: variable extension of type PostgresqlEmbeddedExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-postgresql-embedded/src/main/java/com/github/honourednihilist/gradle/postgresql/embedded/GradlePostgresqlEmbeddedPlugin.java:31: error: cannot find symbol
+					extension.getUsername(),
+					         ^
+  symbol:   method getUsername()
+  location: variable extension of type PostgresqlEmbeddedExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-postgresql-embedded/src/main/java/com/github/honourednihilist/gradle/postgresql/embedded/GradlePostgresqlEmbeddedPlugin.java:32: error: cannot find symbol
+					extension.getPassword(),
+					         ^
+  symbol:   method getPassword()
+  location: variable extension of type PostgresqlEmbeddedExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-postgresql-embedded/src/main/java/com/github/honourednihilist/gradle/postgresql/embedded/GradlePostgresqlEmbeddedPlugin.java:33: error: cannot find symbol
+					extension.getArtifactStorePath());
+					         ^
+  symbol:   method getArtifactStorePath()
+  location: variable extension of type PostgresqlEmbeddedExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-postgresql-embedded/src/main/java/com/github/honourednihilist/gradle/postgresql/embedded/GradlePostgresqlEmbeddedPlugin.java:34: error: cannot find symbol
+			startTask.setPostgres(postgres);
+			         ^
+  symbol:   method setPostgres(EmbeddedPostgres)
+  location: variable startTask of type StartPostgresTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task583/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-postgresql-embedded/src/main/java/com/github/honourednihilist/gradle/postgresql/embedded/GradlePostgresqlEmbeddedPlugin.java:36: error: cannot find symbol
+			if (extension.isStopWhenBuildFinished()) {
+			             ^
+  symbol:   method isStopWhenBuildFinished()
+  location: variable extension of type PostgresqlEmbeddedExtension
+12 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 20s

@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1313/wd/NonDex-plugin-test/github.com/literalice/gradle-sample-preconfigure-repository/build.gradle' line: 9
+
+* What went wrong:
+A problem occurred evaluating root project 'gradle-sample-preconfigure-repository'.
+> Could not find method leftShift() for arguments [build_42h8h5ezex7mi6krb9p32jgf0$_run_closure3@724cd23b] on task ':showDependencies' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

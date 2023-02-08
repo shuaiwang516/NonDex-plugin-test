@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1350/wd/NonDex-plugin-test/github.com/melix/gr8conf2016-intro-software-model/build.gradle' line: 21
+
+* What went wrong:
+A problem occurred evaluating root project 'gr8conf2016-intro-software-model'.
+> Failed to apply plugin [id 'com.github.jruby-gradle.base']
+   > Could not find method leftShift() for arguments [com.github.jrubygradle.JRubyPlugin$_apply_closure3@748d7be5] on task ':jrubyPrepareGems' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 30s

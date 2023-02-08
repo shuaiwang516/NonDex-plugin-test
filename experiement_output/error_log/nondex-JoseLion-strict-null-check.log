@@ -1,0 +1,29 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'strict-null-check'.
+> Could not resolve all files for configuration ':classpath'.
+   > Resolved 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava' which is not part of the dependency lock state
+   > Resolved 'com.google.guava:failureaccess:1.0.1' which is not part of the dependency lock state
+   > Resolved 'com.google.code.findbugs:jsr305:3.0.2' which is not part of the dependency lock state
+   > Resolved 'edu.illinois:plugin:2.1.1' which is not part of the dependency lock state
+   > Resolved 'com.google.j2objc:j2objc-annotations:1.3' which is not part of the dependency lock state
+   > Resolved 'edu.illinois:nondex-instrumentation:2.1.1' which is not part of the dependency lock state
+   > Resolved 'com.google.guava:guava:31.1-jre' which is not part of the dependency lock state
+   > Resolved 'org.apache.commons:commons-lang3:3.12.0' which is not part of the dependency lock state
+   > Resolved 'javax.xml.bind:jaxb-api:2.3.1' which is not part of the dependency lock state
+   > Resolved 'edu.illinois.nondex:edu.illinois.nondex.gradle.plugin:2.1.1' which is not part of the dependency lock state
+   > Resolved 'com.google.errorprone:error_prone_annotations:2.11.0' which is not part of the dependency lock state
+   > Resolved 'edu.illinois:nondex-common:2.1.1' which is not part of the dependency lock state
+   > Resolved 'org.checkerframework:checker-qual:3.12.0' which is not part of the dependency lock state
+   > Resolved 'javax.activation:javax.activation-api:1.2.0' which is not part of the dependency lock state
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 974ms

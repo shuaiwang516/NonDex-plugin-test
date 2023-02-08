@@ -1,0 +1,57 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task929/wd/NonDex-plugin-test/github.com/project-seeds/SpringBoot-Angularjs1.x/src/main/java/demo/beans/User.java:29: error: User is not abstract and does not override abstract method isEnabled() in UserDetails
+public class User extends BaseEntity implements UserDetails {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task929/wd/NonDex-plugin-test/github.com/project-seeds/SpringBoot-Angularjs1.x/src/main/java/demo/controllers/UserController.java:35: error: cannot find symbol
+		if (userRepo.findByUsername(user.getUsername()).isPresent()) {
+		                                ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task929/wd/NonDex-plugin-test/github.com/project-seeds/SpringBoot-Angularjs1.x/src/main/java/demo/controllers/UserController.java:36: error: cannot find symbol
+			return ResponseEntity.badRequest().body(Response.of("user.already.exists"));
+			                                                ^
+  symbol:   method of(String)
+  location: class Response
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task929/wd/NonDex-plugin-test/github.com/project-seeds/SpringBoot-Angularjs1.x/src/main/java/demo/controllers/UserController.java:40: error: cannot find symbol
+		newUser.setUsername(user.getUsername());
+		                        ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task929/wd/NonDex-plugin-test/github.com/project-seeds/SpringBoot-Angularjs1.x/src/main/java/demo/controllers/UserController.java:41: error: cannot find symbol
+		newUser.setPassword(passwordEncoder.encode(user.getPassword()));
+		                                               ^
+  symbol:   method getPassword()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task929/wd/NonDex-plugin-test/github.com/project-seeds/SpringBoot-Angularjs1.x/src/main/java/demo/controllers/UserController.java:42: error: cannot find symbol
+		newUser.setRole(Role.ROLE_USER);
+		       ^
+  symbol:   method setRole(Role)
+  location: variable newUser of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task929/wd/NonDex-plugin-test/github.com/project-seeds/SpringBoot-Angularjs1.x/src/main/java/demo/util/Util.java:27: error: cannot find symbol
+		log.debug("checking current user \"{}\" authority againest {}, result: {} ", currentUser().get().getUsername(),
+		^
+  symbol:   variable log
+  location: class Util
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task929/wd/NonDex-plugin-test/github.com/project-seeds/SpringBoot-Angularjs1.x/src/main/java/demo/util/Util.java:27: error: cannot find symbol
+		log.debug("checking current user \"{}\" authority againest {}, result: {} ", currentUser().get().getUsername(),
+		                                                                                                ^
+  symbol:   method getUsername()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task929/wd/NonDex-plugin-test/github.com/project-seeds/SpringBoot-Angularjs1.x/src/main/java/demo/Application.java:27: error: cannot find symbol
+		return (() -> Util.currentUser().map(o -> o.getId()).orElse(-1l));
+		                                           ^
+  symbol:   method getId()
+  location: variable o of type User
+9 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

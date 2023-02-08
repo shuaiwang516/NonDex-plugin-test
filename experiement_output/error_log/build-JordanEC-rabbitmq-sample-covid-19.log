@@ -1,0 +1,11 @@
+Exception in thread "main" java.lang.RuntimeException: Could not load wrapper properties from '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task616/wd/NonDex-plugin-test/github.com/JordanEC/rabbitmq-sample-covid-19/gradle/wrapper/gradle-wrapper.properties'.
+	at org.gradle.wrapper.WrapperExecutor.<init>(WrapperExecutor.java:64)
+	at org.gradle.wrapper.WrapperExecutor.forWrapperPropertiesFile(WrapperExecutor.java:47)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:60)
+Caused by: java.lang.RuntimeException: No value with key 'distributionUrl' specified in wrapper properties file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task616/wd/NonDex-plugin-test/github.com/JordanEC/rabbitmq-sample-covid-19/gradle/wrapper/gradle-wrapper.properties'.
+	at org.gradle.wrapper.WrapperExecutor.reportMissingProperty(WrapperExecutor.java:156)
+	at org.gradle.wrapper.WrapperExecutor.readDistroUrlDeprecatedWay(WrapperExecutor.java:99)
+	at org.gradle.wrapper.WrapperExecutor.readDistroUrl(WrapperExecutor.java:84)
+	at org.gradle.wrapper.WrapperExecutor.prepareDistributionUri(WrapperExecutor.java:70)
+	at org.gradle.wrapper.WrapperExecutor.<init>(WrapperExecutor.java:57)
+	... 2 more

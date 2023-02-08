@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'kotlin-native-sample'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find any matches for org.jetbrains.kotlin:kotlin-native-gradle-plugin:+ as no versions of org.jetbrains.kotlin:kotlin-native-gradle-plugin are available.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-native-gradle-plugin/maven-metadata.xml
+       - https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-native-gradle-plugin/
+       - https://dl.bintray.com/jetbrains/kotlin-native-dependencies/org/jetbrains/kotlin/kotlin-native-gradle-plugin/maven-metadata.xml
+       - https://dl.bintray.com/jetbrains/kotlin-native-dependencies/org/jetbrains/kotlin/kotlin-native-gradle-plugin/
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

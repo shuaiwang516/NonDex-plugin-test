@@ -1,0 +1,131 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:6: error: package javafx.application does not exist
+import javafx.application.Platform;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:7: error: package javafx.collections does not exist
+import javafx.collections.FXCollections;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:8: error: package javafx.embed.swing does not exist
+import javafx.embed.swing.JFXPanel;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:9: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:10: error: package javafx.scene.chart does not exist
+import javafx.scene.chart.CategoryAxis;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:11: error: package javafx.scene.chart does not exist
+import javafx.scene.chart.NumberAxis;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:12: error: package javafx.scene.chart does not exist
+import javafx.scene.chart.StackedBarChart;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:13: error: package javafx.scene.chart does not exist
+import javafx.scene.chart.XYChart;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:35: error: cannot find symbol
+    private final JFXPanel resultChartPanel;
+                  ^
+  symbol:   class JFXPanel
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:41: error: cannot find symbol
+    private StackedBarChart stackedBarChart;
+            ^
+  symbol:   class StackedBarChart
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/execution/ChartSeriesExecution.java:4: error: package javafx.scene.chart does not exist
+import javafx.scene.chart.XYChart;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/execution/ChartSeriesExecution.java:16: error: package XYChart does not exist
+public class ChartSeriesExecution implements Function<File, List<XYChart.Series<String, Number>>> {
+                                                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/execution/ChartSeriesExecution.java:19: error: package XYChart does not exist
+    public List<XYChart.Series<String, Number>> apply(File file) {
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:127: error: cannot find symbol
+        resultChartPanel = new JFXPanel();
+                               ^
+  symbol:   class JFXPanel
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:199: error: cannot find symbol
+                        Platform.runLater(() -> {
+                        ^
+  symbol:   variable Platform
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:200: error: cannot find symbol
+                            NumberAxis yAxis = new NumberAxis();
+                            ^
+  symbol:   class NumberAxis
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:200: error: cannot find symbol
+                            NumberAxis yAxis = new NumberAxis();
+                                                   ^
+  symbol:   class NumberAxis
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:202: error: package XYChart does not exist
+                            List<String> categories = (((XYChart.Series<String, Double>) series.get(0)).getData()).stream()
+                                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:205: error: cannot find symbol
+                            CategoryAxis xAxis = new CategoryAxis(FXCollections.observableArrayList(categories));
+                            ^
+  symbol:   class CategoryAxis
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:205: error: cannot find symbol
+                            CategoryAxis xAxis = new CategoryAxis(FXCollections.observableArrayList(categories));
+                                                     ^
+  symbol:   class CategoryAxis
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:205: error: cannot find symbol
+                            CategoryAxis xAxis = new CategoryAxis(FXCollections.observableArrayList(categories));
+                                                                  ^
+  symbol:   variable FXCollections
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:207: error: cannot find symbol
+                            stackedBarChart = new StackedBarChart(xAxis, yAxis, FXCollections.observableArrayList(series), 25.0d);
+                                                  ^
+  symbol:   class StackedBarChart
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:207: error: cannot find symbol
+                            stackedBarChart = new StackedBarChart(xAxis, yAxis, FXCollections.observableArrayList(series), 25.0d);
+                                                                                ^
+  symbol:   variable FXCollections
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:209: error: cannot find symbol
+                            Scene scene = new Scene(stackedBarChart);
+                            ^
+  symbol:   class Scene
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/gui/CSVParserWindow.java:209: error: cannot find symbol
+                            Scene scene = new Scene(stackedBarChart);
+                                              ^
+  symbol:   class Scene
+  location: class CSVParserWindow
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/service/CSVProcessingService.java:25: error: incompatible types: Consumer<List<?>> cannot be converted to Consumer<? super Object>
+                .thenAccept(whenFinish)
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/execution/ChartSeriesExecution.java:21: error: package XYChart does not exist
+        List<XYChart.Series<String, Number>> seriesList = new LinkedList<>();
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/execution/ChartSeriesExecution.java:28: error: package XYChart does not exist
+            XYChart.Series<String, Number> series = new XYChart.Series<>();
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/execution/ChartSeriesExecution.java:28: error: package XYChart does not exist
+            XYChart.Series<String, Number> series = new XYChart.Series<>();
+                                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task904/wd/NonDex-plugin-test/github.com/szagoret/csvparser/src/main/java/com/csvparser/execution/ChartSeriesExecution.java:34: error: package XYChart does not exist
+                series.getData().add(new XYChart.Data<>(currentRow[currentRow.length - 1], Double.parseDouble(currentRow[j])));
+                                                ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+30 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':common:compileJava'.
+> Could not resolve all files for configuration ':common:compileClasspath'.
+   > Could not find io.musician101.musicianlibrary:common:4.1.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/io/musician101/musicianlibrary/common/4.1/common-4.1.pom
+       - file:/root/.m2/repository/io/musician101/musicianlibrary/common/4.1/common-4.1.pom
+     Required by:
+         project :common
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

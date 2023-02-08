@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task688/wd/NonDex-plugin-test/github.com/TechShroom/EmergencyLanding/build.gradle' line: 16
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'net.researchgate.release', version: '2.4.0']
+> Failed to apply plugin [id 'net.researchgate.release']
+   > Could not find method leftShift() for arguments [org.codehaus.groovy.runtime.MethodClosure@6341dacc] on task ':createScmAdapter' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

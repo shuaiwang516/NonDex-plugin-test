@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not find com.lowagie:itext:2.1.7.js7.
+     Searched in the following locations:
+       - https://jcenter.bintray.com/com/lowagie/itext/2.1.7.js7/itext-2.1.7.js7.pom
+       - https://jcenter.bintray.com/com/lowagie/itext/2.1.7.js7/itext-2.1.7.js7.jar
+       - https://repo.maven.apache.org/maven2/com/lowagie/itext/2.1.7.js7/itext-2.1.7.js7.pom
+       - https://repo.maven.apache.org/maven2/com/lowagie/itext/2.1.7.js7/itext-2.1.7.js7.jar
+       - http://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts/com/lowagie/itext/2.1.7.js7/itext-2.1.7.js7.pom
+       - http://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts/com/lowagie/itext/2.1.7.js7/itext-2.1.7.js7.jar
+     Required by:
+         project : > net.sf.jasperreports:jasperreports:6.10.0
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

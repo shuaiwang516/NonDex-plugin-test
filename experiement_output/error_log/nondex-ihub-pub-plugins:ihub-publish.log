@@ -1,0 +1,22 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ihub-base-test:compileGroovy'.
+> Could not resolve all files for configuration ':ihub-base-test:detachedConfiguration96'.
+   > Could not resolve org.codehaus.groovy:groovy-nio:3.0.13.
+     Required by:
+         project :ihub-base-test
+      > Could not resolve org.codehaus.groovy:groovy-nio:3.0.13.
+         > Could not get resource 'https://maven.aliyun.com/repository/public/org/codehaus/groovy/groovy-nio/3.0.13/groovy-nio-3.0.13.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/codehaus/groovy/groovy-nio/3.0.13/groovy-nio-3.0.13.pom?Expires=1675216398&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=zjJzhy9mBsrjHvhJ%2FAIpHzyDACM%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3m 25s

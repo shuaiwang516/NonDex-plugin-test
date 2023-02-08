@@ -1,0 +1,55 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task531/wd/NonDex-plugin-test/github.com/tq-jappy/javaee7-scaffold/src/main/java/examples/jsf/TodoBean.java:49: error: cannot find symbol
+        todoService.create(todo.getTitle());
+                               ^
+  symbol:   method getTitle()
+  location: variable todo of type Todo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task531/wd/NonDex-plugin-test/github.com/tq-jappy/javaee7-scaffold/src/main/java/examples/jsf/TodoBean.java:57: error: cannot find symbol
+        todo.setFinished(true);
+            ^
+  symbol:   method setFinished(boolean)
+  location: variable todo of type Todo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task531/wd/NonDex-plugin-test/github.com/tq-jappy/javaee7-scaffold/src/main/java/examples/jpa/TodoService.java:39: error: cannot find symbol
+        todo.setTitle(title);
+            ^
+  symbol:   method setTitle(String)
+  location: variable todo of type Todo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task531/wd/NonDex-plugin-test/github.com/tq-jappy/javaee7-scaffold/src/main/java/examples/jsf/ValidationBean.java:29: error: cannot find symbol
+        person.setName("alice");
+              ^
+  symbol:   method setName(String)
+  location: variable person of type Person
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task531/wd/NonDex-plugin-test/github.com/tq-jappy/javaee7-scaffold/src/main/java/examples/jsf/ValidationBean.java:30: error: cannot find symbol
+        person.setAge(5);
+              ^
+  symbol:   method setAge(int)
+  location: variable person of type Person
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task531/wd/NonDex-plugin-test/github.com/tq-jappy/javaee7-scaffold/src/main/java/examples/jms/Sender.java:55: error: cannot find symbol
+        message.setANumber(num);
+               ^
+  symbol:   method setANumber(int)
+  location: variable message of type SimpleMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task531/wd/NonDex-plugin-test/github.com/tq-jappy/javaee7-scaffold/src/main/java/examples/jms/Sender.java:56: error: cannot find symbol
+        message.setAString(str);
+               ^
+  symbol:   method setAString(String)
+  location: variable message of type SimpleMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task531/wd/NonDex-plugin-test/github.com/tq-jappy/javaee7-scaffold/src/main/java/examples/cdi/EventProducer.java:27: error: constructor EventItem in class EventItem cannot be applied to given types;
+        EventItem item = new EventItem(name);
+                         ^
+  required: no arguments
+  found: String
+  reason: actual and formal argument lists differ in length
+8 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

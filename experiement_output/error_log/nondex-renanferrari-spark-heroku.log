@@ -1,0 +1,40 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task290/wd/NonDex-plugin-test/github.com/renanferrari/spark-heroku/src/main/java/rxfirebase/RxFirebaseTask.java:4: error: package io.reactivex does not exist
+import io.reactivex.Completable;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task290/wd/NonDex-plugin-test/github.com/renanferrari/spark-heroku/src/main/java/rxfirebase/RxFirebaseTask.java:5: error: package io.reactivex does not exist
+import io.reactivex.Maybe;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task290/wd/NonDex-plugin-test/github.com/renanferrari/spark-heroku/src/main/java/rxfirebase/RxFirebaseTask.java:10: error: cannot find symbol
+  static <T> Maybe<T> observeTask(final Callable<Task<T>> taskFactory) {
+             ^
+  symbol:   class Maybe
+  location: class RxFirebaseTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task290/wd/NonDex-plugin-test/github.com/renanferrari/spark-heroku/src/main/java/rxfirebase/RxFirebaseTask.java:25: error: cannot find symbol
+  static Completable observeVoidTask(final Callable<Task<Void>> taskFactory) {
+         ^
+  symbol:   class Completable
+  location: class RxFirebaseTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task290/wd/NonDex-plugin-test/github.com/renanferrari/spark-heroku/src/main/java/rxfirebase/RxFirebaseTask.java:11: error: cannot find symbol
+    return Maybe.create(emitter -> taskFactory.call().addOnCompleteListener(completedTask -> {
+           ^
+  symbol:   variable Maybe
+  location: class RxFirebaseTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task290/wd/NonDex-plugin-test/github.com/renanferrari/spark-heroku/src/main/java/rxfirebase/RxFirebaseTask.java:26: error: cannot find symbol
+    return Completable.create(emitter -> taskFactory.call().addOnCompleteListener(completedTask -> {
+           ^
+  symbol:   variable Completable
+  location: class RxFirebaseTask
+6 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

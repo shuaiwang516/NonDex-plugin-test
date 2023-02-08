@@ -1,0 +1,382 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/Application.java:1: error: package org.springframework.boot does not exist
+import org.springframework.boot.SpringApplication;
+                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/Application.java:2: error: package org.springframework.boot.autoconfigure does not exist
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/Application.java:3: error: package org.springframework.boot.autoconfigure does not exist
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/Application.java:4: error: package org.springframework.context.annotation does not exist
+import org.springframework.context.annotation.ComponentScan;
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/Application.java:9: error: cannot find symbol
+@SpringBootApplication
+ ^
+  symbol: class SpringBootApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/Application.java:10: error: cannot find symbol
+@EnableAutoConfiguration
+ ^
+  symbol: class EnableAutoConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/Application.java:11: error: cannot find symbol
+@ComponentScan("com.recruiting")
+ ^
+  symbol: class ComponentScan
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:6: error: package com.recruiting.model.modelUtils does not exist
+import com.recruiting.model.modelUtils.RangeModel;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:7: error: package com.recruiting.model.searchModel does not exist
+import com.recruiting.model.searchModel.CandidateSearchModel;
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:8: error: package org.elasticsearch.common.unit does not exist
+import org.elasticsearch.common.unit.Fuzziness;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:9: error: package org.elasticsearch.index.query does not exist
+import org.elasticsearch.index.query.QueryBuilder;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:10: error: package org.elasticsearch.index.query does not exist
+import org.elasticsearch.index.query.QueryBuilders;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:11: error: package org.elasticsearch.search.sort does not exist
+import org.elasticsearch.search.sort.FieldSortBuilder;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:12: error: package org.elasticsearch.search.sort does not exist
+import org.elasticsearch.search.sort.SortBuilders;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:13: error: package org.elasticsearch.search.sort does not exist
+import org.elasticsearch.search.sort.SortOrder;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:14: error: package org.springframework.beans.factory.annotation does not exist
+import org.springframework.beans.factory.annotation.Autowired;
+                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:15: error: package org.springframework.beans.factory.annotation does not exist
+import org.springframework.beans.factory.annotation.Value;
+                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:16: error: package org.springframework.context.annotation does not exist
+import org.springframework.context.annotation.PropertySource;
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:17: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Page;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:18: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Pageable;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:19: error: package org.springframework.data.elasticsearch.core does not exist
+import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:20: error: package org.springframework.data.elasticsearch.core.query does not exist
+import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
+                                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:21: error: package org.springframework.data.elasticsearch.core.query does not exist
+import org.springframework.data.elasticsearch.core.query.SearchQuery;
+                                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:22: error: package org.springframework.stereotype does not exist
+import org.springframework.stereotype.Repository;
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:28: error: package org.elasticsearch.index.query.MatchQueryBuilder does not exist
+import static org.elasticsearch.index.query.MatchQueryBuilder.Operator.OR;
+                                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:28: error: static import only from classes and interfaces
+import static org.elasticsearch.index.query.MatchQueryBuilder.Operator.OR;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:29: error: package org.elasticsearch.index.query does not exist
+import static org.elasticsearch.index.query.QueryBuilders.*;
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/CandidateElasticSearchRepository.java:4: error: package com.recruiting.model.searchModel does not exist
+import com.recruiting.model.searchModel.CandidateSearchModel;
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/CandidateElasticSearchRepository.java:5: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Page;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/CandidateElasticSearchRepository.java:6: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Pageable;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:34: error: cannot find symbol
+@Repository
+ ^
+  symbol: class Repository
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:35: error: cannot find symbol
+@PropertySource("classpath:search.properties")
+ ^
+  symbol: class PropertySource
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:45: error: cannot find symbol
+    private ElasticsearchTemplate elasticsearchTemplate;
+            ^
+  symbol:   class ElasticsearchTemplate
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:48: error: cannot find symbol
+    public Page<ElasticCandidate> searchCandidates(CandidateSearchModel model, Pageable pageable) {
+                                                   ^
+  symbol:   class CandidateSearchModel
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:48: error: cannot find symbol
+    public Page<ElasticCandidate> searchCandidates(CandidateSearchModel model, Pageable pageable) {
+                                                                               ^
+  symbol:   class Pageable
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:48: error: cannot find symbol
+    public Page<ElasticCandidate> searchCandidates(CandidateSearchModel model, Pageable pageable) {
+           ^
+  symbol:   class Page
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCandidate.java:3: error: package com.recruiting.domain does not exist
+import com.recruiting.domain.AbstractEntity;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCandidate.java:4: error: package org.springframework.data.annotation does not exist
+import org.springframework.data.annotation.Id;
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCandidate.java:5: error: package org.springframework.data.elasticsearch.annotations does not exist
+import org.springframework.data.elasticsearch.annotations.Document;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCandidate.java:6: error: package org.springframework.data.elasticsearch.annotations does not exist
+import org.springframework.data.elasticsearch.annotations.Field;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCandidate.java:7: error: package org.springframework.data.elasticsearch.annotations does not exist
+import org.springframework.data.elasticsearch.annotations.FieldIndex;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCandidate.java:8: error: package org.springframework.data.elasticsearch.annotations does not exist
+import org.springframework.data.elasticsearch.annotations.FieldType;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCandidate.java:16: error: cannot find symbol
+@Document(indexName = "candidate", type = "candidate", shards = 1, replicas = 0)
+ ^
+  symbol: class Document
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:70: error: cannot find symbol
+    private Page<ElasticCandidate> search(CandidateSearchModel model, Pageable pageable){
+                                          ^
+  symbol:   class CandidateSearchModel
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:70: error: cannot find symbol
+    private Page<ElasticCandidate> search(CandidateSearchModel model, Pageable pageable){
+                                                                      ^
+  symbol:   class Pageable
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:70: error: cannot find symbol
+    private Page<ElasticCandidate> search(CandidateSearchModel model, Pageable pageable){
+            ^
+  symbol:   class Page
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:215: error: cannot find symbol
+    private QueryBuilder queryForMustSkill(String title) {
+            ^
+  symbol:   class QueryBuilder
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:224: error: cannot find symbol
+    private QueryBuilder queryForExactValueSkill(String title, Integer experienceDuration) {
+            ^
+  symbol:   class QueryBuilder
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:235: error: cannot find symbol
+    private QueryBuilder queryForFuzzySkill(String title, Integer experienceDuration) {
+            ^
+  symbol:   class QueryBuilder
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:247: error: cannot find symbol
+    private QueryBuilder queryForRangeSkill(String title,
+            ^
+  symbol:   class QueryBuilder
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:272: error: cannot find symbol
+    private QueryBuilder queryForLocation(String location) {
+            ^
+  symbol:   class QueryBuilder
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:293: error: cannot find symbol
+    private QueryBuilder queryForExactValueHourlyRate(Integer hourlyRate) {
+            ^
+  symbol:   class QueryBuilder
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:302: error: cannot find symbol
+    private QueryBuilder queryForFuzzyHourlyRate(Integer hourlyRate) {
+            ^
+  symbol:   class QueryBuilder
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:312: error: cannot find symbol
+    private QueryBuilder queryForRangeHourlyRate(Integer lowerLimit, Integer upperLimit) {
+            ^
+  symbol:   class QueryBuilder
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:323: error: cannot find symbol
+    private QueryBuilder queryForCertifications(Set<String> certificationsSet) {
+            ^
+  symbol:   class QueryBuilder
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:330: error: cannot find symbol
+    private QueryBuilder queryForStartingDay(Date date, Date upperRange) {
+            ^
+  symbol:   class QueryBuilder
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:341: error: cannot find symbol
+    private QueryBuilder queryForStartingDay(Long date, Long upperRange) {
+            ^
+  symbol:   class QueryBuilder
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/impl/CandidateElasticSearchRepositoryImpl.java:355: error: cannot find symbol
+    private QueryBuilder queryForTimePeriod(String timePeriod) {
+            ^
+  symbol:   class QueryBuilder
+  location: class CandidateElasticSearchRepositoryImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCandidateSkill.java:3: error: package org.springframework.data.elasticsearch.annotations does not exist
+import org.springframework.data.elasticsearch.annotations.Field;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCandidateSkill.java:4: error: package org.springframework.data.elasticsearch.annotations does not exist
+import org.springframework.data.elasticsearch.annotations.FieldIndex;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCandidateSkill.java:5: error: package org.springframework.data.elasticsearch.annotations does not exist
+import org.springframework.data.elasticsearch.annotations.FieldType;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCertifications.java:3: error: package org.springframework.data.elasticsearch.annotations does not exist
+import org.springframework.data.elasticsearch.annotations.Field;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCertifications.java:4: error: package org.springframework.data.elasticsearch.annotations does not exist
+import org.springframework.data.elasticsearch.annotations.FieldIndex;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticCertifications.java:5: error: package org.springframework.data.elasticsearch.annotations does not exist
+import org.springframework.data.elasticsearch.annotations.FieldType;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticArea.java:3: error: package org.springframework.data.elasticsearch.annotations does not exist
+import org.springframework.data.elasticsearch.annotations.Field;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/file/ElasticArea.java:4: error: package org.springframework.data.elasticsearch.annotations does not exist
+import org.springframework.data.elasticsearch.annotations.FieldType;
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/CandidateElasticSearchRepository.java:13: error: cannot find symbol
+   Page<ElasticCandidate> searchCandidates(CandidateSearchModel model, Pageable pageable);
+                                           ^
+  symbol:   class CandidateSearchModel
+  location: interface CandidateElasticSearchRepository
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/CandidateElasticSearchRepository.java:13: error: cannot find symbol
+   Page<ElasticCandidate> searchCandidates(CandidateSearchModel model, Pageable pageable);
+                                                                       ^
+  symbol:   class Pageable
+  location: interface CandidateElasticSearchRepository
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/CandidateElasticSearchRepository.java:13: error: cannot find symbol
+   Page<ElasticCandidate> searchCandidates(CandidateSearchModel model, Pageable pageable);
+   ^
+  symbol:   class Page
+  location: interface CandidateElasticSearchRepository
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/CandidateElasticRepository.java:4: error: package org.springframework.data.elasticsearch.repository does not exist
+import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
+                                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/CandidateElasticRepository.java:5: error: package org.springframework.stereotype does not exist
+import org.springframework.stereotype.Repository;
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/CandidateElasticRepository.java:11: error: cannot find symbol
+public interface CandidateElasticRepository extends ElasticsearchRepository<ElasticCandidate, Long> {
+                                                    ^
+  symbol: class ElasticsearchRepository
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/repository/CandidateElasticRepository.java:10: error: cannot find symbol
+@Repository
+ ^
+  symbol: class Repository
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/listener/KafkaCustomListener.java:3: error: package org.apache.kafka.clients.consumer does not exist
+import org.apache.kafka.clients.consumer.ConsumerRecord;
+                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/listener/KafkaCustomListener.java:4: error: package org.springframework.kafka.annotation does not exist
+import org.springframework.kafka.annotation.KafkaListener;
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/listener/KafkaCustomListener.java:5: error: package org.springframework.kafka.annotation does not exist
+import org.springframework.kafka.annotation.TopicPartition;
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/listener/KafkaCustomListener.java:16: error: cannot find symbol
+    public void listenPartition0(ConsumerRecord<?, ?> record) {
+                                 ^
+  symbol:   class ConsumerRecord
+  location: class KafkaCustomListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:8: error: package com.recruiting.model.modelUtils does not exist
+import com.recruiting.model.modelUtils.RangeModel;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:9: error: package com.recruiting.model.searchModel does not exist
+import com.recruiting.model.searchModel.CandidateSearchModel;
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:10: error: package com.recruiting.utils does not exist
+import com.recruiting.utils.TypeConversionUtils;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:11: error: package org.joda.time does not exist
+import org.joda.time.DateTime;
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:12: error: package org.springframework.beans.factory.annotation does not exist
+import org.springframework.beans.factory.annotation.Autowired;
+                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:13: error: package org.springframework.beans.factory.annotation does not exist
+import org.springframework.beans.factory.annotation.Value;
+                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:14: error: package org.springframework.context.annotation does not exist
+import org.springframework.context.annotation.PropertySource;
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:15: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Page;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:16: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.PageImpl;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:17: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.PageRequest;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:18: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Pageable;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:19: error: package org.springframework.stereotype does not exist
+import org.springframework.stereotype.Service;
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/CandidateElasticService.java:4: error: package com.recruiting.model.searchModel does not exist
+import com.recruiting.model.searchModel.CandidateSearchModel;
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/CandidateElasticService.java:5: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Page;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/CandidateElasticService.java:6: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Pageable;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:26: error: cannot find symbol
+@Service
+ ^
+  symbol: class Service
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:27: error: cannot find symbol
+@PropertySource("classpath:search.properties")
+ ^
+  symbol: class PropertySource
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:66: error: cannot find symbol
+    public Page<ElasticCandidate> searchCandidates(CandidateSearchModel candidateSearchModel, Pageable pageable) {
+                                                   ^
+  symbol:   class CandidateSearchModel
+  location: class CandidateElasticServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:66: error: cannot find symbol
+    public Page<ElasticCandidate> searchCandidates(CandidateSearchModel candidateSearchModel, Pageable pageable) {
+                                                                                              ^
+  symbol:   class Pageable
+  location: class CandidateElasticServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/impl/CandidateElasticServiceImpl.java:66: error: cannot find symbol
+    public Page<ElasticCandidate> searchCandidates(CandidateSearchModel candidateSearchModel, Pageable pageable) {
+           ^
+  symbol:   class Page
+  location: class CandidateElasticServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/CandidateElasticService.java:19: error: cannot find symbol
+    Page<ElasticCandidate> searchCandidates(CandidateSearchModel candidateSearchModel, Pageable pageable);
+                                            ^
+  symbol:   class CandidateSearchModel
+  location: interface CandidateElasticService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/CandidateElasticService.java:19: error: cannot find symbol
+    Page<ElasticCandidate> searchCandidates(CandidateSearchModel candidateSearchModel, Pageable pageable);
+                                                                                       ^
+  symbol:   class Pageable
+  location: interface CandidateElasticService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task646/wd/NonDex-plugin-test/github.com/ginosian/RecruiterHome/ElasticSearchRecruiter/src/main/java/com/elasticsearch/recruiting/service/CandidateElasticService.java:19: error: cannot find symbol
+    Page<ElasticCandidate> searchCandidates(CandidateSearchModel candidateSearchModel, Pageable pageable);
+    ^
+  symbol:   class Page
+  location: interface CandidateElasticService
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ElasticSearchRecruiter:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

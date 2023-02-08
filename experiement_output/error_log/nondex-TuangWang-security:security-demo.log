@@ -1,0 +1,71 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/controller/WebSecurityController.java:17: error: package site.headfirst.core.properties does not exist
+import site.headfirst.core.properties.SecurityProperties;
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/controller/WebSecurityController.java:34: error: cannot find symbol
+    private SecurityProperties securityProperties;
+            ^
+  symbol:   class SecurityProperties
+  location: class WebSecurityController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/authentication/WebAuthenticationFailureHandler.java:12: error: package site.headfirst.core.properties does not exist
+import site.headfirst.core.properties.LoginType;
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/authentication/WebAuthenticationFailureHandler.java:13: error: package site.headfirst.core.properties does not exist
+import site.headfirst.core.properties.SecurityProperties;
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/authentication/WebAuthenticationFailureHandler.java:28: error: cannot find symbol
+    private SecurityProperties securityProperties;
+            ^
+  symbol:   class SecurityProperties
+  location: class WebAuthenticationFailureHandler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/authentication/WebAuthenticationSuccessHandler.java:11: error: package site.headfirst.core.properties does not exist
+import site.headfirst.core.properties.LoginType;
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/authentication/WebAuthenticationSuccessHandler.java:12: error: package site.headfirst.core.properties does not exist
+import site.headfirst.core.properties.SecurityProperties;
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/authentication/WebAuthenticationSuccessHandler.java:28: error: cannot find symbol
+    private SecurityProperties securityProperties;
+            ^
+  symbol:   class SecurityProperties
+  location: class WebAuthenticationSuccessHandler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/WebSecurityConfig.java:12: error: package site.headfirst.core.properties does not exist
+import site.headfirst.core.properties.SecurityProperties;
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/WebSecurityConfig.java:13: error: package site.headfirst.core.validate.code does not exist
+import site.headfirst.core.validate.code.ValidateCodeFilter;
+                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/WebSecurityConfig.java:21: error: cannot find symbol
+    private SecurityProperties securityProperties;
+            ^
+  symbol:   class SecurityProperties
+  location: class WebSecurityConfig
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/authentication/WebAuthenticationFailureHandler.java:35: error: package LoginType does not exist
+        if(LoginType.JSON.equals(securityProperties.getWeb().getLoginType())) {
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/authentication/WebAuthenticationSuccessHandler.java:34: error: package LoginType does not exist
+        if(LoginType.JSON.equals(securityProperties.getWeb().getLoginType())) {
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/WebSecurityConfig.java:37: error: cannot find symbol
+        ValidateCodeFilter validateCodeFilter = new ValidateCodeFilter();
+        ^
+  symbol:   class ValidateCodeFilter
+  location: class WebSecurityConfig
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1107/wd/NonDex-plugin-test/github.com/TuangWang/security/security-web/src/main/java/site/headfirst/web/WebSecurityConfig.java:37: error: cannot find symbol
+        ValidateCodeFilter validateCodeFilter = new ValidateCodeFilter();
+                                                    ^
+  symbol:   class ValidateCodeFilter
+  location: class WebSecurityConfig
+15 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':security-web:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

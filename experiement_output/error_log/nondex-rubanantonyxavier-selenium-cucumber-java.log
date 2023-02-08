@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task549/wd/NonDex-plugin-test/github.com/rubanantonyxavier/selenium-cucumber-java/build.gradle' line: 124
+
+* What went wrong:
+A problem occurred evaluating root project 'selenium-cucumber-java'.
+> Failed to apply plugin 'edu.illinois.nondex'.
+   > Could not resolve all dependencies for configuration ':downloadNonDexCommonJar'.
+      > Failed to calculate the value of task ':compileJava' property 'javaCompiler'.
+         > Provisioned toolchain '/root/.gradle/jdks/adoptium-17-x64-hotspot-linux' could not be probed.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

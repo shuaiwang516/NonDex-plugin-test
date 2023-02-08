@@ -1,0 +1,111 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/GradleUtils.groovy: 46: [Static type checking] - Cannot find matching method org.gradle.api.internal.tasks.CachingTaskDependencyResolveContext#<init>(). Please check if the declared type is correct and if the method exists.
+ @ line 46, column 23.
+           def context = new CachingTaskDependencyResolveContext()
+                         ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/GradleUtils.groovy: 52: [Static type checking] - Cannot find matching method org.gradle.api.internal.tasks.CachingTaskDependencyResolveContext#getDependencies(org.gradle.api.Task). Please check if the declared type is correct and if the method exists.
+ @ line 52, column 28.
+           def dependencies = context.getDependencies(task) as Set<Task>
+                              ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/GradleUtils.groovy: 59: [Static type checking] - Cannot find matching method org.gradle.api.internal.TaskInternal#execute(). Please check if the declared type is correct and if the method exists.
+ @ line 59, column 13.
+               ((TaskInternal)task).execute()
+               ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/cqpackage/CqPackagePlugin.groovy: 183: [Static type checking] - Cannot find matching method org.gradle.api.DefaultTask#addValidator(org.gradle.api.internal.tasks.execution.TaskValidator). Please check if the declared type is correct and if the method exists.
+ @ line 183, column 13.
+               task.addValidator({ TaskInternal t, Collection<String> messages ->
+               ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/cqpackage/CqPackagePlugin.groovy: 222: [Static type checking] - Cannot find matching method org.gradle.api.Task#leftShift(groovy.lang.Closure <java.lang.Void>). Please check if the declared type is correct and if the method exists.
+ @ line 222, column 98.
+   age", group: 'CQ'], 'upload') << {
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/cqpackage/CqPackageUtils.groovy: 91: [Static type checking] - No such property: projectConfiguration for class: org.gradle.api.artifacts.ProjectDependency
+ @ line 91, column 30.
+               jarsForArtifacts(dep.projectConfiguration)
+                                ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/cqpackage/CqPackageUtils.groovy: 91: [Static type checking] - Cannot find matching method com.twcable.gradle.cqpackage.CqPackageUtils#jarsForArtifacts(java.lang.Object). Please check if the declared type is correct and if the method exists.
+ @ line 91, column 13.
+               jarsForArtifacts(dep.projectConfiguration)
+               ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/cqpackage/CqPackageUtils.groovy: 140: [Static type checking] - No such property: projectConfiguration for class: org.gradle.api.artifacts.ProjectDependency
+ @ line 140, column 38.
+           DependencySet dependencies = projectDependency.projectConfiguration.allDependencies
+                                        ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/cqpackage/CqPackageUtils.groovy: 187: [Static type checking] - Cannot find matching method org.gradle.api.internal.artifacts.CachingDependencyResolveContext#<init>(boolean). Please check if the declared type is correct and if the method exists.
+ @ line 187, column 23.
+           def context = new CachingDependencyResolveContext(true)
+                         ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/cqpackage/FilterXmlWriter.groovy: 106: [Static type checking] - Incompatible generic argument types. Cannot assign java.util.List <groovy.lang.GString> to: java.util.Collection <String>
+ @ line 106, column 9.
+           jarFiles.collect { String jarFileName ->
+           ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/scr/ScrPlugin.groovy: 55: [Static type checking] - No such property: classesDir for class: org.gradle.api.tasks.SourceSetOutput
+ @ line 55, column 35.
+               outputs.file new File(mainSourceSet(project).output.classesDir, 'OSGI-INF/serviceComponents.xml')
+                                     ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/scr/ScrPlugin.groovy: 55: [Static type checking] - Cannot find matching method java.io.File#<init>(java.lang.Object, java.lang.String). Please check if the declared type is correct and if the method exists.
+ @ line 55, column 26.
+               outputs.file new File(mainSourceSet(project).output.classesDir, 'OSGI-INF/serviceComponents.xml')
+                            ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/scr/ScrPlugin.groovy: 56: [Static type checking] - No such property: classesDir for class: org.gradle.api.tasks.SourceSetOutput
+ @ line 56, column 27.
+               inputs.source mainSourceSet(project).output.classesDir
+                             ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/scr/ScrPlugin.groovy: 56: [Static type checking] - Cannot find matching method org.gradle.api.tasks.TaskInputs#source(java.lang.Object). Please check if the declared type is correct and if the method exists.
+ @ line 56, column 13.
+               inputs.source mainSourceSet(project).output.classesDir
+               ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/scr/ScrPlugin.groovy: 69: [Static type checking] - No such property: classesDir for class: org.gradle.api.tasks.SourceSetOutput
+ @ line 69, column 28.
+           final classesDir = mainSourceSet.output.classesDir
+                              ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/scr/ScrPlugin.groovy: 74: [Static type checking] - Cannot find matching method java.lang.Object#exists(). Please check if the declared type is correct and if the method exists.
+ @ line 74, column 13.
+           if (classesDir.exists()) {
+               ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/scr/ScrPlugin.groovy: 75: [Static type checking] - Cannot assign value of type java.lang.Object to variable of type java.io.File
+ @ line 75, column 59.
+    ClassSCRDescriptorTask(srcdir: classesD
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/scr/ScrPlugin.groovy: 75: [Static type checking] - Cannot assign value of type java.lang.Object to variable of type java.io.File
+ @ line 75, column 80.
+   sk(srcdir: classesDir, destdir: classesD
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1095/wd/NonDex-plugin-test/github.com/TWCable/cq-gradle-plugin/src/main/groovy/com/twcable/gradle/scr/ScrPlugin.groovy: 79: [Static type checking] - Cannot find matching method com.twcable.gradle.scr.ScrPlugin#addToManifest(org.gradle.api.Project, java.lang.Object). Please check if the declared type is correct and if the method exists.
+ @ line 79, column 13.
+               addToManifest(project, classesDir)
+               ^
+
+19 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 23s

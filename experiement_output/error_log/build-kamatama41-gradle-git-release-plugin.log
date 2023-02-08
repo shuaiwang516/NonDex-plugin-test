@@ -1,0 +1,22 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-git-release-plugin'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find any matches for com.github.kamatama41:gradle-git-release-plugin:+ as no versions of com.github.kamatama41:gradle-git-release-plugin are available.
+     Searched in the following locations:
+       - https://jcenter.bintray.com/com/github/kamatama41/gradle-git-release-plugin/maven-metadata.xml
+       - https://jcenter.bintray.com/com/github/kamatama41/gradle-git-release-plugin/
+       - http://kamatama41.github.com/maven-repository/repository/com/github/kamatama41/gradle-git-release-plugin/maven-metadata.xml
+       - http://kamatama41.github.com/maven-repository/repository/com/github/kamatama41/gradle-git-release-plugin/
+       - https://plugins.gradle.org/m2/com/github/kamatama41/gradle-git-release-plugin/maven-metadata.xml
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

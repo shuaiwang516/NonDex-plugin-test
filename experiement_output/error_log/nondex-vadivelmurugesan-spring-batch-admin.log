@@ -1,0 +1,27 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve org.springframework.batch:spring-batch-admin-manager:2.0.0.M1.
+     Required by:
+         project :
+      > Could not resolve org.springframework.batch:spring-batch-admin-manager:2.0.0.M1.
+         > Could not get resource 'http://central.maven.org/maven2/org/springframework/batch/spring-batch-admin-manager/2.0.0.M1/spring-batch-admin-manager-2.0.0.M1.jar'.
+            > Could not HEAD 'http://central.maven.org/maven2/org/springframework/batch/spring-batch-admin-manager/2.0.0.M1/spring-batch-admin-manager-2.0.0.M1.jar'.
+               > central.maven.org
+   > Could not resolve org.springframework.batch:spring-batch-admin-domain:2.0.0.M1.
+     Required by:
+         project :
+      > Could not resolve org.springframework.batch:spring-batch-admin-domain:2.0.0.M1.
+         > Could not get resource 'http://central.maven.org/maven2/org/springframework/batch/spring-batch-admin-domain/2.0.0.M1/spring-batch-admin-domain-2.0.0.M1.jar'.
+            > Could not HEAD 'http://central.maven.org/maven2/org/springframework/batch/spring-batch-admin-domain/2.0.0.M1/spring-batch-admin-domain-2.0.0.M1.jar'.
+               > central.maven.org
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

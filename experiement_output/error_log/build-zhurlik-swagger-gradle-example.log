@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/zhurlik/swagger-gradle-example/generate-doc/build.gradle' line: 26
+
+* What went wrong:
+A problem occurred evaluating project ':generate-doc'.
+> Could not find method leftShift() for arguments [build_3oowkc3ru4fazpy5f47l49xqe$_run_closure1@3e1dbb97] on task ':generate-doc:swagger' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s

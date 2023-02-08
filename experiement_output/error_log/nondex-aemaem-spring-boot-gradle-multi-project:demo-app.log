@@ -1,0 +1,32 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task499/wd/NonDex-plugin-test/github.com/aemaem/spring-boot-gradle-multi-project/demo-app/src/main/java/com/example/demo/DemoApplication.java:3: error: package com.example.demo.api does not exist
+import com.example.demo.api.FooApi;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task499/wd/NonDex-plugin-test/github.com/aemaem/spring-boot-gradle-multi-project/demo-app/src/main/java/com/example/demo/DemoApplication.java:13: error: cannot find symbol
+	private FooApi foo;
+	        ^
+  symbol:   class FooApi
+  location: class DemoApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task499/wd/NonDex-plugin-test/github.com/aemaem/spring-boot-gradle-multi-project/demo-app/src/main/java/com/example/demo/FooService.java:3: error: package com.example.demo.api does not exist
+import com.example.demo.api.FooApi;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task499/wd/NonDex-plugin-test/github.com/aemaem/spring-boot-gradle-multi-project/demo-app/src/main/java/com/example/demo/FooService.java:7: error: cannot find symbol
+public class FooService implements FooApi {
+                                   ^
+  symbol: class FooApi
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task499/wd/NonDex-plugin-test/github.com/aemaem/spring-boot-gradle-multi-project/demo-app/src/main/java/com/example/demo/FooService.java:9: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+5 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':demo-app:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

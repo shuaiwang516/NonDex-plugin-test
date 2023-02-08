@@ -1,0 +1,31 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task551/wd/NonDex-plugin-test/github.com/Conorrr/gradle-http-server-plugin/src/main/groovy/io/restall/http/gradle/StaticHttpServerPlugin.groovy: 13: [Static type checking] - Cannot find matching method org.gradle.api.Task#leftShift(groovy.lang.Closure <java.lang.Void>). Please check if the declared type is correct and if the method exists.
+ @ line 13, column 9.
+           project.task('wait') << {
+           ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task551/wd/NonDex-plugin-test/github.com/Conorrr/gradle-http-server-plugin/src/main/groovy/io/restall/http/gradle/StaticHttpServerPlugin.groovy: 19: [Static type checking] - Cannot find matching method org.gradle.api.Task#leftShift(groovy.lang.Closure <java.lang.Void>). Please check if the declared type is correct and if the method exists.
+ @ line 19, column 9.
+           project.task('httpStart') << {
+           ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task551/wd/NonDex-plugin-test/github.com/Conorrr/gradle-http-server-plugin/src/main/groovy/io/restall/http/gradle/StaticHttpServerPlugin.groovy: 37: [Static type checking] - Cannot find matching method org.gradle.api.Task#leftShift(groovy.lang.Closure <java.lang.Void>). Please check if the declared type is correct and if the method exists.
+ @ line 37, column 9.
+           project.task('httpStop') << {
+           ^
+
+3 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 18s

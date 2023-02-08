@@ -1,0 +1,25 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v7.Java7$1 (file:/root/.gradle/wrapper/dists/gradle-5.0-bin/pu5208521seraqlersebvqk/gradle-5.0/lib/groovy-all-1.0-2.5.4.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v7.Java7$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task116/wd/NonDex-plugin-test/github.com/pegasystems/pega-alertanalyzer/src/main/java/com/pega/gsea/servlets/AlertUpload.java:7: error: cannot access BufferedReader
+import java.io.BufferedReader;
+              ^
+  bad class file: /modules/java.base/java/io/BufferedReader.class
+    class file has wrong version 55.0, should be 53.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed with exit code 1; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s

@@ -1,0 +1,29 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1217/wd/NonDex-plugin-test/github.com/codeanticode/processing-library-template-gradle/build/src/template/library/HelloLibrary.java:19: error: cannot find symbol
+	PApplet myParent;
+	^
+  symbol:   class PApplet
+  location: class HelloLibrary
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1217/wd/NonDex-plugin-test/github.com/codeanticode/processing-library-template-gradle/build/src/template/library/HelloLibrary.java:33: error: cannot find symbol
+	public HelloLibrary(PApplet theParent) {
+	                    ^
+  symbol:   class PApplet
+  location: class HelloLibrary
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1217/wd/NonDex-plugin-test/github.com/codeanticode/processing-library-template-gradle/build/src/template/library/HelloLibrary.java:3: error: package processing.core does not exist
+import processing.core.*;
+^
+3 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task124/wd/NonDex-plugin-test/github.com/pzstorm/capsid/build.gradle' line: 22
+
+* What went wrong:
+A problem occurred evaluating root project 'pzstorm-capsid'.
+> Could not read 'https://gist.githubusercontent.com/yooksi/8ace33e409f9b9e6d0dab05fec3f8188/raw/spotless.gradle' as it does not exist.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 23s

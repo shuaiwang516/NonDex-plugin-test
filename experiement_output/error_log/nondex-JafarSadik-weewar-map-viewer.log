@@ -1,0 +1,15 @@
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1196/wd/NonDex-plugin-test/github.com/JafarSadik/weewar-map-viewer/src/main/kotlin/com/github/weewar/mapviewer/service/impl/ImageRepositoryImpl.kt: (9, 12): Unresolved reference: yaml
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1196/wd/NonDex-plugin-test/github.com/JafarSadik/weewar-map-viewer/src/main/kotlin/com/github/weewar/mapviewer/service/impl/ImageRepositoryImpl.kt: (71, 13): Unresolved reference: Yaml
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 18s

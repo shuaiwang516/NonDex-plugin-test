@@ -1,0 +1,25 @@
+Errors occurred while build effective model from /root/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.1.12/8c9ef8a2e433d28228fbab0165b1781fea0dccda/druid-1.1.12.pom:
+    'dependencies.dependency.systemPath' for com.alibaba:jconsole:jar must specify an absolute path but is ${env.JAVA_HOME}/lib/jconsole.jar in com.alibaba:druid:1.1.12
+    'dependencies.dependency.systemPath' for com.alibaba:tools:jar must specify an absolute path but is ${env.JAVA_HOME}/lib/tools.jar in com.alibaba:druid:1.1.12
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task833/wd/NonDex-plugin-test/github.com/0xshawn/springboot_demo/src/main/java/com/wayknew/demo/product/respons/ProductResponseDTO.java:5: error: package javafx.print does not exist
+import javafx.print.PageOrientation;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task833/wd/NonDex-plugin-test/github.com/0xshawn/springboot_demo/src/main/java/com/wayknew/demo/order/OrderFactory.java:3: error: package com.sun.javafx.scene.control.skin does not exist
+import com.sun.javafx.scene.control.skin.IntegerFieldSkin;
+                                        ^
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task833/wd/NonDex-plugin-test/github.com/0xshawn/springboot_demo/src/main/java/com/wayknew/demo/DruidConfiguration.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

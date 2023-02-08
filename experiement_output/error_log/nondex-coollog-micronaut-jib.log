@@ -1,0 +1,25 @@
+warning: Supported source version 'RELEASE_8' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.NonIncrementalProcessor' less than -source '11'
+warning: Supported source version 'RELEASE_8' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.NonIncrementalProcessor' less than -source '11'
+warning: Supported source version 'RELEASE_8' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.NonIncrementalProcessor' less than -source '11'
+3 warnings
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/root/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.5.1/e9628b90c92dcfc7cfaf2f987a2dd2fdabbb3dd5/groovy-2.5.1.jar) to method java.util.AbstractMap.clone()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestGroovy'.
+> Could not resolve all files for configuration ':testCompileClasspath'.
+   > Could not find io.micronaut:inject-java:.
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 16s

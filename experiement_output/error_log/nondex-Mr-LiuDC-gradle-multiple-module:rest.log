@@ -1,0 +1,26 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task102/wd/NonDex-plugin-test/github.com/Mr-LiuDC/gradle-multiple-module/utils/src/main/java/cn/alittler/utils/date/DateUtils.java:99: error: cannot find symbol
+            log.log(Level.WARNING, e.getMessage());
+            ^
+  symbol:   variable log
+  location: class DateUtils
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task102/wd/NonDex-plugin-test/github.com/Mr-LiuDC/gradle-multiple-module/utils/src/main/java/cn/alittler/utils/date/DateUtils.java:124: error: cannot find symbol
+            log.log(Level.WARNING, e.getMessage());
+            ^
+  symbol:   variable log
+  location: class DateUtils
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task102/wd/NonDex-plugin-test/github.com/Mr-LiuDC/gradle-multiple-module/utils/src/main/java/cn/alittler/utils/date/DateUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':utils:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

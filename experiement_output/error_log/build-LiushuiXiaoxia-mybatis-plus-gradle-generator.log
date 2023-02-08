@@ -1,0 +1,27 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':buildSrc:compileGroovy'.
+> Could not resolve all files for configuration ':buildSrc:compileClasspath'.
+   > Could not resolve mysql:mysql-connector-java:8.0.21.
+     Required by:
+         project :buildSrc
+      > Could not resolve mysql:mysql-connector-java:8.0.21.
+         > Could not get resource 'https://maven.aliyun.com/repository/public/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.pom?Expires=1675212771&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=8YAsBc%2FSHVj23TVxclCQ5bTgsQ0%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+   > Could not resolve com.microsoft.sqlserver:mssql-jdbc:8.2.2.jre8.
+     Required by:
+         project :buildSrc
+      > Could not resolve com.microsoft.sqlserver:mssql-jdbc:8.2.2.jre8.
+         > Could not get resource 'https://maven.aliyun.com/repository/public/com/microsoft/sqlserver/mssql-jdbc/8.2.2.jre8/mssql-jdbc-8.2.2.jre8.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/com/microsoft/sqlserver/mssql-jdbc/8.2.2.jre8/mssql-jdbc-8.2.2.jre8.pom?Expires=1675212771&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=McFV1Q4iA%2Bw8Uvji36mfAH7MZUk%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 48s

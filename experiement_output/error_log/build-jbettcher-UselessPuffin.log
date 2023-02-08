@@ -1,0 +1,18 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task194/wd/NonDex-plugin-test/github.com/jbettcher/UselessPuffin/UselessPuffin/build.gradle' line: 9
+
+* What went wrong:
+A problem occurred evaluating project ':UselessPuffin'.
+> Failed to apply plugin [id 'android']
+   > Could not create plugin of type 'AppPlugin'.
+      > org/gradle/api/artifacts/result/ResolvedModuleVersionResult
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

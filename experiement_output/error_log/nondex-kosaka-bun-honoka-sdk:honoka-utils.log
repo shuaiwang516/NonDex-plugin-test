@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':honoka-utils:compileJava'.
+> Could not resolve all files for configuration ':honoka-utils:compileClasspath'.
+   > Could not find gui.ava:html2image:2.0.1.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/gui/ava/html2image/2.0.1/html2image-2.0.1.pom
+     If the artifact you are trying to retrieve can be found in the repository but without metadata in 'Maven POM' format, you need to adjust the 'metadataSources { ... }' of the repository declaration.
+     Required by:
+         project :honoka-utils
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

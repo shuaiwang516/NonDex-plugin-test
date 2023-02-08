@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1384/wd/NonDex-plugin-test/github.com/cristianuta/GradleGroovy/build.gradle' line: 4
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'com.energizedwork.webdriver-binaries', version: '1.0']
+> Failed to apply plugin [id 'com.energizedwork.webdriver-binaries']
+   > Could not generate a proxy class for class com.energizedwork.gradle.webdriver.WebDriverBinariesPluginExtension.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

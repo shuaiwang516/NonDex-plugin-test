@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'kotlin-react-bootstrap'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find org.jetbrains.kotlin:kotlin-frontend-plugin:0.0.37.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-frontend-plugin/0.0.37/kotlin-frontend-plugin-0.0.37.pom
+       - https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-frontend-plugin/0.0.37/kotlin-frontend-plugin-0.0.37.jar
+       - https://dl.bintray.com/kotlin/kotlin-eap/org/jetbrains/kotlin/kotlin-frontend-plugin/0.0.37/kotlin-frontend-plugin-0.0.37.pom
+       - https://dl.bintray.com/kotlin/kotlin-eap/org/jetbrains/kotlin/kotlin-frontend-plugin/0.0.37/kotlin-frontend-plugin-0.0.37.jar
+       - https://dl.bintray.com/kotlin/kotlinx/org/jetbrains/kotlin/kotlin-frontend-plugin/0.0.37/kotlin-frontend-plugin-0.0.37.pom
+       - https://dl.bintray.com/kotlin/kotlinx/org/jetbrains/kotlin/kotlin-frontend-plugin/0.0.37/kotlin-frontend-plugin-0.0.37.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'lp'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:2.2.7.RELEASE.
+     Required by:
+         project :
+      > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:2.2.7.RELEASE.
+         > Could not get resource 'http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-gradle-plugin/2.2.7.RELEASE/spring-boot-gradle-plugin-2.2.7.RELEASE.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/springframework/boot/spring-boot-gradle-plugin/2.2.7.RELEASE/spring-boot-gradle-plugin-2.2.7.RELEASE.pom?Expires=1675211858&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=sL841cbKNFUUqVRwSZmYsLxlgtg%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 39s

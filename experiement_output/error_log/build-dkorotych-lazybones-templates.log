@@ -1,0 +1,26 @@
+[Fatal Error] net.researchgate.release.gradle.plugin-2.7.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] com.github.dkorotych.gradle-maven-exec.gradle.plugin-1.2.2.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] net.researchgate.release.gradle.plugin-2.7.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] com.github.dkorotych.gradle-maven-exec.gradle.plugin-1.2.2.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] net.researchgate.release.gradle.plugin-2.7.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] com.github.dkorotych.gradle-maven-exec.gradle.plugin-1.2.2.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-maven-exec-plugin-1.2.2.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-maven-exec-plugin-1.2.2.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-maven-exec-plugin-1.2.2.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Project evaluation failed including an error in afterEvaluate {}. Run with --stacktrace for details of the afterEvaluate {} error.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task508/wd/NonDex-plugin-test/github.com/dkorotych/lazybones-templates/build.gradle' line: 70
+
+* What went wrong:
+A problem occurred evaluating root project 'lazybones-templates'.
+> Cannot add task 'wrapper' as a task with that name already exists.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

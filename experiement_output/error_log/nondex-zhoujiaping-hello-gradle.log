@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Could not resolve all files for configuration ':testCompileClasspath'.
+   > Could not resolve junit:junit:4.12.
+     Required by:
+         project :
+      > Could not resolve junit:junit:4.12.
+         > Could not get resource 'http://maven.aliyun.com/nexus/content/groups/public/junit/junit/4.12/junit-4.12.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/junit/junit/4.12/junit-4.12.pom?Expires=1675211415&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=wkcQ8Pzu6S4dQXj4t7ZK1Gtb%2F2o%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: connect timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4m 16s

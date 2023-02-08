@@ -1,0 +1,61 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task864/wd/NonDex-plugin-test/github.com/jasonross/NuwaGradle/src/main/groovy/cn/jiajixin/nuwa/util/NuwaProcessor.groovy: 61: unable to resolve class ClassReader 
+ @ line 61, column 21.
+           ClassReader cr = new ClassReader(inputStream);
+                       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task864/wd/NonDex-plugin-test/github.com/jasonross/NuwaGradle/src/main/groovy/cn/jiajixin/nuwa/util/NuwaProcessor.groovy: 61: unable to resolve class ClassReader 
+ @ line 61, column 26.
+           ClassReader cr = new ClassReader(inputStream);
+                            ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task864/wd/NonDex-plugin-test/github.com/jasonross/NuwaGradle/src/main/groovy/cn/jiajixin/nuwa/util/NuwaProcessor.groovy: 62: unable to resolve class ClassWriter 
+ @ line 62, column 21.
+           ClassWriter cw = new ClassWriter(cr, 0);
+                       ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task864/wd/NonDex-plugin-test/github.com/jasonross/NuwaGradle/src/main/groovy/cn/jiajixin/nuwa/util/NuwaProcessor.groovy: 62: unable to resolve class ClassWriter 
+ @ line 62, column 26.
+           ClassWriter cw = new ClassWriter(cr, 0);
+                            ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task864/wd/NonDex-plugin-test/github.com/jasonross/NuwaGradle/src/main/groovy/cn/jiajixin/nuwa/util/NuwaProcessor.groovy: 63: unable to resolve class ClassVisitor 
+ @ line 63, column 22.
+           ClassVisitor cv = new ClassVisitor(Opcodes.ASM4, cw) {
+                        ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task864/wd/NonDex-plugin-test/github.com/jasonross/NuwaGradle/src/main/groovy/cn/jiajixin/nuwa/util/NuwaProcessor.groovy: 69: unable to resolve class MethodVisitor 
+ @ line 69, column 58.
+   thodVisitor(Opcodes.ASM4, mv) {
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task864/wd/NonDex-plugin-test/github.com/jasonross/NuwaGradle/src/main/groovy/cn/jiajixin/nuwa/util/NuwaProcessor.groovy: 63: unable to resolve class ClassVisitor 
+ @ line 63, column 62.
+   lassVisitor(Opcodes.ASM4, cw) {
+                                 ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task864/wd/NonDex-plugin-test/github.com/jasonross/NuwaGradle/src/main/groovy/cn/jiajixin/nuwa/util/NuwaProcessor.groovy: 64: unable to resolve class MethodVisitor 
+ @ line 64, column 13.
+               @Override
+               ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task864/wd/NonDex-plugin-test/github.com/jasonross/NuwaGradle/src/main/groovy/cn/jiajixin/nuwa/util/NuwaProcessor.groovy: 68: unable to resolve class MethodVisitor 
+ @ line 68, column 31.
+                   MethodVisitor mv = super.visitMethod(access, name, desc, signature, exceptions);
+                                 ^
+
+9 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 17s

@@ -1,0 +1,26 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not find de.dfki.mary:jsptk:0.2-SNAPSHOT.
+     Searched in the following locations:
+       - https://jcenter.bintray.com/de/dfki/mary/jsptk/0.2-SNAPSHOT/maven-metadata.xml
+       - https://jcenter.bintray.com/de/dfki/mary/jsptk/0.2-SNAPSHOT/jsptk-0.2-SNAPSHOT.pom
+       - https://jcenter.bintray.com/de/dfki/mary/jsptk/0.2-SNAPSHOT/jsptk-0.2-SNAPSHOT.jar
+       - https://oss.jfrog.org/artifactory/oss-snapshot-local/de/dfki/mary/jsptk/0.2-SNAPSHOT/maven-metadata.xml
+       - https://oss.jfrog.org/artifactory/oss-snapshot-local/de/dfki/mary/jsptk/0.2-SNAPSHOT/jsptk-0.2-SNAPSHOT.pom
+       - https://oss.jfrog.org/artifactory/oss-snapshot-local/de/dfki/mary/jsptk/0.2-SNAPSHOT/jsptk-0.2-SNAPSHOT.jar
+       - https://repo.maven.apache.org/maven2/de/dfki/mary/jsptk/0.2-SNAPSHOT/maven-metadata.xml
+       - https://repo.maven.apache.org/maven2/de/dfki/mary/jsptk/0.2-SNAPSHOT/jsptk-0.2-SNAPSHOT.pom
+       - https://repo.maven.apache.org/maven2/de/dfki/mary/jsptk/0.2-SNAPSHOT/jsptk-0.2-SNAPSHOT.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

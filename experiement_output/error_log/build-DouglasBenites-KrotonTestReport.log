@@ -1,0 +1,257 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'KrotonTestReport'.
+> Could not resolve all dependencies for configuration ':runtimeCopy'.
+   > Could not resolve org.apache.tomcat:tomcat-annotations-api:8.0.37.
+     Required by:
+         project :
+      > Could not resolve org.apache.tomcat:tomcat-annotations-api:8.0.37.
+         > Could not get resource 'http://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.0.37/tomcat-annotations-api-8.0.37.pom'.
+            > Could not GET 'http://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.0.37/tomcat-annotations-api-8.0.37.pom'. Received status code 501 from server: HTTPS Required
+   > Could not resolve org.apache.tomcat:tomcat-catalina-ant:8.0.37.
+     Required by:
+         project :
+      > Could not resolve org.apache.tomcat:tomcat-catalina-ant:8.0.37.
+         > Could not get resource 'http://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ant/8.0.37/tomcat-catalina-ant-8.0.37.pom'.
+            > Could not GET 'http://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ant/8.0.37/tomcat-catalina-ant-8.0.37.pom'. Received status code 501 from server: HTTPS Required
+   > Could not resolve org.apache.tomcat:tomcat-catalina-ha:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-storeconfig:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-tribes:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-catalina:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.eclipse.scout.sdk.deps:ecj:4.5.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-el-api:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-jasper-el:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-jasper:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-jsp-api:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-servlet-api:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-api:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-coyote:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-dbcp:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-i18n-es:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-i18n-fr:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-i18n-ja:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-jdbc:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-jni:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-util-scan:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-util:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-websocket:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.tomcat:tomcat-websocket-api:8.0.37.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b05.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.ow2.asm:asm-debug-all:5.0.4.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.eclipse.persistence:eclipselink:2.5.2-RC1.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.hk2:hk2-api:2.5.0-b05.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.hk2:hk2-locator:2.5.0-b05.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.hk2:hk2-utils:2.5.0-b05.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.javassist:javassist:3.20.0-GA.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve javax.annotation:javax.annotation-api:1.2.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.hk2.external:javax.inject:2.5.0-b05.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.eclipse.persistence:javax.persistence:2.1.0-RC2.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve javax.servlet:javax.servlet-api:3.1.0.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve javax.ws.rs:javax.ws.rs-api:2.0.1.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve javax.xml.bind:jaxb-api:2.2.7.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.jersey.core:jersey-client:2.23.2.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.jersey.core:jersey-common:2.23.2.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.jersey.containers:jersey-container-servlet-core:2.23.2.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.jersey.containers:jersey-container-servlet:2.23.2.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.jersey.ext:jersey-entity-filtering:2.23.2.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.2.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.jersey.media:jersey-media-jaxb:2.23.2.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.jersey.media:jersey-media-moxy:2.23.2.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.jersey.core:jersey-server:2.23.2.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.json:json:20151123.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.eclipse.persistence:org.eclipse.persistence.moxy:2.6.0-RC2.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.osgi:org.osgi.core:4.2.0.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.glassfish.hk2:osgi-resource-locator:1.0.1.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve javax.validation:validation-api:1.1.0.Final.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve mysql:mysql-connector-java:5.1.39.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.slf4j:slf4j-log4j12:1.7.25.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve net.sf.jasperreports:jasperreports:6.4.0.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.apache.poi:poi:3.10.1.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve com.lowagie:itext:2.1.7.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve org.olap4j:olap4j:1.2.0.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve javax.servlet:javax.servlet-api:3.1.0.
+     Required by:
+         project :
+      > Skipped due to earlier error
+   > Could not resolve javax.websocket:javax.websocket-api:1.0.
+     Required by:
+         project :
+      > Skipped due to earlier error
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 16s

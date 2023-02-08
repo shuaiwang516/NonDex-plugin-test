@@ -1,0 +1,517 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgamesconverter/model/ChessGameMetadata.java:52: error: cannot find symbol
+      String key = meta.getKey().trim();
+                       ^
+  symbol:   method getKey()
+  location: variable meta of type Meta
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgamesconverter/model/ChessGameMetadata.java:53: error: cannot find symbol
+      String value = meta.getValue();
+                         ^
+  symbol:   method getValue()
+  location: variable meta of type Meta
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgamesconverter/model/ChessGameMetadata.java:56: error: cannot find symbol
+          chessGameMetadata.setEvent(value);
+                           ^
+  symbol:   method setEvent(String)
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgamesconverter/model/ChessGameMetadata.java:59: error: cannot find symbol
+          chessGameMetadata.setSite(value);
+                           ^
+  symbol:   method setSite(String)
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgamesconverter/model/ChessGameMetadata.java:62: error: cannot find symbol
+          chessGameMetadata.setDate(value);
+                           ^
+  symbol:   method setDate(String)
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgamesconverter/model/ChessGameMetadata.java:65: error: cannot find symbol
+          chessGameMetadata.setRound(value);
+                           ^
+  symbol:   method setRound(String)
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgamesconverter/model/ChessGameMetadata.java:68: error: cannot find symbol
+          chessGameMetadata.setWhitePlayer(value);
+                           ^
+  symbol:   method setWhitePlayer(String)
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgamesconverter/model/ChessGameMetadata.java:71: error: cannot find symbol
+          chessGameMetadata.setBlackPlayer(value);
+                           ^
+  symbol:   method setBlackPlayer(String)
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgamesconverter/model/ChessGameMetadata.java:74: error: cannot find symbol
+          chessGameMetadata.setResult(value);
+                           ^
+  symbol:   method setResult(String)
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:57: error: cannot find symbol
+      ChessGameMetadataDAO chessGameMetadataDAO = chessGamesMapper.selectChessGameById(chessGameMetadata.getGameId());
+                                                                                                        ^
+  symbol:   method getGameId()
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:61: error: cannot find symbol
+      chessGameMetadataDAO.setResult(chessGameMetadata.getResult());
+                                                      ^
+  symbol:   method getResult()
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:62: error: cannot find symbol
+      validate("result",chessGameMetadata.getResult(),PgnTagsMaxLengths.RESULT_MAX_LENGTH);
+                                         ^
+  symbol:   method getResult()
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:64: error: cannot find symbol
+      chessGameMetadataDAO.setRound(chessGameMetadata.getRound());
+                                                     ^
+  symbol:   method getRound()
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:65: error: cannot find symbol
+      validate("round",chessGameMetadata.getRound(),PgnTagsMaxLengths.GAME_ROUND_MAX_LENGTH);
+                                        ^
+  symbol:   method getRound()
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:67: error: cannot find symbol
+      chessGameMetadataDAO.setDate(chessGameMetadata.getDate());
+                                                    ^
+  symbol:   method getDate()
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:68: error: cannot find symbol
+      validate("date",chessGameMetadata.getDate(),PgnTagsMaxLengths.GAME_DATE_MAX_LENGTH);
+                                       ^
+  symbol:   method getDate()
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:79: error: cannot find symbol
+    Map<String,String> newAdditional = chessGameMetadata.getAdditional();
+                                                        ^
+  symbol:   method getAdditional()
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:83: error: cannot find symbol
+    chessGameMetadataDAO.setAdditionalInfo(AdditionalInfoConverter.fromMapToString(newAdditional));
+                        ^
+  symbol:   method setAdditionalInfo(String)
+  location: variable chessGameMetadataDAO of type ChessGameMetadataDAO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:87: error: cannot find symbol
+    String whitePlayerName = chessGameMetadata.getWhitePlayer();
+                                              ^
+  symbol:   method getWhitePlayer()
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:90: error: cannot find symbol
+    String blackPlayerName = chessGameMetadata.getBlackPlayer();
+                                              ^
+  symbol:   method getBlackPlayer()
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:93: error: cannot find symbol
+    chessGameMetadataDAO.setWhitePlayer(getNewPlayerId(whitePlayerName,sqlSession));
+                        ^
+  symbol:   method setWhitePlayer(UUID)
+  location: variable chessGameMetadataDAO of type ChessGameMetadataDAO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:94: error: cannot find symbol
+    chessGameMetadataDAO.setBlackPlayer(getNewPlayerId(blackPlayerName,sqlSession));
+                        ^
+  symbol:   method setBlackPlayer(UUID)
+  location: variable chessGameMetadataDAO of type ChessGameMetadataDAO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:97: error: cannot find symbol
+    String eventName = chessGameMetadata.getEvent();
+                                        ^
+  symbol:   method getEvent()
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:100: error: cannot find symbol
+    String site = chessGameMetadata.getSite();
+                                   ^
+  symbol:   method getSite()
+  location: variable chessGameMetadata of type ChessGameMetadata
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:103: error: constructor Event in class Event cannot be applied to given types;
+    Event event= new Event(null,eventName,site);
+                 ^
+  required: no arguments
+  found: <null>,String,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:106: error: cannot find symbol
+      chessGameMetadataDAO.setEventId(eventId);
+                          ^
+  symbol:   method setEventId(UUID)
+  location: variable chessGameMetadataDAO of type ChessGameMetadataDAO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:108: error: cannot find symbol
+      event.setId(UUID.randomUUID());
+           ^
+  symbol:   method setId(UUID)
+  location: variable event of type Event
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:110: error: cannot find symbol
+      chessGameMetadataDAO.setEventId(event.getId());
+                                           ^
+  symbol:   method getId()
+  location: variable event of type Event
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:118: error: constructor Player in class Player cannot be applied to given types;
+      Player player = new Player(UUID.randomUUID(),playerName);
+                      ^
+  required: no arguments
+  found: UUID,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:120: error: cannot find symbol
+      return player.getId();
+                   ^
+  symbol:   method getId()
+  location: variable player of type Player
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:125: error: cannot find symbol
+    databaseContainer.setDatabaseKey(deleteGamesRequest.getDatabaseName());
+                                                       ^
+  symbol:   method getDatabaseName()
+  location: variable deleteGamesRequest of type DeleteGamesRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/chessgameseditor/ChessGamesEditorBeanImpl.java:129: error: cannot find symbol
+      for(UUID gameId : deleteGamesRequest.getGamesIds()){
+                                          ^
+  symbol:   method getGamesIds()
+  location: variable deleteGamesRequest of type DeleteGamesRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:27: error: cannot find symbol
+    move.setPiece(piece - color);
+        ^
+  symbol:   method setPiece(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:28: error: cannot find symbol
+    move.setFromX(fromX);
+        ^
+  symbol:   method setFromX(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:29: error: cannot find symbol
+    move.setFromY(fromY);
+        ^
+  symbol:   method setFromY(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:30: error: cannot find symbol
+    move.setColor(color);
+        ^
+  symbol:   method setColor(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:31: error: cannot find symbol
+    move.setKSCastling(isKSCastling(piece, color, fromX, toX));
+        ^
+  symbol:   method setKSCastling(boolean)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:32: error: cannot find symbol
+    move.setQSCastling(isQSCastling(piece, color, fromX, toX));
+        ^
+  symbol:   method setQSCastling(boolean)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:33: error: cannot find symbol
+    move.setCapturedPiece(board[toX][toY]);
+        ^
+  symbol:   method setCapturedPiece(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:35: error: cannot find symbol
+      if (move.isKSCastling()) {
+              ^
+  symbol:   method isKSCastling()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:36: error: cannot find symbol
+        move.setToX(6);
+            ^
+  symbol:   method setToX(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:42: error: cannot find symbol
+        move.setToX(2);
+            ^
+  symbol:   method setToX(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:48: error: cannot find symbol
+      move.setToY(toY);
+          ^
+  symbol:   method setToY(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:49: error: cannot find symbol
+      move.setSan(getMoveSANRepresentation(move, board));
+          ^
+  symbol:   method setSan(String)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:51: error: cannot find symbol
+      move.setCapturedPiece(board[toX][toY]);
+          ^
+  symbol:   method setCapturedPiece(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:52: error: cannot find symbol
+      move.setToX(toX);
+          ^
+  symbol:   method setToX(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:53: error: cannot find symbol
+      move.setToY(toY);
+          ^
+  symbol:   method setToY(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:54: error: cannot find symbol
+      move.setSan(getMoveSANRepresentation(move, board));
+          ^
+  symbol:   method setSan(String)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:55: error: cannot find symbol
+      if (move.getPiece() == PAWN && fromX != toX && board[toX][toY] == 0) {
+              ^
+  symbol:   method getPiece()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:56: error: cannot find symbol
+        move.setCapturedPiece(board[toX][fromY]);
+            ^
+  symbol:   method setCapturedPiece(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:57: error: cannot find symbol
+        move.setEnPassant(true);
+            ^
+  symbol:   method setEnPassant(boolean)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:60: error: cannot find symbol
+      if (move.getPiece() == PAWN && (toY == 0 || toY == 7)) {
+              ^
+  symbol:   method getPiece()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:61: error: cannot find symbol
+        move.setPromotion(-1);
+            ^
+  symbol:   method setPromotion(int)
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:81: error: cannot find symbol
+    if (move.isKSCastling()) return SANConsts.KS_CASTLING;
+            ^
+  symbol:   method isKSCastling()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:82: error: cannot find symbol
+    if (move.isQSCastling()) return SANConsts.QS_CASTLING;
+            ^
+  symbol:   method isQSCastling()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:83: error: cannot find symbol
+    String out = SANHelper.getSymbol(move.getPiece() + move.getColor());
+                                         ^
+  symbol:   method getPiece()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:83: error: cannot find symbol
+    String out = SANHelper.getSymbol(move.getPiece() + move.getColor());
+                                                           ^
+  symbol:   method getColor()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:84: error: cannot find symbol
+    String field = SANHelper.getField(move.getToX(), move.getToY());
+                                          ^
+  symbol:   method getToX()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:84: error: cannot find symbol
+    String field = SANHelper.getField(move.getToX(), move.getToY());
+                                                         ^
+  symbol:   method getToY()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:86: error: cannot find symbol
+    if (move.getPiece() == KING) {
+            ^
+  symbol:   method getPiece()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:103: error: cannot find symbol
+        if (color != move.getColor()) continue;
+                         ^
+  symbol:   method getColor()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:104: error: cannot find symbol
+        if (piece != move.getPiece()
+                         ^
+  symbol:   method getPiece()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:105: error: cannot find symbol
+            && !((piece == KS_ROOK && move.getPiece() == QS_ROOK)
+                                          ^
+  symbol:   method getPiece()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:106: error: cannot find symbol
+            || (piece == QS_ROOK && move.getPiece() == KS_ROOK))) continue;
+                                        ^
+  symbol:   method getPiece()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:107: error: cannot find symbol
+        if (move.getFromX() == x && move.getFromY() == y) continue;
+                ^
+  symbol:   method getFromX()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:107: error: cannot find symbol
+        if (move.getFromX() == x && move.getFromY() == y) continue;
+                                        ^
+  symbol:   method getFromY()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:112: error: cannot find symbol
+          if (toX == move.getToX() && toY == move.getToY()) {
+                         ^
+  symbol:   method getToX()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:112: error: cannot find symbol
+          if (toX == move.getToX() && toY == move.getToY()) {
+                                                 ^
+  symbol:   method getToY()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:121: error: cannot find symbol
+    if (move.getPiece() == Piece.PAWN && move.isCapture()) return String.valueOf(SANHelper.getFile(move.getFromX()));
+            ^
+  symbol:   method getPiece()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:121: error: cannot find symbol
+    if (move.getPiece() == Piece.PAWN && move.isCapture()) return String.valueOf(SANHelper.getFile(move.getFromX()));
+                                                                                                       ^
+  symbol:   method getFromX()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:123: error: cannot find symbol
+    if (list.size() > 4) return SANHelper.getField(move.getFromX(), move.getFromY());
+                                                       ^
+  symbol:   method getFromX()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:123: error: cannot find symbol
+    if (list.size() > 4) return SANHelper.getField(move.getFromX(), move.getFromY());
+                                                                        ^
+  symbol:   method getFromY()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:124: error: cannot find symbol
+    if (list.get(0) == move.getFromX()) return String.valueOf(move.getFromY());
+                           ^
+  symbol:   method getFromX()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:124: error: cannot find symbol
+    if (list.get(0) == move.getFromX()) return String.valueOf(move.getFromY());
+                                                                  ^
+  symbol:   method getFromY()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MoveFactory.java:125: error: cannot find symbol
+    return String.valueOf(SANHelper.getFile(move.getFromX()));
+                                                ^
+  symbol:   method getFromX()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/PossibleMovesProviderImpl.java:222: error: cannot find symbol
+      if (lastMove.getPiece() == PAWN
+                  ^
+  symbol:   method getPiece()
+  location: variable lastMove of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/PossibleMovesProviderImpl.java:223: error: cannot find symbol
+          && Math.abs(lastMove.getFromY() - lastMove.getToY()) == 2
+                              ^
+  symbol:   method getFromY()
+  location: variable lastMove of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/PossibleMovesProviderImpl.java:223: error: cannot find symbol
+          && Math.abs(lastMove.getFromY() - lastMove.getToY()) == 2
+                                                    ^
+  symbol:   method getToY()
+  location: variable lastMove of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/PossibleMovesProviderImpl.java:224: error: cannot find symbol
+          && lastMove.getToY() == y) {
+                     ^
+  symbol:   method getToY()
+  location: variable lastMove of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/PossibleMovesProviderImpl.java:225: error: cannot find symbol
+        if (x + 1 == lastMove.getToX()
+                             ^
+  symbol:   method getToX()
+  location: variable lastMove of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/PossibleMovesProviderImpl.java:232: error: cannot find symbol
+        if (x - 1 == lastMove.getToX()
+                             ^
+  symbol:   method getToX()
+  location: variable lastMove of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/MovesFilter.java:33: error: constructor RevertedMove in class RevertedMove cannot be applied to given types;
+        reverted.add(new RevertedMove(prev, pos));
+                     ^
+  required: no arguments
+  found: Move,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:50: error: cannot find symbol
+          throw new WrongMoveException(m.getSan());
+                                        ^
+  symbol:   method getSan()
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:52: error: cannot find symbol
+        parsedChessGame.makeMove(m, m.getFromX(), m.getFromY(), m.getToX(), m.getToY());
+                                     ^
+  symbol:   method getFromX()
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:52: error: cannot find symbol
+        parsedChessGame.makeMove(m, m.getFromX(), m.getFromY(), m.getToX(), m.getToY());
+                                                   ^
+  symbol:   method getFromY()
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:52: error: cannot find symbol
+        parsedChessGame.makeMove(m, m.getFromX(), m.getFromY(), m.getToX(), m.getToY());
+                                                                 ^
+  symbol:   method getToX()
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:52: error: cannot find symbol
+        parsedChessGame.makeMove(m, m.getFromX(), m.getFromY(), m.getToX(), m.getToY());
+                                                                             ^
+  symbol:   method getToY()
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:53: error: cannot find symbol
+        if(!m.isCapture() && m.getPiece()!= Piece.PAWN)
+                              ^
+  symbol:   method getPiece()
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:58: error: cannot find symbol
+        fenElements.setMovesWithoutCapture(movesWithoutCapture);
+                   ^
+  symbol:   method setMovesWithoutCapture(int)
+  location: variable fenElements of type FenElements
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:60: error: cannot find symbol
+        fenElements.setCastlingInfo(parsedChessGame.getCastlingInfo());
+                   ^
+  symbol:   method setCastlingInfo(String)
+  location: variable fenElements of type FenElements
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:61: error: cannot find symbol
+        m.setFenElements(fenElements);
+         ^
+  symbol:   method setFenElements(FenElements)
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:73: error: cannot find symbol
+    if (m.getSan().equals("*")
+         ^
+  symbol:   method getSan()
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:74: error: cannot find symbol
+        || m.getSan().equals("1-0")
+            ^
+  symbol:   method getSan()
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:75: error: cannot find symbol
+        || m.getSan().equals("0-1")
+            ^
+  symbol:   method getSan()
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:76: error: cannot find symbol
+        || m.getSan().equals("1/2-1/2")
+            ^
+  symbol:   method getSan()
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:77: error: cannot find symbol
+        || m.getSan().equals("Z0")) {
+            ^
+  symbol:   method getSan()
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:80: error: cannot find symbol
+    m.setColor(color);
+     ^
+  symbol:   method setColor(int)
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:87: error: cannot find symbol
+    String san = m.getSan();
+                  ^
+  symbol:   method getSan()
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:89: error: cannot find symbol
+      m.setKSCastling(true);
+       ^
+  symbol:   method setKSCastling(boolean)
+  location: variable m of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task740/wd/NonDex-plugin-test/github.com/pgnDataBase/pgnDB/src/main/java/com/engwork/pgndb/pgnparser/SANMoveMaker.java:90: error: cannot find symbol
+      m.setFromY(color == PieceColor.WHITE ? 0 : 7);
+       ^
+  symbol:   method setFromY(int)
+  location: variable m of type Move
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

@@ -1,0 +1,25 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task119/wd/NonDex-plugin-test/github.com/cqse/harvest-git-bridge/gradle/harvest.gradle' line: 3
+
+* What went wrong:
+Could not compile script '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task119/wd/NonDex-plugin-test/github.com/cqse/harvest-git-bridge/gradle/harvest.gradle'.
+> startup failed:
+  script '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task119/wd/NonDex-plugin-test/github.com/cqse/harvest-git-bridge/gradle/harvest.gradle': 3: unable to resolve class com.xlson.groovycsv.CsvParser
+   @ line 3, column 1.
+     import com.xlson.groovycsv.CsvParser
+     ^
+  
+  1 error
+
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

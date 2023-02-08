@@ -1,0 +1,32 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Exception in thread "main" java.lang.NoClassDefFoundError: javax/xml/ws/Service
+	at org.apache.cxf.tools.wsdlto.frontend.jaxws.JAXWSContainer.getServiceSuperclass(JAXWSContainer.java:58)
+	at org.apache.cxf.tools.wsdlto.frontend.jaxws.JAXWSContainer.validate(JAXWSContainer.java:69)
+	at org.apache.cxf.tools.wsdlto.frontend.jaxws.JAXWS21Container.validate(JAXWS21Container.java:38)
+	at org.apache.cxf.tools.wsdlto.WSDLToJavaContainer.processWsdl(WSDLToJavaContainer.java:172)
+	at org.apache.cxf.tools.wsdlto.WSDLToJavaContainer.execute(WSDLToJavaContainer.java:147)
+	at org.apache.cxf.tools.wsdlto.WSDLToJavaContainer.execute(WSDLToJavaContainer.java:412)
+	at org.apache.cxf.tools.common.toolspec.ToolRunner.runTool(ToolRunner.java:105)
+	at org.apache.cxf.tools.wsdlto.WSDLToJava.run(WSDLToJava.java:113)
+	at org.apache.cxf.tools.wsdlto.WSDLToJava.run(WSDLToJava.java:86)
+	at org.apache.cxf.tools.wsdlto.WSDLToJava.main(WSDLToJava.java:185)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Service
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 10 more
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':soapclient:wsdl2java'.
+> Process 'command '/usr/lib/jvm/java-11-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

@@ -1,0 +1,246 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleSettings.java:3: error: package mchorse.app.utils does not exist
+import mchorse.app.utils.ValueModButtons;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleSettings.java:4: error: package mchorse.bbs.config does not exist
+import mchorse.bbs.config.ConfigBuilder;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleSettings.java:5: error: package mchorse.bbs.config.values does not exist
+import mchorse.bbs.config.values.ValueBoolean;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleSettings.java:25: error: cannot find symbol
+    public static ValueBoolean registerPanel;
+                  ^
+  symbol:   class ValueBoolean
+  location: class SampleSettings
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleSettings.java:27: error: cannot find symbol
+    public static void register(ConfigBuilder builder)
+                                ^
+  symbol:   class ConfigBuilder
+  location: class SampleSettings
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/SampleIcons.java:3: error: package mchorse.bbs.resources does not exist
+import mchorse.bbs.resources.Link;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/SampleIcons.java:4: error: package mchorse.bbs.ui.utils.icons does not exist
+import mchorse.bbs.ui.utils.icons.Icon;
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/SampleIcons.java:5: error: package mchorse.bbs.ui.utils.icons does not exist
+import mchorse.bbs.ui.utils.icons.Icons;
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/SampleIcons.java:10: error: cannot find symbol
+    public static final Link ATLAS = new Link(SampleMod.MOD_ID, "textures/icons.png");
+                        ^
+  symbol:   class Link
+  location: class SampleIcons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/SampleIcons.java:20: error: cannot find symbol
+    public static final Icon SMILEY = Icons.register(new Icon(ATLAS, SampleMod.MOD_ID + ".smiley", 0, 0));
+                        ^
+  symbol:   class Icon
+  location: class SampleIcons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:3: error: package mchorse.bbs.l10n.keys does not exist
+import mchorse.bbs.l10n.keys.IKey;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:4: error: package mchorse.bbs.ui.dashboard does not exist
+import mchorse.bbs.ui.dashboard.UIDashboard;
+                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:5: error: package mchorse.bbs.ui.dashboard does not exist
+import mchorse.bbs.ui.dashboard.UIDashboardPanel;
+                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:6: error: package mchorse.bbs.ui.framework.elements.buttons does not exist
+import mchorse.bbs.ui.framework.elements.buttons.UIButton;
+                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:7: error: package mchorse.bbs.ui.framework.elements.overlay does not exist
+import mchorse.bbs.ui.framework.elements.overlay.UIMessageOverlayPanel;
+                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:8: error: package mchorse.bbs.ui.framework.elements.overlay does not exist
+import mchorse.bbs.ui.framework.elements.overlay.UIOverlay;
+                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:10: error: cannot find symbol
+public class UISampleDashboardPanel extends UIDashboardPanel<UIDashboard>
+                                            ^
+  symbol: class UIDashboardPanel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:10: error: cannot find symbol
+public class UISampleDashboardPanel extends UIDashboardPanel<UIDashboard>
+                                                             ^
+  symbol: class UIDashboard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:12: error: cannot find symbol
+    public UIButton pressMe;
+           ^
+  symbol:   class UIButton
+  location: class UISampleDashboardPanel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:14: error: cannot find symbol
+    public UISampleDashboardPanel(UIDashboard dashboard)
+                                  ^
+  symbol:   class UIDashboard
+  location: class UISampleDashboardPanel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:25: error: cannot find symbol
+    private void handlePressMe(UIButton b)
+                               ^
+  symbol:   class UIButton
+  location: class UISampleDashboardPanel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:3: error: package mchorse.bbs does not exist
+import mchorse.bbs.BBS;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:4: error: package mchorse.bbs.events.register does not exist
+import mchorse.bbs.events.register.RegisterConfigsEvent;
+                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:5: error: package mchorse.bbs.events.register does not exist
+import mchorse.bbs.events.register.RegisterCoreEvent;
+                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:6: error: package mchorse.bbs.events.register does not exist
+import mchorse.bbs.events.register.RegisterDashboardPanels;
+                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:7: error: package mchorse.bbs.events.register does not exist
+import mchorse.bbs.events.register.RegisterL10nEvent;
+                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:8: error: package mchorse.bbs.l10n.keys does not exist
+import mchorse.bbs.l10n.keys.IKey;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:9: error: package mchorse.bbs.resources does not exist
+import mchorse.bbs.resources.Link;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:10: error: package mchorse.bbs.resources.packs does not exist
+import mchorse.bbs.resources.packs.InternalAssetsSourcePack;
+                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:11: error: package mchorse.bbs.ui.dashboard does not exist
+import mchorse.bbs.ui.dashboard.UIDashboard;
+                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:32: error: cannot find symbol
+    public void registerCore(RegisterCoreEvent event)
+                             ^
+  symbol:   class RegisterCoreEvent
+  location: class SampleMod
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:42: error: cannot find symbol
+    public void registerL10n(RegisterL10nEvent event)
+                             ^
+  symbol:   class RegisterL10nEvent
+  location: class SampleMod
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:51: error: cannot find symbol
+    public void registerConfiguration(RegisterConfigsEvent event)
+                                      ^
+  symbol:   class RegisterConfigsEvent
+  location: class SampleMod
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:61: error: cannot find symbol
+    public void registerDashboardPanels(RegisterDashboardPanels event)
+                                        ^
+  symbol:   class RegisterDashboardPanels
+  location: class SampleMod
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/mixins/UIDashboardMixin.java:3: error: package mchorse.bbs.ui.dashboard does not exist
+import mchorse.bbs.ui.dashboard.UIDashboard;
+                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/mixins/UIDashboardMixin.java:9: error: cannot find symbol
+@Mixin(UIDashboard.class)
+       ^
+  symbol: class UIDashboard
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleSettings.java:30: error: cannot find symbol
+        builder.category("general").register(new ValueModButtons(SampleMod.MOD_ID));
+                                                 ^
+  symbol:   class ValueModButtons
+  location: class SampleSettings
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/SampleIcons.java:10: error: cannot find symbol
+    public static final Link ATLAS = new Link(SampleMod.MOD_ID, "textures/icons.png");
+                                         ^
+  symbol:   class Link
+  location: class SampleIcons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/SampleIcons.java:20: error: cannot find symbol
+    public static final Icon SMILEY = Icons.register(new Icon(ATLAS, SampleMod.MOD_ID + ".smiley", 0, 0));
+                                                         ^
+  symbol:   class Icon
+  location: class SampleIcons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/SampleIcons.java:20: error: cannot find symbol
+    public static final Icon SMILEY = Icons.register(new Icon(ATLAS, SampleMod.MOD_ID + ".smiley", 0, 0));
+                                      ^
+  symbol:   variable Icons
+  location: class SampleIcons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:18: error: cannot find symbol
+        this.pressMe = new UIButton(IKey.lang("sample_mod.ui.panels.sample.press_me"), this::handlePressMe);
+                           ^
+  symbol:   class UIButton
+  location: class UISampleDashboardPanel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:18: error: cannot find symbol
+        this.pressMe = new UIButton(IKey.lang("sample_mod.ui.panels.sample.press_me"), this::handlePressMe);
+                                    ^
+  symbol:   variable IKey
+  location: class UISampleDashboardPanel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:20: error: cannot find symbol
+        this.pressMe.tooltip(IKey.lang("sample_mod.ui.panels.sample.press_me-tooltip"));
+                             ^
+  symbol:   variable IKey
+  location: class UISampleDashboardPanel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:27: error: cannot find symbol
+        UIMessageOverlayPanel panel = new UIMessageOverlayPanel(
+        ^
+  symbol:   class UIMessageOverlayPanel
+  location: class UISampleDashboardPanel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:27: error: cannot find symbol
+        UIMessageOverlayPanel panel = new UIMessageOverlayPanel(
+                                          ^
+  symbol:   class UIMessageOverlayPanel
+  location: class UISampleDashboardPanel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:28: error: cannot find symbol
+            IKey.lang("sample_mod.ui.panels.sample.modal.title"),
+            ^
+  symbol:   variable IKey
+  location: class UISampleDashboardPanel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:29: error: cannot find symbol
+            IKey.lang("sample_mod.ui.panels.sample.modal.description")
+            ^
+  symbol:   variable IKey
+  location: class UISampleDashboardPanel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:32: error: cannot find symbol
+        UIOverlay.addOverlay(this.getContext(), panel);
+        ^
+  symbol:   variable UIOverlay
+  location: class UISampleDashboardPanel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/ui/UISampleDashboardPanel.java:32: error: cannot find symbol
+        UIOverlay.addOverlay(this.getContext(), panel);
+                                 ^
+  symbol: method getContext()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:28: error: package BBS does not exist
+        BBS.events.register(this);
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:38: error: cannot find symbol
+        BBS.getProvider().register(new InternalAssetsSourcePack(MOD_ID, this.getClass().getClassLoader()));
+                                       ^
+  symbol:   class InternalAssetsSourcePack
+  location: class SampleMod
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:38: error: cannot find symbol
+        BBS.getProvider().register(new InternalAssetsSourcePack(MOD_ID, this.getClass().getClassLoader()));
+        ^
+  symbol:   variable BBS
+  location: class SampleMod
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:47: error: cannot find symbol
+        event.l10n.register(new Link(MOD_ID, "lang/all.json"));
+                                ^
+  symbol:   class Link
+  location: class SampleMod
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:65: error: cannot find symbol
+        if (SampleSettings.registerPanel.get() && event.dashboard instanceof UIDashboard)
+                                                                             ^
+  symbol:   class UIDashboard
+  location: class SampleMod
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:67: error: cannot find symbol
+            UISampleDashboardPanel panel = new UISampleDashboardPanel((UIDashboard) event.dashboard);
+                                                                       ^
+  symbol:   class UIDashboard
+  location: class SampleMod
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task372/wd/NonDex-plugin-test/github.com/mchorse/bbs-sample-mod/src/main/java/net/example/sample_mod/SampleMod.java:69: error: cannot find symbol
+            event.dashboard.panels.registerPanel(panel, IKey.lang("sample_mod.ui.panels.sample.title"), SampleIcons.SMILEY);
+                                                        ^
+  symbol:   variable IKey
+  location: class SampleMod
+56 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

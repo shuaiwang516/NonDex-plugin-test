@@ -1,0 +1,8 @@
+Exception in thread "main" java.io.IOException: Server returned HTTP response code: 403 for URL: http://services.gradle.org/distributions/gradle-1.0-bin.zip
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1924)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at org.gradle.wrapper.Download.downloadInternal(Download.java:61)
+	at org.gradle.wrapper.Download.download(Download.java:49)
+	at org.gradle.wrapper.Install.createDist(Install.java:51)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:47)

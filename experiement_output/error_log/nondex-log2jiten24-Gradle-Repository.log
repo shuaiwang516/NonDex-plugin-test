@@ -1,0 +1,79 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/ocrdemo/ReadImages.java:25: error: unmappable character (0x91) for encoding UTF-8
+		String dataupd = mydata[1].replaceAll("�", "23");
+		                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/functionlibrary/Reusablefunctions.java:13: error: package org.apache.poi.openxml4j.exceptions does not exist
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/functionlibrary/Reusablefunctions.java:14: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/functionlibrary/Reusablefunctions.java:15: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/javaconcepts/ExcelReadHashMap.java:9: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFRow;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/javaconcepts/ExcelReadHashMap.java:10: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/javaconcepts/ExcelReadHashMap.java:11: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/javaconcepts/ExcelReadHashMap.java:18: error: cannot find symbol
+	private static XSSFWorkbook workbook ;
+	               ^
+  symbol:   class XSSFWorkbook
+  location: class ExcelReadHashMap
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/javaconcepts/ExcelReadHashMap.java:19: error: cannot find symbol
+	private static XSSFSheet sheet ;
+	               ^
+  symbol:   class XSSFSheet
+  location: class ExcelReadHashMap
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/javaconcepts/ExcelReadHashMap.java:20: error: cannot find symbol
+	private static XSSFRow row ;
+	               ^
+  symbol:   class XSSFRow
+  location: class ExcelReadHashMap
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/functionlibrary/Reusablefunctions.java:110: error: cannot find symbol
+	       XSSFWorkbook wb = null;
+	       ^
+  symbol:   class XSSFWorkbook
+  location: class Reusablefunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/functionlibrary/Reusablefunctions.java:112: error: cannot find symbol
+			wb = new XSSFWorkbook(src);
+			         ^
+  symbol:   class XSSFWorkbook
+  location: class Reusablefunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/functionlibrary/Reusablefunctions.java:113: error: cannot find symbol
+		} catch (InvalidFormatException e) {
+		         ^
+  symbol:   class InvalidFormatException
+  location: class Reusablefunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/functionlibrary/Reusablefunctions.java:122: error: cannot find symbol
+	       XSSFSheet sh1 = wb.getSheetAt(sheetname);
+	       ^
+  symbol:   class XSSFSheet
+  location: class Reusablefunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task547/wd/NonDex-plugin-test/github.com/log2jiten24/Gradle-Repository/src/test/java/javaconcepts/ExcelReadHashMap.java:29: error: cannot find symbol
+	workbook = new XSSFWorkbook(file);
+	               ^
+  symbol:   class XSSFWorkbook
+  location: class ExcelReadHashMap
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 17s

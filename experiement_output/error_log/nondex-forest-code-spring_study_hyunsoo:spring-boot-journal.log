@@ -1,0 +1,44 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-journal/src/main/java/com/spring/boot/journal/SpringBootJournalApplication.java:70: error: cannot find symbol
+			repo.save(Journal.builder()
+			                 ^
+  symbol:   method builder()
+  location: class Journal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-journal/src/main/java/com/spring/boot/journal/SpringBootJournalApplication.java:75: error: cannot find symbol
+			repo.save(Journal.builder()
+			                 ^
+  symbol:   method builder()
+  location: class Journal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-journal/src/main/java/com/spring/boot/journal/SpringBootJournalApplication.java:80: error: cannot find symbol
+			repo.save(Journal.builder()
+			                 ^
+  symbol:   method builder()
+  location: class Journal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-journal/src/main/java/com/spring/boot/journal/SpringBootJournalApplication.java:85: error: cannot find symbol
+			repo.save(Journal.builder()
+			                 ^
+  symbol:   method builder()
+  location: class Journal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-journal/src/main/java/com/spring/boot/journal/SpringBootJournalApplication.java:162: error: cannot find symbol
+			log.info(" > 애플리케이션명: " + props.getName());
+			                               ^
+  symbol:   method getName()
+  location: variable props of type MyAppProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-journal/src/main/java/com/spring/boot/journal/SpringBootJournalApplication.java:163: error: cannot find symbol
+			log.info(" > 애플리케이션 정보: " + props.getDescription());
+			                                 ^
+  symbol:   method getDescription()
+  location: variable props of type MyAppProperties
+6 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':spring-boot-journal:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

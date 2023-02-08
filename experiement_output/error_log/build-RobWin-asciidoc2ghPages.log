@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1281/wd/NonDex-plugin-test/github.com/RobWin/asciidoc2ghPages/build.gradle' line: 29
+
+* What went wrong:
+A problem occurred evaluating root project 'asciidoc2ghPages'.
+> Failed to apply plugin [id 'com.bluepapa32.watch']
+   > Could not find method leftShift() for arguments [com.bluepapa32.gradle.plugins.watch.WatchPlugin$_apply_closure2@e539df1] on task ':watchRun' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

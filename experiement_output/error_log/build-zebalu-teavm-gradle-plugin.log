@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'teavm-gradle-plugin'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find dev.gradleplugins:gradle-plugin-development:0.0.21.
+     Searched in the following locations:
+       - https://jcenter.bintray.com/dev/gradleplugins/gradle-plugin-development/0.0.21/gradle-plugin-development-0.0.21.pom
+       - https://jcenter.bintray.com/dev/gradleplugins/gradle-plugin-development/0.0.21/gradle-plugin-development-0.0.21.jar
+       - https://plugins.gradle.org/m2/dev/gradleplugins/gradle-plugin-development/0.0.21/gradle-plugin-development-0.0.21.pom
+       - https://plugins.gradle.org/m2/dev/gradleplugins/gradle-plugin-development/0.0.21/gradle-plugin-development-0.0.21.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

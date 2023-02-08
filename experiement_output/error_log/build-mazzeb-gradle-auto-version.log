@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'auto-version'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find gradle.plugin.com.github.mazzeb:auto-version:0.3.0.
+     Searched in the following locations:
+       - https://plugins.gradle.org/m2/gradle/plugin/com/github/mazzeb/auto-version/0.3.0/auto-version-0.3.0.pom
+       - https://plugins.gradle.org/m2/gradle/plugin/com/github/mazzeb/auto-version/0.3.0/auto-version-0.3.0.jar
+       - file:/root/.m2/repository/gradle/plugin/com/github/mazzeb/auto-version/0.3.0/auto-version-0.3.0.pom
+       - file:/root/.m2/repository/gradle/plugin/com/github/mazzeb/auto-version/0.3.0/auto-version-0.3.0.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

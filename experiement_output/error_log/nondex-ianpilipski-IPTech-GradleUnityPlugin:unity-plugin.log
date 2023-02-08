@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':unity-plugin:compileGroovy'.
+> Could not resolve all files for configuration ':unity-plugin:compileClasspath'.
+   > Could not resolve com.iptech.gradle:xcode-plugin:0.1.2-SNAPSHOT.
+     Required by:
+         project :unity-plugin
+      > Could not resolve com.iptech.gradle:xcode-plugin:0.1.2-SNAPSHOT.
+         > Unable to load Maven meta-data from https://maven.pkg.github.com/ianpilipski/IPTech-GradleXCodePlugin/com/iptech/gradle/xcode-plugin/0.1.2-SNAPSHOT/maven-metadata.xml.
+            > Could not get resource 'https://maven.pkg.github.com/ianpilipski/IPTech-GradleXCodePlugin/com/iptech/gradle/xcode-plugin/0.1.2-SNAPSHOT/maven-metadata.xml'.
+               > Username must not be null!
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

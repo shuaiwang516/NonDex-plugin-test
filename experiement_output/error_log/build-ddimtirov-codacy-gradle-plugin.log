@@ -1,0 +1,18 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task22/wd/NonDex-plugin-test/github.com/ddimtirov/codacy-gradle-plugin/build.gradle' line: 2
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'com.gradle.build-scan', version: '1.6']
+> Failed to apply plugin [id 'com.gradle.build-scan']
+   > This version of Gradle requires version 2.0.2 of the build scan plugin or later.
+     Please see https://gradle.com/scans/help/gradle-incompatible-plugin-version for more information.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

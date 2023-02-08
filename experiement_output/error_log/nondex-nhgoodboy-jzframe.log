@@ -1,0 +1,536 @@
+Errors occurred while build effective model from /root/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.1.10/ac5e374df42891b0c31e2247e1cc71802f023677/druid-1.1.10.pom:
+    'dependencies.dependency.systemPath' for com.alibaba:jconsole:jar must specify an absolute path but is ${env.JAVA_HOME}/lib/jconsole.jar in com.alibaba:druid:1.1.10
+    'dependencies.dependency.systemPath' for com.alibaba:tools:jar must specify an absolute path but is ${env.JAVA_HOME}/lib/tools.jar in com.alibaba:druid:1.1.10
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/JzframeApplication.java:20: error: cannot find symbol
+        log.info("JzframeApplication启动成功");
+        ^
+  symbol:   variable log
+  location: class JzframeApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/entity/Result.java:19: error: cannot find symbol
+        this.code = resultEnum.getCode();
+                              ^
+  symbol:   method getCode()
+  location: variable resultEnum of type ResultEnum
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/entity/Result.java:20: error: cannot find symbol
+        this.message = resultEnum.getMsg();
+                                 ^
+  symbol:   method getMsg()
+  location: variable resultEnum of type ResultEnum
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/enums/ResultEnum.java:12: error: constructor ResultEnum in enum ResultEnum cannot be applied to given types;
+    SUCCESS(0, "成功"),
+           ^
+  required: no arguments
+  found: int,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/enums/ResultEnum.java:13: error: constructor ResultEnum in enum ResultEnum cannot be applied to given types;
+    UNKNOWN_ERROR(-1, "未知错误"),
+                 ^
+  required: no arguments
+  found: int,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/enums/ResultEnum.java:15: error: constructor ResultEnum in enum ResultEnum cannot be applied to given types;
+    USERNAME_PASSWORD_ERROR(601, "账号或密码错误"),
+                           ^
+  required: no arguments
+  found: int,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/enums/ResultEnum.java:17: error: constructor ResultEnum in enum ResultEnum cannot be applied to given types;
+    TOKEN_EXPIRED(700, "token过期"),
+                 ^
+  required: no arguments
+  found: int,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/enums/ResultEnum.java:18: error: constructor ResultEnum in enum ResultEnum cannot be applied to given types;
+    TOKEN_ERROR(701, "token验证失败"),
+               ^
+  required: no arguments
+  found: int,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/enums/ResultEnum.java:19: error: constructor ResultEnum in enum ResultEnum cannot be applied to given types;
+    TOKEN_WITHOUT(702, "请求头没有携带token"),
+                 ^
+  required: no arguments
+  found: int,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/enums/ResultEnum.java:21: error: constructor ResultEnum in enum ResultEnum cannot be applied to given types;
+    FORBIDDEN(800, "非法操作"),
+             ^
+  required: no arguments
+  found: int,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/enums/ResultEnum.java:22: error: constructor ResultEnum in enum ResultEnum cannot be applied to given types;
+    DEPT_USER_USED(801, "请先删除该部门下的用户"),
+                  ^
+  required: no arguments
+  found: int,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/enums/ResultEnum.java:23: error: constructor ResultEnum in enum ResultEnum cannot be applied to given types;
+    DEPT_ROLE_USED(802, "请先删除该部门下的角色"),
+                  ^
+  required: no arguments
+  found: int,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/enums/ResultEnum.java:25: error: constructor ResultEnum in enum ResultEnum cannot be applied to given types;
+    DATABASE_QUERRY_ERROR(900, "数据库查询错误"),
+                         ^
+  required: no arguments
+  found: int,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/enums/ResultEnum.java:27: error: constructor ResultEnum in enum ResultEnum cannot be applied to given types;
+    UNAUTHZ(1001, "用户没有访问权限"),
+           ^
+  required: no arguments
+  found: int,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/domain/enums/ResultEnum.java:28: error: constructor ResultEnum in enum ResultEnum cannot be applied to given types;
+    SHIRO_ERR(1002, "鉴权或授权过程出错");
+             ^
+  required: no arguments
+  found: int,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/controller/LoginController.java:44: error: cannot find symbol
+            log.error(e.getMessage());
+            ^
+  symbol:   variable log
+  location: class LoginController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/controller/LoginController.java:50: error: cannot find symbol
+        result.put("token", JwtTokenUtil.generateToken(String.valueOf(user.getId())));
+                                                                          ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/controller/LoginController.java:72: error: cannot find symbol
+            log.info(String.valueOf(e));
+            ^
+  symbol:   variable log
+  location: class LoginController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/utils/ResultUtil.java:10: error: cannot find symbol
+        result.setData(object);
+              ^
+  symbol:   method setData(Object)
+  location: variable result of type Result
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/utils/ResultUtil.java:19: error: constructor Result in class Result<T> cannot be applied to given types;
+        Result result = new Result();
+                        ^
+  required: ResultEnum
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+  where T is a type-variable:
+    T extends Object declared in class Result
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/utils/ResultUtil.java:20: error: cannot find symbol
+        result.setCode(code);
+              ^
+  symbol:   method setCode(Integer)
+  location: variable result of type Result
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/utils/ResultUtil.java:21: error: cannot find symbol
+        result.setMessage(message);
+              ^
+  symbol:   method setMessage(String)
+  location: variable result of type Result
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/utils/SmallPictUtil.java:78: error: cannot find symbol
+            log.error("permission denied, create directory failed");
+            ^
+  symbol:   variable log
+  location: class SmallPictUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:51: error: cannot find symbol
+                .getSmallPictUrl(user.getUserHeadPictId(), Global.DEFAULT_SMALL_PICT_SIZE, Global.DEFAULT_SMALL_PICT_SIZE));
+                                     ^
+  symbol:   method getUserHeadPictId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:52: error: cannot find symbol
+        userInfoRespDto.setAccount(user.getAccount());
+                                       ^
+  symbol:   method getAccount()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:53: error: cannot find symbol
+        userInfoRespDto.setName(user.getName());
+                                    ^
+  symbol:   method getName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:54: error: cannot find symbol
+        userInfoRespDto.setSex(SexEnum.fromCode(user.getSex()));
+                                                    ^
+  symbol:   method getSex()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:55: error: cannot find symbol
+        Role role = roleRepository.findById(user.getRoleId()).orElseThrow(() -> new GlobalException(ResultEnum.DATABASE_QUERRY_ERROR));
+                                                ^
+  symbol:   method getRoleId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:56: error: cannot find symbol
+        userInfoRespDto.setRole(role.getName());
+                                    ^
+  symbol:   method getName()
+  location: variable role of type Role
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:57: error: cannot find symbol
+        userInfoRespDto.setDept(deptRepository.findById(user.getDeptId()).orElseThrow(() -> new GlobalException(ResultEnum.DATABASE_QUERRY_ERROR)).getFullName());
+                                                            ^
+  symbol:   method getDeptId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:58: error: cannot find symbol
+        userInfoRespDto.setEmail(user.getEmail());
+                                     ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:59: error: cannot find symbol
+        userInfoRespDto.setPhone(user.getPhone());
+                                     ^
+  symbol:   method getPhone()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:60: error: cannot find symbol
+        userInfoRespDto.setBirthday(user.getBirthday());
+                                        ^
+  symbol:   method getBirthday()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:61: error: cannot find symbol
+        userInfoRespDto.setCreateTime(user.getCreateTime());
+                                          ^
+  symbol:   method getCreateTime()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:62: error: cannot find symbol
+        userInfoRespDto.setPermissions(SpringContextHolder.getBean(IPermissionService.class).getCodesByRoleId(role.getId()));
+                                                                                                                  ^
+  symbol:   method getId()
+  location: variable role of type Role
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:69: error: cannot find symbol
+        User user = userRepository.findById(JwtTokenUtil.getUserIdFromToken(userInfoReqDto.getToken())).orElseThrow(() -> new GlobalException(ResultEnum.DATABASE_QUERRY_ERROR));
+                                                                                          ^
+  symbol:   method getToken()
+  location: variable userInfoReqDto of type UserInfoReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:70: error: cannot find symbol
+        user.setName(userInfoReqDto.getName());
+                                   ^
+  symbol:   method getName()
+  location: variable userInfoReqDto of type UserInfoReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:71: error: cannot find symbol
+        user.setSex(SexEnum.toCode(userInfoReqDto.getSex()));
+                                                 ^
+  symbol:   method getSex()
+  location: variable userInfoReqDto of type UserInfoReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:72: error: cannot find symbol
+        user.setEmail(userInfoReqDto.getEmail());
+                                    ^
+  symbol:   method getEmail()
+  location: variable userInfoReqDto of type UserInfoReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:73: error: cannot find symbol
+        user.setPhone(userInfoReqDto.getPhone());
+                                    ^
+  symbol:   method getPhone()
+  location: variable userInfoReqDto of type UserInfoReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:74: error: cannot find symbol
+        user.setBirthday(userInfoReqDto.getBirthday());
+                                       ^
+  symbol:   method getBirthday()
+  location: variable userInfoReqDto of type UserInfoReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:85: error: cannot find symbol
+        user.setUserHeadPictId(userHeadId);
+            ^
+  symbol:   method setUserHeadPictId(Integer)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:86: error: cannot find symbol
+        SpringContextHolder.getBean(IFileInfService.class).syncBusinessObject(user.getId(), user, oldUser, User.class);
+                                                                                  ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserInfoServiceImpl.java:89: error: cannot find symbol
+                .orElseThrow(() -> new GlobalException(ResultEnum.DATABASE_QUERRY_ERROR)).getUserHeadPictId(), Global.DEFAULT_SMALL_PICT_SIZE, Global.DEFAULT_SMALL_PICT_SIZE);
+                                                                                         ^
+  symbol:   method getUserHeadPictId()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:56: error: cannot find symbol
+        Page<User> userPage = userRepository.findByStatusIsNotAndAccountLike(UserStatusEnum.DELETED.getCode(), "%" + listReqDto.getQueryContent() + "%", PageRequest.of(listReqDto.getPage() - 1, listReqDto.getLimit()));
+                                                                                                                               ^
+  symbol:   method getQueryContent()
+  location: variable listReqDto of type ListReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:56: error: cannot find symbol
+        Page<User> userPage = userRepository.findByStatusIsNotAndAccountLike(UserStatusEnum.DELETED.getCode(), "%" + listReqDto.getQueryContent() + "%", PageRequest.of(listReqDto.getPage() - 1, listReqDto.getLimit()));
+                                                                                                   ^
+  symbol:   method getCode()
+  location: variable DELETED of type UserStatusEnum
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:56: error: cannot find symbol
+        Page<User> userPage = userRepository.findByStatusIsNotAndAccountLike(UserStatusEnum.DELETED.getCode(), "%" + listReqDto.getQueryContent() + "%", PageRequest.of(listReqDto.getPage() - 1, listReqDto.getLimit()));
+                                                                                                                                                                                  ^
+  symbol:   method getPage()
+  location: variable listReqDto of type ListReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:56: error: cannot find symbol
+        Page<User> userPage = userRepository.findByStatusIsNotAndAccountLike(UserStatusEnum.DELETED.getCode(), "%" + listReqDto.getQueryContent() + "%", PageRequest.of(listReqDto.getPage() - 1, listReqDto.getLimit()));
+                                                                                                                                                                                                            ^
+  symbol:   method getLimit()
+  location: variable listReqDto of type ListReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:62: error: cannot find symbol
+                    user.getId(),
+                        ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:63: error: cannot find symbol
+                    user.getAccount(),
+                        ^
+  symbol:   method getAccount()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:64: error: cannot find symbol
+                    user.getName(),
+                        ^
+  symbol:   method getName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:65: error: cannot find symbol
+                    SexEnum.fromCode(user.getSex()),
+                                         ^
+  symbol:   method getSex()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:66: error: cannot find symbol
+                    roleRepository.findById(user.getRoleId()).orElseThrow(() -> new GlobalException(ResultEnum.DATABASE_QUERRY_ERROR)).getName(),
+                                                ^
+  symbol:   method getRoleId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:67: error: cannot find symbol
+                    deptRepository.findById(user.getDeptId()).orElseThrow(() -> new GlobalException(ResultEnum.DATABASE_QUERRY_ERROR)).getFullName(),
+                                                ^
+  symbol:   method getDeptId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:68: error: cannot find symbol
+                    user.getEmail(),
+                        ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:69: error: cannot find symbol
+                    user.getPhone(),
+                        ^
+  symbol:   method getPhone()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:70: error: cannot find symbol
+                    user.getCreateTime(),
+                        ^
+  symbol:   method getCreateTime()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:71: error: cannot find symbol
+                    UserStatusEnum.fromCode(user.getStatus())
+                                                ^
+  symbol:   method getStatus()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:75: error: cannot find symbol
+        listRespDto.setItems(userRespDtoList);
+                   ^
+  symbol:   method setItems(List<UserRespDto>)
+  location: variable listRespDto of type ListRespDto<UserRespDto>
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:76: error: cannot find symbol
+        listRespDto.setTotal(userPage.getTotalElements());
+                   ^
+  symbol:   method setTotal(long)
+  location: variable listRespDto of type ListRespDto<UserRespDto>
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:87: error: cannot find symbol
+        user.setStatus(UserStatusEnum.DELETED.getCode());   //软删除，避免查找不到记录
+                                             ^
+  symbol:   method getCode()
+  location: variable DELETED of type UserStatusEnum
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:98: error: cannot find symbol
+        user.setAccount(userReqDto.getAccount());
+                                  ^
+  symbol:   method getAccount()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:99: error: cannot find symbol
+        user.setPhone(userReqDto.getPhone());
+                                ^
+  symbol:   method getPhone()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:100: error: cannot find symbol
+        user.setEmail(userReqDto.getEmail());
+                                ^
+  symbol:   method getEmail()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:101: error: cannot find symbol
+        user.setPassword(ToolsUtil.encrypt(userReqDto.getPassword(), salt));
+                                                     ^
+  symbol:   method getPassword()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:102: error: cannot find symbol
+        user.setName(userReqDto.getName());
+                               ^
+  symbol:   method getName()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:103: error: cannot find symbol
+        user.setStatus(UserStatusEnum.toCode(userReqDto.getStatus()));
+                                                       ^
+  symbol:   method getStatus()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:104: error: cannot find symbol
+        user.setSex(SexEnum.toCode(userReqDto.getSex()));
+                                             ^
+  symbol:   method getSex()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:105: error: cannot find symbol
+        user.setCreateTime(new Date());
+            ^
+  symbol:   method setCreateTime(Date)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:106: error: cannot find symbol
+        user.setSalt(salt);
+            ^
+  symbol:   method setSalt(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:107: error: cannot find symbol
+        user.setRoleId(roleRepository.findIdByName(userReqDto.getRole()));
+                                                             ^
+  symbol:   method getRole()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:108: error: cannot find symbol
+        user.setDeptId(deptRepository.findIdByName(userReqDto.getDept()));
+                                                             ^
+  symbol:   method getDept()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:116: error: cannot find symbol
+        User user = userRepository.findById(userReqDto.getId()).orElseThrow(() -> new GlobalException(ResultEnum.DATABASE_QUERRY_ERROR));
+                                                      ^
+  symbol:   method getId()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:117: error: cannot find symbol
+        user.setPhone(userReqDto.getPhone());
+                                ^
+  symbol:   method getPhone()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:118: error: cannot find symbol
+        user.setEmail(userReqDto.getEmail());
+                                ^
+  symbol:   method getEmail()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:119: error: cannot find symbol
+        user.setName(userReqDto.getName());
+                               ^
+  symbol:   method getName()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:120: error: cannot find symbol
+        user.setStatus(UserStatusEnum.toCode(userReqDto.getStatus()));
+                                                       ^
+  symbol:   method getStatus()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:121: error: cannot find symbol
+        user.setSex(SexEnum.toCode(userReqDto.getSex()));
+                                             ^
+  symbol:   method getSex()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:122: error: cannot find symbol
+        user.setRoleId(roleRepository.findIdByName(userReqDto.getRole()));
+                                                             ^
+  symbol:   method getRole()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:123: error: cannot find symbol
+        user.setDeptId(deptRepository.findIdByName(userReqDto.getDept()));
+                                                             ^
+  symbol:   method getDept()
+  location: variable userReqDto of type UserReqDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/UserServiceImpl.java:132: error: cannot find symbol
+        user.setPassword(ToolsUtil.encrypt(newPassword, user.getSalt()));
+                                                            ^
+  symbol:   method getSalt()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:89: error: cannot find symbol
+            log.info("outputFilePath: " + outputFilePath);
+            ^
+  symbol:   variable log
+  location: class FileInfServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:93: error: cannot find symbol
+            fileInfDto.setFileNm(fileName);
+                      ^
+  symbol:   method setFileNm(String)
+  location: variable fileInfDto of type FileInfDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:94: error: cannot find symbol
+            fileInfDto.setFilePath(filePath);
+                      ^
+  symbol:   method setFilePath(String)
+  location: variable fileInfDto of type FileInfDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:95: error: cannot find symbol
+            fileInfDto.setFileTypeNm(fileTypeNm);
+                      ^
+  symbol:   method setFileTypeNm(String)
+  location: variable fileInfDto of type FileInfDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:97: error: cannot find symbol
+            fileInfDto.setFileUrl(WebContextHolder.getContextPath() + "/" + Global.TEMP_DIR + "/" + fileUUID + "." + fileTypeNm);
+                      ^
+  symbol:   method setFileUrl(String)
+  location: variable fileInfDto of type FileInfDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:99: error: cannot find symbol
+                fileInfDto.setFileInfId(-(((int) (System.currentTimeMillis() & 0xffffffL) << 7) + seed)); //保证在一个会话里时间ID不一样，为负数的是临时ID
+                          ^
+  symbol:   method setFileInfId(int)
+  location: variable fileInfDto of type FileInfDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:102: error: cannot find symbol
+            tempFileCache.put(WebContextHolder.getSessionContextStore().getSessionId() + fileInfDto.getFileInfId(), fileInfDto);
+                                                                                                   ^
+  symbol:   method getFileInfId()
+  location: variable fileInfDto of type FileInfDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:149: error: cannot find symbol
+            savedFileInfIdList.add(savedFileInf.getFileInfId());
+                                               ^
+  symbol:   method getFileInfId()
+  location: variable savedFileInf of type FileInf
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:156: error: cannot find symbol
+            if (fileInfBarDto.getFileInfId() < 0) { //新增
+                             ^
+  symbol:   method getFileInfId()
+  location: variable fileInfBarDto of type FileInfDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:159: error: cannot find symbol
+                updateFileInfIdList.add(fileInfBarDto.getFileInfId());
+                                                     ^
+  symbol:   method getFileInfId()
+  location: variable fileInfBarDto of type FileInfDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:166: error: cannot find symbol
+            FileUtils.deleteQuietly(new File(ResourceUtils.getURL(Global.uploadFolder).getPath() + File.separator + fileInf.getFilePath()));
+                                                                                                                           ^
+  symbol:   method getFilePath()
+  location: variable fileInf of type FileInf
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:170: error: cannot find symbol
+            for (SmallPict smallPict : smallPictRepository.findByFileInfId(fileInf.getFileInfId())) {
+                                                                                  ^
+  symbol:   method getFileInfId()
+  location: variable fileInf of type FileInf
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:171: error: cannot find symbol
+                String smallPictPath = new StringBuilder(FilenameUtils.removeExtension(fileInf.getFilePath().replaceFirst(Global.UPLOAD_DIR, Global.SMALL_PICT_DIR)))
+                                                                                              ^
+  symbol:   method getFilePath()
+  location: variable fileInf of type FileInf
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:173: error: cannot find symbol
+                        .append(smallPict.getSmallPictWidth())
+                                         ^
+  symbol:   method getSmallPictWidth()
+  location: variable smallPict of type SmallPict
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:175: error: cannot find symbol
+                        .append(smallPict.getSmallPictHeight())
+                                         ^
+  symbol:   method getSmallPictHeight()
+  location: variable smallPict of type SmallPict
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:188: error: cannot find symbol
+            File tempFile = new File(ResourceUtils.getURL(Global.uploadFolder).getPath() + File.separator + fileInfBarDto.getFilePath());
+                                                                                                                         ^
+  symbol:   method getFilePath()
+  location: variable fileInfBarDto of type FileInfDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:207: error: cannot find symbol
+            fileInf.setFileNm(fileInfBarDto.getFileNm());
+                                           ^
+  symbol:   method getFileNm()
+  location: variable fileInfBarDto of type FileInfDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:208: error: cannot find symbol
+            fileInf.setFileTypeNm(fileInfBarDto.getFileTypeNm());
+                                               ^
+  symbol:   method getFileTypeNm()
+  location: variable fileInfBarDto of type FileInfDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1053/wd/NonDex-plugin-test/github.com/nhgoodboy/jzframe/src/main/java/com/musikouyi/jzframe/service/impl/FileInfServiceImpl.java:209: error: cannot find symbol
+            fileInf.setBusinessClassNm(businessClassNm);
+                   ^
+  symbol:   method setBusinessClassNm(String)
+  location: variable fileInf of type FileInf
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 18s

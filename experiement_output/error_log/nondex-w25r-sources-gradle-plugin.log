@@ -1,0 +1,22 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task413/wd/NonDex-plugin-test/github.com/w25r/sources-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/sources/SourcesPluginTest.java:5: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task413/wd/NonDex-plugin-test/github.com/w25r/sources-gradle-plugin/src/test/java/com/github/skazzyy/gradle/plugins/sources/SourcesPluginTest.java:14: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class SourcesPluginTest
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 34s

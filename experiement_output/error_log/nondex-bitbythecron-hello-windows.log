@@ -1,0 +1,147 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/HelloWindowsApp.java:33: error: cannot find symbol
+            log.info("the app is starting up");
+            ^
+  symbol:   variable log
+  location: class HelloWindowsApp
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/HelloWindowsApp.java:45: error: cannot find symbol
+                log.warn("app is shutting down");
+                ^
+  symbol: variable log
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/HelloWindowsApp.java:118: error: cannot find symbol
+                        log.error(ExceptionUtils.getStackTrace(ex));
+                        ^
+  symbol: variable log
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/HelloWindowsApp.java:129: error: cannot find symbol
+            log.info("application has started without issue");
+            ^
+  symbol:   variable log
+  location: class HelloWindowsApp
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:24: error: cannot find symbol
+        noChange.setModelNumber("123");
+                ^
+  symbol:   method setModelNumber(String)
+  location: variable noChange of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:25: error: cannot find symbol
+        noChange.setPrice(BigDecimal.valueOf(1.99));
+                ^
+  symbol:   method setPrice(BigDecimal)
+  location: variable noChange of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:26: error: cannot find symbol
+        noChange.setChangeType(ChangeType.NO_CHANGE);
+                ^
+  symbol:   method setChangeType(ChangeType)
+  location: variable noChange of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:29: error: cannot find symbol
+        addition.setModelNumber("456");
+                ^
+  symbol:   method setModelNumber(String)
+  location: variable addition of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:30: error: cannot find symbol
+        addition.setPrice(BigDecimal.valueOf(2.99));
+                ^
+  symbol:   method setPrice(BigDecimal)
+  location: variable addition of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:31: error: cannot find symbol
+        addition.setChangeType(ChangeType.ADDITION);
+                ^
+  symbol:   method setChangeType(ChangeType)
+  location: variable addition of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:34: error: cannot find symbol
+        deletion.setModelNumber("789");
+                ^
+  symbol:   method setModelNumber(String)
+  location: variable deletion of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:35: error: cannot find symbol
+        deletion.setPrice(BigDecimal.valueOf(3.99));
+                ^
+  symbol:   method setPrice(BigDecimal)
+  location: variable deletion of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:36: error: cannot find symbol
+        deletion.setChangeType(ChangeType.DELETION);
+                ^
+  symbol:   method setChangeType(ChangeType)
+  location: variable deletion of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:39: error: cannot find symbol
+        increase.setModelNumber("234");
+                ^
+  symbol:   method setModelNumber(String)
+  location: variable increase of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:40: error: cannot find symbol
+        increase.setPrice(BigDecimal.valueOf(4.99));
+                ^
+  symbol:   method setPrice(BigDecimal)
+  location: variable increase of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:41: error: cannot find symbol
+        increase.setChangeType(ChangeType.PRICE_ADJUSTMENT_INCREASE);
+                ^
+  symbol:   method setChangeType(ChangeType)
+  location: variable increase of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:44: error: cannot find symbol
+        decrease.setModelNumber("345");
+                ^
+  symbol:   method setModelNumber(String)
+  location: variable decrease of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:45: error: cannot find symbol
+        decrease.setPrice(BigDecimal.valueOf(5.99));
+                ^
+  symbol:   method setPrice(BigDecimal)
+  location: variable decrease of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:46: error: cannot find symbol
+        decrease.setChangeType(ChangeType.PRICE_ADJUSTMENT_DECREASE);
+                ^
+  symbol:   method setChangeType(ChangeType)
+  location: variable decrease of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:89: error: cannot find symbol
+            changeType.setCellValue(priceListItem.getChangeType().name());
+                                                 ^
+  symbol:   method getChangeType()
+  location: variable priceListItem of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:93: error: cannot find symbol
+            modelNumber.setCellValue(priceListItem.getModelNumber());
+                                                  ^
+  symbol:   method getModelNumber()
+  location: variable priceListItem of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:97: error: cannot find symbol
+            price.setCellValue(priceListItem.getPrice().doubleValue());
+                                            ^
+  symbol:   method getPrice()
+  location: variable priceListItem of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:123: error: cannot find symbol
+        switch(priceListItem.getChangeType()) {
+                            ^
+  symbol:   method getChangeType()
+  location: variable priceListItem of type PriceListItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:124: error: cannot find symbol
+            case ADDITION:
+                 ^
+  symbol:   variable ADDITION
+  location: class PoiColors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:127: error: cannot find symbol
+            case DELETION:
+                 ^
+  symbol:   variable DELETION
+  location: class PoiColors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:131: error: cannot find symbol
+            case PRICE_ADJUSTMENT_INCREASE:
+                 ^
+  symbol:   variable PRICE_ADJUSTMENT_INCREASE
+  location: class PoiColors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task77/wd/NonDex-plugin-test/github.com/bitbythecron/hello-windows/src/main/java/com/example/windows/hello/PoiColors.java:134: error: cannot find symbol
+            case PRICE_ADJUSTMENT_DECREASE:
+                 ^
+  symbol:   variable PRICE_ADJUSTMENT_DECREASE
+  location: class PoiColors
+27 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

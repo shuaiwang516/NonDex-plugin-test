@@ -1,0 +1,22 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script 'jar:file:/root/.gradle/caches/jars-8/09fa9fa4d856d342bea81a390b2c4ab3/gradle-scripts-2.20.3.jar!/main.gradle' line: 627
+
+* What went wrong:
+Could not compile script 'jar:file:/root/.gradle/caches/jars-8/09fa9fa4d856d342bea81a390b2c4ab3/gradle-scripts-2.20.3.jar!/main.gradle'.
+> startup failed:
+  script 'jar:file:/root/.gradle/caches/jars-8/09fa9fa4d856d342bea81a390b2c4ab3/gradle-scripts-2.20.3.jar!/main.gradle': 627: unexpected char: '\' @ line 627, column 29.
+             verboseFrom: "group:\s*[\"']${it.d.group}[\"'],\s*name:\s*[\"']${it.d.name}[\"'],\s*version:\s*[\"']${it.d.version}[\"']"
+                                 ^
+  
+  1 error
+
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

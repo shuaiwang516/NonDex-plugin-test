@@ -1,0 +1,16 @@
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task408/wd/NonDex-plugin-test/github.com/arunkpatra/thingverse/subprojects/thingverse-deployment/build.gradle' line: 10
+
+* What went wrong:
+A problem occurred evaluating project ':thingverse-deployment'.
+[33m> [39mCould not initialize class ratpack.file.internal.ActivationBackedMimeTypes
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 1s

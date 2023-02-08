@@ -1,0 +1,18 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1420/wd/NonDex-plugin-test/github.com/cathyxz/stockviewer/stockviewer-server/build.gradle' line: 14
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'org.flywaydb.flyway', version: '4.2.0']
+> Failed to apply plugin [id 'org.flywaydb.flyway']
+   > Could not create task ':stockviewer-server:flywayValidate'.
+      > Could not generate a proxy class for class org.flywaydb.gradle.task.FlywayValidateTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

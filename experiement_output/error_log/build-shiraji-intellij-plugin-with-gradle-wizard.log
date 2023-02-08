@@ -1,0 +1,17 @@
+Project evaluation failed including an error in afterEvaluate {}. Run with --stacktrace for details of the afterEvaluate {} error.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1075/wd/NonDex-plugin-test/github.com/shiraji/intellij-plugin-with-gradle-wizard/build.gradle' line: 56
+
+* What went wrong:
+A problem occurred evaluating root project 'intellij-plugin-with-gradle-wizard'.
+> Could not find method leftShift() for arguments [build_4pa7dlpj2c6g4f0bf6z4i9wyy$_run_closure6@5713acf] on task ':prepareForNextDevelopment' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 25s

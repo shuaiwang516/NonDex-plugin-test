@@ -1,0 +1,24 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':payment:compileJava'.
+> Could not resolve all files for configuration ':payment:compileClasspath'.
+   > Could not find org.example:commons:1.0-SNAPSHOT.
+     Required by:
+         project :payment
+   > Could not resolve org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.2.9.RELEASE.
+     Required by:
+         project :payment
+      > Skipped due to earlier error
+      > Could not resolve org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.2.9.RELEASE.
+         > Could not get resource 'https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.2.9.RELEASE/spring-cloud-starter-netflix-eureka-client-2.2.9.RELEASE.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.2.9.RELEASE/spring-cloud-starter-netflix-eureka-client-2.2.9.RELEASE.pom?Expires=1675213783&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=lU3NcBBwmL%2Fq%2Fw7a3dI%2FkgFeOnI%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3m 19s

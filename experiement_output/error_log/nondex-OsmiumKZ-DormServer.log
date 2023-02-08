@@ -1,0 +1,29 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task250/wd/NonDex-plugin-test/github.com/OsmiumKZ/DormServer/src/main/java/kz/dorm/docx/handler/HandlerDirection.java:10: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBException;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task250/wd/NonDex-plugin-test/github.com/OsmiumKZ/DormServer/src/main/java/kz/dorm/docx/handler/HandlerDirection.java:40: error: cannot find symbol
+        } catch (Docx4JException | JAXBException e) {
+                                   ^
+  symbol:   class JAXBException
+  location: class HandlerDirection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task250/wd/NonDex-plugin-test/github.com/OsmiumKZ/DormServer/src/main/java/kz/dorm/docx/handler/HandlerRequest.java:52: error: cannot find symbol
+        } catch (Docx4JException | JAXBException e) {
+                                   ^
+  symbol:   class JAXBException
+  location: class HandlerRequest
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task250/wd/NonDex-plugin-test/github.com/OsmiumKZ/DormServer/src/main/java/kz/dorm/heroku/HerokuDB.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+3 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

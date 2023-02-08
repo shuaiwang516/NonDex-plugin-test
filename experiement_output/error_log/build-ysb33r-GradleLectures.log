@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1076/wd/NonDex-plugin-test/github.com/ysb33r/GradleLectures/build.gradle' line: 70
+
+* What went wrong:
+A problem occurred evaluating root project 'GradleLectures'.
+> Could not find method leftShift() for arguments [build_6n48prrkdvmokdqxjclnelzgb$_run_closure5@3c4c60b7] on task ':download' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

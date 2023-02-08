@@ -1,0 +1,37 @@
+[Fatal Error] docbook-reference-plugin-0.3.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] asciidoctor-gradle-plugin-1.5.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] docbook-reference-plugin-0.3.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] asciidoctor-gradle-plugin-1.5.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] asciidoctor-gradle-plugin-1.5.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] docbook-reference-plugin-0.3.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'asciidoctor_pdf_reference'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve org.asciidoctor:asciidoctor-gradle-plugin:1.5.0.
+     Required by:
+         project :
+      > Could not resolve org.asciidoctor:asciidoctor-gradle-plugin:1.5.0.
+         > Could not parse POM http://dl.bintray.com/asciidoctor/maven/org/asciidoctor/asciidoctor-gradle-plugin/1.5.0/asciidoctor-gradle-plugin-1.5.0.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+      > Could not resolve org.asciidoctor:asciidoctor-gradle-plugin:1.5.0.
+         > Could not get resource 'http://repo.springsource.org/plugins-release/org/asciidoctor/asciidoctor-gradle-plugin/1.5.0/asciidoctor-gradle-plugin-1.5.0.pom'.
+            > Could not HEAD 'http://repo.springsource.org/plugins-release/org/asciidoctor/asciidoctor-gradle-plugin/1.5.0/asciidoctor-gradle-plugin-1.5.0.pom'. Received status code 403 from server: Forbidden
+   > Could not resolve io.spring.gradle:docbook-reference-plugin:0.3.0.
+     Required by:
+         project :
+      > Could not resolve io.spring.gradle:docbook-reference-plugin:0.3.0.
+         > Could not parse POM http://dl.bintray.com/asciidoctor/maven/io/spring/gradle/docbook-reference-plugin/0.3.0/docbook-reference-plugin-0.3.0.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+      > Could not resolve io.spring.gradle:docbook-reference-plugin:0.3.0.
+         > Could not get resource 'http://repo.springsource.org/plugins-release/io/spring/gradle/docbook-reference-plugin/0.3.0/docbook-reference-plugin-0.3.0.pom'.
+            > Could not HEAD 'http://repo.springsource.org/plugins-release/io/spring/gradle/docbook-reference-plugin/0.3.0/docbook-reference-plugin-0.3.0.pom'. Received status code 403 from server: Forbidden
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s

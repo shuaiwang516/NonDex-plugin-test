@@ -1,0 +1,77 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve io.dropwizard:dropwizard-core:0.9.0-rc2-SNAPSHOT.
+     Required by:
+         project :
+      > Could not resolve io.dropwizard:dropwizard-core:0.9.0-rc2-SNAPSHOT.
+         > Unable to load Maven meta-data from https://repo.aconex.com/content/groups/public/io/dropwizard/dropwizard-core/0.9.0-rc2-SNAPSHOT/maven-metadata.xml.
+            > Could not get resource 'https://repo.aconex.com/content/groups/public/io/dropwizard/dropwizard-core/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'.
+               > Could not GET 'https://repo.aconex.com/content/groups/public/io/dropwizard/dropwizard-core/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'.
+                  > Connect to repo.aconex.com:443 [repo.aconex.com/175.45.105.48] failed: connect timed out
+   > Could not resolve io.dropwizard:dropwizard-auth:0.9.0-rc2-SNAPSHOT.
+     Required by:
+         project :
+      > Could not resolve io.dropwizard:dropwizard-auth:0.9.0-rc2-SNAPSHOT.
+         > Unable to load Maven meta-data from https://repo.aconex.com/content/groups/public/io/dropwizard/dropwizard-auth/0.9.0-rc2-SNAPSHOT/maven-metadata.xml.
+            > Could not get resource 'https://repo.aconex.com/content/groups/public/io/dropwizard/dropwizard-auth/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'.
+               > Could not GET 'https://repo.aconex.com/content/groups/public/io/dropwizard/dropwizard-auth/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'.
+                  > Connect to repo.aconex.com:443 [repo.aconex.com/175.45.105.48] failed: connect timed out
+   > Could not resolve io.dropwizard:dropwizard-assets:0.9.0-rc2-SNAPSHOT.
+     Required by:
+         project :
+      > Skipped due to earlier error
+      > Could not resolve io.dropwizard:dropwizard-assets:0.9.0-rc2-SNAPSHOT.
+         > Unable to load Maven meta-data from http://oss.sonatype.org/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-assets/0.9.0-rc2-SNAPSHOT/maven-metadata.xml.
+            > Could not get resource 'http://oss.sonatype.org/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-assets/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'.
+               > Could not GET 'https://oss.sonatype.org:443/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-assets/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'. Received status code 401 from server: Unauthorized
+   > Could not resolve io.dropwizard:dropwizard-spdy:0.9.0-rc2-SNAPSHOT.
+     Required by:
+         project :
+      > Skipped due to earlier error
+      > Could not resolve io.dropwizard:dropwizard-spdy:0.9.0-rc2-SNAPSHOT.
+         > Unable to load Maven meta-data from http://oss.sonatype.org/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-spdy/0.9.0-rc2-SNAPSHOT/maven-metadata.xml.
+            > Could not get resource 'http://oss.sonatype.org/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-spdy/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'.
+               > Could not GET 'https://oss.sonatype.org:443/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-spdy/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'. Received status code 401 from server: Unauthorized
+   > Could not resolve io.dropwizard:dropwizard-hibernate:0.9.0-rc2-SNAPSHOT.
+     Required by:
+         project :
+      > Skipped due to earlier error
+      > Could not resolve io.dropwizard:dropwizard-hibernate:0.9.0-rc2-SNAPSHOT.
+         > Unable to load Maven meta-data from http://oss.sonatype.org/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-hibernate/0.9.0-rc2-SNAPSHOT/maven-metadata.xml.
+            > Could not get resource 'http://oss.sonatype.org/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-hibernate/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'.
+               > Could not GET 'https://oss.sonatype.org:443/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-hibernate/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'. Received status code 401 from server: Unauthorized
+   > Could not resolve io.dropwizard:dropwizard-migrations:0.9.0-rc2-SNAPSHOT.
+     Required by:
+         project :
+      > Skipped due to earlier error
+      > Could not resolve io.dropwizard:dropwizard-migrations:0.9.0-rc2-SNAPSHOT.
+         > Unable to load Maven meta-data from http://oss.sonatype.org/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-migrations/0.9.0-rc2-SNAPSHOT/maven-metadata.xml.
+            > Could not get resource 'http://oss.sonatype.org/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-migrations/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'.
+               > Could not GET 'https://oss.sonatype.org:443/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-migrations/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'. Received status code 401 from server: Unauthorized
+   > Could not resolve io.dropwizard:dropwizard-views-freemarker:0.9.0-rc2-SNAPSHOT.
+     Required by:
+         project :
+      > Skipped due to earlier error
+      > Could not resolve io.dropwizard:dropwizard-views-freemarker:0.9.0-rc2-SNAPSHOT.
+         > Unable to load Maven meta-data from http://oss.sonatype.org/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-views-freemarker/0.9.0-rc2-SNAPSHOT/maven-metadata.xml.
+            > Could not get resource 'http://oss.sonatype.org/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-views-freemarker/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'.
+               > Could not GET 'https://oss.sonatype.org:443/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-views-freemarker/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'. Received status code 401 from server: Unauthorized
+   > Could not resolve io.dropwizard:dropwizard-views-mustache:0.9.0-rc2-SNAPSHOT.
+     Required by:
+         project :
+      > Skipped due to earlier error
+      > Could not resolve io.dropwizard:dropwizard-views-mustache:0.9.0-rc2-SNAPSHOT.
+         > Unable to load Maven meta-data from http://oss.sonatype.org/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-views-mustache/0.9.0-rc2-SNAPSHOT/maven-metadata.xml.
+            > Could not get resource 'http://oss.sonatype.org/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-views-mustache/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'.
+               > Could not GET 'https://oss.sonatype.org:443/service/local/staging/deploy/maven2/io/dropwizard/dropwizard-views-mustache/0.9.0-rc2-SNAPSHOT/maven-metadata.xml'. Received status code 401 from server: Unauthorized
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 46s

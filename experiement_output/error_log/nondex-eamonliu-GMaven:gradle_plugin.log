@@ -1,0 +1,24 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task775/wd/NonDex-plugin-test/github.com/eamonliu/GMaven/build.gradle' line: 42
+
+* What went wrong:
+A problem occurred evaluating root project 'GMaven'.
+> Failed to apply plugin [id 'edu.illinois.nondex']
+   > Could not resolve all files for configuration ':downloadNonDexCommonJar'.
+      > Could not resolve edu.illinois:nondex-common:2.1.1.
+        Required by:
+            project :
+         > Could not resolve edu.illinois:nondex-common:2.1.1.
+            > Could not get resource 'http://maven.aliyun.com/nexus/content/groups/public/edu/illinois/nondex-common/2.1.1/nondex-common-2.1.1.pom'.
+               > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/edu/illinois/nondex-common/2.1.1/nondex-common-2.1.1.pom?Expires=1675213577&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=ginRiwnQII8Pug%2F8%2BkvizPvH15g%3D'.
+                  > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3m 10s

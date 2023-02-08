@@ -1,0 +1,51 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/root/.gradle/wrapper/dists/gradle-6.9-bin/2ecsmyp3bolyybemj56vfn4mt/gradle-6.9/lib/groovy-all-1.3-2.5.12.jar) to method java.util.AbstractCollection.hugeCapacity(int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task10/wd/NonDex-plugin-test/github.com/Itiviti/gradle-test-export-plugin/src/test/groovy/com/ullink/testtools/elastic/ElasticSearchProcessorTest.groovy: 5: unable to resolve class org.elasticsearch.client.transport.TransportClient
+ @ line 5, column 1.
+   import org.elasticsearch.client.transport.TransportClient
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task10/wd/NonDex-plugin-test/github.com/Itiviti/gradle-test-export-plugin/src/test/groovy/com/ullink/testtools/elastic/ElasticSearchProcessorTest.groovy: 6: unable to resolve class org.elasticsearch.common.xcontent.XContentType
+ @ line 6, column 1.
+   import org.elasticsearch.common.xcontent.XContentType
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task10/wd/NonDex-plugin-test/github.com/Itiviti/gradle-test-export-plugin/src/test/groovy/com/ullink/testtools/elastic/ElasticSearchProcessorTest.groovy: 3: unable to resolve class org.elasticsearch.action.bulk.BulkProcessor
+ @ line 3, column 1.
+   import org.elasticsearch.action.bulk.BulkProcessor
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task10/wd/NonDex-plugin-test/github.com/Itiviti/gradle-test-export-plugin/src/test/groovy/com/ullink/testtools/elastic/ElasticSearchProcessorTest.groovy: 4: unable to resolve class org.elasticsearch.action.index.IndexRequest
+ @ line 4, column 1.
+   import org.elasticsearch.action.index.IndexRequest
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task10/wd/NonDex-plugin-test/github.com/Itiviti/gradle-test-export-plugin/src/test/groovy/com/ullink/testtools/elastic/ElasticSearchProcessorTest.groovy: 17: unable to resolve class ElasticSearchProcessor 
+ @ line 17, column 32.
+           ElasticSearchProcessor elasticSearchClient = new ElasticSearchProcessor()
+                                  ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task10/wd/NonDex-plugin-test/github.com/Itiviti/gradle-test-export-plugin/src/test/groovy/com/ullink/testtools/elastic/ElasticSearchProcessorTest.groovy: 17: unable to resolve class ElasticSearchProcessor 
+ @ line 17, column 54.
+   ocessor elasticSearchClient = new Elasti
+                                 ^
+
+6 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 30s

@@ -1,0 +1,66 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task897/wd/NonDex-plugin-test/github.com/djey47/tduf/lib-unlimited/src/main/java/fr/tduf/libunlimited/framework/fx/Bindings.java:3: error: package javafx.beans.value does not exist
+import javafx.beans.value.ChangeListener;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task897/wd/NonDex-plugin-test/github.com/djey47/tduf/lib-unlimited/src/main/java/fr/tduf/libunlimited/framework/fx/Bindings.java:4: error: package javafx.beans.value does not exist
+import javafx.beans.value.ObservableValue;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task897/wd/NonDex-plugin-test/github.com/djey47/tduf/lib-unlimited/src/main/java/fr/tduf/libunlimited/framework/fx/Bindings.java:14: error: cannot find symbol
+    public static <A,B> void bindBidirectional(ObservableValue<A> propertyA, ObservableValue<B> propertyB, ChangeListener<A> updateB, ChangeListener<B> updateA){
+                                               ^
+  symbol:   class ObservableValue
+  location: class Bindings
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task897/wd/NonDex-plugin-test/github.com/djey47/tduf/lib-unlimited/src/main/java/fr/tduf/libunlimited/framework/fx/Bindings.java:14: error: cannot find symbol
+    public static <A,B> void bindBidirectional(ObservableValue<A> propertyA, ObservableValue<B> propertyB, ChangeListener<A> updateB, ChangeListener<B> updateA){
+                                                                             ^
+  symbol:   class ObservableValue
+  location: class Bindings
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task897/wd/NonDex-plugin-test/github.com/djey47/tduf/lib-unlimited/src/main/java/fr/tduf/libunlimited/framework/fx/Bindings.java:14: error: cannot find symbol
+    public static <A,B> void bindBidirectional(ObservableValue<A> propertyA, ObservableValue<B> propertyB, ChangeListener<A> updateB, ChangeListener<B> updateA){
+                                                                                                           ^
+  symbol:   class ChangeListener
+  location: class Bindings
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task897/wd/NonDex-plugin-test/github.com/djey47/tduf/lib-unlimited/src/main/java/fr/tduf/libunlimited/framework/fx/Bindings.java:14: error: cannot find symbol
+    public static <A,B> void bindBidirectional(ObservableValue<A> propertyA, ObservableValue<B> propertyB, ChangeListener<A> updateB, ChangeListener<B> updateA){
+                                                                                                                                      ^
+  symbol:   class ChangeListener
+  location: class Bindings
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task897/wd/NonDex-plugin-test/github.com/djey47/tduf/lib-unlimited/src/main/java/fr/tduf/libunlimited/framework/fx/Bindings.java:26: error: cannot find symbol
+    private static <T> void addFlaggedChangeListener(ObservableValue<T> property, ChangeListener<T> updateProperty){
+                                                     ^
+  symbol:   class ObservableValue
+  location: class Bindings
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task897/wd/NonDex-plugin-test/github.com/djey47/tduf/lib-unlimited/src/main/java/fr/tduf/libunlimited/framework/fx/Bindings.java:26: error: cannot find symbol
+    private static <T> void addFlaggedChangeListener(ObservableValue<T> property, ChangeListener<T> updateProperty){
+                                                                                  ^
+  symbol:   class ChangeListener
+  location: class Bindings
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task897/wd/NonDex-plugin-test/github.com/djey47/tduf/lib-unlimited/src/main/java/fr/tduf/libunlimited/framework/fx/Bindings.java:27: error: cannot find symbol
+        property.addListener(new ChangeListener<T>() {
+                                 ^
+  symbol:   class ChangeListener
+  location: class Bindings
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task897/wd/NonDex-plugin-test/github.com/djey47/tduf/lib-unlimited/src/main/java/fr/tduf/libunlimited/framework/fx/Bindings.java:31: error: cannot find symbol
+            @Override public void changed(ObservableValue<? extends T> observable, T oldValue, T newValue) {
+                                          ^
+  symbol: class ObservableValue
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task897/wd/NonDex-plugin-test/github.com/djey47/tduf/lib-unlimited/src/main/java/fr/tduf/libunlimited/framework/fx/Bindings.java:31: error: method does not override or implement a method from a supertype
+            @Override public void changed(ObservableValue<? extends T> observable, T oldValue, T newValue) {
+            ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':lib-unlimited:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

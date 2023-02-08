@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-gitsemver'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find com.palantir:gradle-gitsemver:0.4.0.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/com/palantir/gradle-gitsemver/0.4.0/gradle-gitsemver-0.4.0.pom
+       - https://repo.maven.apache.org/maven2/com/palantir/gradle-gitsemver/0.4.0/gradle-gitsemver-0.4.0.jar
+       - https://dl.bintray.com/palantir/releases/com/palantir/gradle-gitsemver/0.4.0/gradle-gitsemver-0.4.0.pom
+       - https://dl.bintray.com/palantir/releases/com/palantir/gradle-gitsemver/0.4.0/gradle-gitsemver-0.4.0.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

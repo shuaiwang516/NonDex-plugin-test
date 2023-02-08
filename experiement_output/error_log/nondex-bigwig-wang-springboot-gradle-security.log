@@ -1,0 +1,151 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/common/CurrentUser.java:9: error: cannot find symbol
+        return getCurrentUser().getUsername();
+                               ^
+  symbol:   method getUsername()
+  location: class JwtUser
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/exception/ControllerAdvice.java:14: error: cannot find symbol
+        log.error("throw BaseException, message is {}",e.getMessage());
+        ^
+  symbol:   variable log
+  location: class ControllerAdvice
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/service/ScheduleService.java:25: error: cannot find symbol
+        schedule.setId(UUID.randomUUID().toString().replace("-", ""));
+                ^
+  symbol:   method setId(String)
+  location: variable schedule of type Schedule
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/service/ScheduleService.java:26: error: cannot find symbol
+        schedule.setType(scheduleDTO.getScheduleType());
+                                    ^
+  symbol:   method getScheduleType()
+  location: variable scheduleDTO of type ScheduleDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/service/ScheduleService.java:31: error: cannot find symbol
+        Schedule schedule = scheduleRepository.findOne(scheduleDTO.getId());
+                                                                  ^
+  symbol:   method getId()
+  location: variable scheduleDTO of type ScheduleDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/api/UserController.java:33: error: cannot find symbol
+        return userService.generateJwtToken(userDTO.getUsername(), userDTO.getPassword());
+                                                   ^
+  symbol:   method getUsername()
+  location: variable userDTO of type UserDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/api/UserController.java:33: error: cannot find symbol
+        return userService.generateJwtToken(userDTO.getUsername(), userDTO.getPassword());
+                                                                          ^
+  symbol:   method getPassword()
+  location: variable userDTO of type UserDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/service/UserService.java:62: error: cannot find symbol
+        List<Role> roles = roleRepository.findRolesByUserId(user.getId());
+                                                                ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/service/UserService.java:64: error: cannot find symbol
+                new SimpleGrantedAuthority(role.getRoleCode())).collect(Collectors.toList());
+                                               ^
+  symbol:   method getRoleCode()
+  location: variable role of type Role
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/service/UserService.java:67: error: cannot find symbol
+        claims.put("username", user.getUsername());
+                                   ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/service/UserService.java:68: error: cannot find symbol
+        claims.put("fullname", user.getFullName());
+                                   ^
+  symbol:   method getFullName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/service/UserService.java:69: error: cannot find symbol
+        claims.put("id", user.getId());
+                             ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/service/UserService.java:84: error: cannot find symbol
+        JwtUser jwtUser = JwtUser.builder()
+                                 ^
+  symbol:   method builder()
+  location: class JwtUser
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/service/UserService.java:90: error: cannot find symbol
+        log.info("current user is {}", jwtUser);
+        ^
+  symbol:   variable log
+  location: class UserService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/RedisConfiguration.java:29: error: cannot find symbol
+                redisPropertiesConfiguration.getMaster(), redisPropertiesConfiguration.getNodes());
+                                            ^
+  symbol:   method getMaster()
+  location: variable redisPropertiesConfiguration of type RedisPropertiesConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/RedisConfiguration.java:29: error: cannot find symbol
+                redisPropertiesConfiguration.getMaster(), redisPropertiesConfiguration.getNodes());
+                                                                                      ^
+  symbol:   method getNodes()
+  location: variable redisPropertiesConfiguration of type RedisPropertiesConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/RedisConfiguration.java:31: error: cannot find symbol
+        jedisPoolConfig.setMaxTotal(redisPropertiesConfiguration.getMaxTotal());
+                                                                ^
+  symbol:   method getMaxTotal()
+  location: variable redisPropertiesConfiguration of type RedisPropertiesConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/RedisConfiguration.java:32: error: cannot find symbol
+        jedisPoolConfig.setMinIdle(redisPropertiesConfiguration.getMinIdle());
+                                                               ^
+  symbol:   method getMinIdle()
+  location: variable redisPropertiesConfiguration of type RedisPropertiesConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/RedisConfiguration.java:33: error: cannot find symbol
+        jedisPoolConfig.setMaxIdle(redisPropertiesConfiguration.getMaxIdle());
+                                                               ^
+  symbol:   method getMaxIdle()
+  location: variable redisPropertiesConfiguration of type RedisPropertiesConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/RedisConfiguration.java:34: error: cannot find symbol
+        jedisPoolConfig.setMaxTotal(redisPropertiesConfiguration.getMaxTotal());
+                                                                ^
+  symbol:   method getMaxTotal()
+  location: variable redisPropertiesConfiguration of type RedisPropertiesConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/RedisConfiguration.java:35: error: cannot find symbol
+        jedisPoolConfig.setMaxWaitMillis(redisPropertiesConfiguration.getMaxWaitingTime());
+                                                                     ^
+  symbol:   method getMaxWaitingTime()
+  location: variable redisPropertiesConfiguration of type RedisPropertiesConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/DataSourceConfiguration.java:20: error: cannot find symbol
+        dataSource.setJdbcUrl(dataSourceConfig.getUrl());
+                                              ^
+  symbol:   method getUrl()
+  location: variable dataSourceConfig of type DataSourcePropertiesConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/DataSourceConfiguration.java:21: error: cannot find symbol
+        dataSource.setDriverClassName(dataSourceConfig.getDriverClassName());
+                                                      ^
+  symbol:   method getDriverClassName()
+  location: variable dataSourceConfig of type DataSourcePropertiesConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/DataSourceConfiguration.java:22: error: cannot find symbol
+        dataSource.setUsername(dataSourceConfig.getUsername());
+                                               ^
+  symbol:   method getUsername()
+  location: variable dataSourceConfig of type DataSourcePropertiesConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/DataSourceConfiguration.java:23: error: cannot find symbol
+        dataSource.setPassword(dataSourceConfig.getPassword());
+                                               ^
+  symbol:   method getPassword()
+  location: variable dataSourceConfig of type DataSourcePropertiesConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/DataSourceConfiguration.java:24: error: cannot find symbol
+        dataSource.setMaximumPoolSize(dataSourceConfig.getMaxPoolSize());
+                                                      ^
+  symbol:   method getMaxPoolSize()
+  location: variable dataSourceConfig of type DataSourcePropertiesConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1093/wd/NonDex-plugin-test/github.com/bigwig-wang/springboot-gradle-security/src/main/java/com/thoughtworks/configuration/DataSourceConfiguration.java:25: error: cannot find symbol
+        dataSource.setMinimumIdle(dataSourceConfig.getMinIdle());
+                                                  ^
+  symbol:   method getMinIdle()
+  location: variable dataSourceConfig of type DataSourcePropertiesConfiguration
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+27 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

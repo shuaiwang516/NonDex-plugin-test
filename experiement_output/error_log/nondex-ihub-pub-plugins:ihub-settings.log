@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ihub-settings:nondexTest'.
+> Could not resolve all files for configuration ':ihub-settings:testRuntimeClasspath'.
+   > Could not download android-json-0.0.20131108.vaadin1.jar (com.vaadin.external.google:android-json:0.0.20131108.vaadin1)
+      > Could not get resource 'https://maven.aliyun.com/repository/spring/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/spring/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar?Expires=1675216977&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=I6lVGsaBXrYLedKLD8cjZw0P14g%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9m 38s

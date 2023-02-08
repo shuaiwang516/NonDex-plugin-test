@@ -1,0 +1,27 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':gretl:compileJava'.
+> Could not resolve all files for configuration ':gretl:compileClasspath'.
+   > Could not find org.geotools:gt-shapefile:10.8.
+     Searched in the following locations:
+       - file:/root/.m2/repository/org/geotools/gt-shapefile/10.8/gt-shapefile-10.8.pom
+       - file:/root/.m2/repository/org/geotools/gt-shapefile/10.8/gt-shapefile-10.8.jar
+       - http://jars.interlis.ch/org/geotools/gt-shapefile/10.8/gt-shapefile-10.8.pom
+       - http://jars.interlis.ch/org/geotools/gt-shapefile/10.8/gt-shapefile-10.8.jar
+       - http://download.osgeo.org/webdav/geotools/org/geotools/gt-shapefile/10.8/gt-shapefile-10.8.pom
+       - http://download.osgeo.org/webdav/geotools/org/geotools/gt-shapefile/10.8/gt-shapefile-10.8.jar
+       - https://repo.maven.apache.org/maven2/org/geotools/gt-shapefile/10.8/gt-shapefile-10.8.pom
+       - https://repo.maven.apache.org/maven2/org/geotools/gt-shapefile/10.8/gt-shapefile-10.8.jar
+       - file:/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1344/wd/NonDex-plugin-test/github.com/sogis/gretl-v1/gretl/lib/gt-shapefile-10.8.jar
+       - file:/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1344/wd/NonDex-plugin-test/github.com/sogis/gretl-v1/gretl/lib/gt-shapefile.jar
+     Required by:
+         project :gretl > ch.interlis:iox-wkf:1.0.1-SNAPSHOT:20190605.080615-13
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

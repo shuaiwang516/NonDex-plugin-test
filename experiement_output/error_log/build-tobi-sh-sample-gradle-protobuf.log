@@ -1,0 +1,18 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task54/wd/NonDex-plugin-test/github.com/tobi-sh/sample-gradle-protobuf/build.gradle' line: 2
+
+* What went wrong:
+A problem occurred evaluating root project 'tryout-proto'.
+> Failed to apply plugin [id 'com.google.protobuf']
+   > Could not create an instance of type com.google.protobuf.gradle.ProtobufSourceDirectorySet_Decorated.
+      > 'void org.gradle.api.internal.file.DefaultSourceDirectorySet.<init>(java.lang.String, java.lang.String, org.gradle.api.internal.file.FileResolver)'
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

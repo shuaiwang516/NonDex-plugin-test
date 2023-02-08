@@ -1,0 +1,14 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Configuration cache state could not be cached: field `descriptor` of `java.lang.Module` bean found in field `referent` of `java.lang.ref.WeakReference` bean found in field `callerModuleRef` of `java.util.logging.Logger` bean found in field `referent` of `java.util.logging.LogManager$LoggerWeakRef` bean found in field `loggerRef` of `java.util.logging.LogManager$LogNode` bean found in field `children` of `java.util.logging.LogManager$LogNode` bean found in field `children` of `java.util.logging.LogManager$LogNode` bean found in field `children` of `java.util.logging.LogManager$LogNode` bean found in field `node` of `java.util.logging.LogManager$LoggerWeakRef` bean found in field `namedLoggers` of `java.util.logging.LogManager$LoggerContext` bean found in field `context` of `java.util.logging.LogManager$LogNode` bean found in field `node` of `java.util.logging.LogManager$LoggerWeakRef` bean found in field `head` of `java.lang.ref.ReferenceQueue` bean found in field `loggerRefQueue` of `java.util.logging.LogManager` bean found in field `this$0` of `java.util.logging.LogManager$RootLogger` bean found in field `logger` of `org.gradle.internal.logging.source.JavaUtilLoggingSystem` bean found in field `loggingSystem` of `org.gradle.internal.logging.services.DefaultLoggingManager$StartableLoggingSystem` bean found in field `javaUtilLoggingSystem` of `org.gradle.internal.logging.services.DefaultLoggingManager` bean found in field `loggingManager` of `org.gradle.process.internal.worker.DefaultWorkerProcessFactory` bean found in field `workerFactory` of `org.gradle.api.internal.tasks.testing.detection.DefaultTestExecuter` bean found in field `delegate` of `edu.illinois.nondex.gradle.internal.NonDexTestExecuter` bean found in field `testExecuter` of task `:nondexTest` of type `edu.illinois.nondex.gradle.tasks.NonDexTest`: error writing value of type 'java.lang.module.ModuleDescriptor'
+> Unable to make field private final boolean java.lang.module.ModuleDescriptor.automatic accessible: module java.base does not "opens java.lang.module" to unnamed module @70be2ef2
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

@@ -1,0 +1,73 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-wsimport-plugin'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find me.seeber.gradle:gradle-bintray-config:1.1.2.
+     Searched in the following locations:
+       - file:/root/.m2/repository/me/seeber/gradle/gradle-bintray-config/1.1.2/gradle-bintray-config-1.1.2.pom
+       - file:/root/.m2/repository/me/seeber/gradle/gradle-bintray-config/1.1.2/gradle-bintray-config-1.1.2.jar
+       - https://repo.maven.apache.org/maven2/me/seeber/gradle/gradle-bintray-config/1.1.2/gradle-bintray-config-1.1.2.pom
+       - https://repo.maven.apache.org/maven2/me/seeber/gradle/gradle-bintray-config/1.1.2/gradle-bintray-config-1.1.2.jar
+       - https://jcenter.bintray.com/me/seeber/gradle/gradle-bintray-config/1.1.2/gradle-bintray-config-1.1.2.pom
+       - https://jcenter.bintray.com/me/seeber/gradle/gradle-bintray-config/1.1.2/gradle-bintray-config-1.1.2.jar
+       - https://plugins.gradle.org/m2/me/seeber/gradle/gradle-bintray-config/1.1.2/gradle-bintray-config-1.1.2.pom
+       - https://plugins.gradle.org/m2/me/seeber/gradle/gradle-bintray-config/1.1.2/gradle-bintray-config-1.1.2.jar
+     Required by:
+         project :
+   > Could not find me.seeber.gradle:gradle-license-config:1.1.2.
+     Searched in the following locations:
+       - file:/root/.m2/repository/me/seeber/gradle/gradle-license-config/1.1.2/gradle-license-config-1.1.2.pom
+       - file:/root/.m2/repository/me/seeber/gradle/gradle-license-config/1.1.2/gradle-license-config-1.1.2.jar
+       - https://repo.maven.apache.org/maven2/me/seeber/gradle/gradle-license-config/1.1.2/gradle-license-config-1.1.2.pom
+       - https://repo.maven.apache.org/maven2/me/seeber/gradle/gradle-license-config/1.1.2/gradle-license-config-1.1.2.jar
+       - https://jcenter.bintray.com/me/seeber/gradle/gradle-license-config/1.1.2/gradle-license-config-1.1.2.pom
+       - https://jcenter.bintray.com/me/seeber/gradle/gradle-license-config/1.1.2/gradle-license-config-1.1.2.jar
+       - https://plugins.gradle.org/m2/me/seeber/gradle/gradle-license-config/1.1.2/gradle-license-config-1.1.2.pom
+       - https://plugins.gradle.org/m2/me/seeber/gradle/gradle-license-config/1.1.2/gradle-license-config-1.1.2.jar
+     Required by:
+         project :
+   > Could not find me.seeber.gradle:gradle-github-config:1.1.2.
+     Searched in the following locations:
+       - file:/root/.m2/repository/me/seeber/gradle/gradle-github-config/1.1.2/gradle-github-config-1.1.2.pom
+       - file:/root/.m2/repository/me/seeber/gradle/gradle-github-config/1.1.2/gradle-github-config-1.1.2.jar
+       - https://repo.maven.apache.org/maven2/me/seeber/gradle/gradle-github-config/1.1.2/gradle-github-config-1.1.2.pom
+       - https://repo.maven.apache.org/maven2/me/seeber/gradle/gradle-github-config/1.1.2/gradle-github-config-1.1.2.jar
+       - https://jcenter.bintray.com/me/seeber/gradle/gradle-github-config/1.1.2/gradle-github-config-1.1.2.pom
+       - https://jcenter.bintray.com/me/seeber/gradle/gradle-github-config/1.1.2/gradle-github-config-1.1.2.jar
+       - https://plugins.gradle.org/m2/me/seeber/gradle/gradle-github-config/1.1.2/gradle-github-config-1.1.2.pom
+       - https://plugins.gradle.org/m2/me/seeber/gradle/gradle-github-config/1.1.2/gradle-github-config-1.1.2.jar
+     Required by:
+         project :
+   > Could not find me.seeber.gradle:gradle-plugin-publish-config:1.1.2.
+     Searched in the following locations:
+       - file:/root/.m2/repository/me/seeber/gradle/gradle-plugin-publish-config/1.1.2/gradle-plugin-publish-config-1.1.2.pom
+       - file:/root/.m2/repository/me/seeber/gradle/gradle-plugin-publish-config/1.1.2/gradle-plugin-publish-config-1.1.2.jar
+       - https://repo.maven.apache.org/maven2/me/seeber/gradle/gradle-plugin-publish-config/1.1.2/gradle-plugin-publish-config-1.1.2.pom
+       - https://repo.maven.apache.org/maven2/me/seeber/gradle/gradle-plugin-publish-config/1.1.2/gradle-plugin-publish-config-1.1.2.jar
+       - https://jcenter.bintray.com/me/seeber/gradle/gradle-plugin-publish-config/1.1.2/gradle-plugin-publish-config-1.1.2.pom
+       - https://jcenter.bintray.com/me/seeber/gradle/gradle-plugin-publish-config/1.1.2/gradle-plugin-publish-config-1.1.2.jar
+       - https://plugins.gradle.org/m2/me/seeber/gradle/gradle-plugin-publish-config/1.1.2/gradle-plugin-publish-config-1.1.2.pom
+       - https://plugins.gradle.org/m2/me/seeber/gradle/gradle-plugin-publish-config/1.1.2/gradle-plugin-publish-config-1.1.2.jar
+     Required by:
+         project :
+   > Could not find me.seeber.gradle:gradle-project-config:1.1.2.
+     Searched in the following locations:
+       - file:/root/.m2/repository/me/seeber/gradle/gradle-project-config/1.1.2/gradle-project-config-1.1.2.pom
+       - file:/root/.m2/repository/me/seeber/gradle/gradle-project-config/1.1.2/gradle-project-config-1.1.2.jar
+       - https://repo.maven.apache.org/maven2/me/seeber/gradle/gradle-project-config/1.1.2/gradle-project-config-1.1.2.pom
+       - https://repo.maven.apache.org/maven2/me/seeber/gradle/gradle-project-config/1.1.2/gradle-project-config-1.1.2.jar
+       - https://jcenter.bintray.com/me/seeber/gradle/gradle-project-config/1.1.2/gradle-project-config-1.1.2.pom
+       - https://jcenter.bintray.com/me/seeber/gradle/gradle-project-config/1.1.2/gradle-project-config-1.1.2.jar
+       - https://plugins.gradle.org/m2/me/seeber/gradle/gradle-project-config/1.1.2/gradle-project-config-1.1.2.pom
+       - https://plugins.gradle.org/m2/me/seeber/gradle/gradle-project-config/1.1.2/gradle-project-config-1.1.2.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

@@ -1,0 +1,142 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/application/controller/CommentController.java:26: error: cannot find symbol
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
+                                          ^
+  symbol: class __
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/application/controller/PostController.java:26: error: cannot find symbol
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
+                                          ^
+  symbol: class __
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/post/DefaultPostService.java:16: error: cannot find symbol
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
+                                          ^
+  symbol: class __
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/comment/DefaultCommentService.java:16: error: cannot find symbol
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
+                                          ^
+  symbol: class __
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/application/GlobalExceptionHandler.java:34: error: cannot find symbol
+        log.error("Error-ID: {} - {}", errorUUID, exception.getMessage(), exception);
+        ^
+  symbol:   variable log
+  location: class GlobalExceptionHandler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/application/GlobalExceptionHandler.java:39: error: cannot find symbol
+                .body(ErrorResponse.aErrorResponse(INTERNAL_SERVER_ERROR.value(), message));
+                                   ^
+  symbol:   method aErrorResponse(int,String)
+  location: class ErrorResponse
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/application/GlobalExceptionHandler.java:53: error: cannot find symbol
+        log.warn("Caught ResourceNotFoundException: {}", message);
+        ^
+  symbol:   variable log
+  location: class GlobalExceptionHandler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/application/GlobalExceptionHandler.java:57: error: cannot find symbol
+                .body(ErrorResponse.aErrorResponse(BAD_REQUEST.value(), message));
+                                   ^
+  symbol:   method aErrorResponse(int,String)
+  location: class ErrorResponse
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/post/DefaultPostService.java:23: error: cannot find symbol
+        log.info("Create post: {}", post);
+        ^
+  symbol:   variable log
+  location: class DefaultPostService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/post/DefaultPostService.java:30: error: cannot find symbol
+        log.info("Fetch post by id: {}", id);
+        ^
+  symbol:   variable log
+  location: class DefaultPostService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/post/DefaultPostService.java:38: error: cannot find symbol
+        log.info("Fetch all posts");
+        ^
+  symbol:   variable log
+  location: class DefaultPostService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/post/DefaultPostService.java:45: error: cannot find symbol
+        log.info("Update post: {} by id: {}", post, id);
+        ^
+  symbol:   variable log
+  location: class DefaultPostService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/post/DefaultPostService.java:48: error: cannot find symbol
+        saved.setTitle(post.getTitle());
+                           ^
+  symbol:   method getTitle()
+  location: variable post of type Post
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/post/DefaultPostService.java:49: error: cannot find symbol
+        saved.setAuthor(post.getAuthor());
+                            ^
+  symbol:   method getAuthor()
+  location: variable post of type Post
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/post/DefaultPostService.java:50: error: cannot find symbol
+        saved.setDate(post.getDate());
+                          ^
+  symbol:   method getDate()
+  location: variable post of type Post
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/post/DefaultPostService.java:51: error: cannot find symbol
+        saved.setContent(post.getContent());
+                             ^
+  symbol:   method getContent()
+  location: variable post of type Post
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/post/DefaultPostService.java:58: error: cannot find symbol
+        log.info("Delete post by id: {}", id);
+        ^
+  symbol:   variable log
+  location: class DefaultPostService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/comment/DefaultCommentService.java:23: error: cannot find symbol
+        log.info("Create comment: {} in post: {}", comment, id);
+        ^
+  symbol:   variable log
+  location: class DefaultCommentService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/comment/DefaultCommentService.java:25: error: cannot find symbol
+        comment.setPostId(id);
+               ^
+  symbol:   method setPostId(Long)
+  location: variable comment of type Comment
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/comment/DefaultCommentService.java:32: error: cannot find symbol
+        log.info("Fetch comment: {} from post: {}", commentId, postId);
+        ^
+  symbol:   variable log
+  location: class DefaultCommentService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/comment/DefaultCommentService.java:41: error: cannot find symbol
+        log.info("Fetch all comments from post: {}", postId);
+        ^
+  symbol:   variable log
+  location: class DefaultCommentService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/comment/DefaultCommentService.java:48: error: cannot find symbol
+        log.info("Update comment: {} by id: {} from post: {}", comment, commentId, postId);
+        ^
+  symbol:   variable log
+  location: class DefaultCommentService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/comment/DefaultCommentService.java:51: error: cannot find symbol
+        saved.setAuthor(comment.getAuthor());
+                               ^
+  symbol:   method getAuthor()
+  location: variable comment of type Comment
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/comment/DefaultCommentService.java:52: error: cannot find symbol
+        saved.setDate(comment.getDate());
+                             ^
+  symbol:   method getDate()
+  location: variable comment of type Comment
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/comment/DefaultCommentService.java:53: error: cannot find symbol
+        saved.setContent(comment.getContent());
+                                ^
+  symbol:   method getContent()
+  location: variable comment of type Comment
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/domain/service/comment/DefaultCommentService.java:60: error: cannot find symbol
+        log.info("Delete comment: {} from post: {}", commentId, postId);
+        ^
+  symbol:   variable log
+  location: class DefaultCommentService
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/robanukah/harald-fairhair/src/main/java/com/github/solairerove/harald/config/DozerConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+26 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

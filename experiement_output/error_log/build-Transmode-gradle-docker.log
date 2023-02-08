@@ -1,0 +1,27 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-docker'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve nl.javadude.gradle.plugins:license-gradle-plugin:0.10.0.
+     Required by:
+         project :
+      > Could not resolve nl.javadude.gradle.plugins:license-gradle-plugin:0.10.0.
+         > Could not get resource 'http://jcenter.bintray.com/nl/javadude/gradle/plugins/license-gradle-plugin/0.10.0/license-gradle-plugin-0.10.0.pom'.
+            > Could not GET 'http://jcenter.bintray.com/nl/javadude/gradle/plugins/license-gradle-plugin/0.10.0/license-gradle-plugin-0.10.0.pom'.
+               > jcenter.bintray.com:80 failed to respond
+   > Could not resolve org.jfrog.buildinfo:build-info-extractor-gradle:4.7.5.
+     Required by:
+         project :
+      > Could not resolve org.jfrog.buildinfo:build-info-extractor-gradle:4.7.5.
+         > Could not get resource 'http://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/4.7.5/build-info-extractor-gradle-4.7.5.pom'.
+            > Could not GET 'http://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/4.7.5/build-info-extractor-gradle-4.7.5.pom'.
+               > jcenter.bintray.com:80 failed to respond
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

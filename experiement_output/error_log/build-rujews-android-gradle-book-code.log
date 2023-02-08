@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1109/wd/NonDex-plugin-test/github.com/rujews/android-gradle-book-code/chapter01/example04/build.gradle' line: 3
+
+* What went wrong:
+A problem occurred evaluating project ':example04'.
+> Could not find method leftShift() for arguments [build_7p5apnf9w05puv3ovx5w0woyd$_run_closure1@c4bf475] on task ':example04:printLog' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

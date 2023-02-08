@@ -1,0 +1,22 @@
+[Fatal Error] kotlin-frontend-plugin-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] kotlin-frontend-plugin-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] kotlin-frontend-plugin-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'electron-template'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve org.jetbrains.kotlin:kotlin-frontend-plugin:0.0.19.
+     Required by:
+         project :
+      > Could not resolve org.jetbrains.kotlin:kotlin-frontend-plugin:0.0.19.
+         > Could not parse POM http://dl.bintray.com/kotlin/kotlin-eap/org/jetbrains/kotlin/kotlin-frontend-plugin/0.0.19/kotlin-frontend-plugin-0.0.19.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

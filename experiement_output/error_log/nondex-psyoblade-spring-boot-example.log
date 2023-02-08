@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not find me.suhyuk:common-logger:1.0.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/me/suhyuk/common-logger/1.0/common-logger-1.0.pom
+       - https://repo.maven.apache.org/maven2/me/suhyuk/common-logger/1.0/common-logger-1.0.jar
+       - file:/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task496/wd/NonDex-plugin-test/github.com/psyoblade/spring-boot-example/libs/common-logger-1.0.jar
+       - file:/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task496/wd/NonDex-plugin-test/github.com/psyoblade/spring-boot-example/libs/common-logger.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

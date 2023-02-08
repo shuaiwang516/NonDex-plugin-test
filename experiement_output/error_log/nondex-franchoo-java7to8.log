@@ -1,0 +1,21 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1004/wd/NonDex-plugin-test/github.com/franchoo/java7to8/src/test/java/co/chlg/starwars/controller/SpeciesControllerTest.java:53: error: incompatible types: cannot infer type-variable(s) T#1,T#2
+    assertThat(body.get(0).keySet(), hasItem("classification"));
+              ^
+    (argument mismatch; Matcher<Iterable<? super String>> cannot be converted to Matcher<? super Set>)
+  where T#1,T#2 are type-variables:
+    T#1 extends Object declared in method <T#1>assertThat(T#1,Matcher<? super T#1>)
+    T#2 extends Object declared in method <T#2>hasItem(T#2)
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

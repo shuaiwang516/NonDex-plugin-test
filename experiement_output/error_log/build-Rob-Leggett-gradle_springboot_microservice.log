@@ -1,0 +1,24 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v7.Java7$1 (file:/root/.gradle/wrapper/dists/gradle-5.0-bin/pu5208521seraqlersebvqk/gradle-5.0/lib/groovy-all-1.0-2.5.4.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v7.Java7$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1163/wd/NonDex-plugin-test/github.com/Rob-Leggett/gradle_springboot_microservice/build.gradle' line: 28
+
+* What went wrong:
+A problem occurred evaluating root project 'gradle_springboot_microservice'.
+> Failed to apply plugin [class 'io.spring.gradle.dependencymanagement.DependencyManagementPlugin']
+   > Could not create task ':dependencyManagement'.
+      > Could not create task of type 'DependencyManagementReportTask'.
+         > Unable to determine io.spring.gradle.dependencymanagement.report.DependencyManagementReportTask_Decorated argument #1: missing parameter value of type interface org.gradle.logging.StyledTextOutputFactory, or no service of type interface org.gradle.logging.StyledTextOutputFactory
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

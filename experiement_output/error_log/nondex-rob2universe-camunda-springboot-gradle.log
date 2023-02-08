@@ -1,0 +1,29 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1417/wd/NonDex-plugin-test/github.com/rob2universe/camunda-springboot-gradle/build.gradle' line: 56
+
+* What went wrong:
+A problem occurred evaluating root project 'camunda-springboot-gradle'.
+> Failed to apply plugin [id 'edu.illinois.nondex']
+   > Could not resolve all dependencies for configuration ':detachedConfiguration1'.
+      > Could not find org.camunda.bpm:camunda-bom:7.13.4-ee.
+        Searched in the following locations:
+          - https://repo.maven.apache.org/maven2/org/camunda/bpm/camunda-bom/7.13.4-ee/camunda-bom-7.13.4-ee.pom
+          - https://app.camunda.com/nexus/content/repositories/camunda-bpm-ee/org/camunda/bpm/camunda-bom/7.13.4-ee/camunda-bom-7.13.4-ee.pom
+        Required by:
+            project :
+      > Could not find org.camunda.bpm.dmn:camunda-engine-dmn-bom:7.13.4-ee.
+        Searched in the following locations:
+          - https://repo.maven.apache.org/maven2/org/camunda/bpm/dmn/camunda-engine-dmn-bom/7.13.4-ee/camunda-engine-dmn-bom-7.13.4-ee.pom
+          - https://app.camunda.com/nexus/content/repositories/camunda-bpm-ee/org/camunda/bpm/dmn/camunda-engine-dmn-bom/7.13.4-ee/camunda-engine-dmn-bom-7.13.4-ee.pom
+        Required by:
+            project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

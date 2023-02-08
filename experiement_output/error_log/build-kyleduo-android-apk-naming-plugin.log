@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task312/wd/NonDex-plugin-test/github.com/kyleduo/android-apk-naming-plugin/gradle/bintray-upload.gradle' line: 7
+
+* What went wrong:
+A problem occurred evaluating script.
+> /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task312/wd/NonDex-plugin-test/github.com/kyleduo/android-apk-naming-plugin/local.properties (No such file or directory)
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

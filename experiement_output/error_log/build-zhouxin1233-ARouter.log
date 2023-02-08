@@ -1,0 +1,20 @@
+[Fatal Error] arouter-gradle-plugin-2.0.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'ARouter'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve com.alibaba:arouter-gradle-plugin:2.0.0.
+     Required by:
+         project :
+      > Could not resolve com.alibaba:arouter-gradle-plugin:2.0.0.
+         > Could not parse POM http://dl.bintray.com/jetbrains/intellij-plugin-service/com/alibaba/arouter-gradle-plugin/2.0.0/arouter-gradle-plugin-2.0.0.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

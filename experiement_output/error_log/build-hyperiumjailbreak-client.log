@@ -1,0 +1,26 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'Hyperium'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find com.hyperiumjailbreak.gradle:ForgeGradle:2.1.1-SNAPSHOT.
+     Searched in the following locations:
+       - https://hyperiumjailbreak.mycloudrepo.io/public/repositories/gradle-plugin-proxy/com/hyperiumjailbreak/gradle/ForgeGradle/2.1.1-SNAPSHOT/maven-metadata.xml
+       - https://hyperiumjailbreak.mycloudrepo.io/public/repositories/gradle-plugin-proxy/com/hyperiumjailbreak/gradle/ForgeGradle/2.1.1-SNAPSHOT/ForgeGradle-2.1.1-SNAPSHOT.pom
+       - https://hyperiumjailbreak.mycloudrepo.io/public/repositories/gradle-plugin-proxy/com/hyperiumjailbreak/gradle/ForgeGradle/2.1.1-SNAPSHOT/ForgeGradle-2.1.1-SNAPSHOT.jar
+       - https://hyperiumjailbreak.mycloudrepo.io/public/repositories/libs/com/hyperiumjailbreak/gradle/ForgeGradle/2.1.1-SNAPSHOT/maven-metadata.xml
+       - https://hyperiumjailbreak.mycloudrepo.io/public/repositories/libs/com/hyperiumjailbreak/gradle/ForgeGradle/2.1.1-SNAPSHOT/ForgeGradle-2.1.1-SNAPSHOT.pom
+       - https://hyperiumjailbreak.mycloudrepo.io/public/repositories/libs/com/hyperiumjailbreak/gradle/ForgeGradle/2.1.1-SNAPSHOT/ForgeGradle-2.1.1-SNAPSHOT.jar
+       - https://hyperiumjailbreak.mycloudrepo.io/public/repositories/forge-proxy/com/hyperiumjailbreak/gradle/ForgeGradle/2.1.1-SNAPSHOT/maven-metadata.xml
+       - https://hyperiumjailbreak.mycloudrepo.io/public/repositories/forge-proxy/com/hyperiumjailbreak/gradle/ForgeGradle/2.1.1-SNAPSHOT/ForgeGradle-2.1.1-SNAPSHOT.pom
+       - https://hyperiumjailbreak.mycloudrepo.io/public/repositories/forge-proxy/com/hyperiumjailbreak/gradle/ForgeGradle/2.1.1-SNAPSHOT/ForgeGradle-2.1.1-SNAPSHOT.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

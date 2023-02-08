@@ -1,0 +1,99 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'resourceater'.
+> Could not resolve all files for configuration ':classpath'.
+   > Did not resolve 'org.springframework.boot:spring-boot-buildpack-platform:3.0.0' which is part of the dependency lock state
+   > Did not resolve 'net.java.dev.jna:jna-platform:5.7.0' which is part of the dependency lock state
+   > Did not resolve 'org.apache.httpcomponents:httpclient:4.5.13' which is part of the dependency lock state
+   > Did not resolve 'org.apache.httpcomponents:httpcore:4.4.13' which is part of the dependency lock state
+   > Did not resolve 'org.springframework:spring-core:6.0.2' which is part of the dependency lock state
+   > Did not resolve 'com.fasterxml.jackson:jackson-bom:2.14.1' which is part of the dependency lock state
+   > Did not resolve 'org.apache.commons:commons-compress:1.21' which is part of the dependency lock state
+   > Did not resolve 'com.fasterxml.jackson.core:jackson-core:2.14.1' which is part of the dependency lock state
+   > Did not resolve 'org.tomlj:tomlj:1.0.0' which is part of the dependency lock state
+   > Did not resolve 'commons-codec:commons-codec:1.11' which is part of the dependency lock state
+   > Did not resolve 'org.springframework:spring-jcl:6.0.2' which is part of the dependency lock state
+   > Did not resolve 'com.google.code.findbugs:jsr305:3.0.2' which is part of the dependency lock state
+   > Did not resolve 'org.antlr:antlr4-runtime:4.7.2' which is part of the dependency lock state
+   > Did not resolve 'io.spring.gradle:dependency-management-plugin:1.1.0' which is part of the dependency lock state
+   > Did not resolve 'org.springframework.boot:spring-boot-loader-tools:3.0.0' which is part of the dependency lock state
+   > Did not resolve 'org.springframework.boot:spring-boot-gradle-plugin:3.0.0' which is part of the dependency lock state
+   > Did not resolve 'net.java.dev.jna:jna:5.7.0' which is part of the dependency lock state
+   > Did not resolve 'com.fasterxml.jackson.core:jackson-annotations:2.14.1' which is part of the dependency lock state
+   > Did not resolve 'com.fasterxml.jackson.core:jackson-databind:2.14.1' which is part of the dependency lock state
+   > Did not resolve 'com.fasterxml.jackson.module:jackson-module-parameter-names:2.14.1' which is part of the dependency lock state
+   > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:3.+.
+     Required by:
+         project :
+      > No matching variant of org.springframework.boot:spring-boot-gradle-plugin:3.0.0 was found. The consumer was configured to find a runtime of a library compatible with Java 11, packaged as a jar, and its dependencies declared externally, as well as attribute 'org.gradle.plugin.api-version' with value '7.6' but:
+          - Variant 'apiElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.0 declares a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares an API of a component compatible with Java 17 and the consumer needed a runtime of a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '7.6')
+          - Variant 'javadocElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.0 declares a runtime of a component, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java version (required compatibility with Java 11)
+                  - Doesn't say anything about its elements (required them packaged as a jar)
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '7.6')
+          - Variant 'mavenOptionalApiElements' capability org.springframework.boot:spring-boot-gradle-plugin-maven-optional:3.0.0 declares a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares an API of a component compatible with Java 17 and the consumer needed a runtime of a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '7.6')
+          - Variant 'mavenOptionalRuntimeElements' capability org.springframework.boot:spring-boot-gradle-plugin-maven-optional:3.0.0 declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 17 and the consumer needed a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '7.6')
+          - Variant 'runtimeElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.0 declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 17 and the consumer needed a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '7.6')
+          - Variant 'sourcesElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.0 declares a runtime of a component, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java version (required compatibility with Java 11)
+                  - Doesn't say anything about its elements (required them packaged as a jar)
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '7.6')
+   > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:3.+.
+     Required by:
+         project :
+      > No matching variant of org.springframework.boot:spring-boot-gradle-plugin:3.0.0 was found. The consumer was configured to find a runtime of a library compatible with Java 11, packaged as a jar, and its dependencies declared externally, as well as attribute 'org.gradle.plugin.api-version' with value '7.6' but:
+          - Variant 'apiElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.0 declares a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares an API of a component compatible with Java 17 and the consumer needed a runtime of a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '7.6')
+          - Variant 'javadocElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.0 declares a runtime of a component, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java version (required compatibility with Java 11)
+                  - Doesn't say anything about its elements (required them packaged as a jar)
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '7.6')
+          - Variant 'mavenOptionalApiElements' capability org.springframework.boot:spring-boot-gradle-plugin-maven-optional:3.0.0 declares a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares an API of a component compatible with Java 17 and the consumer needed a runtime of a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '7.6')
+          - Variant 'mavenOptionalRuntimeElements' capability org.springframework.boot:spring-boot-gradle-plugin-maven-optional:3.0.0 declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 17 and the consumer needed a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '7.6')
+          - Variant 'runtimeElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.0 declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 17 and the consumer needed a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '7.6')
+          - Variant 'sourcesElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.0 declares a runtime of a component, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java version (required compatibility with Java 11)
+                  - Doesn't say anything about its elements (required them packaged as a jar)
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '7.6')
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

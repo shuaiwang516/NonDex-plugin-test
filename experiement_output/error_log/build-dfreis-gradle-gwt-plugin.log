@@ -1,0 +1,9 @@
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Exception in thread "main" java.io.IOException: Server returned HTTP response code: 403 for URL: http://repo.gradle.org/gradle/distributions/gradle-snapshots/gradle-1.0-milestone-4-20110610162713+0200-bin.zip
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1924)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at org.gradle.wrapper.Download.downloadInternal(Download.java:49)
+	at org.gradle.wrapper.Download.download(Download.java:37)
+	at org.gradle.wrapper.Install.createDist(Install.java:54)
+	at org.gradle.wrapper.Wrapper.execute(Wrapper.java:80)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:37)

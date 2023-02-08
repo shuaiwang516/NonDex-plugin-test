@@ -1,0 +1,31 @@
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task423/wd/NonDex-plugin-test/github.com/ryansgot/smc-gradle-plugin-example/androidjava/build.gradle' line: 14
+
+* What went wrong:
+A problem occurred evaluating project ':androidjava'.
+> Failed to apply plugin [id 'kotlin-android']
+   > Could not create plugin of type 'KotlinAndroidPluginWrapper'.
+      > null cannot be cast to non-null type kotlin.String
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+A problem occurred configuring project ':androidjava'.
+> compileSdkVersion is not specified.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+==============================================================================
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 822ms

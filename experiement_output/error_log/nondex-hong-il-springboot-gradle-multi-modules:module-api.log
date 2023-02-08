@@ -1,0 +1,35 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task223/wd/NonDex-plugin-test/github.com/hong-il/springboot-gradle-multi-modules/module-api/src/main/java/service/HeroService.java:3: error: package domain does not exist
+import domain.Hero;
+             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task223/wd/NonDex-plugin-test/github.com/hong-il/springboot-gradle-multi-modules/module-api/src/main/java/service/HeroService.java:4: error: package domain does not exist
+import domain.HeroRepository;
+             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task223/wd/NonDex-plugin-test/github.com/hong-il/springboot-gradle-multi-modules/module-api/src/main/java/service/HeroService.java:14: error: cannot find symbol
+    private HeroRepository heroRepository;
+            ^
+  symbol:   class HeroRepository
+  location: class HeroService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task223/wd/NonDex-plugin-test/github.com/hong-il/springboot-gradle-multi-modules/module-api/src/main/java/service/HeroService.java:17: error: cannot find symbol
+    public Long HeroSaveRequest(Hero hero) {
+                                ^
+  symbol:   class Hero
+  location: class HeroService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task223/wd/NonDex-plugin-test/github.com/hong-il/springboot-gradle-multi-modules/module-api/src/main/java/service/HeroService.java:11: error: cannot find symbol
+@AllArgsConstructor
+^
+  symbol:   class HeroRepository
+  location: class HeroService
+5 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':module-api:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 21s

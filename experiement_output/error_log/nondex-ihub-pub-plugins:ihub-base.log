@@ -1,0 +1,22 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ihub-base:compileGroovy'.
+> Could not resolve all dependencies for configuration ':ihub-base:detachedConfiguration1'.
+   > Could not resolve pub.ihub.lib:ihub-libs:1.0.15.
+     Required by:
+         project :ihub-base
+      > Could not resolve pub.ihub.lib:ihub-libs:1.0.15.
+         > Could not get resource 'https://maven.aliyun.com/repository/public/pub/ihub/lib/ihub-libs/1.0.15/ihub-libs-1.0.15.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/pub/ihub/lib/ihub-libs/1.0.15/ihub-libs-1.0.15.pom?Expires=1675214320&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=8ZrRbWCEmUTu3gqtftQ8k80TorQ%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3m 21s

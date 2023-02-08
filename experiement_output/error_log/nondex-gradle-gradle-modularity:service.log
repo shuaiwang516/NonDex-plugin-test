@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task62/wd/NonDex-plugin-test/github.com/gradle/gradle-modularity/service/build.gradle' line: 14
+
+* What went wrong:
+A problem occurred configuring project ':service'.
+> Exception thrown while executing model rule: service(org.gradle.jvm.JvmLibrarySpec) { ... } @ service/build.gradle line 8, column 9 > named(java)
+   > No signature of method: org.gradle.platform.base.internal.DefaultProjectDependencySpec$Builder.exported() is applicable for argument types: (Boolean) values: [true]
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s

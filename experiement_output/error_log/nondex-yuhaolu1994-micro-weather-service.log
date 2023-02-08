@@ -1,0 +1,99 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/City.java:3: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlAccessType;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/City.java:4: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlAccessorType;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/City.java:5: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlAttribute;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/City.java:6: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlRootElement;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/City.java:11: error: cannot find symbol
+@XmlRootElement(name = "d")
+ ^
+  symbol: class XmlRootElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/City.java:12: error: cannot find symbol
+@XmlAccessorType(XmlAccessType.FIELD)
+ ^
+  symbol: class XmlAccessorType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/util/XmlBuilder.java:3: error: package javax.xml.bind does not exist
+import javax.xml.bind.JAXBContext;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/util/XmlBuilder.java:4: error: package javax.xml.bind does not exist
+import javax.xml.bind.Unmarshaller;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/CityList.java:9: error: cannot find symbol
+@XmlRootElement(name = "c")
+ ^
+  symbol: class XmlRootElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/CityList.java:10: error: cannot find symbol
+@XmlAccessorType(XmlAccessType.FIELD)
+ ^
+  symbol: class XmlAccessorType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/CityList.java:3: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/City.java:12: error: cannot find symbol
+@XmlAccessorType(XmlAccessType.FIELD)
+                 ^
+  symbol: variable XmlAccessType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/City.java:14: error: cannot find symbol
+    @XmlAttribute(name = "d1")
+     ^
+  symbol:   class XmlAttribute
+  location: class City
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/City.java:17: error: cannot find symbol
+    @XmlAttribute(name = "d2")
+     ^
+  symbol:   class XmlAttribute
+  location: class City
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/City.java:20: error: cannot find symbol
+    @XmlAttribute(name = "d3")
+     ^
+  symbol:   class XmlAttribute
+  location: class City
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/City.java:23: error: cannot find symbol
+    @XmlAttribute(name = "d4")
+     ^
+  symbol:   class XmlAttribute
+  location: class City
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/CityList.java:10: error: cannot find symbol
+@XmlAccessorType(XmlAccessType.FIELD)
+                 ^
+  symbol: variable XmlAccessType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/model/CityList.java:12: error: cannot find symbol
+    @XmlElement(name = "d")
+     ^
+  symbol:   class XmlElement
+  location: class CityList
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/util/XmlBuilder.java:15: error: cannot find symbol
+        JAXBContext context = JAXBContext.newInstance(clazz);
+        ^
+  symbol:   class JAXBContext
+  location: class XmlBuilder
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/util/XmlBuilder.java:15: error: cannot find symbol
+        JAXBContext context = JAXBContext.newInstance(clazz);
+                              ^
+  symbol:   variable JAXBContext
+  location: class XmlBuilder
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task734/wd/NonDex-plugin-test/github.com/yuhaolu1994/micro-weather-service/src/main/java/com/howelu/spring/cloud/initializrstart/util/XmlBuilder.java:18: error: cannot find symbol
+        Unmarshaller unmarshaller = context.createUnmarshaller();
+        ^
+  symbol:   class Unmarshaller
+  location: class XmlBuilder
+21 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

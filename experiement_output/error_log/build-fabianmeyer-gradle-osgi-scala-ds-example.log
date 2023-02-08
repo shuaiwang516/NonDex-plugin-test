@@ -1,0 +1,18 @@
+Project evaluation failed including an error in afterEvaluate {}. Run with --stacktrace for details of the afterEvaluate {} error.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task226/wd/NonDex-plugin-test/github.com/fabianmeyer/gradle-osgi-scala-ds-example/build.gradle' line: 2
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'com.athaydes.osgi-run', version: '1.5.1']
+> Failed to apply plugin [id 'com.athaydes.osgi-run']
+   > Could not find method leftShift() for arguments [com.athaydes.gradle.osgi.OsgiRuntimeTaskCreator$_createOsgiRuntimeTask_closure1@5989aa39] on task ':createOsgiRuntime' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

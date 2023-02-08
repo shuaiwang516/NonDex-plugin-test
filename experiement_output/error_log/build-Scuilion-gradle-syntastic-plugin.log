@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task440/wd/NonDex-plugin-test/github.com/Scuilion/gradle-syntastic-plugin/gradle/publish-plugin.gradle' line: 2
+
+* What went wrong:
+A problem occurred evaluating script.
+> No signature of method: publish_plugin_363axqn3ptwb0lqwg6v4rsj43.pluginBundle() is applicable for argument types: (publish_plugin_363axqn3ptwb0lqwg6v4rsj43$_run_closure1) values: [publish_plugin_363axqn3ptwb0lqwg6v4rsj43$_run_closure1@1bd7214]
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

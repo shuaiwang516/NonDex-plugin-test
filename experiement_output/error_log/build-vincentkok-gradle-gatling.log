@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task846/wd/NonDex-plugin-test/github.com/vincentkok/gradle-gatling/build.gradle' line: 15
+
+* What went wrong:
+A problem occurred evaluating root project 'gradle-gatling'.
+> Could not find method leftShift() for arguments [build_56jbiy8bmwv9blq1lh43ip042$_run_closure3@6fd4158b] on task ':gatling' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s

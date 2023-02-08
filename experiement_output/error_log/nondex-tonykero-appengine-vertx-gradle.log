@@ -1,0 +1,50 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1084/wd/NonDex-plugin-test/github.com/tonykero/appengine-vertx-gradle/src/test/java/com/example/appengine/vertxhello/ApplicationTest.java:22: error: package io.vertx.ext.web.client does not exist
+import io.vertx.ext.web.client.WebClient;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1084/wd/NonDex-plugin-test/github.com/tonykero/appengine-vertx-gradle/src/test/java/com/example/appengine/vertxhello/ApplicationTest.java:23: error: package io.vertx.ext.web.client.predicate does not exist
+import io.vertx.ext.web.client.predicate.ResponsePredicate;
+                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1084/wd/NonDex-plugin-test/github.com/tonykero/appengine-vertx-gradle/src/test/java/com/example/appengine/vertxhello/ApplicationTest.java:43: error: cannot find symbol
+    Application.METADATA_HOST = "localhost";
+               ^
+  symbol:   variable METADATA_HOST
+  location: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1084/wd/NonDex-plugin-test/github.com/tonykero/appengine-vertx-gradle/src/test/java/com/example/appengine/vertxhello/ApplicationTest.java:44: error: cannot find symbol
+    Application.METADATA_PORT = 8081;
+               ^
+  symbol:   variable METADATA_PORT
+  location: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1084/wd/NonDex-plugin-test/github.com/tonykero/appengine-vertx-gradle/src/test/java/com/example/appengine/vertxhello/ApplicationTest.java:61: error: cannot find symbol
+    WebClient client = WebClient.create(vertx);
+    ^
+  symbol:   class WebClient
+  location: class ApplicationTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1084/wd/NonDex-plugin-test/github.com/tonykero/appengine-vertx-gradle/src/test/java/com/example/appengine/vertxhello/ApplicationTest.java:61: error: cannot find symbol
+    WebClient client = WebClient.create(vertx);
+                       ^
+  symbol:   variable WebClient
+  location: class ApplicationTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1084/wd/NonDex-plugin-test/github.com/tonykero/appengine-vertx-gradle/src/test/java/com/example/appengine/vertxhello/ApplicationTest.java:64: error: cannot find symbol
+        .expect(ResponsePredicate.SC_OK)
+                ^
+  symbol:   variable ResponsePredicate
+  location: class ApplicationTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1084/wd/NonDex-plugin-test/github.com/tonykero/appengine-vertx-gradle/src/test/java/com/example/appengine/vertxhello/ApplicationTest.java:69: error: cannot find symbol
+                      "Hello World! from this-is-your-project", response.bodyAsString());
+                                                                        ^
+  symbol:   method bodyAsString()
+  location: variable response of type Object
+8 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

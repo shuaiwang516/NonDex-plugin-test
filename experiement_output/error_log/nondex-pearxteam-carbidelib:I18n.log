@@ -1,0 +1,22 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1214/wd/NonDex-plugin-test/github.com/pearxteam/carbidelib/src/main/java/ru/pearx/carbide/Color.java:153: error: package javafx.scene.paint does not exist
+    public javafx.scene.paint.Color toJavaFX()
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1214/wd/NonDex-plugin-test/github.com/pearxteam/carbidelib/src/main/java/ru/pearx/carbide/Color.java:155: error: package javafx.scene.paint does not exist
+        return javafx.scene.paint.Color.rgb(getRed(), getGreen(), getBlue(), getAlpha() / 255F);
+                                 ^
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1214/wd/NonDex-plugin-test/github.com/pearxteam/carbidelib/src/main/java/ru/pearx/carbide/collections/CollectionUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

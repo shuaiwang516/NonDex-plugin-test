@@ -1,0 +1,43 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve org.thinkit.common:dev-utils:v1.0.2.
+     Required by:
+         project :
+      > Could not resolve org.thinkit.common:dev-utils:v1.0.2.
+         > Could not get resource 'https://maven.pkg.github.com/myConsciousness/entity-generator-engine/org/thinkit/common/dev-utils/v1.0.2/dev-utils-v1.0.2.pom'.
+            > Username must not be null!
+   > Could not resolve org.thinkit.generator.common.duke:java-generator-commons:v1.1.3.
+     Required by:
+         project :
+      > Could not resolve org.thinkit.generator.common.duke:java-generator-commons:v1.1.3.
+         > Could not get resource 'https://maven.pkg.github.com/myConsciousness/entity-generator-engine/org/thinkit/generator/common/duke/java-generator-commons/v1.1.3/java-generator-commons-v1.1.3.pom'.
+            > Username must not be null!
+   > Could not resolve org.thinkit.api.catalog:catalog-api:v1.0.2.
+     Required by:
+         project :
+      > Could not resolve org.thinkit.api.catalog:catalog-api:v1.0.2.
+         > Could not get resource 'https://maven.pkg.github.com/myConsciousness/entity-generator-engine/org/thinkit/api/catalog/catalog-api/v1.0.2/catalog-api-v1.0.2.pom'.
+            > Username must not be null!
+   > Could not resolve org.thinkit.framework.envali:entity-validator:v1.0.3.
+     Required by:
+         project :
+      > Could not resolve org.thinkit.framework.envali:entity-validator:v1.0.3.
+         > Could not get resource 'https://maven.pkg.github.com/myConsciousness/entity-generator-engine/org/thinkit/framework/envali/entity-validator/v1.0.3/entity-validator-v1.0.3.pom'.
+            > Username must not be null!
+   > Could not resolve org.thinkit.framework.content:content-framework:v1.1.0.
+     Required by:
+         project :
+      > Could not resolve org.thinkit.framework.content:content-framework:v1.1.0.
+         > Could not get resource 'https://maven.pkg.github.com/myConsciousness/entity-generator-engine/org/thinkit/framework/content/content-framework/v1.1.0/content-framework-v1.1.0.pom'.
+            > Username must not be null!
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

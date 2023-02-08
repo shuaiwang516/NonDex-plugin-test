@@ -1,0 +1,17 @@
+Unrecognized option: --patch-module=java.base=/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1315/wd/NonDex-plugin-test/github.com/gradle/gradle-build-scan-quickstart/.nondex/nondex-instr.jar:/root/.gradle/caches/modules-2/files-2.1/edu.illinois/nondex-common/2.1.1/4b0ca8ba572baa78d15f8a1f3ecf2bb918cbe9b1/nondex-common-2.1.1.jar
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':nondexTest'.
+> Process 'Gradle Test Executor 3' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

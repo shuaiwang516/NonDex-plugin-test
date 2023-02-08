@@ -1,0 +1,50 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task90/wd/NonDex-plugin-test/github.com/abnair24/Awaitility-Retry/src/main/java/com/abn/retrySample/retry/Retry.java:24: error: cannot find symbol
+                .until(() -> new PetRequest().getPetById(petId), t ->t.getStatusCode()== 200);
+                                                                      ^
+  symbol:   method getStatusCode()
+  location: variable t of type GetPetByIdResponse
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task90/wd/NonDex-plugin-test/github.com/abnair24/Awaitility-Retry/src/main/java/com/abn/retrySample/retry/GenericRetryClient.java:24: error: cannot find symbol
+                            .log(String.format("<%s> -- Remaining wait time %s ms",response.getStatusCode(),
+                                                                                           ^
+  symbol:   method getStatusCode()
+  location: variable response of type T
+  where T is a type-variable:
+    T extends BaseResponse declared in class GenericRetryClient
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task90/wd/NonDex-plugin-test/github.com/abnair24/Awaitility-Retry/src/main/java/com/abn/retrySample/retry/GenericRetryClient.java:38: error: cannot find symbol
+        return p -> p.getStatusCode() == 200;
+                     ^
+  symbol:   method getStatusCode()
+  location: variable p of type BaseResponse
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task90/wd/NonDex-plugin-test/github.com/abnair24/Awaitility-Retry/src/main/java/com/abn/retrySample/retry/GenericRetryClient.java:44: error: cannot find symbol
+        if( response.getStatusCode() != 200) {
+                    ^
+  symbol:   method getStatusCode()
+  location: variable response of type T
+  where T is a type-variable:
+    T extends BaseResponse declared in class GenericRetryClient
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task90/wd/NonDex-plugin-test/github.com/abnair24/Awaitility-Retry/src/main/java/com/abn/retrySample/retry/GenericRetryClient.java:47: error: cannot find symbol
+                    response.getStatusCode()),true);
+                            ^
+  symbol:   method getStatusCode()
+  location: variable response of type T
+  where T is a type-variable:
+    T extends BaseResponse declared in class GenericRetryClient
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task90/wd/NonDex-plugin-test/github.com/abnair24/Awaitility-Retry/src/main/java/com/abn/retrySample/request/PetRequest.java:24: error: cannot find symbol
+        getPetByIdResponse.setStatusCode(response.getStatusCode());
+                          ^
+  symbol:   method setStatusCode(int)
+  location: variable getPetByIdResponse of type GetPetByIdResponse
+6 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

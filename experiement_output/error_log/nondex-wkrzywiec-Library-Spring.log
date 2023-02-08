@@ -1,0 +1,521 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/aspect/LibraryLogsAspect.java:60: error: cannot find symbol
+		String username = userService.getUserById(userId).getUsername();
+		                                                 ^
+  symbol:   method getUsername()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/aspect/UserLogsAspect.java:49: error: cannot find symbol
+		ThreadContext.put("user_id", Integer.toString(savedUser.getId()));
+		                                                       ^
+  symbol:   method getId()
+  location: variable savedUser of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/aspect/UserLogsAspect.java:53: error: cannot find symbol
+		ThreadContext.put("changed_by_username", user.getUsername());
+		                                             ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/aspect/UserLogsAspect.java:108: error: cannot find symbol
+				ThreadContext.put("from_value", user.getEmail());
+				                                    ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/aspect/UserLogsAspect.java:112: error: cannot find symbol
+				ThreadContext.put("from_value", user.getFirstName());
+				                                    ^
+  symbol:   method getFirstName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/aspect/UserLogsAspect.java:116: error: cannot find symbol
+				ThreadContext.put("from_value", user.getLastName());
+				                                    ^
+  symbol:   method getLastName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/aspect/UserLogsAspect.java:120: error: cannot find symbol
+				ThreadContext.put("from_value", user.getPhone());
+				                                    ^
+  symbol:   method getPhone()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/aspect/UserLogsAspect.java:124: error: cannot find symbol
+				ThreadContext.put("from_value", user.getAddress());
+				                                    ^
+  symbol:   method getAddress()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/aspect/UserLogsAspect.java:128: error: cannot find symbol
+				ThreadContext.put("from_value", user.getPostalCode());
+				                                    ^
+  symbol:   method getPostalCode()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/aspect/UserLogsAspect.java:132: error: cannot find symbol
+				ThreadContext.put("from_value", user.getCity());
+				                                    ^
+  symbol:   method getCity()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LibraryController.java:73: error: cannot find symbol
+		userId = userService.getUserByUsername(currentPrincipalName).getId();
+		                                                            ^
+  symbol:   method getId()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LibraryController.java:103: error: constructor UserDTO in class UserDTO cannot be applied to given types;
+		UserDTO userDTO = new UserDTO();
+		                  ^
+  required: String,String,String,String,String,String
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LibraryController.java:145: error: cannot find symbol
+		if (userDTO.isEnable()) {
+		           ^
+  symbol:   method isEnable()
+  location: variable userDTO of type UserDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LibraryController.java:214: error: cannot find symbol
+			userId = userService.getUserByUsername(currentPrincipalName).getId();
+			                                                            ^
+  symbol:   method getId()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LibraryController.java:281: error: cannot find symbol
+			int userId = userService.getUserByUsername(currentPrincipalName).getId();
+			                                                                ^
+  symbol:   method getId()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LibraryController.java:320: error: cannot find symbol
+			int userId = userService.getUserByUsername(currentPrincipalName).getId();
+			                                                                ^
+  symbol:   method getId()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LibraryController.java:383: error: cannot find symbol
+			model.addAttribute("message", "Book: '" + bookDTO.getTitle() + "' with GoogleID " + googleId + " was added to library.");
+			                                                 ^
+  symbol:   method getTitle()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LibraryController.java:403: error: cannot find symbol
+				userLogs = userService.getUserLogs(user.getId());
+				                                       ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LibraryController.java:406: error: cannot find symbol
+				libraryLogs = libraryService.getLibraryLogsByUser(user.getId());
+				                                                      ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LibraryController.java:411: error: constructor UserDTO in class UserDTO cannot be applied to given types;
+		UserDTO userDTO = new UserDTO();
+		                  ^
+  required: String,String,String,String,String,String
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LibraryController.java:435: error: cannot find symbol
+			if (penalty.getReturnDate() == null) {
+			           ^
+  symbol:   method getReturnDate()
+  location: variable penalty of type PenaltyDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:109: error: cannot find symbol
+		authors = this.getAuthorsByName(bookDTO.getAuthors());
+		                                       ^
+  symbol:   method getAuthors()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:110: error: cannot find symbol
+		categories = this.getBookCategoriesByName(bookDTO.getBookCategories());
+		                                                 ^
+  symbol:   method getBookCategories()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:111: error: cannot find symbol
+		isbn.setIsbn10(bookDTO.getIsbn_10());
+		                      ^
+  symbol:   method getIsbn_10()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:112: error: cannot find symbol
+		isbn.setIsbn13(bookDTO.getIsbn_13());
+		                      ^
+  symbol:   method getIsbn_13()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:114: error: cannot find symbol
+		book.setGoogleId(bookDTO.getGoogleId());
+		                        ^
+  symbol:   method getGoogleId()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:115: error: cannot find symbol
+		book.setTitle(bookDTO.getTitle());
+		                     ^
+  symbol:   method getTitle()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:116: error: cannot find symbol
+		book.setAuthors(authors);
+		    ^
+  symbol:   method setAuthors(Set<Author>)
+  location: variable book of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:117: error: cannot find symbol
+		book.setPublisher(bookDTO.getPublisher());
+		                         ^
+  symbol:   method getPublisher()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:118: error: cannot find symbol
+		book.setPublishedDate(bookDTO.getPublishedDate());
+		                             ^
+  symbol:   method getPublishedDate()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:119: error: cannot find symbol
+		book.setIsbn(isbn);
+		    ^
+  symbol:   method setIsbn(Isbn)
+  location: variable book of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:120: error: cannot find symbol
+		book.setPageCount(bookDTO.getPageCount());
+		                         ^
+  symbol:   method getPageCount()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:121: error: cannot find symbol
+		book.setCategories(categories);
+		    ^
+  symbol:   method setCategories(Set<BookCategory>)
+  location: variable book of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:122: error: cannot find symbol
+		book.setRating(bookDTO.getRating());
+		                      ^
+  symbol:   method getRating()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:123: error: cannot find symbol
+		book.setImageLink(bookDTO.getImageLink());
+		                         ^
+  symbol:   method getImageLink()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:124: error: cannot find symbol
+		book.setDescription(bookDTO.getDescription());
+		                           ^
+  symbol:   method getDescription()
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:136: error: cannot find symbol
+		bookDTO.setId(bookEntity.getId());
+		                        ^
+  symbol:   method getId()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:137: error: cannot find symbol
+		bookDTO.setGoogleId(bookEntity.getGoogleId());
+		                              ^
+  symbol:   method getGoogleId()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:138: error: cannot find symbol
+		bookDTO.setTitle(bookEntity.getTitle());
+		                           ^
+  symbol:   method getTitle()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:140: error: cannot find symbol
+		for (Author author : bookEntity.getAuthors()) {
+		                               ^
+  symbol:   method getAuthors()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:141: error: cannot find symbol
+			authors.add(author.getName());
+			                  ^
+  symbol:   method getName()
+  location: variable author of type Author
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:143: error: cannot find symbol
+		bookDTO.setAuthors(authors);
+		       ^
+  symbol:   method setAuthors(List<String>)
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:145: error: cannot find symbol
+		bookDTO.setPublisher(bookEntity.getPublisher());
+		                               ^
+  symbol:   method getPublisher()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:146: error: cannot find symbol
+		bookDTO.setPublishedDate(bookEntity.getPublishedDate());
+		                                   ^
+  symbol:   method getPublishedDate()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:147: error: cannot find symbol
+		bookDTO.setIsbn_10(bookEntity.getIsbn().getIsbn10());
+		                             ^
+  symbol:   method getIsbn()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:148: error: cannot find symbol
+		bookDTO.setIsbn_13(bookEntity.getIsbn().getIsbn13());
+		                             ^
+  symbol:   method getIsbn()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:149: error: cannot find symbol
+		bookDTO.setPageCount(bookEntity.getPageCount());
+		                               ^
+  symbol:   method getPageCount()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:151: error: cannot find symbol
+		for (BookCategory category: bookEntity.getCategories()) {
+		                                      ^
+  symbol:   method getCategories()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:152: error: cannot find symbol
+			categories.add(category.getName());
+			                       ^
+  symbol:   method getName()
+  location: variable category of type BookCategory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:154: error: cannot find symbol
+		bookDTO.setBookCategories(categories);
+		       ^
+  symbol:   method setBookCategories(List<String>)
+  location: variable bookDTO of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:156: error: cannot find symbol
+		bookDTO.setRating(bookEntity.getRating());
+		                            ^
+  symbol:   method getRating()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:157: error: cannot find symbol
+		bookDTO.setImageLink(bookEntity.getImageLink());
+		                               ^
+  symbol:   method getImageLink()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:158: error: cannot find symbol
+		bookDTO.setDescription(bookEntity.getDescription());
+		                                 ^
+  symbol:   method getDescription()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:160: error: cannot find symbol
+		bookDTO.setStatus(this.checkBookStatus(bookEntity.getId()));
+		                                                 ^
+  symbol:   method getId()
+  location: variable bookEntity of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:174: error: cannot find symbol
+				author.setName(authorName);
+				      ^
+  symbol:   method setName(String)
+  location: variable author of type Author
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/BookServiceImpl.java:191: error: cannot find symbol
+				category.setName(categoryName);
+				        ^
+  symbol:   method setName(String)
+  location: variable category of type BookCategory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:68: error: cannot find symbol
+		volume = respond.getVolumeInfo();
+		                ^
+  symbol:   method getVolumeInfo()
+  location: variable respond of type BookDetailsRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:96: error: cannot find symbol
+		bookList = respond.getItems();
+		                  ^
+  symbol:   method getItems()
+  location: variable respond of type GoogleBookRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:105: error: cannot find symbol
+		book.setGoogleId(googleId);
+		    ^
+  symbol:   method setGoogleId(String)
+  location: variable book of type BookDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:106: error: cannot find symbol
+		book.setTitle(volume.getTitle());
+		                    ^
+  symbol:   method getTitle()
+  location: variable volume of type VolumeInfoModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:107: error: cannot find symbol
+		book.setAuthors(volume.getAuthors());
+		                      ^
+  symbol:   method getAuthors()
+  location: variable volume of type VolumeInfoModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:108: error: cannot find symbol
+		book.setPublisher(volume.getPublisher());
+		                        ^
+  symbol:   method getPublisher()
+  location: variable volume of type VolumeInfoModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:109: error: cannot find symbol
+		book.setPublishedDate(volume.getPublishedDate());
+		                            ^
+  symbol:   method getPublishedDate()
+  location: variable volume of type VolumeInfoModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:111: error: cannot find symbol
+		if (volume.getIndustryIdentifiers() != null) {
+		          ^
+  symbol:   method getIndustryIdentifiers()
+  location: variable volume of type VolumeInfoModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:112: error: cannot find symbol
+			for (IsbnAPIModel isbn : volume.getIndustryIdentifiers()) {
+			                               ^
+  symbol:   method getIndustryIdentifiers()
+  location: variable volume of type VolumeInfoModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:113: error: cannot find symbol
+				if (isbn.getType().equals("ISBN_10")) book.setIsbn_10(isbn.getIdentifier());
+				        ^
+  symbol:   method getType()
+  location: variable isbn of type IsbnAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:113: error: cannot find symbol
+				if (isbn.getType().equals("ISBN_10")) book.setIsbn_10(isbn.getIdentifier());
+				                                                          ^
+  symbol:   method getIdentifier()
+  location: variable isbn of type IsbnAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:114: error: cannot find symbol
+				if (isbn.getType().equals("ISBN_13")) book.setIsbn_13(isbn.getIdentifier());
+				        ^
+  symbol:   method getType()
+  location: variable isbn of type IsbnAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:114: error: cannot find symbol
+				if (isbn.getType().equals("ISBN_13")) book.setIsbn_13(isbn.getIdentifier());
+				                                                          ^
+  symbol:   method getIdentifier()
+  location: variable isbn of type IsbnAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:118: error: cannot find symbol
+		book.setRating(volume.getAverageRating());
+		                     ^
+  symbol:   method getAverageRating()
+  location: variable volume of type VolumeInfoModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:119: error: cannot find symbol
+		book.setPageCount(volume.getPageCount());
+		                        ^
+  symbol:   method getPageCount()
+  location: variable volume of type VolumeInfoModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:120: error: cannot find symbol
+		book.setBookCategories(volume.getCategories());
+		                             ^
+  symbol:   method getCategories()
+  location: variable volume of type VolumeInfoModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:121: error: cannot find symbol
+		book.setImageLink(volume.getImageLinks().getThumbnail());
+		                        ^
+  symbol:   method getImageLinks()
+  location: variable volume of type VolumeInfoModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:122: error: cannot find symbol
+		book.setDescription(volume.getDescription());
+		                          ^
+  symbol:   method getDescription()
+  location: variable volume of type VolumeInfoModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:135: error: cannot find symbol
+			book.setGoogleId(apiModel.getId());
+			                         ^
+  symbol:   method getId()
+  location: variable apiModel of type ItemAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:136: error: cannot find symbol
+			book.setTitle(apiModel.getVolumeInfo().getTitle());
+			                      ^
+  symbol:   method getVolumeInfo()
+  location: variable apiModel of type ItemAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:137: error: cannot find symbol
+			book.setAuthors(apiModel.getVolumeInfo().getAuthors());
+			                        ^
+  symbol:   method getVolumeInfo()
+  location: variable apiModel of type ItemAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:138: error: cannot find symbol
+			book.setPublisher(apiModel.getVolumeInfo().getPublisher());
+			                          ^
+  symbol:   method getVolumeInfo()
+  location: variable apiModel of type ItemAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:139: error: cannot find symbol
+			book.setPublishedDate(apiModel.getVolumeInfo().getPublishedDate());
+			                              ^
+  symbol:   method getVolumeInfo()
+  location: variable apiModel of type ItemAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:141: error: cannot find symbol
+			book.setRating(apiModel.getVolumeInfo().getAverageRating());
+			                       ^
+  symbol:   method getVolumeInfo()
+  location: variable apiModel of type ItemAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:142: error: cannot find symbol
+			book.setPageCount(apiModel.getVolumeInfo().getPageCount());
+			                          ^
+  symbol:   method getVolumeInfo()
+  location: variable apiModel of type ItemAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:143: error: cannot find symbol
+			if (apiModel.getVolumeInfo().getImageLinks() != null) 
+			            ^
+  symbol:   method getVolumeInfo()
+  location: variable apiModel of type ItemAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:144: error: cannot find symbol
+				book.setImageLink(apiModel.getVolumeInfo().getImageLinks().getThumbnail());
+				                          ^
+  symbol:   method getVolumeInfo()
+  location: variable apiModel of type ItemAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:145: error: cannot find symbol
+			book.setDescription(apiModel.getVolumeInfo().getDescription());
+			                            ^
+  symbol:   method getVolumeInfo()
+  location: variable apiModel of type ItemAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/GoogleBookServiceImpl.java:146: error: cannot find symbol
+			book.setBookCategories(apiModel.getVolumeInfo().getCategories());
+			                               ^
+  symbol:   method getVolumeInfo()
+  location: variable apiModel of type ItemAPIModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LoginController.java:50: error: constructor UserDTO in class UserDTO cannot be applied to given types;
+		UserDTO userDTO = new UserDTO();
+		                  ^
+  required: String,String,String,String,String,String
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LoginController.java:101: error: cannot find symbol
+		isEmailInDatabase = userService.isEmailAlreadyInUse(email.getEmail());
+		                                                         ^
+  symbol:   method getEmail()
+  location: variable email of type ResetEmailDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LoginController.java:108: error: cannot find symbol
+		if (userService.isUserAlreadyHasResetPasswordToken(email.getEmail())) {
+		                                                        ^
+  symbol:   method getEmail()
+  location: variable email of type ResetEmailDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LoginController.java:109: error: cannot find symbol
+			passwordResetTokenEntity = userService.updateResetPasswordTokenForEmail(email.getEmail());
+			                                                                             ^
+  symbol:   method getEmail()
+  location: variable email of type ResetEmailDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LoginController.java:111: error: cannot find symbol
+			passwordResetTokenEntity = userService.createPasswordResetTokenForEmail(email.getEmail());
+			                                                                             ^
+  symbol:   method getEmail()
+  location: variable email of type ResetEmailDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LoginController.java:113: error: cannot find symbol
+		emailService.sendForgotPasswordEmail(	passwordResetTokenEntity.getUser(),
+		                                     	                        ^
+  symbol:   method getUser()
+  location: variable passwordResetTokenEntity of type UserPasswordToken
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LoginController.java:115: error: cannot find symbol
+				passwordResetTokenEntity.getToken());
+				                        ^
+  symbol:   method getToken()
+  location: variable passwordResetTokenEntity of type UserPasswordToken
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/controller/LoginController.java:128: error: cannot find symbol
+		if (user == null || !user.isEnable()) {
+		                         ^
+  symbol:   method isEnable()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/UserServiceImpl.java:56: error: cannot find symbol
+        Collection<? extends GrantedAuthority> authList = getUserAuthorities(user.getRoles());
+                                                                                 ^
+  symbol:   method getRoles()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/UserServiceImpl.java:59: error: cannot find symbol
+					user.getUsername(),
+					    ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/UserServiceImpl.java:60: error: cannot find symbol
+					user.getPassword(),
+					    ^
+  symbol:   method getPassword()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/UserServiceImpl.java:61: error: cannot find symbol
+					user.isEnable(),
+					    ^
+  symbol:   method isEnable()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/UserServiceImpl.java:103: error: cannot find symbol
+		if (user.getRole().equals("ADMIN")){
+		        ^
+  symbol:   method getRole()
+  location: variable user of type UserDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/UserServiceImpl.java:123: error: cannot find symbol
+		if (!userDTO.getEmail().isEmpty()) {
+		            ^
+  symbol:   method getEmail()
+  location: variable userDTO of type UserDTO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/UserServiceImpl.java:124: error: cannot find symbol
+			if (user.getEmail() == null) {
+			        ^
+  symbol:   method getEmail()
+  location: variable user of type User
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task74/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-Spring/src/main/java/com/wkrzywiec/spring/library/service/LibraryServiceImpl.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 16s

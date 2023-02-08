@@ -1,0 +1,250 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/common/RestSupport.java:25: error: constructor ListResponse in class ListResponse cannot be applied to given types;
+		ListResponse response = new ListResponse(listTarget);
+		                        ^
+  required: no arguments
+  found: List<CAP#1>
+  reason: actual and formal argument lists differ in length
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/common/RestSupport.java:59: error: constructor ListResponse in class ListResponse cannot be applied to given types;
+		ListResponse response = new ListResponse(firstList);
+		                        ^
+  required: no arguments
+  found: List<Object>
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:82: error: cannot find symbol
+        if(optionalUser.get().getRole().equals(Role.ADMINISTRATOR)) {
+                             ^
+  symbol:   method getRole()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:133: error: cannot find symbol
+        user.setId(optionalUser.get().getId());
+                                     ^
+  symbol:   method getId()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:144: error: cannot find symbol
+        if(userService.queryByUserName(user.getUserName()) != null) {
+                                           ^
+  symbol:   method getUserName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:165: error: cannot find symbol
+        User user = userService.queryByUserName(request.getUsername());
+                                                       ^
+  symbol:   method getUsername()
+  location: variable request of type ChangePasswordRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:170: error: cannot find symbol
+        user.setPasswordText(request.getNewPassword());
+                                    ^
+  symbol:   method getNewPassword()
+  location: variable request of type ChangePasswordRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:179: error: cannot find symbol
+        User user = userService.queryByUserName(request.getUsername());
+                                                       ^
+  symbol:   method getUsername()
+  location: variable request of type ChangePasswordRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:184: error: cannot find symbol
+        user.setPasswordText(request.getNewPassword());
+                                    ^
+  symbol:   method getNewPassword()
+  location: variable request of type ChangePasswordRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:190: error: constructor User in class User cannot be applied to given types;
+		User requestPsw = new User();
+		                  ^
+  required: String,String,String,String,String,Integer,Integer,Integer
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:191: error: cannot find symbol
+		requestPsw.setPasswordText(request.getOldPassword());
+		                                  ^
+  symbol:   method getOldPassword()
+  location: variable request of type ChangePasswordRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:218: error: cannot find symbol
+        mailService.sendForgottenPasswordEmail(user.getName(), email);
+                                                   ^
+  symbol:   method getName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:225: error: cannot find symbol
+        return !(user.getUserName() == null || user.getName() == null || user.getEmail() == null);
+                     ^
+  symbol:   method getUserName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:225: error: cannot find symbol
+        return !(user.getUserName() == null || user.getName() == null || user.getEmail() == null);
+                                                   ^
+  symbol:   method getName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:225: error: cannot find symbol
+        return !(user.getUserName() == null || user.getName() == null || user.getEmail() == null);
+                                                                             ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/controller/UserRestController.java:235: error: cannot find symbol
+        return userService.queryByUserName(username).getId();
+                                                    ^
+  symbol:   method getId()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/adapter/UserAdapter.java:14: error: cannot find symbol
+        return UserResponse.builder()
+                           ^
+  symbol:   method builder()
+  location: class UserResponse
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/adapter/UserAdapter.java:15: error: cannot find symbol
+                           .id(user.getId())
+                                   ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/adapter/UserAdapter.java:16: error: cannot find symbol
+                           .name(user.getName())
+                                     ^
+  symbol:   method getName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/adapter/UserAdapter.java:17: error: cannot find symbol
+                           .email(user.getEmail())
+                                      ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/adapter/UserAdapter.java:18: error: cannot find symbol
+                           .gender(user.getGender())
+                                       ^
+  symbol:   method getGender()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/adapter/UserAdapter.java:19: error: cannot find symbol
+                           .userName(user.getUserName())
+                                         ^
+  symbol:   method getUserName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/adapter/UserAdapter.java:26: error: cannot find symbol
+	    return UserPostResponse.builder()
+	                           ^
+  symbol:   method builder()
+  location: class UserPostResponse
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/adapter/UserAdapter.java:27: error: cannot find symbol
+	    		.id(user.getId())
+	    		        ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/adapter/UserAdapter.java:28: error: cannot find symbol
+	    	    .name(user.getName())
+	    	              ^
+  symbol:   method getName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/adapter/UserAdapter.java:29: error: cannot find symbol
+	    	    .email(user.getEmail())
+	    	               ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/adapter/UserAdapter.java:30: error: cannot find symbol
+	    	    .gender(user.getGender())
+	    	                ^
+  symbol:   method getGender()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/adapter/UserAdapter.java:31: error: cannot find symbol
+	    	    .userName(user.getUserName())
+	    	                  ^
+  symbol:   method getUserName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/common/JerseyAuthenticationFilter.java:71: error: cannot find symbol
+		if (method.isAnnotationPresent(OnlyAdmin.class) && !user.getRole().equals(Role.ADMINISTRATOR)) {
+		                                                        ^
+  symbol:   method getRole()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/ds/UserRoleNull.java:5: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/ds/UserNull.java:5: error: constructor User in class User cannot be applied to given types;
+public class UserNull extends User
+       ^
+  required: String,String,String,String,String,Integer,Integer,Integer
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/ds/UserNull.java:7: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/ds/UserNull.java:19: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/UserServiceImpl.java:27: error: cannot find symbol
+		if (user.getId() == null) {
+		        ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/UserServiceImpl.java:28: error: cannot find symbol
+			User userSameUsername = userRepo.findByUserName(user.getUserName());
+			                                                    ^
+  symbol:   method getUserName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/UserServiceImpl.java:30: error: cannot find symbol
+				user.setId(userSameUsername.getId());
+				                           ^
+  symbol:   method getId()
+  location: variable userSameUsername of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/UserServiceImpl.java:32: error: cannot find symbol
+					user.setOriginalPass(true);
+					    ^
+  symbol:   method setOriginalPass(boolean)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/UserServiceImpl.java:37: error: cannot find symbol
+			user.setId(idGenService.nextId("User"));
+			    ^
+  symbol:   method setId(Integer)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/UserServiceImpl.java:44: error: cannot find symbol
+		User userOld = userRepo.findById(user.getId()).get();
+		                                     ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/UserServiceImpl.java:46: error: cannot find symbol
+			user.setOriginalPass(true);
+			    ^
+  symbol:   method setOriginalPass(boolean)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/UserRoleServiceImpl.java:23: error: cannot find symbol
+		if (userRole.getId() == null) {
+		            ^
+  symbol:   method getId()
+  location: variable userRole of type UserRole
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/UserRoleServiceImpl.java:24: error: cannot find symbol
+			UserRole userRoleSame = userRoleRepo.findByName(userRole.getName());
+			                                                        ^
+  symbol:   method getName()
+  location: variable userRole of type UserRole
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/UserRoleServiceImpl.java:26: error: cannot find symbol
+				userRole.setId(userRoleSame.getId());
+				                           ^
+  symbol:   method getId()
+  location: variable userRoleSame of type UserRole
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/UserRoleServiceImpl.java:28: error: cannot find symbol
+				userRole.setId(idGenService.nextId("UserRole"));
+				        ^
+  symbol:   method setId(Integer)
+  location: variable userRole of type UserRole
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/IdGenServiceImpl.java:21: error: constructor IdGen in class IdGen cannot be applied to given types;
+			IdGenRepo.save(new IdGen(collection, 0));
+			               ^
+  required: no arguments
+  found: String,int
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/IdGenServiceImpl.java:24: error: cannot find symbol
+		Integer result = optionalGenerator.get().getCurrentId();
+		                                        ^
+  symbol:   method getCurrentId()
+  location: class IdGen
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task661/wd/NonDex-plugin-test/github.com/emanuelfoliveira/back-end-new-stacks/src/main/java/br/com/efo/bens/service/impl/IdGenServiceImpl.java:26: error: cannot find symbol
+		optionalGenerator.get().setCurrentId(result);
+		                       ^
+  symbol:   method setCurrentId(Integer)
+  location: class IdGen
+47 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s

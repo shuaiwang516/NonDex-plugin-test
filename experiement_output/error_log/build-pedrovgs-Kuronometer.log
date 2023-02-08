@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task195/wd/NonDex-plugin-test/github.com/pedrovgs/Kuronometer/kuronometer/build.gradle' line: 6
+
+* What went wrong:
+A problem occurred evaluating project ':kuronometer'.
+> Failed to apply plugin [id 'com.github.maiflai.scalatest']
+   > java.lang.UnsupportedOperationException (no error message)
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 21s

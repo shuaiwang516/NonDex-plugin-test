@@ -1,0 +1,42 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1431/wd/NonDex-plugin-test/github.com/hiromia006/mobileAutomation/src/test/java/com/appium/test/BaseExtentReportsTest.java:4: error: package com.aventstack.extentreports does not exist
+import com.aventstack.extentreports.ExtentReports;
+                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1431/wd/NonDex-plugin-test/github.com/hiromia006/mobileAutomation/src/test/java/com/appium/test/BaseExtentReportsTest.java:5: error: package com.aventstack.extentreports.reporter does not exist
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1431/wd/NonDex-plugin-test/github.com/hiromia006/mobileAutomation/src/test/java/com/appium/test/BaseExtentReportsTest.java:9: error: cannot find symbol
+    ExtentReports extent;
+    ^
+  symbol:   class ExtentReports
+  location: class BaseExtentReportsTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1431/wd/NonDex-plugin-test/github.com/hiromia006/mobileAutomation/src/test/java/com/appium/test/BaseExtentReportsTest.java:10: error: cannot find symbol
+    ExtentSparkReporter htmlReporter;
+    ^
+  symbol:   class ExtentSparkReporter
+  location: class BaseExtentReportsTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1431/wd/NonDex-plugin-test/github.com/hiromia006/mobileAutomation/src/test/java/com/appium/test/BaseExtentReportsTest.java:14: error: cannot find symbol
+        htmlReporter = new ExtentSparkReporter("Spark.html");
+                           ^
+  symbol:   class ExtentSparkReporter
+  location: class BaseExtentReportsTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1431/wd/NonDex-plugin-test/github.com/hiromia006/mobileAutomation/src/test/java/com/appium/test/BaseExtentReportsTest.java:16: error: cannot find symbol
+        extent = new ExtentReports();
+                     ^
+  symbol:   class ExtentReports
+  location: class BaseExtentReportsTest
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1431/wd/NonDex-plugin-test/github.com/hiromia006/mobileAutomation/src/test/java/com/appium/test/BaseTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+6 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

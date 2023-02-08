@@ -1,0 +1,27 @@
+[23:39:30] [main/INFO]: Writing debug log file accesstransform.log
+[23:39:30] [main/INFO]: Access Transformer processor running version 1.0.5+4+02b7b69
+[23:39:30] [main/INFO]: Command line arguments [--inJar, /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-injected.jar, --outJar, /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.1.0_mapped_official_1.16.5/forge-1.16.5-36.1.0_mapped_official_1.16.5.jar, --logFile, accesstransform.log, --atFile, /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1289/wd/NonDex-plugin-test/github.com/gnaatz/proximitychat/build/_atJar_5/parent_at.cfg]
+[23:39:30] [main/INFO]: Reading from /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-injected.jar
+[23:39:30] [main/INFO]: Writing to /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.1.0_mapped_official_1.16.5/forge-1.16.5-36.1.0_mapped_official_1.16.5.jar
+[23:39:30] [main/INFO]: Transformer file /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1289/wd/NonDex-plugin-test/github.com/gnaatz/proximitychat/build/_atJar_5/parent_at.cfg
+[23:39:30] [main/WARN]: Found existing output jar /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.1.0_mapped_official_1.16.5/forge-1.16.5-36.1.0_mapped_official_1.16.5.jar, overwriting
+[23:39:35] [main/INFO]: JAR transformation complete /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.1.0_mapped_official_1.16.5/forge-1.16.5-36.1.0_mapped_official_1.16.5.jar
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1289/wd/NonDex-plugin-test/github.com/gnaatz/proximitychat/src/main/java/dev/kolja/proximitychat/common/CommonEventsHandler.java:17: error: cannot find symbol
+        new ProximityChatCommand(event.getDispatcher());
+            ^
+  symbol:   class ProximityChatCommand
+  location: class CommonEventsHandler
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 32s

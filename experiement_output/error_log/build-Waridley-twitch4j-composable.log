@@ -1,0 +1,15 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task739/wd/NonDex-plugin-test/github.com/Waridley/twitch4j-composable/settings.gradle' line: 5
+
+* What went wrong:
+Project :twitch4j-twitch4j not found.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

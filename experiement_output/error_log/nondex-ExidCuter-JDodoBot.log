@@ -1,0 +1,325 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:3: error: package net.dv8tion.jda.client.entities does not exist
+import net.dv8tion.jda.client.entities.Group;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:4: error: package net.dv8tion.jda.core does not exist
+import net.dv8tion.jda.core.JDA;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:6: error: package net.dv8tion.jda.core.requests does not exist
+import net.dv8tion.jda.core.requests.RestAction;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:7: error: package net.dv8tion.jda.core.requests.restaction does not exist
+import net.dv8tion.jda.core.requests.restaction.AuditableRestAction;
+                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:8: error: package net.dv8tion.jda.core.requests.restaction does not exist
+import net.dv8tion.jda.core.requests.restaction.MessageAction;
+                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:19: error: cannot find symbol
+public class DefaultMessage implements Message {
+                                       ^
+  symbol: class Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:22: error: cannot find symbol
+    List<User> mentionedUsers;
+         ^
+  symbol:   class User
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:25: error: cannot find symbol
+    public List<User> getMentionedUsers() {
+                ^
+  symbol:   class User
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:30: error: cannot find symbol
+    public List<TextChannel> getMentionedChannels() {
+                ^
+  symbol:   class TextChannel
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:35: error: cannot find symbol
+    public List<Role> getMentionedRoles() {
+                ^
+  symbol:   class Role
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:40: error: cannot find symbol
+    public List<Member> getMentionedMembers(Guild guild) {
+                                            ^
+  symbol:   class Guild
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:40: error: cannot find symbol
+    public List<Member> getMentionedMembers(Guild guild) {
+                ^
+  symbol:   class Member
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:45: error: cannot find symbol
+    public List<Member> getMentionedMembers() {
+                ^
+  symbol:   class Member
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:50: error: cannot find symbol
+    public List<IMentionable> getMentions(MentionType... types) {
+                                          ^
+  symbol:   class MentionType
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:50: error: cannot find symbol
+    public List<IMentionable> getMentions(MentionType... types) {
+                ^
+  symbol:   class IMentionable
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:55: error: cannot find symbol
+    public boolean isMentioned(IMentionable mentionable, MentionType... types) {
+                               ^
+  symbol:   class IMentionable
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:55: error: cannot find symbol
+    public boolean isMentioned(IMentionable mentionable, MentionType... types) {
+                                                         ^
+  symbol:   class MentionType
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:75: error: cannot find symbol
+    public User getAuthor() {
+           ^
+  symbol:   class User
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:80: error: cannot find symbol
+    public Member getMember() {
+           ^
+  symbol:   class Member
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:110: error: cannot find symbol
+    public boolean isFromType(ChannelType type) {
+                              ^
+  symbol:   class ChannelType
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:115: error: cannot find symbol
+    public ChannelType getChannelType() {
+           ^
+  symbol:   class ChannelType
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:125: error: cannot find symbol
+    public MessageChannel getChannel() {
+           ^
+  symbol:   class MessageChannel
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:130: error: cannot find symbol
+    public PrivateChannel getPrivateChannel() {
+           ^
+  symbol:   class PrivateChannel
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:135: error: cannot find symbol
+    public Group getGroup() {
+           ^
+  symbol:   class Group
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:140: error: cannot find symbol
+    public TextChannel getTextChannel() {
+           ^
+  symbol:   class TextChannel
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:145: error: cannot find symbol
+    public Category getCategory() {
+           ^
+  symbol:   class Category
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:150: error: cannot find symbol
+    public Guild getGuild() {
+           ^
+  symbol:   class Guild
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:155: error: cannot find symbol
+    public List<Attachment> getAttachments() {
+                ^
+  symbol:   class Attachment
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:160: error: cannot find symbol
+    public List<MessageEmbed> getEmbeds() {
+                ^
+  symbol:   class MessageEmbed
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:165: error: cannot find symbol
+    public List<Emote> getEmotes() {
+                ^
+  symbol:   class Emote
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:170: error: cannot find symbol
+    public List<MessageReaction> getReactions() {
+                ^
+  symbol:   class MessageReaction
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:180: error: cannot find symbol
+    public MessageAction editMessage(CharSequence newContent) {
+           ^
+  symbol:   class MessageAction
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:185: error: cannot find symbol
+    public MessageAction editMessage(MessageEmbed newContent) {
+                                     ^
+  symbol:   class MessageEmbed
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:185: error: cannot find symbol
+    public MessageAction editMessage(MessageEmbed newContent) {
+           ^
+  symbol:   class MessageAction
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:190: error: cannot find symbol
+    public MessageAction editMessageFormat(String format, Object... args) {
+           ^
+  symbol:   class MessageAction
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:195: error: cannot find symbol
+    public MessageAction editMessage(Message newContent) {
+                                     ^
+  symbol:   class Message
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:195: error: cannot find symbol
+    public MessageAction editMessage(Message newContent) {
+           ^
+  symbol:   class MessageAction
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:200: error: cannot find symbol
+    public AuditableRestAction<Void> delete() {
+           ^
+  symbol:   class AuditableRestAction
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:205: error: cannot find symbol
+    public JDA getJDA() {
+           ^
+  symbol:   class JDA
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:215: error: cannot find symbol
+    public RestAction<Void> pin() {
+           ^
+  symbol:   class RestAction
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:220: error: cannot find symbol
+    public RestAction<Void> unpin() {
+           ^
+  symbol:   class RestAction
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:225: error: cannot find symbol
+    public RestAction<Void> addReaction(Emote emote) {
+                                        ^
+  symbol:   class Emote
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:225: error: cannot find symbol
+    public RestAction<Void> addReaction(Emote emote) {
+           ^
+  symbol:   class RestAction
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:230: error: cannot find symbol
+    public RestAction<Void> addReaction(String unicode) {
+           ^
+  symbol:   class RestAction
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:235: error: cannot find symbol
+    public RestAction<Void> clearReactions() {
+           ^
+  symbol:   class RestAction
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:240: error: cannot find symbol
+    public MessageType getType() {
+           ^
+  symbol:   class MessageType
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:251: error: cannot find symbol
+    public MessageActivity getActivity() {
+           ^
+  symbol:   class MessageActivity
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:265: error: cannot find symbol
+    public DefaultMessage(@NotNull String[] parameters, Guild guild) {
+                                                        ^
+  symbol:   class Guild
+  location: class DefaultMessage
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/DefaultMessage.java:5: error: package net.dv8tion.jda.core.entities does not exist
+import net.dv8tion.jda.core.entities.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:4: error: package net.dv8tion.jda.core.entities does not exist
+import net.dv8tion.jda.core.entities.Guild;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:5: error: package net.dv8tion.jda.core.entities does not exist
+import net.dv8tion.jda.core.entities.Message;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:6: error: package net.dv8tion.jda.core.entities does not exist
+import net.dv8tion.jda.core.entities.TextChannel;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:7: error: package net.dv8tion.jda.core.entities does not exist
+import net.dv8tion.jda.core.entities.User;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:13: error: cannot find symbol
+    private User user;
+            ^
+  symbol:   class User
+  location: class MessageParams
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:14: error: cannot find symbol
+    private Guild guild;
+            ^
+  symbol:   class Guild
+  location: class MessageParams
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:17: error: cannot find symbol
+    private Message message;
+            ^
+  symbol:   class Message
+  location: class MessageParams
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:19: error: cannot find symbol
+    private TextChannel textChannel;
+            ^
+  symbol:   class TextChannel
+  location: class MessageParams
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:22: error: cannot find symbol
+    public MessageParams(String command, User user, Guild guild, TextChannel textChannel) {
+                                         ^
+  symbol:   class User
+  location: class MessageParams
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:22: error: cannot find symbol
+    public MessageParams(String command, User user, Guild guild, TextChannel textChannel) {
+                                                    ^
+  symbol:   class Guild
+  location: class MessageParams
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:22: error: cannot find symbol
+    public MessageParams(String command, User user, Guild guild, TextChannel textChannel) {
+                                                                 ^
+  symbol:   class TextChannel
+  location: class MessageParams
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:32: error: cannot find symbol
+    public MessageParams(@NotNull Message message) {
+                                  ^
+  symbol:   class Message
+  location: class MessageParams
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:13: error: cannot find symbol
+    private User user;
+                 ^
+  symbol:   class User
+  location: class MessageParams
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:14: error: cannot find symbol
+    private Guild guild;
+                  ^
+  symbol:   class Guild
+  location: class MessageParams
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:17: error: cannot find symbol
+    private Message message;
+                    ^
+  symbol:   class Message
+  location: class MessageParams
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/MessageParams.java:19: error: cannot find symbol
+    private TextChannel textChannel;
+                        ^
+  symbol:   class TextChannel
+  location: class MessageParams
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/AudioPlayerSendHandler.java:5: error: package net.dv8tion.jda.core.audio does not exist
+import net.dv8tion.jda.core.audio.AudioSendHandler;
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task378/wd/NonDex-plugin-test/github.com/ExidCuter/JDodoBot/src/main/java/xyz/the_dodo/bot/types/AudioPlayerSendHandler.java:7: error: cannot find symbol
+public class AudioPlayerSendHandler implements AudioSendHandler
+                                               ^
+  symbol: class AudioSendHandler
+67 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 23s

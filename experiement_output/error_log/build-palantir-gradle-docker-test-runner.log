@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task792/wd/NonDex-plugin-test/github.com/palantir/gradle-docker-test-runner/build.gradle' line: 4
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'com.palantir.git-version', version: '0.4.0']
+> Failed to apply plugin [id 'com.palantir.git-version']
+   > Could not find method leftShift() for arguments [com.palantir.gradle.gitversion.GitVersionPlugin$_apply_closure2@7bd3b658] on task ':printVersion' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

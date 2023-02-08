@@ -1,0 +1,111 @@
+warning: [options] source value 6 is obsolete and will be removed in a future release
+warning: [options] target value 1.6 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/BaseGradleRunnerTest.java:29: error: package jetbrains.buildServer.agent.runner2 does not exist
+import jetbrains.buildServer.agent.runner2.GenericCommandLineBuildProcess;
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/BaseGradleRunnerTest.java:30: error: package jetbrains.buildServer.agent.runner2 does not exist
+import jetbrains.buildServer.agent.runner2.SingleCommandLineBuildSessionFactoryAdapter;
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:49: error: cannot find symbol
+  private ToolProvider myToolProvider;
+          ^
+  symbol:   class ToolProvider
+  location: class GradleToolProviderTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:54: error: cannot find symbol
+  private ToolProvidersRegistry tpRegistry;
+          ^
+  symbol:   class ToolProvidersRegistry
+  location: class GradleToolProviderTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:55: error: cannot find symbol
+  private ToolProvider registeredProvider;
+          ^
+  symbol:   class ToolProvider
+  location: class GradleToolProviderTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:76: error: cannot find symbol
+  private ToolProvider getToolProvider() {
+          ^
+  symbol:   class ToolProvider
+  location: class GradleToolProviderTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:80: error: cannot find symbol
+  private void setToolProvider(final ToolProvider provider) {
+                                     ^
+  symbol:   class ToolProvider
+  location: class GradleToolProviderTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/BaseGradleRunnerTest.java:301: error: cannot find symbol
+    final SingleCommandLineBuildSessionFactoryAdapter adapter = new SingleCommandLineBuildSessionFactoryAdapter(new GradleRunnerServiceFactory());
+          ^
+  symbol:   class SingleCommandLineBuildSessionFactoryAdapter
+  location: class BaseGradleRunnerTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/BaseGradleRunnerTest.java:301: error: cannot find symbol
+    final SingleCommandLineBuildSessionFactoryAdapter adapter = new SingleCommandLineBuildSessionFactoryAdapter(new GradleRunnerServiceFactory());
+                                                                    ^
+  symbol:   class SingleCommandLineBuildSessionFactoryAdapter
+  location: class BaseGradleRunnerTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/BaseGradleRunnerTest.java:303: error: cannot find symbol
+    final GenericCommandLineBuildProcess proc = new GenericCommandLineBuildProcess(myMockRunner, session, myMockExtensionHolder);
+          ^
+  symbol:   class GenericCommandLineBuildProcess
+  location: class BaseGradleRunnerTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/BaseGradleRunnerTest.java:303: error: cannot find symbol
+    final GenericCommandLineBuildProcess proc = new GenericCommandLineBuildProcess(myMockRunner, session, myMockExtensionHolder);
+                                                    ^
+  symbol:   class GenericCommandLineBuildProcess
+  location: class BaseGradleRunnerTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:62: error: cannot find symbol
+        setToolProvider((ToolProvider)invocation.getParameter(0));
+                         ^
+  symbol: class ToolProvider
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:95: error: cannot find symbol
+    tpRegistry = myContext.mock(ToolProvidersRegistry.class);
+                                ^
+  symbol:   class ToolProvidersRegistry
+  location: class GradleToolProviderTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:100: error: cannot find symbol
+    final BundledToolsRegistry reg = myContext.mock(BundledToolsRegistry.class);
+          ^
+  symbol:   class BundledToolsRegistry
+  location: class GradleToolProviderTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:100: error: cannot find symbol
+    final BundledToolsRegistry reg = myContext.mock(BundledToolsRegistry.class);
+                                                    ^
+  symbol:   class BundledToolsRegistry
+  location: class GradleToolProviderTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:101: error: cannot find symbol
+    final BundledTool tool = myContext.mock(BundledTool.class);
+          ^
+  symbol:   class BundledTool
+  location: class GradleToolProviderTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:101: error: cannot find symbol
+    final BundledTool tool = myContext.mock(BundledTool.class);
+                                            ^
+  symbol:   class BundledTool
+  location: class GradleToolProviderTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:105: error: cannot find symbol
+      allowing(tpRegistry).registerToolProvider(with(any(ToolProvider.class))); will(registerToolProvider);
+                                                         ^
+  symbol: class ToolProvider
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task199/wd/NonDex-plugin-test/github.com/JetBrains/teamcity-gradle/gradle-runner-agent/src/test/java/jetbrains/buildServer/gradle/test/integration/GradleToolProviderTest.java:117: error: cannot find symbol
+    final ToolProvider toolProvider = tpRegistry.findToolProvider(GradleToolProvider.GRADLE_TOOL);
+          ^
+  symbol:   class ToolProvider
+  location: class GradleToolProviderTest
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+19 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':gradle-runner-agent:compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 40s

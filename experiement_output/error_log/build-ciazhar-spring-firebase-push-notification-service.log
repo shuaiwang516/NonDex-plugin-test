@@ -1,0 +1,20 @@
+Project evaluation failed including an error in afterEvaluate {}. Run with --stacktrace for details of the afterEvaluate {} error.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task824/wd/NonDex-plugin-test/github.com/ciazhar/spring-firebase-push-notification-service/build.gradle' line: 22
+
+* What went wrong:
+A problem occurred evaluating root project 'spring-firebase-push-notification-service'.
+> Failed to apply plugin [id 'org.springframework.boot']
+   > Could not create task ':bootRun'.
+      > Could not create task of type 'BootRun'.
+         > 'org.gradle.api.provider.PropertyState org.gradle.api.Project.property(java.lang.Class)'
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s

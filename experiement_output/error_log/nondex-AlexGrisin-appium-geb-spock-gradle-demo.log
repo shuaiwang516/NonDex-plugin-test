@@ -1,0 +1,32 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Circular dependency between the following tasks:
+:chromeHeadlessTest
++--- :chromeHeadlessTest (*)
++--- :chromeTest
+|    +--- :chromeHeadlessTest (*)
+|    +--- :chromeTest (*)
+|    +--- :firefoxTest
+|    |    +--- :chromeHeadlessTest (*)
+|    |    +--- :chromeTest (*)
+|    |    +--- :firefoxTest (*)
+|    |    \--- :iosTest
+|    |         +--- :chromeHeadlessTest (*)
+|    |         +--- :chromeTest (*)
+|    |         +--- :firefoxTest (*)
+|    |         \--- :iosTest (*)
+|    \--- :iosTest (*)
++--- :firefoxTest (*)
+\--- :iosTest (*)
+
+(*) - details omitted (listed previously)
+
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s

@@ -1,0 +1,25 @@
+[Fatal Error] gradle-tooling-api-5.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-tooling-api-5.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-tooling-api-5.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':project-info-gradle-model:compileJava'.
+> Could not resolve all files for configuration ':project-info-gradle-model:compileClasspath'.
+   > Could not resolve org.gradle:gradle-tooling-api:5.0.
+     Required by:
+         project :project-info-gradle-model
+      > Could not resolve org.gradle:gradle-tooling-api:5.0.
+         > Could not get resource 'http://repo.gradle.org/gradle/libs-releases-local/org/gradle/gradle-tooling-api/5.0/gradle-tooling-api-5.0.pom'.
+            > Could not GET 'http://repo.gradle.org/gradle/libs-releases-local/org/gradle/gradle-tooling-api/5.0/gradle-tooling-api-5.0.pom'. Received status code 403 from server: Forbidden
+      > Could not resolve org.gradle:gradle-tooling-api:5.0.
+         > Could not parse POM http://dl.bintray.com/jv-ration/maven/org/gradle/gradle-tooling-api/5.0/gradle-tooling-api-5.0.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

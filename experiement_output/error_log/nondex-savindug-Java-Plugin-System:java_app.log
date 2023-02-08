@@ -1,0 +1,21 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/savindug/Java-Plugin-System/c_library/src/main/cpp/example_c_library.cpp:1:10: fatal error: jni.h: No such file or directory
+    1 | #include <jni.h>
+      |          ^~~~~~~
+compilation terminated.
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':c_library:compileReleaseLinuxX86-64Cpp'.
+> A build operation failed.
+      C++ compiler failed while compiling example_c_library.cpp.
+  See the complete log at: file:///mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/savindug/Java-Plugin-System/c_library/build/tmp/compileReleaseLinuxX86-64Cpp/output.txt
+   > C++ compiler failed while compiling example_c_library.cpp.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

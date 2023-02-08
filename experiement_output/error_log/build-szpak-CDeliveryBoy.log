@@ -1,0 +1,10 @@
+Verification of Gradle distribution failed!
+
+Your Gradle distribution may have been tampered with.
+Confirm that the 'distributionSha256Sum' property in your gradle-wrapper.properties file is correct and you are downloading the wrapper from a trusted source.
+
+ Distribution Url: https://services.gradle.org/distributions/gradle-5.0-bin.zip
+Download Location: /root/.gradle/wrapper/dists/gradle-5.0-bin/pu5208521seraqlersebvqk/gradle-5.0-bin.zip
+Expected checksum: '5c07b3bac2209fbc98fb1fdf6fd831f72429cdf8c503807404eae03d8c8099e5'
+  Actual checksum: '6157ac9f3410bc63644625b3b3e9e96c963afd7910ae0697792db57813ee79a6'
+

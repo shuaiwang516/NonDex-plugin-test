@@ -1,0 +1,40 @@
+[Fatal Error] logback4k-1.10.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] common4k-1.10.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] common4k-1.10.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] logback4k-1.10.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] common4k-1.10.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] logback4k-1.10.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] github4k-1.10.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] github4k-1.10.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] github4k-1.10.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve com.github.christophpickl.kpotpourri:common4k:1.10.
+     Required by:
+         project :
+      > Could not resolve com.github.christophpickl.kpotpourri:common4k:1.10.
+         > Could not parse POM http://dl.bintray.com/christophpickl/cpickl/com/github/christophpickl/kpotpourri/common4k/1.10/common4k-1.10.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve com.github.christophpickl.kpotpourri:logback4k:1.10.
+     Required by:
+         project :
+      > Could not resolve com.github.christophpickl.kpotpourri:logback4k:1.10.
+         > Could not parse POM http://dl.bintray.com/christophpickl/cpickl/com/github/christophpickl/kpotpourri/logback4k/1.10/logback4k-1.10.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve com.github.christophpickl.kpotpourri:github4k:1.10.
+     Required by:
+         project :
+      > Could not resolve com.github.christophpickl.kpotpourri:github4k:1.10.
+         > Could not parse POM http://dl.bintray.com/christophpickl/cpickl/com/github/christophpickl/kpotpourri/github4k/1.10/github4k-1.10.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

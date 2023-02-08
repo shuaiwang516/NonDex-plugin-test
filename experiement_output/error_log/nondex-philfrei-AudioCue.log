@@ -1,0 +1,429 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:51: error: package javafx.application does not exist
+import javafx.application.Application;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:52: error: package javafx.geometry does not exist
+import javafx.geometry.Insets;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:53: error: package javafx.geometry does not exist
+import javafx.geometry.Orientation;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:54: error: package javafx.scene does not exist
+import javafx.scene.Group;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:55: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:56: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:57: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:58: error: package javafx.scene.control does not exist
+import javafx.scene.control.ScrollBar;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:59: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.GridPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:60: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.HBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:62: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:89: error: cannot find symbol
+public class SlidersTest extends Application
+                                 ^
+  symbol: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:93: error: cannot find symbol
+	Stage primaryStage;
+	^
+  symbol:   class Stage
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:102: error: cannot find symbol
+	public void start(Stage arg0) throws Exception 
+	                  ^
+  symbol:   class Stage
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:98: error: cannot find symbol
+        Application.launch(args);
+        ^
+  symbol:   variable Application
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:101: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:106: error: cannot find symbol
+	    Group root = new Group();
+	    ^
+  symbol:   class Group
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:106: error: cannot find symbol
+	    Group root = new Group();
+	                     ^
+  symbol:   class Group
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:107: error: cannot find symbol
+	    Scene scene = new Scene(root, 400, 500);
+	    ^
+  symbol:   class Scene
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:107: error: cannot find symbol
+	    Scene scene = new Scene(root, 400, 500);
+	                      ^
+  symbol:   class Scene
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:115: error: cannot find symbol
+		Button btnPlay0 = new Button("Play");
+		^
+  symbol:   class Button
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:115: error: cannot find symbol
+		Button btnPlay0 = new Button("Play");
+		                      ^
+  symbol:   class Button
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:118: error: cannot find symbol
+		Button btnPlay1 = new Button("Play");
+		^
+  symbol:   class Button
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:118: error: cannot find symbol
+		Button btnPlay1 = new Button("Play");
+		                      ^
+  symbol:   class Button
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:120: error: cannot find symbol
+		Button btnPlay2 = new Button("Play");
+		^
+  symbol:   class Button
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:120: error: cannot find symbol
+		Button btnPlay2 = new Button("Play");
+		                      ^
+  symbol:   class Button
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:123: error: cannot find symbol
+		Label lbPitch0 = new Label("Frq");
+		^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:123: error: cannot find symbol
+		Label lbPitch0 = new Label("Frq");
+		                     ^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:124: error: cannot find symbol
+		Label lbPitch1 = new Label("Frq");
+		^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:124: error: cannot find symbol
+		Label lbPitch1 = new Label("Frq");
+		                     ^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:125: error: cannot find symbol
+		Label lbPitch2 = new Label("Frq");
+		^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:125: error: cannot find symbol
+		Label lbPitch2 = new Label("Frq");
+		                     ^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:126: error: cannot find symbol
+		Label lbVolume0 = new Label("Vol");
+		^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:126: error: cannot find symbol
+		Label lbVolume0 = new Label("Vol");
+		                      ^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:127: error: cannot find symbol
+		Label lbVolume1 = new Label("Vol");
+		^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:127: error: cannot find symbol
+		Label lbVolume1 = new Label("Vol");
+		                      ^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:128: error: cannot find symbol
+		Label lbVolume2 = new Label("Vol");
+		^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:128: error: cannot find symbol
+		Label lbVolume2 = new Label("Vol");
+		                      ^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:129: error: cannot find symbol
+		Label lbPan0 = new Label("Pan");
+		^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:129: error: cannot find symbol
+		Label lbPan0 = new Label("Pan");
+		                   ^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:130: error: cannot find symbol
+		Label lbPan1 = new Label("Pan");
+		^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:130: error: cannot find symbol
+		Label lbPan1 = new Label("Pan");
+		                   ^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:131: error: cannot find symbol
+		Label lbPan2 = new Label("Pan");
+		^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:131: error: cannot find symbol
+		Label lbPan2 = new Label("Pan");
+		                   ^
+  symbol:   class Label
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:133: error: cannot find symbol
+		ScrollBar sbVolume0 = new ScrollBar();
+		^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:133: error: cannot find symbol
+		ScrollBar sbVolume0 = new ScrollBar();
+		                          ^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:134: error: cannot find symbol
+		sbVolume0.setOrientation(Orientation.VERTICAL);
+		                         ^
+  symbol:   variable Orientation
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:142: error: cannot find symbol
+		ScrollBar sbVolume1 = new ScrollBar();
+		^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:142: error: cannot find symbol
+		ScrollBar sbVolume1 = new ScrollBar();
+		                          ^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:143: error: cannot find symbol
+		sbVolume1.setOrientation(Orientation.VERTICAL);
+		                         ^
+  symbol:   variable Orientation
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:151: error: cannot find symbol
+		ScrollBar sbVolume2 = new ScrollBar();
+		^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:151: error: cannot find symbol
+		ScrollBar sbVolume2 = new ScrollBar();
+		                          ^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:152: error: cannot find symbol
+		sbVolume2.setOrientation(Orientation.VERTICAL);
+		                         ^
+  symbol:   variable Orientation
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:160: error: cannot find symbol
+		ScrollBar sbPan0 = new ScrollBar();
+		^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:160: error: cannot find symbol
+		ScrollBar sbPan0 = new ScrollBar();
+		                       ^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:161: error: cannot find symbol
+		sbPan0.setOrientation(Orientation.VERTICAL);
+		                      ^
+  symbol:   variable Orientation
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:170: error: cannot find symbol
+		ScrollBar sbPan1 = new ScrollBar();
+		^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:170: error: cannot find symbol
+		ScrollBar sbPan1 = new ScrollBar();
+		                       ^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:171: error: cannot find symbol
+		sbPan1.setOrientation(Orientation.VERTICAL);
+		                      ^
+  symbol:   variable Orientation
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:180: error: cannot find symbol
+		ScrollBar sbPan2 = new ScrollBar();
+		^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:180: error: cannot find symbol
+		ScrollBar sbPan2 = new ScrollBar();
+		                       ^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:181: error: cannot find symbol
+		sbPan2.setOrientation(Orientation.VERTICAL);
+		                      ^
+  symbol:   variable Orientation
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:190: error: cannot find symbol
+		ScrollBar sbPitch0 = new ScrollBar();
+		^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:190: error: cannot find symbol
+		ScrollBar sbPitch0 = new ScrollBar();
+		                         ^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:191: error: cannot find symbol
+		sbPitch0.setOrientation(Orientation.VERTICAL);
+		                        ^
+  symbol:   variable Orientation
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:200: error: cannot find symbol
+		ScrollBar sbPitch1 = new ScrollBar();
+		^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:200: error: cannot find symbol
+		ScrollBar sbPitch1 = new ScrollBar();
+		                         ^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:201: error: cannot find symbol
+		sbPitch1.setOrientation(Orientation.VERTICAL);
+		                        ^
+  symbol:   variable Orientation
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:210: error: cannot find symbol
+		ScrollBar sbPitch2 = new ScrollBar();
+		^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:210: error: cannot find symbol
+		ScrollBar sbPitch2 = new ScrollBar();
+		                         ^
+  symbol:   class ScrollBar
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:211: error: cannot find symbol
+		sbPitch2.setOrientation(Orientation.VERTICAL);
+		                        ^
+  symbol:   variable Orientation
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:220: error: cannot find symbol
+	    HBox hb0 = new HBox();
+	    ^
+  symbol:   class HBox
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:220: error: cannot find symbol
+	    HBox hb0 = new HBox();
+	                   ^
+  symbol:   class HBox
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:224: error: cannot find symbol
+	    HBox hb1 = new HBox();
+	    ^
+  symbol:   class HBox
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:224: error: cannot find symbol
+	    HBox hb1 = new HBox();
+	                   ^
+  symbol:   class HBox
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:228: error: cannot find symbol
+	    HBox hb2 = new HBox();
+	    ^
+  symbol:   class HBox
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:228: error: cannot find symbol
+	    HBox hb2 = new HBox();
+	                   ^
+  symbol:   class HBox
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:232: error: cannot find symbol
+	    HBox hbL0 = new HBox();
+	    ^
+  symbol:   class HBox
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:232: error: cannot find symbol
+	    HBox hbL0 = new HBox();
+	                    ^
+  symbol:   class HBox
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:236: error: cannot find symbol
+	    HBox hbL1 = new HBox();
+	    ^
+  symbol:   class HBox
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:236: error: cannot find symbol
+	    HBox hbL1 = new HBox();
+	                    ^
+  symbol:   class HBox
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:240: error: cannot find symbol
+	    HBox hbL2 = new HBox();
+	    ^
+  symbol:   class HBox
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:240: error: cannot find symbol
+	    HBox hbL2 = new HBox();
+	                    ^
+  symbol:   class HBox
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:245: error: cannot find symbol
+		Button btnPlayClip = new Button("Play Clip");
+		^
+  symbol:   class Button
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:245: error: cannot find symbol
+		Button btnPlayClip = new Button("Play Clip");
+		                         ^
+  symbol:   class Button
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:251: error: cannot find symbol
+	    GridPane grid = new GridPane();
+	    ^
+  symbol:   class GridPane
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:251: error: cannot find symbol
+	    GridPane grid = new GridPane();
+	                        ^
+  symbol:   class GridPane
+  location: class SlidersTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1210/wd/NonDex-plugin-test/github.com/philfrei/AudioCue/src/main/java/com/adonax/audiocue/supportpack/SlidersTest.java:252: error: cannot find symbol
+	    grid.setPadding(new Insets(10));
+	                        ^
+  symbol:   class Insets
+  location: class SlidersTest
+88 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

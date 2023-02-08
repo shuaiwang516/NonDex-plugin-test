@@ -1,0 +1,28 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not determine the dependencies of task ':layerlist:nondexTest'.
+> Could not resolve all task dependencies for configuration ':layerlist:testRuntimeClasspath'.
+   > Could not find com.deflatedpickle:marvin:.
+     Required by:
+         project :layerlist > project :core
+   > Could not find com.deflatedpickle:undulation:.
+     Required by:
+         project :layerlist > project :core
+   > Could not find com.deflatedpickle:haruhi:.
+     Required by:
+         project :layerlist > project :core
+   > Could not find com.deflatedpickle:tosuto:.
+     Required by:
+         project :layerlist > project :core
+   > Could not find com.deflatedpickle:monocons:.
+     Required by:
+         project :layerlist > project :core
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

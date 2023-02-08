@@ -1,0 +1,29 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task743/wd/NonDex-plugin-test/github.com/nocode2k/gradle-springboot2-demo/src/test/java/com/example/gradlespringboot2demo/GradleSpringboot2DemoApplicationTests.java:3: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task743/wd/NonDex-plugin-test/github.com/nocode2k/gradle-springboot2-demo/src/test/java/com/example/gradlespringboot2demo/GradleSpringboot2DemoApplicationTests.java:4: error: package org.junit.runner does not exist
+import org.junit.runner.RunWith;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task743/wd/NonDex-plugin-test/github.com/nocode2k/gradle-springboot2-demo/src/test/java/com/example/gradlespringboot2demo/GradleSpringboot2DemoApplicationTests.java:8: error: cannot find symbol
+@RunWith(SpringRunner.class)
+ ^
+  symbol: class RunWith
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task743/wd/NonDex-plugin-test/github.com/nocode2k/gradle-springboot2-demo/src/test/java/com/example/gradlespringboot2demo/GradleSpringboot2DemoApplicationTests.java:12: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class GradleSpringboot2DemoApplicationTests
+4 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s

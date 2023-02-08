@@ -1,0 +1,21 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1252/wd/NonDex-plugin-test/github.com/danveloper/gradle-js/src/main/groovy/com/github/danveloper/gradle/plugins/jsbuild/internal/BetterProject.groovy: 27: The return type of void ant(org.gradle.api.Action) in com.github.danveloper.gradle.plugins.jsbuild.internal.BetterProject is incompatible with org.gradle.api.AntBuilder in org.gradle.api.Project
+. At [27:3]  @ line 27, column 3.
+     void ant(Action<AntBuilder> fn) {
+     ^
+
+1 error
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 17s

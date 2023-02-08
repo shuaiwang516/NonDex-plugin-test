@@ -1,0 +1,30 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task67/wd/NonDex-plugin-test/github.com/armeenm/robot-2018-kt/build.gradle' line: 7
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'edu.wpi.first.GradleRIO', version: '2019.0.0-alpha-3']
+> Failed to apply plugin [class 'edu.wpi.first.gradlerio.test.sim.SimulationPlugin']
+   > DefaultTaskContainer#NamedDomainObjectProvider.configure(Action) on task set cannot be executed in the current context.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 19s
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not create task ':deploy'.
+> DefaultTaskCollection#all(Action) on task set cannot be executed in the current context.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 19s

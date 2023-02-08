@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestGroovy'.
+> Could not resolve all files for configuration ':testCompileClasspath'.
+   > Could not find org.spockframework:spock-core:1.1-groovy-2.5.
+     Searched in the following locations:
+       - https://jcenter.bintray.com/org/spockframework/spock-core/1.1-groovy-2.5/spock-core-1.1-groovy-2.5.pom
+       - https://jcenter.bintray.com/org/spockframework/spock-core/1.1-groovy-2.5/spock-core-1.1-groovy-2.5.jar
+       - https://repo.maven.apache.org/maven2/org/spockframework/spock-core/1.1-groovy-2.5/spock-core-1.1-groovy-2.5.pom
+       - https://repo.maven.apache.org/maven2/org/spockframework/spock-core/1.1-groovy-2.5/spock-core-1.1-groovy-2.5.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 20s

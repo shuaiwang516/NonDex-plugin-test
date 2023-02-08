@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':groovy-test'.
+> Could not resolve all artifacts for configuration ':groovy-test:classpath'.
+   > Could not find org.quiltmc:tiny-remapper:0.3.2.
+     Searched in the following locations:
+       - https://plugins.gradle.org/m2/org/quiltmc/tiny-remapper/0.3.2/tiny-remapper-0.3.2.pom
+       - https://repo.maven.apache.org/maven2/org/quiltmc/tiny-remapper/0.3.2/tiny-remapper-0.3.2.pom
+       - https://maven.quiltmc.org/repository/release/org/quiltmc/tiny-remapper/0.3.2/tiny-remapper-0.3.2.pom
+     Required by:
+         project :groovy-test > project :plugin
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s

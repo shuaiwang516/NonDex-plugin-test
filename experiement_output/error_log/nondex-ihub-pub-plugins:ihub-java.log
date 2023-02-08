@@ -1,0 +1,22 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ihub-base-test:compileGroovy'.
+> Could not resolve all files for configuration ':ihub-base-test:detachedConfiguration96'.
+   > Could not resolve org.codehaus.groovy:groovy-sql:3.0.13.
+     Required by:
+         project :ihub-base-test
+      > Could not resolve org.codehaus.groovy:groovy-sql:3.0.13.
+         > Could not get resource 'https://maven.aliyun.com/repository/public/org/codehaus/groovy/groovy-sql/3.0.13/groovy-sql-3.0.13.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/codehaus/groovy/groovy-sql/3.0.13/groovy-sql-3.0.13.pom?Expires=1675215460&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=drgSPB%2F0dP3dmgzR9rfOzjNiLxM%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6m 54s

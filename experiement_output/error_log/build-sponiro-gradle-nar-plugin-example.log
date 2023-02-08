@@ -1,0 +1,22 @@
+[Fatal Error] gradle-nar-plugin-0.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-nar-plugin-0.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-nar-plugin-0.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-nar-plugin-example'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve de.fanero.gradle.plugin.nar:gradle-nar-plugin:0.3.
+     Required by:
+         project :
+      > Could not resolve de.fanero.gradle.plugin.nar:gradle-nar-plugin:0.3.
+         > Could not parse POM http://dl.bintray.com/sponiro/gradle-plugins/de/fanero/gradle/plugin/nar/gradle-nar-plugin/0.3/gradle-nar-plugin-0.3.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

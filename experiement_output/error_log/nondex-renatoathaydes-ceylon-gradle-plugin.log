@@ -1,0 +1,26 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1456/wd/NonDex-plugin-test/github.com/renatoathaydes/ceylon-gradle-plugin/src/main/groovy/com/athaydes/gradle/ceylon/task/ResolveCeylonDependenciesTask.groovy: 50: [Static type checking] - Reference to method is ambiguous. Cannot choose between [java.util.List <T> java.lang.Iterable <S>#collect(groovy.lang.Closure <T>), java.util.List <T> java.lang.Object#collect(groovy.lang.Closure <T>)]
+ @ line 50, column 36.
+           def existingDependencies = project.configurations.getByName( 'ceylonCompile' ).dependencies.collect {
+                                      ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1456/wd/NonDex-plugin-test/github.com/renatoathaydes/ceylon-gradle-plugin/src/main/groovy/com/athaydes/gradle/ceylon/task/ResolveCeylonDependenciesTask.groovy: 57: [Static type checking] - Cannot find matching method java.lang.Object#contains(groovy.lang.GString). Please check if the declared type is correct and if the method exists.
+ @ line 57, column 19.
+               if ( !existingDependencies.contains(
+                     ^
+
+2 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 18s

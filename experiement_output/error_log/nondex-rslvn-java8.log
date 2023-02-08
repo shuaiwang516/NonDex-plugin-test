@@ -1,0 +1,251 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/function/PrimitiveFunctions.java:19: error: cannot find symbol
+        log.info(LOG_SUM_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/function/PrimitiveFunctions.java:23: error: cannot find symbol
+        log.info(LOG_SUB_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/function/PrimitiveFunctions.java:27: error: cannot find symbol
+        log.info(LOG_DIV_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/function/PrimitiveFunctions.java:31: error: cannot find symbol
+        log.info(LOG_MULT_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/function/PrimitiveFunctions.java:36: error: cannot find symbol
+        log.info(LOG_SUM_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/function/PrimitiveFunctions.java:40: error: cannot find symbol
+        log.info(LOG_SUB_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/function/PrimitiveFunctions.java:44: error: cannot find symbol
+        log.info(LOG_DIV_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/function/PrimitiveFunctions.java:48: error: cannot find symbol
+        log.info(LOG_MULT_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/function/PrimitiveFunctions.java:56: error: cannot find symbol
+        log.info(LOG_SUM_RESULT, i, 1);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/function/PrimitiveFunctions.java:61: error: cannot find symbol
+        log.info(LOG_SUB_RESULT, i, 5);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:22: error: cannot find symbol
+    private static Consumer<SampleContext> seperator = sampleContext -> log.info("=========================");
+                                                                        ^
+  symbol:   variable log
+  location: class CustomConsumers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:38: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "consumer1");
+        ^
+  symbol:   variable log
+  location: class CustomConsumers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:39: error: cannot find symbol
+        sampleContext.setResultStatus(ResultStatus.SUCCESS);
+                     ^
+  symbol:   method setResultStatus(ResultStatus)
+  location: variable sampleContext of type SampleContext
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:46: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "consumer2");
+        ^
+  symbol:   variable log
+  location: class CustomConsumers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:47: error: cannot find symbol
+        sampleContext.setResultStatus(ResultStatus.SUCCESS);
+                     ^
+  symbol:   method setResultStatus(ResultStatus)
+  location: variable sampleContext of type SampleContext
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:54: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "consumer2");
+        ^
+  symbol:   variable log
+  location: class CustomConsumers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:55: error: cannot find symbol
+        sampleContext.setResultStatus(ResultStatus.SUCCESS);
+                     ^
+  symbol:   method setResultStatus(ResultStatus)
+  location: variable sampleContext of type SampleContext
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:62: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "consumer4");
+        ^
+  symbol:   variable log
+  location: class CustomConsumers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:63: error: cannot find symbol
+        sampleContext.setResultStatus(ResultStatus.SUCCESS);
+                     ^
+  symbol:   method setResultStatus(ResultStatus)
+  location: variable sampleContext of type SampleContext
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:75: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "consumer5");
+        ^
+  symbol:   variable log
+  location: class CustomConsumers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:76: error: cannot find symbol
+        sampleContext.setResultStatus(ResultStatus.SUCCESS);
+                     ^
+  symbol:   method setResultStatus(ResultStatus)
+  location: variable sampleContext of type SampleContext
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:83: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "consumerSetFail");
+        ^
+  symbol:   variable log
+  location: class CustomConsumers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:84: error: cannot find symbol
+        sampleContext.setResultStatus(ResultStatus.FAIL);
+                     ^
+  symbol:   method setResultStatus(ResultStatus)
+  location: variable sampleContext of type SampleContext
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/CustomConsumers.java:91: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "consumerThrowException");
+        ^
+  symbol:   variable log
+  location: class CustomConsumers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/SampleContextConsumers.java:24: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "checkStatus");
+        ^
+  symbol:   variable log
+  location: class SampleContextConsumers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/SampleContextConsumers.java:34: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "increaseOrderId");
+        ^
+  symbol:   variable log
+  location: class SampleContextConsumers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/SampleContextConsumers.java:36: error: cannot find symbol
+                PrimitiveFunctions.add1Long.apply(sampleContext.getOrder())
+                                                               ^
+  symbol:   method getOrder()
+  location: variable sampleContext of type SampleContext
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/SampleContextConsumers.java:44: error: cannot find symbol
+        return sampleContext -> log.info("Order: {}, Name: {}", sampleContext.getOrder(), sampleContext.getName());
+                                ^
+  symbol:   variable log
+  location: class SampleContextConsumers
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/SampleContextConsumers.java:44: error: cannot find symbol
+        return sampleContext -> log.info("Order: {}, Name: {}", sampleContext.getOrder(), sampleContext.getName());
+                                                                             ^
+  symbol:   method getOrder()
+  location: variable sampleContext of type SampleContext
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/consumer/SampleContextConsumers.java:44: error: cannot find symbol
+        return sampleContext -> log.info("Order: {}, Name: {}", sampleContext.getOrder(), sampleContext.getName());
+                                                                                                       ^
+  symbol:   method getName()
+  location: variable sampleContext of type SampleContext
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/predicate/CustomPredicates.java:18: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "isPositive");
+        ^
+  symbol:   variable log
+  location: class CustomPredicates
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/predicate/CustomPredicates.java:23: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "isPositive");
+        ^
+  symbol:   variable log
+  location: class CustomPredicates
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/predicate/CustomPredicates.java:28: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "isNegative");
+        ^
+  symbol:   variable log
+  location: class CustomPredicates
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/predicate/CustomPredicates.java:33: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "isNull");
+        ^
+  symbol:   variable log
+  location: class CustomPredicates
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/predicate/CustomPredicates.java:38: error: cannot find symbol
+        log.info(CommonUtils.LOG_METHOD_EXECUTED, "isNonNull");
+        ^
+  symbol:   variable log
+  location: class CustomPredicates
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/predicate/SampleContextPredicates.java:14: error: cannot find symbol
+    public static Predicate<SampleContext> success = sampleContext -> ResultStatus.SUCCESS.equals(sampleContext.getResultStatus());
+                                                                                                               ^
+  symbol:   method getResultStatus()
+  location: variable sampleContext of type SampleContext
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/predicate/SampleContextPredicates.java:17: error: cannot find symbol
+        return sampleContext -> ResultStatus.FAIL.equals(sampleContext.getResultStatus());
+                                                                      ^
+  symbol:   method getResultStatus()
+  location: variable sampleContext of type SampleContext
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/predicate/SampleContextPredicates.java:23: error: cannot find symbol
+        return sampleContext -> CustomPredicates.isPositive.test(sampleContext.getOrder());
+                                                                              ^
+  symbol:   method getOrder()
+  location: variable sampleContext of type SampleContext
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/functional/PrimitiveFunctionalInterfaces.java:16: error: cannot find symbol
+        log.info(LOG_SUM_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctionalInterfaces
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/functional/PrimitiveFunctionalInterfaces.java:20: error: cannot find symbol
+        log.info(LOG_SUB_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctionalInterfaces
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/functional/PrimitiveFunctionalInterfaces.java:24: error: cannot find symbol
+        log.info(LOG_DIV_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctionalInterfaces
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/functional/PrimitiveFunctionalInterfaces.java:30: error: cannot find symbol
+        log.info(LOG_SUM_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctionalInterfaces
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/functional/PrimitiveFunctionalInterfaces.java:34: error: cannot find symbol
+        log.info(LOG_SUB_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctionalInterfaces
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/functional/PrimitiveFunctionalInterfaces.java:38: error: cannot find symbol
+        log.info(LOG_DIV_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctionalInterfaces
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/functional/PrimitiveFunctionalInterfaces.java:42: error: cannot find symbol
+        log.info(LOG_MULT_RESULT, i, j);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctionalInterfaces
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/functional/PrimitiveFunctionalInterfaces.java:47: error: cannot find symbol
+        log.info(LOG_SUM_RESULT, i, 1);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctionalInterfaces
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/rslvn/java8/src/main/java/com/example/java8/functional/PrimitiveFunctionalInterfaces.java:52: error: cannot find symbol
+        log.info(LOG_SUB_RESULT, i, 5);
+        ^
+  symbol:   variable log
+  location: class PrimitiveFunctionalInterfaces
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+47 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

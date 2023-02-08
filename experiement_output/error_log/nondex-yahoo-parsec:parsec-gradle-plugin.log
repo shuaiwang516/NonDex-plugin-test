@@ -1,0 +1,37 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ 13 40.9M   13 5536k    0     0  4648k      0  0:00:09  0:00:01  0:00:08 4648k 96 40.9M   96 39.5M    0     0  18.2M      0  0:00:02  0:00:02 --:--:-- 34.9M100 40.9M  100 40.9M    0     0  18.5M      0  0:00:02  0:00:02 --:--:-- 34.8M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+Warning: Failed to create the file 
+Warning: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task
+Warning: 91/wd/NonDex-plugin-test/github.com/yahoo/parsec/parsec-gradle-plugin/
+Warning: src/main/resources/rdl-bin/rdl.zip: No such file or directory
+  0 13.0M    0   896    0     0   1419      0  2:41:14 --:--:--  2:41:14  1419
+curl: (23) Failed writing body (0 != 896)
+./download_parsec_rdl.sh: 26: cannot create /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task91/wd/NonDex-plugin-test/github.com/yahoo/parsec/parsec-gradle-plugin/src/main/resources/rdl-bin/metadata.xml: Directory nonexistent
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Warning: Failed to create the file 
+Warning: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task
+Warning: 91/wd/NonDex-plugin-test/github.com/yahoo/parsec/parsec-gradle-plugin/
+Warning: src/main/resources/rdl-bin/rdl.tgz: No such file or directory
+  0 12.7M    0  1369    0     0   3104      0  1:12:03 --:--:--  1:12:03 25351
+curl: (23) Failed writing body (0 != 1369)
+./download_parsec_rdl.sh: 26: cannot create /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task91/wd/NonDex-plugin-test/github.com/yahoo/parsec/parsec-gradle-plugin/src/main/resources/rdl-bin/metadata.xml: Directory nonexistent
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':parsec-gradle-plugin:downloadRdlBinary'.
+> Process 'command 'sh'' finished with non-zero exit value 2
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':golemites-autobundle:compileJava'.
+> Could not resolve all files for configuration ':golemites-autobundle:compileClasspath'.
+   > Could not find org.ops4j.pax.tinybundles:tinybundles:3.0.1-SNAPSHOT.
+     Searched in the following locations:
+       - file:/root/.m2/repository/org/ops4j/pax/tinybundles/tinybundles/3.0.1-SNAPSHOT/maven-metadata.xml
+       - file:/root/.m2/repository/org/ops4j/pax/tinybundles/tinybundles/3.0.1-SNAPSHOT/tinybundles-3.0.1-SNAPSHOT.pom
+       - https://repo.maven.apache.org/maven2/org/ops4j/pax/tinybundles/tinybundles/3.0.1-SNAPSHOT/maven-metadata.xml
+       - https://repo.maven.apache.org/maven2/org/ops4j/pax/tinybundles/tinybundles/3.0.1-SNAPSHOT/tinybundles-3.0.1-SNAPSHOT.pom
+       - https://oss.sonatype.org/content/repositories/snapshots/org/ops4j/pax/tinybundles/tinybundles/3.0.1-SNAPSHOT/maven-metadata.xml
+       - https://oss.sonatype.org/content/repositories/snapshots/org/ops4j/pax/tinybundles/tinybundles/3.0.1-SNAPSHOT/tinybundles-3.0.1-SNAPSHOT.pom
+     Required by:
+         project :golemites-autobundle
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

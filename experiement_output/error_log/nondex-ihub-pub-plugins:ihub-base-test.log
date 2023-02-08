@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ihub-base-test:compileGroovy'.
+> Could not resolve all files for configuration ':ihub-base-test:compileClasspath'.
+   > Could not resolve org.apiguardian:apiguardian-api:1.1.2.
+     Required by:
+         project :ihub-base-test > org.spockframework:spock-core:2.3-groovy-3.0 > org.junit.platform:junit-platform-engine:1.8.2
+         project :ihub-base-test > org.spockframework:spock-core:2.3-groovy-3.0 > org.junit.platform:junit-platform-engine:1.8.2 > org.junit.platform:junit-platform-commons:1.8.2
+      > Could not resolve org.apiguardian:apiguardian-api:1.1.2.
+         > Could not get resource 'https://maven.aliyun.com/repository/public/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom?Expires=1675214700&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=kvZnS1Q9fYi0W%2FwMiyDVTJT86uM%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6m 19s

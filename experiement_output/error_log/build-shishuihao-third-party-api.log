@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'third-party-api'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve io.freefair.gradle:lombok-plugin:5.3.0.
+     Required by:
+         project : > io.freefair.lombok:io.freefair.lombok.gradle.plugin:5.3.0
+      > Could not resolve io.freefair.gradle:lombok-plugin:5.3.0.
+         > Could not get resource 'https://maven.aliyun.com/repository/gradle-plugin/io/freefair/gradle/lombok-plugin/5.3.0/lombok-plugin-5.3.0.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/gradle-plugin/io/freefair/gradle/lombok-plugin/5.3.0/lombok-plugin-5.3.0.pom?Expires=1675212789&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=hLxmWe5o%2BLj0cFUb6s2WRhn6ic0%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2m 26s

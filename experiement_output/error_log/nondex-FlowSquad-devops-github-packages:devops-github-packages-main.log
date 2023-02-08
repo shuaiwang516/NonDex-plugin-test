@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':devops-github-packages-main:compileJava'.
+> Could not resolve all files for configuration ':devops-github-packages-main:compileClasspath'.
+   > Could not resolve io.flowsquad.blog:devops-github-packages-library:1.0.0.
+     Required by:
+         project :devops-github-packages-main
+      > Could not resolve io.flowsquad.blog:devops-github-packages-library:1.0.0.
+         > Could not get resource 'https://maven.pkg.github.com/FlowSquad/devops-github-packages/io/flowsquad/blog/devops-github-packages-library/1.0.0/devops-github-packages-library-1.0.0.pom'.
+            > Could not GET 'https://maven.pkg.github.com/FlowSquad/devops-github-packages/io/flowsquad/blog/devops-github-packages-library/1.0.0/devops-github-packages-library-1.0.0.pom'. Received status code 401 from server: Unauthorized
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

@@ -1,0 +1,26 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1113/wd/NonDex-plugin-test/github.com/diffplug/gradle-and-eclipse-rcp/build.gradle' line: 58
+
+* What went wrong:
+A problem occurred evaluating root project 'gradle-and-eclipse-rcp'.
+> A problem occurred configuring project ':target.p2'.
+   > https://dl.bintray.com/diffplug/opensource/com/diffplug/gradle/goomph-p2-bootstrap/4.7.2/goomph-p2-bootstrap.zip
+     received http code 404
+     <html>
+     <head><title>404 Not Found</title></head>
+     <body>
+     <center><h1>404 Not Found</h1></center>
+     <hr><center>nginx</center>
+     </body>
+     </html>
+
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 26s

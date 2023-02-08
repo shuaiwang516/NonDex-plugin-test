@@ -1,0 +1,39 @@
+[Fatal Error] gradle-bintray-plugin-0.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] git-changelog-0.1.2.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] git-changelog-0.1.2.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-bintray-plugin-0.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-bintray-plugin-0.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] git-changelog-0.1.2.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'git-changelog'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve com.jfrog.bintray.gradle:gradle-bintray-plugin:0.3.
+     Required by:
+         project :
+      > Could not resolve com.jfrog.bintray.gradle:gradle-bintray-plugin:0.3.
+         > Could not parse POM http://dl.bintray.com/andresaraujo/gradle-plugins/com/jfrog/bintray/gradle/gradle-bintray-plugin/0.3/gradle-bintray-plugin-0.3.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+      > Could not resolve com.jfrog.bintray.gradle:gradle-bintray-plugin:0.3.
+         > Could not get resource 'http://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/0.3/gradle-bintray-plugin-0.3.pom'.
+            > Could not HEAD 'http://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/0.3/gradle-bintray-plugin-0.3.pom'.
+               > jcenter.bintray.com:80 failed to respond
+   > Could not resolve io.github.andresaraujo.changelog:git-changelog:0.1.2.
+     Required by:
+         project :
+      > Could not resolve io.github.andresaraujo.changelog:git-changelog:0.1.2.
+         > Could not parse POM http://dl.bintray.com/andresaraujo/gradle-plugins/io/github/andresaraujo/changelog/git-changelog/0.1.2/git-changelog-0.1.2.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+      > Could not resolve io.github.andresaraujo.changelog:git-changelog:0.1.2.
+         > Could not get resource 'http://jcenter.bintray.com/io/github/andresaraujo/changelog/git-changelog/0.1.2/git-changelog-0.1.2.pom'.
+            > Could not HEAD 'http://jcenter.bintray.com/io/github/andresaraujo/changelog/git-changelog/0.1.2/git-changelog-0.1.2.pom'.
+               > jcenter.bintray.com:80 failed to respond
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s

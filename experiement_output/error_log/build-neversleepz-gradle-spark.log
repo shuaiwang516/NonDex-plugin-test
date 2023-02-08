@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task444/wd/NonDex-plugin-test/github.com/neversleepz/gradle-spark/gradle/downloads.gradle' line: 95
+
+* What went wrong:
+A problem occurred evaluating script.
+> Could not find method leftShift() for arguments [downloads_8op1lyd244in39dpprs6yykyy$_run_closure7@794117e7] on task ':downloadAllIDEs' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

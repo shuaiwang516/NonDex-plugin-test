@@ -1,0 +1,19 @@
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by org.hyperskill.hstest.dynamic.SystemHandler (file:/root/.gradle/caches/modules-2/files-2.1/com.github.hyperskill/hs-test/release-SNAPSHOT/c89260f9cf9528881f2ae5fdce462af26ce10277/hs-test-release-SNAPSHOT.jar)
+WARNING: Please consider reporting this to the maintainers of org.hyperskill.hstest.dynamic.SystemHandler
+WARNING: System::setSecurityManager will be removed in a future release
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':Simple_Banking_System-task:nondexTest'.
+> Process 'Gradle Test Executor 3' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 31s

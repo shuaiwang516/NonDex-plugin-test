@@ -1,0 +1,13 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':plugin'.
+> Could not find method leftShift() for arguments [uk.co.littlemike.gradle.publishing.SmorgasbordPlugin$_getPluginPublishPropertiesFromEnvironment_closure8@37c7a2fd] on task ':plugin:setupPluginUpload' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s

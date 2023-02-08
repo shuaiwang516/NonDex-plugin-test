@@ -1,0 +1,61 @@
+warning: [options] source value 6 is obsolete and will be removed in a future release
+warning: [options] target value 1.6 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task80/wd/NonDex-plugin-test/github.com/bmuschko/gradle-node-plugin/src/main/java/org/gradle/plugins/node/base/tasks/NodeExec.java:5: error: cannot find symbol
+import org.gradle.api.provider.PropertyState;
+                              ^
+  symbol:   class PropertyState
+  location: package org.gradle.api.provider
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task80/wd/NonDex-plugin-test/github.com/bmuschko/gradle-node-plugin/src/main/java/org/gradle/plugins/node/base/tasks/NodeExec.java:18: error: cannot find symbol
+    private PropertyState<File> destFile;
+            ^
+  symbol:   class PropertyState
+  location: class NodeExec
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task80/wd/NonDex-plugin-test/github.com/bmuschko/gradle-node-plugin/src/main/java/org/gradle/plugins/node/base/tasks/NodeExec.java:19: error: cannot find symbol
+    private PropertyState<File> destDirectory;
+            ^
+  symbol:   class PropertyState
+  location: class NodeExec
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task80/wd/NonDex-plugin-test/github.com/bmuschko/gradle-node-plugin/src/main/java/org/gradle/plugins/node/base/tasks/NodeExec.java:20: error: cannot find symbol
+    private PropertyState<String> executable;
+            ^
+  symbol:   class PropertyState
+  location: class NodeExec
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task80/wd/NonDex-plugin-test/github.com/bmuschko/gradle-node-plugin/src/main/java/org/gradle/plugins/node/base/tasks/NodeExec.java:21: error: cannot find symbol
+    private PropertyState<String[]> args;
+            ^
+  symbol:   class PropertyState
+  location: class NodeExec
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task80/wd/NonDex-plugin-test/github.com/bmuschko/gradle-node-plugin/src/main/java/org/gradle/plugins/node/base/tasks/NodeExec.java:49: error: cannot find symbol
+    public void setArgs(PropertyState<String[]> args) {
+                        ^
+  symbol:   class PropertyState
+  location: class NodeExec
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task80/wd/NonDex-plugin-test/github.com/bmuschko/gradle-node-plugin/src/main/java/org/gradle/plugins/node/base/tasks/NodeExec.java:24: error: incompatible types: Class<File> cannot be converted to String
+        destFile = getProject().property(File.class);
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task80/wd/NonDex-plugin-test/github.com/bmuschko/gradle-node-plugin/src/main/java/org/gradle/plugins/node/base/tasks/NodeExec.java:25: error: incompatible types: Class<File> cannot be converted to String
+        destDirectory = getProject().property(File.class);
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task80/wd/NonDex-plugin-test/github.com/bmuschko/gradle-node-plugin/src/main/java/org/gradle/plugins/node/base/tasks/NodeExec.java:26: error: incompatible types: Class<String> cannot be converted to String
+        executable = getProject().property(String.class);
+                                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task80/wd/NonDex-plugin-test/github.com/bmuschko/gradle-node-plugin/src/main/java/org/gradle/plugins/node/base/tasks/NodeExec.java:27: error: incompatible types: Class<String[]> cannot be converted to String
+        args = getProject().property(String[].class);
+                                             ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+10 errors
+3 warnings
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 21s

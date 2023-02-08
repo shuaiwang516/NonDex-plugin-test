@@ -1,0 +1,49 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task147/wd/NonDex-plugin-test/github.com/sdagroup/GradleAirBooking/src/main/java/com/sdagroup/gradleairbooking/converter/NewsletterEntityToModelConverter.java:25: error: cannot find symbol
+        return NewsletterModel.builder()
+                              ^
+  symbol:   method builder()
+  location: class NewsletterModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task147/wd/NonDex-plugin-test/github.com/sdagroup/GradleAirBooking/src/main/java/com/sdagroup/gradleairbooking/converter/NewsletterEntityToModelConverter.java:26: error: cannot find symbol
+                .id(newsletterEntity.getId())
+                                    ^
+  symbol:   method getId()
+  location: variable newsletterEntity of type NewsletterEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task147/wd/NonDex-plugin-test/github.com/sdagroup/GradleAirBooking/src/main/java/com/sdagroup/gradleairbooking/converter/NewsletterEntityToModelConverter.java:27: error: cannot find symbol
+                .createdAt(newsletterEntity.getCreatedAt())
+                                           ^
+  symbol:   method getCreatedAt()
+  location: variable newsletterEntity of type NewsletterEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task147/wd/NonDex-plugin-test/github.com/sdagroup/GradleAirBooking/src/main/java/com/sdagroup/gradleairbooking/converter/NewsletterEntityToModelConverter.java:28: error: cannot find symbol
+                .email(newsletterEntity.getEmail())
+                                       ^
+  symbol:   method getEmail()
+  location: variable newsletterEntity of type NewsletterEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task147/wd/NonDex-plugin-test/github.com/sdagroup/GradleAirBooking/src/main/java/com/sdagroup/gradleairbooking/service/NewsletterService.java:32: error: cannot find symbol
+            newsletterRepository.save(NewsletterEntity.builder().email(email).build());
+                                                      ^
+  symbol:   method builder()
+  location: class NewsletterEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task147/wd/NonDex-plugin-test/github.com/sdagroup/GradleAirBooking/src/main/java/com/sdagroup/gradleairbooking/service/NewsletterService.java:65: error: cannot find symbol
+        Optional<NewsletterEntity> newsletterEntity = newsletterRepository.findById(newsletterModel.getId());
+                                                                                                   ^
+  symbol:   method getId()
+  location: variable newsletterModel of type NewsletterModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task147/wd/NonDex-plugin-test/github.com/sdagroup/GradleAirBooking/src/main/java/com/sdagroup/gradleairbooking/service/NewsletterService.java:67: error: cannot find symbol
+            newsletterEntity.get().setEmail(newsletterModel.getEmail());
+                                                           ^
+  symbol:   method getEmail()
+  location: variable newsletterModel of type NewsletterModel
+7 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

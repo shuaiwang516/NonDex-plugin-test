@@ -1,0 +1,28 @@
+[Fatal Error] remark-0.9.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] remark-0.9.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] remark-0.9.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] remark-0.9.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] remark-0.9.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] remark-0.9.3.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'arc42-gradle'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve com.overzealous:remark:0.9.3.
+     Required by:
+         project : > org.kordamp:markdown-gradle-plugin:0.1.1
+      > Could not resolve com.overzealous:remark:0.9.3.
+         > Could not parse POM http://dl.bintray.com/content/aalmiray/kordamp/com/overzealous/remark/0.9.3/remark-0.9.3.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+      > Could not resolve com.overzealous:remark:0.9.3.
+         > Could not parse POM http://dl.bintray.com/melix/jbake-gradle-plugin/com/overzealous/remark/0.9.3/remark-0.9.3.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

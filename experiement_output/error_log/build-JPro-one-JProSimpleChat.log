@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'JProSimpleChat'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find com.sandec.jpro:jpro-plugin-gradle:2018.1.10.
+     Searched in the following locations:
+       - file:/root/.m2/repository/com/sandec/jpro/jpro-plugin-gradle/2018.1.10/jpro-plugin-gradle-2018.1.10.pom
+       - file:/root/.m2/repository/com/sandec/jpro/jpro-plugin-gradle/2018.1.10/jpro-plugin-gradle-2018.1.10.jar
+       - https://jcenter.bintray.com/com/sandec/jpro/jpro-plugin-gradle/2018.1.10/jpro-plugin-gradle-2018.1.10.pom
+       - https://jcenter.bintray.com/com/sandec/jpro/jpro-plugin-gradle/2018.1.10/jpro-plugin-gradle-2018.1.10.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

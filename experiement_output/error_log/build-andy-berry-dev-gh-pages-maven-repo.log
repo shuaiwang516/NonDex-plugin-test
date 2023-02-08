@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task889/wd/NonDex-plugin-test/github.com/andy-berry-dev/gh-pages-maven-repo/build.gradle' line: 19
+
+* What went wrong:
+A problem occurred evaluating root project 'gh-pages-maven-repo'.
+> One or more properties were missing. Missing: depGroup depVersion depArtifact depFile.
+  Usage:  gradle -PdepGroup=... -PdepVersion=... -PdepArtifact=... -PdepFile=... 
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

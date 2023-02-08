@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-editbin-plugin'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find com.jfrog.bintray.gradle:gradle-bintray-plugin:1.6.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.6/gradle-bintray-plugin-1.6.pom
+       - https://repo.maven.apache.org/maven2/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.6/gradle-bintray-plugin-1.6.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

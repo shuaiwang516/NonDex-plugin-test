@@ -1,0 +1,21 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task682/wd/NonDex-plugin-test/github.com/adamatti/LearnSpock/src/main/groovy/adamatti/view/PersonView.groovy: 12: unable to resolve class javax.annotation.PostConstruct
+ @ line 12, column 1.
+   import javax.annotation.PostConstruct
+   ^
+
+1 error
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

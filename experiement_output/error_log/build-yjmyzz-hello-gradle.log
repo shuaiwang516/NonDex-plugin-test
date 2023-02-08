@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task32/wd/NonDex-plugin-test/github.com/yjmyzz/hello-gradle/build.gradle' line: 68
+
+* What went wrong:
+A problem occurred evaluating root project 'hello-gradle'.
+> Could not find method leftShift() for arguments [build_amhszjl94miudax7n0xqp4s8n$_run_closure4@2d3b5c70] on task ':mybatisGenerate' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

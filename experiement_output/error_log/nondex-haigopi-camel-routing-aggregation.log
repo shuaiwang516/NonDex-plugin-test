@@ -1,0 +1,117 @@
+Errors occurred while build effective model from /root/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/2.2.11/db0f76866c6b1e50084e03ee8cf9ce6b19becdb3/jaxb-core-2.2.11.pom:
+    'dependencyManagement.dependencies.dependency.systemPath' for com.sun:tools:jar must specify an absolute path but is ${tools.jar} in com.sun.xml.bind:jaxb-core:2.2.11
+Errors occurred while build effective model from /root/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.2.11/2d4b554997fd01d1a2233b1529b22fc9ecc0cf5c/jaxb-impl-2.2.11.pom:
+    'dependencyManagement.dependencies.dependency.systemPath' for com.sun:tools:jar must specify an absolute path but is ${tools.jar} in com.sun.xml.bind:jaxb-impl:2.2.11
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/model/Tenant.java:22: error: cannot find symbol
+        log.info("{} Created.", this.getClass().getSimpleName());
+        ^
+  symbol:   variable log
+  location: class Tenant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/model/Owner.java:18: error: cannot find symbol
+        log.info("{} Created.", this.getClass().getSimpleName());
+        ^
+  symbol:   variable log
+  location: class Owner
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/model/URLTransformer.java:22: error: cannot find symbol
+        log.info("{}  URL Transformation is success", owner);
+        ^
+  symbol:   variable log
+  location: class URLTransformer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/model/URLTransformer.java:34: error: cannot find symbol
+        log.info("{} Created.", this.getClass().getSimpleName());
+        ^
+  symbol:   variable log
+  location: class URLTransformer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/model/SaveToDB.java:20: error: cannot find symbol
+        tenant.setId(uuid);
+              ^
+  symbol:   method setId(UUID)
+  location: variable tenant of type Tenant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/model/ConcurrentAggregationStrategy.java:27: error: cannot find symbol
+        log.info("Collected Information on while aggregating..");
+        ^
+  symbol:   variable log
+  location: class ConcurrentAggregationStrategy
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/model/LoadOwnerConfigs.java:23: error: cannot find symbol
+        log.info("{} - Owner Configurations are now loaded", owner);
+        ^
+  symbol:   variable log
+  location: class LoadOwnerConfigs
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/model/LoadOwnerConfigs.java:35: error: cannot find symbol
+        log.info("{} Created.", this.getClass().getSimpleName());
+        ^
+  symbol:   variable log
+  location: class LoadOwnerConfigs
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/model/PayloadTransformer.java:24: error: cannot find symbol
+        log.info("{} Payload Transformation is success", owner);
+        ^
+  symbol:   variable log
+  location: class PayloadTransformer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/model/PayloadTransformer.java:36: error: cannot find symbol
+        log.info("{} Created.", this.getClass().getSimpleName());
+        ^
+  symbol:   variable log
+  location: class PayloadTransformer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/model/OwnerContactProcessor.java:22: error: cannot find symbol
+        log.info("OwnerContactProcessor is now competed its business.");
+        ^
+  symbol:   variable log
+  location: class OwnerContactProcessor
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/model/OwnerContactProcessor.java:27: error: cannot find symbol
+        log.info("{} Created.", this.getClass().getSimpleName());
+        ^
+  symbol:   variable log
+  location: class OwnerContactProcessor
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/config/JerseyConfiguration.java:12: error: cannot find symbol
+      log.info("Jersey & MultiPart");
+      ^
+  symbol:   variable log
+  location: class JerseyConfiguration
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/config/DynamicRouter.java:33: error: cannot find symbol
+        log.info("Note: Tenant Id created in previous endpoint(SaveDB)");
+        ^
+  symbol:   variable log
+  location: class DynamicRouter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/config/DynamicRouter.java:36: error: cannot find symbol
+        UUID id = tenant.getId();
+                        ^
+  symbol:   method getId()
+  location: variable tenant of type Tenant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/config/DynamicRouter.java:37: error: cannot find symbol
+        List<Owner> owners = tenant.getOwners();
+                                   ^
+  symbol:   method getOwners()
+  location: variable tenant of type Tenant
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/config/DynamicRouter.java:47: error: cannot find symbol
+            headers_new.put("OWNER_ID", owner.getOwnerId());
+                                             ^
+  symbol:   method getOwnerId()
+  location: variable owner of type Owner
+warning: unknown enum constant XmlAccessType.PROPERTY
+  reason: class file for javax.xml.bind.annotation.XmlAccessType not found
+warning: unknown enum constant XmlAccessType.FIELD
+warning: unknown enum constant XmlAccessType.PROPERTY
+warning: unknown enum constant XmlAccessType.FIELD
+warning: unknown enum constant XmlAccessType.FIELD
+warning: unknown enum constant XmlAccessType.FIELD
+warning: unknown enum constant XmlAccessType.FIELD
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task615/wd/NonDex-plugin-test/github.com/haigopi/camel-routing-aggregation/src/main/java/com/example/camel/config/RouteSurprises.java:14: error: cannot find symbol
+        log.info("Place to handle the error");
+        ^
+  symbol:   variable log
+  location: class RouteSurprises
+18 errors
+7 warnings
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

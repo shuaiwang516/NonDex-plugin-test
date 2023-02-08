@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task211/wd/NonDex-plugin-test/github.com/Dispader/gradle-war-integration-test-example/gradle/plugins/integration-test.gradle' line: 51
+
+* What went wrong:
+Could not compile script '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task211/wd/NonDex-plugin-test/github.com/Dispader/gradle-war-integration-test-example/gradle/plugins/integration-test.gradle'.
+> startup failed:
+  script '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task211/wd/NonDex-plugin-test/github.com/Dispader/gradle-war-integration-test-example/gradle/plugins/integration-test.gradle': 51: unable to resolve class org.gradle.api.plugins.jetty.internal.Monitor
+   @ line 51, column 1.
+     import org.gradle.api.plugins.jetty.internal.Monitor // WORKAROUND: GRADLE-2263
+     ^
+  
+  1 error
+
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

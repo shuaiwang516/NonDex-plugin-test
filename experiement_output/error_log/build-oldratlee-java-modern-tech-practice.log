@@ -1,0 +1,27 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'sandbox'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:2.1.0.RELEASE.
+     Required by:
+         project :
+      > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:2.1.0.RELEASE.
+         > Could not get resource 'https://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-gradle-plugin/2.1.0.RELEASE/spring-boot-gradle-plugin-2.1.0.RELEASE.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/springframework/boot/spring-boot-gradle-plugin/2.1.0.RELEASE/spring-boot-gradle-plugin-2.1.0.RELEASE.pom?Expires=1675212083&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=k7MjO2drYDuidTfAlnVdRR8RnHE%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+   > Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.11.
+     Required by:
+         project :
+      > Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.11.
+         > Could not get resource 'https://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-gradle-plugin/1.3.11/kotlin-gradle-plugin-1.3.11.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/jetbrains/kotlin/kotlin-gradle-plugin/1.3.11/kotlin-gradle-plugin-1.3.11.pom?Expires=1675212083&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=%2BmW4Rk2jsXVRdNTOcyjKhsfQLaI%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 44s

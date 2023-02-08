@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':buildSrc:compileGroovy'.
+> Could not resolve all files for configuration ':buildSrc:compileClasspath'.
+   > Could not find org.asciidoctor:asciidoctorj:1.5.0.
+     Searched in the following locations:
+       - file:/root/.m2/repository/org/asciidoctor/asciidoctorj/1.5.0/asciidoctorj-1.5.0.pom
+       - file:/root/.m2/repository/org/asciidoctor/asciidoctorj/1.5.0/asciidoctorj-1.5.0.jar
+     Required by:
+         project :buildSrc
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

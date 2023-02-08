@@ -1,0 +1,40 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1370/wd/NonDex-plugin-test/github.com/Discord4J-Addons/Discord4J-Gradle-Plugin/src/main/java/com/austinv11/d4g/tasks/ModuleTask.java:4: error: package org.apache.commons.io does not exist
+import org.apache.commons.io.FileUtils;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1370/wd/NonDex-plugin-test/github.com/Discord4J-Addons/Discord4J-Gradle-Plugin/src/main/java/com/austinv11/d4g/tasks/CleanModuleTask.java:3: error: package org.apache.commons.io does not exist
+import org.apache.commons.io.FileUtils;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1370/wd/NonDex-plugin-test/github.com/Discord4J-Addons/Discord4J-Gradle-Plugin/src/main/java/com/austinv11/d4g/tasks/ModuleTask.java:50: error: cannot find symbol
+				FileUtils.copyFile(file, newFile);
+				^
+  symbol:   variable FileUtils
+  location: class ModuleTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1370/wd/NonDex-plugin-test/github.com/Discord4J-Addons/Discord4J-Gradle-Plugin/src/main/java/com/austinv11/d4g/tasks/ModuleTask.java:62: error: cannot find symbol
+					FileUtils.copyFile(file, newFile);
+					^
+  symbol:   variable FileUtils
+  location: class ModuleTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1370/wd/NonDex-plugin-test/github.com/Discord4J-Addons/Discord4J-Gradle-Plugin/src/main/java/com/austinv11/d4g/tasks/CleanModuleTask.java:23: error: cannot find symbol
+				FileUtils.deleteDirectory(discordDir);
+				^
+  symbol:   variable FileUtils
+  location: class CleanModuleTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1370/wd/NonDex-plugin-test/github.com/Discord4J-Addons/Discord4J-Gradle-Plugin/src/main/java/com/austinv11/d4g/tasks/CleanModuleTask.java:31: error: cannot find symbol
+				FileUtils.deleteDirectory(modulesDir);
+				^
+  symbol:   variable FileUtils
+  location: class CleanModuleTask
+6 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 18s

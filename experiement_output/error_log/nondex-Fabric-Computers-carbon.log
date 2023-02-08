@@ -1,0 +1,126 @@
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:14: error: unclosed string literal
+        String script = """
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:15: error: ';' expected
+                print("Test starting")
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:17: error: ')' expected
+                local coro = coroutine.create(function() while true do print("Test") end end)
+                                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:17: error: '(' expected
+                local coro = coroutine.create(function() while true do print("Test") end end)
+                                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:17: error: ')' expected
+                local coro = coroutine.create(function() while true do print("Test") end end)
+                                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:17: error: ';' expected
+                local coro = coroutine.create(function() while true do print("Test") end end)
+                                                                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:17: error: ')' expected
+                local coro = coroutine.create(function() while true do print("Test") end end)
+                                                                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:17: error: not a statement
+                local coro = coroutine.create(function() while true do print("Test") end end)
+                                                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:17: error: ';' expected
+                local coro = coroutine.create(function() while true do print("Test") end end)
+                                                                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:19: error: ';' expected
+                coroutine.resume(coro)
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:20: error: unclosed string literal
+                """;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:36: error: unclosed string literal
+        String script = """
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:37: error: ';' expected
+                print("Test starting")
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:38: error: ')' expected
+                coro = coroutine.create(function() while true do print("Test") end end)
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:38: error: '(' expected
+                coro = coroutine.create(function() while true do print("Test") end end)
+                                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:38: error: ')' expected
+                coro = coroutine.create(function() while true do print("Test") end end)
+                                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:38: error: ';' expected
+                coro = coroutine.create(function() while true do print("Test") end end)
+                                                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:38: error: ')' expected
+                coro = coroutine.create(function() while true do print("Test") end end)
+                                                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:38: error: not a statement
+                coro = coroutine.create(function() while true do print("Test") end end)
+                                                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:38: error: ';' expected
+                coro = coroutine.create(function() while true do print("Test") end end)
+                                                                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:39: error: ';' expected
+                print(coro)
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:40: error: ';' expected
+                coroutine.resume(coro)
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:41: error: unclosed string literal
+                """;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:74: error: unclosed string literal
+        String script = """
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:75: error: ';' expected
+                print("Test starting")
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:76: error: ')' expected
+                coro = coroutine.create(function() while 1 == 1 do print("Test") end end)
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:76: error: '(' expected
+                coro = coroutine.create(function() while 1 == 1 do print("Test") end end)
+                                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:76: error: ')' expected
+                coro = coroutine.create(function() while 1 == 1 do print("Test") end end)
+                                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:76: error: ';' expected
+                coro = coroutine.create(function() while 1 == 1 do print("Test") end end)
+                                                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:76: error: ')' expected
+                coro = coroutine.create(function() while 1 == 1 do print("Test") end end)
+                                                                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:76: error: not a statement
+                coro = coroutine.create(function() while 1 == 1 do print("Test") end end)
+                                                                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:76: error: ';' expected
+                coro = coroutine.create(function() while 1 == 1 do print("Test") end end)
+                                                                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:77: error: ';' expected
+                print(coro)
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:78: error: ';' expected
+                coroutine.resume(coro)
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:79: error: ';' expected
+                print(coro)
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task715/wd/NonDex-plugin-test/github.com/Fabric-Computers/carbon/src/test/java/Main.java:80: error: unclosed string literal
+                """;
+                  ^
+36 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

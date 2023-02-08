@@ -1,0 +1,138 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/config/RestTemplateConfig.java:46: error: cannot find symbol
+                log.info("restTemplate ===> hasError");
+                ^
+  symbol: variable log
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:64: error: cannot find symbol
+        log.info(rawSignature);
+        ^
+  symbol:   variable log
+  location: class SignServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:71: error: cannot find symbol
+        return SignResDto.builder()
+                         ^
+  symbol:   method builder()
+  location: class SignResDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:72: error: cannot find symbol
+            .appId(wxProperties.getAppId())
+                               ^
+  symbol:   method getAppId()
+  location: variable wxProperties of type WxProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:110: error: cannot find symbol
+        if (ticket.getExpireTime() < getCurrentTime()) {
+                  ^
+  symbol:   method getExpireTime()
+  location: variable ticket of type Ticket
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:117: error: cannot find symbol
+                Ticket newTicket = Ticket.builder()
+                                         ^
+  symbol:   method builder()
+  location: class Ticket
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:122: error: cannot find symbol
+                return newTicket.getTicket();
+                                ^
+  symbol:   method getTicket()
+  location: variable newTicket of type Ticket
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:127: error: cannot find symbol
+            return ticket.getTicket();
+                         ^
+  symbol:   method getTicket()
+  location: variable ticket of type Ticket
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:135: error: cannot find symbol
+            log.info("将 json 文件中的信息读入 Ticket 对象 ...");
+            ^
+  symbol:   variable log
+  location: class SignServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:144: error: cannot find symbol
+            log.info("将 Ticket 对象中的信息写入 json 文件 ...");
+            ^
+  symbol:   variable log
+  location: class SignServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:152: error: cannot find symbol
+        if (accessToken.getExpireTime() < getCurrentTime()) {
+                       ^
+  symbol:   method getExpireTime()
+  location: variable accessToken of type AccessToken
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:154: error: non-static method format(Object,StringBuffer,FieldPosition) cannot be referenced from a static context
+            String url = MessageFormat.format(ACCESS_TOKEN_URL, wxProperties.getAppId(), wxProperties.getAppSecret());
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:154: error: cannot find symbol
+            String url = MessageFormat.format(ACCESS_TOKEN_URL, wxProperties.getAppId(), wxProperties.getAppSecret());
+                                                                            ^
+  symbol:   method getAppId()
+  location: variable wxProperties of type WxProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:154: error: cannot find symbol
+            String url = MessageFormat.format(ACCESS_TOKEN_URL, wxProperties.getAppId(), wxProperties.getAppSecret());
+                                                                                                     ^
+  symbol:   method getAppSecret()
+  location: variable wxProperties of type WxProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:158: error: cannot find symbol
+                AccessToken newAccessToken = AccessToken.builder()
+                                                        ^
+  symbol:   method builder()
+  location: class AccessToken
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:162: error: cannot find symbol
+                return newAccessToken.getAccessToken();
+                                     ^
+  symbol:   method getAccessToken()
+  location: variable newAccessToken of type AccessToken
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:167: error: cannot find symbol
+            return accessToken.getAccessToken();
+                              ^
+  symbol:   method getAccessToken()
+  location: variable accessToken of type AccessToken
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:175: error: cannot find symbol
+            log.info("将 json 文件中的信息读入 AccessToken 对象 ...");
+            ^
+  symbol:   variable log
+  location: class SignServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/service/impl/SignServiceImpl.java:184: error: cannot find symbol
+            log.info("将 AccessToken 对象中的信息写入 json 文件 ...");
+            ^
+  symbol:   variable log
+  location: class SignServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/exception/GlobalExceptionHandler.java:29: error: cannot find symbol
+        log.error(e.getMessage());
+        ^
+  symbol:   variable log
+  location: class GlobalExceptionHandler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/exception/GlobalExceptionHandler.java:37: error: cannot find symbol
+        log.error(e.getMessage());
+        ^
+  symbol:   variable log
+  location: class GlobalExceptionHandler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/exception/GlobalExceptionHandler.java:45: error: cannot find symbol
+        log.error("{}, message: {}", e.getClass(), e.getMessage());
+        ^
+  symbol:   variable log
+  location: class GlobalExceptionHandler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/aop/RequestAspect.java:56: error: cannot find symbol
+            log.info("REQUEST {} : {}", requestURI, Arrays.toString(proceedingJoinPoint.getArgs()));
+            ^
+  symbol:   variable log
+  location: class RequestAspect
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/aop/RequestAspect.java:61: error: cannot find symbol
+                log.info("RESPONSE : {}", proceed);
+                ^
+  symbol:   variable log
+  location: class RequestAspect
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/aop/RequestAspect.java:65: error: cannot find symbol
+            log.error("REQUEST {} : {}", requestURI, Arrays.toString(proceedingJoinPoint.getArgs()), e);
+            ^
+  symbol:   variable log
+  location: class RequestAspect
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task779/wd/NonDex-plugin-test/github.com/kyyee/wx-jssdk-sign/src/main/java/com/kyyee/wxjssdksign/utils/SpringUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+25 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

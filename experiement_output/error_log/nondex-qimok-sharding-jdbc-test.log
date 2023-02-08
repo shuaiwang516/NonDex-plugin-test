@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':generateSampleJooqSchemaSource'.
+> Could not resolve all files for configuration ':jooqRuntime'.
+   > Could not download jooq-codegen-3.13.4.jar (org.jooq:jooq-codegen:3.13.4)
+      > Could not get resource 'http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-codegen/3.13.4/jooq-codegen-3.13.4.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/jooq/jooq-codegen/3.13.4/jooq-codegen-3.13.4.jar?Expires=1675212973&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=6cbjOHuYyQt%2BQV79HQgFOoQRdFo%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+   > Could not download jooq-meta-3.13.4.jar (org.jooq:jooq-meta:3.13.4)
+      > Could not get resource 'http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-meta/3.13.4/jooq-meta-3.13.4.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/jooq/jooq-meta/3.13.4/jooq-meta-3.13.4.jar?Expires=1675212973&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=hWGPAxAzmVQVyvlm93O7ActXzhM%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4m 16s

@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1117/wd/NonDex-plugin-test/github.com/jamierocks/LiteLoaderGradle/liteloader.gradle' line: 21
+
+* What went wrong:
+A problem occurred evaluating script.
+> Failed to apply plugin [id 'net.minecrell.vanilla.base']
+   > Could not get unknown property 'noExportConfigurations' for object of type org.gradle.plugins.ide.eclipse.model.EclipseClasspath.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

@@ -1,0 +1,29 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not find xyz.chunkstories:api:2.0.4.
+     Searched in the following locations:
+       - file:/root/.m2/repository/xyz/chunkstories/api/2.0.4/api-2.0.4.pom
+       - https://jcenter.bintray.com/xyz/chunkstories/api/2.0.4/api-2.0.4.pom
+       - https://repo.maven.apache.org/maven2/xyz/chunkstories/api/2.0.4/api-2.0.4.pom
+       - http://maven.xol.io/repository/public/xyz/chunkstories/api/2.0.4/api-2.0.4.pom
+     Required by:
+         project :
+   > Could not find xyz.chunkstories:core:2.0.4.
+     Searched in the following locations:
+       - file:/root/.m2/repository/xyz/chunkstories/core/2.0.4/core-2.0.4.pom
+       - https://jcenter.bintray.com/xyz/chunkstories/core/2.0.4/core-2.0.4.pom
+       - https://repo.maven.apache.org/maven2/xyz/chunkstories/core/2.0.4/core-2.0.4.pom
+       - http://maven.xol.io/repository/public/xyz/chunkstories/core/2.0.4/core-2.0.4.pom
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

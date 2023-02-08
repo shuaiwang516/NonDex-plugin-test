@@ -1,0 +1,428 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:3: error: package com.mojang.authlib does not exist
+import com.mojang.authlib.GameProfile;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:4: error: package com.mojang.authlib.properties does not exist
+import com.mojang.authlib.properties.Property;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:7: error: package org.apache.commons.codec.binary does not exist
+import org.apache.commons.codec.binary.Base64;
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:9: error: package org.bukkit.entity does not exist
+import org.bukkit.entity.ArmorStand;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:10: error: package org.bukkit.entity does not exist
+import org.bukkit.entity.Entity;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:11: error: package org.bukkit.entity does not exist
+import org.bukkit.entity.Player;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:12: error: package org.bukkit.inventory does not exist
+import org.bukkit.inventory.ItemStack;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:13: error: package org.bukkit.inventory.meta does not exist
+import org.bukkit.inventory.meta.SkullMeta;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:14: error: package org.bukkit.scheduler does not exist
+import org.bukkit.scheduler.BukkitRunnable;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:15: error: package org.bukkit.util does not exist
+import org.bukkit.util.Vector;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:32: error: cannot find symbol
+    private static Set<Entity> balls = new HashSet<>();
+                       ^
+  symbol:   class Entity
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:37: error: cannot find symbol
+    private final ArmorStand ball;
+                  ^
+  symbol:   class ArmorStand
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:47: error: cannot find symbol
+    private final Player player;
+                  ^
+  symbol:   class Player
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:11: error: package org.bukkit does not exist
+import org.bukkit.Bukkit;
+                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:12: error: package org.bukkit does not exist
+import org.bukkit.Location;
+                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:13: error: package org.bukkit does not exist
+import org.bukkit.World;
+                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:14: error: package org.bukkit.entity does not exist
+import org.bukkit.entity.Player;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:69: error: cannot find symbol
+    public Ball(Player player) {
+                ^
+  symbol:   class Player
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:263: error: cannot find symbol
+    public static Set<Entity> getBalls() {
+                      ^
+  symbol:   class Entity
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:59: error: cannot find symbol
+    private World world;
+            ^
+  symbol:   class World
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:203: error: cannot find symbol
+    public World getWorld() {
+           ^
+  symbol:   class World
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:212: error: cannot find symbol
+    public void setWorld(World world) {
+                         ^
+  symbol:   class World
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:248: error: cannot find symbol
+    private void setBounds(Player player, double[][] bounds) {
+                           ^
+  symbol:   class Player
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:290: error: cannot find symbol
+    public void setBounds(Player player) {
+                          ^
+  symbol:   class Player
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:317: error: cannot find symbol
+    public void setNet(Player player) {
+                       ^
+  symbol:   class Player
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:327: error: cannot find symbol
+    public boolean contains(Location l) {
+                            ^
+  symbol:   class Location
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:351: error: cannot find symbol
+    public ArrayList<Player> getPlayersOnCourt() {
+                     ^
+  symbol:   class Player
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:371: error: cannot find symbol
+    public boolean contains(Player player) {
+                            ^
+  symbol:   class Player
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:381: error: cannot find symbol
+    public boolean isAboveNet(Location l) {
+                              ^
+  symbol:   class Location
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:405: error: cannot find symbol
+    public void select(Player player) {
+                       ^
+  symbol:   class Player
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:488: error: cannot find symbol
+    public static boolean isOnCourt(Location l) {
+                                    ^
+  symbol:   class Location
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:504: error: cannot find symbol
+    public static Court get(Player player) {
+                            ^
+  symbol:   class Player
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/court/Court.java:520: error: cannot find symbol
+    public static Court get(Location loc) {
+                            ^
+  symbol:   class Location
+  location: class Court
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:8: error: package org.bukkit does not exist
+import org.bukkit.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:5: error: package org.bukkit does not exist
+import org.bukkit.Sound;
+                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:6: error: package org.bukkit.entity does not exist
+import org.bukkit.entity.Entity;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:8: error: package org.bukkit.event does not exist
+import org.bukkit.event.EventHandler;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:9: error: package org.bukkit.event does not exist
+import org.bukkit.event.Listener;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:10: error: package org.bukkit.event.block does not exist
+import org.bukkit.event.block.Action;
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:11: error: package org.bukkit.event.entity does not exist
+import org.bukkit.event.entity.EntityDamageByEntityEvent;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:12: error: package org.bukkit.event.entity does not exist
+import org.bukkit.event.entity.EntityDeathEvent;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:13: error: package org.bukkit.event.player does not exist
+import org.bukkit.event.player.PlayerInteractAtEntityEvent;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:14: error: package org.bukkit.event.player does not exist
+import org.bukkit.event.player.PlayerInteractEvent;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:15: error: package org.bukkit.event.player does not exist
+import org.bukkit.event.player.PlayerToggleSneakEvent;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:16: error: package org.bukkit.util does not exist
+import org.bukkit.util.Vector;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:23: error: cannot find symbol
+public class BallListener implements Listener {
+                                     ^
+  symbol: class Listener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:31: error: cannot find symbol
+    public void onHit(EntityDamageByEntityEvent e) {
+                      ^
+  symbol:   class EntityDamageByEntityEvent
+  location: class BallListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:40: error: cannot find symbol
+    public void onInteract(PlayerInteractEvent e) {
+                           ^
+  symbol:   class PlayerInteractEvent
+  location: class BallListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:64: error: cannot find symbol
+    private void hitBall(Player player) {
+                         ^
+  symbol:   class Player
+  location: class BallListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:84: error: cannot find symbol
+    public void onEntityInteract(PlayerInteractAtEntityEvent e) {
+                                 ^
+  symbol:   class PlayerInteractAtEntityEvent
+  location: class BallListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:93: error: cannot find symbol
+    public void onSneak(PlayerToggleSneakEvent e) {
+                        ^
+  symbol:   class PlayerToggleSneakEvent
+  location: class BallListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:120: error: cannot find symbol
+    public void onBallDeath(EntityDeathEvent e) {
+                            ^
+  symbol:   class EntityDeathEvent
+  location: class BallListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/Message.java:3: error: package org.bukkit does not exist
+import org.bukkit.ChatColor;
+                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/Config.java:3: error: package org.bukkit.configuration.file does not exist
+import org.bukkit.configuration.file.YamlConfiguration;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/Config.java:37: error: cannot find symbol
+    private YamlConfiguration YMLConfig;
+            ^
+  symbol:   class YamlConfiguration
+  location: class Config
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/Config.java:97: error: cannot find symbol
+    public YamlConfiguration getConfig() {
+           ^
+  symbol:   class YamlConfiguration
+  location: class Config
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/command/CommandTabComplete.java:4: error: package org.bukkit.command does not exist
+import org.bukkit.command.Command;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/command/CommandTabComplete.java:5: error: package org.bukkit.command does not exist
+import org.bukkit.command.CommandSender;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/command/CommandTabComplete.java:6: error: package org.bukkit.command does not exist
+import org.bukkit.command.TabCompleter;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/command/CommandTabComplete.java:18: error: cannot find symbol
+public class CommandTabComplete implements TabCompleter {
+                                           ^
+  symbol: class TabCompleter
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/command/CommandTabComplete.java:30: error: cannot find symbol
+    public List<String> onTabComplete(CommandSender sender, Command command, String label, String[] args) {
+                                      ^
+  symbol:   class CommandSender
+  location: class CommandTabComplete
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/command/CommandTabComplete.java:30: error: cannot find symbol
+    public List<String> onTabComplete(CommandSender sender, Command command, String label, String[] args) {
+                                                            ^
+  symbol:   class Command
+  location: class CommandTabComplete
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/command/CommandExec.java:9: error: package org.bukkit.command does not exist
+import org.bukkit.command.CommandExecutor;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/command/CommandExec.java:19: error: cannot find symbol
+public class CommandExec implements CommandExecutor {
+                                    ^
+  symbol: class CommandExecutor
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/command/CommandExec.java:30: error: cannot find symbol
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+                             ^
+  symbol:   class CommandSender
+  location: class CommandExec
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/command/CommandExec.java:30: error: cannot find symbol
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+                                                   ^
+  symbol:   class Command
+  location: class CommandExec
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/VolleyBall.java:9: error: package org.bukkit.event does not exist
+import org.bukkit.event.Listener;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/VolleyBall.java:10: error: package org.bukkit.permissions does not exist
+import org.bukkit.permissions.Permission;
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/VolleyBall.java:11: error: package org.bukkit.plugin does not exist
+import org.bukkit.plugin.PluginManager;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/VolleyBall.java:12: error: package org.bukkit.plugin.java does not exist
+import org.bukkit.plugin.java.JavaPlugin;
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/VolleyBall.java:13: error: package org.bukkit.scheduler does not exist
+import org.bukkit.scheduler.BukkitRunnable;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/VolleyBall.java:20: error: cannot find symbol
+public class VolleyBall extends JavaPlugin implements Listener {
+                                ^
+  symbol: class JavaPlugin
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/VolleyBall.java:20: error: cannot find symbol
+public class VolleyBall extends JavaPlugin implements Listener {
+                                                      ^
+  symbol: class Listener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:30: error: cannot find symbol
+    @EventHandler
+     ^
+  symbol:   class EventHandler
+  location: class BallListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:39: error: cannot find symbol
+    @EventHandler
+     ^
+  symbol:   class EventHandler
+  location: class BallListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:83: error: cannot find symbol
+    @EventHandler
+     ^
+  symbol:   class EventHandler
+  location: class BallListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:92: error: cannot find symbol
+    @EventHandler
+     ^
+  symbol:   class EventHandler
+  location: class BallListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/BallListener.java:119: error: cannot find symbol
+    @EventHandler
+     ^
+  symbol:   class EventHandler
+  location: class BallListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:76: error: cannot find symbol
+        Location loc = player.getEyeLocation().add(player.getLocation().getDirection().multiply(0.75).setY(-0.5));
+        ^
+  symbol:   class Location
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:78: error: cannot find symbol
+        this.ball = player.getLocation().getWorld().spawn(loc, ArmorStand.class);
+                                                               ^
+  symbol:   class ArmorStand
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:88: error: cannot find symbol
+        ball.getWorld().playSound(ball.getLocation(), Sound.ENTITY_ARROW_SHOOT, 2, 0);
+                                                      ^
+  symbol:   variable Sound
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:96: error: cannot find symbol
+        ItemStack head = new ItemStack(Material.PLAYER_HEAD, 1);
+        ^
+  symbol:   class ItemStack
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:96: error: cannot find symbol
+        ItemStack head = new ItemStack(Material.PLAYER_HEAD, 1);
+                             ^
+  symbol:   class ItemStack
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:96: error: cannot find symbol
+        ItemStack head = new ItemStack(Material.PLAYER_HEAD, 1);
+                                       ^
+  symbol:   variable Material
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:99: error: cannot find symbol
+        SkullMeta headMeta = (SkullMeta) head.getItemMeta();
+        ^
+  symbol:   class SkullMeta
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:99: error: cannot find symbol
+        SkullMeta headMeta = (SkullMeta) head.getItemMeta();
+                              ^
+  symbol:   class SkullMeta
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:100: error: cannot find symbol
+        GameProfile profile = new GameProfile(UUID.randomUUID(), null);
+        ^
+  symbol:   class GameProfile
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:100: error: cannot find symbol
+        GameProfile profile = new GameProfile(UUID.randomUUID(), null);
+                                  ^
+  symbol:   class GameProfile
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:101: error: cannot find symbol
+        byte[] encodedData = Base64.encodeBase64(String.format("{textures:{SKIN:{url:\"%s\"}}}", url).getBytes());
+                             ^
+  symbol:   variable Base64
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:102: error: cannot find symbol
+        profile.getProperties().put("textures", new Property("textures", new String(encodedData)));
+                                                    ^
+  symbol:   class Property
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:123: error: cannot find symbol
+        ball.setVelocity(player.getLocation().getDirection().multiply(0.05).add(new Vector(0, 0.5 + (0.1 * court.getSpeed()), 0)));
+                                                                                    ^
+  symbol:   class Vector
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:126: error: cannot find symbol
+            Location loc = player.getLocation();
+            ^
+  symbol:   class Location
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:131: error: cannot find symbol
+                player.getWorld().spawnParticle(Particle.TOTEM,
+                                                ^
+  symbol:   variable Particle
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:137: error: cannot find symbol
+        new BukkitRunnable() {
+            ^
+  symbol:   class BukkitRunnable
+  location: class Ball
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:138: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:146: error: cannot find symbol
+                    for (Player players : court.getPlayersOnCourt()) {
+                         ^
+  symbol: class Player
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:147: error: cannot find symbol
+                        players.sendTitle(" ", ChatColor.WHITE + Integer.toString(volleys), 0, 10, 10);
+                                               ^
+  symbol: variable ChatColor
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:154: error: cannot find symbol
+                    ball.getWorld().spawnParticle(Particle.CRIT,
+                                                  ^
+  symbol: variable Particle
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:155: error: cannot find symbol
+                            ball.getLocation().add(new Vector(0, 0.75, 0)), 0, 0, 0, 0, 1);
+                                                       ^
+  symbol: class Vector
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task576/wd/NonDex-plugin-test/github.com/jeremynoesen/VolleyBall/src/main/java/xyz/jeremynoesen/volleyball/ball/Ball.java:159: error: cannot find symbol
+                    Vector vec = ball.getVelocity();
+                    ^
+  symbol: class Vector
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

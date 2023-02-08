@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Circular dependency between the following tasks:
+:search-engine-exercises:chromeTest
++--- :search-engine-exercises:chromeTest (*)
+\--- :search-engine-exercises:firefoxTest
+     +--- :search-engine-exercises:chromeTest (*)
+     \--- :search-engine-exercises:firefoxTest (*)
+
+(*) - details omitted (listed previously)
+
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s

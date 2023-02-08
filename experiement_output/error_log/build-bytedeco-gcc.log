@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task456/wd/NonDex-plugin-test/github.com/bytedeco/gcc/build.gradle' line: 7
+
+* What went wrong:
+Plugin [id: 'org.bytedeco.gradle-javacpp-build', version: '1.5.7-SNAPSHOT'] was not found in any of the following sources:
+
+- Gradle Core Plugins (plugin is not in 'org.gradle' namespace)
+- Plugin Repositories (could not resolve plugin artifact 'org.bytedeco.gradle-javacpp-build:org.bytedeco.gradle-javacpp-build.gradle.plugin:1.5.7-SNAPSHOT')
+  Searched in the following repositories:
+    MavenLocal(file:/root/.m2/repository/)
+    MavenRepo
+    maven(https://oss.sonatype.org/content/repositories/snapshots/)
+    Gradle Central Plugin Repository
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

@@ -1,0 +1,14 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Failed to notify task execution graph listener.
+> 'void org.kercheval.gradle.buildinfo.BuildInfoTask.execute()'
+> 'void org.kercheval.gradle.buildversion.BuildVersionTask.execute()'
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

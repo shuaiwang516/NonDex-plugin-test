@@ -1,0 +1,40 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task213/wd/NonDex-plugin-test/github.com/bsideup/querydsl-gradle-idea/src/main/java/ru/trylogic/querydsl/example/Test.java:17: error: cannot find symbol
+import static ru.trylogic.querydsl.example.QUser.user;
+                                          ^
+  symbol:   class QUser
+  location: package ru.trylogic.querydsl.example
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task213/wd/NonDex-plugin-test/github.com/bsideup/querydsl-gradle-idea/src/main/java/ru/trylogic/querydsl/example/Test.java:17: error: static import only from classes and interfaces
+import static ru.trylogic.querydsl.example.QUser.user;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task213/wd/NonDex-plugin-test/github.com/bsideup/querydsl-gradle-idea/src/main/java/ru/trylogic/querydsl/example/Test.java:41: error: cannot find symbol
+                .list(user.name);
+                      ^
+  symbol:   variable user
+  location: class Test
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task213/wd/NonDex-plugin-test/github.com/bsideup/querydsl-gradle-idea/src/main/java/ru/trylogic/querydsl/example/Test.java:40: error: cannot find symbol
+                .groupBy(user.name)
+                         ^
+  symbol:   variable user
+  location: class Test
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task213/wd/NonDex-plugin-test/github.com/bsideup/querydsl-gradle-idea/src/main/java/ru/trylogic/querydsl/example/Test.java:38: error: cannot find symbol
+        List<String> uniqueUserNames = query.from(user)
+                                                  ^
+  symbol:   variable user
+  location: class Test
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task213/wd/NonDex-plugin-test/github.com/bsideup/querydsl-gradle-idea/src/main/java/ru/trylogic/querydsl/example/Test.java:39: error: package user does not exist
+                .where(user.name.like("%ov"))
+                           ^
+6 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

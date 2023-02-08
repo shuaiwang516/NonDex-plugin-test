@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task886/wd/NonDex-plugin-test/github.com/bphalak/GradleTest/build.gradle' line: 15
+
+* What went wrong:
+A problem occurred evaluating root project 'GradleTest'.
+> class org.gradle.api.tasks.wrapper.Wrapper_Decorated cannot be cast to class java.lang.Class (org.gradle.api.tasks.wrapper.Wrapper_Decorated is in unnamed module of loader org.gradle.initialization.MixInLegacyTypesClassLoader @294425a7; java.lang.Class is in module java.base of loader 'bootstrap')
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

@@ -1,0 +1,41 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':lion-admin:compileJava'.
+> Could not resolve all files for configuration ':lion-admin:compileClasspath'.
+   > Could not download jsr305-1.3.9.jar (com.google.code.findbugs:jsr305:1.3.9)
+      > Could not get resource 'https://maven.aliyun.com/nexus/content/groups/public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar?Expires=1675213269&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=ZdFlo9h5l5hyESFdNZzZtSZqWig%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+   > Could not download netty-transport-native-epoll-4.1.48.Final-linux-x86_64.jar (io.netty:netty-transport-native-epoll:4.1.48.Final)
+      > Could not get resource 'https://maven.aliyun.com/nexus/content/groups/public/io/netty/netty-transport-native-epoll/4.1.48.Final/netty-transport-native-epoll-4.1.48.Final-linux-x86_64.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/io/netty/netty-transport-native-epoll/4.1.48.Final/netty-transport-native-epoll-4.1.48.Final-linux-x86_64.jar?Expires=1675213278&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=ffUlUdDYRDN7MzpKcjvOCtvQO2w%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+   > Could not download attoparser-2.0.5.RELEASE.jar (org.attoparser:attoparser:2.0.5.RELEASE)
+      > Could not get resource 'https://maven.aliyun.com/nexus/content/groups/public/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar?Expires=1675213364&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=kRRguj88fu%2FYhIxUOleYz5Q8KPs%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+   > Could not download unbescape-1.1.6.RELEASE.jar (org.unbescape:unbescape:1.1.6.RELEASE)
+      > Could not get resource 'https://maven.aliyun.com/nexus/content/groups/public/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar?Expires=1675213372&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=qppH5N0LcfilZc63d2JiX5T4vJI%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+   > Could not download bcprov-jdk15on-1.69.jar (org.bouncycastle:bcprov-jdk15on:1.69)
+      > Could not get resource 'https://maven.aliyun.com/nexus/content/groups/public/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.jar?Expires=1675213551&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=IXlOy2MdXLCmAh0%2FdeRnj5MPNjI%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+   > Could not download netty-codec-socks-4.1.48.Final.jar (io.netty:netty-codec-socks:4.1.48.Final)
+      > Could not get resource 'https://maven.aliyun.com/nexus/content/groups/public/io/netty/netty-codec-socks/4.1.48.Final/netty-codec-socks-4.1.48.Final.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/io/netty/netty-codec-socks/4.1.48.Final/netty-codec-socks-4.1.48.Final.jar?Expires=1675213467&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=LfAyh%2FPy%2FNgj8OcDaYOR4HQk6LA%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+   > Could not download netty-codec-4.1.48.Final.jar (io.netty:netty-codec:4.1.48.Final)
+      > Could not get resource 'https://maven.aliyun.com/nexus/content/groups/public/io/netty/netty-codec/4.1.48.Final/netty-codec-4.1.48.Final.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/io/netty/netty-codec/4.1.48.Final/netty-codec-4.1.48.Final.jar?Expires=1675213561&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=3FpYZpqgzdUZ06wOxmNP5NpbYA0%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10m 17s

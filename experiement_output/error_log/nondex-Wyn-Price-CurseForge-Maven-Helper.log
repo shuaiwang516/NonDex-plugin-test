@@ -1,0 +1,440 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:6: error: package javafx.application does not exist
+import javafx.application.Application;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:7: error: package javafx.geometry does not exist
+import javafx.geometry.Insets;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:8: error: package javafx.geometry does not exist
+import javafx.geometry.Pos;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:9: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:10: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:11: error: package javafx.scene.control does not exist
+import javafx.scene.control.CheckBox;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:12: error: package javafx.scene.control does not exist
+import javafx.scene.control.RadioButton;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:13: error: package javafx.scene.control does not exist
+import javafx.scene.control.ScrollPane;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:14: error: package javafx.scene.input does not exist
+import javafx.scene.input.KeyCode;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:15: error: package javafx.scene.input does not exist
+import javafx.scene.input.KeyEvent;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:16: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.Priority;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:17: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.VBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:18: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:20: error: cannot find symbol
+public class OptionalDownloadGui extends Application{
+                                         ^
+  symbol: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:22: error: cannot find symbol
+	private final HashMap<String, CheckBox> downloadmap = new HashMap<>();
+	                              ^
+  symbol:   class CheckBox
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:38: error: cannot find symbol
+	public void start(Stage stage) throws Exception {
+	                  ^
+  symbol:   class Stage
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:5: error: package javafx.application does not exist
+import javafx.application.Application;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:6: error: package javafx.geometry does not exist
+import javafx.geometry.Insets;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:7: error: package javafx.geometry does not exist
+import javafx.geometry.Pos;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:8: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:9: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:10: error: package javafx.scene.control does not exist
+import javafx.scene.control.CheckBox;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:11: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:12: error: package javafx.scene.control does not exist
+import javafx.scene.control.RadioButton;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:13: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextArea;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:14: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:15: error: package javafx.scene.input does not exist
+import javafx.scene.input.KeyCode;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:16: error: package javafx.scene.input does not exist
+import javafx.scene.input.KeyEvent;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:17: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.GridPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:18: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.HBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:19: error: package javafx.scene.paint does not exist
+import javafx.scene.paint.Color;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:20: error: package javafx.scene.text does not exist
+import javafx.scene.text.Font;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:21: error: package javafx.scene.text does not exist
+import javafx.scene.text.FontWeight;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:22: error: package javafx.scene.text does not exist
+import javafx.scene.text.Text;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:23: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:30: error: cannot find symbol
+public class Gui extends Application
+                         ^
+  symbol: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:33: error: cannot find symbol
+	public static Text actiontarget = new Text();
+	              ^
+  symbol:   class Text
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:34: error: cannot find symbol
+	public static TextArea fakeURL = new TextArea();
+	              ^
+  symbol:   class TextArea
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:35: error: cannot find symbol
+	public static CheckBox useOptional = new CheckBox();
+	              ^
+  symbol:   class CheckBox
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:38: error: cannot find symbol
+    public void start(Stage primaryStage) {
+                      ^
+  symbol:   class Stage
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Main.java:16: error: package javafx.application does not exist
+import javafx.application.Platform;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Main.java:17: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:30: error: cannot find symbol
+			CheckBox button = new CheckBox(down);
+			^
+  symbol:   class CheckBox
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:30: error: cannot find symbol
+			CheckBox button = new CheckBox(down);
+			                      ^
+  symbol:   class CheckBox
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:37: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:39: error: cannot find symbol
+		VBox vb = new VBox();
+		^
+  symbol:   class VBox
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:39: error: cannot find symbol
+		VBox vb = new VBox();
+		              ^
+  symbol:   class VBox
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:40: error: cannot find symbol
+        VBox box = new VBox();
+        ^
+  symbol:   class VBox
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:40: error: cannot find symbol
+        VBox box = new VBox();
+                       ^
+  symbol:   class VBox
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:41: error: cannot find symbol
+		ScrollPane sp = new ScrollPane();
+		^
+  symbol:   class ScrollPane
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:41: error: cannot find symbol
+		ScrollPane sp = new ScrollPane();
+		                    ^
+  symbol:   class ScrollPane
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:42: error: cannot find symbol
+		vb.setPadding(new Insets(10));
+		                  ^
+  symbol:   class Insets
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:43: error: cannot find symbol
+		Scene scene = new Scene(box, 500, 300);
+		^
+  symbol:   class Scene
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:43: error: cannot find symbol
+		Scene scene = new Scene(box, 500, 300);
+		                  ^
+  symbol:   class Scene
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:47: error: cannot find symbol
+        box.setAlignment(Pos.TOP_CENTER);
+                         ^
+  symbol:   variable Pos
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:48: error: cannot find symbol
+        VBox.setVgrow(sp, Priority.ALWAYS);
+                          ^
+  symbol:   variable Priority
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:48: error: cannot find symbol
+        VBox.setVgrow(sp, Priority.ALWAYS);
+        ^
+  symbol:   variable VBox
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:58: error: cannot find symbol
+        Button out = new Button("Continue");
+        ^
+  symbol:   class Button
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:58: error: cannot find symbol
+        Button out = new Button("Continue");
+                         ^
+  symbol:   class Button
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:66: error: cannot find symbol
+		scene.addEventHandler(KeyEvent.KEY_PRESSED, (key) -> {
+		                      ^
+  symbol:   variable KeyEvent
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/OptionalDownloadGui.java:67: error: cannot find symbol
+            if(key.getCode()==KeyCode.ENTER) {
+                              ^
+  symbol:   variable KeyCode
+  location: class OptionalDownloadGui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:33: error: cannot find symbol
+	public static Text actiontarget = new Text();
+	                                      ^
+  symbol:   class Text
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:34: error: cannot find symbol
+	public static TextArea fakeURL = new TextArea();
+	                                     ^
+  symbol:   class TextArea
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:35: error: cannot find symbol
+	public static CheckBox useOptional = new CheckBox();
+	                                         ^
+  symbol:   class CheckBox
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:37: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:40: error: cannot find symbol
+        GridPane grid = new GridPane();
+        ^
+  symbol:   class GridPane
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:40: error: cannot find symbol
+        GridPane grid = new GridPane();
+                            ^
+  symbol:   class GridPane
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:41: error: cannot find symbol
+        grid.setAlignment(Pos.CENTER);
+                          ^
+  symbol:   variable Pos
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:44: error: cannot find symbol
+        grid.setPadding(new Insets(25, 25, 25, 25));
+                            ^
+  symbol:   class Insets
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:46: error: cannot find symbol
+        Text scenetitle = new Text("Curseforge Maven Helper");
+        ^
+  symbol:   class Text
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:46: error: cannot find symbol
+        Text scenetitle = new Text("Curseforge Maven Helper");
+                              ^
+  symbol:   class Text
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:47: error: cannot find symbol
+        scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
+                                               ^
+  symbol:   variable FontWeight
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:47: error: cannot find symbol
+        scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
+                           ^
+  symbol:   variable Font
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:49: error: cannot find symbol
+        HBox hbBtn = new HBox(10);
+        ^
+  symbol:   class HBox
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:49: error: cannot find symbol
+        HBox hbBtn = new HBox(10);
+                         ^
+  symbol:   class HBox
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:50: error: cannot find symbol
+        hbBtn.setAlignment(Pos.TOP_CENTER);
+                           ^
+  symbol:   variable Pos
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:54: error: cannot find symbol
+        Label userName = new Label("URL:");
+        ^
+  symbol:   class Label
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:54: error: cannot find symbol
+        Label userName = new Label("URL:");
+                             ^
+  symbol:   class Label
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:57: error: cannot find symbol
+        TextField userTextField = new TextField();
+        ^
+  symbol:   class TextField
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:57: error: cannot find symbol
+        TextField userTextField = new TextField();
+                                      ^
+  symbol:   class TextField
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:61: error: cannot find symbol
+        Label gradleFile = new Label("Gradle File:");
+        ^
+  symbol:   class Label
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:61: error: cannot find symbol
+        Label gradleFile = new Label("Gradle File:");
+                               ^
+  symbol:   class Label
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:64: error: cannot find symbol
+        TextField fileTextField = new TextField();
+        ^
+  symbol:   class TextField
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:64: error: cannot find symbol
+        TextField fileTextField = new TextField();
+                                      ^
+  symbol:   class TextField
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:68: error: cannot find symbol
+        Button button = new Button();
+        ^
+  symbol:   class Button
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:68: error: cannot find symbol
+        Button button = new Button();
+                            ^
+  symbol:   class Button
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:70: error: cannot find symbol
+        HBox hbbutton = new HBox(10);
+        ^
+  symbol:   class HBox
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:70: error: cannot find symbol
+        HBox hbbutton = new HBox(10);
+                            ^
+  symbol:   class HBox
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:71: error: cannot find symbol
+        hbbutton.setAlignment(Pos.TOP_RIGHT);
+                              ^
+  symbol:   variable Pos
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:75: error: cannot find symbol
+        useOptional = new CheckBox("Include Optional Libraries");
+                          ^
+  symbol:   class CheckBox
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:76: error: cannot find symbol
+        HBox hbradio = new HBox(10);
+        ^
+  symbol:   class HBox
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:76: error: cannot find symbol
+        HBox hbradio = new HBox(10);
+                           ^
+  symbol:   class HBox
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:80: error: cannot find symbol
+        actiontarget = new Text();
+                           ^
+  symbol:   class Text
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:81: error: cannot find symbol
+		actiontarget.setFill(Color.FIREBRICK);
+		                     ^
+  symbol:   variable Color
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:84: error: cannot find symbol
+        fakeURL = new TextArea();
+                      ^
+  symbol:   class TextArea
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:88: error: cannot find symbol
+        HBox fakeUrlBtn = new HBox(10);
+        ^
+  symbol:   class HBox
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:88: error: cannot find symbol
+        HBox fakeUrlBtn = new HBox(10);
+                              ^
+  symbol:   class HBox
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:89: error: cannot find symbol
+        fakeUrlBtn.setAlignment(Pos.TOP_CENTER);
+                                ^
+  symbol:   variable Pos
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:99: error: cannot find symbol
+        Scene scene = new Scene(grid, 700, 700);
+        ^
+  symbol:   class Scene
+  location: class Gui
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task998/wd/NonDex-plugin-test/github.com/Wyn-Price/CurseForge-Maven-Helper/src/main/java/com/wynprice/curseforgemaven/Gui.java:99: error: cannot find symbol
+        Scene scene = new Scene(grid, 700, 700);
+                          ^
+  symbol:   class Scene
+  location: class Gui
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

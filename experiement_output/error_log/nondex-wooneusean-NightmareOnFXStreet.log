@@ -1,0 +1,35 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task809/wd/NonDex-plugin-test/github.com/wooneusean/NightmareOnFXStreet/src/main/java/com/oodj/vaccspace/utils/Navigator.java:94: error: : expected
+            case BOTTOM -> container.setBottom(root);
+                                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task809/wd/NonDex-plugin-test/github.com/wooneusean/NightmareOnFXStreet/src/main/java/com/oodj/vaccspace/utils/Navigator.java:95: error: : expected
+            case TOP -> container.setTop(root);
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task809/wd/NonDex-plugin-test/github.com/wooneusean/NightmareOnFXStreet/src/main/java/com/oodj/vaccspace/utils/Navigator.java:96: error: : expected
+            case LEFT -> container.setLeft(root);
+                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task809/wd/NonDex-plugin-test/github.com/wooneusean/NightmareOnFXStreet/src/main/java/com/oodj/vaccspace/utils/Navigator.java:97: error: : expected
+            case RIGHT -> container.setRight(root);
+                                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task809/wd/NonDex-plugin-test/github.com/wooneusean/NightmareOnFXStreet/src/main/java/com/oodj/vaccspace/utils/Navigator.java:98: error: : expected
+            case CENTER -> container.setCenter(root);
+                                                    ^
+error: cannot access module-info
+  bad class file: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task809/wd/NonDex-plugin-test/github.com/wooneusean/NightmareOnFXStreet/lib/MFXPillButton-1.0-SNAPSHOT.jar(/module-info.class)
+    class file has wrong version 59.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+error: cannot access module-info
+  cannot resolve modules
+7 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

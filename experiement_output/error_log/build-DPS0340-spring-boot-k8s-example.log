@@ -1,0 +1,18 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task853/wd/NonDex-plugin-test/github.com/DPS0340/spring-boot-k8s-example/build.gradle' line: 49
+
+* What went wrong:
+A problem occurred evaluating root project 'example-k8s-app'.
+> Task with name 'hibernate' not found in root project 'example-k8s-app'.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 33s

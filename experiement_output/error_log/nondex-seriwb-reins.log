@@ -1,0 +1,61 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task523/wd/NonDex-plugin-test/github.com/seriwb/reins/src/main/groovy/box/white/reins/TwitterWatcher.groovy: 15: unable to resolve class twitter4j.Status
+ @ line 15, column 1.
+   import twitter4j.Status
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task523/wd/NonDex-plugin-test/github.com/seriwb/reins/src/main/groovy/box/white/reins/TwitterWatcher.groovy: 20: unable to resolve class twitter4j.conf.ConfigurationBuilder
+ @ line 20, column 1.
+   import twitter4j.conf.ConfigurationBuilder
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task523/wd/NonDex-plugin-test/github.com/seriwb/reins/src/main/groovy/box/white/reins/TwitterWatcher.groovy: 13: unable to resolve class twitter4j.Paging
+ @ line 13, column 1.
+   import twitter4j.Paging
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task523/wd/NonDex-plugin-test/github.com/seriwb/reins/src/main/groovy/box/white/reins/TwitterWatcher.groovy: 18: unable to resolve class twitter4j.TwitterFactory
+ @ line 18, column 1.
+   import twitter4j.TwitterFactory
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task523/wd/NonDex-plugin-test/github.com/seriwb/reins/src/main/groovy/box/white/reins/TwitterWatcher.groovy: 14: unable to resolve class twitter4j.ResponseList
+ @ line 14, column 1.
+   import twitter4j.ResponseList
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task523/wd/NonDex-plugin-test/github.com/seriwb/reins/src/main/groovy/box/white/reins/TwitterWatcher.groovy: 19: unable to resolve class twitter4j.UserList
+ @ line 19, column 1.
+   import twitter4j.UserList
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task523/wd/NonDex-plugin-test/github.com/seriwb/reins/src/main/groovy/box/white/reins/component/OAuthComponent.groovy: 7: unable to resolve class twitter4j.auth.AccessToken
+ @ line 7, column 1.
+   import twitter4j.auth.AccessToken
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task523/wd/NonDex-plugin-test/github.com/seriwb/reins/src/main/groovy/box/white/reins/component/OAuthComponent.groovy: 8: unable to resolve class twitter4j.auth.RequestToken
+ @ line 8, column 1.
+   import twitter4j.auth.RequestToken
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task523/wd/NonDex-plugin-test/github.com/seriwb/reins/src/main/groovy/box/white/reins/util/TwitterUtil.groovy: 3: unable to resolve class twitter4j.Query
+ @ line 3, column 1.
+   import twitter4j.Query
+   ^
+
+9 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

@@ -1,0 +1,83 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not find org.openrndr:openrndr-core:0.3.35-rc1.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-core/0.3.35-rc1/openrndr-core-0.3.35-rc1.pom
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-core/0.3.35-rc1/openrndr-core-0.3.35-rc1.jar
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-core/0.3.35-rc1/openrndr-core-0.3.35-rc1.pom
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-core/0.3.35-rc1/openrndr-core-0.3.35-rc1.jar
+       - https://jitpack.io/org/openrndr/openrndr-core/0.3.35-rc1/openrndr-core-0.3.35-rc1.pom
+       - https://jitpack.io/org/openrndr/openrndr-core/0.3.35-rc1/openrndr-core-0.3.35-rc1.jar
+     Required by:
+         project :
+   > Could not find org.openrndr:openrndr-svg:0.3.35-rc1.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-svg/0.3.35-rc1/openrndr-svg-0.3.35-rc1.pom
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-svg/0.3.35-rc1/openrndr-svg-0.3.35-rc1.jar
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-svg/0.3.35-rc1/openrndr-svg-0.3.35-rc1.pom
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-svg/0.3.35-rc1/openrndr-svg-0.3.35-rc1.jar
+       - https://jitpack.io/org/openrndr/openrndr-svg/0.3.35-rc1/openrndr-svg-0.3.35-rc1.pom
+       - https://jitpack.io/org/openrndr/openrndr-svg/0.3.35-rc1/openrndr-svg-0.3.35-rc1.jar
+     Required by:
+         project :
+   > Could not find org.openrndr:openrndr-animatable:0.3.35-rc1.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-animatable/0.3.35-rc1/openrndr-animatable-0.3.35-rc1.pom
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-animatable/0.3.35-rc1/openrndr-animatable-0.3.35-rc1.jar
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-animatable/0.3.35-rc1/openrndr-animatable-0.3.35-rc1.pom
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-animatable/0.3.35-rc1/openrndr-animatable-0.3.35-rc1.jar
+       - https://jitpack.io/org/openrndr/openrndr-animatable/0.3.35-rc1/openrndr-animatable-0.3.35-rc1.pom
+       - https://jitpack.io/org/openrndr/openrndr-animatable/0.3.35-rc1/openrndr-animatable-0.3.35-rc1.jar
+     Required by:
+         project :
+   > Could not find org.openrndr:openrndr-extensions:0.3.35-rc1.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-extensions/0.3.35-rc1/openrndr-extensions-0.3.35-rc1.pom
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-extensions/0.3.35-rc1/openrndr-extensions-0.3.35-rc1.jar
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-extensions/0.3.35-rc1/openrndr-extensions-0.3.35-rc1.pom
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-extensions/0.3.35-rc1/openrndr-extensions-0.3.35-rc1.jar
+       - https://jitpack.io/org/openrndr/openrndr-extensions/0.3.35-rc1/openrndr-extensions-0.3.35-rc1.pom
+       - https://jitpack.io/org/openrndr/openrndr-extensions/0.3.35-rc1/openrndr-extensions-0.3.35-rc1.jar
+     Required by:
+         project :
+   > Could not find org.openrndr:openrndr-filter:0.3.35-rc1.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-filter/0.3.35-rc1/openrndr-filter-0.3.35-rc1.pom
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-filter/0.3.35-rc1/openrndr-filter-0.3.35-rc1.jar
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-filter/0.3.35-rc1/openrndr-filter-0.3.35-rc1.pom
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-filter/0.3.35-rc1/openrndr-filter-0.3.35-rc1.jar
+       - https://jitpack.io/org/openrndr/openrndr-filter/0.3.35-rc1/openrndr-filter-0.3.35-rc1.pom
+       - https://jitpack.io/org/openrndr/openrndr-filter/0.3.35-rc1/openrndr-filter-0.3.35-rc1.jar
+     Required by:
+         project :
+   > Could not find org.openrndr:openrndr-ffmpeg:0.3.35-rc1.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-ffmpeg/0.3.35-rc1/openrndr-ffmpeg-0.3.35-rc1.pom
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-ffmpeg/0.3.35-rc1/openrndr-ffmpeg-0.3.35-rc1.jar
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-ffmpeg/0.3.35-rc1/openrndr-ffmpeg-0.3.35-rc1.pom
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-ffmpeg/0.3.35-rc1/openrndr-ffmpeg-0.3.35-rc1.jar
+       - https://jitpack.io/org/openrndr/openrndr-ffmpeg/0.3.35-rc1/openrndr-ffmpeg-0.3.35-rc1.pom
+       - https://jitpack.io/org/openrndr/openrndr-ffmpeg/0.3.35-rc1/openrndr-ffmpeg-0.3.35-rc1.jar
+     Required by:
+         project :
+   > Could not find org.openrndr:openrndr-ffmpeg-natives-linux-x64:0.3.35-rc1.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-ffmpeg-natives-linux-x64/0.3.35-rc1/openrndr-ffmpeg-natives-linux-x64-0.3.35-rc1.pom
+       - https://repo.maven.apache.org/maven2/org/openrndr/openrndr-ffmpeg-natives-linux-x64/0.3.35-rc1/openrndr-ffmpeg-natives-linux-x64-0.3.35-rc1.jar
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-ffmpeg-natives-linux-x64/0.3.35-rc1/openrndr-ffmpeg-natives-linux-x64-0.3.35-rc1.pom
+       - https://dl.bintray.com/openrndr/openrndr/org/openrndr/openrndr-ffmpeg-natives-linux-x64/0.3.35-rc1/openrndr-ffmpeg-natives-linux-x64-0.3.35-rc1.jar
+       - https://jitpack.io/org/openrndr/openrndr-ffmpeg-natives-linux-x64/0.3.35-rc1/openrndr-ffmpeg-natives-linux-x64-0.3.35-rc1.pom
+       - https://jitpack.io/org/openrndr/openrndr-ffmpeg-natives-linux-x64/0.3.35-rc1/openrndr-ffmpeg-natives-linux-x64-0.3.35-rc1.jar
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

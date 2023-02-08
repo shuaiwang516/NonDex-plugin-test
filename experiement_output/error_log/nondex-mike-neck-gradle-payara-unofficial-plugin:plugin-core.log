@@ -1,0 +1,45 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1243/wd/NonDex-plugin-test/github.com/mike-neck/gradle-payara-unofficial-plugin/plugin-core/src/main/groovy/org/mikeneck/gradle/plugin/payara/PayaraPlugin.java:24: error: package org.mikeneck.gradle.plugin.payara.model does not exist
+import org.mikeneck.gradle.plugin.payara.model.PayaraSetting;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1243/wd/NonDex-plugin-test/github.com/mike-neck/gradle-payara-unofficial-plugin/plugin-core/src/main/groovy/org/mikeneck/gradle/plugin/payara/PayaraPlugin.java:25: error: package org.mikeneck.gradle.plugin.payara.model does not exist
+import org.mikeneck.gradle.plugin.payara.model.PayaraSettingPojo;
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1243/wd/NonDex-plugin-test/github.com/mike-neck/gradle-payara-unofficial-plugin/plugin-core/src/main/groovy/org/mikeneck/gradle/plugin/payara/PayaraPlugin.java:92: error: cannot find symbol
+    private void configurePayaraStop(PayaraStop stopTask, PayaraSetting setting) {
+                                                          ^
+  symbol:   class PayaraSetting
+  location: class PayaraPlugin
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1243/wd/NonDex-plugin-test/github.com/mike-neck/gradle-payara-unofficial-plugin/plugin-core/src/main/groovy/org/mikeneck/gradle/plugin/payara/PayaraPlugin.java:97: error: cannot find symbol
+    private void configurePayaraRunWar(Project prj, PayaraRunWar runWar, PayaraSetting setting) {
+                                                                         ^
+  symbol:   class PayaraSetting
+  location: class PayaraPlugin
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1243/wd/NonDex-plugin-test/github.com/mike-neck/gradle-payara-unofficial-plugin/plugin-core/src/main/groovy/org/mikeneck/gradle/plugin/payara/PayaraPlugin.java:58: error: cannot find symbol
+        final PayaraSetting setting = project.getExtensions()
+              ^
+  symbol:   class PayaraSetting
+  location: class PayaraPlugin
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1243/wd/NonDex-plugin-test/github.com/mike-neck/gradle-payara-unofficial-plugin/plugin-core/src/main/groovy/org/mikeneck/gradle/plugin/payara/PayaraPlugin.java:60: error: cannot find symbol
+                        PayaraSettingPojo.class,
+                        ^
+  symbol:   class PayaraSettingPojo
+  location: class PayaraPlugin
+6 errors
+startup failed:
+Compilation failed; see the compiler error output for details.
+
+1 error
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':plugin-core:compileGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 20s

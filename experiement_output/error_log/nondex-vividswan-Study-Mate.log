@@ -1,0 +1,155 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/api/feedbackApiController.java:11: error: class FeedbackApiController is public, should be declared in a file named FeedbackApiController.java
+public class FeedbackApiController {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/dto/feedbackCreateDto.java:8: error: class FeedbackCreateDto is public, should be declared in a file named FeedbackCreateDto.java
+public class FeedbackCreateDto {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/FeedbackService.java:17: error: cannot find symbol
+        feedbackRepository.createReply(feedbackCreateDto.getUserId(), feedbackCreateDto.getTaskId(), feedbackCreateDto.getContent());
+                                                        ^
+  symbol:   method getUserId()
+  location: variable feedbackCreateDto of type FeedbackCreateDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/FeedbackService.java:17: error: cannot find symbol
+        feedbackRepository.createReply(feedbackCreateDto.getUserId(), feedbackCreateDto.getTaskId(), feedbackCreateDto.getContent());
+                                                                                       ^
+  symbol:   method getTaskId()
+  location: variable feedbackCreateDto of type FeedbackCreateDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/FeedbackService.java:17: error: cannot find symbol
+        feedbackRepository.createReply(feedbackCreateDto.getUserId(), feedbackCreateDto.getTaskId(), feedbackCreateDto.getContent());
+                                                                                                                      ^
+  symbol:   method getContent()
+  location: variable feedbackCreateDto of type FeedbackCreateDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/model/Task.java:49: error: cannot find symbol
+        title = taskUpdateDto.getTitle();
+                             ^
+  symbol:   method getTitle()
+  location: variable taskUpdateDto of type TaskUpdateDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/model/Task.java:50: error: cannot find symbol
+        content = taskUpdateDto.getContent();
+                               ^
+  symbol:   method getContent()
+  location: variable taskUpdateDto of type TaskUpdateDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/model/Task.java:51: error: cannot find symbol
+        deadline = taskUpdateDto.getDeadline();
+                                ^
+  symbol:   method getDeadline()
+  location: variable taskUpdateDto of type TaskUpdateDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/TaskService.java:32: error: cannot find symbol
+        taskWriteDto.setUser(findUser);
+                    ^
+  symbol:   method setUser(User)
+  location: variable taskWriteDto of type TaskWriteDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/TaskService.java:33: error: cannot find symbol
+        taskWriteDto.setIsSuccess(0);
+                    ^
+  symbol:   method setIsSuccess(int)
+  location: variable taskWriteDto of type TaskWriteDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/TaskService.java:34: error: cannot find symbol
+        taskWriteDto.setStringDeadline(taskWriteDto.getDeadline().format(DateTimeFormatter.ofPattern("yyyy/MM/dd hh:mm")));
+                                                   ^
+  symbol:   method getDeadline()
+  location: variable taskWriteDto of type TaskWriteDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/TaskService.java:75: error: cannot find symbol
+        if(successSwc==1) requestTask.setIsSuccess(0);
+                                     ^
+  symbol:   method setIsSuccess(int)
+  location: variable requestTask of type Task
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/TaskService.java:77: error: cannot find symbol
+            requestTask.setIsSuccess(1);
+                       ^
+  symbol:   method setIsSuccess(int)
+  location: variable requestTask of type Task
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/dto/TaskWriteDto.java:33: error: cannot find symbol
+        return Task.builder()
+                   ^
+  symbol:   method builder()
+  location: class Task
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/config/auth/PrincipalDetails.java:24: error: cannot find symbol
+                return "ROLE_"+user.getRole();
+                                   ^
+  symbol:   method getRole()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/config/auth/PrincipalDetails.java:32: error: cannot find symbol
+        return user.getPassword();
+                   ^
+  symbol:   method getPassword()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/config/auth/PrincipalDetails.java:37: error: cannot find symbol
+        return user.getUsername();
+                   ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/config/auth/PrincipalDetails.java:61: error: cannot find symbol
+        return user.getId();
+                   ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/config/auth/PrincipalDetails.java:65: error: cannot find symbol
+        return user.getNickname();
+                   ^
+  symbol:   method getNickname()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/config/auth/PrincipalDetails.java:69: error: cannot find symbol
+        return user.getEmail();
+                   ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/UserService.java:24: error: cannot find symbol
+        User findUser = userRepository.findByUsername(userJoinDto.getUsername()).orElseGet(()->
+                                                                 ^
+  symbol:   method getUsername()
+  location: variable userJoinDto of type UserJoinDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/UserService.java:27: error: cannot find symbol
+        String rawPassword = userJoinDto.getPassword();
+                                        ^
+  symbol:   method getPassword()
+  location: variable userJoinDto of type UserJoinDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/UserService.java:29: error: cannot find symbol
+        userJoinDto.setPassword(encPassword);
+                   ^
+  symbol:   method setPassword(String)
+  location: variable userJoinDto of type UserJoinDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/UserService.java:30: error: cannot find symbol
+        userJoinDto.setRole(RoleType.USER);
+                   ^
+  symbol:   method setRole(RoleType)
+  location: variable userJoinDto of type UserJoinDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/UserService.java:40: error: cannot find symbol
+        String rawPassword = userUpdateDto.getPassword();
+                                          ^
+  symbol:   method getPassword()
+  location: variable userUpdateDto of type UserUpdateDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/UserService.java:42: error: cannot find symbol
+        findUser.update(encPassword, userUpdateDto.getNickname(),userUpdateDto.getEmail());
+                                                  ^
+  symbol:   method getNickname()
+  location: variable userUpdateDto of type UserUpdateDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/service/UserService.java:42: error: cannot find symbol
+        findUser.update(encPassword, userUpdateDto.getNickname(),userUpdateDto.getEmail());
+                                                                              ^
+  symbol:   method getEmail()
+  location: variable userUpdateDto of type UserUpdateDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/dto/UserJoinDto.java:26: error: cannot find symbol
+        return User.builder()
+                   ^
+  symbol:   method builder()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1460/wd/NonDex-plugin-test/github.com/vividswan/Study-Mate/src/main/java/com/vividswan/studymate/controller/TaskController.java:63: error: cannot find symbol
+        if(requestTask.getIsSuccess()!=0) isSuccess=true;
+                      ^
+  symbol:   method getIsSuccess()
+  location: variable requestTask of type Task
+29 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

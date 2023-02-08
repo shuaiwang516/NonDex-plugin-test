@@ -1,0 +1,173 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:20: error: illegal start of expression
+        return switch (axis) {
+               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:21: error: : expected
+            case X -> Float.compare(dir, 0) < 0 ? LEFT : RIGHT;
+                                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:22: error: : expected
+            case Y -> Float.compare(dir, 0) < 0 ? BOTTOM : TOP;
+                                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:23: error: : expected
+            case Z -> Float.compare(dir, 0) < 0 ? BACK : FRONT;
+                                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:34: error: illegal start of expression
+        return switch (side) {
+               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:35: error: : expected
+            case LEFT -> RIGHT;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:36: error: : expected
+            case RIGHT -> LEFT;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:37: error: : expected
+            case BOTTOM -> TOP;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:38: error: : expected
+            case TOP -> BOTTOM;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:39: error: : expected
+            case BACK -> FRONT;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:40: error: : expected
+            case FRONT -> BACK;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:51: error: illegal start of expression
+        return switch (side) {
+               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:52: error: : expected
+            case LEFT -> new Vector(-1, 0, 0);
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:53: error: : expected
+            case RIGHT -> new Vector(1, 0, 0);
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:54: error: : expected
+            case BOTTOM -> new Vector(0, -1, 0);
+                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:55: error: : expected
+            case TOP -> new Vector(0, 1, 0);
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:56: error: : expected
+            case BACK -> new Vector(0, 0, -1);
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:57: error: : expected
+            case FRONT -> new Vector(0, 0, 1);
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:68: error: illegal start of expression
+        return switch (side) {
+               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:69: error: : expected
+            case LEFT, RIGHT -> Axis.X;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:69: error: not a statement
+            case LEFT, RIGHT -> Axis.X;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:70: error: : expected
+            case BOTTOM, TOP -> Axis.Y;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:70: error: not a statement
+            case BOTTOM, TOP -> Axis.Y;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:71: error: : expected
+            case BACK, FRONT -> Axis.Z;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Side.java:71: error: not a statement
+            case BACK, FRONT -> Axis.Z;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:125: error: : expected
+            case X -> setWidth(dimension);
+                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:126: error: : expected
+            case Y -> setHeight(dimension);
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:127: error: : expected
+            case Z -> setDepth(dimension);
+                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:139: error: illegal start of expression
+        return switch (axis) {
+               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:140: error: : expected
+            case X -> getWidth();
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:141: error: : expected
+            case Y -> getHeight();
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:142: error: : expected
+            case Z -> getDepth();
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:336: error: illegal start of expression
+        return switch (side) {
+               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:337: error: : expected
+            case LEFT, RIGHT -> height * depth;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:337: error: not a statement
+            case LEFT, RIGHT -> height * depth;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:338: error: : expected
+            case BOTTOM, TOP -> width * depth;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:338: error: not a statement
+            case BOTTOM, TOP -> width * depth;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:339: error: : expected
+            case BACK, FRONT -> width * height;
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Box.java:339: error: not a statement
+            case BACK, FRONT -> width * height;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Vector.java:134: error: illegal start of expression
+        return switch (axis) {
+               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Vector.java:135: error: : expected
+            case X -> getX();
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Vector.java:136: error: : expected
+            case Y -> getY();
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Vector.java:137: error: : expected
+            case Z -> getZ();
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Vector.java:149: error: illegal start of expression
+        return switch (axis) {
+               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Vector.java:150: error: : expected
+            case X -> setX(value);
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Vector.java:151: error: : expected
+            case Y -> setY(value);
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/util/Vector.java:152: error: : expected
+            case Z -> setZ(value);
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/graphics/Sprite.java:166: error: : expected
+            case X -> setWidth(dimension);
+                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/graphics/Sprite.java:167: error: : expected
+            case Y -> setHeight(dimension);
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/graphics/Sprite.java:179: error: illegal start of expression
+        return switch (axis) {
+               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/graphics/Sprite.java:180: error: : expected
+            case X -> getWidth();
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/graphics/Sprite.java:181: error: : expected
+            case Y -> getHeight();
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1461/wd/NonDex-plugin-test/github.com/jeremynoesen/Pseudo3D/src/main/java/xyz/jeremynoesen/pseudo3d/core/graphics/Sprite.java:182: error: : expected
+            case Z -> 0;
+                       ^
+53 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

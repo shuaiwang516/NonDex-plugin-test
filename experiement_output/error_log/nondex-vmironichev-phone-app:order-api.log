@@ -1,0 +1,89 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/resource/EntityExceptionHandler.java:35: error: cannot find symbol
+    var apiError = ApiError.builder().status(HttpStatus.BAD_REQUEST)
+                           ^
+  symbol:   method builder()
+  location: class ApiError
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/resource/EntityExceptionHandler.java:48: error: cannot find symbol
+    var apiError = ApiError.builder().status(HttpStatus.BAD_REQUEST)
+                           ^
+  symbol:   method builder()
+  location: class ApiError
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/resource/EntityExceptionHandler.java:57: error: cannot find symbol
+    var error = ApiError.builder()
+                        ^
+  symbol:   method builder()
+  location: class ApiError
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/resource/OrderInformationController.java:49: error: cannot find symbol
+    var models = orderInformation.getItems()
+                                 ^
+  symbol:   method getItems()
+  location: variable orderInformation of type @javax.validation.Valid OrderInformation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/resource/OrderInformationController.java:59: error: cannot find symbol
+    return new ResponseEntity<>(logOrderInformation(OrderInformation.builder()
+                                                                    ^
+  symbol:   method builder()
+  location: class OrderInformation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/resource/OrderInformationController.java:60: error: cannot find symbol
+            .customer(orderInformation.getCustomer())
+                                      ^
+  symbol:   method getCustomer()
+  location: variable orderInformation of type @javax.validation.Valid OrderInformation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/resource/OrderInformationController.java:69: error: cannot find symbol
+      log.info("Requested order information is:\n{}", objectMapper.writeValueAsString(orderInfo));
+      ^
+  symbol:   variable log
+  location: class OrderInformationController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/resource/OrderInformationController.java:71: error: cannot find symbol
+      log.error(e.getMessage(), e);
+      ^
+  symbol:   variable log
+  location: class OrderInformationController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/resource/OrderInformationController.java:79: error: cannot find symbol
+        var phoneModel = phoneCatalogRestClient.findById(item.getId());
+                                                             ^
+  symbol:   method getId()
+  location: variable item of type OrderItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/resource/OrderInformationController.java:81: error: cannot find symbol
+        return OrderItem.builder()
+                        ^
+  symbol:   method builder()
+  location: class OrderItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/resource/OrderInformationController.java:82: error: cannot find symbol
+                .quantity(item.getQuantity())
+                              ^
+  symbol:   method getQuantity()
+  location: variable item of type OrderItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/resource/OrderInformationController.java:83: error: cannot find symbol
+                .price(price.multiply(BigDecimal.valueOf(item.getQuantity())).toString())
+                                                             ^
+  symbol:   method getQuantity()
+  location: variable item of type OrderItem
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/OrderApiConfiguration.java:21: error: cannot find symbol
+    var host = applicationProperties.getCatalogApiHost();
+                                    ^
+  symbol:   method getCatalogApiHost()
+  location: variable applicationProperties of type ApplicationProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/OrderApiConfiguration.java:22: error: cannot find symbol
+    var port = applicationProperties.getCatalogApiPort();
+                                    ^
+  symbol:   method getCatalogApiPort()
+  location: variable applicationProperties of type ApplicationProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/order-api/src/main/java/com/vmi/order/OrderApiConfiguration.java:24: error: cannot find symbol
+    return PhoneCatalogRestClient.builder()
+                                 ^
+  symbol:   method builder()
+  location: class PhoneCatalogRestClient
+15 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':order-api:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

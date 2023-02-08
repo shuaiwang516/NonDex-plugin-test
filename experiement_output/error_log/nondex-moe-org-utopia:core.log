@@ -1,0 +1,316 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/resource/ResourceID.java:81: error: ')' expected
+        if (obj instanceof ResourceID id) {
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/resource/ResourceID.java:81: error: not a statement
+        if (obj instanceof ResourceID id) {
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/resource/ResourceID.java:81: error: ';' expected
+        if (obj instanceof ResourceID id) {
+                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/resource/ResourceID.java:83: error: 'else' without 'if'
+        } else {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/config/hocon/HoconConfig.java:36: error: ';' expected
+    public record NavigationPath(@NotNull String path) implements Config.NavigationPath {}
+                                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/map/WorldPosition.java:91: error: ')' expected
+        if (obj instanceof WorldPosition pos) {
+                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/map/WorldPosition.java:91: error: not a statement
+        if (obj instanceof WorldPosition pos) {
+                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/map/WorldPosition.java:91: error: ';' expected
+        if (obj instanceof WorldPosition pos) {
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/map/Position.java:85: error: ')' expected
+        if (obj instanceof Position pos) {
+                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/map/Position.java:85: error: not a statement
+        if (obj instanceof Position pos) {
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/map/Position.java:85: error: ';' expected
+        if (obj instanceof Position pos) {
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/map/FlatPosition.java:67: error: ')' expected
+        if (obj instanceof FlatPosition pos) {
+                                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/map/FlatPosition.java:67: error: not a statement
+        if (obj instanceof FlatPosition pos) {
+                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/map/FlatPosition.java:67: error: ';' expected
+        if (obj instanceof FlatPosition pos) {
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:47: error: : expected
+            case BYTE -> outputStream.writeByte(UtopiaBinaryFormatType.BYTE.getMarkCode());
+                                                                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:48: error: : expected
+            case SHORT -> outputStream.writeByte(UtopiaBinaryFormatType.SHORT.getMarkCode());
+                                                                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:49: error: : expected
+            case INT -> outputStream.writeByte(UtopiaBinaryFormatType.INT.getMarkCode());
+                                                                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:50: error: : expected
+            case LONG -> outputStream.writeByte(UtopiaBinaryFormatType.LONG.getMarkCode());
+                                                                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:51: error: : expected
+            case FLOAT -> outputStream.writeByte(UtopiaBinaryFormatType.FLOAT.getMarkCode());
+                                                                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:52: error: : expected
+            case DOUBLE -> outputStream.writeByte(UtopiaBinaryFormatType.DOUBLE.getMarkCode());
+                                                                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:53: error: : expected
+            case STRING -> outputStream.writeByte(UtopiaBinaryFormatType.STRING.getMarkCode());
+                                                                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:54: error: : expected
+            case BOOLEAN -> outputStream.writeByte(UtopiaBinaryFormatType.BOOLEAN.getMarkCode());
+                                                                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:55: error: : expected
+            case ARRAY -> outputStream.writeByte(UtopiaBinaryFormatType.ARRAY.getMarkCode());
+                                                                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:56: error: : expected
+            case OBJECT -> outputStream.writeByte(UtopiaBinaryFormatType.OBJECT.getMarkCode());
+                                                                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:61: error: ')' expected
+        if (value instanceof Byte v) {
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:61: error: not a statement
+        if (value instanceof Byte v) {
+                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:61: error: ';' expected
+        if (value instanceof Byte v) {
+                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:64: error: ')' expected
+        } else if (value instanceof Short v) {
+                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:64: error: not a statement
+        } else if (value instanceof Short v) {
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:64: error: ';' expected
+        } else if (value instanceof Short v) {
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:64: error: 'else' without 'if'
+        } else if (value instanceof Short v) {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:67: error: ')' expected
+        } else if (value instanceof Integer v) {
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:67: error: not a statement
+        } else if (value instanceof Integer v) {
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:67: error: ';' expected
+        } else if (value instanceof Integer v) {
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:67: error: 'else' without 'if'
+        } else if (value instanceof Integer v) {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:70: error: ')' expected
+        } else if (value instanceof Long v) {
+                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:70: error: not a statement
+        } else if (value instanceof Long v) {
+                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:70: error: ';' expected
+        } else if (value instanceof Long v) {
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:70: error: 'else' without 'if'
+        } else if (value instanceof Long v) {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:73: error: ')' expected
+        } else if (value instanceof String v) {
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:73: error: not a statement
+        } else if (value instanceof String v) {
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:73: error: ';' expected
+        } else if (value instanceof String v) {
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:73: error: 'else' without 'if'
+        } else if (value instanceof String v) {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:78: error: ')' expected
+        } else if (value instanceof Boolean v) {
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:78: error: not a statement
+        } else if (value instanceof Boolean v) {
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:78: error: ';' expected
+        } else if (value instanceof Boolean v) {
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:78: error: 'else' without 'if'
+        } else if (value instanceof Boolean v) {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:81: error: ')' expected
+        } else if (value instanceof Float v) {
+                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:81: error: not a statement
+        } else if (value instanceof Float v) {
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:81: error: ';' expected
+        } else if (value instanceof Float v) {
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:81: error: 'else' without 'if'
+        } else if (value instanceof Float v) {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:84: error: ')' expected
+        } else if (value instanceof Double v) {
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:84: error: not a statement
+        } else if (value instanceof Double v) {
+                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:84: error: ';' expected
+        } else if (value instanceof Double v) {
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:84: error: 'else' without 'if'
+        } else if (value instanceof Double v) {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:87: error: ')' expected
+        } else if (value instanceof UtopiaBinaryFormatArray v) {
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:87: error: not a statement
+        } else if (value instanceof UtopiaBinaryFormatArray v) {
+                                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:87: error: ';' expected
+        } else if (value instanceof UtopiaBinaryFormatArray v) {
+                                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:87: error: 'else' without 'if'
+        } else if (value instanceof UtopiaBinaryFormatArray v) {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:90: error: ')' expected
+        } else if (value instanceof UtopiaBinaryFormatObject v) {
+                                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:90: error: not a statement
+        } else if (value instanceof UtopiaBinaryFormatObject v) {
+                                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:90: error: ';' expected
+        } else if (value instanceof UtopiaBinaryFormatObject v) {
+                                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:90: error: 'else' without 'if'
+        } else if (value instanceof UtopiaBinaryFormatObject v) {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Writer.java:93: error: 'else' without 'if'
+        } else {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Parser.java:58: error: illegal start of expression
+        return switch (UtopiaBinaryFormatType.valueOf(typed)) {
+               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Parser.java:59: error: : expected
+            case BYTE -> stream.readByte();
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Parser.java:60: error: : expected
+            case SHORT -> stream.readShort();
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Parser.java:61: error: : expected
+            case INT -> stream.readInt();
+                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Parser.java:62: error: : expected
+            case LONG -> stream.readLong();
+                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Parser.java:63: error: : expected
+            case FLOAT -> stream.readFloat();
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Parser.java:64: error: : expected
+            case DOUBLE -> stream.readDouble();
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Parser.java:65: error: : expected
+            case STRING -> parseString(stream);
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Parser.java:66: error: : expected
+            case BOOLEAN -> stream.readBoolean();
+                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Parser.java:67: error: : expected
+            case ARRAY -> parseArray(stream);
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/converter/Parser.java:68: error: : expected
+            case OBJECT -> parseObject(stream);
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:60: error: ')' expected
+        if (another instanceof UtopiaBinaryFormatObjectImpl impl) {
+                                                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:60: error: not a statement
+        if (another instanceof UtopiaBinaryFormatObjectImpl impl) {
+                                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:60: error: ';' expected
+        if (another instanceof UtopiaBinaryFormatObjectImpl impl) {
+                                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:62: error: 'else' without 'if'
+        } else if (another instanceof UtopiaBinaryFormatObject) {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:93: error: ')' expected
+        if (got instanceof Byte v) {
+                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:93: error: not a statement
+        if (got instanceof Byte v) {
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:93: error: ';' expected
+        if (got instanceof Byte v) {
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:95: error: 'else' without 'if'
+        } else {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:107: error: ')' expected
+        if (got instanceof Short v) {
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:107: error: not a statement
+        if (got instanceof Short v) {
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:107: error: ';' expected
+        if (got instanceof Short v) {
+                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:109: error: 'else' without 'if'
+        } else {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:121: error: ')' expected
+        if (got instanceof Integer v) {
+                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:121: error: not a statement
+        if (got instanceof Integer v) {
+                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:121: error: ';' expected
+        if (got instanceof Integer v) {
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:123: error: 'else' without 'if'
+        } else {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:135: error: ')' expected
+        if (got instanceof Long v) {
+                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:135: error: not a statement
+        if (got instanceof Long v) {
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:135: error: ';' expected
+        if (got instanceof Long v) {
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:137: error: 'else' without 'if'
+        } else {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:149: error: ')' expected
+        if (got instanceof String v) {
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:149: error: not a statement
+        if (got instanceof String v) {
+                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:149: error: ';' expected
+        if (got instanceof String v) {
+                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:151: error: 'else' without 'if'
+        } else {
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task36/wd/NonDex-plugin-test/github.com/moe-org/utopia/core/src/main/java/moe/kawayi/org/utopia/core/ubf/UtopiaBinaryFormatObjectImpl.java:163: error: ')' expected
+        if (got instanceof Boolean v) {
+                                  ^
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':core:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

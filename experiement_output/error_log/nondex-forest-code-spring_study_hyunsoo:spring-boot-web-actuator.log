@@ -1,0 +1,24 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-web-actuator/src/main/java/com/spring/boot/actuator/SpringBootWebActuatorApplication.java:29: error: cannot find symbol
+			log.info(">> DB에서 조회한 Person :");
+			^
+  symbol:   variable log
+  location: class SpringBootWebActuatorApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-web-actuator/src/main/java/com/spring/boot/actuator/SpringBootWebActuatorApplication.java:30: error: cannot find symbol
+			personRepository.findAll().forEach(person -> log.info(person.toString()));
+			                                             ^
+  symbol:   variable log
+  location: class SpringBootWebActuatorApplication
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':spring-boot-web-actuator:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

@@ -1,0 +1,28 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1423/wd/NonDex-plugin-test/github.com/ScrambledRK/gradle-haxe-plugin/src/main/java/at/dotpoint/gradle/cross/variant/parser/platform/PlatformNotationParser.java:14: error: wrong number of type arguments; required 2
+    private static final NotationParserBuilder<PlatformRequirement> BUILDER = NotationParserBuilder
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1423/wd/NonDex-plugin-test/github.com/ScrambledRK/gradle-haxe-plugin/src/main/java/at/dotpoint/gradle/cross/variant/parser/buildtype/BuildTypeNotationParser.java:12: error: wrong number of type arguments; required 2
+    private static final NotationParserBuilder<BuildTypeRequirement> BUILDER = NotationParserBuilder
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1423/wd/NonDex-plugin-test/github.com/ScrambledRK/gradle-haxe-plugin/src/main/java/at/dotpoint/gradle/cross/variant/parser/flavor/FlavorNotationParser.java:12: error: wrong number of type arguments; required 2
+    private static final NotationParserBuilder<FlavorRequirement> BUILDER = NotationParserBuilder
+                                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1423/wd/NonDex-plugin-test/github.com/ScrambledRK/gradle-haxe-plugin/src/main/java/at/dotpoint/gradle/cross/CrossPlugin.java:660: error: cannot find symbol
+			( (DefaultTaskDependency) ( assemble.getTaskDependencies() ) ).getValues().clear();
+			                                                              ^
+  symbol:   method getValues()
+  location: class DefaultTaskDependency
+4 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 20s

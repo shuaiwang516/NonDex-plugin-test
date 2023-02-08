@@ -1,0 +1,97 @@
+java.lang.IllegalAccessException: class edu.illinois.nondex.gradle.internal.NonDexTestProcessor cannot access a member of class org.gradle.testretry.internal.RetryTestResultProcessor with modifiers "public"
+java.lang.RuntimeException: java.lang.IllegalAccessException: class edu.illinois.nondex.gradle.internal.NonDexTestProcessor cannot access a member of class org.gradle.testretry.internal.RetryTestResultProcessor with modifiers "public"
+	at edu.illinois.nondex.gradle.internal.NonDexTestProcessor.failure(NonDexTestProcessor.java:74)
+	at org.gradle.api.internal.tasks.testing.results.AttachParentTestResultProcessor.failure(AttachParentTestResultProcessor.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.FailureHandlingDispatch.dispatch(FailureHandlingDispatch.java:30)
+	at org.gradle.internal.dispatch.AsyncDispatch.dispatchMessages(AsyncDispatch.java:87)
+	at org.gradle.internal.dispatch.AsyncDispatch.access$000(AsyncDispatch.java:36)
+	at org.gradle.internal.dispatch.AsyncDispatch$1.run(AsyncDispatch.java:71)
+	at org.gradle.internal.concurrent.InterruptibleRunnable.run(InterruptibleRunnable.java:42)
+	at org.gradle.internal.operations.CurrentBuildOperationPreservingRunnable.run(CurrentBuildOperationPreservingRunnable.java:42)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalAccessException: class edu.illinois.nondex.gradle.internal.NonDexTestProcessor cannot access a member of class org.gradle.testretry.internal.RetryTestResultProcessor with modifiers "public"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:558)
+	at edu.illinois.nondex.gradle.internal.NonDexTestProcessor.failure(NonDexTestProcessor.java:72)
+	... 19 more
+java.lang.IllegalAccessException: class edu.illinois.nondex.gradle.internal.NonDexTestProcessor cannot access a member of class org.gradle.testretry.internal.RetryTestResultProcessor with modifiers "public"
+java.lang.RuntimeException: java.lang.IllegalAccessException: class edu.illinois.nondex.gradle.internal.NonDexTestProcessor cannot access a member of class org.gradle.testretry.internal.RetryTestResultProcessor with modifiers "public"
+	at edu.illinois.nondex.gradle.internal.NonDexTestProcessor.failure(NonDexTestProcessor.java:74)
+	at org.gradle.api.internal.tasks.testing.results.AttachParentTestResultProcessor.failure(AttachParentTestResultProcessor.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.FailureHandlingDispatch.dispatch(FailureHandlingDispatch.java:30)
+	at org.gradle.internal.dispatch.AsyncDispatch.dispatchMessages(AsyncDispatch.java:87)
+	at org.gradle.internal.dispatch.AsyncDispatch.access$000(AsyncDispatch.java:36)
+	at org.gradle.internal.dispatch.AsyncDispatch$1.run(AsyncDispatch.java:71)
+	at org.gradle.internal.concurrent.InterruptibleRunnable.run(InterruptibleRunnable.java:42)
+	at org.gradle.internal.operations.CurrentBuildOperationPreservingRunnable.run(CurrentBuildOperationPreservingRunnable.java:42)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalAccessException: class edu.illinois.nondex.gradle.internal.NonDexTestProcessor cannot access a member of class org.gradle.testretry.internal.RetryTestResultProcessor with modifiers "public"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:558)
+	at edu.illinois.nondex.gradle.internal.NonDexTestProcessor.failure(NonDexTestProcessor.java:72)
+	... 19 more
+java.lang.IllegalAccessException: class edu.illinois.nondex.gradle.internal.NonDexTestProcessor cannot access a member of class org.gradle.testretry.internal.RetryTestResultProcessor with modifiers "public"
+java.lang.RuntimeException: java.lang.IllegalAccessException: class edu.illinois.nondex.gradle.internal.NonDexTestProcessor cannot access a member of class org.gradle.testretry.internal.RetryTestResultProcessor with modifiers "public"
+	at edu.illinois.nondex.gradle.internal.NonDexTestProcessor.failure(NonDexTestProcessor.java:74)
+	at org.gradle.api.internal.tasks.testing.results.AttachParentTestResultProcessor.failure(AttachParentTestResultProcessor.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.FailureHandlingDispatch.dispatch(FailureHandlingDispatch.java:30)
+	at org.gradle.internal.dispatch.AsyncDispatch.dispatchMessages(AsyncDispatch.java:87)
+	at org.gradle.internal.dispatch.AsyncDispatch.access$000(AsyncDispatch.java:36)
+	at org.gradle.internal.dispatch.AsyncDispatch$1.run(AsyncDispatch.java:71)
+	at org.gradle.internal.concurrent.InterruptibleRunnable.run(InterruptibleRunnable.java:42)
+	at org.gradle.internal.operations.CurrentBuildOperationPreservingRunnable.run(CurrentBuildOperationPreservingRunnable.java:42)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalAccessException: class edu.illinois.nondex.gradle.internal.NonDexTestProcessor cannot access a member of class org.gradle.testretry.internal.RetryTestResultProcessor with modifiers "public"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:558)
+	at edu.illinois.nondex.gradle.internal.NonDexTestProcessor.failure(NonDexTestProcessor.java:72)
+	... 19 more
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':nondexTest'.
+> java.lang.IllegalAccessException: class edu.illinois.nondex.gradle.internal.NonDexTestProcessor cannot access a member of class org.gradle.testretry.internal.RetryTestResultProcessor with modifiers "public"
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 24s

@@ -1,0 +1,122 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:16: error: : expected
+                    case "1" -> addStudent();
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:16: error: illegal start of expression
+                    case "1" -> addStudent();
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:17: error: : expected
+                    case "2" -> searchStudent();
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:17: error: illegal start of expression
+                    case "2" -> searchStudent();
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:18: error: : expected
+                    case "3" -> deleteStudent();
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:18: error: illegal start of expression
+                    case "3" -> deleteStudent();
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:19: error: : expected
+                    case "4" -> changeStudent();
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:19: error: illegal start of expression
+                    case "4" -> changeStudent();
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:20: error: : expected
+                    default -> System.out.println("非法操作");
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:20: error: illegal start of expression
+                    default -> System.out.println("非法操作");
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:35: error: : expected
+                case "1" -> {
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:35: error: illegal start of expression
+                case "1" -> {
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:39: error: : expected
+                case "2" -> {
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:39: error: illegal start of expression
+                case "2" -> {
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:43: error: : expected
+                case "3" -> {
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:43: error: illegal start of expression
+                case "3" -> {
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:48: error: : expected
+                case "4" -> {
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:48: error: illegal start of expression
+                case "4" -> {
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:52: error: : expected
+                case "5" -> {
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:52: error: illegal start of expression
+                case "5" -> {
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:56: error: : expected
+                default -> System.out.println("输入有误");
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:56: error: illegal start of expression
+                default -> System.out.println("输入有误");
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:72: error: : expected
+            case "1" -> searchStudentById();
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:72: error: illegal start of expression
+            case "1" -> searchStudentById();
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:73: error: : expected
+            case "2" -> searchStudentByName();
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:73: error: illegal start of expression
+            case "2" -> searchStudentByName();
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:74: error: : expected
+            case "3" -> searchStudentByIdCard();
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:74: error: illegal start of expression
+            case "3" -> searchStudentByIdCard();
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:75: error: : expected
+            case "4" -> searchStudentByPhoneNumber();
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:75: error: illegal start of expression
+            case "4" -> searchStudentByPhoneNumber();
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:76: error: : expected
+            case "5" -> searchStudentByClassName();
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:76: error: illegal start of expression
+            case "5" -> searchStudentByClassName();
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:77: error: : expected
+            case "6" -> searchStudentAll();
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:77: error: illegal start of expression
+            case "6" -> searchStudentAll();
+                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:78: error: : expected
+            default -> System.out.println("选择有误");
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1278/wd/NonDex-plugin-test/github.com/Core2002/StudentAdminSystem/src/main/java/fun/fifu/neko/sas/StudentAdminSystem.java:78: error: illegal start of expression
+            default -> System.out.println("选择有误");
+                    ^
+36 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

@@ -1,0 +1,64 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1076/wd/NonDex-plugin-test/github.com/rylitalo/graphql-with-springboot-jpa-example/src/main/java/com/byteperceptions/graphqldemo/dataloader/DataLoader.java:47: error: cannot find symbol
+        customer.setFirstName(firstName);
+                ^
+  symbol:   method setFirstName(String)
+  location: variable customer of type Customer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1076/wd/NonDex-plugin-test/github.com/rylitalo/graphql-with-springboot-jpa-example/src/main/java/com/byteperceptions/graphqldemo/dataloader/DataLoader.java:48: error: cannot find symbol
+        customer.setLastName(lastName);
+                ^
+  symbol:   method setLastName(String)
+  location: variable customer of type Customer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1076/wd/NonDex-plugin-test/github.com/rylitalo/graphql-with-springboot-jpa-example/src/main/java/com/byteperceptions/graphqldemo/dataloader/DataLoader.java:49: error: cannot find symbol
+        customer.setAccounts(new ArrayList<>());
+                ^
+  symbol:   method setAccounts(ArrayList<Object>)
+  location: variable customer of type Customer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1076/wd/NonDex-plugin-test/github.com/rylitalo/graphql-with-springboot-jpa-example/src/main/java/com/byteperceptions/graphqldemo/dataloader/DataLoader.java:55: error: cannot find symbol
+        account.setName(accountName);
+               ^
+  symbol:   method setName(String)
+  location: variable account of type Account
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1076/wd/NonDex-plugin-test/github.com/rylitalo/graphql-with-springboot-jpa-example/src/main/java/com/byteperceptions/graphqldemo/dataloader/DataLoader.java:56: error: cannot find symbol
+        account.setBalance(initialBalance);
+               ^
+  symbol:   method setBalance(double)
+  location: variable account of type Account
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1076/wd/NonDex-plugin-test/github.com/rylitalo/graphql-with-springboot-jpa-example/src/main/java/com/byteperceptions/graphqldemo/dataloader/DataLoader.java:57: error: cannot find symbol
+        account.setCustomer(customer);
+               ^
+  symbol:   method setCustomer(Customer)
+  location: variable account of type Account
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1076/wd/NonDex-plugin-test/github.com/rylitalo/graphql-with-springboot-jpa-example/src/main/java/com/byteperceptions/graphqldemo/dataloader/DataLoader.java:59: error: cannot find symbol
+        customer.getAccounts().add(account);
+                ^
+  symbol:   method getAccounts()
+  location: variable customer of type Customer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1076/wd/NonDex-plugin-test/github.com/rylitalo/graphql-with-springboot-jpa-example/src/main/java/com/byteperceptions/graphqldemo/customer/SaveCustomerDataFetcher.java:38: error: cannot find symbol
+            customer.setId(Long.parseLong(arguments.get("id").toString()));
+                    ^
+  symbol:   method setId(long)
+  location: variable customer of type Customer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1076/wd/NonDex-plugin-test/github.com/rylitalo/graphql-with-springboot-jpa-example/src/main/java/com/byteperceptions/graphqldemo/customer/SaveCustomerDataFetcher.java:40: error: cannot find symbol
+        customer.setFirstName(arguments.get("firstName").toString());
+                ^
+  symbol:   method setFirstName(String)
+  location: variable customer of type Customer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1076/wd/NonDex-plugin-test/github.com/rylitalo/graphql-with-springboot-jpa-example/src/main/java/com/byteperceptions/graphqldemo/customer/SaveCustomerDataFetcher.java:41: error: cannot find symbol
+        customer.setLastName(arguments.get("lastName").toString());
+                ^
+  symbol:   method setLastName(String)
+  location: variable customer of type Customer
+10 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

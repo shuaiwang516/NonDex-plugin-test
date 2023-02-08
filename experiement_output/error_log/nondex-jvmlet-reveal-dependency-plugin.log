@@ -1,0 +1,396 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:3: error: cannot access ProjectView
+import com.intellij.ide.projectView.ProjectView;
+                                   ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/ide/projectView/ProjectView.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:4: error: cannot access AbstractProjectViewPane
+import com.intellij.ide.projectView.impl.AbstractProjectViewPane;
+                                        ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/ide/projectView/impl/AbstractProjectViewPane.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:5: error: cannot access NamedLibraryElementNode
+import com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode;
+                                              ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/ide/projectView/impl/nodes/NamedLibraryElementNode.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:6: error: cannot access DataNode
+import com.intellij.openapi.externalSystem.model.DataNode;
+                                                ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/externalSystem/model/DataNode.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:7: error: cannot access ExternalSystemDataKeys
+import com.intellij.openapi.externalSystem.model.ExternalSystemDataKeys;
+                                                ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/externalSystem/model/ExternalSystemDataKeys.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:8: error: cannot access Key
+import com.intellij.openapi.externalSystem.model.Key;
+                                                ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/externalSystem/model/Key.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:9: error: cannot access ProjectSystemId
+import com.intellij.openapi.externalSystem.model.ProjectSystemId;
+                                                ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/externalSystem/model/ProjectSystemId.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:10: error: cannot access ExternalProjectsView
+import com.intellij.openapi.externalSystem.view.ExternalProjectsView;
+                                               ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/externalSystem/view/ExternalProjectsView.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:11: error: cannot access ExternalProjectsViewImpl
+import com.intellij.openapi.externalSystem.view.ExternalProjectsViewImpl;
+                                               ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/externalSystem/view/ExternalProjectsViewImpl.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:12: error: cannot access ExternalSystemNode
+import com.intellij.openapi.externalSystem.view.ExternalSystemNode;
+                                               ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/externalSystem/view/ExternalSystemNode.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:13: error: cannot access ExternalSystemViewContributor
+import com.intellij.openapi.externalSystem.view.ExternalSystemViewContributor;
+                                               ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/externalSystem/view/ExternalSystemViewContributor.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:14: error: cannot access PopupHandler
+import com.intellij.ui.PopupHandler;
+                      ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/ui/PopupHandler.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:15: error: cannot access SimpleTree
+import com.intellij.ui.treeStructure.SimpleTree;
+                                    ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/ui/treeStructure/SimpleTree.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:17: error: cannot access TreeUtil
+import com.intellij.util.ui.tree.TreeUtil;
+                                ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/util/ui/tree/TreeUtil.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:19: error: cannot access GradleSourceSetData
+import org.jetbrains.plugins.gradle.model.data.GradleSourceSetData;
+                                              ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/plugins/gradle/lib/gradle.jar(/org/jetbrains/plugins/gradle/model/data/GradleSourceSetData.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:20: error: cannot access GradleConstants
+import org.jetbrains.plugins.gradle.util.GradleConstants;
+                                        ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/plugins/gradle/lib/gradle.jar(/org/jetbrains/plugins/gradle/util/GradleConstants.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:29: error: cannot find symbol
+public class Reveal extends ExternalSystemViewContributor {
+                            ^
+  symbol: class ExternalSystemViewContributor
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:32: error: cannot find symbol
+    private static final Key<?>[] KEYS = new Key[]{GradleSourceSetData.KEY};
+                         ^
+  symbol:   class Key
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:38: error: cannot find symbol
+    public ProjectSystemId getSystemId() {
+           ^
+  symbol:   class ProjectSystemId
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:44: error: cannot find symbol
+    public List<Key<?>> getKeys() {
+                ^
+  symbol:   class Key
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:50: error: cannot find symbol
+    public List<ExternalSystemNode<?>> createNodes(ExternalProjectsView externalProjectsView, MultiMap<Key<?>, DataNode<?>> dataNodes) {
+                                                   ^
+  symbol:   class ExternalProjectsView
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:50: error: cannot find symbol
+    public List<ExternalSystemNode<?>> createNodes(ExternalProjectsView externalProjectsView, MultiMap<Key<?>, DataNode<?>> dataNodes) {
+                                                                                                       ^
+  symbol:   class Key
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:50: error: cannot find symbol
+    public List<ExternalSystemNode<?>> createNodes(ExternalProjectsView externalProjectsView, MultiMap<Key<?>, DataNode<?>> dataNodes) {
+                                                                                                               ^
+  symbol:   class DataNode
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:50: error: cannot find symbol
+    public List<ExternalSystemNode<?>> createNodes(ExternalProjectsView externalProjectsView, MultiMap<Key<?>, DataNode<?>> dataNodes) {
+                ^
+  symbol:   class ExternalSystemNode
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:3: error: cannot access AllIcons
+import com.intellij.icons.AllIcons;
+                         ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/icons/AllIcons.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:4: error: cannot access AnAction
+import com.intellij.openapi.actionSystem.AnAction;
+                                        ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/actionSystem/AnAction.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:5: error: cannot access AnActionEvent
+import com.intellij.openapi.actionSystem.AnActionEvent;
+                                        ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/actionSystem/AnActionEvent.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:8: error: cannot access ModuleData
+import com.intellij.openapi.externalSystem.model.project.ModuleData;
+                                                        ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/externalSystem/model/project/ModuleData.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:10: error: cannot access ModuleNode
+import com.intellij.openapi.externalSystem.view.ModuleNode;
+                                               ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/externalSystem/view/ModuleNode.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:11: error: cannot access ProjectNode
+import com.intellij.openapi.externalSystem.view.ProjectNode;
+                                               ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/externalSystem/view/ProjectNode.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:12: error: cannot access TaskNode
+import com.intellij.openapi.externalSystem.view.TaskNode;
+                                               ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/externalSystem/view/TaskNode.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:13: error: cannot access NlsActions
+import com.intellij.openapi.util.NlsActions;
+                                ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/lib/app.jar(/com/intellij/openapi/util/NlsActions.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:16: error: cannot access GradleExecuteTaskAction
+import org.jetbrains.plugins.gradle.action.GradleExecuteTaskAction;
+                                          ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.3/4d343cadac04a0a31d70f6f96facfaa7f949df01/ideaIC-2022.3/plugins/gradle/lib/gradle.jar(/org/jetbrains/plugins/gradle/action/GradleExecuteTaskAction.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:28: error: cannot find symbol
+public class GradleTaskDependencyTree extends AnAction {
+                                              ^
+  symbol: class AnAction
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:45: error: cannot find symbol
+    public void update(@NotNull AnActionEvent event) {
+                                ^
+  symbol:   class AnActionEvent
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:57: error: cannot find symbol
+    public void actionPerformed(@NotNull AnActionEvent e) {
+                                         ^
+  symbol:   class AnActionEvent
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:35: error: package NlsActions does not exist
+    public GradleTaskDependencyTree(@Nullable @NlsActions.ActionText String text,@Nullable @NlsActions.ActionText String description) {
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:35: error: package NlsActions does not exist
+    public GradleTaskDependencyTree(@Nullable @NlsActions.ActionText String text,@Nullable @NlsActions.ActionText String description) {
+                                                                                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:32: error: cannot find symbol
+    private static final Key<?>[] KEYS = new Key[]{GradleSourceSetData.KEY};
+                                             ^
+  symbol:   class Key
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:32: error: cannot find symbol
+    private static final Key<?>[] KEYS = new Key[]{GradleSourceSetData.KEY};
+                                                   ^
+  symbol:   variable GradleSourceSetData
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:37: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:39: error: cannot find symbol
+        return GradleConstants.SYSTEM_ID;
+               ^
+  symbol:   variable GradleConstants
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:43: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:49: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:52: error: cannot find symbol
+        if(externalProjectsView instanceof ExternalProjectsViewImpl){
+                                           ^
+  symbol:   class ExternalProjectsViewImpl
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:53: error: cannot find symbol
+            SimpleTree tree = (SimpleTree) ExternalProjectsViewImpl.class.cast(externalProjectsView)
+            ^
+  symbol:   class SimpleTree
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:53: error: cannot find symbol
+            SimpleTree tree = (SimpleTree) ExternalProjectsViewImpl.class.cast(externalProjectsView)
+                               ^
+  symbol:   class SimpleTree
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:53: error: cannot find symbol
+            SimpleTree tree = (SimpleTree) ExternalProjectsViewImpl.class.cast(externalProjectsView)
+                                           ^
+  symbol:   class ExternalProjectsViewImpl
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:54: error: package ExternalSystemDataKeys does not exist
+                    .getData(ExternalSystemDataKeys.PROJECTS_TREE.getName());
+                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:56: error: cannot find symbol
+            tree.addMouseListener(new PopupHandler() {
+                                      ^
+  symbol:   class PopupHandler
+  location: class Reveal
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:57: error: method does not override or implement a method from a supertype
+                @Override
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:60: error: cannot find symbol
+                    AbstractProjectViewPane currentProjectViewPane = ProjectView.getInstance(externalProjectsView.getProject())
+                    ^
+  symbol: class AbstractProjectViewPane
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:60: error: cannot find symbol
+                    AbstractProjectViewPane currentProjectViewPane = ProjectView.getInstance(externalProjectsView.getProject())
+                                                                     ^
+  symbol: variable ProjectView
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:68: error: cannot find symbol
+                        List<ExternalSystemNode> selectedNodes = externalProjectsView.getStructure().getSelectedNodes(tree, ExternalSystemNode.class);
+                             ^
+  symbol: class ExternalSystemNode
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:68: error: cannot find symbol
+                        List<ExternalSystemNode> selectedNodes = externalProjectsView.getStructure().getSelectedNodes(tree, ExternalSystemNode.class);
+                                                                                                                            ^
+  symbol: class ExternalSystemNode
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:70: error: cannot find symbol
+                        DefaultMutableTreeNode found = TreeUtil.findNode(DefaultMutableTreeNode.class.cast(root), n -> {
+                                                       ^
+  symbol: variable TreeUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:71: error: cannot find symbol
+                            if (n.getUserObject() instanceof NamedLibraryElementNode) {
+                                                             ^
+  symbol: class NamedLibraryElementNode
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:72: error: cannot find symbol
+                                return NamedLibraryElementNode.class.cast(n.getUserObject())
+                                       ^
+  symbol: class NamedLibraryElementNode
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/reveal/Reveal.java:80: error: cannot find symbol
+                                .ifPresent(n->TreeUtil.selectInTree(n,true,currentProjectViewPane.getTree()));
+                                              ^
+  symbol: variable TreeUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:44: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:46: error: package AllIcons does not exist
+        event.getPresentation().setIcon(AllIcons.Actions.ShowAsTree);
+                                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:48: error: cannot find symbol
+                Optional.ofNullable(event.getData(ExternalSystemDataKeys.SELECTED_NODES))
+                                                  ^
+  symbol:   variable ExternalSystemDataKeys
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:49: error: cannot find symbol
+                .map(l->l.stream().anyMatch(n->n instanceof TaskNode))
+                                                            ^
+  symbol:   class TaskNode
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:56: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:58: error: cannot find symbol
+        final List<ExternalSystemNode> selectedNodes = e.getData(ExternalSystemDataKeys.SELECTED_NODES);
+                   ^
+  symbol:   class ExternalSystemNode
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:58: error: cannot find symbol
+        final List<ExternalSystemNode> selectedNodes = e.getData(ExternalSystemDataKeys.SELECTED_NODES);
+                                                                 ^
+  symbol:   variable ExternalSystemDataKeys
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:63: error: cannot find symbol
+            if(n instanceof TaskNode){
+                            ^
+  symbol:   class TaskNode
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:64: error: cannot find symbol
+                TaskNode  taskNode = (TaskNode) n;
+                ^
+  symbol:   class TaskNode
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:64: error: cannot find symbol
+                TaskNode  taskNode = (TaskNode) n;
+                                      ^
+  symbol:   class TaskNode
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:66: error: cannot find symbol
+                final ModuleNode moduleDataNode = taskNode.findParent(ModuleNode.class);
+                      ^
+  symbol:   class ModuleNode
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:66: error: cannot find symbol
+                final ModuleNode moduleDataNode = taskNode.findParent(ModuleNode.class);
+                                                                      ^
+  symbol:   class ModuleNode
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:68: error: cannot find symbol
+                    ModuleData moduleData = moduleDataNode.getData();
+                    ^
+  symbol:   class ModuleData
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:69: error: cannot find symbol
+                    Optional.ofNullable(moduleData).map(ModuleData::getId)
+                                                        ^
+  symbol:   variable ModuleData
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:74: error: cannot find symbol
+                    ProjectNode projectNode = taskNode.findParent(ProjectNode.class);
+                    ^
+  symbol:   class ProjectNode
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:74: error: cannot find symbol
+                    ProjectNode projectNode = taskNode.findParent(ProjectNode.class);
+                                                                  ^
+  symbol:   class ProjectNode
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:96: error: cannot find symbol
+            GradleExecuteTaskAction.runGradle(e.getProject(),null,e.getProject().getBasePath(),command);
+            ^
+  symbol:   variable GradleExecuteTaskAction
+  location: class GradleTaskDependencyTree
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task651/wd/NonDex-plugin-test/github.com/jvmlet/reveal-dependency-plugin/src/main/java/org/jvmlet/intellij/plugin/gradle/GradleTaskDependencyTree.java:99: error: cannot find symbol
+            com.intellij.openapi.diagnostic.Logger.getInstance(getClass()).error(exception);
+                                                               ^
+  symbol:   method getClass()
+  location: class GradleTaskDependencyTree
+77 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 22s

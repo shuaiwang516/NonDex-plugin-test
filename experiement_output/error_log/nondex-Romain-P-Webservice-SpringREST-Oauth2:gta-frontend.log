@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':gta-domain:compileJava'.
+> Could not resolve all files for configuration ':gta-domain:compileClasspath'.
+   > Could not resolve fr.ortec.dsi.securite:OrtecSecuriteAuthentificationActiveDirectory:1.0-SNAPSHOT.
+     Required by:
+         project :gta-domain
+      > Could not resolve fr.ortec.dsi.securite:OrtecSecuriteAuthentificationActiveDirectory:1.0-SNAPSHOT.
+         > Unable to load Maven meta-data from http://SPRD-065:8081/artifactory/ortec-snapshot/fr/ortec/dsi/securite/OrtecSecuriteAuthentificationActiveDirectory/1.0-SNAPSHOT/maven-metadata.xml.
+            > Could not get resource 'http://SPRD-065:8081/artifactory/ortec-snapshot/fr/ortec/dsi/securite/OrtecSecuriteAuthentificationActiveDirectory/1.0-SNAPSHOT/maven-metadata.xml'.
+               > Could not GET 'http://SPRD-065:8081/artifactory/ortec-snapshot/fr/ortec/dsi/securite/OrtecSecuriteAuthentificationActiveDirectory/1.0-SNAPSHOT/maven-metadata.xml'.
+                  > SPRD-065: Temporary failure in name resolution
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task562/wd/NonDex-plugin-test/github.com/Qabel/qabel/build.gradle' line: 38
+
+* What went wrong:
+A problem occurred evaluating root project 'qabel'.
+> Could not find method leftShift() for arguments [build_7ptf58eznjzhzo2t4l365bmap$_run_closure3$_closure13@212ed7f7] on task ':killAllTestProcesses0' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

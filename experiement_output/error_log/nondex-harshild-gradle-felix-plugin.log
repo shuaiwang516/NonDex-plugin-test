@@ -1,0 +1,36 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1041/wd/NonDex-plugin-test/github.com/harshild/gradle-felix-plugin/src/test/groovy/com/harshild/gradle/plugins/felix/FelixPluginTest.groovy: 4: unable to resolve class org.junit.Before
+ @ line 4, column 1.
+   import org.junit.Before
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1041/wd/NonDex-plugin-test/github.com/harshild/gradle-felix-plugin/src/test/groovy/com/harshild/gradle/plugins/felix/FelixPluginTest.groovy: 3: unable to resolve class org.junit.Test
+ @ line 3, column 1.
+   import org.junit.Test
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1041/wd/NonDex-plugin-test/github.com/harshild/gradle-felix-plugin/src/test/groovy/com/harshild/gradle/plugins/felix/FelixPluginTest.groovy: 9: unable to resolve class org.testng.Assert
+ @ line 9, column 1.
+   import static org.testng.Assert.*
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1041/wd/NonDex-plugin-test/github.com/harshild/gradle-felix-plugin/src/test/groovy/com/harshild/gradle/plugins/felix/FelixPluginTest.groovy: 9: unable to resolve class org.testng.Assert
+ @ line 9, column 1.
+   import static org.testng.Assert.*
+   ^
+
+4 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 18s

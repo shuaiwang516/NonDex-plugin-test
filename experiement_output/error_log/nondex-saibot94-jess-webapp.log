@@ -1,0 +1,335 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:12: error: package jess does not exist
+import jess.Fact;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:13: error: package jess does not exist
+import jess.JessException;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:14: error: package jess does not exist
+import jess.RU;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:15: error: package jess does not exist
+import jess.Rete;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:16: error: package jess does not exist
+import jess.Value;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:17: error: package jess does not exist
+import jess.ValueVector;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/BaseServlet.java:13: error: package jess does not exist
+import jess.Batch;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/BaseServlet.java:14: error: package jess does not exist
+import jess.JessException;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/BaseServlet.java:15: error: package jess does not exist
+import jess.Rete;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/BaseServlet.java:16: error: package jess does not exist
+import jess.Fact;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:12: error: package jess does not exist
+import jess.Fact;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:13: error: package jess does not exist
+import jess.JessException;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:14: error: package jess does not exist
+import jess.RU;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:15: error: package jess does not exist
+import jess.Rete;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:16: error: package jess does not exist
+import jess.Value;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:17: error: package jess does not exist
+import jess.ValueVector;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:93: error: cannot find symbol
+    private void addCleanUpFact(String orderNumberString, Rete engine) throws JessException {
+                                                          ^
+  symbol:   class Rete
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:93: error: cannot find symbol
+    private void addCleanUpFact(String orderNumberString, Rete engine) throws JessException {
+                                                                              ^
+  symbol:   class JessException
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:15: error: package jess does not exist
+import jess.Batch;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:16: error: package jess does not exist
+import jess.Deffacts;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:17: error: package jess does not exist
+import jess.JessException;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:18: error: package jess does not exist
+import jess.Rete;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:19: error: package jess does not exist
+import jess.ValueVector;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:65: error: cannot find symbol
+    private int getNewOrderNumber() throws JessException {
+                                           ^
+  symbol:   class JessException
+  location: class Catalog
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:73: error: cannot find symbol
+    private void runProductQuery(ServletRequest request) throws JessException {
+                                                                ^
+  symbol:   class JessException
+  location: class Catalog
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/HelloJess.java:10: error: package jess does not exist
+import jess.Rete;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/BaseServlet.java:36: error: cannot find symbol
+                Rete engine = new Rete(this);
+                ^
+  symbol:   class Rete
+  location: class BaseServlet
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/BaseServlet.java:36: error: cannot find symbol
+                Rete engine = new Rete(this);
+                                  ^
+  symbol:   class Rete
+  location: class BaseServlet
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/BaseServlet.java:37: error: cannot find symbol
+                Batch.batch(rulesFile, engine);
+                ^
+  symbol:   variable Batch
+  location: class BaseServlet
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/BaseServlet.java:46: error: cannot find symbol
+            } catch (JessException e) {
+                     ^
+  symbol:   class JessException
+  location: class BaseServlet
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:42: error: cannot find symbol
+            Rete engine = (Rete) context.getAttribute("engine");
+            ^
+  symbol:   class Rete
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:42: error: cannot find symbol
+            Rete engine = (Rete) context.getAttribute("engine");
+                           ^
+  symbol:   class Rete
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:44: error: cannot find symbol
+            Value orderNumberValue = new Value(orderNumber, RU.INTEGER);
+            ^
+  symbol:   class Value
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:44: error: cannot find symbol
+            Value orderNumberValue = new Value(orderNumber, RU.INTEGER);
+                                         ^
+  symbol:   class Value
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:44: error: cannot find symbol
+            Value orderNumberValue = new Value(orderNumber, RU.INTEGER);
+                                                            ^
+  symbol:   variable RU
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:45: error: cannot find symbol
+            Value customerIdValue = new Value(customerIdString, RU.ATOM);
+            ^
+  symbol:   class Value
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:45: error: cannot find symbol
+            Value customerIdValue = new Value(customerIdString, RU.ATOM);
+                                        ^
+  symbol:   class Value
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:45: error: cannot find symbol
+            Value customerIdValue = new Value(customerIdString, RU.ATOM);
+                                                                ^
+  symbol:   variable RU
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:51: error: cannot find symbol
+                    Fact item = new Fact("line-item", engine);
+                    ^
+  symbol:   class Fact
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:51: error: cannot find symbol
+                    Fact item = new Fact("line-item", engine);
+                                    ^
+  symbol:   class Fact
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:54: error: cannot find symbol
+                    item.setSlotValue("part-number", new Value(orderItem,
+                                                         ^
+  symbol:   class Value
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:55: error: cannot find symbol
+                            RU.ATOM));
+                            ^
+  symbol:   variable RU
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:61: error: cannot find symbol
+                    new ValueVector().add(orderNumberValue));
+                        ^
+  symbol:   class ValueVector
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Purchase.java:65: error: cannot find symbol
+        } catch (JessException je) {
+                 ^
+  symbol:   class JessException
+  location: class Purchase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:46: error: cannot find symbol
+            Rete engine = (Rete) context.getAttribute("engine");
+            ^
+  symbol:   class Rete
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:46: error: cannot find symbol
+            Rete engine = (Rete) context.getAttribute("engine");
+                           ^
+  symbol:   class Rete
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:53: error: cannot find symbol
+            Value customerIdValue = new Value(customerIdString, RU.ATOM);
+            ^
+  symbol:   class Value
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:53: error: cannot find symbol
+            Value customerIdValue = new Value(customerIdString, RU.ATOM);
+                                        ^
+  symbol:   class Value
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:53: error: cannot find symbol
+            Value customerIdValue = new Value(customerIdString, RU.ATOM);
+                                                                ^
+  symbol:   variable RU
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:54: error: cannot find symbol
+            Value orderNumberValue = new Value(orderNumber, RU.INTEGER);
+            ^
+  symbol:   class Value
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:54: error: cannot find symbol
+            Value orderNumberValue = new Value(orderNumber, RU.INTEGER);
+                                         ^
+  symbol:   class Value
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:54: error: cannot find symbol
+            Value orderNumberValue = new Value(orderNumber, RU.INTEGER);
+                                                            ^
+  symbol:   variable RU
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:55: error: cannot find symbol
+            Fact order = new Fact("order", engine);
+            ^
+  symbol:   class Fact
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:55: error: cannot find symbol
+            Fact order = new Fact("order", engine);
+                             ^
+  symbol:   class Fact
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:68: error: cannot find symbol
+                Fact item = new Fact("line-item", engine);
+                ^
+  symbol:   class Fact
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:68: error: cannot find symbol
+                Fact item = new Fact("line-item", engine);
+                                ^
+  symbol:   class Fact
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:70: error: cannot find symbol
+                item.setSlotValue("part-number", new Value(orderItem, RU.ATOM));
+                                                     ^
+  symbol:   class Value
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:70: error: cannot find symbol
+                item.setSlotValue("part-number", new Value(orderItem, RU.ATOM));
+                                                                      ^
+  symbol:   variable RU
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:80: error: cannot find symbol
+                    new ValueVector().add(orderNumberValue));
+                        ^
+  symbol:   class ValueVector
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:87: error: cannot find symbol
+        } catch (JessException je) {
+                 ^
+  symbol:   class JessException
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:95: error: cannot find symbol
+        Fact cleanUpFact = new Fact("clean-up-order", engine);
+        ^
+  symbol:   class Fact
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:95: error: cannot find symbol
+        Fact cleanUpFact = new Fact("clean-up-order", engine);
+                               ^
+  symbol:   class Fact
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:97: error: cannot find symbol
+                new Value(new ValueVector().add(orderNumberString),
+                    ^
+  symbol:   class Value
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:98: error: cannot find symbol
+                        RU.LIST));
+                        ^
+  symbol:   variable RU
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Recommend.java:97: error: cannot find symbol
+                new Value(new ValueVector().add(orderNumberString),
+                              ^
+  symbol:   class ValueVector
+  location: class Recommend
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:60: error: cannot find symbol
+        } catch (JessException je) {
+                 ^
+  symbol:   class JessException
+  location: class Catalog
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:67: error: cannot find symbol
+        Rete engine = (Rete) servletContext.getAttribute("engine");
+        ^
+  symbol:   class Rete
+  location: class Catalog
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:67: error: cannot find symbol
+        Rete engine = (Rete) servletContext.getAttribute("engine");
+                       ^
+  symbol:   class Rete
+  location: class Catalog
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:75: error: cannot find symbol
+        Rete engine = (Rete) context.getAttribute("engine");
+        ^
+  symbol:   class Rete
+  location: class Catalog
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:75: error: cannot find symbol
+        Rete engine = (Rete) context.getAttribute("engine");
+                       ^
+  symbol:   class Rete
+  location: class Catalog
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/Catalog.java:76: error: cannot find symbol
+        Iterator result = engine.runQuery("all-products", new ValueVector());
+                                                              ^
+  symbol:   class ValueVector
+  location: class Catalog
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/HelloJess.java:33: error: cannot find symbol
+        Rete engine = new Rete();
+        ^
+  symbol:   class Rete
+  location: class HelloJess
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task569/wd/NonDex-plugin-test/github.com/saibot94/jess-webapp/src/main/java/com/jesswebapp/servlets/HelloJess.java:33: error: cannot find symbol
+        Rete engine = new Rete();
+                          ^
+  symbol:   class Rete
+  location: class HelloJess
+73 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

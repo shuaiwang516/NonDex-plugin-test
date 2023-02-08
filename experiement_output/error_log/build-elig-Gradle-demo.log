@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'Gradle-demo'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve org.jfrog.buildinfo:build-info-extractor-gradle:2.0.18.
+     Required by:
+         project :
+      > Could not resolve org.jfrog.buildinfo:build-info-extractor-gradle:2.0.18.
+         > Could not get resource 'http://repo.jfrog.org/artifactory/gradle/org/jfrog/buildinfo/build-info-extractor-gradle/2.0.18/build-info-extractor-gradle-2.0.18.pom'.
+            > Could not GET 'http://repo.jfrog.org/artifactory/gradle/org/jfrog/buildinfo/build-info-extractor-gradle/2.0.18/build-info-extractor-gradle-2.0.18.pom'.
+               > repo.jfrog.org
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

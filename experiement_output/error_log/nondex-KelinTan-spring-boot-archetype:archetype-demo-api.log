@@ -1,0 +1,25 @@
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task681/wd/NonDex-plugin-test/github.com/KelinTan/spring-boot-archetype/archetype-rpc/src/main/java/com/kelin/archetype/rpc/RpcClientRegistrar.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':archetype-demo-api:nondexTest'.
+> Could not resolve all files for configuration ':archetype-demo-api:testRuntimeClasspath'.
+   > Could not download hystrix-serialization-1.5.18.jar (com.netflix.hystrix:hystrix-serialization:1.5.18): Skipped due to earlier error
+   > Could not download jackson-module-afterburner-2.11.0.jar (com.fasterxml.jackson.module:jackson-module-afterburner:2.11.0): Skipped due to earlier error
+   > Could not download jackson-datatype-jsr310-2.11.2.jar (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.2): Skipped due to earlier error
+   > Could not download jackson-databind-2.11.2.jar (com.fasterxml.jackson.core:jackson-databind:2.11.2): Skipped due to earlier error
+   > Could not download jackson-annotations-2.11.2.jar (com.fasterxml.jackson.core:jackson-annotations:2.11.2): Skipped due to earlier error
+   > Could not download jackson-core-2.11.2.jar (com.fasterxml.jackson.core:jackson-core:2.11.2): Skipped due to earlier error
+   > Could not download aspectjrt-1.9.5.jar (org.aspectj:aspectjrt:1.9.5): Skipped due to earlier error
+   > Could not download jsr305-3.0.1.jar (com.google.code.findbugs:jsr305:3.0.1): Skipped due to earlier error
+   > Could not download xnio-nio-3.8.0.Final.jar (org.jboss.xnio:xnio-nio:3.8.0.Final): Skipped due to earlier error
+   > Could not download LatencyUtils-2.0.3.jar (org.latencyutils:LatencyUtils:2.0.3): Skipped due to earlier error
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8m 39s

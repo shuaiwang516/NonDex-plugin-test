@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1306/wd/NonDex-plugin-test/github.com/funfunStudy/algorithm/haskell/build.gradle' line: 12
+
+* What went wrong:
+A problem occurred evaluating project ':haskell'.
+> Failed to apply plugin [id 'haskell']
+   > Could not create task ':haskell:sandboxDirectories'.
+      > Could not create task of type 'SandboxDirectories'.
+         > 'org.gradle.api.tasks.TaskOutputs org.gradle.api.internal.TaskOutputsInternal.dir(java.lang.Object)'
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

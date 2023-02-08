@@ -1,0 +1,91 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:30: error: cannot find symbol
+import org.quiltmc.chasm.api.ClassData;
+                            ^
+  symbol:   class ClassData
+  location: package org.quiltmc.chasm.api
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:32: error: cannot find symbol
+import org.quiltmc.chasm.api.util.ClassLoaderContext;
+                                 ^
+  symbol:   class ClassLoaderContext
+  location: package org.quiltmc.chasm.api.util
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:231: error: cannot find symbol
+    record TargetZipMetadata(ZipOutputStream outputStream) { }
+    ^
+  symbol:   class record
+  location: class ChasmTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:94: error: cannot find symbol
+                new ChasmProcessor(new ClassLoaderContext(null, getClass().getClassLoader()));
+                                       ^
+  symbol:   class ClassLoaderContext
+  location: class ChasmTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:111: error: cannot find symbol
+                List<Path> paths = Files.walk(sourceRoot).filter(Files::isRegularFile).toList();
+                                                                                      ^
+  symbol:   method toList()
+  location: interface Stream<Path>
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:121: error: cannot find symbol
+                        ClassData classData = new ClassData(bytes);
+                        ^
+  symbol:   class ClassData
+  location: class ChasmTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:121: error: cannot find symbol
+                        ClassData classData = new ClassData(bytes);
+                                                  ^
+  symbol:   class ClassData
+  location: class ChasmTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:162: error: cannot find symbol
+                        metadata.put(TargetZipMetadata.class, new TargetZipMetadata(zipOutputStream));
+                                     ^
+  symbol:   class TargetZipMetadata
+  location: class ChasmTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:162: error: cannot find symbol
+                        metadata.put(TargetZipMetadata.class, new TargetZipMetadata(zipOutputStream));
+                                                                  ^
+  symbol:   class TargetZipMetadata
+  location: class ChasmTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:163: error: cannot find symbol
+                        ClassData classData = new ClassData(bytes, metadata);
+                        ^
+  symbol:   class ClassData
+  location: class ChasmTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:163: error: cannot find symbol
+                        ClassData classData = new ClassData(bytes, metadata);
+                                                  ^
+  symbol:   class ClassData
+  location: class ChasmTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:197: error: cannot find symbol
+        List<ClassData> classes = processor.process();
+             ^
+  symbol:   class ClassData
+  location: class ChasmTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:200: error: cannot find symbol
+        for (ClassData classData : classes) {
+             ^
+  symbol:   class ClassData
+  location: class ChasmTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:201: error: cannot find symbol
+            TargetZipMetadata targetMetadata = classData.getMetadata().get(TargetZipMetadata.class);
+            ^
+  symbol:   class TargetZipMetadata
+  location: class ChasmTask
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task881/wd/NonDex-plugin-test/github.com/QuiltMC/chasm-gradle-plugin/src/main/java/org/quiltmc/chasm/gradle/ChasmTask.java:201: error: cannot find symbol
+            TargetZipMetadata targetMetadata = classData.getMetadata().get(TargetZipMetadata.class);
+                                                                           ^
+  symbol:   class TargetZipMetadata
+  location: class ChasmTask
+15 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 23s

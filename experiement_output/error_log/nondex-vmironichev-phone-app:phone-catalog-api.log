@@ -1,0 +1,74 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/phone-catalog-api/src/main/java/com/vmi/phone/catalog/infrastructure/PhoneCatalogConfiguration.java:56: error: cannot find symbol
+    config.setJdbcUrl(appConfig.getDbUrl());
+                               ^
+  symbol:   method getDbUrl()
+  location: variable appConfig of type ApplicationPropertiesConfig
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/phone-catalog-api/src/main/java/com/vmi/phone/catalog/infrastructure/PhoneCatalogConfiguration.java:57: error: cannot find symbol
+    config.setUsername(appConfig.getDbUser());
+                                ^
+  symbol:   method getDbUser()
+  location: variable appConfig of type ApplicationPropertiesConfig
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/phone-catalog-api/src/main/java/com/vmi/phone/catalog/infrastructure/PhoneCatalogConfiguration.java:58: error: cannot find symbol
+    config.setPassword(appConfig.getDbPassword());
+                                ^
+  symbol:   method getDbPassword()
+  location: variable appConfig of type ApplicationPropertiesConfig
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/phone-catalog-api/src/main/java/com/vmi/phone/catalog/infrastructure/PhoneCatalogService.java:39: error: cannot find symbol
+    return phone -> PhoneModel.builder()
+                              ^
+  symbol:   method builder()
+  location: class PhoneModel
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/phone-catalog-api/src/main/java/com/vmi/phone/catalog/infrastructure/PhoneCatalogService.java:40: error: cannot find symbol
+            .currency(phone.getPrice().getCurrency().getCurrencyCode())
+                           ^
+  symbol:   method getPrice()
+  location: variable phone of type Phone
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/phone-catalog-api/src/main/java/com/vmi/phone/catalog/infrastructure/PhoneCatalogService.java:41: error: cannot find symbol
+            .price(phone.getPrice().getAmount().toString())
+                        ^
+  symbol:   method getPrice()
+  location: variable phone of type Phone
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/phone-catalog-api/src/main/java/com/vmi/phone/catalog/infrastructure/PhoneCatalogService.java:42: error: cannot find symbol
+            .description(phone.getDescription())
+                              ^
+  symbol:   method getDescription()
+  location: variable phone of type Phone
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/phone-catalog-api/src/main/java/com/vmi/phone/catalog/infrastructure/PhoneCatalogService.java:43: error: cannot find symbol
+            .imageUrl(phone.getImageUrl())
+                           ^
+  symbol:   method getImageUrl()
+  location: variable phone of type Phone
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/phone-catalog-api/src/main/java/com/vmi/phone/catalog/infrastructure/PhoneCatalogService.java:44: error: cannot find symbol
+            .name(phone.getName())
+                       ^
+  symbol:   method getName()
+  location: variable phone of type Phone
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/phone-catalog-api/src/main/java/com/vmi/phone/catalog/infrastructure/PhoneCatalogService.java:45: error: cannot find symbol
+            .id(phone.getUuid())
+                     ^
+  symbol:   method getUuid()
+  location: variable phone of type Phone
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/phone-catalog-api/src/main/java/com/vmi/phone/catalog/resource/EntityExceptionHandler.java:29: error: cannot find symbol
+    var apiError = ApiError.builder().status(HttpStatus.BAD_REQUEST)
+                           ^
+  symbol:   method builder()
+  location: class ApiError
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/vmironichev/phone-app/phone-catalog-api/src/main/java/com/vmi/phone/catalog/resource/EntityExceptionHandler.java:38: error: cannot find symbol
+    var error = ApiError.builder()
+                        ^
+  symbol:   method builder()
+  location: class ApiError
+12 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':phone-catalog-api:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

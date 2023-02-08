@@ -1,0 +1,34 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-journal-jpa/src/main/java/com/spring/boot/journal/SpringBootJournalJpaApplication.java:23: error: cannot find symbol
+			log.info("@@ 데이터 생성...");
+			^
+  symbol:   variable log
+  location: class SpringBootJournalJpaApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-journal-jpa/src/main/java/com/spring/boot/journal/SpringBootJournalJpaApplication.java:24: error: cannot find symbol
+			log.info("### 기본 데이터는 data.sql 파일에 의해 초기화 됩니다. ###");
+			^
+  symbol:   variable log
+  location: class SpringBootJournalJpaApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-journal-jpa/src/main/java/com/spring/boot/journal/SpringBootJournalJpaApplication.java:26: error: cannot find symbol
+			log.info("@@ findAll() 호출");
+			^
+  symbol:   variable log
+  location: class SpringBootJournalJpaApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-journal-jpa/src/main/java/com/spring/boot/journal/SpringBootJournalJpaApplication.java:27: error: cannot find symbol
+			service.findAll().forEach(entry -> log.info(entry.toString()));
+			                                   ^
+  symbol:   variable log
+  location: class SpringBootJournalJpaApplication
+4 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':spring-boot-journal-jpa:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

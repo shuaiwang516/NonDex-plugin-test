@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':restapi:compileJava'.
+> Could not resolve all files for configuration ':restapi:compileClasspath'.
+   > Could not find identityiq:identityiq:7.1p1.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/identityiq/identityiq/7.1p1/identityiq-7.1p1.pom
+       - https://repo.maven.apache.org/maven2/identityiq/identityiq/7.1p1/identityiq-7.1p1.jar
+       - file:/root/.m2/repository/identityiq/identityiq/7.1p1/identityiq-7.1p1.pom
+       - file:/root/.m2/repository/identityiq/identityiq/7.1p1/identityiq-7.1p1.jar
+     Required by:
+         project :restapi
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

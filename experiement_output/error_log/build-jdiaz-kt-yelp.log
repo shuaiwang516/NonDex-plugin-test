@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'yelp'.
+> Failed to notify project evaluation listener.
+   > 'org.gradle.api.tasks.TaskInputs org.gradle.api.tasks.TaskInputs.dir(java.lang.Object)'
+   > 'org.gradle.api.tasks.TaskInputs org.gradle.api.tasks.TaskInputs.dir(java.lang.Object)'
+   > Could not get unknown property 'classesDir' for main classes of type org.gradle.api.internal.tasks.DefaultSourceSetOutput.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

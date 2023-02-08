@@ -1,0 +1,26 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task860/wd/NonDex-plugin-test/github.com/robfletcher/gradle-compass/src/test/groovy/com/github/robfletcher/compass/TaskConfigurationSpec.groovy: 9: unable to resolve class com.google.common.base.CaseFormat
+ @ line 9, column 1.
+   import static com.google.common.base.CaseFormat.LOWER_CAMEL
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task860/wd/NonDex-plugin-test/github.com/robfletcher/gradle-compass/src/test/groovy/com/github/robfletcher/compass/TaskConfigurationSpec.groovy: 10: unable to resolve class com.google.common.base.CaseFormat
+ @ line 10, column 1.
+   import static com.google.common.base.CaseFormat.LOWER_HYPHEN
+   ^
+
+2 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 22s

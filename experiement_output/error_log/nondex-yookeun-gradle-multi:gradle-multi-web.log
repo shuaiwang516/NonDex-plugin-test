@@ -1,0 +1,24 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task158/wd/NonDex-plugin-test/github.com/yookeun/gradle-multi/gradle-multi-web/src/test/java/com/example/web/board/control/BoardControllerTest.java:29: error: cannot find symbol
+            System.out.println("title = " + boardDto.getTitle());
+                                                    ^
+  symbol:   method getTitle()
+  location: variable boardDto of type BoardDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task158/wd/NonDex-plugin-test/github.com/yookeun/gradle-multi/gradle-multi-web/src/test/java/com/example/web/board/control/BoardControllerTest.java:30: error: cannot find symbol
+            System.out.println("content = " + boardDto.getContent());
+                                                      ^
+  symbol:   method getContent()
+  location: variable boardDto of type BoardDto
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':gradle-multi-web:compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

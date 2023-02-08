@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':plugins'.
+> =============================== Gradle Doctor Prescriptions ============================================
+  | JAVA_HOME is not set.                                                                                |
+  | Please set JAVA_HOME so that switching between Android Studio and the terminal does not trigger a fu |
+  | ll rebuild.                                                                                          |
+  | To set JAVA_HOME: (using bash)                                                                       |
+  | echo "export JAVA_HOME=$(/usr/libexec/java_home)" >> ~/.bash_profile                                 |
+  | or `~/.zshrc` if using zsh.                                                                          |
+  |                                                                                                      |
+  ========================================================================================================
+
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 41s

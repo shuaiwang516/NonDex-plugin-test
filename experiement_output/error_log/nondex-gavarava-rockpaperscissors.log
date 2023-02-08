@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task217/wd/NonDex-plugin-test/github.com/gavarava/rockpaperscissors/build.gradle' line: 43
+
+* What went wrong:
+A problem occurred evaluating root project 'rock-paper-scissors'.
+> Could not get unknown property 'srcDirs' for source set 'java' of type org.gradle.api.internal.tasks.DefaultSourceSet.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 989ms

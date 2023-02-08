@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task376/wd/NonDex-plugin-test/github.com/nsavageJVM/apache-struts-starter/client/build.gradle' line: 41
+
+* What went wrong:
+A problem occurred evaluating project ':client'.
+> Could not find method leftShift() for arguments [build_6hejkzv1pe982buf7ccs92von$_run_closure3@5d54d823] on task ':client:create-dirs' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

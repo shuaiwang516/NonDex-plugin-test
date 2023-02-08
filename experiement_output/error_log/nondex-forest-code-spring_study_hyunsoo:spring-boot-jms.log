@@ -1,0 +1,39 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-jms/src/main/java/com/spring/boot/jms/SpringBootJmsApplication.java:36: error: cannot find symbol
+		log.info("### Simple Consumer >> " + message);
+		^
+  symbol:   variable log
+  location: class SpringBootJmsApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-jms/src/main/java/com/spring/boot/jms/SpringBootJmsApplication.java:42: error: cannot find symbol
+		log.info("### Another Simple Consumer >> " + message);
+		^
+  symbol:   variable log
+  location: class SpringBootJmsApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-jms/src/main/java/com/spring/boot/jms/SpringBootJmsApplication.java:48: error: cannot find symbol
+			log.info("### 전송 >> ...");
+			^
+  symbol:   variable log
+  location: class SpringBootJmsApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-jms/src/main/java/com/spring/boot/jms/message/Consumer.java:18: error: cannot find symbol
+            log.info("# Consumer >> " + message.getBody(Object.class));
+            ^
+  symbol:   variable log
+  location: class Consumer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task635/wd/NonDex-plugin-test/github.com/forest-code/spring_study_hyunsoo/spring-boot-jms/src/main/java/com/spring/boot/jms/message/Producer.java:20: error: cannot find symbol
+        log.info("# Producer >> 메세지 전송");
+        ^
+  symbol:   variable log
+  location: class Producer
+5 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':spring-boot-jms:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

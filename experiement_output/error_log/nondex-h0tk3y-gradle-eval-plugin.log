@@ -1,0 +1,14 @@
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task709/wd/NonDex-plugin-test/github.com/h0tk3y/gradle-eval-plugin/src/test/kotlin/TestSimple.kt: (30, 34): Type mismatch: inferred type is Stream<File!>! but (Mutable)Iterable<File!>! was expected
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 28s

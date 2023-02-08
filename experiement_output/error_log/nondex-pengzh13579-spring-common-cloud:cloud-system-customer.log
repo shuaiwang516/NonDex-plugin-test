@@ -1,0 +1,108 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/utils/MD5Util.java:9: error: cannot find symbol
+import sun.misc.BASE64Encoder;
+               ^
+  symbol:   class BASE64Encoder
+  location: package sun.misc
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/conf/redis/RedisCache.java:7: error: package org.apache.ibatis.cache does not exist
+import org.apache.ibatis.cache.Cache;
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/conf/redis/RedisCache.java:14: error: cannot find symbol
+public class RedisCache implements Cache {
+                                   ^
+  symbol: class Cache
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/model/PageInfo.java:3: error: package com.github.pagehelper does not exist
+import com.github.pagehelper.Page;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/model/AjaxJson.java:3: error: package com.alibaba.fastjson does not exist
+import com.alibaba.fastjson.JSONObject;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/utils/MD5Util.java:20: error: cannot find symbol
+        BASE64Encoder base64en = new BASE64Encoder();
+        ^
+  symbol:   class BASE64Encoder
+  location: class MD5Util
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/utils/MD5Util.java:20: error: cannot find symbol
+        BASE64Encoder base64en = new BASE64Encoder();
+                                     ^
+  symbol:   class BASE64Encoder
+  location: class MD5Util
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/utils/MD5Util.java:38: error: cannot find symbol
+            BASE64Encoder base64en = new BASE64Encoder();
+            ^
+  symbol:   class BASE64Encoder
+  location: class MD5Util
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/utils/MD5Util.java:38: error: cannot find symbol
+            BASE64Encoder base64en = new BASE64Encoder();
+                                         ^
+  symbol:   class BASE64Encoder
+  location: class MD5Util
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/conf/redis/RedisCache.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/conf/redis/RedisCache.java:36: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/conf/redis/RedisCache.java:47: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/conf/redis/RedisCache.java:58: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/conf/redis/RedisCache.java:69: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/conf/redis/RedisCache.java:82: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/conf/redis/RedisCache.java:87: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/model/PageInfo.java:44: error: cannot find symbol
+        if (list instanceof Page) {
+                            ^
+  symbol:   class Page
+  location: class PageInfo<T>
+  where T is a type-variable:
+    T extends Object declared in class PageInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/model/PageInfo.java:45: error: cannot find symbol
+            Page page = (Page) list;
+            ^
+  symbol:   class Page
+  location: class PageInfo<T>
+  where T is a type-variable:
+    T extends Object declared in class PageInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/model/PageInfo.java:45: error: cannot find symbol
+            Page page = (Page) list;
+                         ^
+  symbol:   class Page
+  location: class PageInfo<T>
+  where T is a type-variable:
+    T extends Object declared in class PageInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/model/AjaxJson.java:21: error: cannot find symbol
+        JSONObject obj = new JSONObject();
+        ^
+  symbol:   class JSONObject
+  location: class AjaxJson
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/model/AjaxJson.java:21: error: cannot find symbol
+        JSONObject obj = new JSONObject();
+                             ^
+  symbol:   class JSONObject
+  location: class AjaxJson
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1406/wd/NonDex-plugin-test/github.com/pengzh13579/spring-common-cloud/cloud-common-config/src/main/java/cn/pzh/common/config/conf/redis/RedisCache.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+21 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':cloud-common-config:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

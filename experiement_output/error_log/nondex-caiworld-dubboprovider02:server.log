@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':model:compileJava'.
+> Could not resolve all files for configuration ':model:compileClasspath'.
+   > Could not find com.oracle:ojdbc6:11.2.0.4.0-atlassian-hosted.
+     Searched in the following locations:
+       - file:/root/.m2/repository/com/oracle/ojdbc6/11.2.0.4.0-atlassian-hosted/ojdbc6-11.2.0.4.0-atlassian-hosted.pom
+       - file:/root/.m2/repository/com/oracle/ojdbc6/11.2.0.4.0-atlassian-hosted/ojdbc6-11.2.0.4.0-atlassian-hosted.jar
+       - https://repo.maven.apache.org/maven2/com/oracle/ojdbc6/11.2.0.4.0-atlassian-hosted/ojdbc6-11.2.0.4.0-atlassian-hosted.pom
+       - https://repo.maven.apache.org/maven2/com/oracle/ojdbc6/11.2.0.4.0-atlassian-hosted/ojdbc6-11.2.0.4.0-atlassian-hosted.jar
+     Required by:
+         project :model
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

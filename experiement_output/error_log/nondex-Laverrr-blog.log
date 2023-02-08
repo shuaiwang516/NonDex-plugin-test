@@ -1,0 +1,248 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/domain/es/EsBlog.java:6: error: package javax.xml.bind.annotation does not exist
+import javax.xml.bind.annotation.XmlRootElement;
+                                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/domain/es/EsBlog.java:15: error: cannot find symbol
+@XmlRootElement // MediaType 转为 XML
+ ^
+  symbol: class XmlRootElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/domain/User.java:25: error: User is not abstract and does not override abstract method getUsername() in UserDetails
+public class User implements UserDetails {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/domain/es/EsBlog.java:72: error: cannot find symbol
+		this.username = blog.getUser().getUsername();
+		                              ^
+  symbol:   method getUsername()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/domain/es/EsBlog.java:73: error: cannot find symbol
+		this.avatar = blog.getUser().getAvatar();
+		                            ^
+  symbol:   method getAvatar()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/domain/es/EsBlog.java:86: error: cannot find symbol
+		this.username = blog.getUser().getUsername();
+		                              ^
+  symbol:   method getUsername()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/domain/es/EsBlog.java:87: error: cannot find symbol
+		this.avatar = blog.getUser().getAvatar();
+		                            ^
+  symbol:   method getAvatar()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/domain/Blog.java:178: error: cannot find symbol
+            if (comments.get(index).getId() == commentId) {
+                                   ^
+  symbol:   method getId()
+  location: class Comment
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/domain/Blog.java:196: error: cannot find symbol
+            if (this.votes.get(index).getUser().getId() == vote.getUser().getId()) {
+                                     ^
+  symbol:   method getUser()
+  location: class Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/domain/Blog.java:196: error: cannot find symbol
+            if (this.votes.get(index).getUser().getId() == vote.getUser().getId()) {
+                                                               ^
+  symbol:   method getUser()
+  location: variable vote of type Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/domain/Blog.java:215: error: cannot find symbol
+            if (this.votes.get(index).getId() == voteId) {
+                                     ^
+  symbol:   method getId()
+  location: class Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/VoteController.java:63: error: cannot find symbol
+		User user = voteService.getVoteById(id).getUser();
+		                                       ^
+  symbol:   method getUser()
+  location: class Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/VoteController.java:69: error: cannot find symbol
+			if (principal !=null && user.getUsername().equals(principal.getUsername())) {
+			                            ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/VoteController.java:69: error: cannot find symbol
+			if (principal !=null && user.getUsername().equals(principal.getUsername())) {
+			                                                           ^
+  symbol:   method getUsername()
+  location: variable principal of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserController.java:138: error: cannot find symbol
+        user.setAuthorities(authorities);
+            ^
+  symbol:   method setAuthorities(List<Authority>)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserController.java:156: error: cannot find symbol
+            if (user.getId() == null){
+                    ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserController.java:159: error: cannot find symbol
+                User originalUser = userService.getUserById(user.getId());
+                                                                ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserController.java:160: error: cannot find symbol
+                boolean isMatch = StringUtils.equals(originalUser.getPassword(),user.getPassword());
+                                                                 ^
+  symbol:   method getPassword()
+  location: variable originalUser of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserController.java:160: error: cannot find symbol
+                boolean isMatch = StringUtils.equals(originalUser.getPassword(),user.getPassword());
+                                                                                    ^
+  symbol:   method getPassword()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/CatalogController.java:60: error: cannot find symbol
+			if (principal !=null && user.getUsername().equals(principal.getUsername())) {
+			                            ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/CatalogController.java:60: error: cannot find symbol
+			if (principal !=null && user.getUsername().equals(principal.getUsername())) {
+			                                                           ^
+  symbol:   method getUsername()
+  location: variable principal of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/CatalogController.java:77: error: cannot find symbol
+		String username = catalogVO.getUsername();
+		                           ^
+  symbol:   method getUsername()
+  location: variable catalogVO of type CatalogVO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/CatalogController.java:78: error: cannot find symbol
+		Catalog catalog = catalogVO.getCatalog();
+		                           ^
+  symbol:   method getCatalog()
+  location: variable catalogVO of type CatalogVO
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/CatalogController.java:83: error: cannot find symbol
+			catalog.setUser(user);
+			       ^
+  symbol:   method setUser(User)
+  location: variable catalog of type Catalog
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/MainController.java:82: error: cannot find symbol
+        user.setAuthorities(authorities);
+            ^
+  symbol:   method setAuthorities(List<Authority>)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/MainController.java:83: error: cannot find symbol
+        user.setAvatar(ImageBase64Utils.getDefaultIcon());
+            ^
+  symbol:   method setAvatar(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/MainController.java:87: error: cannot find symbol
+            log.error(e.getMessage());
+            ^
+  symbol:   variable log
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserspaceController.java:70: error: cannot find symbol
+        User originalUser = userService.getUserById(user.getId());
+                                                        ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserspaceController.java:71: error: cannot find symbol
+        originalUser.setEmail(user.getEmail());
+                                  ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserspaceController.java:72: error: cannot find symbol
+        originalUser.setName(user.getName());
+                                 ^
+  symbol:   method getName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserspaceController.java:75: error: cannot find symbol
+        String oldPassword = originalUser.getPassword();
+                                         ^
+  symbol:   method getPassword()
+  location: variable originalUser of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserspaceController.java:76: error: cannot find symbol
+        String password = user.getPassword();
+                              ^
+  symbol:   method getPassword()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserspaceController.java:79: error: cannot find symbol
+            originalUser.setPassword(password);
+                        ^
+  symbol:   method setPassword(String)
+  location: variable originalUser of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserspaceController.java:112: error: cannot find symbol
+        user.setAvatar(img);
+            ^
+  symbol:   method setAvatar(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserspaceController.java:179: error: cannot find symbol
+            if (principal !=null && username.equals(principal.getUsername())) {
+                                                             ^
+  symbol:   method getUsername()
+  location: variable principal of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserspaceController.java:190: error: cannot find symbol
+                vote.getUser().getUsername().equals(principal.getUsername());
+                    ^
+  symbol:   method getUser()
+  location: variable vote of type Vote
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserspaceController.java:190: error: cannot find symbol
+                vote.getUser().getUsername().equals(principal.getUsername());
+                                                             ^
+  symbol:   method getUsername()
+  location: variable principal of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/UserspaceController.java:263: error: cannot find symbol
+        if (blog.getCatalog().getId() == null) {
+                             ^
+  symbol:   method getId()
+  location: class Catalog
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/AdminController.java:26: error: constructor Menu in class Menu cannot be applied to given types;
+        list.add(new Menu("用户管理", "/user/users"));
+                 ^
+  required: no arguments
+  found: String,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/CommentController.java:59: error: cannot find symbol
+				commentOwner = principal.getUsername();
+				                        ^
+  symbol:   method getUsername()
+  location: variable principal of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/CommentController.java:97: error: cannot find symbol
+		User user = commentService.getCommentById(id).getUser();
+		                                             ^
+  symbol:   method getUser()
+  location: class Comment
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/CommentController.java:103: error: cannot find symbol
+			if (principal !=null && user.getUsername().equals(principal.getUsername())) {
+			                            ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/controller/CommentController.java:103: error: cannot find symbol
+			if (principal !=null && user.getUsername().equals(principal.getUsername())) {
+			                                                           ^
+  symbol:   method getUsername()
+  location: variable principal of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/service/Impl/EsBlogServiceImpl.java:156: error: constructor TagVO in class TagVO cannot be applied to given types;
+			list.add(new TagVO(actiontypeBucket.getKey().toString(),
+			         ^
+  required: no arguments
+  found: String,long
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/service/Impl/UserServiceImpl.java:31: error: cannot find symbol
+        user.setPassword(EncodePwd.getEncodePassword(user.getPassword()));
+                                                         ^
+  symbol:   method getPassword()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/service/Impl/CatalogServiceImpl.java:25: error: cannot find symbol
+		List<Catalog> list = catalogRepository.findByUserAndName(catalog.getUser(), catalog.getName());
+		                                                                ^
+  symbol:   method getUser()
+  location: variable catalog of type Catalog
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task582/wd/NonDex-plugin-test/github.com/Laverrr/blog/src/main/java/com/laver/service/Impl/CatalogServiceImpl.java:25: error: cannot find symbol
+		List<Catalog> list = catalogRepository.findByUserAndName(catalog.getUser(), catalog.getName());
+		                                                                                   ^
+  symbol:   method getName()
+  location: variable catalog of type Catalog
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+47 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

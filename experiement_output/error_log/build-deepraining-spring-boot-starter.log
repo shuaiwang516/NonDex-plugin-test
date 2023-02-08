@@ -1,0 +1,14 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'spring-boot-starter'.
+> Could not resolve all dependencies for configuration ':classpath'.
+   > Could not determine artifacts for com.github.sherter.google-java-format:com.github.sherter.google-java-format.gradle.plugin:0.8: Skipped due to earlier error
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4m 28s

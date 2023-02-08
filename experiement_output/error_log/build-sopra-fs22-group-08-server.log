@@ -1,0 +1,10 @@
+Exception in thread "main" java.lang.RuntimeException: Could not load wrapper properties from '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task613/wd/NonDex-plugin-test/github.com/sopra-fs22-group-08/server/gradle/wrapper/gradle-wrapper.properties'.
+	at org.gradle.wrapper.WrapperExecutor.<init>(WrapperExecutor.java:61)
+	at org.gradle.wrapper.WrapperExecutor.forWrapperPropertiesFile(WrapperExecutor.java:45)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:60)
+Caused by: java.lang.RuntimeException: No value with key 'distributionUrl' specified in wrapper properties file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task613/wd/NonDex-plugin-test/github.com/sopra-fs22-group-08/server/gradle/wrapper/gradle-wrapper.properties'.
+	at org.gradle.wrapper.WrapperExecutor.reportMissingProperty(WrapperExecutor.java:135)
+	at org.gradle.wrapper.WrapperExecutor.readDistroUrl(WrapperExecutor.java:78)
+	at org.gradle.wrapper.WrapperExecutor.prepareDistributionUri(WrapperExecutor.java:67)
+	at org.gradle.wrapper.WrapperExecutor.<init>(WrapperExecutor.java:54)
+	... 2 more

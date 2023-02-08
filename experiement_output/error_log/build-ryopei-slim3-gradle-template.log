@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task876/wd/NonDex-plugin-test/github.com/ryopei/slim3-gradle-template/build.gradle' line: 8
+
+* What went wrong:
+A problem occurred evaluating root project 'slim3-gradle-template'.
+> Failed to apply plugin [id 'net.ltgt.apt']
+   > class org.gradle.api.internal.tasks.DefaultTaskInputFilePropertySpec cannot be cast to class org.gradle.api.tasks.TaskInputs (org.gradle.api.internal.tasks.DefaultTaskInputFilePropertySpec and org.gradle.api.tasks.TaskInputs are in unnamed module of loader org.gradle.internal.classloader.VisitableURLClassLoader @108c4c35)
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

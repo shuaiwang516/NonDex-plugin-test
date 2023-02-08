@@ -1,0 +1,20 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task506/wd/NonDex-plugin-test/github.com/iglu/modular-monolith/mod-translated/src/main/java/app/translated/TranslatedService.java:16: error: variable providers not initialized in the default constructor
+    private final List<TranslationProvider> providers;
+                                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task506/wd/NonDex-plugin-test/github.com/iglu/modular-monolith/mod-translated/src/main/java/app/translated/TranslatedService.java:17: error: variable simpleService not initialized in the default constructor
+    private final SimpleService simpleService;
+                                ^
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':mod-translated:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

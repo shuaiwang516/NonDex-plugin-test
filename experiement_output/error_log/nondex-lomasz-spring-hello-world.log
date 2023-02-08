@@ -1,0 +1,29 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1279/wd/NonDex-plugin-test/github.com/lomasz/spring-hello-world/src/main/java/xyz/lomasz/springhelloworld/controller/AirlineController.java:51: error: cannot find symbol
+        if (airlineRepository.findByIcao(airline.getIcao()).isPresent()) {
+                                                ^
+  symbol:   method getIcao()
+  location: variable airline of type Airline
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1279/wd/NonDex-plugin-test/github.com/lomasz/spring-hello-world/src/main/java/xyz/lomasz/springhelloworld/controller/AirlineController.java:59: error: cannot find symbol
+        headers.setLocation(ucBuilder.path("/airline/{icao}").buildAndExpand(airline.getIcao()).toUri());
+                                                                                    ^
+  symbol:   method getIcao()
+  location: variable airline of type Airline
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1279/wd/NonDex-plugin-test/github.com/lomasz/spring-hello-world/src/main/java/xyz/lomasz/springhelloworld/handler/JmsErrorHandler.java:13: error: cannot find symbol
+        log.error(t.getMessage());
+        ^
+  symbol:   variable log
+  location: class JmsErrorHandler
+3 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

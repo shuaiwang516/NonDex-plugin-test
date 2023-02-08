@@ -1,0 +1,81 @@
+invalid Class-Path header in manifest of jar file: /root/.gradle/caches/modules-2/files-2.1/org.uncommons.maths/uncommons-maths/1.2.2a/e4e84f879d4160be9508aa3904516ec30c39e815/uncommons-maths-1.2.2a.jar
+----------
+1. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 1)
+	/*
+	^
+The type java.lang.Object cannot be resolved. It is indirectly referenced from required .class files
+----------
+2. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 1)
+	/*
+	^
+The type java.lang.Exception cannot be resolved. It is indirectly referenced from required .class files
+----------
+3. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 1)
+	/*
+	^
+The type java.lang.String cannot be resolved. It is indirectly referenced from required .class files
+----------
+4. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 1)
+	/*
+	^
+The type java.lang.Long cannot be resolved. It is indirectly referenced from required .class files
+----------
+5. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 1)
+	/*
+	^
+The type java.lang.Class cannot be resolved. It is indirectly referenced from required .class files
+----------
+6. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 18)
+	import java.util.Arrays;
+	       ^^^^^^^^^
+The import java.util cannot be resolved
+----------
+7. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 25)
+	public final class Main {
+	                   ^^^^
+Implicit super constructor Object() is undefined for default constructor. Must define an explicit constructor
+----------
+8. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 26)
+	public static void main(String[] args) throws Exception {
+	                        ^^^^^^
+String cannot be resolved to a type
+----------
+9. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 26)
+	public static void main(String[] args) throws Exception {
+	                                              ^^^^^^^^^
+Exception cannot be resolved to a type
+----------
+10. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 31)
+	(String[] words, Collector<Tuple2<String, Long>> out) -> Arrays.stream(words)
+	 ^^^^^^
+String cannot be resolved to a type
+----------
+11. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 31)
+	(String[] words, Collector<Tuple2<String, Long>> out) -> Arrays.stream(words)
+	                                  ^^^^^^
+String cannot be resolved to a type
+----------
+12. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 31)
+	(String[] words, Collector<Tuple2<String, Long>> out) -> Arrays.stream(words)
+	                                          ^^^^
+Long cannot be resolved to a type
+----------
+13. ERROR in /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1102/wd/NonDex-plugin-test/github.com/wfhartford/flink-gradle/src/main/java/ca/cutterslade/sample/gradle/flink/Main.java (at line 37)
+	env.execute(Main.class.getName());
+	            ^^^^^^^^^^
+Class<Main> cannot be resolved to a type
+----------
+13 problems (13 errors)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed with exit code 255; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5m 29s

@@ -1,0 +1,29 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/ancientmc/AncientCoderPack/src/main/java/acp/client/Start.java:3: error: package net.minecraft.client does not exist
+import net.minecraft.client.Minecraft;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/ancientmc/AncientCoderPack/src/main/java/acp/client/Start.java:11: error: cannot find symbol
+            Field f = Minecraft.class.getDeclaredField("minecraftDir");
+                      ^
+  symbol:   class Minecraft
+  location: class acp.client.Start
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/ancientmc/AncientCoderPack/src/main/java/acp/client/Start.java:19: error: cannot find symbol
+        Minecraft.main(args);
+        ^
+  symbol:   variable Minecraft
+  location: class acp.client.Start
+3 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

@@ -1,0 +1,43 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1223/wd/NonDex-plugin-test/github.com/SkriptLang/Skript/build.gradle' line: 174
+
+* What went wrong:
+Execution failed for task ':tasks'.
+> Could not create task ':quickTest'.
+   > Could not resolve all files for configuration ':runtimeClasspath'.
+      > Could not resolve io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT.
+        Required by:
+            project :
+         > No matching variant of io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT:20230127.210711-79 was found. The consumer was configured to find a runtime of a library compatible with Java 11, packaged as a jar, preferably optimized for standard JVMs, and its dependencies declared externally but:
+             - Variant 'apiElements' capability io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT declares a library, packaged as a jar, and its dependencies declared externally:
+                 - Incompatible because this component declares an API of a component compatible with Java 17 and the consumer needed a runtime of a component compatible with Java 11
+                 - Other compatible attribute:
+                     - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+             - Variant 'javadocElements' capability io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT declares a runtime of a component, and its dependencies declared externally:
+                 - Incompatible because this component declares documentation and the consumer needed a library
+                 - Other compatible attributes:
+                     - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                     - Doesn't say anything about its target Java version (required compatibility with Java 11)
+                     - Doesn't say anything about its elements (required them packaged as a jar)
+             - Variant 'runtimeElements' capability io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+                 - Incompatible because this component declares a component compatible with Java 17 and the consumer needed a component compatible with Java 11
+                 - Other compatible attribute:
+                     - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+             - Variant 'sourcesElements' capability io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT declares a runtime of a component, and its dependencies declared externally:
+                 - Incompatible because this component declares documentation and the consumer needed a library
+                 - Other compatible attributes:
+                     - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                     - Doesn't say anything about its target Java version (required compatibility with Java 11)
+                     - Doesn't say anything about its elements (required them packaged as a jar)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 40s

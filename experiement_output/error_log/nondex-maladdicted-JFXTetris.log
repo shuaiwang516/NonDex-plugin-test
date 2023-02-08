@@ -1,0 +1,254 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:151: error: illegal start of expression
+        return switch (i) {
+               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:152: error: : expected
+            case 0 -> Color.TRANSPARENT;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:152: error: illegal start of expression
+            case 0 -> Color.TRANSPARENT;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:152: error: not a statement
+            case 0 -> Color.TRANSPARENT;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:153: error: : expected
+            case 1 -> Color.TEAL;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:153: error: illegal start of expression
+            case 1 -> Color.TEAL;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:153: error: not a statement
+            case 1 -> Color.TEAL;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:154: error: : expected
+            case 2 -> Color.ORANGE;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:154: error: illegal start of expression
+            case 2 -> Color.ORANGE;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:154: error: not a statement
+            case 2 -> Color.ORANGE;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:155: error: : expected
+            case 3 -> Color.DARKGREEN;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:155: error: illegal start of expression
+            case 3 -> Color.DARKGREEN;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:155: error: not a statement
+            case 3 -> Color.DARKGREEN;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:156: error: : expected
+            case 4 -> Color.BLUEVIOLET;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:156: error: illegal start of expression
+            case 4 -> Color.BLUEVIOLET;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:156: error: not a statement
+            case 4 -> Color.BLUEVIOLET;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:157: error: : expected
+            case 5 -> Color.BROWN;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:157: error: illegal start of expression
+            case 5 -> Color.BROWN;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:157: error: not a statement
+            case 5 -> Color.BROWN;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:158: error: : expected
+            case 6 -> Color.DARKBLUE;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:158: error: illegal start of expression
+            case 6 -> Color.DARKBLUE;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:158: error: not a statement
+            case 6 -> Color.DARKBLUE;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:159: error: : expected
+            case 7 -> Color.RED;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:159: error: illegal start of expression
+            case 7 -> Color.RED;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:159: error: not a statement
+            case 7 -> Color.RED;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:160: error: : expected
+            default -> Color.BLACK;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:160: error: illegal start of expression
+            default -> Color.BLACK;
+                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/MainController.java:160: error: not a statement
+            default -> Color.BLACK;
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:53: error: unclosed string literal
+        alert.setHeaderText("""
+                              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:54: error: not a statement
+                Версія 1.2.0
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:54: error: ';' expected
+                Версія 1.2.0
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:56: error: ';' expected
+                Перейти до репозиторію?""");
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:56: error: variable declaration not allowed here
+                Перейти до репозиторію?""");
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:56: error: unclosed string literal
+                Перейти до репозиторію?""");
+                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:56: error: not a statement
+                Перейти до репозиторію?""");
+                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:58: error: unclosed string literal
+        alert.setContentText("""
+                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:59: error: ';' expected
+                Над проєктом працювали студенти групи ІТ-41:
+                            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:59: error: ';' expected
+                Над проєктом працювали студенти групи ІТ-41:
+                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:59: error: ';' expected
+                Над проєктом працювали студенти групи ІТ-41:
+                                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:60: error: illegal character: '\u2014'
+                Вечер Максим — програміст
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:61: error: ';' expected
+                Гандзюк Володимир — тестувальник
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:61: error: illegal character: '\u2014'
+                Гандзюк Володимир — тестувальник
+                                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:61: error: not a statement
+                Гандзюк Володимир — тестувальник
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:62: error: ';' expected
+                Новосад Вероніка — дизайнер
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:62: error: illegal character: '\u2014'
+                Новосад Вероніка — дизайнер
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:62: error: not a statement
+                Новосад Вероніка — дизайнер
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:63: error: ';' expected
+                Паламарчук Ярослав — кодер
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:63: error: illegal character: '\u2014'
+                Паламарчук Ярослав — кодер
+                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:63: error: not a statement
+                Паламарчук Ярослав — кодер
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:64: error: ';' expected
+                Турчиняк Денис — звукорежисер""");
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:64: error: illegal character: '\u2014'
+                Турчиняк Денис — звукорежисер""");
+                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:64: error: not a statement
+                Турчиняк Денис — звукорежисер""");
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:64: error: not a statement
+                Турчиняк Денис — звукорежисер""");
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:64: error: ';' expected
+                Турчиняк Денис — звукорежисер""");
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/controllers/SettingsController.java:64: error: unclosed string literal
+                Турчиняк Денис — звукорежисер""");
+                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/DownData.java:3: error: class, interface, or enum expected
+public record DownData(ClearRow clearRow, ViewData viewData) {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/DownData.java:5: error: class, interface, or enum expected
+    public ViewData getViewData() {
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/DownData.java:7: error: class, interface, or enum expected
+    }
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/rotator/NextShapeInfo.java:5: error: class, interface, or enum expected
+public record NextShapeInfo(int[][] shape, int position) {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/rotator/NextShapeInfo.java:7: error: class, interface, or enum expected
+    public int[][] getShape() {
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/rotator/NextShapeInfo.java:9: error: class, interface, or enum expected
+    }
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/rotator/NextShapeInfo.java:11: error: class, interface, or enum expected
+    public int getPosition() {
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/rotator/NextShapeInfo.java:13: error: class, interface, or enum expected
+    }
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ClearRow.java:3: error: class, interface, or enum expected
+public record ClearRow(int linesRemoved, int[][] newMatrix, int scoreBonus) {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ClearRow.java:5: error: class, interface, or enum expected
+    public int getLinesRemoved() {
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ClearRow.java:7: error: class, interface, or enum expected
+    }
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ClearRow.java:9: error: class, interface, or enum expected
+    public int[][] getNewMatrix() {
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ClearRow.java:11: error: class, interface, or enum expected
+    }
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ClearRow.java:13: error: class, interface, or enum expected
+    public int getScoreBonus() {
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ClearRow.java:15: error: class, interface, or enum expected
+    }
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/events/MoveEvent.java:3: error: class, interface, or enum expected
+public record MoveEvent(EventSource eventSource) {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/events/MoveEvent.java:5: error: class, interface, or enum expected
+    public EventSource getEventSource() {
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/events/MoveEvent.java:7: error: class, interface, or enum expected
+    }
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ViewData.java:3: error: class, interface, or enum expected
+public record ViewData(int[][] brickData, int xPosition, int yPosition, int[][] nextBrickData) {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ViewData.java:5: error: class, interface, or enum expected
+    public int[][] getBrickData() {
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ViewData.java:7: error: class, interface, or enum expected
+    }
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ViewData.java:9: error: class, interface, or enum expected
+    public int getxPosition() {
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ViewData.java:11: error: class, interface, or enum expected
+    }
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ViewData.java:13: error: class, interface, or enum expected
+    public int getyPosition() {
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1091/wd/NonDex-plugin-test/github.com/maladdicted/JFXTetris/src/main/java/com/grandrain/tetris/logic/ViewData.java:15: error: class, interface, or enum expected
+    }
+    ^
+80 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

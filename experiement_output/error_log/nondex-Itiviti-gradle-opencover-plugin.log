@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not find com.ullink.gradle:gradle-nunit-plugin:2.4.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/com/ullink/gradle/gradle-nunit-plugin/2.4/gradle-nunit-plugin-2.4.pom
+     If the artifact you are trying to retrieve can be found in the repository but without metadata in 'Maven POM' format, you need to adjust the 'metadataSources { ... }' of the repository declaration.
+     Required by:
+         project :
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

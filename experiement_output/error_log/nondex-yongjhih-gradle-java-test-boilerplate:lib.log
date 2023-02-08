@@ -1,0 +1,12 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Receiver class net.ltgt.gradle.errorprone.ErrorProneToolChain does not define or inherit an implementation of the resolved method 'abstract java.lang.String getVersion()' of interface org.gradle.jvm.toolchain.JavaToolChain.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s

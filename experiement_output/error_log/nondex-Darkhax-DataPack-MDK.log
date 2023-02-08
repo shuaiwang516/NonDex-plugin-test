@@ -1,0 +1,25 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve net.minecraftforge:javafmllanguage:1.17.1-37.0.109.
+     Required by:
+         project :
+      > No matching variant of net.minecraftforge:javafmllanguage:1.17.1-37.0.109 was found. The consumer was configured to find an API of a library compatible with Java 11, preferably in the form of class files, preferably optimized for standard JVMs, and its dependencies declared externally but:
+          - Variant 'apiElements' capability net.minecraftforge:javafmllanguage:1.17.1-37.0.109 declares an API of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 16 and the consumer needed a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+          - Variant 'runtimeElements' capability net.minecraftforge:javafmllanguage:1.17.1-37.0.109 declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 16 and the consumer needed a component compatible with Java 11
+              - Other compatible attribute:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

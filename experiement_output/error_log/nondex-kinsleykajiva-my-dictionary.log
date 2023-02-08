@@ -1,0 +1,38 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1004/wd/NonDex-plugin-test/github.com/kinsleykajiva/my-dictionary/src/main/java/module-info.java:2: error: module not found: javafx.controls
+    requires javafx.controls;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1004/wd/NonDex-plugin-test/github.com/kinsleykajiva/my-dictionary/src/main/java/module-info.java:4: error: module not found: sqlite.jdbc
+    requires sqlite.jdbc;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1004/wd/NonDex-plugin-test/github.com/kinsleykajiva/my-dictionary/src/main/java/module-info.java:6: error: module not found: org.eclipse.collections.api
+    requires org.eclipse.collections.api;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1004/wd/NonDex-plugin-test/github.com/kinsleykajiva/my-dictionary/src/main/java/module-info.java:7: error: module not found: org.eclipse.collections.impl
+    requires org.eclipse.collections.impl;
+                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1004/wd/NonDex-plugin-test/github.com/kinsleykajiva/my-dictionary/src/main/java/module-info.java:8: error: module not found: javafx.fxml
+    requires javafx.fxml;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1004/wd/NonDex-plugin-test/github.com/kinsleykajiva/my-dictionary/src/main/java/module-info.java:9: error: module not found: com.jfoenix
+    requires com.jfoenix;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1004/wd/NonDex-plugin-test/github.com/kinsleykajiva/my-dictionary/src/main/java/module-info.java:10: error: module not found: de.jensd.fx.glyphs.fontawesome
+    requires de.jensd.fx.glyphs.fontawesome;
+                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1004/wd/NonDex-plugin-test/github.com/kinsleykajiva/my-dictionary/src/main/java/module-info.java:11: error: module not found: com.google.common
+    requires com.google.common;
+                       ^
+8 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

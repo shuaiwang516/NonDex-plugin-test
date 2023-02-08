@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-plugin-rapidminer-java-basics'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not find com.rapidminer.gradle:code-quality:0.4.0.
+     Searched in the following locations: https://plugins.gradle.org/m2/com/rapidminer/gradle/code-quality/0.4.0/code-quality-0.4.0.pom
+     Required by:
+         project : > com.rapidminer.gradle-plugin:com.rapidminer.gradle-plugin.gradle.plugin:0.4.2 > gradle.plugin.com.rapidminer.gradle:gradle-plugin-rapidminer-gradle-plugin:0.4.2
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

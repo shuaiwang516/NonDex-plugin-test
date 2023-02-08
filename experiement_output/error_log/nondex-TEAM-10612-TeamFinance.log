@@ -1,0 +1,39 @@
+Note: Running JPAAnnotationProcessor
+Note: Serializing Supertypes
+Note: Generating com.financialboard.model.user.QBaseTimeEntity for [com.financialboard.model.user.BaseTimeEntity]
+Note: Serializing Entity types
+Note: Generating com.financialboard.model.user.QUserBase for [com.financialboard.model.user.UserBase]
+Note: Generating com.financialboard.model.post.QPost for [com.financialboard.model.post.Post]
+Note: Generating com.financialboard.model.likes.QLikes for [com.financialboard.model.likes.Likes]
+Note: Generating com.financialboard.model.admin.QAdmin for [com.financialboard.model.admin.Admin]
+Note: Generating com.financialboard.model.comment.QComment for [com.financialboard.model.comment.Comment]
+Note: Generating com.financialboard.model.user.QUser for [com.financialboard.model.user.User]
+Note: Running JPAAnnotationProcessor
+Note: Running JPAAnnotationProcessor
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task44/wd/NonDex-plugin-test/github.com/TEAM-10612/TeamFinance/src/main/java/com/financialboard/dto/PostDto.java:144: warning: @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+        private List<Comment>comments = new ArrayList<>();
+                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task44/wd/NonDex-plugin-test/github.com/TEAM-10612/TeamFinance/src/main/java/com/financialboard/dto/PostDto.java:145: warning: @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+        private List<Likes>likesList = new ArrayList<>();
+                           ^
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task44/wd/NonDex-plugin-test/github.com/TEAM-10612/TeamFinance/src/main/java/com/financialboard/repository/post/CustomPostRepositoryImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task44/wd/NonDex-plugin-test/github.com/TEAM-10612/TeamFinance/src/test/java/com/financialboard/controller/CommentApiControllerTest.java:13: error: cannot find symbol
+@WebMvcTest(CommentApiController.class)
+            ^
+  symbol: class CommentApiController
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 45s

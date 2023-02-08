@@ -1,0 +1,18 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task202/wd/NonDex-plugin-test/github.com/OpenLiberty/ci.gradle/pluginRepo/build.gradle' line: 3
+
+* What went wrong:
+A problem occurred evaluating project ':pluginRepo'.
+> No signature of method: build_4dd9b7h7rvqd8v6ahg3vgi29d.publishing() is applicable for argument types: (build_4dd9b7h7rvqd8v6ahg3vgi29d$_run_closure1) values: [build_4dd9b7h7rvqd8v6ahg3vgi29d$_run_closure1@4d074364]
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

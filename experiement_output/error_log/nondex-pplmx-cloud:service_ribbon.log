@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':service_ribbon:compileJava'.
+> Could not resolve all files for configuration ':service_ribbon:compileClasspath'.
+   > Could not find org.springframework.cloud:spring-cloud-starter-netflix-ribbon:.
+     Required by:
+         project :service_ribbon
+   > Could not find org.springframework.cloud:spring-cloud-starter-netflix-hystrix:.
+     Required by:
+         project :service_ribbon
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

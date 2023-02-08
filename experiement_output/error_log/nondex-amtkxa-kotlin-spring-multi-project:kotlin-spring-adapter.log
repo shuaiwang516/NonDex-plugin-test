@@ -1,0 +1,35 @@
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/createuser/CreateUserResponse.kt: (3, 19): Unresolved reference: domain
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/createuser/CreateUserResponse.kt: (8, 23): Unresolved reference: User
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/createuser/CreateUserUseCaseImpl.kt: (3, 19): Unresolved reference: domain
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/createuser/CreateUserUseCaseImpl.kt: (4, 19): Unresolved reference: domain
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/createuser/CreateUserUseCaseImpl.kt: (9, 57): Unresolved reference: UserRepository
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/createuser/CreateUserUseCaseImpl.kt: (13, 40): Unresolved reference: User
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/deleteuser/DeleteUserUseCaseImpl.kt: (3, 19): Unresolved reference: domain
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/deleteuser/DeleteUserUseCaseImpl.kt: (8, 57): Unresolved reference: UserRepository
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/edituser/EditUserResponse.kt: (3, 19): Unresolved reference: domain
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/edituser/EditUserResponse.kt: (8, 23): Unresolved reference: User
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/edituser/EditUserUseCaseImpl.kt: (3, 19): Unresolved reference: domain
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/edituser/EditUserUseCaseImpl.kt: (9, 55): Unresolved reference: UserRepository
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/edituser/EditUserUseCaseImpl.kt: (13, 66): Cannot infer a type for this parameter. Please specify it explicitly.
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/fetchuser/FetchUserResponse.kt: (3, 19): Unresolved reference: domain
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/fetchuser/FetchUserResponse.kt: (8, 36): Unresolved reference: User
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/fetchuser/FetchUserUseCaseImpl.kt: (3, 19): Unresolved reference: domain
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/impl/fetchuser/FetchUserUseCaseImpl.kt: (11, 56): Unresolved reference: UserRepository
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/specification/UserSpecifications.kt: (3, 19): Unresolved reference: domain
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/specification/UserSpecifications.kt: (9, 55): Unresolved reference: User
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/specification/UserSpecifications.kt: (13, 33): Cannot infer a type for this parameter. Please specify it explicitly.
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/specification/UserSpecifications.kt: (18, 61): Unresolved reference: User
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task149/wd/NonDex-plugin-test/github.com/amtkxa/kotlin-spring-multi-project/kotlin-spring-usecase/src/main/kotlin/com/amtkxa/usecase/specification/UserSpecifications.kt: (22, 33): Cannot infer a type for this parameter. Please specify it explicitly.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':kotlin-spring-usecase:compileKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 20s

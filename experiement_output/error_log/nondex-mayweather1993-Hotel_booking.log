@@ -1,0 +1,435 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/models/BookingsDTO.java:12: error: variable from not initialized in the default constructor
+    private final Instant from;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/models/BookingsDTO.java:13: error: variable to not initialized in the default constructor
+    private final Instant to;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/models/BookingsDTO.java:14: error: variable rooms not initialized in the default constructor
+    private final List<String> rooms;
+                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/models/BookingsDTO.java:15: error: variable totalPrice not initialized in the default constructor
+    private final Double totalPrice;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/models/domain/HotelEntity.java:21: error: HotelEntity is not abstract and does not override abstract method setLastModifiedDate(Instant) in Auditable
+public class HotelEntity implements Serializable, Auditable {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/models/domain/RoomEntity.java:28: error: RoomEntity is not abstract and does not override abstract method setLastModifiedDate(Instant) in Auditable
+public class RoomEntity implements Serializable, Auditable {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/models/domain/BookingEntity.java:22: error: BookingEntity is not abstract and does not override abstract method setLastModifiedDate(Instant) in Auditable
+public class BookingEntity implements Serializable, Auditable {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/models/domain/UserEntity.java:24: error: UserEntity is not abstract and does not override abstract method setLastModifiedDate(Instant) in Auditable
+public class UserEntity implements Serializable, Auditable {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/repository/listeners/AuditListener.java:15: error: cannot find symbol
+        log.debug("prePersist executed");
+        ^
+  symbol:   variable log
+  location: class AuditListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/repository/listeners/AuditListener.java:23: error: cannot find symbol
+        log.debug("preUpdate executed");
+        ^
+  symbol:   variable log
+  location: class AuditListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:71: error: cannot find symbol
+        entity.setId(id);
+              ^
+  symbol:   method setId(Long)
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:78: error: constructor BookingVM in class BookingVM cannot be applied to given types;
+        final BookingVM vm = new BookingVM();
+                             ^
+  required: @javax.validation.constraints.NotNull Instant,@javax.validation.constraints.NotNull Instant,@javax.validation.constraints.NotNull Long,@javax.validation.constraints.NotEmpty List<Long>
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:79: error: cannot find symbol
+        vm.setCreatedDate(entity.getCreatedDate());
+                                ^
+  symbol:   method getCreatedDate()
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:80: error: cannot find symbol
+        vm.setId(entity.getId());
+                       ^
+  symbol:   method getId()
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:81: error: cannot find symbol
+        vm.setLastModifiedDate(entity.getLastModifiedDate());
+                                     ^
+  symbol:   method getLastModifiedDate()
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:82: error: cannot find symbol
+        vm.setUser(entity.getUser().getId());
+                         ^
+  symbol:   method getUser()
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:83: error: cannot find symbol
+        vm.setFrom(entity.getFromDate());
+                         ^
+  symbol:   method getFromDate()
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:84: error: cannot find symbol
+        vm.setTo(entity.getToDate());
+                       ^
+  symbol:   method getToDate()
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:85: error: cannot find symbol
+        vm.setRoomIds(entity.getRooms().stream()
+                            ^
+  symbol:   method getRooms()
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:86: error: invalid method reference
+                .map(RoomEntity::getId)
+                     ^
+  cannot find symbol
+    symbol:   method getId()
+    location: class RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:92: error: cannot find symbol
+        final List<RoomEntity> rooms = vm.getRoomIds().stream()
+                                         ^
+  symbol:   method getRoomIds()
+  location: variable vm of type BookingVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:95: error: cannot find symbol
+        final UserEntity user = usersService.findById(vm.getUser());
+                                                        ^
+  symbol:   method getUser()
+  location: variable vm of type BookingVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:97: error: cannot find symbol
+        entity.setCreatedDate(vm.getCreatedDate());
+                                ^
+  symbol:   method getCreatedDate()
+  location: variable vm of type BookingVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:98: error: cannot find symbol
+        entity.setLastModifiedDate(vm.getLastModifiedDate());
+                                     ^
+  symbol:   method getLastModifiedDate()
+  location: variable vm of type BookingVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:99: error: cannot find symbol
+        entity.setId(vm.getId());
+                       ^
+  symbol:   method getId()
+  location: variable vm of type BookingVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:100: error: cannot find symbol
+        entity.setUser(user);
+              ^
+  symbol:   method setUser(UserEntity)
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:101: error: cannot find symbol
+        entity.setFromDate(vm.getFrom());
+                             ^
+  symbol:   method getFrom()
+  location: variable vm of type BookingVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:102: error: cannot find symbol
+        entity.setToDate(vm.getTo());
+                           ^
+  symbol:   method getTo()
+  location: variable vm of type BookingVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/BookingsController.java:103: error: cannot find symbol
+        entity.setRooms(rooms);
+              ^
+  symbol:   method setRooms(List<RoomEntity>)
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/HotelsController.java:69: error: cannot find symbol
+        entity.setId(id);
+              ^
+  symbol:   method setId(Long)
+  location: variable entity of type HotelEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/HotelsController.java:77: error: cannot find symbol
+        vm.setCreatedDate(entity.getCreatedDate());
+                                ^
+  symbol:   method getCreatedDate()
+  location: variable entity of type HotelEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/HotelsController.java:78: error: cannot find symbol
+        vm.setId(entity.getId());
+                       ^
+  symbol:   method getId()
+  location: variable entity of type HotelEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/HotelsController.java:79: error: cannot find symbol
+        vm.setLastModifiedDate(entity.getLastModifiedDate());
+                                     ^
+  symbol:   method getLastModifiedDate()
+  location: variable entity of type HotelEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/HotelsController.java:80: error: cannot find symbol
+        vm.setName(entity.getName());
+                         ^
+  symbol:   method getName()
+  location: variable entity of type HotelEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/HotelsController.java:81: error: cannot find symbol
+        vm.setStars(entity.getStars());
+                          ^
+  symbol:   method getStars()
+  location: variable entity of type HotelEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/HotelsController.java:87: error: cannot find symbol
+        entity.setCreatedDate(vm.getCreatedDate());
+                                ^
+  symbol:   method getCreatedDate()
+  location: variable vm of type HotelVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/HotelsController.java:88: error: cannot find symbol
+        entity.setLastModifiedDate(vm.getLastModifiedDate());
+                                     ^
+  symbol:   method getLastModifiedDate()
+  location: variable vm of type HotelVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/HotelsController.java:89: error: cannot find symbol
+        entity.setId(vm.getId());
+                       ^
+  symbol:   method getId()
+  location: variable vm of type HotelVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/HotelsController.java:90: error: cannot find symbol
+        entity.setName(vm.getName());
+                         ^
+  symbol:   method getName()
+  location: variable vm of type HotelVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/HotelsController.java:91: error: cannot find symbol
+        entity.setStars(vm.getStars());
+                          ^
+  symbol:   method getStars()
+  location: variable vm of type HotelVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/UsersController.java:75: error: cannot find symbol
+        entity.setId(id);
+              ^
+  symbol:   method setId(Long)
+  location: variable entity of type UserEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/UsersController.java:84: error: cannot find symbol
+        vm.setCreatedDate(entity.getCreatedDate());
+                                ^
+  symbol:   method getCreatedDate()
+  location: variable entity of type UserEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/UsersController.java:85: error: cannot find symbol
+        vm.setId(entity.getId());
+                       ^
+  symbol:   method getId()
+  location: variable entity of type UserEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/UsersController.java:86: error: cannot find symbol
+        vm.setLastModifiedDate(entity.getLastModifiedDate());
+                                     ^
+  symbol:   method getLastModifiedDate()
+  location: variable entity of type UserEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/UsersController.java:87: error: cannot find symbol
+        vm.setEmail(entity.getEmail());
+                          ^
+  symbol:   method getEmail()
+  location: variable entity of type UserEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/UsersController.java:89: error: cannot find symbol
+                entity.getBookings().stream()
+                      ^
+  symbol:   method getBookings()
+  location: variable entity of type UserEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/UsersController.java:90: error: invalid method reference
+                        .map(BookingEntity::getId)
+                             ^
+  cannot find symbol
+    symbol:   method getId()
+    location: class BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/UsersController.java:98: error: cannot find symbol
+        entity.setCreatedDate(vm.getCreatedDate());
+                                ^
+  symbol:   method getCreatedDate()
+  location: variable vm of type UserVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/UsersController.java:99: error: cannot find symbol
+        entity.setLastModifiedDate(vm.getLastModifiedDate());
+                                     ^
+  symbol:   method getLastModifiedDate()
+  location: variable vm of type UserVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/UsersController.java:100: error: cannot find symbol
+        entity.setId(vm.getId());
+                       ^
+  symbol:   method getId()
+  location: variable vm of type UserVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/UsersController.java:101: error: cannot find symbol
+        entity.setEmail(vm.getEmail());
+                          ^
+  symbol:   method getEmail()
+  location: variable vm of type UserVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:74: error: cannot find symbol
+        entity.setId(id);
+              ^
+  symbol:   method setId(Long)
+  location: variable entity of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:82: error: cannot find symbol
+        vm.setCategory(entity.getCategory());
+                             ^
+  symbol:   method getCategory()
+  location: variable entity of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:83: error: cannot find symbol
+        vm.setCreatedDate(entity.getCreatedDate());
+                                ^
+  symbol:   method getCreatedDate()
+  location: variable entity of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:84: error: cannot find symbol
+        vm.setLastModifiedDate(entity.getLastModifiedDate());
+                                     ^
+  symbol:   method getLastModifiedDate()
+  location: variable entity of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:85: error: cannot find symbol
+        vm.setHotelId(entity.getHotel().getId());
+                            ^
+  symbol:   method getHotel()
+  location: variable entity of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:86: error: cannot find symbol
+        vm.setId(entity.getId());
+                       ^
+  symbol:   method getId()
+  location: variable entity of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:87: error: cannot find symbol
+        vm.setPrice(entity.getPrice());
+                          ^
+  symbol:   method getPrice()
+  location: variable entity of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:88: error: cannot find symbol
+        vm.setAdditionalOptions(entity.getAdditionalOptionEntities().stream()
+                                      ^
+  symbol:   method getAdditionalOptionEntities()
+  location: variable entity of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:89: error: invalid method reference
+                .map(AdditionalOptionsEntity::getId)
+                     ^
+  cannot find symbol
+    symbol:   method getId()
+    location: class AdditionalOptionsEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:97: error: cannot find symbol
+        final List<Long> additionalOptions = roomVM.getAdditionalOptions();
+                                                   ^
+  symbol:   method getAdditionalOptions()
+  location: variable roomVM of type RoomVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:99: error: cannot find symbol
+            final List<AdditionalOptionsEntity> options = roomVM.getAdditionalOptions()
+                                                                ^
+  symbol:   method getAdditionalOptions()
+  location: variable roomVM of type RoomVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:103: error: cannot find symbol
+            entity.setAdditionalOptionEntities(options);
+                  ^
+  symbol:   method setAdditionalOptionEntities(List<AdditionalOptionsEntity>)
+  location: variable entity of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:106: error: cannot find symbol
+        final HotelEntity hotelEntity = hotelsService.findById(roomVM.getHotelId());
+                                                                     ^
+  symbol:   method getHotelId()
+  location: variable roomVM of type RoomVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:107: error: cannot find symbol
+        entity.setCategory(roomVM.getCategory());
+                                 ^
+  symbol:   method getCategory()
+  location: variable roomVM of type RoomVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:108: error: cannot find symbol
+        entity.setCreatedDate(roomVM.getCreatedDate());
+                                    ^
+  symbol:   method getCreatedDate()
+  location: variable roomVM of type RoomVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:109: error: cannot find symbol
+        entity.setLastModifiedDate(roomVM.getLastModifiedDate());
+                                         ^
+  symbol:   method getLastModifiedDate()
+  location: variable roomVM of type RoomVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:110: error: cannot find symbol
+        entity.setId(roomVM.getId());
+                           ^
+  symbol:   method getId()
+  location: variable roomVM of type RoomVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:111: error: cannot find symbol
+        entity.setPrice(roomVM.getPrice());
+                              ^
+  symbol:   method getPrice()
+  location: variable roomVM of type RoomVM
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/rest/RoomsController.java:112: error: cannot find symbol
+        entity.setHotel(hotelEntity);
+              ^
+  symbol:   method setHotel(HotelEntity)
+  location: variable entity of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/UsersServiceImpl.java:25: error: cannot find symbol
+        final List<BookingEntity> bookings = userEntity.getBookings();
+                                                       ^
+  symbol:   method getBookings()
+  location: variable userEntity of type UserEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/UsersServiceImpl.java:30: error: cannot find symbol
+            final Double price = bookingEntity.getPrice();
+                                              ^
+  symbol:   method getPrice()
+  location: variable bookingEntity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/UsersServiceImpl.java:31: error: cannot find symbol
+            for (RoomEntity roomEntity : bookingEntity.getRooms()) {
+                                                      ^
+  symbol:   method getRooms()
+  location: variable bookingEntity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/UsersServiceImpl.java:32: error: cannot find symbol
+                final HotelEntity hotel = roomEntity.getHotel();
+                                                    ^
+  symbol:   method getHotel()
+  location: variable roomEntity of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/UsersServiceImpl.java:33: error: cannot find symbol
+                hotels.add(String.format("%s(%d)_%s", hotel.getName(), hotel.getStars(), roomEntity.getCategory().name()));
+                                                           ^
+  symbol:   method getName()
+  location: variable hotel of type HotelEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/UsersServiceImpl.java:33: error: cannot find symbol
+                hotels.add(String.format("%s(%d)_%s", hotel.getName(), hotel.getStars(), roomEntity.getCategory().name()));
+                                                                            ^
+  symbol:   method getStars()
+  location: variable hotel of type HotelEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/UsersServiceImpl.java:33: error: cannot find symbol
+                hotels.add(String.format("%s(%d)_%s", hotel.getName(), hotel.getStars(), roomEntity.getCategory().name()));
+                                                                                                   ^
+  symbol:   method getCategory()
+  location: variable roomEntity of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/UsersServiceImpl.java:35: error: cannot find symbol
+            bookingsSet.add(new BookingsDTO(bookingEntity.getFromDate(), bookingEntity.getToDate(), hotels, price));
+                                                         ^
+  symbol:   method getFromDate()
+  location: variable bookingEntity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/UsersServiceImpl.java:35: error: cannot find symbol
+            bookingsSet.add(new BookingsDTO(bookingEntity.getFromDate(), bookingEntity.getToDate(), hotels, price));
+                                                                                      ^
+  symbol:   method getToDate()
+  location: variable bookingEntity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/BookingsServiceImpl.java:29: error: cannot find symbol
+        final Instant fromDate = entity.getFromDate();
+                                       ^
+  symbol:   method getFromDate()
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/BookingsServiceImpl.java:30: error: cannot find symbol
+        final Instant toDate = entity.getToDate();
+                                     ^
+  symbol:   method getToDate()
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/BookingsServiceImpl.java:45: error: cannot find symbol
+        final double roomsPrice = calculatePrice(entity.getRooms(), days);
+                                                       ^
+  symbol:   method getRooms()
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/BookingsServiceImpl.java:46: error: cannot find symbol
+        entity.setPrice(roomsPrice);
+              ^
+  symbol:   method setPrice(double)
+  location: variable entity of type BookingEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/BookingsServiceImpl.java:53: error: cannot find symbol
+            final Double roomPricePerDay = room.getPrice();
+                                               ^
+  symbol:   method getPrice()
+  location: variable room of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/BookingsServiceImpl.java:54: error: cannot find symbol
+            final double roomAddOptionsPricePerDay = room.getAdditionalOptionEntities()
+                                                         ^
+  symbol:   method getAdditionalOptionEntities()
+  location: variable room of type RoomEntity
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/BookingsServiceImpl.java:56: error: invalid method reference
+                    .mapToDouble(AdditionalOptionsEntity::getPrice)
+                                 ^
+  cannot find symbol
+    symbol:   method getPrice()
+    location: class AdditionalOptionsEntity
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1262/wd/NonDex-plugin-test/github.com/mayweather1993/Hotel_booking/src/main/java/com/booking/services/AbstractService.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+86 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s

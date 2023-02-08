@@ -1,0 +1,109 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/aspect/BeforeAspect.java:17: error: cannot find symbol
+        log.info("before execution of {}", joinPoint);
+        ^
+  symbol:   variable log
+  location: class BeforeAspect
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/aspect/AfterAspect.java:20: error: cannot find symbol
+        log.info("{} returned with value {}", joinPoint, result);
+        ^
+  symbol:   variable log
+  location: class AfterAspect
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/aspect/AfterAspect.java:25: error: cannot find symbol
+        log.info("after execution of {}", joinPoint);
+        ^
+  symbol:   variable log
+  location: class AfterAspect
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:36: error: cannot find symbol
+        final Game game = Game.builder().id(++COUNTER).board(board).turn(Player.X).validSubgames(validSubGames).build();
+                              ^
+  symbol:   method builder()
+  location: class Game
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:38: error: cannot find symbol
+        gameDatabase.put(game.getId(), game);
+                             ^
+  symbol:   method getId()
+  location: variable game of type Game
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:43: error: cannot find symbol
+        final Game game = gameDatabase.get(move.getId());
+                                               ^
+  symbol:   method getId()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:46: error: cannot find symbol
+        final int[] validSubgames = game.getValidSubgames();
+                                        ^
+  symbol:   method getValidSubgames()
+  location: variable game of type Game
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:48: error: cannot find symbol
+            if (validSubgames[i] == move.getSubgame()) {
+                                        ^
+  symbol:   method getSubgame()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:58: error: cannot find symbol
+        final String[][] board = game.getBoard();
+                                     ^
+  symbol:   method getBoard()
+  location: variable game of type Game
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:59: error: cannot find symbol
+        if (EMPTY_STRING.equals(board[move.getSubgame()][move.getCell()])) {
+                                          ^
+  symbol:   method getSubgame()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:59: error: cannot find symbol
+        if (EMPTY_STRING.equals(board[move.getSubgame()][move.getCell()])) {
+                                                             ^
+  symbol:   method getCell()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:60: error: cannot find symbol
+            board[move.getSubgame()][move.getCell()] = currentPlayer.toString();
+                      ^
+  symbol:   method getSubgame()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:60: error: cannot find symbol
+            board[move.getSubgame()][move.getCell()] = currentPlayer.toString();
+                                         ^
+  symbol:   method getCell()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:66: error: cannot find symbol
+        game.setTurn(currentPlayer);
+            ^
+  symbol:   method setTurn(Player)
+  location: variable game of type Game
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:67: error: cannot find symbol
+        game.setValidSubgames(new int[]{move.getCell()});
+                                            ^
+  symbol:   method getCell()
+  location: variable move of type Move
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:67: error: cannot find symbol
+        game.setValidSubgames(new int[]{move.getCell()});
+            ^
+  symbol:   method setValidSubgames(int[])
+  location: variable game of type Game
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/service/TicTacToeService.java:90: error: cannot find symbol
+        final String[] currentGame = game.getBoard()[currentSubgame];
+                                         ^
+  symbol:   method getBoard()
+  location: variable game of type Game
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/web/TicTacToeController.java:41: error: cannot find symbol
+        log.info("[game={}] - attempt move to subgame={}, cell={}", id, subgame, cell);
+        ^
+  symbol:   variable log
+  location: class TicTacToeController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1139/wd/NonDex-plugin-test/github.com/sonyakc/tictactoe/src/main/java/com/schhabra/ultimate/tictactoe/web/TicTacToeController.java:42: error: cannot find symbol
+        final Game game = service.move(Move.builder().cell(cell).subgame(subgame).id(id).build());
+                                           ^
+  symbol:   method builder()
+  location: class Move
+19 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

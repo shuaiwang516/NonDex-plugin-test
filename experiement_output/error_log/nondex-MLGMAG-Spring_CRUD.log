@@ -1,0 +1,257 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/model/User.java:16: error: User is not abstract and does not override abstract method isEnabled() in UserDetails
+public class User implements UserDetails {
+       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserDetailsServiceImpl.java:24: error: cannot find symbol
+        log.info("IN UserDetailsServiceImpl loadUserByUsername {}", username);
+        ^
+  symbol:   variable log
+  location: class UserDetailsServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ProductServiceImpl.java:29: error: cannot find symbol
+        log.info("IN ProductServiceImpl save {}", product);
+        ^
+  symbol:   variable log
+  location: class ProductServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ProductServiceImpl.java:36: error: cannot find symbol
+        log.info("IN ProductServiceImpl delete {}", product);
+        ^
+  symbol:   variable log
+  location: class ProductServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ProductServiceImpl.java:42: error: cannot find symbol
+        log.info("IN ProductServiceImpl findById {} ", id);
+        ^
+  symbol:   variable log
+  location: class ProductServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ProductServiceImpl.java:49: error: cannot find symbol
+        log.info("IN ProductServiceImpl findAll {}");
+        ^
+  symbol:   variable log
+  location: class ProductServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ProductServiceImpl.java:55: error: cannot find symbol
+        log.info("IN ProductServiceImpl findByName {} ", name);
+        ^
+  symbol:   variable log
+  location: class ProductServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ProductServiceImpl.java:65: error: cannot find symbol
+            log.info("IN ProductServiceImpl productNameValidation {} ->", "Validation failed: " + error);
+            ^
+  symbol:   variable log
+  location: class ProductServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ProductServiceImpl.java:75: error: cannot find symbol
+        return productNameValidation(product.getName(), model);
+                                            ^
+  symbol:   method getName()
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ProductServiceImpl.java:81: error: cannot find symbol
+        if (!product.getName().equals(findById(product.getId()).getName())) {
+                    ^
+  symbol:   method getName()
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ProductServiceImpl.java:81: error: cannot find symbol
+        if (!product.getName().equals(findById(product.getId()).getName())) {
+                                                      ^
+  symbol:   method getId()
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ProductServiceImpl.java:82: error: cannot find symbol
+            return productNameValidation(product.getName(), model);
+                                                ^
+  symbol:   method getName()
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:37: error: cannot find symbol
+        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+                                                          ^
+  symbol:   method getPassword()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:38: error: cannot find symbol
+        if (user.getAuthorities().contains(Authority.ADMIN)) {
+                ^
+  symbol:   method getAuthorities()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:39: error: cannot find symbol
+            user.setAuthorities(ImmutableSet.of(Authority.USER, Authority.ADMIN));
+                ^
+  symbol:   method setAuthorities(ImmutableSet<Authority>)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:41: error: cannot find symbol
+        log.info("IN UserServiceImpl save {}", user);
+        ^
+  symbol:   variable log
+  location: class UserServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:48: error: cannot find symbol
+        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+                                                          ^
+  symbol:   method getPassword()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:49: error: cannot find symbol
+        user.setAuthorities(ImmutableSet.of(Authority.USER));
+            ^
+  symbol:   method setAuthorities(ImmutableSet<Authority>)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:50: error: cannot find symbol
+        log.info("IN UserServiceImpl registration {}", user);
+        ^
+  symbol:   variable log
+  location: class UserServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:57: error: cannot find symbol
+        log.info("IN UserServiceImpl delete {}", user);
+        ^
+  symbol:   variable log
+  location: class UserServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:63: error: cannot find symbol
+        log.info("IN UserServiceImpl findById {}", id);
+        ^
+  symbol:   variable log
+  location: class UserServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:70: error: cannot find symbol
+        log.info("IN UserServiceImpl findAll {}");
+        ^
+  symbol:   variable log
+  location: class UserServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:76: error: cannot find symbol
+        log.info("IN UserServiceImpl findByUsername {}", username);
+        ^
+  symbol:   variable log
+  location: class UserServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:83: error: cannot find symbol
+        log.info("IN UserServiceImpl findByEmail {}", email);
+        ^
+  symbol:   variable log
+  location: class UserServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:93: error: cannot find symbol
+            log.info("IN UserServiceImpl usernameValidation {} ->", "Validation failed: " + error);
+            ^
+  symbol:   variable log
+  location: class UserServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:106: error: cannot find symbol
+            log.info("IN UserServiceImpl emailValidation {} ->", "Validation failed: " + error);
+            ^
+  symbol:   variable log
+  location: class UserServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:116: error: cannot find symbol
+        return usernameValidation(user.getUsername(), model) | emailValidation(user.getEmail(), model);
+                                      ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:116: error: cannot find symbol
+        return usernameValidation(user.getUsername(), model) | emailValidation(user.getEmail(), model);
+                                                                                   ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:123: error: cannot find symbol
+        User userFromDb = findById(user.getId());
+                                       ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:125: error: cannot find symbol
+        if (!user.getUsername().equals(userFromDb.getUsername())) {
+                 ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:125: error: cannot find symbol
+        if (!user.getUsername().equals(userFromDb.getUsername())) {
+                                                 ^
+  symbol:   method getUsername()
+  location: variable userFromDb of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:126: error: cannot find symbol
+            Error = usernameValidation(user.getUsername(), model);
+                                           ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:129: error: cannot find symbol
+        if (!user.getEmail().equals(userFromDb.getEmail())) {
+                 ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:129: error: cannot find symbol
+        if (!user.getEmail().equals(userFromDb.getEmail())) {
+                                              ^
+  symbol:   method getEmail()
+  location: variable userFromDb of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/User/UserServiceImpl.java:130: error: cannot find symbol
+            Error = emailValidation(user.getEmail(), model);
+                                        ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ManufacturerServiceImpl.java:29: error: cannot find symbol
+        log.info("IN ManufacturerServiceImpl save {}", manufacturer);
+        ^
+  symbol:   variable log
+  location: class ManufacturerServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ManufacturerServiceImpl.java:36: error: cannot find symbol
+        log.info("IN ManufacturerServiceImpl delete {}", manufacturer);
+        ^
+  symbol:   variable log
+  location: class ManufacturerServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ManufacturerServiceImpl.java:42: error: cannot find symbol
+        log.info("IN ManufacturerServiceImpl findById {}", id);
+        ^
+  symbol:   variable log
+  location: class ManufacturerServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ManufacturerServiceImpl.java:49: error: cannot find symbol
+        log.info("IN ManufacturerServiceImpl findAll {}");
+        ^
+  symbol:   variable log
+  location: class ManufacturerServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ManufacturerServiceImpl.java:55: error: cannot find symbol
+        log.info("IN ManufacturerServiceImpl findByName {}", name);
+        ^
+  symbol:   variable log
+  location: class ManufacturerServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ManufacturerServiceImpl.java:65: error: cannot find symbol
+            log.info("IN ManufacturerServiceImpl manufacturerNameValidation {} ->", "Validation failed: " + error);
+            ^
+  symbol:   variable log
+  location: class ManufacturerServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ManufacturerServiceImpl.java:75: error: cannot find symbol
+        return manufacturerNameValidation(manufacturer.getName(), model);
+                                                      ^
+  symbol:   method getName()
+  location: variable manufacturer of type Manufacturer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ManufacturerServiceImpl.java:81: error: cannot find symbol
+        if (!manufacturer.getName().equals(findById(manufacturer.getId()).getName())) {
+                         ^
+  symbol:   method getName()
+  location: variable manufacturer of type Manufacturer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ManufacturerServiceImpl.java:81: error: cannot find symbol
+        if (!manufacturer.getName().equals(findById(manufacturer.getId()).getName())) {
+                                                                ^
+  symbol:   method getId()
+  location: variable manufacturer of type Manufacturer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/service/ManufacturerServiceImpl.java:82: error: cannot find symbol
+            return manufacturerNameValidation(manufacturer.getName(), model);
+                                                          ^
+  symbol:   method getName()
+  location: variable manufacturer of type Manufacturer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/controller/ProductController.java:64: error: cannot find symbol
+        product.getManufacturer().setName(manufacturerService
+               ^
+  symbol:   method getManufacturer()
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/controller/ProductController.java:65: error: cannot find symbol
+                .findById(product.getManufacturer().getId()).getName());
+                                 ^
+  symbol:   method getManufacturer()
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/controller/ManufacturerController.java:71: error: cannot find symbol
+        model.addAttribute("products", manufacturer.getProducts());
+                                                   ^
+  symbol:   method getProducts()
+  location: variable manufacturer of type Manufacturer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task407/wd/NonDex-plugin-test/github.com/MLGMAG/Spring_CRUD/src/main/java/net/mlgmag/Spring_Crud/controller/UserController.java:48: error: cannot find symbol
+        user.setPassword(null);
+            ^
+  symbol:   method setPassword(<null>)
+  location: variable user of type User
+49 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

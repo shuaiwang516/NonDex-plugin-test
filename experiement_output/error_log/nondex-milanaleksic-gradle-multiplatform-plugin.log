@@ -1,0 +1,41 @@
+startup failed:
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task554/wd/NonDex-plugin-test/github.com/milanaleksic/gradle-multiplatform-plugin/src/test/groovy/net/milanaleksic/gradle/multiplatform/MultiPlatformAppPluginTest.groovy: 8: unable to resolve class org.junit.Test
+ @ line 8, column 1.
+   import org.junit.Test
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task554/wd/NonDex-plugin-test/github.com/milanaleksic/gradle-multiplatform-plugin/src/test/groovy/net/milanaleksic/gradle/multiplatform/MultiPlatformAppPluginTest.groovy: 10: unable to resolve class org.hamcrest.CoreMatchers
+ @ line 10, column 1.
+   import static org.hamcrest.CoreMatchers.nullValue
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task554/wd/NonDex-plugin-test/github.com/milanaleksic/gradle-multiplatform-plugin/src/test/groovy/net/milanaleksic/gradle/multiplatform/MultiPlatformAppPluginTest.groovy: 11: unable to resolve class org.hamcrest.core.IsInstanceOf
+ @ line 11, column 1.
+   import static org.hamcrest.core.IsInstanceOf.instanceOf
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task554/wd/NonDex-plugin-test/github.com/milanaleksic/gradle-multiplatform-plugin/src/test/groovy/net/milanaleksic/gradle/multiplatform/MultiPlatformAppPluginTest.groovy: 12: unable to resolve class org.hamcrest.core.IsNot
+ @ line 12, column 1.
+   import static org.hamcrest.core.IsNot.not
+   ^
+
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task554/wd/NonDex-plugin-test/github.com/milanaleksic/gradle-multiplatform-plugin/src/test/groovy/net/milanaleksic/gradle/multiplatform/MultiPlatformAppPluginTest.groovy: 13: unable to resolve class org.junit.Assert
+ @ line 13, column 1.
+   import static org.junit.Assert.assertThat
+   ^
+
+5 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 19s

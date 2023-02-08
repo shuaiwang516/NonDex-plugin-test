@@ -1,0 +1,18 @@
+Errors occurred while build effective model from /root/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.1.10/ac5e374df42891b0c31e2247e1cc71802f023677/druid-1.1.10.pom:
+    'dependencies.dependency.systemPath' for com.alibaba:jconsole:jar must specify an absolute path but is ${env.JAVA_HOME}/lib/jconsole.jar in com.alibaba:druid:1.1.10
+    'dependencies.dependency.systemPath' for com.alibaba:tools:jar must specify an absolute path but is ${env.JAVA_HOME}/lib/tools.jar in com.alibaba:druid:1.1.10
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1320/wd/NonDex-plugin-test/github.com/basicfu/sip/sip-base/src/main/kotlin/com/basicfu/sip/base/service/PermissionService.kt: (22, 12): Unresolved reference: yaml
+e: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1320/wd/NonDex-plugin-test/github.com/basicfu/sip/sip-base/src/main/kotlin/com/basicfu/sip/base/service/PermissionService.kt: (167, 20): Unresolved reference: Yaml
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sip-base:compileKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5m 27s

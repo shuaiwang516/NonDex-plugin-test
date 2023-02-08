@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':buildSrc'.
+> Could not resolve all artifacts for configuration ':buildSrc:classpath'.
+   > Could not find org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.4.
+     Searched in the following locations:
+       - https://repo.gradle.org/gradle/repo/org/jetbrains/kotlin/kotlin-gradle-plugin/1.1.4/kotlin-gradle-plugin-1.1.4.pom
+       - https://repo.gradle.org/gradle/repo/org/jetbrains/kotlin/kotlin-gradle-plugin/1.1.4/kotlin-gradle-plugin-1.1.4.jar
+     Required by:
+         project :buildSrc
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

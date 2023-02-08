@@ -1,0 +1,37 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1424/wd/NonDex-plugin-test/github.com/FRC2706/2019-2706-Robot-Code/build.gradle' line: 169
+
+* What went wrong:
+A problem occurred configuring root project '2019-2706-Robot-Code'.
+> Could not resolve all files for configuration ':testRuntimeClasspath'.
+   > Could not resolve jaci.pathfinder:Pathfinder-Java:2019.2.19.
+     Required by:
+         project :
+      > Could not resolve jaci.pathfinder:Pathfinder-Java:2019.2.19.
+         > Could not get resource 'http://wpimirror.imjac.in/m2/release/jaci/pathfinder/Pathfinder-Java/2019.2.19/Pathfinder-Java-2019.2.19.pom'.
+            > Could not GET 'https://wpimirror.imjac.in/m2/release/jaci/pathfinder/Pathfinder-Java/2019.2.19/Pathfinder-Java-2019.2.19.pom'.
+               > PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+   > Could not resolve jaci.jniloader:JNILoader:1.0.1.
+     Required by:
+         project :
+      > Could not resolve jaci.jniloader:JNILoader:1.0.1.
+         > Could not get resource 'http://wpimirror.imjac.in/m2/release/jaci/jniloader/JNILoader/1.0.1/JNILoader-1.0.1.pom'.
+            > Could not GET 'https://wpimirror.imjac.in/m2/release/jaci/jniloader/JNILoader/1.0.1/JNILoader-1.0.1.pom'.
+               > PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+   > Could not resolve jaci.pathfinder:Pathfinder-FRCSupport:2019.2.19.
+     Required by:
+         project :
+      > Could not resolve jaci.pathfinder:Pathfinder-FRCSupport:2019.2.19.
+         > Could not get resource 'http://wpimirror.imjac.in/m2/release/jaci/pathfinder/Pathfinder-FRCSupport/2019.2.19/Pathfinder-FRCSupport-2019.2.19.pom'.
+            > Could not GET 'https://wpimirror.imjac.in/m2/release/jaci/pathfinder/Pathfinder-FRCSupport/2019.2.19/Pathfinder-FRCSupport-2019.2.19.pom'.
+               > PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 30s

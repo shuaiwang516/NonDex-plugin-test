@@ -1,0 +1,74 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/EchoServiceImpl.java:7: error: package EchoServiceGrpc does not exist
+public class EchoServiceImpl extends EchoServiceGrpc.EchoServiceImplBase {
+                                                    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/EchoServiceImpl.java:11: error: cannot find symbol
+            HealthCheckRequest request, StreamObserver<HealthCheckResponse> responseObserver) {
+            ^
+  symbol:   class HealthCheckRequest
+  location: class EchoServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/EchoServiceImpl.java:11: error: cannot find symbol
+            HealthCheckRequest request, StreamObserver<HealthCheckResponse> responseObserver) {
+                                                       ^
+  symbol:   class HealthCheckResponse
+  location: class EchoServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/EchoServiceImpl.java:18: error: cannot find symbol
+    public void echo(EchoRequest request, StreamObserver<EchoResponse> responseObserver) {
+                     ^
+  symbol:   class EchoRequest
+  location: class EchoServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/EchoServiceImpl.java:18: error: cannot find symbol
+    public void echo(EchoRequest request, StreamObserver<EchoResponse> responseObserver) {
+                                                         ^
+  symbol:   class EchoResponse
+  location: class EchoServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/EchoServiceImpl.java:3: error: package com.github.ohmygrpc.idl.services.echo.v1 does not exist
+import com.github.ohmygrpc.idl.services.echo.v1.*;
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/EchoServiceImpl.java:9: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/EchoServiceImpl.java:12: error: cannot find symbol
+        HealthCheckResponse response = HealthCheckResponse.newBuilder().build();
+        ^
+  symbol:   class HealthCheckResponse
+  location: class EchoServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/EchoServiceImpl.java:12: error: cannot find symbol
+        HealthCheckResponse response = HealthCheckResponse.newBuilder().build();
+                                       ^
+  symbol:   variable HealthCheckResponse
+  location: class EchoServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/EchoServiceImpl.java:17: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/EchoServiceImpl.java:20: error: cannot find symbol
+            EchoResponse response = EchoResponse.newBuilder().setMsg(request.getMsg()).build();
+            ^
+  symbol:   class EchoResponse
+  location: class EchoServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/EchoServiceImpl.java:20: error: cannot find symbol
+            EchoResponse response = EchoResponse.newBuilder().setMsg(request.getMsg()).build();
+                                    ^
+  symbol:   variable EchoResponse
+  location: class EchoServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task155/wd/NonDex-plugin-test/github.com/ohmygrpc/java/app/src/main/java/com/github/ohmygrpc/echo/grpc/Main.java:39: error: no suitable method found for addService(EchoServiceImpl)
+                        .addService(new EchoServiceImpl())
+                        ^
+    method GrpcServiceBuilder.addService(ServerServiceDefinition) is not applicable
+      (argument mismatch; EchoServiceImpl cannot be converted to ServerServiceDefinition)
+    method GrpcServiceBuilder.addService(BindableService) is not applicable
+      (argument mismatch; EchoServiceImpl cannot be converted to BindableService)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+13 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

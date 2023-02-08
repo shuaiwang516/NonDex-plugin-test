@@ -1,0 +1,149 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/assembler/UserResourceAssembler.java:20: error: cannot find symbol
+				linkTo(methodOn(UserController.class).getUser(user.getId())).withSelfRel(),
+				                                                  ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/assembler/ReservedResourceAssembler.java:21: error: cannot find symbol
+				linkTo(methodOn(ReservedController.class).getReservedById(reserved.getId())).withSelfRel());
+				                                                                  ^
+  symbol:   method getId()
+  location: variable reserved of type Reserved
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/assembler/BorrowedResourceAssembler.java:21: error: cannot find symbol
+				linkTo(methodOn(BorrowedController.class).getBorrowedById(borrowed.getId())).withSelfRel());
+				                                                                  ^
+  symbol:   method getId()
+  location: variable borrowed of type Borrowed
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/assembler/BookResourceAssembler.java:20: error: cannot find symbol
+				linkTo(methodOn(BookController.class).getBookById(book.getId())).withSelfRel(),
+				                                                      ^
+  symbol:   method getId()
+  location: variable book of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/controller/UserController.java:68: error: cannot find symbol
+		user.setPassword("$2a$10$jLmONIhEVld8Jftq4sXr1u/s66eU.Bw9I6DVeaJpFrnYS2Z2Aecje");
+		    ^
+  symbol:   method setPassword(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/controller/UserController.java:84: error: cannot find symbol
+		user.setFirstName(newUser.getFirstName());
+		                         ^
+  symbol:   method getFirstName()
+  location: variable newUser of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/controller/UserController.java:85: error: cannot find symbol
+		user.setLastName(newUser.getFirstName());
+		                        ^
+  symbol:   method getFirstName()
+  location: variable newUser of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/controller/UserController.java:86: error: cannot find symbol
+		user.setPhone(newUser.getPhone());
+		                     ^
+  symbol:   method getPhone()
+  location: variable newUser of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/controller/UserController.java:87: error: cannot find symbol
+		user.setBirthday(newUser.getBirthday());
+		                        ^
+  symbol:   method getBirthday()
+  location: variable newUser of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/controller/UserController.java:88: error: cannot find symbol
+		user.setAddress(newUser.getAddress());
+		                       ^
+  symbol:   method getAddress()
+  location: variable newUser of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/controller/UserController.java:89: error: cannot find symbol
+		user.setPostalCode(newUser.getPostalCode());
+		                          ^
+  symbol:   method getPostalCode()
+  location: variable newUser of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/controller/UserController.java:90: error: cannot find symbol
+		user.setCity(newUser.getCity());
+		                    ^
+  symbol:   method getCity()
+  location: variable newUser of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/ReservedAdvice.java:20: error: cannot find symbol
+		error.setStatus(HttpStatus.NOT_FOUND.value() + ", " + HttpStatus.NOT_FOUND.getReasonPhrase());
+		     ^
+  symbol:   method setStatus(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/ReservedAdvice.java:21: error: cannot find symbol
+		error.setMessage(ex.getMessage());
+		     ^
+  symbol:   method setMessage(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/ReservedAdvice.java:22: error: cannot find symbol
+		error.setDetails("You can't make any action on a non-existing resource");
+		     ^
+  symbol:   method setDetails(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/BookAdvice.java:20: error: cannot find symbol
+		error.setStatus(HttpStatus.NOT_FOUND.value() + ", " + HttpStatus.NOT_FOUND.getReasonPhrase());
+		     ^
+  symbol:   method setStatus(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/BookAdvice.java:21: error: cannot find symbol
+		error.setMessage(ex.getMessage());
+		     ^
+  symbol:   method setMessage(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/BookAdvice.java:22: error: cannot find symbol
+		error.setDetails("You can't make any action on a non-existing resource");
+		     ^
+  symbol:   method setDetails(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/UserAdvice.java:20: error: cannot find symbol
+		error.setStatus(HttpStatus.NOT_FOUND.value() + ", " + HttpStatus.NOT_FOUND.getReasonPhrase());
+		     ^
+  symbol:   method setStatus(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/UserAdvice.java:21: error: cannot find symbol
+		error.setMessage(ex.getMessage());
+		     ^
+  symbol:   method setMessage(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/UserAdvice.java:22: error: cannot find symbol
+		error.setDetails("You can't make any action on a non-existing resource");
+		     ^
+  symbol:   method setDetails(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/GeneralAdvice.java:20: error: cannot find symbol
+		error.setStatus(HttpStatus.BAD_REQUEST.value() + ", " + HttpStatus.BAD_REQUEST.getReasonPhrase());
+		     ^
+  symbol:   method setStatus(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/GeneralAdvice.java:21: error: cannot find symbol
+		error.setMessage(ex.getMessage() + ", SQL State: "  + ex.getSQLState());
+		     ^
+  symbol:   method setMessage(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/GeneralAdvice.java:22: error: cannot find symbol
+		error.setDetails(ex.getSQLException().toString());
+		     ^
+  symbol:   method setDetails(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/BorrowedAdvice.java:20: error: cannot find symbol
+		error.setStatus(HttpStatus.NOT_FOUND.value() + ", " + HttpStatus.NOT_FOUND.getReasonPhrase());
+		     ^
+  symbol:   method setStatus(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/BorrowedAdvice.java:21: error: cannot find symbol
+		error.setMessage(ex.getMessage());
+		     ^
+  symbol:   method setMessage(String)
+  location: variable error of type ErrorRespond
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task697/wd/NonDex-plugin-test/github.com/wkrzywiec/Library-API/src/main/java/com/wkrzywiec/spring/libraryrest/advice/BorrowedAdvice.java:22: error: cannot find symbol
+		error.setDetails("You can't make any action on a non-existing resource");
+		     ^
+  symbol:   method setDetails(String)
+  location: variable error of type ErrorRespond
+27 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

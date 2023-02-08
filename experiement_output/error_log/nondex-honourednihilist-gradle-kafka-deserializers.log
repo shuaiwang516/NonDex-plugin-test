@@ -1,0 +1,124 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:82: error: cannot find symbol
+		sourceItems = extension.getSourceItems();
+		                       ^
+  symbol:   method getSourceItems()
+  location: variable extension of type KafkaDeserializersExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:83: error: cannot find symbol
+		targetPackage = Optional.ofNullable(extension.getTargetPackage());
+		                                             ^
+  symbol:   method getTargetPackage()
+  location: variable extension of type KafkaDeserializersExtension
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:106: error: cannot find symbol
+							ret.setTargetPackage(targetPackage.orElse(source.getPackageName()));
+							                                                ^
+  symbol:   method getPackageName()
+  location: variable source of type SourceClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:107: error: cannot find symbol
+							ret.setThriftTypeName(source.getClassName());
+							                            ^
+  symbol:   method getClassName()
+  location: variable source of type SourceClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:108: error: cannot find symbol
+							ret.setThriftTypeFullName(source.getPackageName() + "." + source.getClassName());
+							                                ^
+  symbol:   method getPackageName()
+  location: variable source of type SourceClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:108: error: cannot find symbol
+							ret.setThriftTypeFullName(source.getPackageName() + "." + source.getClassName());
+							                                                                ^
+  symbol:   method getClassName()
+  location: variable source of type SourceClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:109: error: cannot find symbol
+							ret.setThriftProtocol(protocol);
+							   ^
+  symbol:   method setThriftProtocol(String)
+  location: variable ret of type GeneratedClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:110: error: cannot find symbol
+							ret.setGeneratedName(renderTemplate(CLASS_NAME_TEMPLATE, ret));
+							   ^
+  symbol:   method setGeneratedName(String)
+  location: variable ret of type GeneratedClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:111: error: cannot find symbol
+							ret.setGeneratedCode(renderTemplate(CLASS_CODE_TEMPLATE, ret));
+							   ^
+  symbol:   method setGeneratedCode(String)
+  location: variable ret of type GeneratedClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:120: error: cannot find symbol
+					info.getTargetPackage().replaceAll("\\.", File.separator) + File.separatorChar +
+					    ^
+  symbol:   method getTargetPackage()
+  location: variable info of type GeneratedClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:121: error: cannot find symbol
+					info.getGeneratedName() + ".java");
+					    ^
+  symbol:   method getGeneratedName()
+  location: variable info of type GeneratedClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:123: error: cannot find symbol
+			Files.write(file.toPath(), info.getGeneratedCode().getBytes(), StandardOpenOption.CREATE,
+			                               ^
+  symbol:   method getGeneratedCode()
+  location: variable info of type GeneratedClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:138: error: cannot find symbol
+						info.setSourceFile(file);
+						    ^
+  symbol:   method setSourceFile(File)
+  location: variable info of type SourceClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:139: error: cannot find symbol
+						info.setCompilationUnit(JavaParser.parse(file));
+						    ^
+  symbol:   method setCompilationUnit(CompilationUnit)
+  location: variable info of type SourceClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:140: error: cannot find symbol
+						info.setPackageName(info.getCompilationUnit()
+						                        ^
+  symbol:   method getCompilationUnit()
+  location: variable info of type SourceClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:144: error: cannot find symbol
+						info.setClassName(info.getSourceFile().getName().replaceAll(".java", ""));
+						                      ^
+  symbol:   method getSourceFile()
+  location: variable info of type SourceClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:146: error: cannot find symbol
+						boolean isThriftClass = info.getCompilationUnit()
+						                            ^
+  symbol:   method getCompilationUnit()
+  location: variable info of type SourceClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:147: error: cannot find symbol
+								.getClassByName(info.getClassName())
+								                    ^
+  symbol:   method getClassName()
+  location: variable info of type SourceClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:165: error: cannot find symbol
+		return template.replaceAll("%%TARGET_PACKAGE%%", info.getTargetPackage())
+		                                                     ^
+  symbol:   method getTargetPackage()
+  location: variable info of type GeneratedClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:166: error: cannot find symbol
+				.replaceAll("%%THRIFT_TYPE_FULL_NAME%%", info.getThriftTypeFullName())
+				                                             ^
+  symbol:   method getThriftTypeFullName()
+  location: variable info of type GeneratedClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:167: error: cannot find symbol
+				.replaceAll("%%THRIFT_TYPE_NAME%%", info.getThriftTypeName())
+				                                        ^
+  symbol:   method getThriftTypeName()
+  location: variable info of type GeneratedClassInfo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1300/wd/NonDex-plugin-test/github.com/honourednihilist/gradle-kafka-deserializers/src/main/java/com/github/honourednihilist/gradle/kafka/deserializers/GenerateThriftKafkaDeserializersTask.java:168: error: cannot find symbol
+				.replaceAll("%%THRIFT_PROTOCOL%%", info.getThriftProtocol());
+				                                       ^
+  symbol:   method getThriftProtocol()
+  location: variable info of type GeneratedClassInfo
+22 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 20s

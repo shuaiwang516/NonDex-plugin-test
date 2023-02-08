@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task196/wd/NonDex-plugin-test/github.com/spring-attic/rewrite-gradle/build.gradle' line: 10
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'nebula.plugin-plugin', version: '5.6.0']
+> Failed to apply plugin [id 'nebula.plugin-plugin']
+   > Plugin with id 'nebula.contacts' not found.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 41s

@@ -1,0 +1,273 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:8: error: cannot find symbol
+import model.Plataforma;
+            ^
+  symbol:   class Plataforma
+  location: package model
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:14: error: package page does not exist
+import page.Hooks;
+           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:15: error: package utils.api does not exist
+import utils.api.AppiumSession;
+                ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:34: error: cannot find symbol
+		TouchAction action = new TouchAction(driver);
+		                                     ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:39: error: cannot find symbol
+		TouchAction action = new TouchAction(driver);
+		                                     ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:44: error: cannot find symbol
+		TouchAction action = new TouchAction(driver);
+		                                     ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:54: error: cannot find symbol
+	        driver.executeScript("mobile: tap", tap);
+	        ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:62: error: cannot find symbol
+			driver.executeScript("mobile: tap", tap);
+			^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:67: error: cannot find symbol
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		                                       ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:72: error: cannot find symbol
+		WebDriverWait wait = new WebDriverWait(driver, time);
+		                                       ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:77: error: cannot find symbol
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		                                       ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:82: error: cannot find symbol
+		WebDriverWait wait = new WebDriverWait(driver, time);
+		                                       ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:89: error: cannot find symbol
+		driver.executeScript("mobile: swipe", tap);
+		^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:95: error: cannot find symbol
+		driver.executeScript("mobile: swipe", tap);
+		^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:103: error: cannot find symbol
+		driver.executeScript("mobile: touchAndHold", tap);
+		^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:113: error: cannot find symbol
+		Dimension size = driver.manage().window().getSize();
+		                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:114: error: cannot find symbol
+		TouchAction action = new TouchAction(driver);
+		                                     ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:135: error: cannot find symbol
+		TouchAction action = new TouchAction(driver);
+		                                     ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:136: error: cannot find symbol
+		Dimension size = driver.manage().window().getSize();
+		                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:155: error: cannot find symbol
+		TouchAction action = new TouchAction(driver);
+		                                     ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:156: error: cannot find symbol
+		Dimension size = driver.manage().window().getSize();
+		                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:176: error: cannot find symbol
+		TouchAction action = new TouchAction(driver);
+		                                     ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:177: error: cannot find symbol
+		Dimension size = driver.manage().window().getSize();
+		                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:192: error: cannot find symbol
+		driver.hideKeyboard();
+		^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:198: error: cannot find symbol
+		Dimension size = driver.manage().window().getSize();
+		                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:205: error: cannot find symbol
+		TouchAction action = new TouchAction(driver);
+		                                     ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:222: error: cannot find symbol
+		Dimension size = driver.manage().window().getSize();
+		                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:229: error: cannot find symbol
+		TouchAction action = new TouchAction(driver);
+		                                     ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:257: error: package Setup does not exist
+		if (Setup.plataforma.equals(Plataforma.Android.getDescricao())) {
+		         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:257: error: package Plataforma does not exist
+		if (Setup.plataforma.equals(Plataforma.Android.getDescricao())) {
+		                                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:296: error: cannot find symbol
+			new TouchAction(driver).press(PointOption.point(p1_x, p1_y))
+			                ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:320: error: cannot find symbol
+		Dimension size = driver.manage().window().getSize();
+		                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:327: error: cannot find symbol
+		TouchAction action = new TouchAction(Hooks.driver);
+		                                     ^
+  symbol:   variable Hooks
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:340: error: cannot find symbol
+		Dimension size = driver.manage().window().getSize();
+		                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:347: error: cannot find symbol
+		TouchAction action = new TouchAction(driver);
+		                                     ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:381: error: cannot find symbol
+		Dimension size = driver.manage().window().getSize();
+		                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:395: error: cannot find symbol
+		driver.executeScript("mobile: dragFromToForDuration", tap);
+		^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:404: error: cannot find symbol
+		driver.executeScript("mobile: swipe", tap);
+		^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:412: error: cannot find symbol
+		driver.executeScript("mobile: swipe", tap);
+		^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:417: error: cannot find symbol
+		WebDriverWait wait = new WebDriverWait(driver, time);
+		                                       ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:432: error: cannot find symbol
+		MobileElement element = driver.findElement(xpath);
+		                        ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:465: error: cannot find symbol
+		TouchAction action = new TouchAction(driver);
+		                                     ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:467: error: cannot find symbol
+		Dimension size = driver.manage().window().getSize();
+		                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:516: error: cannot find symbol
+		TouchAction action = new TouchAction(driver);
+		                                     ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:518: error: cannot find symbol
+		Dimension size = driver.manage().window().getSize();
+		                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:533: error: cannot find symbol
+					Commons.waitForVisibilityElement(driver.findElement(By.xpath(value)), 5);
+					                                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:536: error: cannot find symbol
+					Commons.waitForVisibilityElement(driver.findElement(By.id(value)), 5);
+					                                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:539: error: cannot find symbol
+					Commons.waitForVisibilityElement(driver.findElement(MobileBy.AccessibilityId(value)), 5);
+					                                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:542: error: cannot find symbol
+						Commons.waitForVisibilityElement(driver.findElement(MobileBy.iOSNsPredicateString(value)), 5);
+						                                 ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:597: error: cannot find symbol
+						 action =new TouchAction(driver);
+						                         ^
+  symbol:   variable driver
+  location: class Commons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:621: error: package Setup does not exist
+		if(Setup.plataforma.equalsIgnoreCase(Plataforma.Android.getDescricao())) {
+		        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:621: error: package Plataforma does not exist
+		if(Setup.plataforma.equalsIgnoreCase(Plataforma.Android.getDescricao())) {
+		                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:622: error: package AppiumSession does not exist
+			 process = Runtime.getRuntime().exec(new String[]{"bash", "-l", "-c", "adb shell pm uninstall "+AppiumSession.driver.getCapabilities().getCapability("appPackage")});
+			                                                                                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:625: error: package AppiumSession does not exist
+		 process = Runtime.getRuntime().exec(new String[]{"bash", "-l", "-c", "ideviceinstaller -u "+AppiumSession.driver.getCapabilities().getCapability("udid")+" -U "+AppiumSession.driver.getCapabilities().getCapability("bundleId")});
+		                                                                                                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/utils/Commons.java:625: error: package AppiumSession does not exist
+		 process = Runtime.getRuntime().exec(new String[]{"bash", "-l", "-c", "ideviceinstaller -u "+AppiumSession.driver.getCapabilities().getCapability("udid")+" -U "+AppiumSession.driver.getCapabilities().getCapability("bundleId")});
+		                                                                                                                                                                              ^
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task364/wd/NonDex-plugin-test/github.com/tassioplima/automation-java-gradle/src/test/java/screens/PageScreen.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+55 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

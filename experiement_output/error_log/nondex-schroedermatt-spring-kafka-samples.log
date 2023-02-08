@@ -1,0 +1,79 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/streams/DeliveryNotificationStream.java:51: error: cannot find symbol
+						log.info("Event received: user-id={}, package-key={}, event-id={}, type={}",
+						^
+  symbol:   variable log
+  location: class DeliveryNotificationStream
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/streams/DeliveryNotificationStream.java:76: error: cannot find symbol
+						log.info("Publishing notification: user-id={}, email={}", key, value.getEmail())
+						^
+  symbol:   variable log
+  location: class DeliveryNotificationStream
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/service/ImportantDataServiceImpl.java:11: error: cannot find symbol
+		log.info("syncing id={}, name={}", data.getId(), data.getName());
+		^
+  symbol:   variable log
+  location: class ImportantDataServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/service/ImportantDataServiceImpl.java:11: error: cannot find symbol
+		log.info("syncing id={}, name={}", data.getId(), data.getName());
+		                                       ^
+  symbol:   method getId()
+  location: variable data of type ImportantData
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/service/ImportantDataServiceImpl.java:11: error: cannot find symbol
+		log.info("syncing id={}, name={}", data.getId(), data.getName());
+		                                                     ^
+  symbol:   method getName()
+  location: variable data of type ImportantData
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/config/RetryConsumerConfig.java:68: error: cannot find symbol
+			log.error("RetryPolicy limit has been exceeded!");
+			^
+  symbol:   variable log
+  location: class RetryConsumerConfig
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/listener/AvroListener.java:23: error: cannot find symbol
+		log.info("received: key={}, value={}", record.key(), record.value());
+		^
+  symbol:   variable log
+  location: class AvroListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/listener/AvroListener.java:28: error: cannot find symbol
+		data.setId(sampleData.getId());
+		    ^
+  symbol:   method setId(Integer)
+  location: variable data of type ImportantData
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/listener/AvroListener.java:29: error: cannot find symbol
+		data.setName(sampleData.getName());
+		    ^
+  symbol:   method setName(String)
+  location: variable data of type ImportantData
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/listener/AvroListener.java:30: error: cannot find symbol
+		data.setDescription("this is avro data");
+		    ^
+  symbol:   method setDescription(String)
+  location: variable data of type ImportantData
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/listener/AvroListener.java:35: error: cannot find symbol
+		log.info("message acknowledged.");
+		^
+  symbol:   variable log
+  location: class AvroListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/listener/RetryListener.java:21: error: cannot find symbol
+		log.info("received: key={}, value={}", record.key(), record.value());
+		^
+  symbol:   variable log
+  location: class RetryListener
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task441/wd/NonDex-plugin-test/github.com/schroedermatt/spring-kafka-samples/src/main/java/com/mschroeder/kafka/listener/RetryListener.java:24: error: cannot find symbol
+		log.info("message acknowledged.");
+		^
+  symbol:   variable log
+  location: class RetryListener
+13 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 19s

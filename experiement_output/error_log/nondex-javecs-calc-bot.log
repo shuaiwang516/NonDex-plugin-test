@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve xyz.javecs.tools:text2expr:0.1.+.
+     Required by:
+         project :
+      > Failed to list versions for xyz.javecs.tools:text2expr.
+         > Unable to load Maven meta-data from http://dl.bintray.com/javecs/tools/xyz/javecs/tools/text2expr/maven-metadata.xml.
+            > org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 3; The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

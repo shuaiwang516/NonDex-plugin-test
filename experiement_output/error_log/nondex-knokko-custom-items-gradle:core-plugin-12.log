@@ -1,0 +1,33 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':core-plugin-12:compileJava'.
+> Could not resolve all files for configuration ':core-plugin-12:compileClasspath'.
+   > Could not find org.bukkit:craftbukkit:1.12.2-R0.1-SNAPSHOT.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+       - https://repo.maven.apache.org/maven2/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.pom
+       - https://oss.sonatype.org/content/repositories/snapshots/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+       - https://oss.sonatype.org/content/repositories/snapshots/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.pom
+       - https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+       - https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.pom
+       - https://maven.enginehub.org/repo/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+       - https://maven.enginehub.org/repo/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.pom
+       - https://repo.citizensnpcs.co/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+       - https://repo.citizensnpcs.co/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.pom
+       - https://jitpack.io/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+       - https://jitpack.io/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.pom
+       - file:/root/.m2/repository/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+       - file:/root/.m2/repository/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.pom
+       - https://repo.skriptlang.org/releases/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+       - https://repo.skriptlang.org/releases/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.pom
+     Required by:
+         project :core-plugin-12
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

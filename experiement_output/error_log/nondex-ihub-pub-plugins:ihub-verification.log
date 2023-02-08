@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ihub-bom:compileGroovy'.
+> Could not resolve all files for configuration ':ihub-bom:compileClasspath'.
+   > Could not download dependency-management-plugin-1.0.15.RELEASE.jar (io.spring.gradle:dependency-management-plugin:1.0.15.RELEASE)
+      > Could not get resource 'https://maven.aliyun.com/repository/public/io/spring/gradle/dependency-management-plugin/1.0.15.RELEASE/dependency-management-plugin-1.0.15.RELEASE.jar'.
+         > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/io/spring/gradle/dependency-management-plugin/1.0.15.RELEASE/dependency-management-plugin-1.0.15.RELEASE.jar?Expires=1675217598&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=ygblaKJnPXbqWLjZTGIPofWn9zc%3D'.
+            > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6m 53s

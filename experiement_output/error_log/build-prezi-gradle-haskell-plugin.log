@@ -1,0 +1,19 @@
+[Fatal Error] gradle-scoverage-1.0.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-scoverage-1.0.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-scoverage-1.0.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task395/wd/NonDex-plugin-test/github.com/prezi/gradle-haskell-plugin/build.gradle' line: 27
+
+* What went wrong:
+A problem occurred evaluating root project 'gradle-haskell-plugin'.
+> Could not find method leftShift() for arguments [build_bihl9fixz66yql1wdg9wa99ux$_run_closure2@4ee20d21] on task ':version' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

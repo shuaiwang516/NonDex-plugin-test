@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script 'https://raw.githubusercontent.com/dsirius/Gradle-repo/master//scripts/forge/forge.gradle' line: 22
+
+* What went wrong:
+A problem occurred evaluating script.
+> Failed to apply plugin [id 'forge']
+   > Could not create task ':reobf'.
+      > Could not create task of type 'ReobfTask'.
+         > 'org.gradle.api.tasks.TaskInputs org.gradle.api.tasks.TaskInputs.files(java.lang.Object[])'
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s

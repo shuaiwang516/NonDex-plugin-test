@@ -1,0 +1,61 @@
+[Fatal Error] springboot-error-reporting-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] springboot-events4j-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] springboot-webfluxswagger-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] springboot-webfluxerror-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] springboot-metrics-prometheus-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] springboot-tracing-jaeger-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] springboot-events4j-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] springboot-error-reporting-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] springboot-webfluxerror-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] springboot-tracing-jaeger-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] springboot-metrics-prometheus-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] springboot-webfluxswagger-0.0.19.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve com.github.philippheuer.springboot:springboot-error-reporting:0.0.19.
+     Required by:
+         project :
+      > Could not resolve com.github.philippheuer.springboot:springboot-error-reporting:0.0.19.
+         > Could not parse POM http://oss.jfrog.org/artifactory/oss-snapshot-local/com/github/philippheuer/springboot/springboot-error-reporting/0.0.19/springboot-error-reporting-0.0.19.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve com.github.philippheuer.springboot:springboot-events4j:0.0.19.
+     Required by:
+         project :
+      > Could not resolve com.github.philippheuer.springboot:springboot-events4j:0.0.19.
+         > Could not parse POM http://oss.jfrog.org/artifactory/oss-snapshot-local/com/github/philippheuer/springboot/springboot-events4j/0.0.19/springboot-events4j-0.0.19.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve com.github.philippheuer.springboot:springboot-webfluxswagger:0.0.19.
+     Required by:
+         project :
+      > Could not resolve com.github.philippheuer.springboot:springboot-webfluxswagger:0.0.19.
+         > Could not parse POM http://oss.jfrog.org/artifactory/oss-snapshot-local/com/github/philippheuer/springboot/springboot-webfluxswagger/0.0.19/springboot-webfluxswagger-0.0.19.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve com.github.philippheuer.springboot:springboot-webfluxerror:0.0.19.
+     Required by:
+         project :
+      > Could not resolve com.github.philippheuer.springboot:springboot-webfluxerror:0.0.19.
+         > Could not parse POM http://oss.jfrog.org/artifactory/oss-snapshot-local/com/github/philippheuer/springboot/springboot-webfluxerror/0.0.19/springboot-webfluxerror-0.0.19.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve com.github.philippheuer.springboot:springboot-metrics-prometheus:0.0.19.
+     Required by:
+         project :
+      > Could not resolve com.github.philippheuer.springboot:springboot-metrics-prometheus:0.0.19.
+         > Could not parse POM http://oss.jfrog.org/artifactory/oss-snapshot-local/com/github/philippheuer/springboot/springboot-metrics-prometheus/0.0.19/springboot-metrics-prometheus-0.0.19.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve com.github.philippheuer.springboot:springboot-tracing-jaeger:0.0.19.
+     Required by:
+         project :
+      > Could not resolve com.github.philippheuer.springboot:springboot-tracing-jaeger:0.0.19.
+         > Could not parse POM http://oss.jfrog.org/artifactory/oss-snapshot-local/com/github/philippheuer/springboot/springboot-tracing-jaeger/0.0.19/springboot-tracing-jaeger-0.0.19.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

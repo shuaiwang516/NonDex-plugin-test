@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileGroovy'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve org.xbib:jacc:2.2.0.
+     Required by:
+         project :
+      > No matching variant of org.xbib:jacc:2.2.0 was found. The consumer was configured to find an API of a library compatible with Java 8, preferably not packaged as a jar, and its dependencies declared externally but:
+          - Variant 'apiElements' capability org.xbib:jacc:2.2.0 declares an API of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+          - Variant 'runtimeElements' capability org.xbib:jacc:2.2.0 declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

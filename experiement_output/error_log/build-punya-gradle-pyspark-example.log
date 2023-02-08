@@ -1,0 +1,23 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-pyspark-example'.
+> Failed to notify project evaluation listener.
+   > Could not resolve all files for configuration ':sparkDistribution'.
+      > Could not find apache.spark:spark:1.3.1.
+        Searched in the following locations:
+          - https://repo.maven.apache.org/maven2/apache/spark/spark/1.3.1/spark-1.3.1.pom
+          - https://repo.maven.apache.org/maven2/apache/spark/spark/1.3.1/spark-1.3.1-bin-hadoop2.4.tgz
+          - http://repo.continuum.io/apache.spark/spark-1.3.1-bin-hadoop2.4.tgz
+          - http://mirrors.ibiblio.org/apache/spark/spark-1.3.1/spark-1.3.1-bin-hadoop2.4.tgz
+        Required by:
+            project :
+   > Could not find method leftShift() for arguments [io.github.punya.PySparkPlugin$_apply_closure1$_closure3@3d9b319] on task ':pytest' of type org.gradle.api.DefaultTask.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 27s

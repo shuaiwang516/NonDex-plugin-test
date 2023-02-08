@@ -1,0 +1,19 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task887/wd/NonDex-plugin-test/github.com/gradle/gradle-checksum/build.gradle' line: 51
+
+* What went wrong:
+A problem occurred evaluating root project 'checksum'.
+> No signature of method: build_5jybp0r95urpwrlnw82flr062.testing() is applicable for argument types: (build_5jybp0r95urpwrlnw82flr062$_run_closure3) values: [build_5jybp0r95urpwrlnw82flr062$_run_closure3@49f69121]
+  Possible solutions: toString(), toString(), toString(), toString()
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

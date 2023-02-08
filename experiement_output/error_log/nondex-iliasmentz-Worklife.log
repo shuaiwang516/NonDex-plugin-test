@@ -1,0 +1,516 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillService.java:57: error: cannot find symbol
+    if (!userId.equals(skillToDelete != null ? skillToDelete.getUserId() : null)) {
+                                                            ^
+  symbol:   method getUserId()
+  location: variable skillToDelete of type Skill
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillService.java:73: error: cannot find symbol
+    if (!userId.equals(skillToUpdate != null ? skillToUpdate.getUserId() : null)) {
+                                                            ^
+  symbol:   method getUserId()
+  location: variable skillToUpdate of type Skill
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillService.java:77: error: cannot find symbol
+    skillToUpdate.setName(skillRequestDto.getName());
+                                         ^
+  symbol:   method getName()
+  location: variable skillRequestDto of type SkillRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillService.java:78: error: cannot find symbol
+    skillToUpdate.setLevel(skillRequestDto.getLevel());
+                                          ^
+  symbol:   method getLevel()
+  location: variable skillRequestDto of type SkillRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillService.java:79: error: cannot find symbol
+    skillToUpdate.setVisible(skillRequestDto.getVisible());
+                                            ^
+  symbol:   method getVisible()
+  location: variable skillRequestDto of type SkillRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillConverter.java:13: error: cannot find symbol
+    skillDto.setSkillId(skill.getSkillId());
+                             ^
+  symbol:   method getSkillId()
+  location: variable skill of type Skill
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillConverter.java:14: error: cannot find symbol
+    skillDto.setLevel(skill.getLevel());
+                           ^
+  symbol:   method getLevel()
+  location: variable skill of type Skill
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillConverter.java:15: error: cannot find symbol
+    skillDto.setName(skill.getName());
+                          ^
+  symbol:   method getName()
+  location: variable skill of type Skill
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillConverter.java:16: error: cannot find symbol
+    skillDto.setVisible(skill.getVisible());
+                             ^
+  symbol:   method getVisible()
+  location: variable skill of type Skill
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillConverter.java:22: error: cannot find symbol
+    skill.setUserId(userId);
+         ^
+  symbol:   method setUserId(Long)
+  location: variable skill of type Skill
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillConverter.java:23: error: cannot find symbol
+    skill.setLevel(skillRequestDto.getLevel());
+                                  ^
+  symbol:   method getLevel()
+  location: variable skillRequestDto of type SkillRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillConverter.java:24: error: cannot find symbol
+    skill.setName(skillRequestDto.getName());
+                                 ^
+  symbol:   method getName()
+  location: variable skillRequestDto of type SkillRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/skills/SkillConverter.java:25: error: cannot find symbol
+    skill.setVisible(skillRequestDto.getVisible());
+                                    ^
+  symbol:   method getVisible()
+  location: variable skillRequestDto of type SkillRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:63: error: cannot find symbol
+    return connection.getUserAcceptedId().equals(userId) || connection.getUserRequestedId().equals(userId);
+                     ^
+  symbol:   method getUserAcceptedId()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:63: error: cannot find symbol
+    return connection.getUserAcceptedId().equals(userId) || connection.getUserRequestedId().equals(userId);
+                                                                      ^
+  symbol:   method getUserRequestedId()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:69: error: cannot find symbol
+    Long userId = AuthenticationFacade.authenticatedUser().getUserId();
+                                                          ^
+  symbol:   method getUserId()
+  location: class Login
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:93: error: cannot find symbol
+    Long userId = AuthenticationFacade.authenticatedUser().getUserId();
+                                                          ^
+  symbol:   method getUserId()
+  location: class Login
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:97: error: cannot find symbol
+        .filter(x -> x.getStatus() == 0)
+                      ^
+  symbol:   method getStatus()
+  location: variable x of type ConnectionRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:106: error: cannot find symbol
+        .filter(x -> x.getStatus() == 0)
+                      ^
+  symbol:   method getStatus()
+  location: variable x of type ConnectionRequestDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:117: error: cannot find symbol
+    Long loggedUserId = AuthenticationFacade.authenticatedUser().getUserId();
+                                                                ^
+  symbol:   method getUserId()
+  location: class Login
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:123: error: cannot find symbol
+    connectionRequest.setDateOfRequest(new Date());
+                     ^
+  symbol:   method setDateOfRequest(Date)
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:124: error: cannot find symbol
+    connectionRequest.setStatus(0); //pending to start with
+                     ^
+  symbol:   method setStatus(int)
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:125: error: cannot find symbol
+    connectionRequest.setUserRequestedId(loggedUserId);
+                     ^
+  symbol:   method setUserRequestedId(Long)
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:126: error: cannot find symbol
+    connectionRequest.setUserTargetId(userId);
+                     ^
+  symbol:   method setUserTargetId(Long)
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:129: error: cannot find symbol
+    notificationService.createNotification(userId, 2, connectionRequest.getConnectionRequestId());
+                                                                       ^
+  symbol:   method getConnectionRequestId()
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:140: error: cannot find symbol
+    connectionRequest.setStatus(1); //accept
+                     ^
+  symbol:   method setStatus(int)
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:146: error: cannot find symbol
+    connection.setConnectionRequestId(connectionRequestId);
+              ^
+  symbol:   method setConnectionRequestId(Long)
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:147: error: cannot find symbol
+    connection.setCreateDate(connectionRequest.getDateOfRequest());
+                                              ^
+  symbol:   method getDateOfRequest()
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:148: error: cannot find symbol
+    connection.setUserAcceptedId(connectionRequest.getUserTargetId());
+                                                  ^
+  symbol:   method getUserTargetId()
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:149: error: cannot find symbol
+    connection.setUserRequestedId(connectionRequest.getUserRequestedId());
+                                                   ^
+  symbol:   method getUserRequestedId()
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:161: error: cannot find symbol
+    connectionRequest.setStatus(2); //reject
+                     ^
+  symbol:   method setStatus(int)
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:171: error: cannot find symbol
+      if (!connection.getUserRequestedId().equals(userId) && connection.getUserAcceptedId().equals(userId)) {
+                     ^
+  symbol:   method getUserRequestedId()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:171: error: cannot find symbol
+      if (!connection.getUserRequestedId().equals(userId) && connection.getUserAcceptedId().equals(userId)) {
+                                                                       ^
+  symbol:   method getUserAcceptedId()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:172: error: cannot find symbol
+        userList.add(userRepository.findById(connection.getUserRequestedId()).orElse(null));
+                                                       ^
+  symbol:   method getUserRequestedId()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:173: error: cannot find symbol
+      } else if (connection.getUserRequestedId().equals(userId) && !connection.getUserAcceptedId().equals(userId)) {
+                           ^
+  symbol:   method getUserRequestedId()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:173: error: cannot find symbol
+      } else if (connection.getUserRequestedId().equals(userId) && !connection.getUserAcceptedId().equals(userId)) {
+                                                                              ^
+  symbol:   method getUserAcceptedId()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:174: error: cannot find symbol
+        userList.add(userRepository.findById(connection.getUserAcceptedId()).orElse(null));
+                                                       ^
+  symbol:   method getUserAcceptedId()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:193: error: cannot find symbol
+    Long loggedUserId = AuthenticationFacade.authenticatedUser().getUserId();
+                                                                ^
+  symbol:   method getUserId()
+  location: class Login
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:201: error: cannot find symbol
+    Long loggedUserId = AuthenticationFacade.authenticatedUser().getUserId();
+                                                                ^
+  symbol:   method getUserId()
+  location: class Login
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:205: error: cannot find symbol
+      connectionStatusDto.setConnectionStatus(4);
+                         ^
+  symbol:   method setConnectionStatus(int)
+  location: variable connectionStatusDto of type ConnectionStatusDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:210: error: cannot find symbol
+      connectionStatusDto.setConnectionStatus(0);
+                         ^
+  symbol:   method setConnectionStatus(int)
+  location: variable connectionStatusDto of type ConnectionStatusDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:213: error: cannot find symbol
+      connectionStatusDto.setConnectionStatus(2);
+                         ^
+  symbol:   method setConnectionStatus(int)
+  location: variable connectionStatusDto of type ConnectionStatusDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:216: error: cannot find symbol
+      connectionStatusDto.setConnectionStatus(3);
+                         ^
+  symbol:   method setConnectionStatus(int)
+  location: variable connectionStatusDto of type ConnectionStatusDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:219: error: cannot find symbol
+      connectionStatusDto.setConnectionStatus(1);
+                         ^
+  symbol:   method setConnectionStatus(int)
+  location: variable connectionStatusDto of type ConnectionStatusDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:229: error: cannot find symbol
+          Login login = loginRepository.findByUserId(x.getId()).orElse(null);
+                                                      ^
+  symbol:   method getId()
+  location: variable x of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionService.java:230: error: cannot find symbol
+          Integer role = login != null ? login.getRole().ordinal() : 0;
+                                              ^
+  symbol:   method getRole()
+  location: variable login of type Login
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionConverter.java:23: error: cannot find symbol
+    connectionDto.setConnectionId(connection.getConnectionId());
+                                            ^
+  symbol:   method getConnectionId()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionConverter.java:24: error: cannot find symbol
+    connectionDto.setConnectionRequestId(connection.getConnectionRequestId());
+                                                   ^
+  symbol:   method getConnectionRequestId()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionConverter.java:25: error: cannot find symbol
+    connectionDto.setCreateDate(connection.getCreateDate());
+                                          ^
+  symbol:   method getCreateDate()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionConverter.java:26: error: cannot find symbol
+    connectionDto.setUserAccepted(userConverter.toUserSimpleDto(connection.getUserAcceptedId()));
+                                                                          ^
+  symbol:   method getUserAcceptedId()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionConverter.java:27: error: cannot find symbol
+    connectionDto.setUserRequested(userConverter.toUserSimpleDto(connection.getUserRequestedId()));
+                                                                           ^
+  symbol:   method getUserRequestedId()
+  location: variable connection of type Connection
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionConverter.java:36: error: cannot find symbol
+    connectionRequestDto.setDateOfRequest(connectionRequest.getDateOfRequest());
+                                                           ^
+  symbol:   method getDateOfRequest()
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionConverter.java:37: error: cannot find symbol
+    connectionRequestDto.setStatus(connectionRequest.getStatus());
+                                                    ^
+  symbol:   method getStatus()
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionConverter.java:38: error: cannot find symbol
+    connectionRequestDto.setUserRequested(userConverter.toUserSimpleDto(connectionRequest.getUserRequestedId()));
+                                                                                         ^
+  symbol:   method getUserRequestedId()
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionConverter.java:39: error: cannot find symbol
+    connectionRequestDto.setUserTargetId(connectionRequest.getUserTargetId());
+                                                          ^
+  symbol:   method getUserTargetId()
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/connections/ConnectionConverter.java:40: error: cannot find symbol
+    connectionRequestDto.setConnectionRequestId(connectionRequest.getConnectionRequestId());
+                                                                 ^
+  symbol:   method getConnectionRequestId()
+  location: variable connectionRequest of type ConnectionRequest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:31: error: cannot find symbol
+    userDto.setEmail(user.getEmail());
+                         ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:32: error: cannot find symbol
+    userDto.setUserId(user.getId());
+                          ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:33: error: cannot find symbol
+    userDto.setName(user.getName());
+                        ^
+  symbol:   method getName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:34: error: cannot find symbol
+    userDto.setSurname(user.getSurname());
+                           ^
+  symbol:   method getSurname()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:35: error: cannot find symbol
+    userDto.setDisplayName(user.getName() + ' ' + user.getSurname());
+                               ^
+  symbol:   method getName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:35: error: cannot find symbol
+    userDto.setDisplayName(user.getName() + ' ' + user.getSurname());
+                                                      ^
+  symbol:   method getSurname()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:36: error: cannot find symbol
+    userDto.setUsername(user.getUsername());
+                            ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:37: error: cannot find symbol
+    userDto.setBirthdate(user.getBirthdate());
+                             ^
+  symbol:   method getBirthdate()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:38: error: cannot find symbol
+    userDto.setAddress(user.getAddress());
+                           ^
+  symbol:   method getAddress()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:39: error: cannot find symbol
+    userDto.setPhoneNumber(user.getPhoneNumber());
+                               ^
+  symbol:   method getPhoneNumber()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:40: error: cannot find symbol
+    userDto.setImagePath(getUserPhotoFullUrl(user));
+           ^
+  symbol:   method setImagePath(String)
+  location: variable userDto of type UserDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:41: error: cannot find symbol
+    userDto.setDateCreated(user.getDateCreated());
+                               ^
+  symbol:   method getDateCreated()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:42: error: cannot find symbol
+    userDto.setRole(role);
+           ^
+  symbol:   method setRole(Integer)
+  location: variable userDto of type UserDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:44: error: cannot find symbol
+    Experience experience = experienceRepository.findAllByUserIdOrderByStartDateDesc(user.getId()).stream().findFirst().orElse(null);
+                                                                                         ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:46: error: cannot find symbol
+      userDto.setJobTitleCompany(experience.getTitle() + " at " + experience.getCompany());
+                                           ^
+  symbol:   method getTitle()
+  location: variable experience of type Experience
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:46: error: cannot find symbol
+      userDto.setJobTitleCompany(experience.getTitle() + " at " + experience.getCompany());
+                                                                            ^
+  symbol:   method getCompany()
+  location: variable experience of type Experience
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:57: error: cannot find symbol
+    userDto.setDisplayName(user.getName() + ' ' + user.getSurname());
+                               ^
+  symbol:   method getName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:57: error: cannot find symbol
+    userDto.setDisplayName(user.getName() + ' ' + user.getSurname());
+                                                      ^
+  symbol:   method getSurname()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:58: error: cannot find symbol
+    userDto.setUserId(user.getId());
+                          ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:59: error: cannot find symbol
+    userDto.setUsername(user.getUsername());
+                            ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:60: error: cannot find symbol
+    userDto.setImagePath(getUserPhotoFullUrl(user));
+           ^
+  symbol:   method setImagePath(String)
+  location: variable userDto of type UserSimpleDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:64: error: cannot find symbol
+      userDto.setJobTitleCompany(experience.getTitle() + " at " + experience.getCompany());
+                                           ^
+  symbol:   method getTitle()
+  location: variable experience of type Experience
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:64: error: cannot find symbol
+      userDto.setJobTitleCompany(experience.getTitle() + " at " + experience.getCompany());
+                                                                            ^
+  symbol:   method getCompany()
+  location: variable experience of type Experience
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:71: error: cannot find symbol
+    userDto.setDisplayName(user.getName() + ' ' + user.getSurname());
+                               ^
+  symbol:   method getName()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:71: error: cannot find symbol
+    userDto.setDisplayName(user.getName() + ' ' + user.getSurname());
+                                                      ^
+  symbol:   method getSurname()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:72: error: cannot find symbol
+    userDto.setUserId(user.getId());
+                          ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:73: error: cannot find symbol
+    userDto.setUsername(user.getUsername());
+                            ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:74: error: cannot find symbol
+    userDto.setImagePath(getUserPhotoFullUrl(user));
+           ^
+  symbol:   method setImagePath(String)
+  location: variable userDto of type UserSimpleDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:84: error: cannot find symbol
+    if (user.getImgPath() != null) {
+            ^
+  symbol:   method getImgPath()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/users/UserConverter.java:85: error: cannot find symbol
+      return FileService.getFileFullUrl(user.getImgPath());
+                                            ^
+  symbol:   method getImgPath()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationService.java:31: error: cannot find symbol
+    Long logedUserId = AuthenticationFacade.authenticatedUser().getUserId();
+                                                               ^
+  symbol:   method getUserId()
+  location: class Login
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationService.java:34: error: cannot find symbol
+    notification.setTargetUserId(targetUserId);
+                ^
+  symbol:   method setTargetUserId(Long)
+  location: variable notification of type Notification
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationService.java:35: error: cannot find symbol
+    notification.setStatus(0);
+                ^
+  symbol:   method setStatus(int)
+  location: variable notification of type Notification
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationService.java:36: error: cannot find symbol
+    notification.setType(type);
+                ^
+  symbol:   method setType(Integer)
+  location: variable notification of type Notification
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationService.java:39: error: cannot find symbol
+    notification.setUserId(logedUserId);
+                ^
+  symbol:   method setUserId(Long)
+  location: variable notification of type Notification
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationService.java:40: error: cannot find symbol
+    notification.setLikeCommentConnectionId(likeCommentConnectionId);
+                ^
+  symbol:   method setLikeCommentConnectionId(Long)
+  location: variable notification of type Notification
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationService.java:43: error: cannot find symbol
+      notification.setMessage("User : " + userRepository.findById(logedUserId).get().getUsername() + " liked your post");
+                                                                                    ^
+  symbol:   method getUsername()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationService.java:46: error: cannot find symbol
+      notification.setMessage("User : " + userRepository.findById(logedUserId).get().getUsername() + " commented on  your post");
+                                                                                    ^
+  symbol:   method getUsername()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationService.java:49: error: cannot find symbol
+      notification.setMessage("User : " + userRepository.findById(logedUserId).get().getUsername() + " requested to add you to his Network ");
+                                                                                    ^
+  symbol:   method getUsername()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationService.java:55: error: cannot find symbol
+    Long logedUserId = AuthenticationFacade.authenticatedUser().getUserId();
+                                                               ^
+  symbol:   method getUserId()
+  location: class Login
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationService.java:56: error: cannot find symbol
+    return notificationRepository.findAllByTargetUserId(logedUserId).stream().map(notificationConverter::toNotificationDto).filter(x -> x.getStatus() == 0).collect(Collectors.toList());
+                                                                                                                                         ^
+  symbol:   method getStatus()
+  location: variable x of type NotificationDto
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationService.java:61: error: cannot find symbol
+    notification.setStatus(1);
+                ^
+  symbol:   method setStatus(int)
+  location: variable notification of type Notification
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationConverter.java:25: error: cannot find symbol
+    notificationDto.setMessage(notification.getMessage());
+                                           ^
+  symbol:   method getMessage()
+  location: variable notification of type Notification
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/notifications/NotificationConverter.java:26: error: cannot find symbol
+    notificationDto.setNotificationId(notification.getNotificationId());
+                                                  ^
+  symbol:   method getNotificationId()
+  location: variable notification of type Notification
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task756/wd/NonDex-plugin-test/github.com/iliasmentz/Worklife/src/main/java/com/linkedin/features/dataentry/DatabaseCsvReader.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s

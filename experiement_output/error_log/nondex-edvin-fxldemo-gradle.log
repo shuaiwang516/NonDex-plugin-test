@@ -1,0 +1,126 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:3: error: package javafx.application does not exist
+import javafx.application.Application;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:4: error: package javafx.application does not exist
+import javafx.application.Platform;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:5: error: package javafx.geometry does not exist
+import javafx.geometry.Insets;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:6: error: package javafx.geometry does not exist
+import javafx.geometry.Pos;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:7: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:8: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:9: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:10: error: package javafx.scene.control does not exist
+import javafx.scene.control.ToggleButton;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:11: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.VBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:12: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:13: error: package javafx.stage does not exist
+import javafx.stage.StageStyle;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:19: error: cannot find symbol
+public class FxlDemo extends Application {
+                             ^
+  symbol: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:20: error: cannot find symbol
+    public void start(Stage stage) throws Exception {
+                      ^
+  symbol:   class Stage
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:22: error: cannot find symbol
+        stage.initStyle(StageStyle.UNDECORATED);
+                        ^
+  symbol:   variable StageStyle
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:24: error: cannot find symbol
+        Label label = new Label(stage.getTitle());
+        ^
+  symbol:   class Label
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:24: error: cannot find symbol
+        Label label = new Label(stage.getTitle());
+                          ^
+  symbol:   class Label
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:28: error: cannot find symbol
+        SegmentedButton fxcontrol = new SegmentedButton(new ToggleButton("One"), new ToggleButton("Two"), new ToggleButton("Three"));
+                                                            ^
+  symbol:   class ToggleButton
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:28: error: cannot find symbol
+        SegmentedButton fxcontrol = new SegmentedButton(new ToggleButton("One"), new ToggleButton("Two"), new ToggleButton("Three"));
+                                                                                     ^
+  symbol:   class ToggleButton
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:28: error: cannot find symbol
+        SegmentedButton fxcontrol = new SegmentedButton(new ToggleButton("One"), new ToggleButton("Two"), new ToggleButton("Three"));
+                                                                                                              ^
+  symbol:   class ToggleButton
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:30: error: cannot find symbol
+        Button exitButton = new Button("Exit");
+        ^
+  symbol:   class Button
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:30: error: cannot find symbol
+        Button exitButton = new Button("Exit");
+                                ^
+  symbol:   class Button
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:32: error: cannot find symbol
+        exitButton.setOnAction(event -> Platform.exit());
+                                        ^
+  symbol:   variable Platform
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:34: error: cannot find symbol
+        VBox root = new VBox(label, fxcontrol, exitButton);
+        ^
+  symbol:   class VBox
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:34: error: cannot find symbol
+        VBox root = new VBox(label, fxcontrol, exitButton);
+                        ^
+  symbol:   class VBox
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:35: error: cannot find symbol
+        root.setAlignment(Pos.CENTER);
+                          ^
+  symbol:   variable Pos
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:37: error: cannot find symbol
+        root.setPadding(new Insets(25));
+                            ^
+  symbol:   class Insets
+  location: class FxlDemo
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task869/wd/NonDex-plugin-test/github.com/edvin/fxldemo-gradle/src/main/java/no/tornado/FxlDemo.java:40: error: cannot find symbol
+        stage.setScene(new Scene(root));
+                           ^
+  symbol:   class Scene
+  location: class FxlDemo
+27 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

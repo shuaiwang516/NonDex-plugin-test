@@ -1,0 +1,25 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'buckify'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve org.hibernate.build.gradle:gradle-maven-publish-auth:2.0.1.
+     Required by:
+         project :
+      > Could not resolve org.hibernate.build.gradle:gradle-maven-publish-auth:2.0.1.
+         > Could not get resource 'http://repo.gradle.org/gradle/libs/org/hibernate/build/gradle/gradle-maven-publish-auth/2.0.1/gradle-maven-publish-auth-2.0.1.pom'.
+            > Could not GET 'http://repo.gradle.org/gradle/libs/org/hibernate/build/gradle/gradle-maven-publish-auth/2.0.1/gradle-maven-publish-auth-2.0.1.pom'. Received status code 403 from server: Forbidden
+   > Could not resolve com.netflix.nebula:nebula-publishing-plugin:3.0.2.
+     Required by:
+         project :
+      > Could not resolve com.netflix.nebula:nebula-publishing-plugin:3.0.2.
+         > Could not get resource 'http://repo.gradle.org/gradle/libs/com/netflix/nebula/nebula-publishing-plugin/3.0.2/nebula-publishing-plugin-3.0.2.pom'.
+            > Could not GET 'http://repo.gradle.org/gradle/libs/com/netflix/nebula/nebula-publishing-plugin/3.0.2/nebula-publishing-plugin-3.0.2.pom'. Received status code 403 from server: Forbidden
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

@@ -1,0 +1,31 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve io.springfox:springfox-swagger2:3.0.0-SNAPSHOT.
+     Required by:
+         project :
+      > Could not resolve io.springfox:springfox-swagger2:3.0.0-SNAPSHOT.
+         > Unable to load Maven meta-data from http://oss.jfrog.org/artifactory/oss-snapshot-local/io/springfox/springfox-swagger2/3.0.0-SNAPSHOT/maven-metadata.xml.
+            > org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 3; The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve io.springfox:springfox-swagger-ui:3.0.0-SNAPSHOT.
+     Required by:
+         project :
+      > Could not resolve io.springfox:springfox-swagger-ui:3.0.0-SNAPSHOT.
+         > Unable to load Maven meta-data from http://oss.jfrog.org/artifactory/oss-snapshot-local/io/springfox/springfox-swagger-ui/3.0.0-SNAPSHOT/maven-metadata.xml.
+            > org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 3; The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve io.springfox:springfox-spring-webmvc:3.0.0-SNAPSHOT.
+     Required by:
+         project :
+      > Could not resolve io.springfox:springfox-spring-webmvc:3.0.0-SNAPSHOT.
+         > Unable to load Maven meta-data from http://oss.jfrog.org/artifactory/oss-snapshot-local/io/springfox/springfox-spring-webmvc/3.0.0-SNAPSHOT/maven-metadata.xml.
+            > org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 3; The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

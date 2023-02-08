@@ -1,0 +1,21 @@
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task395/wd/NonDex-plugin-test/github.com/CleanroomMC/CleanroomGradle/src/main/java/com/cleanroommc/gradle/json/EnumAdaptorFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+3 tests completed, 2 failed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':nondexTest'.
+> Process 'Gradle Test Executor 3' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 27s

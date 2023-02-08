@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task20/wd/NonDex-plugin-test/github.com/amirnoel/sample-gradle-git/build.gradle' line: 29
+
+* What went wrong:
+A problem occurred evaluating root project 'sample-gradle-git'.
+> repository not found: /root/.gradle/daemon/5.0/.git
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

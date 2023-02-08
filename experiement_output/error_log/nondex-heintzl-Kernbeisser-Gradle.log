@@ -1,0 +1,327 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/DBEntities/User.java:216: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+        var remainingMembers = this.userGroup.getMembers();
+            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/DBEntities/User.java:223: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+      var newMembers = userGroup.getMembers();
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/DBEntities/UserGroup.java:252: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var historicGroups = getValueMapAtTransactionId(tId, withUnreadables);
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/TabbedPane/TabbedPaneController.java:23: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/TabbedPane/TabbedPaneController.java:90: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/AccountingReports/AccountingReportsController.java:58: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/AccountingReports/AccountingReportsController.java:59: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var exportType = view.getExportType();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/AccountingReports/AccountingReportsController.java:82: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/AccountingReports/AccountingReportsController.java:92: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+        var reportTransactions =
+            ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/AccountingReports/AccountingReportsView.java:134: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var now = LocalDate.now(ZoneId.systemDefault());
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/AccountingReports/AccountingReportsModel.java:56: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var otherTransactions =
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/SoloShoppingMask/SoloShoppingMaskView.java:54: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = shoppingMaskController.getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Pay/PayController.java:39: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Pay/PayController.java:71: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Pay/PayView.java:39: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = shoppingCartController.getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Menu/MenuController.java:77: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Purchase/PurchaseController.java:29: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Purchase/PurchaseController.java:44: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = cartController.getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Transaction/TransactionController.java:42: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Transaction/TransactionController.java:50: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Transaction/TransactionController.java:70: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Transaction/TransactionController.java:111: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Transaction/TransactionController.java:122: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Transaction/TransactionController.java:162: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Transaction/TransactionController.java:193: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/UserInfo/UserInfoController.java:45: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/UserInfo/UserInfoController.java:105: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PreOrder/PreOrderController.java:86: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PreOrder/PreOrderController.java:100: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PreOrder/PreOrderController.java:113: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PreOrder/PreOrderController.java:134: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PreOrder/PreOrderController.java:173: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PreOrder/PreOrderController.java:196: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PreOrder/PreOrderController.java:214: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PreOrder/PreOrderController.java:236: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var searchWindow = new ArticleSelectorController(this::articleSearch);
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PreOrder/PreOrderController.java:240: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+          var checkbox = (JCheckBox) c;
+              ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PreOrder/PreOrderController.java:308: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/EditArticles/EditIArticlesController.java:49: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var lastDeliveries = Articles.getLastDeliveries();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/EditArticles/EditIArticlesController.java:141: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/CashierShoppingMask/CashierShoppingMaskController.java:62: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PermissionManagement/PermissionRepresentation.java:38: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var optionsPanel = new JPanel();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PermissionManagement/PermissionRepresentation.java:41: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var options = new ButtonGroup();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PermissionManagement/PermissionRepresentation.java:42: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var keepUserPermissions = new JRadioButton();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PermissionManagement/PermissionRepresentation.java:47: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var overwriteUserPermissions = new JRadioButton();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PermissionManagement/PermissionRepresentation.java:50: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var dropUserPermissions = new JRadioButton();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PermissionManagement/PermissionRepresentation.java:54: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var onlyUserPermissions = new JRadioButton();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PermissionManagement/PermissionRepresentation.java:59: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var warningMessage =
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Setting/SettingController.java:29: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Setting/SettingController.java:35: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Setting/SettingController.java:110: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Setting/SettingController.java:115: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Setting/SettingController.java:129: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PrintLabels/PrintLabelsController.java:149: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var newPrintPool = model.getPrintPoolMap();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PrintLabels/PrintLabelsModel.java:31: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var lastDeliveries = Articles.getLastDeliveries();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/EditPriceList/EditPriceListModel.java:65: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var addedToPriceList = new ArrayList<>(articles);
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/EditPriceList/EditPriceListModel.java:67: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var removedFromPriceList = new ArrayList<>(priceListBefore);
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Supply/SupplyController.java:74: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Supply/SupplySelector/SupplySelectorController.java:251: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+              var cc = new ComponentController(new JScrollPane(ot));
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Supply/SupplySelector/Supply.java:55: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+      var dateTime = date.atZone(ZoneId.systemDefault());
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/LogIn/SimpleLogIn/SimpleLogInController.java:47: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/ChangePassword/ChangePasswordController.java:44: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/ChangePassword/ChangePasswordController.java:61: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PermissionAssignment/PermissionAssignmentModel.java:80: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var notToRemove = new ArrayList<>(loaded);
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PermissionAssignment/PermissionAssignmentModel.java:105: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var userNames = Arrays.stream(rows).map(r -> r.replace("\t", "&")).collect(Collectors.toList());
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PermissionAssignment/PermissionAssignmentModel.java:110: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var result =
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/CustomComponents/ObjectTable/ObjectTable.java:156: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var popup = new JPopupMenu("Spaltenfilter");
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/CustomComponents/ObjectTable/ObjectTable.java:157: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var textSize = new Dimension(200, 25);
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/CustomComponents/ObjectTable/ObjectTable.java:159: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var textFilterPanel = new JPanel(new FlowLayout());
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/CustomComponents/ObjectTable/ObjectTable.java:161: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var filterText = new JTextField();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/CustomComponents/ObjectTable/ObjectTable.java:170: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var removeFilterPanel = new JPanel(new FlowLayout());
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/CustomComponents/ObjectTable/ObjectTable.java:173: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var removeFilter = new JLabel("Spaltenfilter Entfernen");
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/CustomComponents/ObjectTable/ObjectTable.java:184: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var removeAllFiltersPanel = new JPanel(new FlowLayout());
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/CustomComponents/ObjectTable/ObjectTable.java:187: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var removeAllFilters = new JLabel("Alle Filter Entfernen");
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/CustomComponents/ObjectTable/ObjectTable.java:261: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var beforeCopy = new ArrayList<>(getModel().getColumns());
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/CustomComponents/SearchBox/SearchBoxController.java:82: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var searchOptions = getView().getExtraOptionsPanel();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/CustomComponents/SearchBox/SearchBoxController.java:83: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    for (var component : searchOptions.getComponents()) {
+             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/StartUp/DataImport/DataImportController.java:34: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/StartUp/DataImport/DataImportController.java:82: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/StartUp/DataImport/DataImportController.java:108: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/StartUp/DataImport/DataImportController.java:196: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/StartUp/DataImport/DataImportModel.java:368: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+      var csvWriter = new CSVWriterBuilder(new FileWriter(selectedFile)).build();
+          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Export/CSVExport.java:67: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var fileContent = getOrdersFileContent(preOrders);
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Reports/Report.java:62: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var reportParams = getReportParams();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Reports/Report.java:147: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+              var jasperPrint = getJspPrint();
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Reports/PriceListReport.java:25: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var lastDeliveries = Articles.getLastDeliveries();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Forms/FormImplemetations/User/UserView.java:269: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var printButton = new JButton("Benutzerinfo drucken");
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Forms/FormImplemetations/User/UserController.java:32: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var controller = new UserController();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Forms/FormImplemetations/User/UserController.java:105: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Forms/FormImplemetations/User/UserController.java:167: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var userGroup = user.getUserGroup();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Forms/FormImplemetations/Article/ArticleController.java:68: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Forms/FormImplemetations/Article/ArticleController.java:79: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Forms/ObjectView/ObjectViewController.java:57: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var view = getView();
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Useful/Tools.java:1030: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var auditReaderFactory = AuditReaderFactory.get(em);
+        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/DBEntities/SurchargeGroup.java:20: warning: Not generating equals and hashCode: A method with one of those names already exists. (Either both or none of these methods will be generated).
+@EqualsAndHashCode(doNotUseGetters = true)
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/StartUp/DataImport/DataImportView.java:24: warning: Not generating getAdminPassword(): A method with that name already exists
+  @Getter private JPasswordField adminPassword;
+  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Supply/SupplySelector/SupplierFile.java:27: warning: Not generating equals: One of equals or hashCode exists. You should either write both of these or none of these (in the latter case, lombok generates them).
+@Data
+^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/PreOrder/PreOrderView.java:61: warning: Not generating setMode(): A method with that name already exists
+  @Setter private Mode mode;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/AccountingReports/AccountingReportsView.java:28: warning: Not generating getExportType(): A method with that name already exists
+  @Getter private JComboBox<ExportTypes> exportType;
+  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/Purchase/PurchaseModel.java:10: warning: Not generating getLoaded(): A method with that name already exists
+  @Getter private final Purchase loaded;
+  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/CollectionView/CollectionModel.java:14: warning: Not generating setLoaded(): A method with that name already exists
+  @Getter @Setter private Collection<T> loaded;
+                                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/DBConnection/DBConnection.java:11: error: cannot find symbol
+import kernbeisser.Config.IgnoreThis;
+                         ^
+  symbol:   class IgnoreThis
+  location: package kernbeisser.Config
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Useful/Users.java:8: error: cannot find symbol
+import kernbeisser.Config.IgnoreThis;
+                         ^
+  symbol:   class IgnoreThis
+  location: package kernbeisser.Config
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task813/wd/NonDex-plugin-test/github.com/heintzl/Kernbeisser-Gradle/src/main/java/kernbeisser/Windows/EditArticles/EditIArticlesController.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+100 warnings
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 20s

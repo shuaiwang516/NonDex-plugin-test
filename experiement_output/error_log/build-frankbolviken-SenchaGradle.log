@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1369/wd/NonDex-plugin-test/github.com/frankbolviken/SenchaGradle/build.gradle' line: 12
+
+* What went wrong:
+A problem occurred evaluating root project 'SenchaGradle'.
+> Could not set unknown property 'projectName' for root project 'SenchaGradle' of type org.gradle.api.Project.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

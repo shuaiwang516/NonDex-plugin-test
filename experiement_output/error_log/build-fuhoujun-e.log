@@ -1,0 +1,32 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v7.Java7$1 (file:/root/.gradle/wrapper/dists/gradle-5.0-bin/pu5208521seraqlersebvqk/gradle-5.0/lib/groovy-all-1.0-2.5.4.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v7.Java7$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'e'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:1.4.3.RELEASE.
+     Required by:
+         project :
+      > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:1.4.3.RELEASE.
+         > Could not get resource 'http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-gradle-plugin/1.4.3.RELEASE/spring-boot-gradle-plugin-1.4.3.RELEASE.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/org/springframework/boot/spring-boot-gradle-plugin/1.4.3.RELEASE/spring-boot-gradle-plugin-1.4.3.RELEASE.pom?Expires=1675212689&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=Ig2SKWm6uFpUot%2BaPkNUTZK%2FTvU%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+   > Could not resolve com.bmuschko:gradle-docker-plugin:3.0.3.
+     Required by:
+         project :
+      > Could not resolve com.bmuschko:gradle-docker-plugin:3.0.3.
+         > Could not get resource 'http://maven.aliyun.com/nexus/content/groups/public/com/bmuschko/gradle-docker-plugin/3.0.3/gradle-docker-plugin-3.0.3.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/central/com/bmuschko/gradle-docker-plugin/3.0.3/gradle-docker-plugin-3.0.3.pom?Expires=1675212689&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=KCJvRL8bEneUE0Hd2bUuDvIvY1M%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 42s

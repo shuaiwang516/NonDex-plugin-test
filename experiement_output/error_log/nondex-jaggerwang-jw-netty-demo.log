@@ -1,0 +1,130 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:21: error: cannot find symbol
+        msg.setStartFirst(in.readUnsignedByte());
+           ^
+  symbol:   method setStartFirst(short)
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:22: error: cannot find symbol
+        msg.setStartSecond(in.readUnsignedByte());
+           ^
+  symbol:   method setStartSecond(short)
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:23: error: cannot find symbol
+        logger.debug("decode start ok: {} {}", msg.getStartFirst(), msg.getStartSecond());
+                                                  ^
+  symbol:   method getStartFirst()
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:23: error: cannot find symbol
+        logger.debug("decode start ok: {} {}", msg.getStartFirst(), msg.getStartSecond());
+                                                                       ^
+  symbol:   method getStartSecond()
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:25: error: cannot find symbol
+        msg.setLength(in.readUnsignedShort());
+           ^
+  symbol:   method setLength(int)
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:26: error: cannot find symbol
+        logger.debug("decode length ok: {}", msg.getLength());
+                                                ^
+  symbol:   method getLength()
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:28: error: cannot find symbol
+        msg.setVersion(in.readUnsignedByte());
+           ^
+  symbol:   method setVersion(short)
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:29: error: cannot find symbol
+        logger.debug("decode version ok: {}", msg.getVersion());
+                                                 ^
+  symbol:   method getVersion()
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:31: error: cannot find symbol
+        msg.setDeviceNo(in.readUnsignedInt());
+           ^
+  symbol:   method setDeviceNo(long)
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:32: error: cannot find symbol
+        logger.debug("decode device no ok: {}", msg.getDeviceNo());
+                                                   ^
+  symbol:   method getDeviceNo()
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:34: error: cannot find symbol
+        msg.setTime(in.readUnsignedInt());
+           ^
+  symbol:   method setTime(long)
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:35: error: cannot find symbol
+        logger.debug("decode time ok: {}", msg.getTime());
+                                              ^
+  symbol:   method getTime()
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:38: error: cannot find symbol
+        while (pos < msg.getLength() - 2) {
+                        ^
+  symbol:   method getLength()
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:61: error: cannot find symbol
+            msg.getDatas().add(data);
+               ^
+  symbol:   method getDatas()
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:65: error: cannot find symbol
+        msg.setChecksum(in.readUnsignedShort());
+           ^
+  symbol:   method setChecksum(int)
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/MessageDecoder.java:66: error: cannot find symbol
+        logger.debug("decode checksum ok: {}", msg.getChecksum());
+                                                  ^
+  symbol:   method getChecksum()
+  location: variable msg of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/decoder/Message.java:26: error: cannot find symbol
+                || this.getVersion() != 1) {
+                       ^
+  symbol: method getVersion()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/saver/MetricSaver.java:12: error: cannot find symbol
+                .append("name", metric.getName())
+                                      ^
+  symbol:   method getName()
+  location: variable metric of type Metric
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/saver/MetricSaver.java:13: error: cannot find symbol
+                .append("value", metric.getValue())
+                                       ^
+  symbol:   method getValue()
+  location: variable metric of type Metric
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/saver/MetricSaver.java:14: error: cannot find symbol
+                .append("time", metric.getTime());
+                                      ^
+  symbol:   method getTime()
+  location: variable metric of type Metric
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/saver/Metric.java:20: error: cannot find symbol
+        name = String.format("device_{}", message.getDeviceNo());
+                                                 ^
+  symbol:   method getDeviceNo()
+  location: variable message of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/saver/Metric.java:22: error: cannot find symbol
+        OptionalDouble average = message.getDatas().stream().mapToDouble(e -> e).average();
+                                        ^
+  symbol:   method getDatas()
+  location: variable message of type Message
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/saver/Metric.java:25: error: cannot find symbol
+        time = new Date(message.getTime());
+                               ^
+  symbol:   method getTime()
+  location: variable message of type Message
+Note: /mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task700/wd/NonDex-plugin-test/github.com/jaggerwang/jw-netty-demo/src/main/java/net/jaggerwang/jwnettydemo/saver/MetricSaver.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+23 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s

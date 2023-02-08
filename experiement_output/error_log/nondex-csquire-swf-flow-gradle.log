@@ -1,0 +1,39 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task23/wd/NonDex-plugin-test/github.com/csquire/swf-flow-gradle/src/main/java/net/craigsquire/flow/helloworld/GreeterWorkflowImpl.java:7: error: cannot find symbol
+   private GreeterActivitiesClient operations = new GreeterActivitiesClientImpl();
+           ^
+  symbol:   class GreeterActivitiesClient
+  location: class GreeterWorkflowImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task23/wd/NonDex-plugin-test/github.com/csquire/swf-flow-gradle/src/main/java/net/craigsquire/flow/helloworld/GreeterWorkflowImpl.java:7: error: cannot find symbol
+   private GreeterActivitiesClient operations = new GreeterActivitiesClientImpl();
+                                                    ^
+  symbol:   class GreeterActivitiesClientImpl
+  location: class GreeterWorkflowImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task23/wd/NonDex-plugin-test/github.com/csquire/swf-flow-gradle/src/main/java/net/craigsquire/flow/helloworld/GreeterWorker.java:27: error: cannot find symbol
+        GreeterWorkflowClientExternalFactory clientFactory = new GreeterWorkflowClientExternalFactoryImpl(service, domain);
+        ^
+  symbol:   class GreeterWorkflowClientExternalFactory
+  location: class GreeterWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task23/wd/NonDex-plugin-test/github.com/csquire/swf-flow-gradle/src/main/java/net/craigsquire/flow/helloworld/GreeterWorker.java:27: error: cannot find symbol
+        GreeterWorkflowClientExternalFactory clientFactory = new GreeterWorkflowClientExternalFactoryImpl(service, domain);
+                                                                 ^
+  symbol:   class GreeterWorkflowClientExternalFactoryImpl
+  location: class GreeterWorker
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task23/wd/NonDex-plugin-test/github.com/csquire/swf-flow-gradle/src/main/java/net/craigsquire/flow/helloworld/GreeterWorker.java:28: error: cannot find symbol
+        GreeterWorkflowClientExternal client = clientFactory.getClient();
+        ^
+  symbol:   class GreeterWorkflowClientExternal
+  location: class GreeterWorker
+5 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

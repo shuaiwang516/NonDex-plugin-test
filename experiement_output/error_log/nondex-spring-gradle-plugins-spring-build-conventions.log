@@ -1,0 +1,26 @@
+POM relocation to an other version number is not fully supported in Gradle : xml-apis:xml-apis:2.0.2 relocated to xml-apis:xml-apis:1.0.b2.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve org.apache.xerces:xercesImpl:2.9.1.
+     Required by:
+         project : > io.spring.gradle:docbook-reference-plugin:0.3.1
+      > Could not resolve org.apache.xerces:xercesImpl:2.9.1.
+         > Could not get resource 'https://repo.spring.io/plugins-release/org/apache/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom'.
+            > Could not GET 'https://repo.spring.io/plugins-release/org/apache/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom'. Received status code 401 from server: 
+   > Could not resolve org.apache.xerces:resolver:2.9.1.
+     Required by:
+         project : > io.spring.gradle:docbook-reference-plugin:0.3.1
+      > Could not resolve org.apache.xerces:resolver:2.9.1.
+         > Could not get resource 'https://repo.spring.io/plugins-release/org/apache/xerces/resolver/2.9.1/resolver-2.9.1.pom'.
+            > Could not GET 'https://repo.spring.io/plugins-release/org/apache/xerces/resolver/2.9.1/resolver-2.9.1.pom'. Received status code 401 from server: 
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

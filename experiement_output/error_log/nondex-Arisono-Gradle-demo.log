@@ -1,0 +1,22 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1132/wd/NonDex-plugin-test/github.com/Arisono/Gradle-demo/src/main/java/com/android/retrofit/demo/OkhttpUtils.java:20: error: package javax.xml.ws.http does not exist
+import javax.xml.ws.http.HTTPException;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1132/wd/NonDex-plugin-test/github.com/Arisono/Gradle-demo/src/main/java/com/gradle/java/utils/FastJsonUtil.java:11: error: package org.omg.PortableInterceptor does not exist
+import org.omg.PortableInterceptor.USER_EXCEPTION;
+                                  ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

@@ -1,0 +1,662 @@
+Project URL,SHA Detected,Subproject Name,Fully-Qualified Test Name (packageName.ClassName.methodName)
+https://github.com/HankLi0130/MicroservicesDemo,061d266b8bdede5af966778d7fe4ef30c4faa203,account-service,tw.hankli.accountservice.AccountServiceApplicationTests.contextLoads
+https://github.com/HankLi0130/MicroservicesDemo,061d266b8bdede5af966778d7fe4ef30c4faa203,customer-service,tw.hankli.customerservice.CustomerServiceApplicationTests.contextLoads
+https://github.com/HankLi0130/MicroservicesDemo,061d266b8bdede5af966778d7fe4ef30c4faa203,discovery-service,tw.hankli.discoveryservice.DiscoveryServiceApplicationTests.contextLoads
+https://github.com/HankLi0130/MicroservicesDemo,061d266b8bdede5af966778d7fe4ef30c4faa203,gateway-service,tw.hankli.gatewayservice.GatewayServiceApplicationTests.contextLoads
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should be compatible with the new JPMS features introduced in Gradle 6.4
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should execute task with Gradle 7.6, moduleName=null, launcherName=null, mainClass=null and mergedModuleName=null
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should execute task with Gradle 7.0, moduleName=modular.example.hello, launcherName=run-hello, mainClass= and mergedModuleName=org.example.my.test.merged.module
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should execute task with Gradle 7.2, moduleName=null, launcherName=null, mainClass=org.example.modular.Hello and mergedModuleName=null
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should execute task with Gradle 7.6, moduleName=modular.example.hello, launcherName=null, mainClass=null and mergedModuleName=null
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should execute task with Gradle 7.0, moduleName=modular.example.hello, launcherName=run-hello, mainClass=org.example.modular.Hello and mergedModuleName=null
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should execute task with Gradle 7.6, moduleName=modular.example.hello, launcherName=run-hello, mainClass=null and mergedModuleName=null
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should create runtime image of project hello-javafx with Gradle 7.0
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should create runtime image of project hello-javafx-log4j-2.11.1 with Gradle 7.6
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should adjust qualified opens in module-info
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should create image of project with local dependencies
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should create runtime image of project with BOM
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.JlinkPluginSpec.should create image of project with multiple launchers
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.SuggestMergedModuleInfoSpec.should display the correct module-info for the merged module in build.gradle with groovy flavor using Gradle 7.0
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.SuggestMergedModuleInfoSpec.should display the correct module-info for the merged module in build.gradle with kotlin flavor using Gradle 7.6
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.SuggestMergedModuleInfoSpec.should display the correct module-info for the merged module in build.gradle with java flavor using Gradle 7.2
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.SuggestMergedModuleInfoSpec.should display the correct module-info for the merged module in build.additive.gradle with groovy flavor using Gradle 7.6
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.SuggestMergedModuleInfoSpec.should display the correct module-info for the merged module in build.additive.gradle with kotlin flavor using Gradle 7.0
+https://github.com/beryx/badass-jlink-plugin,f293e39fcf481e755a03ab7267f6fe55657bcaaf,.,org.beryx.jlink.SuggestMergedModuleInfoSpec.should display the correct module-info for the merged module in build.additive.gradle with java flavor using Gradle 7.6
+https://github.com/yoomoney/check-dependencies-plugin,72bc84be10a8e125242632814f4f2393679cd033,.,ru.yoomoney.gradle.plugins.library.snapshot.CheckSnapshotSpec.should build successfully when there is SNAPSHOT dependency
+https://github.com/tehlers/gradle-duplicate-classes-check,37af71d3f0ebe65b2dcecead5a9eeb35077acc13,.,net.idlestate.gradle.duplicates.CheckDuplicateClassesEngineTest.testExcludeJarFiles
+https://github.com/tehlers/gradle-duplicate-classes-check,37af71d3f0ebe65b2dcecead5a9eeb35077acc13,.,net.idlestate.gradle.duplicates.CheckDuplicateClassesEngineTest.testSearchForDuplicates
+https://github.com/NoushathMoidu2020/Spring-Boot-Starter-Kit,c474aca9621c09af41cbba962f3a7d6f1ab593fd,.,com.in.nan.api.EmployeeRestControllerMockMVCTest.testEmployeeGet
+https://github.com/Lucas3oo/sonarlint-gradle-plugin,8192e78b08ad7a529fd33e7e53a9433f1d010ece,.,se.solrike.sonarlint.IntegrationTest.testSonarlintMain()
+https://github.com/Lucas3oo/sonarlint-gradle-plugin,8192e78b08ad7a529fd33e7e53a9433f1d010ece,.,se.solrike.sonarlint.KotlinIntegrationTest.testSonarlintMain()
+https://github.com/Lucas3oo/sonarlint-gradle-plugin,8192e78b08ad7a529fd33e7e53a9433f1d010ece,.,se.solrike.sonarlint.SonarlintPluginTest.sonarlintTaskExecutes()
+https://github.com/paleozogt/symzip-plugin,7d3245c6a945afe8ee550ffd2adb460948031d4f,symzip-plugin,org.paleozogt.gradle.zip.SymZipPluginTest.sampleBuildTest
+https://github.com/yoomoney/artifact-release-plugin,28e089ac95dd9545b9e520ceb3c038a78687ec70,.,ru.yoomoney.gradle.plugins.release.ReleasePluginTest.should release with changeLog and correct sequence
+https://github.com/yoomoney/library-project-plugin,bfab53ea0320ad2ce672bd32b9dd224c767a6838,.,ru.yoomoney.gradle.plugins.library.LibraryPluginSpec.should contains tasks
+https://github.com/yoomoney/library-project-plugin,bfab53ea0320ad2ce672bd32b9dd224c767a6838,.,ru.yoomoney.gradle.plugins.library.LibraryPluginSpec.should complete simple java build
+https://github.com/yoomoney/library-project-plugin,bfab53ea0320ad2ce672bd32b9dd224c767a6838,.,ru.yoomoney.gradle.plugins.library.LibraryPluginSpec.should run java test
+https://github.com/yoomoney/library-project-plugin,bfab53ea0320ad2ce672bd32b9dd224c767a6838,.,ru.yoomoney.gradle.plugins.library.LibraryPluginSpec.should run kotlin test
+https://github.com/yoomoney/library-project-plugin,bfab53ea0320ad2ce672bd32b9dd224c767a6838,.,ru.yoomoney.gradle.plugins.library.LibraryPluginSpec.should publish to maven local
+https://github.com/yoomoney/library-project-plugin,bfab53ea0320ad2ce672bd32b9dd224c767a6838,.,ru.yoomoney.gradle.plugins.library.LibraryPluginSpec.release task should depend on predefined release tasks
+https://github.com/dnd-side-project/dnd-5th-5-backend,ad7ffb7c32fbfb20e80104fb85786396185506a2,.,com.meme.ala.domain.friend.service.FriendInfoServiceTest.followFriend()
+https://github.com/androidjp/spring-boot-gradle-redis-web,c94f7f7bb1c28a8a7c44c39c5fc593fa579252e2,.,com.jp.springbootgradleredisweb.SpringBootGradleRedisWebApplicationTests.contextLoads
+https://github.com/gogradle/gogradle,7706d4e2d18e7c70075930cd5ac3007e09e0ed35,.,com.github.blindpirate.gogradle.util.logging.DebugLogMethodInterceptorTest.doProtectedNothing should print debug log
+https://github.com/gogradle/gogradle,7706d4e2d18e7c70075930cd5ac3007e09e0ed35,.,com.github.blindpirate.gogradle.task.go.GoVetTest.go vet should succeed when go vet not ignore vendor
+https://github.com/corda/corda-gradle-plugins,0033ace83c6a4b8124d8bab0e99b4f56a893bf35,quasar-utils,net.corda.plugins.quasar.QuasarNoInstrumentTest.testUninstrumentedTests()
+https://github.com/corda/corda-gradle-plugins,0033ace83c6a4b8124d8bab0e99b4f56a893bf35,quasar-utils,net.corda.plugins.quasar.QuasarNoInstrumentTest.testUninstrumentedJavaExec()
+https://github.com/corda/corda-gradle-plugins,0033ace83c6a4b8124d8bab0e99b4f56a893bf35,quasar-utils,net.corda.plugins.quasar.QuasarPluginTest.checkAddingExclusionsWithoutAnyDefaults()
+https://github.com/corda/corda-gradle-plugins,0033ace83c6a4b8124d8bab0e99b4f56a893bf35,quasar-utils,net.corda.plugins.quasar.QuasarPluginTest.checkOverriddenExclusionsAreUsed()
+https://github.com/corda/corda-gradle-plugins,0033ace83c6a4b8124d8bab0e99b4f56a893bf35,quasar-utils,net.corda.plugins.quasar.QuasarPluginTest.testExcludeClassLoaders()
+https://github.com/corda/corda-gradle-plugins,0033ace83c6a4b8124d8bab0e99b4f56a893bf35,quasar-utils,net.corda.plugins.quasar.QuasarPluginTest.checkJVMArgsAddedForTests()
+https://github.com/corda/corda-gradle-plugins,0033ace83c6a4b8124d8bab0e99b4f56a893bf35,quasar-utils,net.corda.plugins.quasar.QuasarPluginTest.checkDefaultExclusionsCanBeReplaced()
+https://github.com/corda/corda-gradle-plugins,0033ace83c6a4b8124d8bab0e99b4f56a893bf35,quasar-utils,net.corda.plugins.quasar.QuasarPluginTest.testEnableDebugOption()
+https://github.com/corda/corda-gradle-plugins,0033ace83c6a4b8124d8bab0e99b4f56a893bf35,quasar-utils,net.corda.plugins.quasar.QuasarPluginTest.testEnableVerboseOption()
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-cli,com.google.cloud.tools.jib.cli.WarTest.testParse_incompatibleCredentialOptions(--username=x, --password=x, --to-username=x, --to-password=x) [6]
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-cli,com.google.cloud.tools.jib.cli.WarTest.testParse_incompatibleCredentialOptions(--username=x, --password=x, --from-credential-helper=x) [8]
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-cli,com.google.cloud.tools.jib.cli.JarTest.testParse_incompatibleCredentialOptions(--username=x, --password=x, --to-credential-helper=x) [7]
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-cli,com.google.cloud.tools.jib.cli.BuildTest.testParse_incompatibleCredentialOptions(--username=x, --password=x, --from-username=x, --from-password=x) [5]
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-cli,com.google.cloud.tools.jib.cli.BuildTest.testParse_incompatibleCredentialOptions(--username=x, --password=x, --to-username=x, --to-password=x) [6]
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-cli,com.google.cloud.tools.jib.cli.BuildTest.testParse_incompatibleCredentialOptions(--username=x, --password=x, --to-credential-helper=x) [7]
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-cli,com.google.cloud.tools.jib.cli.WarTest.testParse_incompatibleCredentialOptions(--username=x, --password=x, --to-credential-helper=x) [7]
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-cli,com.google.cloud.tools.jib.cli.JarTest.testParse_incompatibleCredentialOptions(--username=x, --password=x, --from-username=x, --from-password=x) [5]
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-cli,com.google.cloud.tools.jib.cli.JarTest.testParse_incompatibleCredentialOptions(--username=x, --password=x, --to-username=x, --to-password=x) [6]
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-cli,com.google.cloud.tools.jib.cli.JarTest.testParse_incompatibleCredentialOptions(--username=x, --password=x, --from-credential-helper=x) [8]
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-cli,com.google.cloud.tools.jib.cli.BuildTest.testParse_incompatibleCredentialOptions(--username=x, --password=x, --from-credential-helper=x) [8]
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-cli,com.google.cloud.tools.jib.cli.WarTest.testParse_incompatibleCredentialOptions(--username=x, --password=x, --from-username=x, --from-password=x) [5]
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.registry.ManifestPusherTest.testGetContent
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.builder.steps.PushImageStepTest.testMakeListForManifestList
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.builder.steps.PushImageStepTest.testMakeList_multiPlatform_nonPlatformTags
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.builder.steps.BuildManifestListOrSingleManifestStepTest.testCall_singleManifest
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.builder.steps.BuildManifestListOrSingleManifestStepTest.testCall_manifestList
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.docker.json.DockerManifestEntryTemplateTest.testToJson
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.json.JsonTemplateMapperTest.testWriteJson
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.image.ImageTarballTest.testWriteTo_oci
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.image.json.ContainerConfigurationTemplateTest.testToJson
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.image.json.V22ManifestTemplateTest.testToJson
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.image.json.OciManifestTemplateTest.testToJson
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.image.json.OciIndexTemplateTest.testToJsonWithPlatform
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.image.json.OciIndexTemplateTest.testToJson
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.image.json.ManifestListGeneratorTest.testGetManifestListTemplate
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.image.json.ImageToJsonTranslatorTest.testGetContainerConfiguration
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.image.json.ImageToJsonTranslatorTest.testGetManifest_oci
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.image.json.ImageToJsonTranslatorTest.testGetManifest_v22
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-core,com.google.cloud.tools.jib.json.JsonTemplateMapperTest.testToBlob_listOfJson
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-plugins-common,com.google.cloud.tools.jib.plugins.common.SkaffoldFilesOutputTest.testGetJsonString_empty
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-plugins-common,com.google.cloud.tools.jib.plugins.common.SkaffoldFilesOutputTest.testGetJsonString
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-plugins-common,com.google.cloud.tools.jib.plugins.common.globalconfig.GlobalConfigTest.testReadConfig_newConfigCreated
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-plugins-common,com.google.cloud.tools.jib.plugins.common.SkaffoldSyncMapTemplateTest.testGetJsonString
+https://github.com/GoogleContainerTools/jib,92173ba6dbc3daadea68e4348e760e99d1e79783,jib-plugins-common,com.google.cloud.tools.jib.plugins.common.SkaffoldSyncMapTemplateTest.testGetJsonString_emptyGenerated
+https://github.com/simlar/simlar-server,0e8b925e9ee91c24a74aee7cdf5752c2af513a31,.,org.simlar.simlarserver.services.pushnotification.google.GooglePushNotificationMockServerTest.testRequestPushNotificationWithInvalidToken
+https://github.com/simlar/simlar-server,0e8b925e9ee91c24a74aee7cdf5752c2af513a31,.,org.simlar.simlarserver.services.pushnotification.google.GooglePushNotificationMockServerTest.testRequestGooglePushNotification
+https://github.com/simlar/simlar-server,0e8b925e9ee91c24a74aee7cdf5752c2af513a31,.,org.simlar.simlarserver.controllers.ContactsControllerDelayTest.testOneSecondDelay
+https://github.com/xenit-eu/start.xenit.eu,4d4a8881a0f54337c7583e80f162ebe4a5c916b0,start.xenit.eu,eu.xenit.alfred.initializr.generator.docker.compose.DockerComposeYmlWriterDelegateTest.testVolumes
+https://github.com/nebula-plugins/gradle-metrics-plugin,e77285f2d8910e29636e828b87baf90af2ae0504,.,nebula.plugin.metrics.model.KeyValueTest.mapper writes value with expected form
+https://github.com/nebula-plugins/gradle-metrics-plugin,e77285f2d8910e29636e828b87baf90af2ae0504,.,nebula.plugin.metrics.model.InfoTest.enhances Java version with details from runtime name and vendor - is OpenJDK - zulu
+https://github.com/nebula-plugins/gradle-metrics-plugin,e77285f2d8910e29636e828b87baf90af2ae0504,.,nebula.plugin.metrics.model.InfoTest.enhances Java version with details from runtime name and vendor - is OpenJDK
+https://github.com/nebula-plugins/gradle-metrics-plugin,e77285f2d8910e29636e828b87baf90af2ae0504,.,nebula.plugin.metrics.model.KeyValueTest.mapper writes list of values with expected form
+https://github.com/nebula-plugins/gradle-metrics-plugin,e77285f2d8910e29636e828b87baf90af2ae0504,.,nebula.plugin.metrics.model.InfoTest.enhances Java version with details from runtime name and vendor - is Oracle
+https://github.com/nebula-plugins/gradle-metrics-plugin,e77285f2d8910e29636e828b87baf90af2ae0504,.,nebula.plugin.metrics.model.InfoTest.environment is json serialized in expected form
+https://github.com/nebula-plugins/gradle-metrics-plugin,e77285f2d8910e29636e828b87baf90af2ae0504,.,nebula.plugin.metrics.model.InfoTest.enhances Java version with details from runtime name and vendor - is case insensitive for openjdk
+https://github.com/danwallach/star-vote-gradle,e4a76205fcaf9a196485d467f2887df43fc04d13,.,sexpression.test.ASEConverterTest.testToASE
+https://github.com/danwallach/star-vote-gradle,e4a76205fcaf9a196485d467f2887df43fc04d13,.,sexpression.test.ASEConverterTest.testReciprocity
+https://github.com/mikhail-g/gradle-junit-rerun,911b8c35cc31e09506ae4584f25299efe3c7b3b8,gradle-junit4-rerun,example.junit4.RerunFeatureTest.testFlaky
+https://github.com/mikhail-g/gradle-junit-rerun,911b8c35cc31e09506ae4584f25299efe3c7b3b8,gradle-junit5-rerun,example.junit5.RerunFeatureTest.testFlaky()
+https://github.com/int128/gradle-ssh-plugin,a0667947cd799ae2bcc2273f64609baa06e88e2e,gradle-ssh-plugin,Test results can be found at:
+https://github.com/int128/gradle-ssh-plugin,a0667947cd799ae2bcc2273f64609baa06e88e2e,gradle-ssh-plugin,Across all seeds:
+https://github.com/JetBrains/gradle-idea-ext-plugin,460bbc6d1f80424b28664e4bb518a57109c2ebad,.,IdeaModelExtensionOnKotlinBuildFileFunctionalTest.test process IDEA project files task
+https://github.com/remal-gradle-plugins/test-source-sets,d8b1291d3ff290c1c570db0dd76b1088a9cfd054,.,name.remal.gradle_plugins.test_source_sets.TestSourceSetsPluginTest$IfKotlinPluginIsApplied.all_test_source_sets_are_associated_with_main_compilation()
+https://github.com/JakduK/jakduk-api,d1f7afeedd5b17170b3828689e47bbaef1ad1244,.,com.jakduk.api.GalleryOnListTest.자바배열객체를_JSON문자열로변환()
+https://github.com/martoe/gradle-svntools-plugin,999eb34ef0ad93aad3c7ab833236e8ea503ae18a,.,at.bxm.gradleplugins.svntools.tasks.SvnVersionTest.unversioned file
+https://github.com/martoe/gradle-svntools-plugin,999eb34ef0ad93aad3c7ab833236e8ea503ae18a,.,at.bxm.gradleplugins.svntools.tasks.SvnVersionTest.added dir
+https://github.com/martoe/gradle-svntools-plugin,999eb34ef0ad93aad3c7ab833236e8ea503ae18a,.,at.bxm.gradleplugins.svntools.SvnToolsPluginExtensionTest.access svnVersion at trunk
+https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.common.search.strategy.UctNodeTest.testConstructionOfNodeWithNoChildren
+https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.mancala.move.MoveMakerTest.testFinalPlayer2MoveInHomeBin
+https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.mancala.move.MoveMakerTest.testFinalPlayer1MoveInHomeBin
+https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.mancala.move.MoveMakerTest.testFinalPlayer2MoveOnPlayersSide
+https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.mancala.move.MoveMakerTest.testFinalPlayer1MoveOnPlayersSide
+https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.mancala.move.MoveMakerTest.testPlayer1CapturingMove
+https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.mancala.move.MoveMakerTest.testCrazyP1Combo
+https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.mancala.move.MoveMakerTest.testPlayer2CapturingMove
+https://github.com/henne90gen/ChestCounter,3afe945d14de61983f24022d22a6e1ff06e34348,.,de.henne90gen.chestcounter.FileChestDBTest.testLoadConfigWithMissingValues
+https://github.com/beryx/badass-runtime-plugin,029f6090dbea5b69043dd8d405e8f06c8d16d7fa,.,org.beryx.runtime.RuntimePluginSpec.if modules=null, then buildSucceeds=true and runSucceeds=true with Gradle 7.6
+https://github.com/beryx/badass-runtime-plugin,029f6090dbea5b69043dd8d405e8f06c8d16d7fa,.,org.beryx.runtime.RuntimePluginSpec.if modules=[], then buildSucceeds=true and runSucceeds=true with Gradle 7.6
+https://github.com/beryx/badass-runtime-plugin,029f6090dbea5b69043dd8d405e8f06c8d16d7fa,.,org.beryx.runtime.RuntimePluginSpec.if modules=[java.base], then buildSucceeds=true and runSucceeds=false with Gradle 7.0
+https://github.com/beryx/badass-runtime-plugin,029f6090dbea5b69043dd8d405e8f06c8d16d7fa,.,org.beryx.runtime.RuntimePluginSpec.if modules=[java.naming], then buildSucceeds=true and runSucceeds=false with Gradle 7.0
+https://github.com/beryx/badass-runtime-plugin,029f6090dbea5b69043dd8d405e8f06c8d16d7fa,.,org.beryx.runtime.RuntimePluginSpec.if modules=[java.naming, java.xml], then buildSucceeds=true and runSucceeds=true with Gradle 7.6
+https://github.com/beryx/badass-runtime-plugin,029f6090dbea5b69043dd8d405e8f06c8d16d7fa,.,org.beryx.runtime.RuntimePluginSpec.if modules=[java.naming, java.xml, java.logging], then buildSucceeds=true and runSucceeds=true with Gradle 7.0
+https://github.com/beryx/badass-runtime-plugin,029f6090dbea5b69043dd8d405e8f06c8d16d7fa,.,org.beryx.runtime.SuggestModulesSpec.should suggest the correct list of modules
+https://github.com/esuau/microservice-deploy,91c0bc6918e7c9e7e8ee138761bef01d2a540f61,.,io.esuau.controllers.StatusControllerSpec.test status response
+https://github.com/gradle/gradle-smart-snapshotting,3535b6b5351c8b0b947115c5165122ececa284b0,.,org.gradle.snapshotting.SnapshotterTest.recognizes runtime classpath inside war file
+https://github.com/gradle/gradle-smart-snapshotting,3535b6b5351c8b0b947115c5165122ececa284b0,.,org.gradle.snapshotting.SnapshotterTest.can ignore ordering, comments and commitId in properties
+https://github.com/yoomoney/gradle-project-plugin,e659b70173c1963379369e245c9e83527c215e45,.,ru.yoomoney.gradle.plugins.gradleproject.GradleProjectPluginSpec.should publish gradle plugin
+https://github.com/yoomoney/gradle-project-plugin,e659b70173c1963379369e245c9e83527c215e45,.,ru.yoomoney.gradle.plugins.gradleproject.GradleProjectPluginSpec.should contains tasks
+https://github.com/yoomoney/gradle-project-plugin,e659b70173c1963379369e245c9e83527c215e45,.,ru.yoomoney.gradle.plugins.gradleproject.GradleProjectPluginSpec.release task should depend on predefined release tasks
+https://github.com/victornc83/sb-demo,5330aa72bed9710485fc292956af94a51e15f420,.,com.victornieto.SbDemoApplicationTests.contextLoads
+https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFileWithAppend
+https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFileWithAppendDefault
+https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFileWithSlicingOptions
+https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFile
+https://github.com/sloenthran/CognifideRecruitment,57472ebf02424214de015113ae6508624fae8a88,.,pl.nogacz.cognifide.controller.BookDetailsControllerTest.getBooks
+https://github.com/sloenthran/CognifideRecruitment,57472ebf02424214de015113ae6508624fae8a88,.,pl.nogacz.cognifide.controller.BookCategoryControllerTest.getCategory
+https://github.com/sloenthran/CognifideRecruitment,57472ebf02424214de015113ae6508624fae8a88,.,pl.nogacz.cognifide.controller.BookCategoryControllerTest.getBooksFromCategory
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[1]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[2]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[3]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[4]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[5]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[6]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[7]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[8]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[9]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[10]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[11]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[12]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[13]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[14]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[15]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[16]
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.EntityToSchemaMapperTest.testMapAsLinks()
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.EntityToSchemaMapperTest.testLink()
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.EntityToSchemaMapperTest.testMapAsDataItem()
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.EntityToSchemaMapperTest.testUriTemplate()
+https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.EntityToSchemaMapperTest.testMapAsExposed()
+https://github.com/mgm-tp/gradle-libactivity-plugin,80a5dd63bbbb38e89c25c967933d9e8030ea1d92,.,com.mgmtp.gradle.libactivity.plugin.LibActivityPluginFunctionalTest.test Xclude
+https://github.com/mgm-tp/gradle-libactivity-plugin,80a5dd63bbbb38e89c25c967933d9e8030ea1d92,.,com.mgmtp.gradle.libactivity.plugin.LibActivityPluginFunctionalTest.test LOCAL CONFIG REDUNDANCY report
+https://github.com/mgm-tp/gradle-libactivity-plugin,80a5dd63bbbb38e89c25c967933d9e8030ea1d92,.,com.mgmtp.gradle.libactivity.plugin.LibActivityPluginFunctionalTest.test JSON output for file only
+https://github.com/mgm-tp/gradle-libactivity-plugin,80a5dd63bbbb38e89c25c967933d9e8030ea1d92,.,com.mgmtp.gradle.libactivity.plugin.LibActivityPluginFunctionalTest.test UNKNOWN category
+https://github.com/mgm-tp/gradle-libactivity-plugin,80a5dd63bbbb38e89c25c967933d9e8030ea1d92,.,com.mgmtp.gradle.libactivity.plugin.LibActivityPluginFunctionalTest.test JSON output
+https://github.com/mgm-tp/gradle-libactivity-plugin,80a5dd63bbbb38e89c25c967933d9e8030ea1d92,.,com.mgmtp.gradle.libactivity.plugin.LibActivityPluginFunctionalTest.test UNKNOWN_VERSION category
+https://github.com/azurite-engine/Azurite,62cb6fbdf1fa6a23cba7c9f012130c34cfeebbb7,.,io.xml.XMLParserTest.parse
+https://github.com/chatterjeesunit/java-playground,d57e72c94251ff435a689595c2cab2b3599c761c,.,com.util.jwt.JWTDemoTest$JWTCreationTests.shouldGenerateDifferentJWTIdEachTime()
+https://github.com/shipkit/shipkit-changelog,2e3b85027949d6bf5ea57ac7225382eea54c51bf,.,org.shipkit.changelog.GithubTicketFetcherIntegTest.fetches from Github without token
+https://github.com/bruzina/endecapi,02e6c13a33aba46c5abf30277bf02605eff276ee,.,cz.bruzina.endecapi.CryptControllerIT.getDefault()
+https://github.com/approvals/ApprovalTests.java.StarterProject.gradle,27b7dae34c97ac060d3166a9afc4163957dc7b61,.,org.samples.SampleTests.testJson()
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.descriptor.Xsd1_8Test.testGenerate
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.descriptor.Xsd1_2Test.testGenerate
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.descriptor.Xsd1_7Test.testGenerate
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.descriptor.Xsd1_1Test.testGenerate
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.descriptor.Xsd1_9Test.testGenerate
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_0Test.testModuleTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_0Test.testExports
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_0Test.testResources
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_5Test.testResources
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_5Test.testModuleTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_5Test.testExports
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_5Test.testDependencies
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_5Test.testPermissionsTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossServerTest.testUndeploy
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_7Test.testResources
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_7Test.testModuleTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_7Test.testExports
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_7Test.testMake
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_7Test.testPermissionsTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_9Test.testResources
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_9Test.testModuleTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_9Test.testProvidesTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_9Test.testDependencies
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_9Test.testExports
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_9Test.testMake
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_9Test.testPermissionsTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_3Test.testResources
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_3Test.testModuleTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_3Test.testExports
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_3Test.testMake
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_3Test.testDependencies
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_3Test.testPermissionsTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_1Test.testModuleTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_1Test.testExports
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_1Test.testResources
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_1Test.testDependencies
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_6Test.testResources
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_6Test.testModuleTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_6Test.testExports
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_6Test.testDependencies
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_6Test.testPermissionsTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_8Test.testResources
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_8Test.testModuleTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_8Test.testDependencies
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_8Test.testExports
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_8Test.testPermissionsTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_2Test.testModuleTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_2Test.testDeploy
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_2Test.testExports
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_2Test.testResources
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_2Test.testMake
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_2Test.testDependencies
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_2Test.testPermissionsTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.task.TasksTest.greeterPluginAddsGreetingTaskToProject
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.descriptor.Xsd1_3Test.testGenerate
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.descriptor.Xsd1_0Test.testGenerate
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.descriptor.Xsd1_6Test.testGenerate
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_0Test.testMake
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_7Test.testDependencies
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_3Test.testDeploy
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_1Test.testDeploy
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_6Test.testMake
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_8Test.testProvidesTag
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_8Test.testMake
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.descriptor.Xsd1_5Test.testGenerate
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_5Test.testMake
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_7Test.testDeploy
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_9Test.testDeploy
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_1Test.testMake
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_8Test.testDeploy
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_6Test.testDeploy
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_0Test.testDeploy
+https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_5Test.testDeploy
+https://github.com/pazzesko/pokemon-alea,bd33e139d8e162c7d96811451d45b3f45963470c,application,com.example.pokemonalea.application.service.PokemonControllerTest.getTopWeightPokemon()
+https://github.com/pazzesko/pokemon-alea,bd33e139d8e162c7d96811451d45b3f45963470c,application,com.example.pokemonalea.application.service.PokemonControllerTest.getTopHeightPokemon()
+https://github.com/pazzesko/pokemon-alea,bd33e139d8e162c7d96811451d45b3f45963470c,application,com.example.pokemonalea.application.service.PokemonControllerTest.getTopBaseExperiencePokemon()
+https://github.com/pazzesko/pokemon-alea,bd33e139d8e162c7d96811451d45b3f45963470c,application,com.example.pokemonalea.application.service.PokemonControllerTest.getPokemonByIdWhenExists()
+https://github.com/pazzesko/pokemon-alea,bd33e139d8e162c7d96811451d45b3f45963470c,application,com.example.pokemonalea.application.service.PokemonControllerTest.getRandomPokemon()
+https://github.com/pazzesko/pokemon-alea,bd33e139d8e162c7d96811451d45b3f45963470c,application,com.example.pokemonalea.application.service.PokemonControllerTest.getAllPokemon()
+https://github.com/pazzesko/pokemon-alea,bd33e139d8e162c7d96811451d45b3f45963470c,application,com.example.pokemonalea.application.service.PokemonControllerTest.createPokemon()
+https://github.com/romalev/reactive-spring-web-flux-service,19e64d356840720f78b50bd4c08cf5a1d7391834,.,com.reactive.service.ApplicationTester.verifyAddOperationOnSuccess
+https://github.com/romalev/reactive-spring-web-flux-service,19e64d356840720f78b50bd4c08cf5a1d7391834,.,com.reactive.service.ApplicationTester.verifyPowerOf2SubSqrtOperationOnSuccess
+https://github.com/romalev/reactive-spring-web-flux-service,19e64d356840720f78b50bd4c08cf5a1d7391834,.,com.reactive.service.ApplicationTester.verifySubOperationOnSuccess
+https://github.com/romalev/reactive-spring-web-flux-service,19e64d356840720f78b50bd4c08cf5a1d7391834,.,com.reactive.service.ApplicationTester.verifyMultiplyOperationOnSuccess
+https://github.com/romalev/reactive-spring-web-flux-service,19e64d356840720f78b50bd4c08cf5a1d7391834,.,com.reactive.service.ApplicationTester.verifyDivideOperationOnSuccess
+https://github.com/pavankovurru/Selenium_UI_Automation_Framework,4535834800ffe4d17e031484ea17a719fafb2d65,.,com.company.project.LoginTest.validateLogin
+https://github.com/yoomoney/java-artifact-publish-plugin,f0e2fd9f693afdaf9dfd2d4a8b391fd47b3996fc,.,ru.yoomoney.gradle.plugins.javapublishing.PublishingTest.should publish
+https://github.com/yoomoney/java-artifact-publish-plugin,f0e2fd9f693afdaf9dfd2d4a8b391fd47b3996fc,.,ru.yoomoney.gradle.plugins.javapublishing.PublishingTest.should signing
+https://github.com/yoomoney/java-artifact-publish-plugin,f0e2fd9f693afdaf9dfd2d4a8b391fd47b3996fc,.,ru.yoomoney.gradle.plugins.javapublishing.PublishingTest.should not signing snapshot version
+https://github.com/uPortal-Project/uPortal,7bda80186e182846799d0e887cc36d3395de67e7,uPortal-webapp,org.apereo.portal.io.xml.IdentityImportExportTest.testStylesheetDescriptor40ImportExport
+https://github.com/uPortal-Project/uPortal,7bda80186e182846799d0e887cc36d3395de67e7,uPortal-webapp,org.apereo.portal.redirect.PortletRedirectionControllerTest.testExternalUrl
+https://github.com/uPortal-Project/uPortal,7bda80186e182846799d0e887cc36d3395de67e7,uPortal-webapp,org.apereo.portal.events.tincan.json.LrsDataModelSerializeTest.testLrsStatementSerialize
+https://github.com/uPortal-Project/uPortal,7bda80186e182846799d0e887cc36d3395de67e7,uPortal-webapp,org.apereo.portal.events.tincan.json.LrsDataModelSerializeTest.testLrsActorSerialize
+https://github.com/uPortal-Project/uPortal,7bda80186e182846799d0e887cc36d3395de67e7,uPortal-webapp,org.apereo.portal.events.tincan.json.LrsDataModelSerializeTest.testLrsObjectSerialize
+https://github.com/uPortal-Project/uPortal,7bda80186e182846799d0e887cc36d3395de67e7,uPortal-webapp,org.apereo.portal.events.AnalyticsIncorporationComponentEventSerializationTest.testMixinNoCopy
+https://github.com/uPortal-Project/uPortal,7bda80186e182846799d0e887cc36d3395de67e7,uPortal-webapp,org.apereo.portal.events.AnalyticsIncorporationComponentEventSerializationTest.testEventFiltering
+https://github.com/opendistro-for-elasticsearch/anomaly-detection,df9c89b6e4bf23c84014959d071353f641d0bd91,.,com.amazon.opendistroforelasticsearch.ad.ml.ModelManagerTests.maintenance_returnExpectedToListener_forThresholdModel
+https://github.com/rvbabilonia/beta-dog,25a0bd1f0b42f64fedbf06a349466b9d991ca0b2,.,org.vincenzolabs.betadog.controller.ScrapeControllerTest.getInstruments()
+https://github.com/aim42/htmlSanityCheck,01aa2e7afa082aa07e23d90444a9cb66bbd06525,.,org.aim42.htmlsanitycheck.check.BrokenCrossReferencesCheckerTest.testTwoBrokenLinks
+https://github.com/jk1/Gradle-License-Report,877442e3897bd6f5588e013435f1f4d6f75059b0,.,com.github.jk1.license.ProjectBuilderSpec.it creates modules with license-files
+https://github.com/jk1/Gradle-License-Report,877442e3897bd6f5588e013435f1f4d6f75059b0,.,com.github.jk1.license.filter.LicenseBundleNormalizerSpec.The regular expression must be matched
+https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileWithWrongScalaVersion
+https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileWithoutScalaLibrary
+https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileScalaClassFilesAreIncludedInJarFiles
+https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileTestScalaDependsOnCompileScala
+https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileDottyProjects
+https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileScalaWorksWithScala213
+https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileScalaWorksWithScala301
+https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileScalaProducesClassFiles
+https://github.com/sogis/gretl,872d44b3b1118d1aacdeb541a670b5da8166aab8,gretl,ch.so.agi.gretl.steps.PublisherStepFile2LocalTest.file_regionsList
+https://github.com/sogis/gretl,872d44b3b1118d1aacdeb541a670b5da8166aab8,gretl,ch.so.agi.gretl.steps.PublisherStepFile2LocalTest.file_groomHistory
+https://github.com/sogis/gretl,872d44b3b1118d1aacdeb541a670b5da8166aab8,gretl,ch.so.agi.gretl.steps.PublisherStepFile2LocalTest.file_regionsRegEx
+https://github.com/sogis/gretl,872d44b3b1118d1aacdeb541a670b5da8166aab8,gretl,ch.so.agi.gretl.steps.PublisherStepFile2LocalTest.file_newExistingHistory_fail
+https://github.com/sogis/gretl,872d44b3b1118d1aacdeb541a670b5da8166aab8,gretl,ch.so.agi.gretl.steps.PublisherStepFile2LocalTest.file_overwriteAktuell
+https://github.com/sogis/gretl,872d44b3b1118d1aacdeb541a670b5da8166aab8,gretl,ch.so.agi.gretl.steps.PublisherStepFile2LocalTest.file_allNew_userFormat
+https://github.com/sogis/gretl,872d44b3b1118d1aacdeb541a670b5da8166aab8,gretl,ch.so.agi.gretl.steps.PublisherStepFile2LocalTest.file_allNew
+https://github.com/sogis/gretl,872d44b3b1118d1aacdeb541a670b5da8166aab8,gretl,ch.so.agi.gretl.steps.PublisherStepFile2LocalTest.file_allNew_groom
+https://github.com/sogis/gretl,872d44b3b1118d1aacdeb541a670b5da8166aab8,gretl,ch.so.agi.gretl.steps.PublisherStepFile2LocalTest.file_firstHistory
+https://github.com/sogis/gretl,872d44b3b1118d1aacdeb541a670b5da8166aab8,gretl,ch.so.agi.gretl.steps.PublisherStepFile2LocalTest.file_regionsUpdate
+https://github.com/gbzarelli/quaklog-api,fae981b8c32397dd5c588f0fd6ba2585a0496d6b,core,br.com.helpdev.quaklog.entity.GameTest.shouldBuildGameWithSuccess()
+https://github.com/yahoo/parsec-libraries,142bc4c95a8ca7b8c82f7f95d8144cb6d4bc2096,parsec-logging,com.yahoo.parsec.logging.LogUtilTest.test generateLog with custom data object should return info contain custom json data
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.StructLoggerKeyValueTests.loggingMultipleHashMapKeyValuesTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.StructLoggerKeyValueTests.loggingHashMapKeyValuesTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.StructLoggerKeyValueTests.loggingAtDebugTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.StructLoggerKeyValueTests.logContextUnbindTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.StructLoggerKeyValueTests.loggingAtErrorTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.StructLoggerKeyValueTests.loggingAtTraceTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.StructLoggerKeyValueTests.loggingAtInfoTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.StructLoggerKeyValueTests.logNewContextBindingTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.StructLoggerKeyValueTests.loggingAtWarnTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.StructLoggerKeyValueTests.logContextBindUpdatesTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.StructLoggerKeyValueTests.loggingMixedAllowedLoggableObjectsTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.YAMLRendererTests.loggingAtDebugTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.YAMLRendererTests.loggingAtErrorTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.YAMLRendererTests.loggingAtTraceTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.YAMLRendererTests.loggingAtInfoTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.YAMLRendererTests.loggingAtWarnTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.StructLoggerConfigTests.contextSupplierTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.HelperUtilsTests.mapToObjectArrayTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.JSONRendererTests.loggingAtDebugTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.JSONRendererTests.loggingAtErrorTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.JSONRendererTests.loggingAtTraceTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.JSONRendererTests.loggingAtInfoTest
+https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.JSONRendererTests.loggingAtWarnTest
+https://github.com/themoment-team/K2-server,c93e1ad31d4619f4b972e9d8d6fdc15c99fa2c55,.,com.moment.the.controller.release.UncomfortableControllerTest.top30_검증()
+https://github.com/RoRoche/plantuml-gradle-plugin,65485a09c32f7ac58bd758bfa273bdf701636d74,.,com.github.roroche.plantuml.diagrams.PrintDiagramTest.produceTests()[1]
+https://github.com/RoRoche/plantuml-gradle-plugin,65485a09c32f7ac58bd758bfa273bdf701636d74,.,com.github.roroche.plantuml.diagrams.ClassDiagramTest.produceTests()[1]
+https://github.com/RoRoche/plantuml-gradle-plugin,65485a09c32f7ac58bd758bfa273bdf701636d74,.,com.github.roroche.plantuml.BuildClassDiagramTaskTest.produceTests()[2]
+https://github.com/RoRoche/plantuml-gradle-plugin,65485a09c32f7ac58bd758bfa273bdf701636d74,.,com.github.roroche.plantuml.diagrams.ClassDiagramTest.produceTests()[2]
+https://github.com/heinrichmarkus/delphi-build-plugin,39170f16e0ef0b8d5409c034b0278952f8adc351,.,de.heinrichmarkus.gradle.delphi.utils.zip.ZipAdapterTest.toMappingSimpleDirToSubdir
+https://github.com/heinrichmarkus/delphi-build-plugin,39170f16e0ef0b8d5409c034b0278952f8adc351,.,de.heinrichmarkus.gradle.delphi.utils.zip.ZipAdapterTest.toMappingSimpleDir
+https://github.com/michel-kraemer/gradle-download-task,15cf7eecfbc17d2466143828b9b69494c6cb6f2b,.,de.undercouch.gradle.tasks.download.ProxyTest.nonProxyHosts()
+https://github.com/carlos-velasco/JetBrainsAcademy-MusicAdvisor,190d81920d9ccead567808fa0f03cbc5b4a38e63,.,advisor.authentication.SpotifyAccessTokenFetcherTest.givenValidResponse_whenRequestingAccessToken_thenSuccessfulMessagesAndAccessTokenArePrinted()
+https://github.com/carlos-velasco/JetBrainsAcademy-MusicAdvisor,190d81920d9ccead567808fa0f03cbc5b4a38e63,.,advisor.authentication.SpotifyAccessTokenFetcherTest.givenValidResponse_whenRequestingAccessToken_thenCallDoneWithCorrectHeaderAndBody()
+https://github.com/carlos-velasco/JetBrainsAcademy-MusicAdvisor,190d81920d9ccead567808fa0f03cbc5b4a38e63,.,advisor.authentication.SpotifyAccessCodeFetcherTest.givenQueryToRedirectUriContainsAccessCode_whenFetchingTheAccessCode_thenItIsReturned()
+https://github.com/carlos-velasco/JetBrainsAcademy-MusicAdvisor,190d81920d9ccead567808fa0f03cbc5b4a38e63,.,advisor.authentication.SpotifyAccessCodeFetcherTest.givenQueryToRedirectUriDoesNotContainAccessCode_whenFetchingTheAccessCode_thenResponseContainsCorrectMessage()
+https://github.com/theapache64/readgen,808310b1e94c73de1ab0afadad474c5a94fbc41d,.,com.theapache64.readgen.core.CoverGeneratorTest.generateCover
+https://github.com/shopKubernetesSpringboot/cart,22f6f8bf87f885e32a6515a3046144e1e18e6dcc,.,com.dgf.shopcart.rest.handler.CartHandlerTest.add()
+https://github.com/hmcts/cmc-claim-store,af3d8eb1ae48cea7df8ee18aebccaf3237d3c204,email-client,uk.gov.hmcts.cmc.email.sendgrid.SendGridClientTest.testEmptyContent
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.DataPluginFunctionalTest.testTasks[5](wav, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.DataPluginFunctionalTest.testTasks[6](basenames, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[2](processPhoneLabels, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.DataPluginFunctionalTest.testTasks[7](praatPitchExtractor, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[3](alignLabelsWithPrompts, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.DataPluginFunctionalTest.testTasks[8](praatPitchmarker, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.DataPluginFunctionalTest.testTasks[9](pitchmarkConverter, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.DataPluginFunctionalTest.testTasks[10](mcepExtractor, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.DataPluginFunctionalTest.testTasks[11](generateAllophones, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[4](splitPhoneLabelsIntoHalfPhones, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.DataPluginFunctionalTest.testTasks[12](generatePhoneFeatures, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[5](phoneUnitFileMaker, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.DataPluginFunctionalTest.testTasks[13](generateHalfPhoneFeatures, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[6](halfPhoneUnitFileMaker, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginOneShotFunctionalTest.testOneShotBuild
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[10](phoneUnitFeatureComputer, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[11](generatePhoneFeatureDefinitionFile, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[12](halfPhoneUnitFeatureComputer, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[13](generateHalfPhoneFeatureDefinitionFile, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[14](makeBasenameDatagrams, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[15](basenameTimelineMaker, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[16](makeWaveDatagrams, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[17](waveTimelineMaker, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[18](makeMcepDatagrams, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[19](generateMcepTimelineHeader, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[20](mcepTimelineMaker, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[21](phoneFeatureFileMaker, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[22](halfPhoneFeatureFileMaker, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.BasePluginFunctionalTest.testTasks[8](testGeneratePomFileForMavenJavaPublication, false)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[23](f0ContourFeatureFileMaker, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[24](generateAcousticFeatureDefinitionFile, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[25](acousticFeatureFileMaker, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[27](joinCostFileMaker, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[29](cartBuilder, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[30](generateDurationFeatureDescription, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[31](generateF0FeatureDescription, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[32](extractDurationFeatures, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[33](extractF0Features, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[34](trainDurationCart, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[35](trainF0LeftCart, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[36](trainF0MidCart, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[37](trainF0RightCart, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[38](convertDurationCart, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[39](convertF0LeftCart, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[40](convertF0MidCart, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[41](convertF0RightCart, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[43](processResources, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[44](processLegacyResources, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[45](integrationTest, false)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[46](jar, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[47](legacyZip, true)
+https://github.com/marytts/gradle-marytts-voicebuilding-plugin,d0b7ca0cff93ee802cea3fabfb127c320d2a7f44,.,de.dfki.mary.voicebuilding.LegacyPluginFunctionalTest.testTasks[48](legacyDescriptor, true)
+https://github.com/Silverpeas/Silverpeas-Setup,c4563057c824bba65321ae38298339a87cd94cbd,.,org.silverpeas.setup.installation.SilverpeasInstallationTaskTest.testInstall
+https://github.com/Silverpeas/Silverpeas-Setup,c4563057c824bba65321ae38298339a87cd94cbd,.,org.silverpeas.setup.configuration.SilverpeasConfigurationTaskTest.testSilverpeasConfiguration
+https://github.com/Silverpeas/Silverpeas-Setup,c4563057c824bba65321ae38298339a87cd94cbd,.,org.silverpeas.setup.installation.SilverpeasInstallationTaskTest.testInstallJustSilverpeas
+https://github.com/reyerizo/jcstress-gradle-plugin,d1fa0cd11bd48933718e2b7dbc9e846b228c7952,.,com.github.erizo.gradle.JcstressPluginSpec.should include a class from jcstress sourceSet in jcstress jar
+https://github.com/reyerizo/jcstress-gradle-plugin,d1fa0cd11bd48933718e2b7dbc9e846b228c7952,.,com.github.erizo.gradle.JcstressPluginSpec.should include a resource from jcstress sourceSet in jcstress jar
+https://github.com/reyerizo/jcstress-gradle-plugin,d1fa0cd11bd48933718e2b7dbc9e846b228c7952,.,com.github.erizo.gradle.JcstressPluginSpec.should include a class from test sourceSet in jcstress jar when test enabled
+https://github.com/reyerizo/jcstress-gradle-plugin,d1fa0cd11bd48933718e2b7dbc9e846b228c7952,.,com.github.erizo.gradle.JcstressPluginSpec.should not include a class from test sourceSet in jcstress jar when test disabled
+https://github.com/battlecode/battlecode-gradle-plugin,e6c205d8b5210130f4cba5db325aac9a60d2d908,.,org.gradle.GreetingPluginTest.greeterPluginAddsGreetingTaskToProject
+https://github.com/JavaSaBr/RLib,2b2d2383bbb0823af560213519881d1a43930a2a,rlib-network,com.ss.rlib.network.test.DefaultNetworkTest.echoNetworkTest()
+https://github.com/KelinTan/spring-boot-archetype,eb13abce8f7dd3f62ebaca0e42bd69c2be2b4c53,archetype-common,com.kelin.archetype.common.json.JsonConverterTest.testSerialize()
+https://github.com/akud/modular-java-example,438bc99147e45aa3a6c81f5211fdfdbc3641ea9f,authentication-models,com.alexkudlick.authentication.models.AuthenticationRequestTest.testSerialize
+https://github.com/zeroturnaround/gradle-jrebel-plugin,dbbd544bbe36a078d5d5ea2cef56bc34c10476c7,.,org.zeroturnaround.jrebel.gradle.test.IncrementalFunctionalIntegrationTest.testClasspathBlockChangeTriggersRebuild[7]
+https://github.com/zeroturnaround/gradle-jrebel-plugin,dbbd544bbe36a078d5d5ea2cef56bc34c10476c7,.,org.zeroturnaround.jrebel.gradle.test.IncrementalFunctionalIntegrationTest.testWebBlockChangeTriggersRebuild[7]
+https://github.com/zeroturnaround/gradle-jrebel-plugin,dbbd544bbe36a078d5d5ea2cef56bc34c10476c7,.,org.zeroturnaround.jrebel.gradle.test.IncrementalFunctionalIntegrationTest.testAlwaysGenerateChangeTriggersRebuild[7]
+https://github.com/zeroturnaround/gradle-jrebel-plugin,dbbd544bbe36a078d5d5ea2cef56bc34c10476c7,.,org.zeroturnaround.jrebel.gradle.test.IncrementalFunctionalIntegrationTest.testAlwaysGenerateTriggersRebuild[7]
+https://github.com/zeroturnaround/gradle-jrebel-plugin,dbbd544bbe36a078d5d5ea2cef56bc34c10476c7,.,org.zeroturnaround.jrebel.gradle.test.IncrementalFunctionalIntegrationTest.testSecondBuildIsSkippedWhenNoChange[7]
+https://github.com/zeroturnaround/gradle-jrebel-plugin,dbbd544bbe36a078d5d5ea2cef56bc34c10476c7,.,org.zeroturnaround.jrebel.gradle.test.IncrementalFunctionalIntegrationTest.testProjectRootFromCommandLineTriggersRebuild[7]
+https://github.com/zeroturnaround/gradle-jrebel-plugin,dbbd544bbe36a078d5d5ea2cef56bc34c10476c7,.,org.zeroturnaround.jrebel.gradle.test.IncrementalFunctionalIntegrationTest.testRebelXmlDirectoryTriggersRebuild[7]
+https://github.com/zeroturnaround/gradle-jrebel-plugin,dbbd544bbe36a078d5d5ea2cef56bc34c10476c7,.,org.zeroturnaround.jrebel.gradle.test.IncrementalFunctionalIntegrationTest.testShowXmlChangeTriggersRebuild[7]
+https://github.com/prokod/gradle-crossbuild-scala,284758c2a503f72619d582c9f59b564e1c3d9e9b,.,com.github.prokod.gradle.crossbuild.model.DependencyInsightsTest.When findAllNonMatchingScalaVersionDependenciesWithCounterparts given a dependency set it should return correctly
+https://github.com/prezi/gradle-typescript-plugin,6ba5a0e9a846156acc3e3d5fbb7c75d06284d767,.,com.prezi.typescript.gradle.TypeScriptPluginTest.empty project creates stuff
+https://github.com/chkpnt/truststorebuilder-gradle-plugin,f783f38c6e398c6930844186eefdb2b1e7274e7f,.,de.chkpnt.gradle.plugin.truststorebuilder.BuildTrustStoreTaskTest.output folder is generated
+https://github.com/chkpnt/truststorebuilder-gradle-plugin,f783f38c6e398c6930844186eefdb2b1e7274e7f,.,de.chkpnt.gradle.plugin.truststorebuilder.CheckCertsValidationTaskTest.loading a corrupt certificate
+https://github.com/chkpnt/truststorebuilder-gradle-plugin,f783f38c6e398c6930844186eefdb2b1e7274e7f,.,de.chkpnt.gradle.plugin.truststorebuilder.CheckCertsValidationTaskTest.loading a non-certificate
+https://github.com/chkpnt/truststorebuilder-gradle-plugin,f783f38c6e398c6930844186eefdb2b1e7274e7f,.,de.chkpnt.gradle.plugin.truststorebuilder.CheckCertsValidationTaskTest.certificate letsencrypt.pem is invalid
+https://github.com/chkpnt/truststorebuilder-gradle-plugin,f783f38c6e398c6930844186eefdb2b1e7274e7f,.,de.chkpnt.gradle.plugin.truststorebuilder.CheckCertsValidationTaskTest.when all certificates are valid nothing happens
+https://github.com/chkpnt/truststorebuilder-gradle-plugin,f783f38c6e398c6930844186eefdb2b1e7274e7f,.,de.chkpnt.gradle.plugin.truststorebuilder.CheckCertsValidationTaskTest.certificate bundle is supported
+https://github.com/chkpnt/truststorebuilder-gradle-plugin,f783f38c6e398c6930844186eefdb2b1e7274e7f,.,de.chkpnt.gradle.plugin.truststorebuilder.TrustStoreBuilderPluginTest.buildTrustStore and checkCertificates tasks are included in lifecycle
+https://github.com/chkpnt/truststorebuilder-gradle-plugin,f783f38c6e398c6930844186eefdb2b1e7274e7f,.,de.chkpnt.gradle.plugin.truststorebuilder.TrustStoreBuilderPluginTest.buildTrustStore task builds a TrustStore
+https://github.com/chkpnt/truststorebuilder-gradle-plugin,f783f38c6e398c6930844186eefdb2b1e7274e7f,.,de.chkpnt.gradle.plugin.truststorebuilder.TrustStoreBuilderPluginTest.buildTrustStore task respects configuration (inputDir)
+https://github.com/chkpnt/truststorebuilder-gradle-plugin,f783f38c6e398c6930844186eefdb2b1e7274e7f,.,de.chkpnt.gradle.plugin.truststorebuilder.TrustStoreBuilderPluginTest.buildTrustStore task respects configuration (include)
+https://github.com/chkpnt/truststorebuilder-gradle-plugin,f783f38c6e398c6930844186eefdb2b1e7274e7f,.,de.chkpnt.gradle.plugin.truststorebuilder.TrustStoreBuilderPluginTest.buildTrustStore task respects configuration (trustStore)
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[1]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[2]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[3]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[4]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[5]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[6]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[7]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[8]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[9]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[10]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[11]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[12]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[13]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[14]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[15]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[16]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[17]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[18]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[19]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[20]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[21]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[22]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[23]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[24]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[25]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[26]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[27]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[28]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[29]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[30]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[31]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[32]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[1]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[2]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[3]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[4]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[5]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[6]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[7]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[8]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[9]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[10]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[11]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[12]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[13]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[14]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[15]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[16]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[17]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[18]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[19]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[20]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[21]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[22]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[23]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[24]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[25]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[26]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[27]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[28]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[29]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[30]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[31]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[32]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[1]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[2]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[3]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[4]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[5]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[6]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[7]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[8]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[9]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[10]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[11]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[12]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[13]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[14]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[15]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[16]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[17]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[18]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[19]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[20]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[21]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[22]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[23]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[24]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[1]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[2]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[3]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[4]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[5]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[6]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[7]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[8]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[9]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[10]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[11]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[12]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[13]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[14]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[15]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[16]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[17]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[18]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[19]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[20]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[21]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[22]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[23]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[24]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[25]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[26]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[27]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[28]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[29]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[30]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[31]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[32]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[1]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[2]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[3]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[4]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[5]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[6]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[7]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[8]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[9]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[10]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[11]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[12]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[13]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[14]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[15]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[16]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[17]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[18]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[19]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[20]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[21]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[22]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[23]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[24]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[25]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[26]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[27]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[28]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[29]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[30]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[31]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[32]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[1]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[2]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[3]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[4]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[5]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[6]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[7]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[8]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[9]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[10]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[11]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[12]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[13]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[14]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[15]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[16]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[17]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[18]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[19]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[20]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[21]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[22]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[23]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[24]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[25]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[26]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[27]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[28]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[29]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[30]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[31]
+https://github.com/java9-modularity/gradle-modules-plugin,cc1f0fdc1e6aadfb1054ae2373fd10b1d5da2b6b,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[32]
+https://github.com/tkgregory/gradle-pandoc-plugin,5f57bb7c8d03a82235155ebc12e1e1028a2711e0,.,com.tomgregory.gradle.pandoc.PandocPluginFunctionalTest.builds complex PDF with custom Docker image
+https://github.com/micronaut-projects/micronaut-build,698e2d097571a040e37cc4a81625a5bcf825cbe1,.,io.micronaut.build.compat.VersionCatalogCompatibilityCheckTest.compares version catalogs
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.DiffMessageFormatterTest.longFile()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.DiffMessageFormatterTest.customRunToFixMessage()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.DiffMessageFormatterTest.multipleFiles()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.DiffMessageFormatterTest.lineEndingProblem()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.DiffMessageFormatterTest.manyFiles()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.DiffMessageFormatterTest.whitespaceProblem()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.DiffMessageFormatterTest.manyManyFiles()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.FileTreeTest.relativePathDoes()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.FileTreeTest.absolutePathDoesntWork()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.PaddedCellTaskTest.paddedCellApplyCheck()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.PaddedCellTaskTest.paddedCellCheckCycleFailureMsg()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.PaddedCellTaskTest.paddedCellCheckConvergeFailureMsg()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,testlib,com.diffplug.spotless.java.FormatAnnotationsStepTest.equality()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,testlib,com.diffplug.spotless.json.JsonSimpleStepTest.handlesObjectWithNull()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,testlib,com.diffplug.spotless.json.JsonSimpleStepTest.handlesComplexNestedObject()
+https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,testlib,com.diffplug.spotless.json.JsonSimpleStepTest.handlesNestedObject()
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.ShadowPluginSpec.Compatible with Gradle 7.0
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.ShadowPluginSpec.minimize by keeping only transitive dependencies
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.ShadowPluginSpec.exclude a dependency from minimize
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.ShadowPluginSpec.exclude a project from minimize
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.ShadowPluginSpec.exclude a project from minimize - shall not exclude transitive dependencies that are used in subproject
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.ShadowPluginSpec.exclude a project from minimize - shall not exclude transitive dependencies from subproject that are not used
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.ShadowPluginSpec.use minimize with dependencies with api scope
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.ShadowPluginSpec.use minimize with transitive dependencies with api scope
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.ShadowPluginSpec.include java-library configurations by default
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.ShadowPluginSpec.api project dependency with version
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.transformers.ServiceFileTransformerSpec.non-excluded path META-INF/services/io.dropwizard.logging.AppenderFactory can be transformed
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.transformers.ServiceFileTransformerSpec.excluded path META-INF/services/org.apache.maven.Shade can not be transformed
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.transformers.ServiceFileTransformerSpec.non-excluded path META-INF/services/foo/bar/moo.goo.Zoo can be transformed
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.transformers.ServiceFileTransformerSpec.non-excluded path foo/bar.properties can not be transformed
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.transformers.ServiceFileTransformerSpec.non-excluded path foo.props can not be transformed
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.transformers.ServiceFileTransformerSpec.transforms service file [path: META-INF/services/com.acme.Foo, input1: foo, input2: bar, output: foo
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,bar, #0]
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.transformers.ServiceFileTransformerSpec.transforms service file [path: META-INF/services/com.acme.Bar, input1: foo
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,bar, input2: zoo, output: foo
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,bar
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,zoo, #1]
+https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58,.,com.github.jengelman.gradle.plugins.shadow.transformers.ServiceFileTransformerSpec.excludes Groovy extension module descriptor files by default
+https://github.com/gatling/gatling-gradle-plugin,b48ca4d7b0ed8fcd7a82a4bfa2e859f1a11a9d93,.,func.WhenPackageSpec.should successfully create a package for gradle version 7.0
+https://github.com/gatling/gatling-gradle-plugin,b48ca4d7b0ed8fcd7a82a4bfa2e859f1a11a9d93,.,func.WhenPackageSpec.should successfully create a package for gradle version 7.4.2
+https://github.com/platan/idea-gradle-dependencies-formatter,d680ac8f63ad878326013c16d172dd281d07b208,.,com.github.platan.idea.dependencies.MavenToGradleConverterTest.maven dependency with two unsupported elements
+https://github.com/makiftutuncu/exchange,d612711036ac76b5eea43ec2d1fa49d649166809,.,dev.akif.exchange.conversion.impl.ConversionControllerTest.listingConversionsReturnsConversions()
+https://github.com/makiftutuncu/exchange,d612711036ac76b5eea43ec2d1fa49d649166809,.,dev.akif.exchange.conversion.impl.ConversionControllerTest.creatingANewConversionReturnsCreatedConversion()
+https://github.com/makiftutuncu/exchange,d612711036ac76b5eea43ec2d1fa49d649166809,.,dev.akif.exchange.conversion.impl.ConversionControllerTest.gettingAConversionReturnsConversion()
+https://github.com/makiftutuncu/exchange,d612711036ac76b5eea43ec2d1fa49d649166809,.,dev.akif.exchange.rate.impl.RateControllerTest.gettingRatesReturnsRates()
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MaxSupportedVersionTest$ClassExample6.initializationError
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MaxSupportedVersionTest.annotated_class_6()
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MinSupportedVersionTest.annotated_class_5()
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MinSupportedVersionTest.annotated_class_6()
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MaxSupportedGradleVersionTest.annotated_class_7()
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MaxSupportedVersionTest$ClassExample5.initializationError
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MinSupportedVersionTest$ClassExample5.initializationError
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MinSupportedVersionTest$ClassExample6.initializationError
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MinSupportedVersionTest$ClassExample7.initializationError
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MaxSupportedVersionTest$ClassExample7.initializationError
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MaxSupportedVersionTest.annotated_class_7()
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MinSupportedGradleVersionTest.annotated_class_7()
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,testkit,name.remal.gradle_plugins.toolkit.testkit.MaxSupportedGradleVersionTest.annotated_class_6()
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,toolkit,name.remal.gradle_plugins.toolkit.ProjectUtilsTest.newClasspathFileTree()
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,toolkit,name.remal.gradle_plugins.toolkit.SourceSetUtilsTest.isProcessedBy_AbstractCopyTask()
+https://github.com/remal-gradle-plugins/toolkit,94c6fd7dd4b9f103a0d0c0808e4b3c13a621bd1f,toolkit,name.remal.gradle_plugins.toolkit.SourceSetUtilsTest.isProcessedBy_SourceTask()

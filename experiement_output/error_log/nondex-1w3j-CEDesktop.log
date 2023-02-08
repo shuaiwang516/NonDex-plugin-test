@@ -1,0 +1,420 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:4: error: package javafx.collections does not exist
+import javafx.collections.ListChangeListener;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:5: error: package javafx.collections does not exist
+import javafx.collections.ObservableList;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:6: error: package javafx.geometry does not exist
+import javafx.geometry.Insets;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:7: error: package javafx.geometry does not exist
+import javafx.geometry.Pos;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:8: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:9: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:10: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:11: error: package javafx.scene.image does not exist
+import javafx.scene.image.ImageView;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:12: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.HBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:13: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.Priority;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:14: error: package javafx.scene.paint does not exist
+import javafx.scene.paint.Paint;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:15: error: package javafx.scene.shape does not exist
+import javafx.scene.shape.Rectangle;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:16: error: package javafx.scene.text does not exist
+import javafx.scene.text.Font;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:17: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:24: error: cannot access VBox
+public class CEWindowDecorator extends JFXDecorator {
+       ^
+  class file for javafx.scene.layout.VBox not found
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:26: error: cannot find symbol
+    public CEWindowDecorator (Stage stage, Node node) {
+                              ^
+  symbol:   class Stage
+  location: class CEWindowDecorator
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:26: error: cannot find symbol
+    public CEWindowDecorator (Stage stage, Node node) {
+                                           ^
+  symbol:   class Node
+  location: class CEWindowDecorator
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:30: error: cannot find symbol
+    private CEWindowDecorator (Stage stage, Node node, boolean fullScreen, boolean max, boolean min) {
+                               ^
+  symbol:   class Stage
+  location: class CEWindowDecorator
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEWindowDecorator.java:30: error: cannot find symbol
+    private CEWindowDecorator (Stage stage, Node node, boolean fullScreen, boolean max, boolean min) {
+                                            ^
+  symbol:   class Node
+  location: class CEWindowDecorator
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEFunctions.java:8: error: package javafx.beans.value does not exist
+import javafx.beans.value.ObservableValue;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEFunctions.java:10: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEFunctions.java:11: error: package javafx.scene.control does not exist
+import javafx.scene.control.Tooltip;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEFunctions.java:12: error: package javafx.scene.text does not exist
+import javafx.scene.text.Font;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEFunctions.java:13: error: package javafx.scene.text does not exist
+import javafx.scene.text.FontWeight;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEFunctions.java:42: error: cannot find symbol
+    public static void requestFocus (Node node, int delay) {
+                                     ^
+  symbol:   class Node
+  location: class CEFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEFunctions.java:50: error: cannot find symbol
+    public static Tooltip createTooltip (String message) {
+                  ^
+  symbol:   class Tooltip
+  location: class CEFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEFunctions.java:59: error: cannot find symbol
+    public static Tooltip createTooltip () {
+                  ^
+  symbol:   class Tooltip
+  location: class CEFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEFunctions.java:106: error: cannot find symbol
+    public static void initDrawer (JFXDrawer drawer, Node sidemenuButton) {
+                                                     ^
+  symbol:   class Node
+  location: class CEFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEFunctions.java:118: error: cannot find symbol
+    public static void initFocusValidationStyling (TextField textField, boolean startedValidating) {
+                                                   ^
+  symbol:   class TextField
+  location: class CEFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEFunctions.java:146: error: cannot find symbol
+    public static void unfocusedValidationStyling (TextField textField, boolean isValid) {
+                                                   ^
+  symbol:   class TextField
+  location: class CEFunctions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:14: error: package javafx.animation does not exist
+import javafx.animation.Interpolator;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:15: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:16: error: package javafx.scene.paint does not exist
+import javafx.scene.paint.Color;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:17: error: package javafx.util does not exist
+import javafx.util.Duration;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:7: error: package javafx.animation does not exist
+import javafx.animation.KeyFrame;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:8: error: package javafx.animation does not exist
+import javafx.animation.Timeline;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:10: error: package javafx.scene does not exist
+import javafx.scene.SnapshotParameters;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:11: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:12: error: package javafx.scene.image does not exist
+import javafx.scene.image.ImageView;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:13: error: package javafx.scene.image does not exist
+import javafx.scene.image.WritableImage;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:14: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.StackPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:15: error: package javafx.scene.paint does not exist
+import javafx.scene.paint.Color;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:26: error: cannot find symbol
+public class CEAnimatedFlowContainer extends AnimatedFlowContainer implements FlowContainer<StackPane> {
+                                                                                            ^
+  symbol: class StackPane
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:28: error: cannot find symbol
+    private final StackPane view;
+                  ^
+  symbol:   class StackPane
+  location: class CEAnimatedFlowContainer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:29: error: cannot find symbol
+    private final Duration duration;
+                  ^
+  symbol:   class Duration
+  location: class CEAnimatedFlowContainer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:30: error: cannot find symbol
+    private final ImageView placeholder;
+                  ^
+  symbol:   class ImageView
+  location: class CEAnimatedFlowContainer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:31: error: cannot find symbol
+    private Function<CEAnimatedFlowContainer, List<KeyFrame>> animationProducer;
+                                                   ^
+  symbol:   class KeyFrame
+  location: class CEAnimatedFlowContainer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:32: error: cannot find symbol
+    private Timeline animation;
+            ^
+  symbol:   class Timeline
+  location: class CEAnimatedFlowContainer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEContainerAnimations.java:5: error: package javafx.animation does not exist
+import javafx.animation.KeyValue;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:80: error: cannot find symbol
+    @Override public ImageView getPlaceholder () {
+                     ^
+  symbol:   class ImageView
+  location: class CEAnimatedFlowContainer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:84: error: cannot find symbol
+    @Override public Duration getDuration () {
+                     ^
+  symbol:   class Duration
+  location: class CEAnimatedFlowContainer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:88: error: cannot find symbol
+    @Override public StackPane getView () {
+                     ^
+  symbol:   class StackPane
+  location: class CEAnimatedFlowContainer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEAnimatedFlowContainer.java:96: error: cannot find symbol
+    private void updatePlaceholder (Node newView) {
+                                    ^
+  symbol:   class Node
+  location: class CEAnimatedFlowContainer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEContainerAnimations.java:182: error: cannot find symbol
+    private final Function<CEAnimatedFlowContainer, List<KeyFrame>> animationProducer;
+                                                         ^
+  symbol:   class KeyFrame
+  location: class CEContainerAnimations
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEContainerAnimations.java:184: error: cannot find symbol
+    CEContainerAnimations (Function<CEAnimatedFlowContainer, List<KeyFrame>> animationProducer) {
+                                                                  ^
+  symbol:   class KeyFrame
+  location: class CEContainerAnimations
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/datafx/CEContainerAnimations.java:188: error: cannot find symbol
+    public Function<CEAnimatedFlowContainer, List<KeyFrame>> getAnimationProducer () {
+                                                  ^
+  symbol:   class KeyFrame
+  location: class CEContainerAnimations
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEValidEmailValidator.java:4: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextInputControl;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEValidEmailValidator.java:12: error: cannot access Parent
+public class CEValidEmailValidator extends ValidatorBase {
+       ^
+  class file for javafx.scene.Parent not found
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:62: error: cannot find symbol
+                    Interpolator INTERPOLATOR = Interpolator.SPLINE(0.4, 0.0, 0.2, 1);
+                    ^
+  symbol:   class Interpolator
+  location: interface MaterialDesign
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:63: error: cannot find symbol
+                    Duration DURATION = Duration.millis(270);
+                    ^
+  symbol:   class Duration
+  location: interface MaterialDesign
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:250: error: cannot find symbol
+            Image ICON16X16 = new Image("/images/logos/logo-16x16.png");
+            ^
+  symbol:   class Image
+  location: interface Icons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:251: error: cannot find symbol
+            Image ICON28X28 = new Image("/images/logos/logo-28x28.png");
+            ^
+  symbol:   class Image
+  location: interface Icons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:252: error: cannot find symbol
+            Image ICON56X56 = new Image("/images/logos/logo-56x56.png");
+            ^
+  symbol:   class Image
+  location: interface Icons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:253: error: cannot find symbol
+            Image ICON64X64 = new Image("/images/logos/logo-64x64.png");
+            ^
+  symbol:   class Image
+  location: interface Icons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:254: error: cannot find symbol
+            Image ICON128X128 = new Image("/images/logos/logo-128x128.png");
+            ^
+  symbol:   class Image
+  location: interface Icons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:255: error: cannot find symbol
+            Image ICON256X256 = new Image("/images/logos/logo-128x128.png");
+            ^
+  symbol:   class Image
+  location: interface Icons
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:263: error: cannot find symbol
+            Color RED = Color.web("#e74c3c");
+            ^
+  symbol:   class Color
+  location: interface Colors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:264: error: cannot find symbol
+            Color RED_HOVER = Color.web("#e53f2e");
+            ^
+  symbol:   class Color
+  location: interface Colors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:265: error: cannot find symbol
+            Color YELLOW = Color.web("#f1c40f");
+            ^
+  symbol:   class Color
+  location: interface Colors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:266: error: cannot find symbol
+            Color YELLOW_HOVER = Color.web("#ffcc00");
+            ^
+  symbol:   class Color
+  location: interface Colors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:267: error: cannot find symbol
+            Color WHITE = Color.web("#ecf0f1");
+            ^
+  symbol:   class Color
+  location: interface Colors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:268: error: cannot find symbol
+            Color BLACK = Color.web("#333333");
+            ^
+  symbol:   class Color
+  location: interface Colors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:269: error: cannot find symbol
+            Color BACKGROUND = Color.web("#dddddd");
+            ^
+  symbol:   class Color
+  location: interface Colors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:270: error: cannot find symbol
+            Color TEXT_COLOR = Color.web("#595959");
+            ^
+  symbol:   class Color
+  location: interface Colors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/utils/CEConstants.java:271: error: cannot find symbol
+            Color BORDER_COLOR = Color.web("#b1b1b1");
+            ^
+  symbol:   class Color
+  location: interface Colors
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/CEDesktopApp.java:14: error: package javafx.application does not exist
+import javafx.application.Application;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/CEDesktopApp.java:15: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/CEDesktopApp.java:17: error: package javafx.scene.text does not exist
+import javafx.scene.text.Font;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/CEDesktopApp.java:29: error: cannot find symbol
+public class CEDesktopApp extends Application {
+                                  ^
+  symbol: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/CEDesktopApp.java:33: error: cannot find symbol
+    private Scene ceScene;
+            ^
+  symbol:   class Scene
+  location: class CEDesktopApp
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/CEDesktopApp.java:34: error: cannot find symbol
+    private Stage ceStage;
+            ^
+  symbol:   class Stage
+  location: class CEDesktopApp
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/CEDesktopApp.java:36: error: cannot find symbol
+    private StackPane root;
+            ^
+  symbol:   class StackPane
+  location: class CEDesktopApp
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/CEDesktopApp.java:47: error: cannot find symbol
+    @Override public void start (Stage ceStage) throws FlowException {
+                                 ^
+  symbol:   class Stage
+  location: class CEDesktopApp
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginSideMenuController.java:10: error: package javafx.application does not exist
+import javafx.application.Platform;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginSideMenuController.java:12: error: package javax.annotation does not exist
+import javax.annotation.PostConstruct;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:23: error: package javafx.application does not exist
+import javafx.application.Platform;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:24: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:25: error: package javafx.scene.control does not exist
+import javafx.scene.control.Tooltip;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:26: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.BorderPane;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:29: error: package javafx.scene.shape does not exist
+import javafx.scene.shape.Rectangle;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:30: error: package javafx.scene.text does not exist
+import javafx.scene.text.Text;
+                        ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:32: error: package javax.annotation does not exist
+import javax.annotation.PostConstruct;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:57: error: cannot find symbol
+    @ViewNode (CEConstants.CE.App.Login.PANE_WRAPPER) private StackPane paneWrapper;
+                                                              ^
+  symbol:   class StackPane
+  location: class LoginController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:58: error: cannot find symbol
+    @ViewNode (CEConstants.CE.App.Login.PANE) private BorderPane loginPane;
+                                                      ^
+  symbol:   class BorderPane
+  location: class LoginController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:59: error: cannot find symbol
+    @ViewNode (CEConstants.CE.App.Login.TITLE_PANE) private HBox loginTitlePane;
+                                                            ^
+  symbol:   class HBox
+  location: class LoginController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:60: error: cannot find symbol
+    @ViewNode (CEConstants.CE.App.Login.LOGO_PANE) private HBox loginLogoPane;
+                                                           ^
+  symbol:   class HBox
+  location: class LoginController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:61: error: cannot find symbol
+    @ViewNode (CEConstants.CE.App.Login.LOGO_TEXT_FIRST) private Text loginLogoPaneFirst;
+                                                                 ^
+  symbol:   class Text
+  location: class LoginController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:62: error: cannot find symbol
+    @ViewNode (CEConstants.CE.App.Login.LOGO_TEXT_SECOND) private Text loginLogoPaneSecond;
+                                                                  ^
+  symbol:   class Text
+  location: class LoginController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:63: error: cannot find symbol
+    @ViewNode (CEConstants.CE.App.Login.APP_LINKS_PANE) private HBox loginAppLinksPane;
+                                                                ^
+  symbol:   class HBox
+  location: class LoginController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task593/wd/NonDex-plugin-test/github.com/1w3j/CEDesktop/src/main/java/com/ce/desktop/controllers/login/LoginController.java:67: error: cannot find symbol
+    @ViewNode (CEConstants.CE.App.Login.AUTH_PANE) private StackPane authPane;
+                                                           ^
+  symbol:   class StackPane
+  location: class LoginController
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

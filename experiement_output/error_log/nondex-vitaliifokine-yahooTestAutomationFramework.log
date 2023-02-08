@@ -1,0 +1,24 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task509/wd/NonDex-plugin-test/github.com/vitaliifokine/yahooTestAutomationFramework/src/main/java/pages/LoginPage.java:16: error: cannot find symbol
+        $("#login-username").val(user.getUsername());
+                                     ^
+  symbol:   method getUsername()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task509/wd/NonDex-plugin-test/github.com/vitaliifokine/yahooTestAutomationFramework/src/main/java/pages/LoginPage.java:18: error: cannot find symbol
+        $("#login-passwd").val(user.getPassword());
+                                   ^
+  symbol:   method getPassword()
+  location: variable user of type User
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

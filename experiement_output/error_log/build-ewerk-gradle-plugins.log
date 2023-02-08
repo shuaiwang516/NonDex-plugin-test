@@ -1,0 +1,14 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-plugins'.
+> Failed to notify project evaluation listener.
+   > Version 11.0.17 is not within specification: [expect:[1.8, 1.8], description:JDK version rule, type:range, value:11.0.17]. Expression: (lowerVersion.isBelow(version) && upperVersion.isAbove(version))
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

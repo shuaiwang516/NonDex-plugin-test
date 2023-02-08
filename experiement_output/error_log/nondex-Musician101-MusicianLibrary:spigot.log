@@ -1,0 +1,25 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':spigot:compileJava'.
+> Could not resolve all files for configuration ':spigot:compileClasspath'.
+   > Could not find org.spigotmc:spigot:1.18.1-R0.1-SNAPSHOT.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/spigotmc/spigot/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml
+       - https://repo.maven.apache.org/maven2/org/spigotmc/spigot/1.18.1-R0.1-SNAPSHOT/spigot-1.18.1-R0.1-SNAPSHOT.pom
+       - https://hub.spigotmc.org/nexus/content/groups/public/org/spigotmc/spigot/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml
+       - https://hub.spigotmc.org/nexus/content/groups/public/org/spigotmc/spigot/1.18.1-R0.1-SNAPSHOT/spigot-1.18.1-R0.1-SNAPSHOT.pom
+       - file:/root/.m2/repository/org/spigotmc/spigot/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml
+       - file:/root/.m2/repository/org/spigotmc/spigot/1.18.1-R0.1-SNAPSHOT/spigot-1.18.1-R0.1-SNAPSHOT.pom
+     Required by:
+         project :spigot
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s

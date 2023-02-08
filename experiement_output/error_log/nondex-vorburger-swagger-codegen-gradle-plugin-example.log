@@ -1,0 +1,60 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task317/wd/NonDex-plugin-test/github.com/vorburger/swagger-codegen-gradle-plugin-example/src/test/java/io/swagger/petstore/client/jersey1/tests/PetstoreTest.java:6: error: cannot find symbol
+import io.swagger.petstore.client.jersey1.ApiClient;
+                                         ^
+  symbol:   class ApiClient
+  location: package io.swagger.petstore.client.jersey1
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task317/wd/NonDex-plugin-test/github.com/vorburger/swagger-codegen-gradle-plugin-example/src/test/java/io/swagger/petstore/client/jersey1/tests/PetstoreTest.java:7: error: cannot find symbol
+import io.swagger.petstore.client.jersey1.ApiException;
+                                         ^
+  symbol:   class ApiException
+  location: package io.swagger.petstore.client.jersey1
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task317/wd/NonDex-plugin-test/github.com/vorburger/swagger-codegen-gradle-plugin-example/src/test/java/io/swagger/petstore/client/jersey1/tests/PetstoreTest.java:8: error: package io.swagger.petstore.client.jersey1.api does not exist
+import io.swagger.petstore.client.jersey1.api.PetApi;
+                                             ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task317/wd/NonDex-plugin-test/github.com/vorburger/swagger-codegen-gradle-plugin-example/src/test/java/io/swagger/petstore/client/jersey1/tests/PetstoreTest.java:9: error: package io.swagger.petstore.client.jersey1.model does not exist
+import io.swagger.petstore.client.jersey1.model.Pet;
+                                               ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task317/wd/NonDex-plugin-test/github.com/vorburger/swagger-codegen-gradle-plugin-example/src/test/java/io/swagger/petstore/client/jersey1/tests/PetstoreTest.java:13: error: cannot find symbol
+    @Test public void testSomeLibraryMethod() throws ApiException {
+                                                     ^
+  symbol:   class ApiException
+  location: class PetstoreTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task317/wd/NonDex-plugin-test/github.com/vorburger/swagger-codegen-gradle-plugin-example/src/test/java/io/swagger/petstore/client/jersey1/tests/PetstoreTest.java:14: error: cannot find symbol
+		ApiClient apiClient = new ApiClient();
+		^
+  symbol:   class ApiClient
+  location: class PetstoreTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task317/wd/NonDex-plugin-test/github.com/vorburger/swagger-codegen-gradle-plugin-example/src/test/java/io/swagger/petstore/client/jersey1/tests/PetstoreTest.java:14: error: cannot find symbol
+		ApiClient apiClient = new ApiClient();
+		                          ^
+  symbol:   class ApiClient
+  location: class PetstoreTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task317/wd/NonDex-plugin-test/github.com/vorburger/swagger-codegen-gradle-plugin-example/src/test/java/io/swagger/petstore/client/jersey1/tests/PetstoreTest.java:16: error: cannot find symbol
+		PetApi petApi = new PetApi(apiClient);
+		^
+  symbol:   class PetApi
+  location: class PetstoreTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task317/wd/NonDex-plugin-test/github.com/vorburger/swagger-codegen-gradle-plugin-example/src/test/java/io/swagger/petstore/client/jersey1/tests/PetstoreTest.java:16: error: cannot find symbol
+		PetApi petApi = new PetApi(apiClient);
+		                    ^
+  symbol:   class PetApi
+  location: class PetstoreTest
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task317/wd/NonDex-plugin-test/github.com/vorburger/swagger-codegen-gradle-plugin-example/src/test/java/io/swagger/petstore/client/jersey1/tests/PetstoreTest.java:17: error: cannot find symbol
+		Pet pet = petApi.getPetById(1L);
+		^
+  symbol:   class Pet
+  location: class PetstoreTest
+10 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

@@ -1,0 +1,31 @@
+[Fatal Error] gradle-defaults-4.0.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] com.jfrog.bintray.gradle.plugin-1.4.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-defaults-4.0.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] com.jfrog.bintray.gradle.plugin-1.4.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-defaults-4.0.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] com.jfrog.bintray.gradle.plugin-1.4.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] com.gradle.plugin-publish.gradle.plugin-0.9.7.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] com.gradle.plugin-publish.gradle.plugin-0.9.7.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] com.gradle.plugin-publish.gradle.plugin-0.9.7.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] plugin-publish-plugin-0.9.7.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] plugin-publish-plugin-0.9.7.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] plugin-publish-plugin-0.9.7.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gradle-plugin-cq-bundle'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve com.mooregreatsoftware:gradle-defaults:4.0.0.
+     Required by:
+         project :
+      > Could not resolve com.mooregreatsoftware:gradle-defaults:4.0.0.
+         > Could not parse POM http://dl.bintray.com/jmoore/java-lib/com/mooregreatsoftware/gradle-defaults/4.0.0/gradle-defaults-4.0.0.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

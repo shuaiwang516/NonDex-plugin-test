@@ -1,0 +1,54 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/Unthrottled/hazelcast-serialization/src/main/java/io/acari/ComputerRepository.java:6: error: package javax.annotation does not exist
+import javax.annotation.PostConstruct;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/Unthrottled/hazelcast-serialization/src/main/java/io/acari/TimeTrial.java:15: error: package javax.annotation does not exist
+import javax.annotation.PostConstruct;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/Unthrottled/hazelcast-serialization/src/main/java/io/acari/TimeTrial.java:16: error: package javax.annotation does not exist
+import javax.annotation.PreDestroy;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/Unthrottled/hazelcast-serialization/src/main/java/io/acari/ProgrammerRepository.java:9: error: package javax.annotation does not exist
+import javax.annotation.PostConstruct;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/Unthrottled/hazelcast-serialization/src/main/java/io/acari/ProgrammerRepository.java:10: error: package javax.annotation does not exist
+import javax.annotation.PreDestroy;
+                       ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/Unthrottled/hazelcast-serialization/src/main/java/io/acari/ComputerRepository.java:17: error: cannot find symbol
+    @PostConstruct
+     ^
+  symbol:   class PostConstruct
+  location: class ComputerRepository
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/Unthrottled/hazelcast-serialization/src/main/java/io/acari/TimeTrial.java:49: error: cannot find symbol
+    @PreDestroy
+     ^
+  symbol:   class PreDestroy
+  location: class TimeTrial
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/Unthrottled/hazelcast-serialization/src/main/java/io/acari/TimeTrial.java:56: error: cannot find symbol
+    @PostConstruct
+     ^
+  symbol:   class PostConstruct
+  location: class TimeTrial
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/Unthrottled/hazelcast-serialization/src/main/java/io/acari/ProgrammerRepository.java:43: error: cannot find symbol
+    @PostConstruct
+     ^
+  symbol:   class PostConstruct
+  location: class ProgrammerRepository
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task746/wd/NonDex-plugin-test/github.com/Unthrottled/hazelcast-serialization/src/main/java/io/acari/ProgrammerRepository.java:62: error: cannot find symbol
+    @PreDestroy
+     ^
+  symbol:   class PreDestroy
+  location: class ProgrammerRepository
+10 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

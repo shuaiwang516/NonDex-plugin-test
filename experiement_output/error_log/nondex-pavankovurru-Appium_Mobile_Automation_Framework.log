@@ -1,0 +1,71 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task206/wd/NonDex-plugin-test/github.com/pavankovurru/Appium_Mobile_Automation_Framework/src/main/java/com/company/project/page/ios/ActionSheetPage.java:21: error: cannot find symbol
+    appium.returnMobileElementUsingAccessibilityId("UICatalog").click();
+          ^
+  symbol:   method returnMobileElementUsingAccessibilityId(String)
+  location: variable appium of type AppiumUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task206/wd/NonDex-plugin-test/github.com/pavankovurru/Appium_Mobile_Automation_Framework/src/main/java/com/company/project/page/ios/ActionSheetPage.java:26: error: cannot find symbol
+    appium.returnMobileElementUsingAccessibilityId("Action Sheets").click();
+          ^
+  symbol:   method returnMobileElementUsingAccessibilityId(String)
+  location: variable appium of type AppiumUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task206/wd/NonDex-plugin-test/github.com/pavankovurru/Appium_Mobile_Automation_Framework/src/main/java/com/company/project/page/ios/ActionSheetPage.java:31: error: cannot find symbol
+    appium.returnMobileElementUsingAccessibilityId("Search Bars").click();
+          ^
+  symbol:   method returnMobileElementUsingAccessibilityId(String)
+  location: variable appium of type AppiumUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task206/wd/NonDex-plugin-test/github.com/pavankovurru/Appium_Mobile_Automation_Framework/src/main/java/com/company/project/page/ios/ActionSheetPage.java:36: error: cannot find symbol
+    appium.returnMobileElementUsingAccessibilityId("Okay / Cancel").click();
+          ^
+  symbol:   method returnMobileElementUsingAccessibilityId(String)
+  location: variable appium of type AppiumUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task206/wd/NonDex-plugin-test/github.com/pavankovurru/Appium_Mobile_Automation_Framework/src/main/java/com/company/project/page/ios/ActionSheetPage.java:41: error: cannot find symbol
+    appium.returnMobileElementUsingName("OK").click();
+          ^
+  symbol:   method returnMobileElementUsingName(String)
+  location: variable appium of type AppiumUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task206/wd/NonDex-plugin-test/github.com/pavankovurru/Appium_Mobile_Automation_Framework/src/main/java/com/company/project/page/ios/ActionSheetPage.java:46: error: cannot find symbol
+    appium.returnMobileElementUsingName("Cancel").click();
+          ^
+  symbol:   method returnMobileElementUsingName(String)
+  location: variable appium of type AppiumUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task206/wd/NonDex-plugin-test/github.com/pavankovurru/Appium_Mobile_Automation_Framework/src/main/java/com/company/project/page/ios/ActionSheetPage.java:51: error: cannot find symbol
+    return appium.isElementPresentUsingXpath("//XCUIElementTypeApplication[@name=\"UICatalog\"]");
+                 ^
+  symbol:   method isElementPresentUsingXpath(String)
+  location: variable appium of type AppiumUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task206/wd/NonDex-plugin-test/github.com/pavankovurru/Appium_Mobile_Automation_Framework/src/main/java/com/company/project/page/android/AccessibilityPage.java:34: error: cannot find symbol
+        .returnMobileElementPresentUsingXPathAndroid(
+        ^
+  symbol:   method returnMobileElementPresentUsingXPathAndroid(String)
+  location: variable appium of type AppiumUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task206/wd/NonDex-plugin-test/github.com/pavankovurru/Appium_Mobile_Automation_Framework/src/main/java/com/company/project/page/android/AccessibilityPage.java:47: error: cannot find symbol
+        appium.returnMobileElementsPresentUsingClassNameAndroid("android.widget.CheckBox");
+              ^
+  symbol:   method returnMobileElementsPresentUsingClassNameAndroid(String)
+  location: variable appium of type AppiumUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task206/wd/NonDex-plugin-test/github.com/pavankovurru/Appium_Mobile_Automation_Framework/src/main/java/com/company/project/page/android/AccessibilityPage.java:58: error: cannot find symbol
+        appium.returnMobileElementsPresentUsingClassNameAndroid("android.widget.CheckBox");
+              ^
+  symbol:   method returnMobileElementsPresentUsingClassNameAndroid(String)
+  location: variable appium of type AppiumUtil
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task206/wd/NonDex-plugin-test/github.com/pavankovurru/Appium_Mobile_Automation_Framework/src/main/java/com/company/project/page/android/AccessibilityPage.java:68: error: cannot find symbol
+        appium.returnMobileElementsPresentUsingClassNameAndroid("android.widget.CheckBox");
+              ^
+  symbol:   method returnMobileElementsPresentUsingClassNameAndroid(String)
+  location: variable appium of type AppiumUtil
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

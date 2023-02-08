@@ -1,0 +1,34 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1148/wd/NonDex-plugin-test/github.com/daggerok/pm2-java-spring-boot/src/main/java/daggerok/Pm2JavaSpringBootApplication.java:18: error: cannot find symbol
+                .map(name -> new User().setUsername(name))
+                                       ^
+  symbol:   method setUsername(String)
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1148/wd/NonDex-plugin-test/github.com/daggerok/pm2-java-spring-boot/src/main/java/daggerok/Pm2JavaSpringBootApplication.java:19: error: incompatible types: invalid method reference
+                .forEach(userRestResource::save);
+                         ^
+    no suitable method found for save(Object)
+        method CrudRepository.<S#1>save(S#1) is not applicable
+          (inference variable S#1 has incompatible bounds
+            lower bounds: User
+            lower bounds: Object)
+        method MongoRepository.<S#2>save(Iterable<S#2>) is not applicable
+          (cannot infer type-variable(s) S#2
+            (argument mismatch; Object cannot be converted to Iterable<S#2>))
+  where S#1,S#2 are type-variables:
+    S#1 extends User declared in method <S#1>save(S#1)
+    S#2 extends User declared in method <S#2>save(Iterable<S#2>)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s

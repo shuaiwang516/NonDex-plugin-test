@@ -1,0 +1,239 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/UserMapperTest.java:28: error: cannot find symbol
+        user.setUserAccount("yang");
+            ^
+  symbol:   method setUserAccount(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/UserMapperTest.java:29: error: cannot find symbol
+        user.setUserAddress("深圳大学乔相阁");
+            ^
+  symbol:   method setUserAddress(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/UserMapperTest.java:30: error: cannot find symbol
+        user.setUserAge(21);
+            ^
+  symbol:   method setUserAge(int)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/UserMapperTest.java:31: error: cannot find symbol
+        user.setUserEmail("contact@yanglibin.info");
+            ^
+  symbol:   method setUserEmail(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/UserMapperTest.java:32: error: cannot find symbol
+        user.setUserName("杨立滨");
+            ^
+  symbol:   method setUserName(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/UserMapperTest.java:33: error: cannot find symbol
+        user.setUserPassword("HelloWorld123");
+            ^
+  symbol:   method setUserPassword(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/UserMapperTest.java:34: error: cannot find symbol
+        user.setUserSex(1);
+            ^
+  symbol:   method setUserSex(int)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:29: error: cannot find symbol
+        product.setApplyTime(new Date());
+               ^
+  symbol:   method setApplyTime(Date)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:30: error: cannot find symbol
+        product.setAuditStatus(1);
+               ^
+  symbol:   method setAuditStatus(int)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:31: error: cannot find symbol
+        product.setDescription("这是商品描述");
+               ^
+  symbol:   method setDescription(String)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:32: error: cannot find symbol
+        product.setEndTime(new Date());
+               ^
+  symbol:   method setEndTime(Date)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:33: error: cannot find symbol
+        product.setStartTime(new Date());
+               ^
+  symbol:   method setStartTime(Date)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:34: error: cannot find symbol
+        product.setOriginalPrice(11);
+               ^
+  symbol:   method setOriginalPrice(int)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:35: error: cannot find symbol
+        product.setSeckillPrice(1);
+               ^
+  symbol:   method setSeckillPrice(int)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:36: error: cannot find symbol
+        product.setAuditTime(new Date());
+               ^
+  symbol:   method setAuditTime(Date)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:37: error: cannot find symbol
+        product.setProductCount(11);
+               ^
+  symbol:   method setProductCount(int)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:38: error: cannot find symbol
+        product.setProductId(1);
+               ^
+  symbol:   method setProductId(int)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:39: error: cannot find symbol
+        product.setProductImg("https://www.baidu.com");
+               ^
+  symbol:   method setProductImg(String)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:40: error: cannot find symbol
+        product.setProductTitle("这是商品标题");
+               ^
+  symbol:   method setProductTitle(String)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:41: error: cannot find symbol
+        product.setSellerId(1);
+               ^
+  symbol:   method setSellerId(int)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductMapperTest.java:42: error: cannot find symbol
+        product.setStockCount(1);
+               ^
+  symbol:   method setStockCount(int)
+  location: variable product of type Product
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/OrderMapperTest.java:29: error: cannot find symbol
+        order.setConsigneeAddress("深圳大学乔相阁");
+             ^
+  symbol:   method setConsigneeAddress(String)
+  location: variable order of type Order
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/OrderMapperTest.java:30: error: cannot find symbol
+        order.setConsigneeName("杨立滨");
+             ^
+  symbol:   method setConsigneeName(String)
+  location: variable order of type Order
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/OrderMapperTest.java:31: error: cannot find symbol
+        order.setConsigneePhone(15888888888L);
+             ^
+  symbol:   method setConsigneePhone(long)
+  location: variable order of type Order
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/OrderMapperTest.java:32: error: cannot find symbol
+        order.setCreateTime(new Date());
+             ^
+  symbol:   method setCreateTime(Date)
+  location: variable order of type Order
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/OrderMapperTest.java:33: error: cannot find symbol
+        order.setPayAmount(123);
+             ^
+  symbol:   method setPayAmount(int)
+  location: variable order of type Order
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/OrderMapperTest.java:34: error: cannot find symbol
+        order.setPayStatus(1);
+             ^
+  symbol:   method setPayStatus(int)
+  location: variable order of type Order
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/OrderMapperTest.java:35: error: cannot find symbol
+        order.setProductId(1);
+             ^
+  symbol:   method setProductId(int)
+  location: variable order of type Order
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/OrderMapperTest.java:36: error: cannot find symbol
+        order.setPayTime(new Date());
+             ^
+  symbol:   method setPayTime(Date)
+  location: variable order of type Order
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/OrderMapperTest.java:37: error: cannot find symbol
+        order.setSellerId(1);
+             ^
+  symbol:   method setSellerId(int)
+  location: variable order of type Order
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/OrderMapperTest.java:38: error: cannot find symbol
+        order.setTradeSerialNumber("1232-2-1323");
+             ^
+  symbol:   method setTradeSerialNumber(String)
+  location: variable order of type Order
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/OrderMapperTest.java:39: error: cannot find symbol
+        order.setUserId(1);
+             ^
+  symbol:   method setUserId(int)
+  location: variable order of type Order
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductDetailMapperTest.java:28: error: cannot find symbol
+        productDetail.setBrandName("霸气商家");
+                     ^
+  symbol:   method setBrandName(String)
+  location: variable productDetail of type ProductDetail
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductDetailMapperTest.java:29: error: cannot find symbol
+        productDetail.setOriginalPlace("广东深圳");
+                     ^
+  symbol:   method setOriginalPlace(String)
+  location: variable productDetail of type ProductDetail
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductDetailMapperTest.java:30: error: cannot find symbol
+        productDetail.setProductDetailImg("http://www.baidu.com");
+                     ^
+  symbol:   method setProductDetailImg(String)
+  location: variable productDetail of type ProductDetail
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductDetailMapperTest.java:31: error: cannot find symbol
+        productDetail.setProductId(1);
+                     ^
+  symbol:   method setProductId(int)
+  location: variable productDetail of type ProductDetail
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductDetailMapperTest.java:32: error: cannot find symbol
+        productDetail.setProductSpecification("21*21");
+                     ^
+  symbol:   method setProductSpecification(String)
+  location: variable productDetail of type ProductDetail
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductDetailMapperTest.java:33: error: cannot find symbol
+        productDetail.setProductWeight("52kg");
+                     ^
+  symbol:   method setProductWeight(String)
+  location: variable productDetail of type ProductDetail
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductDetailMapperTest.java:34: error: cannot find symbol
+        productDetail.setSellerId(1);
+                     ^
+  symbol:   method setSellerId(int)
+  location: variable productDetail of type ProductDetail
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/ProductDetailMapperTest.java:35: error: cannot find symbol
+        productDetail.setProductName("没有名字的产品");
+                     ^
+  symbol:   method setProductName(String)
+  location: variable productDetail of type ProductDetail
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/SellerMapperTest.java:26: error: cannot find symbol
+        seller.setSellerAccount("15888888888");
+              ^
+  symbol:   method setSellerAccount(String)
+  location: variable seller of type Seller
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/SellerMapperTest.java:27: error: cannot find symbol
+        seller.setSellerName("傲雪滨锋");
+              ^
+  symbol:   method setSellerName(String)
+  location: variable seller of type Seller
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/SellerMapperTest.java:28: error: cannot find symbol
+        seller.setSellerPassword("HelloWorld123");
+              ^
+  symbol:   method setSellerPassword(String)
+  location: variable seller of type Seller
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/SellerMapperTest.java:29: error: cannot find symbol
+        seller.setSellerScope("数码电子");
+              ^
+  symbol:   method setSellerScope(String)
+  location: variable seller of type Seller
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1391/wd/NonDex-plugin-test/github.com/acbin/seckill-project/src/test/java/com/bingo/dao/SellerMapperTest.java:30: error: cannot find symbol
+        seller.setSellerShopName("傲雪科技");
+              ^
+  symbol:   method setSellerShopName(String)
+  location: variable seller of type Seller
+45 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 18s

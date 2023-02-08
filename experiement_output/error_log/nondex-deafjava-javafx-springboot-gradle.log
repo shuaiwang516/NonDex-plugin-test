@@ -1,0 +1,415 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:8: error: package javafx.fxml does not exist
+import javafx.fxml.FXML;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:9: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:10: error: package javafx.scene.control does not exist
+import javafx.scene.control.Alert;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:11: error: package javafx.scene.control does not exist
+import javafx.scene.control.Button;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:12: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:13: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:14: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.VBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:5: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:6: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:7: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:8: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.HBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:9: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.VBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:26: error: cannot find symbol
+    public VBox refBox;
+           ^
+  symbol:   class VBox
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:29: error: cannot find symbol
+    public Label resultResistance;
+           ^
+  symbol:   class Label
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:32: error: cannot find symbol
+    public Button addR;
+           ^
+  symbol:   class Button
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:35: error: cannot find symbol
+    public Button removeR;
+           ^
+  symbol:   class Button
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:38: error: cannot find symbol
+    public Button saveR;
+           ^
+  symbol:   class Button
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:41: error: cannot find symbol
+    public VBox historyCalculation;
+           ^
+  symbol:   class VBox
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceParallelCalculationService.java:3: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceListResultsService.java:3: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.VBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceListResultsService.java:7: error: cannot find symbol
+    void update(VBox historyCalculation);
+                ^
+  symbol:   class VBox
+  location: interface ResistanceListResultsService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceParallelCalculationService.java:6: error: cannot find symbol
+    void register(Node ref, Node result);
+                  ^
+  symbol:   class Node
+  location: interface ResistanceParallelCalculationService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceParallelCalculationService.java:6: error: cannot find symbol
+    void register(Node ref, Node result);
+                            ^
+  symbol:   class Node
+  location: interface ResistanceParallelCalculationService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:17: error: cannot find symbol
+    public static void remove(VBox refBox) throws MinimumResistancesInputReachedException {
+                              ^
+  symbol:   class VBox
+  location: class ResistanceInputElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:27: error: cannot find symbol
+    public static void create(VBox refBox, Label resultResistance) {
+                              ^
+  symbol:   class VBox
+  location: class ResistanceInputElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:27: error: cannot find symbol
+    public static void create(VBox refBox, Label resultResistance) {
+                                           ^
+  symbol:   class Label
+  location: class ResistanceInputElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:3: error: package javafx.geometry does not exist
+import javafx.geometry.Pos;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:4: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:5: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:6: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.HBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:9: error: cannot find symbol
+    public static Label newLabel(int sequence) {
+                  ^
+  symbol:   class Label
+  location: class ResistanceInputElementAssembler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:19: error: cannot find symbol
+    public static TextField newTextField() {
+                  ^
+  symbol:   class TextField
+  location: class ResistanceInputElementAssembler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:28: error: cannot find symbol
+    public static HBox newHBox() {
+                  ^
+  symbol:   class HBox
+  location: class ResistanceInputElementAssembler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/JavafxApplication.java:3: error: package javafx.application does not exist
+import javafx.application.Application;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/JavafxApplication.java:4: error: package javafx.fxml does not exist
+import javafx.fxml.FXMLLoader;
+                  ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/JavafxApplication.java:5: error: package javafx.geometry does not exist
+import javafx.geometry.Rectangle2D;
+                      ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/JavafxApplication.java:6: error: package javafx.scene does not exist
+import javafx.scene.Parent;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/JavafxApplication.java:7: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/JavafxApplication.java:8: error: package javafx.stage does not exist
+import javafx.stage.Screen;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/JavafxApplication.java:9: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/JavafxApplication.java:17: error: cannot find symbol
+public class JavafxApplication extends Application {
+                                       ^
+  symbol: class Application
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/JavafxApplication.java:25: error: cannot find symbol
+    private Parent rootNode;
+            ^
+  symbol:   class Parent
+  location: class JavafxApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/JavafxApplication.java:38: error: cannot find symbol
+    public void start(Stage primaryStage) {
+                      ^
+  symbol:   class Stage
+  location: class JavafxApplication
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistorComponentService.java:4: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistorComponentService.java:7: error: cannot find symbol
+    ElectronicComponent save(Node node);
+                             ^
+  symbol:   class Node
+  location: interface ResistorComponentService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceListResultsServiceImpl.java:5: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceListResultsServiceImpl.java:6: error: package javafx.scene.control does not exist
+import javafx.scene.control.Alert;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceListResultsServiceImpl.java:7: error: package javafx.scene.control does not exist
+import javafx.scene.control.ButtonType;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceListResultsServiceImpl.java:8: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceListResultsServiceImpl.java:9: error: package javafx.scene.control does not exist
+import javafx.scene.control.Tooltip;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceListResultsServiceImpl.java:10: error: package javafx.scene.input does not exist
+import javafx.scene.input.MouseButton;
+                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceListResultsServiceImpl.java:11: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.VBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ComponentCalculationService.java:3: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceListResultsServiceImpl.java:35: error: cannot find symbol
+    public void update(VBox historyCalculation) {
+                       ^
+  symbol:   class VBox
+  location: class ResistanceListResultsServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ComponentCalculationService.java:6: error: cannot find symbol
+    void delete(Node node);
+                ^
+  symbol:   class Node
+  location: interface ComponentCalculationService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceParallelCalculationServiceImpl.java:8: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceParallelCalculationServiceImpl.java:9: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceParallelCalculationServiceImpl.java:29: error: cannot find symbol
+    public void register(Node refNode, Node resultNode) {
+                         ^
+  symbol:   class Node
+  location: class ResistanceParallelCalculationServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistanceParallelCalculationServiceImpl.java:29: error: cannot find symbol
+    public void register(Node refNode, Node resultNode) {
+                                       ^
+  symbol:   class Node
+  location: class ResistanceParallelCalculationServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistorComponentServiceImpl.java:8: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistorComponentServiceImpl.java:9: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistorComponentServiceImpl.java:10: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ResistorComponentServiceImpl.java:23: error: cannot find symbol
+    public ElectronicComponent save(Node labelValue) {
+                                    ^
+  symbol:   class Node
+  location: class ResistorComponentServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ComponentCalculationServiceImpl.java:4: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/service/ComponentCalculationServiceImpl.java:15: error: cannot find symbol
+    public void delete(Node node) {
+                       ^
+  symbol:   class Node
+  location: class ComponentCalculationServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/utils/ReadAndCalculateUtils.java:4: error: package javafx.scene does not exist
+import javafx.scene.Node;
+                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/utils/ReadAndCalculateUtils.java:5: error: package javafx.scene.control does not exist
+import javafx.scene.control.Label;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/utils/ReadAndCalculateUtils.java:6: error: package javafx.scene.control does not exist
+import javafx.scene.control.TextField;
+                           ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/utils/ReadAndCalculateUtils.java:7: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.VBox;
+                          ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/utils/ReadAndCalculateUtils.java:16: error: cannot find symbol
+    public void asParallel(VBox refBox, Label resultRef) {
+                           ^
+  symbol:   class VBox
+  location: class ReadAndCalculateUtils
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/utils/ReadAndCalculateUtils.java:16: error: cannot find symbol
+    public void asParallel(VBox refBox, Label resultRef) {
+                                        ^
+  symbol:   class Label
+  location: class ReadAndCalculateUtils
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:25: error: cannot find symbol
+    @FXML
+     ^
+  symbol:   class FXML
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:28: error: cannot find symbol
+    @FXML
+     ^
+  symbol:   class FXML
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:31: error: cannot find symbol
+    @FXML
+     ^
+  symbol:   class FXML
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:34: error: cannot find symbol
+    @FXML
+     ^
+  symbol:   class FXML
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:37: error: cannot find symbol
+    @FXML
+     ^
+  symbol:   class FXML
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:40: error: cannot find symbol
+    @FXML
+     ^
+  symbol:   class FXML
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:49: error: cannot find symbol
+    @FXML
+     ^
+  symbol:   class FXML
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:18: error: cannot find symbol
+        Set<Node> currentRs = refBox.lookupAll(RESIS_SELECTOR);
+            ^
+  symbol:   class Node
+  location: class ResistanceInputElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:29: error: cannot find symbol
+        Set<Node> currentRs = refBox.lookupAll(RESIS_SELECTOR);
+            ^
+  symbol:   class Node
+  location: class ResistanceInputElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:31: error: cannot find symbol
+        HBox hBox = ResistanceInputElementAssembler.newHBox();
+        ^
+  symbol:   class HBox
+  location: class ResistanceInputElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:35: error: cannot find symbol
+        TextField t = ResistanceInputElementAssembler.newTextField();
+        ^
+  symbol:   class TextField
+  location: class ResistanceInputElement
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElement.java:37: error: non-static method asParallel(VBox,Label) cannot be referenced from a static context
+        t.setOnKeyReleased(event -> ReadAndCalculateUtils.asParallel(refBox, resultResistance));
+                                                         ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:52: error: cannot find symbol
+        Set<Node> rs = refBox.lookupAll(RESIS_SELECTOR);
+            ^
+  symbol:   class Node
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:55: error: cannot find symbol
+                .filter(node -> node instanceof TextField)
+                                                ^
+  symbol:   class TextField
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:56: error: non-static method asParallel(VBox,Label) cannot be referenced from a static context
+                .forEach(node -> node.setOnKeyReleased(event -> ReadAndCalculateUtils.asParallel(refBox, resultResistance)));
+                                                                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:62: error: non-static method asParallel(VBox,Label) cannot be referenced from a static context
+            ReadAndCalculateUtils.asParallel(refBox, resultResistance);
+                                 ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:70: error: non-static method asParallel(VBox,Label) cannot be referenced from a static context
+                ReadAndCalculateUtils.asParallel(refBox, resultResistance);
+                                     ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:73: error: cannot find symbol
+                Alert dialogoInfo = new Alert(Alert.AlertType.WARNING);
+                ^
+  symbol:   class Alert
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:73: error: cannot find symbol
+                Alert dialogoInfo = new Alert(Alert.AlertType.WARNING);
+                                        ^
+  symbol:   class Alert
+  location: class MainController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/controller/MainController.java:73: error: package Alert does not exist
+                Alert dialogoInfo = new Alert(Alert.AlertType.WARNING);
+                                                   ^
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:11: error: cannot find symbol
+        Label label = new Label();
+        ^
+  symbol:   class Label
+  location: class ResistanceInputElementAssembler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:11: error: cannot find symbol
+        Label label = new Label();
+                          ^
+  symbol:   class Label
+  location: class ResistanceInputElementAssembler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:13: error: cannot find symbol
+        label.setAlignment(Pos.CENTER);
+                           ^
+  symbol:   variable Pos
+  location: class ResistanceInputElementAssembler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:21: error: cannot find symbol
+        TextField textField = new TextField();
+        ^
+  symbol:   class TextField
+  location: class ResistanceInputElementAssembler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:21: error: cannot find symbol
+        TextField textField = new TextField();
+                                  ^
+  symbol:   class TextField
+  location: class ResistanceInputElementAssembler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:22: error: cannot find symbol
+        textField.setAlignment(Pos.CENTER_LEFT);
+                               ^
+  symbol:   variable Pos
+  location: class ResistanceInputElementAssembler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:29: error: cannot find symbol
+        HBox hBox = new HBox();
+        ^
+  symbol:   class HBox
+  location: class ResistanceInputElementAssembler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:29: error: cannot find symbol
+        HBox hBox = new HBox();
+                        ^
+  symbol:   class HBox
+  location: class ResistanceInputElementAssembler
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task650/wd/NonDex-plugin-test/github.com/deafjava/javafx-springboot-gradle/src/main/java/com/luxoft/javafx/assembler/ResistanceInputElementAssembler.java:30: error: cannot find symbol
+        hBox.setAlignment(Pos.CENTER);
+                          ^
+  symbol:   variable Pos
+  location: class ResistanceInputElementAssembler
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

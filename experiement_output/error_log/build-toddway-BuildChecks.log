@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'BuildChecks'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find com.toddway:buildchecks:.
+     Searched in the following locations:
+       - file:/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task1122/wd/NonDex-plugin-test/github.com/toddway/BuildChecks/libs/buildchecks.jar
+     Required by:
+         project :
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s

@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'gitlog'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve com.malinskiy:gitlog-gradle-plugin:0.0.4.
+     Required by:
+         project :
+      > Could not resolve com.malinskiy:gitlog-gradle-plugin:0.0.4.
+         > Could not get resource 'http://nexus.malinskiy.com/content/groups/public/com/malinskiy/gitlog-gradle-plugin/0.0.4/gitlog-gradle-plugin-0.0.4.pom'.
+            > Could not GET 'http://nexus.malinskiy.com/content/groups/public/com/malinskiy/gitlog-gradle-plugin/0.0.4/gitlog-gradle-plugin-0.0.4.pom'.
+               > nexus.malinskiy.com
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

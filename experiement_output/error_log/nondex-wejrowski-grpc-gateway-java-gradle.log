@@ -1,0 +1,34 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task854/wd/NonDex-plugin-test/github.com/wejrowski/grpc-gateway-java-gradle/build/generated/source/proto/main/grpc/contactsapi/company/CompanyServiceGrpc.java:20: error: cannot find symbol
+@javax.annotation.Generated(
+                 ^
+  symbol:   class Generated
+  location: package javax.annotation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task854/wd/NonDex-plugin-test/github.com/wejrowski/grpc-gateway-java-gradle/build/generated/source/proto/main/grpc/contactsapi/customfield/CustomFieldServiceGrpc.java:20: error: cannot find symbol
+@javax.annotation.Generated(
+                 ^
+  symbol:   class Generated
+  location: package javax.annotation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task854/wd/NonDex-plugin-test/github.com/wejrowski/grpc-gateway-java-gradle/build/generated/source/proto/main/grpc/contactsapi/contact/ContactServiceGrpc.java:20: error: cannot find symbol
+@javax.annotation.Generated(
+                 ^
+  symbol:   class Generated
+  location: package javax.annotation
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task854/wd/NonDex-plugin-test/github.com/wejrowski/grpc-gateway-java-gradle/build/generated/source/proto/main/grpc/com/proto/dummy/DummyServiceGrpc.java:20: error: cannot find symbol
+@javax.annotation.Generated(
+                 ^
+  symbol:   class Generated
+  location: package javax.annotation
+4 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s

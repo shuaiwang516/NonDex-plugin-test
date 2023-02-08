@@ -1,0 +1,388 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/config/WebConfig.java:42: error: cannot find symbol
+      .allowedOrigins(properties.getCorsAllowedOrigins())
+                                ^
+  symbol:   method getCorsAllowedOrigins()
+  location: variable properties of type AuthProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/model/User.java:73: error: cannot find symbol
+    Role roleName = this.getRole();
+                        ^
+  symbol: method getRole()
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/CredentialsController.java:79: error: cannot find symbol
+    log.debug("Forgotten password - POST");
+    ^
+  symbol:   variable log
+  location: class CredentialsController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/CredentialsController.java:84: error: cannot find symbol
+      log.warn("This user is not registered: {}", user);
+      ^
+  symbol:   variable log
+  location: class CredentialsController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/CredentialsController.java:87: error: cannot find symbol
+          messages.getMessage("registration.userNotRegistered", new Object[] { user.getEmail() }, locale));
+                                                                                   ^
+  symbol:   method getEmail()
+  location: variable user of type @javax.validation.Valid User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/CredentialsController.java:96: error: cannot find symbol
+        messages.getMessage("registration.passwordResetEmail", new Object[] { user.getEmail() }, locale));
+                                                                                  ^
+  symbol:   method getEmail()
+  location: variable user of type @javax.validation.Valid User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/CredentialsController.java:121: error: cannot find symbol
+    log.debug("ChangePassword endpoint - POST");
+    ^
+  symbol:   variable log
+  location: class CredentialsController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/CredentialsController.java:170: error: cannot find symbol
+    log.debug("ChangeEmail endpoint - POST");
+    ^
+  symbol:   variable log
+  location: class CredentialsController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/CredentialsController.java:197: error: cannot find symbol
+      log.debug("No user found for this token: {}", token);
+      ^
+  symbol:   variable log
+  location: class CredentialsController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/CredentialsController.java:205: error: cannot find symbol
+          messages.getMessage("email.verificationSuccess", new Object[] { user.getEmail() }, locale));
+                                                                              ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/LogoutController.java:59: error: cannot find symbol
+    log.debug("Direct logout");
+    ^
+  symbol:   variable log
+  location: class LogoutController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/LogoutController.java:81: error: cannot find symbol
+    log.debug("Global logout");
+    ^
+  symbol:   variable log
+  location: class LogoutController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/UserController.java:79: error: cannot find symbol
+    user.setEmail(Long.toString(user.getId()));
+                                    ^
+  symbol:   method getId()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/UserController.java:105: error: cannot find symbol
+    log.debug("User deletion requested for: {}", principal.getName());
+    ^
+  symbol:   variable log
+  location: class UserController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/UserController.java:163: error: cannot find symbol
+    log.debug("Accessing list of users");
+    ^
+  symbol:   variable log
+  location: class UserController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/RegisterController.java:73: error: cannot find symbol
+    log.debug("User registration - POST");
+    ^
+  symbol:   variable log
+  location: class RegisterController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/RegisterController.java:78: error: cannot find symbol
+      log.warn("This user already exists: {}", user);
+      ^
+  symbol:   variable log
+  location: class RegisterController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/RegisterController.java:81: error: cannot find symbol
+          messages.getMessage("registration.emailExists", new Object[] { user.getEmail() }, locale));
+                                                                             ^
+  symbol:   method getEmail()
+  location: variable user of type @javax.validation.Valid User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/RegisterController.java:90: error: cannot find symbol
+        messages.getMessage("registration.confirmationEmail", new Object[] { user.getEmail() }, locale));
+                                                                                 ^
+  symbol:   method getEmail()
+  location: variable user of type @javax.validation.Valid User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/RegisterController.java:105: error: cannot find symbol
+    log.debug("Confirm endpoint - GET");
+    ^
+  symbol:   variable log
+  location: class RegisterController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/RegisterController.java:110: error: cannot find symbol
+      log.debug("Passwords are not matching!");
+      ^
+  symbol:   variable log
+  location: class RegisterController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/RegisterController.java:118: error: cannot find symbol
+      log.debug("No user found for this token: {}", token);
+      ^
+  symbol:   variable log
+  location: class RegisterController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/RegisterController.java:122: error: cannot find symbol
+      modelAndView.addObject("confirmationToken", optionalUser.get().getConfirmationToken());
+                                                                    ^
+  symbol:   method getConfirmationToken()
+  location: class User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/controller/RegisterController.java:151: error: cannot find symbol
+    log.debug("Confirm endpoint - POST");
+    ^
+  symbol:   variable log
+  location: class RegisterController
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/UserService.java:35: error: cannot find symbol
+    log.debug("Loading user details for username: {}", username);
+    ^
+  symbol:   variable log
+  location: class UserService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/UserService.java:40: error: cannot find symbol
+      log.error("User not found!");
+      ^
+  symbol:   variable log
+  location: class UserService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/TokenServiceImpl.java:36: error: cannot find symbol
+    log.debug("Revoking tokens for {}", username);
+    ^
+  symbol:   variable log
+  location: class TokenServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/TokenServiceImpl.java:39: error: cannot find symbol
+      log.debug("Token store is not instance of JdbcTokenStore. Cannot revoke tokens!");
+      ^
+  symbol:   variable log
+  location: class TokenServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/TokenServiceImpl.java:47: error: cannot find symbol
+      log.debug("Revoking access token {}", token);
+      ^
+  symbol:   variable log
+  location: class TokenServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/TokenServiceImpl.java:50: error: cannot find symbol
+      log.debug("Revoking refresh token {}", token.getRefreshToken());
+      ^
+  symbol:   variable log
+  location: class TokenServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/EmailService.java:52: error: cannot find symbol
+    log.debug("Sending email...");
+    ^
+  symbol:   variable log
+  location: class EmailService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:51: error: cannot find symbol
+    log.debug("Registering new user...");
+    ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:61: error: cannot find symbol
+    user.setEnabled(false);
+        ^
+  symbol:   method setEnabled(boolean)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:64: error: cannot find symbol
+    user.setConfirmationToken(UUID.randomUUID().toString());
+        ^
+  symbol:   method setConfirmationToken(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:69: error: cannot find symbol
+    log.debug("Sending confirmation token to the selected email: {}", user.getEmail());
+    ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:69: error: cannot find symbol
+    log.debug("Sending confirmation token to the selected email: {}", user.getEmail());
+                                                                          ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:72: error: cannot find symbol
+    String link = properties.getRedirectionUrl() + "/confirmRedirect?token=" + user.getConfirmationToken();
+                            ^
+  symbol:   method getRedirectionUrl()
+  location: variable properties of type AuthProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:72: error: cannot find symbol
+    String link = properties.getRedirectionUrl() + "/confirmRedirect?token=" + user.getConfirmationToken();
+                                                                                   ^
+  symbol:   method getConfirmationToken()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:74: error: cannot find symbol
+    emailService.prepareAndSend(user.getEmail(), properties.getEmailFrom(), "Registration confirmation", message, link);
+                                    ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:74: error: cannot find symbol
+    emailService.prepareAndSend(user.getEmail(), properties.getEmailFrom(), "Registration confirmation", message, link);
+                                                           ^
+  symbol:   method getEmailFrom()
+  location: variable properties of type AuthProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:80: error: cannot find symbol
+    log.debug("Confirming user with token {}", token);
+    ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:92: error: cannot find symbol
+    user.setPassword(passwordEncoder.encode((CharSequence) password));
+        ^
+  symbol:   method setPassword(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:95: error: cannot find symbol
+    user.setEnabled(true);
+        ^
+  symbol:   method setEnabled(boolean)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:96: error: cannot find symbol
+    user.setConfirmationToken("");
+        ^
+  symbol:   method setConfirmationToken(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:119: error: cannot find symbol
+    log.debug("Resetting password for user: {}", user.getEmail());
+    ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:119: error: cannot find symbol
+    log.debug("Resetting password for user: {}", user.getEmail());
+                                                     ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:121: error: cannot find symbol
+    Optional<User> optionalUser = userRepository.findOneByEmail(user.getEmail());
+                                                                    ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:123: error: cannot find symbol
+      log.error("Cannot find user with this e-mail!");
+      ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:132: error: cannot find symbol
+    user.setConfirmationToken(UUID.randomUUID().toString());
+        ^
+  symbol:   method setConfirmationToken(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:135: error: cannot find symbol
+    log.debug("Sending confirmation token to the selected email: {}", user.getEmail());
+    ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:135: error: cannot find symbol
+    log.debug("Sending confirmation token to the selected email: {}", user.getEmail());
+                                                                          ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:138: error: cannot find symbol
+    String link = properties.getRedirectionUrl() + "/confirmRedirect?token=" + user.getConfirmationToken();
+                            ^
+  symbol:   method getRedirectionUrl()
+  location: variable properties of type AuthProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:138: error: cannot find symbol
+    String link = properties.getRedirectionUrl() + "/confirmRedirect?token=" + user.getConfirmationToken();
+                                                                                   ^
+  symbol:   method getConfirmationToken()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:140: error: cannot find symbol
+    emailService.prepareAndSend(user.getEmail(), properties.getEmailFrom(), "Password reset", message, link);
+                                    ^
+  symbol:   method getEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:140: error: cannot find symbol
+    emailService.prepareAndSend(user.getEmail(), properties.getEmailFrom(), "Password reset", message, link);
+                                                           ^
+  symbol:   method getEmailFrom()
+  location: variable properties of type AuthProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:149: error: cannot find symbol
+    log.debug("Changing password for user: {}", email);
+    ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:153: error: cannot find symbol
+      log.error("Cannot find user with this e-mail!");
+      ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:162: error: cannot find symbol
+    log.debug("Current password matches: {}", passwordMatch);
+    ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:164: error: cannot find symbol
+      user.setPassword(passwordEncoder.encode(newPassword));
+          ^
+  symbol:   method setPassword(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:177: error: cannot find symbol
+    log.debug("Changing e-mail for user: {}", email);
+    ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:181: error: cannot find symbol
+      log.error("Cannot find user with this e-mail!");
+      ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:189: error: cannot find symbol
+      log.warn("User with email {} already exists.", newEmail);
+      ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:196: error: cannot find symbol
+    log.debug("Current password matches: {}", passwordMatch);
+    ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:198: error: cannot find symbol
+      user.setPendingEmail(newEmail);
+          ^
+  symbol:   method setPendingEmail(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:201: error: cannot find symbol
+      user.setConfirmationToken(UUID.randomUUID().toString());
+          ^
+  symbol:   method setConfirmationToken(String)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:204: error: cannot find symbol
+      log.debug("Sending verification token {} to the selected email: {}", user.getConfirmationToken(), newEmail);
+      ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:204: error: cannot find symbol
+      log.debug("Sending verification token {} to the selected email: {}", user.getConfirmationToken(), newEmail);
+                                                                               ^
+  symbol:   method getConfirmationToken()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:207: error: cannot find symbol
+      String link = properties.getRedirectionUrl() + "/verifyEmail?token=" + user.getConfirmationToken();
+                              ^
+  symbol:   method getRedirectionUrl()
+  location: variable properties of type AuthProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:207: error: cannot find symbol
+      String link = properties.getRedirectionUrl() + "/verifyEmail?token=" + user.getConfirmationToken();
+                                                                                 ^
+  symbol:   method getConfirmationToken()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:209: error: cannot find symbol
+      emailService.prepareAndSend(newEmail, properties.getEmailFrom(), "E-mail change", message, link);
+                                                      ^
+  symbol:   method getEmailFrom()
+  location: variable properties of type AuthProperties
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:222: error: cannot find symbol
+    log.debug("Verifying e-mail {}", user.getPendingEmail());
+    ^
+  symbol:   variable log
+  location: class AccountServiceImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:222: error: cannot find symbol
+    log.debug("Verifying e-mail {}", user.getPendingEmail());
+                                         ^
+  symbol:   method getPendingEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:225: error: cannot find symbol
+    user.setEmail(user.getPendingEmail());
+                      ^
+  symbol:   method getPendingEmail()
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:226: error: cannot find symbol
+    user.setPendingEmail(null);
+        ^
+  symbol:   method setPendingEmail(<null>)
+  location: variable user of type User
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task784/wd/NonDex-plugin-test/github.com/gigsterous/auth-server/src/main/java/com/gigsterous/auth/service/AccountServiceImpl.java:227: error: cannot find symbol
+    user.setConfirmationToken("");
+        ^
+  symbol:   method setConfirmationToken(String)
+  location: variable user of type User
+75 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

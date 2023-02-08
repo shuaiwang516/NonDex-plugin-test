@@ -1,0 +1,549 @@
+[Fatal Error] maven-ideaIC-IC-231.5920.14-withSources.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] java-ideaIC-IC-231.5920.14-withSources.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-ideaIC-IC-231.5920.14-withSources.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusRunConfigRunner.java:6: error: cannot access RunContentDescriptor
+import com.intellij.execution.ui.RunContentDescriptor;
+                                ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/ui/RunContentDescriptor.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusRunConfigRunner.java:15: error: cannot access GenericProgramRunner
+public class QuarkusRunConfigRunner extends GenericProgramRunner<RunnerSettings>
+                                            ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/runners/GenericProgramRunner.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusRunConfigRunner.java:15: error: cannot access RunnerSettings
+public class QuarkusRunConfigRunner extends GenericProgramRunner<RunnerSettings>
+                                                                 ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/configurations/RunnerSettings.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusRunConfigRunner.java:28: error: cannot access RunProfile
+  public boolean canRun(@NotNull String pExecutorId, @NotNull RunProfile pRunProfile)
+                                                              ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/configurations/RunProfile.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusRunConfigRunner.java:38: error: cannot access RunProfileState
+  protected RunContentDescriptor doExecute(@NotNull RunProfileState pState, @NotNull ExecutionEnvironment pEnv) throws ExecutionException
+                                                    ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/configurations/RunProfileState.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusRunConfigRunner.java:38: error: cannot access ExecutionEnvironment
+  protected RunContentDescriptor doExecute(@NotNull RunProfileState pState, @NotNull ExecutionEnvironment pEnv) throws ExecutionException
+                                                                                     ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/runners/ExecutionEnvironment.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusRunConfigRunner.java:38: error: cannot find symbol
+  protected RunContentDescriptor doExecute(@NotNull RunProfileState pState, @NotNull ExecutionEnvironment pEnv) throws ExecutionException
+            ^
+  symbol:   class RunContentDescriptor
+  location: class QuarkusRunConfigRunner
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusRunConfigRunner.java:38: error: cannot access ExecutionException
+  protected RunContentDescriptor doExecute(@NotNull RunProfileState pState, @NotNull ExecutionEnvironment pEnv) throws ExecutionException
+                                                                                                                       ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/util.jar(/com/intellij/execution/ExecutionException.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusGradleRunConfigType.java:6: error: cannot access BaseState
+import com.intellij.openapi.components.BaseState;
+                                      ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/components/BaseState.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusGradleRunConfigType.java:18: error: cannot access SimpleConfigurationType
+public class QuarkusGradleRunConfigType extends SimpleConfigurationType implements IQuarkusRunConfigType
+                                                ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/configurations/SimpleConfigurationType.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/IQuarkusRunConfigType.java:3: error: cannot access ConfigurationType
+import com.intellij.execution.configurations.ConfigurationType;
+                                            ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/configurations/ConfigurationType.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/IQuarkusRunConfigType.java:4: error: cannot access IconLoader
+import com.intellij.openapi.util.IconLoader;
+                                ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/util/IconLoader.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/IQuarkusRunConfigType.java:11: error: cannot find symbol
+public interface IQuarkusRunConfigType extends ConfigurationType
+                                               ^
+  symbol: class ConfigurationType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusGradleRunConfigType.java:32: error: cannot access RunConfiguration
+  public RunConfiguration createTemplateConfiguration(@NotNull Project pProject)
+         ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/configurations/RunConfiguration.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusGradleRunConfigType.java:39: error: cannot find symbol
+  public Class<? extends BaseState> getOptionsClass()
+                         ^
+  symbol:   class BaseState
+  location: class QuarkusGradleRunConfigType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusGradleRunConfigType.java:46: error: cannot access RunConfigurationSingletonPolicy
+  public RunConfigurationSingletonPolicy getSingletonPolicy()
+         ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/configurations/RunConfigurationSingletonPolicy.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleRunConfigImpl.java:8: error: cannot access DefaultDebugExecutor
+import com.intellij.execution.executors.DefaultDebugExecutor;
+                                       ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/executors/DefaultDebugExecutor.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleRunConfigImpl.java:23: error: cannot access RunConfigurationBase
+class GradleRunConfigImpl extends RunConfigurationBase<RunProfileState>
+                                  ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/configurations/RunConfigurationBase.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleRunConfigImpl.java:23: error: cannot find symbol
+class GradleRunConfigImpl extends RunConfigurationBase<RunProfileState>
+                                                       ^
+  symbol: class RunProfileState
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/IRunConfigExecutionFacade.java:3: error: cannot access RunnerAndConfigurationSettings
+import com.intellij.execution.RunnerAndConfigurationSettings;
+                             ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/RunnerAndConfigurationSettings.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleRunConfigImpl.java:31: error: cannot access ConfigurationFactory
+  GradleRunConfigImpl(@Assisted @NotNull Project pProject, @Assisted @NotNull ConfigurationFactory pConfigurationFactory)
+                                                                              ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/configurations/ConfigurationFactory.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleRunConfigImpl.java:38: error: cannot access SettingsEditor
+  public SettingsEditor<? extends RunConfiguration> getConfigurationEditor()
+         ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/options/SettingsEditor.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleRunConfigImpl.java:38: error: cannot find symbol
+  public SettingsEditor<? extends RunConfiguration> getConfigurationEditor()
+                                  ^
+  symbol:   class RunConfiguration
+  location: class GradleRunConfigImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleRunConfigImpl.java:47: error: cannot access Executor
+  public RunProfileState getState(@NotNull Executor pExecutor, @NotNull ExecutionEnvironment pExecutionEnvironment)
+                                           ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/Executor.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleRunConfigImpl.java:47: error: cannot find symbol
+  public RunProfileState getState(@NotNull Executor pExecutor, @NotNull ExecutionEnvironment pExecutionEnvironment)
+                                                                        ^
+  symbol:   class ExecutionEnvironment
+  location: class GradleRunConfigImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleRunConfigImpl.java:47: error: cannot find symbol
+  public RunProfileState getState(@NotNull Executor pExecutor, @NotNull ExecutionEnvironment pExecutionEnvironment)
+         ^
+  symbol:   class RunProfileState
+  location: class GradleRunConfigImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/GradleRunConfigurationOptions.java:3: error: cannot access RunConfigurationOptions
+import com.intellij.execution.configurations.RunConfigurationOptions;
+                                            ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/configurations/RunConfigurationOptions.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/GradleRunConfigurationOptions.java:4: error: cannot access StoredPropertyBase
+import com.intellij.openapi.components.StoredPropertyBase;
+                                      ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/components/StoredPropertyBase.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/GradleRunConfigurationOptions.java:14: error: cannot find symbol
+public class GradleRunConfigurationOptions extends RunConfigurationOptions implements IQuarkusRunConfigurationOptions
+                                                   ^
+  symbol: class RunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/GradleRunConfigurationOptions.java:16: error: cannot find symbol
+  public final StoredPropertyBase<String> workingDir;
+               ^
+  symbol:   class StoredPropertyBase
+  location: class GradleRunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/GradleRunConfigurationOptions.java:17: error: cannot find symbol
+  public final StoredPropertyBase<String> vmOptions;
+               ^
+  symbol:   class StoredPropertyBase
+  location: class GradleRunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/GradleRunConfigurationOptions.java:18: error: cannot find symbol
+  public final StoredPropertyBase<String> arguments;
+               ^
+  symbol:   class StoredPropertyBase
+  location: class GradleRunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/GradleRunConfigurationOptions.java:19: error: cannot find symbol
+  public final StoredPropertyBase<Map<String, String>> envVariables;
+               ^
+  symbol:   class StoredPropertyBase
+  location: class GradleRunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/GradleRunConfigurationOptions.java:20: error: cannot find symbol
+  public final StoredPropertyBase<Boolean> passParentEnvParameters;
+               ^
+  symbol:   class StoredPropertyBase
+  location: class GradleRunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/GradleRunConfigurationOptions.java:21: error: cannot find symbol
+  public final StoredPropertyBase<Boolean> compileBeforeLaunch;
+               ^
+  symbol:   class StoredPropertyBase
+  location: class GradleRunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/IRunConfigExecutionFacade.java:22: error: cannot find symbol
+  void executeNestedRunConfigs(@NotNull RunnerAndConfigurationSettings pSettings, @NotNull RunConfiguration pSource, @NotNull IQuarkusRunConfigurationOptions pOptions);
+                                        ^
+  symbol:   class RunnerAndConfigurationSettings
+  location: interface IRunConfigExecutionFacade
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/IRunConfigExecutionFacade.java:22: error: cannot find symbol
+  void executeNestedRunConfigs(@NotNull RunnerAndConfigurationSettings pSettings, @NotNull RunConfiguration pSource, @NotNull IQuarkusRunConfigurationOptions pOptions);
+                                                                                           ^
+  symbol:   class RunConfiguration
+  location: interface IRunConfigExecutionFacade
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/IRunConfigExecutionFacade.java:31: error: cannot find symbol
+  void executeNestedRunConfigs(@NotNull RunnerAndConfigurationSettings pSettings, @NotNull RunConfiguration pSource, @NotNull IQuarkusRunConfigurationOptions pOptions, @NotNull Integer pDebugPort);
+                                        ^
+  symbol:   class RunnerAndConfigurationSettings
+  location: interface IRunConfigExecutionFacade
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/IRunConfigExecutionFacade.java:31: error: cannot find symbol
+  void executeNestedRunConfigs(@NotNull RunnerAndConfigurationSettings pSettings, @NotNull RunConfiguration pSource, @NotNull IQuarkusRunConfigurationOptions pOptions, @NotNull Integer pDebugPort);
+                                                                                           ^
+  symbol:   class RunConfiguration
+  location: interface IRunConfigExecutionFacade
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:4: error: cannot access EnvironmentVariablesComponent
+import com.intellij.execution.configuration.EnvironmentVariablesComponent;
+                                           ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/execution/configuration/EnvironmentVariablesComponent.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:5: error: cannot access AllIcons
+import com.intellij.icons.AllIcons;
+                         ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/icons/AllIcons.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:6: error: cannot access ExternalSystemJdkComboBox
+import com.intellij.openapi.externalSystem.service.ui.ExternalSystemJdkComboBox;
+                                                     ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/externalSystem/service/ui/ExternalSystemJdkComboBox.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:11: error: cannot access UIUtil
+import com.intellij.util.ui.UIUtil;
+                           ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/util/ui/UIUtil.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:15: error: cannot access MavenProjectsManager
+import org.jetbrains.idea.maven.project.MavenProjectsManager;
+                                       ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/plugins/maven/lib/maven.jar(/org/jetbrains/idea/maven/project/MavenProjectsManager.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:26: error: cannot find symbol
+class MavenParametersSettingsEditorImpl extends SettingsEditor<MavenRunConfigImpl> implements PanelWithAnchor
+                                                ^
+  symbol: class SettingsEditor
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:26: error: cannot access PanelWithAnchor
+class MavenParametersSettingsEditorImpl extends SettingsEditor<MavenRunConfigImpl> implements PanelWithAnchor
+                                                                                              ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/ui/PanelWithAnchor.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenRunConfigImpl.java:23: error: cannot find symbol
+class MavenRunConfigImpl extends RunConfigurationBase<JavaRunConfigurationModule>
+                                 ^
+  symbol: class RunConfigurationBase
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenRunConfigImpl.java:23: error: cannot access JavaRunConfigurationModule
+class MavenRunConfigImpl extends RunConfigurationBase<JavaRunConfigurationModule>
+                                                      ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/plugins/java/lib/java-impl.jar(/com/intellij/execution/configurations/JavaRunConfigurationModule.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:119: error: cannot access LabeledComponent
+  private static class _WorkingDirectoryComponent extends LabeledComponent<JPanel>
+                                                          ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/ui/LabeledComponent.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:30: error: cannot find symbol
+  private final LabeledComponent<RawCommandLineEditor> vmOptions;
+                ^
+  symbol:   class LabeledComponent
+  location: class MavenParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:30: error: cannot access RawCommandLineEditor
+  private final LabeledComponent<RawCommandLineEditor> vmOptions;
+                                 ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/ui/RawCommandLineEditor.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:31: error: cannot find symbol
+  private final LabeledComponent<ExternalSystemJdkComboBox> jre;
+                ^
+  symbol:   class LabeledComponent
+  location: class MavenParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:31: error: cannot find symbol
+  private final LabeledComponent<ExternalSystemJdkComboBox> jre;
+                                 ^
+  symbol:   class ExternalSystemJdkComboBox
+  location: class MavenParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:32: error: cannot find symbol
+  private final EnvironmentVariablesComponent envVariables;
+                ^
+  symbol:   class EnvironmentVariablesComponent
+  location: class MavenParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:33: error: cannot find symbol
+  private final LabeledComponent<JCheckBox> compileBeforeLaunch;
+                ^
+  symbol:   class LabeledComponent
+  location: class MavenParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenParametersSettingsEditorImpl.java:121: error: cannot access TextFieldWithBrowseButton
+    private final TextFieldWithBrowseButton textField = new TextFieldWithBrowseButton();
+                  ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/ui/TextFieldWithBrowseButton.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenRunConfigImpl.java:31: error: cannot find symbol
+  MavenRunConfigImpl(@Assisted @NotNull Project pProject, @Assisted @NotNull ConfigurationFactory pConfigurationFactory)
+                                                                             ^
+  symbol:   class ConfigurationFactory
+  location: class MavenRunConfigImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenRunConfigImpl.java:38: error: cannot find symbol
+  public SettingsEditor<? extends RunConfiguration> getConfigurationEditor()
+         ^
+  symbol:   class SettingsEditor
+  location: class MavenRunConfigImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenRunConfigImpl.java:38: error: cannot find symbol
+  public SettingsEditor<? extends RunConfiguration> getConfigurationEditor()
+                                  ^
+  symbol:   class RunConfiguration
+  location: class MavenRunConfigImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenRunConfigImpl.java:47: error: cannot find symbol
+  public RunProfileState getState(@NotNull Executor pExecutor, @NotNull ExecutionEnvironment pExecutionEnvironment)
+                                           ^
+  symbol:   class Executor
+  location: class MavenRunConfigImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenRunConfigImpl.java:47: error: cannot find symbol
+  public RunProfileState getState(@NotNull Executor pExecutor, @NotNull ExecutionEnvironment pExecutionEnvironment)
+                                                                        ^
+  symbol:   class ExecutionEnvironment
+  location: class MavenRunConfigImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/MavenRunConfigImpl.java:47: error: cannot find symbol
+  public RunProfileState getState(@NotNull Executor pExecutor, @NotNull ExecutionEnvironment pExecutionEnvironment)
+         ^
+  symbol:   class RunProfileState
+  location: class MavenRunConfigImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/MavenRunConfigurationOptions.java:14: error: cannot find symbol
+public class MavenRunConfigurationOptions extends RunConfigurationOptions implements IQuarkusRunConfigurationOptions
+                                                  ^
+  symbol: class RunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/MavenRunConfigurationOptions.java:17: error: cannot find symbol
+  public final StoredPropertyBase<String> workingDir;
+               ^
+  symbol:   class StoredPropertyBase
+  location: class MavenRunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/MavenRunConfigurationOptions.java:18: error: cannot find symbol
+  public final StoredPropertyBase<String> vmOptions;
+               ^
+  symbol:   class StoredPropertyBase
+  location: class MavenRunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/MavenRunConfigurationOptions.java:19: error: cannot find symbol
+  public final StoredPropertyBase<String> jreName;
+               ^
+  symbol:   class StoredPropertyBase
+  location: class MavenRunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/MavenRunConfigurationOptions.java:20: error: cannot find symbol
+  public final StoredPropertyBase<Map<String, String>> envVariables;
+               ^
+  symbol:   class StoredPropertyBase
+  location: class MavenRunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/MavenRunConfigurationOptions.java:21: error: cannot find symbol
+  public final StoredPropertyBase<Boolean> passParentEnvParameters;
+               ^
+  symbol:   class StoredPropertyBase
+  location: class MavenRunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/options/MavenRunConfigurationOptions.java:22: error: cannot find symbol
+  public final StoredPropertyBase<Boolean> compileBeforeLaunch;
+               ^
+  symbol:   class StoredPropertyBase
+  location: class MavenRunConfigurationOptions
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleParametersSettingsEditorImpl.java:6: error: cannot access ExternalProjectPathField
+import com.intellij.openapi.externalSystem.service.ui.ExternalProjectPathField;
+                                                     ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/externalSystem/service/ui/ExternalProjectPathField.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleParametersSettingsEditorImpl.java:16: error: cannot access GradleConstants
+import org.jetbrains.plugins.gradle.util.GradleConstants;
+                                        ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/plugins/gradle/lib/gradle.jar(/org/jetbrains/plugins/gradle/util/GradleConstants.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleParametersSettingsEditorImpl.java:27: error: cannot find symbol
+class GradleParametersSettingsEditorImpl extends SettingsEditor<GradleRunConfigImpl> implements PanelWithAnchor
+                                                 ^
+  symbol: class SettingsEditor
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleParametersSettingsEditorImpl.java:27: error: cannot find symbol
+class GradleParametersSettingsEditorImpl extends SettingsEditor<GradleRunConfigImpl> implements PanelWithAnchor
+                                                                                                ^
+  symbol: class PanelWithAnchor
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleParametersSettingsEditorImpl.java:30: error: cannot find symbol
+  private final LabeledComponent<ExternalProjectPathField> workingDirComponent;
+                ^
+  symbol:   class LabeledComponent
+  location: class GradleParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleParametersSettingsEditorImpl.java:30: error: cannot find symbol
+  private final LabeledComponent<ExternalProjectPathField> workingDirComponent;
+                                 ^
+  symbol:   class ExternalProjectPathField
+  location: class GradleParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleParametersSettingsEditorImpl.java:31: error: cannot find symbol
+  private final LabeledComponent<RawCommandLineEditor> vmOptions;
+                ^
+  symbol:   class LabeledComponent
+  location: class GradleParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleParametersSettingsEditorImpl.java:31: error: cannot find symbol
+  private final LabeledComponent<RawCommandLineEditor> vmOptions;
+                                 ^
+  symbol:   class RawCommandLineEditor
+  location: class GradleParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleParametersSettingsEditorImpl.java:32: error: cannot find symbol
+  private final LabeledComponent<RawCommandLineEditor> arguments;
+                ^
+  symbol:   class LabeledComponent
+  location: class GradleParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleParametersSettingsEditorImpl.java:32: error: cannot find symbol
+  private final LabeledComponent<RawCommandLineEditor> arguments;
+                                 ^
+  symbol:   class RawCommandLineEditor
+  location: class GradleParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleParametersSettingsEditorImpl.java:33: error: cannot find symbol
+  private final EnvironmentVariablesComponent envVariables;
+                ^
+  symbol:   class EnvironmentVariablesComponent
+  location: class GradleParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/GradleParametersSettingsEditorImpl.java:34: error: cannot find symbol
+  private final LabeledComponent<JCheckBox> compileBeforeLaunch;
+                ^
+  symbol:   class LabeledComponent
+  location: class GradleParametersSettingsEditorImpl
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/IRunConfigFactory.java:20: error: cannot find symbol
+  RunConfiguration createQuarkusRunConfiguration(@NotNull Project pProject, @NotNull ConfigurationFactory pFactory);
+                                                                                     ^
+  symbol:   class ConfigurationFactory
+  location: interface IRunConfigFactory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/factory/IRunConfigFactory.java:20: error: cannot find symbol
+  RunConfiguration createQuarkusRunConfiguration(@NotNull Project pProject, @NotNull ConfigurationFactory pFactory);
+  ^
+  symbol:   class RunConfiguration
+  location: interface IRunConfigFactory
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusMavenRunConfigType.java:18: error: cannot find symbol
+public class QuarkusMavenRunConfigType extends SimpleConfigurationType implements IQuarkusRunConfigType
+                                               ^
+  symbol: class SimpleConfigurationType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusMavenRunConfigType.java:32: error: cannot find symbol
+  public RunConfiguration createTemplateConfiguration(@NotNull Project pProject)
+         ^
+  symbol:   class RunConfiguration
+  location: class QuarkusMavenRunConfigType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusMavenRunConfigType.java:39: error: cannot find symbol
+  public Class<? extends BaseState> getOptionsClass()
+                         ^
+  symbol:   class BaseState
+  location: class QuarkusMavenRunConfigType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/QuarkusMavenRunConfigType.java:46: error: cannot find symbol
+  public RunConfigurationSingletonPolicy getSingletonPolicy()
+         ^
+  symbol:   class RunConfigurationSingletonPolicy
+  location: class QuarkusMavenRunConfigType
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/gradle/GradleNotificationListener.java:5: error: cannot access ExternalSystemProgressNotificationManager
+import com.intellij.openapi.externalSystem.service.notification.ExternalSystemProgressNotificationManager;
+                                                               ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/externalSystem/service/notification/ExternalSystemProgressNotificationManager.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/gradle/GradleNotificationListener.java:17: error: cannot access ExternalSystemTaskNotificationListenerAdapter
+public class GradleNotificationListener extends ExternalSystemTaskNotificationListenerAdapter
+                                                ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/externalSystem/model/task/ExternalSystemTaskNotificationListenerAdapter.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/gradle/GradleNotificationListener.java:29: error: cannot access ExternalSystemTaskId
+  public void onTaskOutput(@NotNull ExternalSystemTaskId id, @NotNull String text, boolean stdOut)
+                                    ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/externalSystem/model/task/ExternalSystemTaskId.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/gradle/QuarkusGradleRunConfig.java:8: error: cannot access ExternalSystemTaskExecutionSettings
+import com.intellij.openapi.externalSystem.model.execution.ExternalSystemTaskExecutionSettings;
+                                                          ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/externalSystem/model/execution/ExternalSystemTaskExecutionSettings.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/gradle/QuarkusGradleRunConfig.java:9: error: cannot access ExternalSystemRunConfiguration
+import com.intellij.openapi.externalSystem.service.execution.ExternalSystemRunConfiguration;
+                                                            ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/externalSystem/service/execution/ExternalSystemRunConfiguration.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/gradle/QuarkusGradleRunConfig.java:31: error: cannot access GradleRunConfiguration
+class QuarkusGradleRunConfig extends GradleRunConfiguration implements IInternalRunConfigs.IBuildRunConfig
+                                     ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/plugins/gradle/lib/gradle.jar(/org/jetbrains/plugins/gradle/service/execution/GradleRunConfiguration.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/IInternalRunConfigs.java:36: error: cannot find symbol
+  interface IBuildRunConfig extends RunConfiguration
+                                    ^
+  symbol:   class RunConfiguration
+  location: interface IInternalRunConfigs
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/gradle/QuarkusGradleRunConfig.java:38: error: cannot find symbol
+  private WeakReference<RunProfileState> stateRef = null;
+                        ^
+  symbol:   class RunProfileState
+  location: class QuarkusGradleRunConfig
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/gradle/QuarkusGradleRunConfig.java:55: error: cannot find symbol
+  public RunProfileState getState(@NotNull Executor pExecutor, @NotNull ExecutionEnvironment pExecutionEnvironment)
+                                           ^
+  symbol:   class Executor
+  location: class QuarkusGradleRunConfig
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/gradle/QuarkusGradleRunConfig.java:55: error: cannot find symbol
+  public RunProfileState getState(@NotNull Executor pExecutor, @NotNull ExecutionEnvironment pExecutionEnvironment)
+                                                                        ^
+  symbol:   class ExecutionEnvironment
+  location: class QuarkusGradleRunConfig
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/gradle/QuarkusGradleRunConfig.java:55: error: cannot find symbol
+  public RunProfileState getState(@NotNull Executor pExecutor, @NotNull ExecutionEnvironment pExecutionEnvironment)
+         ^
+  symbol:   class RunProfileState
+  location: class QuarkusGradleRunConfig
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/gradle/QuarkusGradleState.java:18: error: cannot access ExternalSystemRunnableState
+class QuarkusGradleState extends ExternalSystemRunnableState
+                                 ^
+  bad class file: /root/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/340745e420bdb562df63354947e455815abd35c0/ideaIC-LATEST-EAP-SNAPSHOT/lib/app.jar(/com/intellij/openapi/externalSystem/service/execution/ExternalSystemRunnableState.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task219/wd/NonDex-plugin-test/github.com/conceptivesolutions/quarkus-intellij-plugin/src/main/java/io/conceptive/quarkus/plugin/runconfig/executionfacade/gradle/QuarkusGradleState.java:24: error: cannot find symbol
+  public QuarkusGradleState(@NotNull ExternalSystemTaskExecutionSettings pSettings, @NotNull Project pProject,
+                                     ^
+  symbol:   class ExternalSystemTaskExecutionSettings
+  location: class QuarkusGradleState
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 17s

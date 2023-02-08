@@ -1,0 +1,21 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':web:compileJava'.
+> Could not resolve all files for configuration ':web:compileClasspath'.
+   > Could not find com.caihao.dubboprovider02:api:1.0.0.
+     Searched in the following locations:
+       - file:/root/.m2/repository/com/caihao/dubboprovider02/api/1.0.0/api-1.0.0.pom
+       - file:/root/.m2/repository/com/caihao/dubboprovider02/api/1.0.0/api-1.0.0.jar
+       - https://repo.maven.apache.org/maven2/com/caihao/dubboprovider02/api/1.0.0/api-1.0.0.pom
+       - https://repo.maven.apache.org/maven2/com/caihao/dubboprovider02/api/1.0.0/api-1.0.0.jar
+     Required by:
+         project :web
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

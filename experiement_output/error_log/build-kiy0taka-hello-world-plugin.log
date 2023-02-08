@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'hello-world-plugin'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve org.jenkins-ci.tools:gradle-jpi-plugin:0.4.0.
+     Required by:
+         project :
+      > Could not resolve org.jenkins-ci.tools:gradle-jpi-plugin:0.4.0.
+         > Could not get resource 'http://maven.jenkins-ci.org/content/repositories/releases/org/jenkins-ci/tools/gradle-jpi-plugin/0.4.0/gradle-jpi-plugin-0.4.0.pom'.
+            > Could not GET 'http://maven.jenkins-ci.org/content/repositories/releases/org/jenkins-ci/tools/gradle-jpi-plugin/0.4.0/gradle-jpi-plugin-0.4.0.pom'.
+               > maven.jenkins-ci.org
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

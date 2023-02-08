@@ -1,0 +1,20 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'fish-cloud'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:2.3.6.RELEASE.
+     Required by:
+         project : > org.springframework.boot:org.springframework.boot.gradle.plugin:2.3.6.RELEASE
+      > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:2.3.6.RELEASE.
+         > Could not get resource 'https://maven.aliyun.com/repository/gradle-plugin/org/springframework/boot/spring-boot-gradle-plugin/2.3.6.RELEASE/spring-boot-gradle-plugin-2.3.6.RELEASE.pom'.
+            > Could not GET 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/gradle-plugin/org/springframework/boot/spring-boot-gradle-plugin/2.3.6.RELEASE/spring-boot-gradle-plugin-2.3.6.RELEASE.pom?Expires=1675211473&OSSAccessKeyId=LTAIfU51SusnnfCC&Signature=YKGP%2F3rHghA0nnY%2BCP0kLfJzyY8%3D'.
+               > Connect to archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com:443 [archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/59.110.185.96] failed: Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3m 24s

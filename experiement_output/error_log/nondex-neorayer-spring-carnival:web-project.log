@@ -1,0 +1,89 @@
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/controller/DeveloperController.java:24: error: constructor Developer in class Developer cannot be applied to given types;
+        allDevelopers.add(new Developer(0L, "Wolfgang Amadeus Mozart"));
+                          ^
+  required: no arguments
+  found: long,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/controller/DeveloperController.java:25: error: constructor Developer in class Developer cannot be applied to given types;
+        allDevelopers.add(new Developer(1L, "Leonardo da Vinci"));
+                          ^
+  required: no arguments
+  found: long,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/controller/DeveloperController.java:26: error: constructor Developer in class Developer cannot be applied to given types;
+        allDevelopers.add(new Developer(2L, "Linus Torvalds"));
+                          ^
+  required: no arguments
+  found: long,String
+  reason: actual and formal argument lists differ in length
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/controller/DeveloperController.java:41: error: cannot find symbol
+                .filter((developer -> developer.getFullName().contains(name)))
+                                               ^
+  symbol:   method getFullName()
+  location: variable developer of type Developer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/controller/DeveloperController.java:63: error: cannot find symbol
+        return new Resource(developer, linkTo(dummy.get(developer.getId())).withSelfRel());
+                                                                 ^
+  symbol:   method getId()
+  location: variable developer of type Developer
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/controller/BookController.java:49: error: cannot find symbol
+        return book.getName();
+                   ^
+  symbol:   method getName()
+  location: variable book of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/service/BookService.java:13: error: cannot find symbol
+        book.setId(bookId);
+            ^
+  symbol:   method setId(String)
+  location: variable book of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/service/BookService.java:14: error: cannot find symbol
+        book.setName("Moby Dick");
+            ^
+  symbol:   method setName(String)
+  location: variable book of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/service/BookService.java:19: error: cannot find symbol
+        book.setId(UUID.randomUUID().toString());
+            ^
+  symbol:   method setId(String)
+  location: variable book of type Book
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/service/ScheduleService.java:28: error: cannot find symbol
+        log.info("Started ScheduleService thread");
+        ^
+  symbol:   variable log
+  location: class ScheduleService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/service/ScheduleService.java:43: error: cannot find symbol
+                log.error(e.getMessage());
+                ^
+  symbol:   variable log
+  location: class ScheduleService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/service/ScheduleService.java:44: error: cannot find symbol
+                log.debug("", e);
+                ^
+  symbol:   variable log
+  location: class ScheduleService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/service/ScheduleService.java:54: error: cannot find symbol
+            log.error("", e);
+            ^
+  symbol:   variable log
+  location: class ScheduleService
+/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task356/wd/NonDex-plugin-test/github.com/neorayer/spring-carnival/web-project/src/main/java/com/demo/service/ScheduleService.java:65: error: cannot find symbol
+        log.info(message);
+        ^
+  symbol:   variable log
+  location: class ScheduleService
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':web-project:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

@@ -1,0 +1,18 @@
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/batch/tasks/workitems/NONDEX_nondex_r131_1M31d16h48m2s/job-1/Task11/wd/NonDex-plugin-test/github.com/ksoichiro/gradle-plugin-template/build.gradle' line: 16
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'net.saliman.cobertura', version: '2.2.8']
+> Failed to apply plugin [id 'net.saliman.cobertura']
+   > Could not create an instance of type net.saliman.gradle.plugin.cobertura.CoberturaExtension_Decorated.
+      > Could not get unknown property 'classesDir' for main classes of type org.gradle.api.internal.tasks.DefaultSourceSetOutput.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s
