@@ -8,6 +8,7 @@ result_file=${path}/result.csv
 
 
 function download_compile() {
+    start_time=$(date +%s)
     cd $path
     user=$(dirname $1)
     repo=$(basename $1)
@@ -73,11 +74,26 @@ $(cat ${buildFile})" > ${buildFile}
 				sed -i 's/^\( \|\t\)*test /tasks.withType(Test) /' ${subBuildFile}
 			done
 		fi
+
+			# ----------count total tests-------------------- #
+		echo 'allprojects {
+  tasks.withType(Test) {
+    testLogging {
+      afterSuite { desc, result ->
+        if (!desc.parent) { 
+          println "+++Results: ${result.resultType} ${result.testCount},${result.successfulTestCount},${result.failedTestCount},${result.skippedTestCount}"
+        }
+      }
+    }
+  }
+}' >> ${buildFile}
+
         # -----------------------------------------------------run nondexTest--------------------------------------------------------------#
         echo try to run nondexTest
 		./gradlew clean	# so always run nondexTest even if the last run is a success
 
 		if [[ $sub == 0 ]]; then	# no subprojects
+			total_tests=$(./gradlew test | grep "+++Result" | cut -f3 -d' ')
 			./gradlew nondexTest --nondexRuns=10 1> nondex.log 2> nondex-err.log
 			if ( grep "NonDex SUMMARY:" nondex.log ); then # if nondexTest is actually executed
 				flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex.log | sed -e '1d;$d' | wc -l)
@@ -92,9 +108,10 @@ $(cat ${buildFile})" > ${buildFile}
 				if ( grep "BUILD SUCCESSFUL" nondex.log ); then flaky_tests="no test"
 				else flaky_tests="error"; cp nondex-err.log ${path}/error_log/nondex-${user}-${repo}.log; fi
 			fi
-			echo -e "$1,${build},${ver},${flaky_tests}" >> ${path}/result.csv
+			echo -e "$1,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 ))" >> ${path}/result.csv
 		else	# run each subprojects separately, cuz nondex generate summary report for each subprojects
 			for p in ${projects}; do 
+				total_tests=$(./gradlew :$p:test | grep "+++Result" | cut -f3 -d' ')
 				./gradlew :$p:nondexTest  --nondexRuns=10 1> nondex:$p.log 2> nondex-err:$p.log
 				if ( grep "NonDex SUMMARY:" nondex:$p.log ); then # if nondexTest is actually executed
 					flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex:$p.log | sed -e '1d;$d' | wc -l)
@@ -109,27 +126,29 @@ $(cat ${buildFile})" > ${buildFile}
 					if ( grep "BUILD SUCCESSFUL" nondex:$p.log ); then flaky_tests="no test"
 					else flaky_tests="error"; cp nondex-err:$p.log ${path}/error_log/nondex-${user}-${repo}:$p.log; fi
 				fi
-				echo -e "$1:$p,${build},${ver},${flaky_tests}" >> ${path}/result.csv
+				echo -e "$1:$p,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 ))" >> ${path}/result.csv
 			done
 		fi
     else 
     # ----------------------------------------build fail------------------------------------------------ #
         build=F
         flaky_tests="N/A"
+		total_tests=",,,"
         echo "project $1 has error"
         cp build-err.log ${path}/error_log/build-${user}-${repo}.log
-		echo -e "$1,${build},${ver},${flaky_tests}" >> ${path}/result.csv
+		echo -e "$1,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 ))" >> ${path}/result.csv
     fi
 	# echo -e "$1,${build},${ver},${flaky_tests}" >> ${path}/result.csv
 }
 
 touch result.csv
 touch flaky.csv
-echo "project name,compile,gradle version,flaky tests" > result.csv
+echo "project name,compile,gradle version,flaky tests,total tests,successful tests,failed tests,skipped tests,time (minutes)" > result.csv
 echo "Project URL,SHA Detected,Subproject Name,Fully-Qualified Test Name (packageName.ClassName.methodName)" > flaky.csv
 mkdir error_log
-for f in $(cat $1); do
-    echo ========== trying to dowload $f
-    download_compile $f
-done
+# for f in $(cat $1); do
+#     echo ========== trying to dowload $f
+#     download_compile $f
+# done
+download_compile $1
 
