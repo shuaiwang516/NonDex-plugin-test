@@ -146,9 +146,8 @@ touch flaky.csv
 echo "project name,compile,gradle version,flaky tests,total tests,successful tests,failed tests,skipped tests,time (minutes)" > result.csv
 echo "Project URL,SHA Detected,Subproject Name,Fully-Qualified Test Name (packageName.ClassName.methodName)" > flaky.csv
 mkdir error_log
-# for f in $(cat $1); do
-#     echo ========== trying to dowload $f
-#     download_compile $f
-# done
-download_compile $1
+for f in $(cat $1); do
+    echo ========== trying to dowload $f
+    download_compile $f
+done
 
