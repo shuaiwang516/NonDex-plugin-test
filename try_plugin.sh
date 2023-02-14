@@ -33,27 +33,42 @@ function download_compile() {
 	fi
 
     # ----------------------------------------------------build the project--------------------------------------------------------#
-    echo try to build the project
+    echo ========= try to build the project
 	./gradlew tasks 1> build.log 2> build-err.log
     grep "BUILD SUCCESSFUL" build.log
-
     
     if [ $? == 0 ]; then # if build success
-		build=T
+		build="error with test"
+		./gradlew projects | grep "No sub-projects"
+		sub=$?	# sub=0 if no subprojects; sub=1 if there are subprojects
 		projects=$(./gradlew projects | grep Project | cut -f3 -d" " | tr -d "':")
-    # ----------------------------------------------------adding the plugin-----------------------------------------------------------#
-        echo try to add the plugin
+		echo ========= projects: ${projects}
 		buildFile=$(./gradlew properties | grep buildFile | awk '{print $2}')
+		# ----------count total tests-------------------- #
+		echo 'allprojects {
+  tasks.withType(Test) {
+    testLogging {
+      afterSuite { desc, result ->
+        if (!desc.parent) { 
+          println "+++Results: ${result.resultType} ${result.testCount},${result.successfulTestCount},${result.failedTestCount},${result.skippedTestCount}"
+        }
+      }
+    }
+  }
+}' >> ${buildFile}
+		echo ========== run tests without NonDex
+		./gradlew test | grep "+++Results"
+		if [ $? == 0 ]; then build="T"; else echo "========== error with test"; fi # able to run test
+
+    # ----------------------------------------------------adding the plugin-----------------------------------------------------------#
+        echo ========== try to add the plugin
 		grep "classpath 'edu.illinois.nondex:edu.illinois.nondex.gradle.plugin:2.1.1'" ${buildFile}
 		if [ $? != 0 ]; then
-			./gradlew projects | grep "No sub-projects"
-			sub=$?	# sub=0 if no subprojects; sub=1 if there are subprojects
 			if [ $sub == 0 ]; then # no subprojects
 				echo -e "\napply plugin: 'edu.illinois.nondex'" >> ${buildFile}
 			else
 				echo -e "\nsubprojects {\n    apply plugin: 'edu.illinois.nondex'\n}" >> ${buildFile}
 			fi
-        	
         	echo "buildscript {
   repositories {
     mavenLocal()
@@ -74,27 +89,14 @@ $(cat ${buildFile})" > ${buildFile}
 				sed -i 's/^\( \|\t\)*test /tasks.withType(Test) /' ${subBuildFile}
 			done
 		fi
-
-			# ----------count total tests-------------------- #
-		echo 'allprojects {
-  tasks.withType(Test) {
-    testLogging {
-      afterSuite { desc, result ->
-        if (!desc.parent) { 
-          println "+++Results: ${result.resultType} ${result.testCount},${result.successfulTestCount},${result.failedTestCount},${result.skippedTestCount}"
-        }
-      }
-    }
-  }
-}' >> ${buildFile}
-
         # -----------------------------------------------------run nondexTest--------------------------------------------------------------#
-        echo try to run nondexTest
+        echo ========== try to run nondexTest
 		./gradlew clean	# so always run nondexTest even if the last run is a success
-
 		if [[ $sub == 0 ]]; then	# no subprojects
 			total_tests=$(./gradlew test | grep "+++Result" | cut -f3 -d' ')
-			./gradlew nondexTest --nondexRuns=10 1> nondex.log 2> nondex-err.log
+			if [[ ${total_tests} == '' ]]; then total_tests=",,,"; echo "========== error with tests in $1";fi
+			echo "========== run NonDex on $1"
+			./gradlew nondexTest --nondexRuns=50 1> nondex.log 2> nondex-err.log
 			if ( grep "NonDex SUMMARY:" nondex.log ); then # if nondexTest is actually executed
 				flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex.log | sed -e '1d;$d' | wc -l)
 				if [[ $flaky_tests != '0' ]]; then 
@@ -104,15 +106,17 @@ $(cat ${buildFile})" > ${buildFile}
 					done	
 				fi
 			else
-				echo "error or no test in the project $1"
+				echo "========== error or no test in the project $1"
 				if ( grep "BUILD SUCCESSFUL" nondex.log ); then flaky_tests="no test"
 				else flaky_tests="error"; cp nondex-err.log ${path}/error_log/nondex-${user}-${repo}.log; fi
 			fi
-			echo -e "$1,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 ))" >> ${path}/result.csv
+			echo -e "$1,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 ))" | tee -a ${path}/result.csv
 		else	# run each subprojects separately, cuz nondex generate summary report for each subprojects
 			for p in ${projects}; do 
 				total_tests=$(./gradlew :$p:test | grep "+++Result" | cut -f3 -d' ')
-				./gradlew :$p:nondexTest  --nondexRuns=10 1> nondex:$p.log 2> nondex-err:$p.log
+				if [[ ${total_tests} == '' ]]; then total_tests=",,,"; echo "========== error with tests in $1:$p";fi
+				echo "========== run NonDex on $1:$p"
+				./gradlew :$p:nondexTest  --nondexRuns=50 1> nondex:$p.log 2> nondex-err:$p.log
 				if ( grep "NonDex SUMMARY:" nondex:$p.log ); then # if nondexTest is actually executed
 					flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex:$p.log | sed -e '1d;$d' | wc -l)
 					if [[ $flaky_tests != '0' ]]; then
@@ -122,23 +126,22 @@ $(cat ${buildFile})" > ${buildFile}
 						done
 					fi
 				else
-					echo "error or no test in the project $1:$p"
+					echo "========== error or no test in the project $1:$p"
 					if ( grep "BUILD SUCCESSFUL" nondex:$p.log ); then flaky_tests="no test"
 					else flaky_tests="error"; cp nondex-err:$p.log ${path}/error_log/nondex-${user}-${repo}:$p.log; fi
 				fi
-				echo -e "$1:$p,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 ))" >> ${path}/result.csv
+				echo -e "$1:$p,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 ))" | tee -a ${path}/result.csv
 			done
 		fi
     else 
     # ----------------------------------------build fail------------------------------------------------ #
-        build=F
+        build="F"
         flaky_tests="N/A"
 		total_tests=",,,"
         echo "project $1 has error"
         cp build-err.log ${path}/error_log/build-${user}-${repo}.log
 		echo -e "$1,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 ))" >> ${path}/result.csv
     fi
-	# echo -e "$1,${build},${ver},${flaky_tests}" >> ${path}/result.csv
 }
 
 touch result.csv
@@ -150,4 +153,3 @@ for f in $(cat $1); do
     echo ========== trying to dowload $f
     download_compile $f
 done
-
