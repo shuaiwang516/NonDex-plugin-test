@@ -143,8 +143,8 @@ $(cat ${buildFile})" > ${buildFile}
     fi
 }
 
-
-
+echo script SHA: $(git rev-parse HEAD)
+script_start_time=$(date +%s)
 echo "project name,compile,gradle version,flaky tests,total tests,successful tests,failed tests,skipped tests,time (mins)" > output/result.csv
 echo "Project URL,SHA Detected,Subproject Name,Fully-Qualified Test Name (packageName.ClassName.methodName)" > output/flaky.csv
 mkdir -p output/error_log
@@ -156,3 +156,5 @@ do
 	echo ========== trying to dowload $proj
     download_compile $proj
 done
+script_end_time=$(date +%s)
+echo total time in minutes: $(( ($(date +%s)-${start_time})/60 ))
