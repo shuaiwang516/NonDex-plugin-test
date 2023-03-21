@@ -145,11 +145,11 @@ $(cat ${buildFile})" > ${buildFile}
 
 
 
-echo "project name,compile,gradle version,flaky tests" > output/result.csv
+echo "project name,compile,gradle version,flaky tests,total tests,successful tests,failed tests,skipped tests,time (mins)" > output/result.csv
 echo "Project URL,SHA Detected,Subproject Name,Fully-Qualified Test Name (packageName.ClassName.methodName)" > output/flaky.csv
 mkdir -p output/error_log
 proj=$1
-# sepearte the project with semi-colon and stores into a list called projects
+# sepearte the project with "%" and stores into a list called projects
 IFS='%' read -a projects <<< "$proj"
 for proj in "${projects[@]}"
 do
