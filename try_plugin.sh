@@ -96,6 +96,8 @@ $(cat ${buildFile})" > ${buildFile}
 			if [[ ${total_tests} == '' ]]; then total_tests=",,,"; echo "========== error with tests in $1";fi
 			echo "========== run NonDex on $1"
 			./gradlew nondexTest --nondexRuns=50 1> nondex.log 2> nondex-err.log
+			size_std=$(du nondex.log | cut -f1)
+			size_err=$(du nondex-err.log | cut -f1)
 			if ( grep "NonDex SUMMARY:" nondex.log ); then # if nondexTest is actually executed
 				flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex.log | sed -e '1d;$d' | wc -l)
 				if [[ $flaky_tests != '0' ]]; then 
@@ -109,13 +111,15 @@ $(cat ${buildFile})" > ${buildFile}
 				if ( grep "BUILD SUCCESSFUL" nondex.log ); then flaky_tests="no test"
 				else flaky_tests="error"; cp nondex-err.log ${path}/error_log/nondex-${user}-${repo}.log; fi
 			fi
-			echo -e "$1,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 ))" | tee -a ${path}/result.csv
+			echo -e "$1,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 )),$(( ${size_std}+${size_err} ))" | tee -a ${path}/result.csv
 		else	# run each subprojects separately, cuz nondex generate summary report for each subprojects
 			for p in ${projects}; do 
 				total_tests=$(./gradlew :$p:test | grep "+++Result" | cut -f3 -d' ' | head -n 1)
 				if [[ ${total_tests} == '' ]]; then total_tests=",,,"; echo "========== error with tests in $1:$p";fi
 				echo "========== run NonDex on $1:$p"
 				./gradlew :$p:nondexTest  --nondexRuns=50 1> nondex:$p.log 2> nondex-err:$p.log
+				size_std=$(du nondex:$p.log | cut -f1)
+				size_err=$(du nondex-err:$p.log | cut -f1)
 				if ( grep "NonDex SUMMARY:" nondex:$p.log ); then # if nondexTest is actually executed
 					flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex:$p.log | sed -e '1d;$d' | wc -l)
 					if [[ $flaky_tests != '0' ]]; then
@@ -129,7 +133,7 @@ $(cat ${buildFile})" > ${buildFile}
 					if ( grep "BUILD SUCCESSFUL" nondex:$p.log ); then flaky_tests="no test"
 					else flaky_tests="error"; cp nondex-err:$p.log ${path}/error_log/nondex-${user}-${repo}:$p.log; fi
 				fi
-				echo -e "$1:$p,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 ))" | tee -a ${path}/result.csv
+				echo -e "$1:$p,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 )),$(( ${size_std}+${size_err} ))" | tee -a ${path}/result.csv
 			done
 		fi
     else 
@@ -139,13 +143,15 @@ $(cat ${buildFile})" > ${buildFile}
 		total_tests=",,,"
         echo "project $1 has error"
         cp build-err.log ${path}/error_log/build-${user}-${repo}.log
-		echo -e "$1,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 ))" >> ${path}/result.csv
+		size_std=$(du build.log | cut -f1)
+		size_err=$(du build-err:$p.log | cut -f1)
+		echo -e "$1,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 )),$(( ${size_std}+${size_err} ))" >> ${path}/result.csv
     fi
 }
 
 echo script SHA: $(git rev-parse HEAD)
 script_start_time=$(date +%s)
-echo "project name,compile,gradle version,flaky tests,total tests,successful tests,failed tests,skipped tests,time (mins)" > output/result.csv
+echo "project name,compile,gradle version,flaky tests,total tests,successful tests,failed tests,skipped tests,time (mins),log size" > output/result.csv
 echo "Project URL,SHA Detected,Subproject Name,Fully-Qualified Test Name (packageName.ClassName.methodName)" > output/flaky.csv
 mkdir -p output/error_log
 proj=$1
