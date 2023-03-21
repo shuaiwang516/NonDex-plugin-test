@@ -112,7 +112,7 @@ $(cat ${buildFile})" > ${buildFile}
 			echo -e "$1,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 ))" | tee -a ${path}/result.csv
 		else	# run each subprojects separately, cuz nondex generate summary report for each subprojects
 			for p in ${projects}; do 
-				total_tests=$(./gradlew :$p:test | grep "+++Result" | cut -f3 -d' ')
+				total_tests=$(./gradlew :$p:test | grep "+++Result" | cut -f3 -d' ' | head -n 1)
 				if [[ ${total_tests} == '' ]]; then total_tests=",,,"; echo "========== error with tests in $1:$p";fi
 				echo "========== run NonDex on $1:$p"
 				./gradlew :$p:nondexTest  --nondexRuns=50 1> nondex:$p.log 2> nondex-err:$p.log
