@@ -41,10 +41,11 @@ function download_compile() {
 		build="error with test"
 		./gradlew projects | grep "No sub-projects"
 		sub=$?	# sub=0 if no subprojects; sub=1 if there are subprojects
-		projects=$(./gradlew projects | grep Project | cut -f3 -d" " | tr -d "':")
+		projects=$(./gradlew projects | grep Project | sed 's/^.*Project//' | tr -d " '")
 		buildFile=$(./gradlew properties | grep buildFile | awk '{print $2}')
 		# ----------count total tests-------------------- #
-		echo 'allprojects {
+		echo '
+allprojects {
   tasks.withType(Test) {
     testLogging {
       afterSuite { desc, result ->
@@ -70,11 +71,12 @@ function download_compile() {
 			fi
         	echo "buildscript {
   repositories {
-    mavenLocal()
-    mavenCentral()
+    maven {
+      url = uri('https://plugins.gradle.org/m2/')
+    }
   }
   dependencies {
-    classpath 'edu.illinois.nondex:edu.illinois.nondex.gradle.plugin:2.1.1'
+    classpath('edu.illinois:plugin:2.1.1')
   }
 }
 $(cat ${buildFile})" > ${buildFile}
@@ -84,7 +86,7 @@ $(cat ${buildFile})" > ${buildFile}
 		sed -i 's/^\( \|\t\)*test /tasks.withType(Test) /' ${buildFile}
 		if [[ $sub != 0 ]]; then # have subprojects
 			for p in ${projects}; do
-				subBuildFile=$(./gradlew :$p:properties | grep buildFile | awk '{print $2}')
+				subBuildFile=$(./gradlew $p:properties | grep buildFile | awk '{print $2}')
 				sed -i 's/^\( \|\t\)*test /tasks.withType(Test) /' ${subBuildFile}
 			done
 		fi
@@ -109,31 +111,33 @@ $(cat ${buildFile})" > ${buildFile}
 			else
 				echo "========== error or no test in the project $1"
 				if ( grep "BUILD SUCCESSFUL" nondex.log ); then flaky_tests="no test"
-				else flaky_tests="error"; cp nondex-err.log ${path}/error_log/nondex-${user}-${repo}.log; fi
+				elif ( ./gradlew tasks | grep nondexTest ); then flaky_tests="run time error"; cp nondex-err.log ${path}/error_log/nondex-${user}-${repo}.log
+				else flaky_tests="fail to add plugin"; fi
 			fi
 			echo -e "$1,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 )),$(( ${size_std}+${size_err} ))" | tee -a ${path}/result.csv
 		else	# run each subprojects separately, cuz nondex generate summary report for each subprojects
 			for p in ${projects}; do 
-				total_tests=$(./gradlew :$p:test | grep "+++Result" | cut -f3 -d' ' | head -n 1)
-				if [[ ${total_tests} == '' ]]; then total_tests=",,,"; echo "========== error with tests in $1:$p";fi
-				echo "========== run NonDex on $1:$p"
-				./gradlew :$p:nondexTest  --nondexRuns=50 1> nondex:$p.log 2> nondex-err:$p.log
-				size_std=$(du nondex:$p.log | cut -f1)
-				size_err=$(du nondex-err:$p.log | cut -f1)
-				if ( grep "NonDex SUMMARY:" nondex:$p.log ); then # if nondexTest is actually executed
-					flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex:$p.log | sed -e '1d;$d' | wc -l)
+				total_tests=$(./gradlew $p:test | grep "+++Result" | cut -f3 -d' ' | head -n 1)
+				if [[ ${total_tests} == '' ]]; then total_tests=",,,"; echo "========== error with tests in $1$p";fi
+				echo "========== run NonDex on $1$p"
+				./gradlew $p:nondexTest  --nondexRuns=50 1> nondex$p.log 2> nondex-err$p.log
+				size_std=$(du nondex$p.log | cut -f1)
+				size_err=$(du nondex-err$p.log | cut -f1)
+				if ( grep "NonDex SUMMARY:" nondex$p.log ); then # if nondexTest is actually executed
+					flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex$p.log | sed -e '1d;$d' | wc -l)
 					if [[ $flaky_tests != '0' ]]; then
 						sha=$(git rev-parse HEAD)
-						sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex:$p.log | sed -e '1d;$d' | cut -f1 -d' ' --complement | while read line
+						sed -n -e '/Across all seeds:/,/Test results can be found at: / p' nondex$p.log | sed -e '1d;$d' | cut -f1 -d' ' --complement | while read line
 						do echo "https://github.com/$1,${sha},$p,${line}" >> ${path}/flaky.csv
 						done
 					fi
 				else
-					echo "========== error or no test in the project $1:$p"
-					if ( grep "BUILD SUCCESSFUL" nondex:$p.log ); then flaky_tests="no test"
-					else flaky_tests="error"; cp nondex-err:$p.log ${path}/error_log/nondex-${user}-${repo}:$p.log; fi
+					echo "========== error or no test in the project $1$p"
+					if ( grep "BUILD SUCCESSFUL" nondex$p.log ); then flaky_tests="no test"
+					elif ( ./gradlew tasks | grep nondexTest ); then flaky_tests="run time error"; cp nondex-err$p.log ${path}/error_log/nondex-${user}-${repo}$p.log
+					else flaky_tests="fail to add plugin"; fi
 				fi
-				echo -e "$1:$p,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 )),$(( ${size_std}+${size_err} ))" | tee -a ${path}/result.csv
+				echo -e "$1$p,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 )),$(( ${size_std}+${size_err} ))" | tee -a ${path}/result.csv
 			done
 		fi
     else 
@@ -144,7 +148,7 @@ $(cat ${buildFile})" > ${buildFile}
         echo "project $1 has error"
         cp build-err.log ${path}/error_log/build-${user}-${repo}.log
 		size_std=$(du build.log | cut -f1)
-		size_err=$(du build-err:$p.log | cut -f1)
+		size_err=$(du build-err$p.log | cut -f1)
 		echo -e "$1,${build},${ver},${flaky_tests},${total_tests},$(( ($(date +%s)-${start_time})/60 )),$(( ${size_std}+${size_err} ))" >> ${path}/result.csv
     fi
 }
