@@ -1,7 +1,7 @@
 import os, sys
 
 # Input Format: NonDex-plugin-test-repo-url, sha, project_name (separated by %)
-nondex_git_url = "https://github.com/MarcyGO/NonDex-plugin-test.git"
+nondex_git_url = "https://github.com/shuaiwang516/NonDex-plugin-test.git"
 
 def generate_input_str(git_url, commit, project_list):
     project_str = "%".join(project_list)
