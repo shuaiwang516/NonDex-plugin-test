@@ -1,0 +1,497 @@
+project name,compile,gradle version,flaky tests,total tests,successful tests,failed tests,skipped tests,time (mins),log size
+bassagap/gradle-geb-spock-demo,T,5.6.4,fail to add plugin,,,,,2,4
+technoir42/aar-publish-plugin:plugin,T,6.6.1,fail to add plugin,,,,,1,4
+dipien/gradle-timer-plugin:gradle-timer-plugin-GradlePlugintomeasurethebuildtimeofaproject,T,7.1.1,fail to add plugin,,,,,2,8
+stevesaliman/gradle-properties-plugin,T,6.0,fail to add plugin,,,,,3,4
+justyxxx/RestAssured,T,5.2.1,fail to add plugin,,,,,0,4
+yoomoney/grafana-dashboard-plugin,T,6.4.1,fail to add plugin,,,,,2,4
+AlexAegis/elte-or:battleships,T,5.2.1,fail to add plugin,,,,,0,4
+AlexAegis/elte-or:course,T,5.2.1,fail to add plugin,,,,,0,4
+AlexAegis/elte-or:musicbox,T,5.2.1,fail to add plugin,,,,,0,4
+freefair/gradle-plugins:aspectj-plugin-CollectionofAspectJrelatedGradleplugins,T,8.1.1,fail to add plugin,,,,,5,8
+freefair/gradle-plugins:code-generator-api-CodeGeneratorAPI,T,8.1.1,fail to add plugin,,,,,5,8
+freefair/gradle-plugins:code-generator-plugin-Apluginforexecutingspecifiedcodegenerators,T,8.1.1,fail to add plugin,,,,,5,8
+freefair/gradle-plugins:compress-plugin-CollectionofApacheCommonsCompressrelatedGradleplugins,T,8.1.1,fail to add plugin,,,,,5,8
+freefair/gradle-plugins:documentation,T,8.1.1,fail to add plugin,,,,,5,8
+freefair/gradle-plugins:embedded-sass-plugin-CollectionofDartSASSembeddedGradleplugins,T,8.1.1,fail to add plugin,,,,,5,8
+freefair/gradle-plugins:git-plugin-CollectionofGitrelatedGradleplugins,T,8.1.1,fail to add plugin,,,,,5,8
+freefair/gradle-plugins:github-plugin-CollectionofGitHubrelatedGradleplugins,T,8.1.1,fail to add plugin,,,,,5,8
+freefair/gradle-plugins:gradle-plugin-platform-DependencyManagementfortheFreeFairGradleplugincollection,T,8.1.1,fail to add plugin,,,,,5,8
+freefair/gradle-plugins:jacoco-plugin-CollectionofJaCoCorelatedGradleplugins,T,8.1.1,fail to add plugin,,,,,6,8
+freefair/gradle-plugins:lombok-plugin-CollectionofLombokrelatedGradleplugins,T,8.1.1,fail to add plugin,,,,,6,8
+freefair/gradle-plugins:maven-plugin-CollectionofMavenrelatedGradleplugins,T,8.1.1,fail to add plugin,,,,,6,8
+freefair/gradle-plugins:maven-plugin-plugin-GradlePluginforbuildingMavenPlugins,T,8.1.1,fail to add plugin,,,,,6,8
+freefair/gradle-plugins:mkdocs-plugin-CollectionofMkDocsrelatedGradleplugins,T,8.1.1,fail to add plugin,,,,,6,8
+freefair/gradle-plugins:okhttp-plugin-CollectionofOkHttprelatedGradleplugins,T,8.1.1,fail to add plugin,,,,,6,8
+freefair/gradle-plugins:plantuml-plugin-GradlePluginforPlantUML,T,8.1.1,fail to add plugin,,,,,6,8
+freefair/gradle-plugins:plugin-utils-GradlePluginUtils,T,8.1.1,fail to add plugin,,,,,6,8
+freefair/gradle-plugins:quicktype-plugin-CollectionofQuicktyperelatedGradleplugins,T,8.1.1,fail to add plugin,,,,,6,8
+freefair/gradle-plugins:settings-plugin-GradleSettingsPlugins,T,8.1.1,fail to add plugin,,,,,6,8
+freefair/gradle-plugins:test-code-generator,T,8.1.1,fail to add plugin,,,,,6,8
+freefair/gradle-plugins:test-common,T,8.1.1,fail to add plugin,,,,,7,8
+Casturan/swagger-gradle-example,T,3.4.1,fail to add plugin,,,,,0,4
+Nimrodda/buildmetrics-gradle-plugin:buildmetrics,T,6.0.1,fail to add plugin,,,,,3,8
+Nimrodda/buildmetrics-gradle-plugin:buildmetrics-amplitude,T,6.0.1,fail to add plugin,,,,,3,8
+Nimrodda/buildmetrics-gradle-plugin:buildmetrics-common,T,6.0.1,fail to add plugin,,,,,3,8
+Nimrodda/buildmetrics-gradle-plugin:buildmetrics-db,T,6.0.1,fail to add plugin,,,,,3,8
+Nimrodda/buildmetrics-gradle-plugin:buildmetrics-google-analytics,T,6.0.1,fail to add plugin,,,,,3,8
+Nimrodda/buildmetrics-gradle-plugin:buildmetrics-mixpanel,T,6.0.1,fail to add plugin,,,,,3,8
+yoomoney/moira-trigger-plugin,T,6.4.1,fail to add plugin,,,,,2,4
+ChristopheCVB/TouchPortalPluginSDK:Annotations,T,7.5.1,fail to add plugin,,,,,1,8
+ChristopheCVB/TouchPortalPluginSDK:AnnotationsProcessor,T,7.5.1,fail to add plugin,,,,,1,8
+ChristopheCVB/TouchPortalPluginSDK:Helpers,T,7.5.1,fail to add plugin,,,,,1,8
+ChristopheCVB/TouchPortalPluginSDK:Library,T,7.5.1,fail to add plugin,,,,,1,8
+ChristopheCVB/TouchPortalPluginSDK:Packager,T,7.5.1,fail to add plugin,,,,,1,8
+ChristopheCVB/TouchPortalPluginSDK:SampleJava,T,7.5.1,fail to add plugin,,,,,1,8
+ChristopheCVB/TouchPortalPluginSDK:SampleKotlin,T,7.5.1,fail to add plugin,,,,,2,8
+openapi-processor/openapi-processor-gradle:processor-one,T,8.1.1,fail to add plugin,,,,,1,8
+openapi-processor/openapi-processor-gradle:processor-two,T,8.1.1,fail to add plugin,,,,,1,8
+openapi-processor/openapi-processor-gradle:processor-v1,T,8.1.1,fail to add plugin,,,,,2,8
+ElinaValieva/micronaut-quarkus-quickstarts:kotlin-k8s-aws-plugin,T,6.1,fail to add plugin,,,,,3,8
+ElinaValieva/micronaut-quarkus-quickstarts:micronaut,T,6.1,fail to add plugin,,,,,3,8
+ElinaValieva/micronaut-quarkus-quickstarts:quarkus,T,6.1,fail to add plugin,,,,,3,8
+RicardoDaSilvaSouza/example-kotlin-javalin-gradle,T,4.10.2,fail to add plugin,,,,,0,4
+Project-Sustain/sustain-query-service,T,6.8.2,fail to add plugin,,,,,1,4
+palantir/gradle-external-publish-plugin,T,7.5.1,fail to add plugin,,,,,3,4
+jaredsburrows/gradle-spoon-plugin:gradle-spoon-plugin,T,7.4.2,fail to add plugin,,,,,10,8
+NeoTech-Software/Android-Root-Coverage-Plugin:plugin,T,7.3.3,fail to add plugin,,,,,2,8
+diffplug/goomph,T,8.0.1,fail to add plugin,,,,,3,4
+Griefed/ServerPackCreatorExampleAddon,T,7.3.3,fail to add plugin,,,,,2,8
+dlurton/graal-js-jdk11-gradle-kotliin-demo,T,4.10,fail to add plugin,,,,,0,4
+SmartsquareGmbH/squit,T,7.5.1,fail to add plugin,,,,,4,4
+boxheed/gradle-sweeney-plugin,T,7.6,fail to add plugin,,,,,2,8
+palantir/gradle-revapi,T,7.5.1,fail to add plugin,,,,,4,8
+Meebuhs/disco-zoo-solver,T,4.10.1,fail to add plugin,,,,,0,4
+fntsoftware/gradle-plugin-markdown2pdf,T,4.5.1,fail to add plugin,,,,,0,4
+tsukiseele/Potofu,T,6.9,fail to add plugin,,,,,5,4
+palantir/gradle-shadow-jar,T,7.6,fail to add plugin,,,,,2,4
+dipien/semantic-version-gradle-plugin:semantic-version-LibrarytohandleSemanticVersion,T,7.6.1,fail to add plugin,,,,,3,8
+dipien/semantic-version-gradle-plugin:semantic-version-android-gradle-plugin-GradlePlugintohandleSemanticVersion,T,7.6.1,fail to add plugin,,,,,3,8
+dipien/semantic-version-gradle-plugin:semantic-version-gradle-plugin-GradlePlugintohandleSemanticVersion,T,7.6.1,fail to add plugin,,,,,3,8
+gradlets/gradle-typescript:gradle-baseline-typescript,T,7.6.1,fail to add plugin,,,,,3,8
+gradlets/gradle-typescript:gradle-conjure-typescript,T,7.6.1,fail to add plugin,,,,,3,8
+gradlets/gradle-typescript:gradle-typescript,T,7.6.1,fail to add plugin,,,,,4,8
+felipegutierrez/explore-spring:explore-spring-cloud,T,6.8.3,fail to add plugin,,,,,3,4
+felipegutierrez/explore-spring:reactor-only-reactor-only,T,6.8.3,fail to add plugin,,,,,3,4
+felipegutierrez/explore-spring:resilience4j-only-resilience4j-only,T,6.8.3,fail to add plugin,,,,,3,4
+felipegutierrez/explore-spring:spring-basics-spring-basics,T,6.8.3,fail to add plugin,,,,,3,4
+felipegutierrez/explore-spring:spring-gateway-spring-gateway,T,6.8.3,fail to add plugin,,,,,3,4
+felipegutierrez/explore-spring:spring-kafka-library-consumer-spring-kafka-library-consumer,T,6.8.3,fail to add plugin,,,,,3,4
+felipegutierrez/explore-spring:spring-kafka-library-producer-spring-kafka-library-producer,T,6.8.3,fail to add plugin,,,,,3,4
+felipegutierrez/explore-spring:spring-kafka-stream-spring-kafka-stream,T,6.8.3,fail to add plugin,,,,,3,4
+felipegutierrez/explore-spring:spring-security-spring-security,T,6.8.3,fail to add plugin,,,,,3,4
+felipegutierrez/explore-spring:spring-web-spring-web,T,6.8.3,fail to add plugin,,,,,3,4
+felipegutierrez/explore-spring:spring-web-react-spring-web-react,T,6.8.3,fail to add plugin,,,,,3,4
+felipegutierrez/explore-spring:spring-web-react-client-spring-web-react-client,T,6.8.3,fail to add plugin,,,,,3,4
+gavarava/rockpaperscissors,T,6.1,fail to add plugin,,,,,1,4
+schlan/java-censor:java-censor-plugin,T,6.7,fail to add plugin,,,,,2,8
+schlan/java-censor:java-censor-sample,T,6.7,fail to add plugin,,,,,2,8
+srinidronadula/Cucumber-Gradle,T,6.3,fail to add plugin,,,,,2,8
+palantir/gradle-conjure:gradle-conjure-Palantiropensourceproject,T,7.6,fail to add plugin,,,,,6,8
+palantir/gradle-conjure:gradle-conjure-api-Palantiropensourceproject,T,7.6,fail to add plugin,,,,,6,8
+devssh/Prototype-Private-Chain,T,3.1,fail to add plugin,,,,,0,4
+boxheed/gradle-extended-info-plugin,T,8.1.1,fail to add plugin,,,,,2,8
+palantir/gradle-consistent-versions,T,7.5.1,fail to add plugin,,,,,6,4
+mike-neck/graalvm-native-image-plugin,T,6.2.1,fail to add plugin,,,,,1,4
+Itiviti/gradle-dotnet-plugin,T,6.8.3,fail to add plugin,,,,,1,4
+MS-Song/dbclient:song7749-core-common,T,6.8,fail to add plugin,,,,,4,8
+MS-Song/dbclient:song7749-core-domain,T,6.8,fail to add plugin,,,,,4,8
+MS-Song/dbclient:song7749-core-static,T,6.8,fail to add plugin,,,,,4,8
+MS-Song/dbclient:song7749-core-test,T,6.8,fail to add plugin,,,,,4,8
+MS-Song/dbclient:song7749-core-web,T,6.8,fail to add plugin,,,,,4,8
+MS-Song/dbclient:song7749-module-dbclient,T,6.8,fail to add plugin,,,,,4,8
+MS-Song/dbclient:song7749-module-incident,T,6.8,fail to add plugin,,,,,4,8
+MS-Song/dbclient:song7749-module-srcenter,T,6.8,fail to add plugin,,,,,4,8
+MS-Song/dbclient:song7749-service-dbclient,T,6.8,fail to add plugin,,,,,4,8
+MS-Song/dbclient:song7749-service-incident,T,6.8,fail to add plugin,,,,,4,8
+MS-Song/dbclient:song7749-service-srcenter,T,6.8,fail to add plugin,,,,,4,8
+luiz-otavio/wisply-placeholder:api,T,7.5,fail to add plugin,,,,,1,4
+luiz-otavio/wisply-placeholder:common,T,7.5,fail to add plugin,,,,,1,4
+luiz-otavio/wisply-placeholder:test,T,7.5,fail to add plugin,,,,,1,4
+KyoriPowered/mammoth:mammoth-test-JUnitextensionsfortestingGradleplugins,T,8.1.1,fail to add plugin,,,,,1,4
+iljapavlovs/kotlin-gradle-allure-junit5-parallel,T,4.8,fail to add plugin,,,,,1,4
+nik-sta/spring-boot-kotlin-gradle-heroku-docker-template,T,5.6,fail to add plugin,,,,,1,4
+ayedo/jooq-modelator,T,6.5.1,fail to add plugin,,,,,2,4
+redhat-developer/intellij-quarkus,T,7.6,fail to add plugin,,,,,88,8
+jinzcdev/shopping-server,T,4.10.3,fail to add plugin,,,,,0,4
+nebula-plugins/gradle-jakartaee-migration-plugin,T,8.2,fail to add plugin,,,,,3,8
+mike-neck/savanna-gradle-plugin,T,6.4.1,fail to add plugin,,,,,1,4
+passsy/gradle-gitVersioner-plugin:gitversioner,T,5.6.2,fail to add plugin,,,,,1,4
+neherim/gradle-quality-check-plugin,T,6.2.2,fail to add plugin,,,,,2,4
+diffplug/blowdryer,T,7.6,fail to add plugin,,,,,4,4
+Lucas3oo/cloudformation-gradle-plugin,T,7.5.1,fail to add plugin,,,,,1,4
+palantir/gradle-docker,T,7.6,fail to add plugin,,,,,3,4
+gradle-plugins/toolbox:gradle-fixtures-GradleTestKitfixturesforfastandefficientGradleplugindevelopment.,T,6.8.2,fail to add plugin,,,,,3,8
+gradle-plugins/toolbox:gradle-fixtures-file-system-Gradlefixtures,T,6.8.2,fail to add plugin,,,,,3,8
+gradle-plugins/toolbox:gradle-fixtures-source-elements-Gradlefixtures,T,6.8.2,fail to add plugin,,,,,3,8
+gradle-plugins/toolbox:gradle-fixtures-version-control-system-Gradlefixtures,T,6.8.2,fail to add plugin,,,,,3,8
+gradle-plugins/toolbox:gradle-plugin-development-Gradleplugindevelopmentplugins.,T,6.8.2,fail to add plugin,,,,,3,8
+gradle-plugins/toolbox:gradle-plugin-development-test-fixtures-Gradleplugindevelopmentpluginstestfixtures.,T,6.8.2,fail to add plugin,,,,,3,8
+gradle-plugins/toolbox:gradle-runner-kit-Gradlerunnerkit.,T,6.8.2,fail to add plugin,,,,,3,8
+gradle-plugins/toolbox:gradle-runner-kit-api-GradlerunnerkitAPI.,T,6.8.2,fail to add plugin,,,,,3,8
+gradle-plugins/toolbox:gradle-runner-kit-impl-Gradlerunnerkitimplementation.,T,6.8.2,fail to add plugin,,,,,3,8
+gradle-plugins/toolbox:gradle-runner-kit-integration-test,T,6.8.2,fail to add plugin,,,,,3,8
+gradle-plugins/toolbox:gradle-runner-kit-test-kit-impl-GradlerunnerkitimplementationforGradleTestKitexecutor.,T,6.8.2,fail to add plugin,,,,,3,8
+gradle-plugins/toolbox:gradle-runner-kit-wrapper-impl-GradlerunnerkitimplementationforGradlewrapperexecutor.,T,6.8.2,fail to add plugin,,,,,3,8
+palantir/gradle-jdks-latest:gradle-jdks-latest-Palantiropensourceproject,T,7.4.2,fail to add plugin,,,,,2,8
+AkaZver/mapstruct-plugin,T,7.4,fail to add plugin,,,,,1,8
+palantir/jakarta-package-alignment:jakarta-package-alignment-Palantiropensourceproject,T,7.6,fail to add plugin,,,,,2,8
+palantir/jakarta-package-alignment:jakarta-package-alignment-mappings-Palantiropensourceproject,T,7.6,fail to add plugin,,,,,2,8
+saghayar/user-preference-center:common,T,6.6.1,fail to add plugin,,,,,1,8
+saghayar/user-preference-center:config-service,T,6.6.1,fail to add plugin,,,,,1,8
+saghayar/user-preference-center:discovery-service,T,6.6.1,fail to add plugin,,,,,1,8
+saghayar/user-preference-center:fetch-preferences-service,T,6.6.1,fail to add plugin,,,,,2,8
+saghayar/user-preference-center:gateway-service,T,6.6.1,fail to add plugin,,,,,2,8
+saghayar/user-preference-center:store-preference-service,T,6.6.1,fail to add plugin,,,,,2,8
+dipien/google-play-api:google-play-api-kotlin-KotlinClientforGooglePlayAPI,T,6.8.2,fail to add plugin,,,,,2,8
+dipien/google-play-api:google-play-api-plugin-GradlePluginforGooglePlayAPI,T,6.8.2,fail to add plugin,,,,,2,8
+nokok/Karaffe,T,5.6.1,fail to add plugin,,,,,0,4
+elypia/Commandler:commandlerdoc-Commandlerisanabstractcommandhandlingframeworkfordispatchingevents.,T,6.5,fail to add plugin,,,,,1,4
+elypia/Commandler:console-Commandlerisanabstractcommandhandlingframeworkfordispatchingevents.,T,6.5,fail to add plugin,,,,,1,4
+elypia/Commandler:core-Commandlerisanabstractcommandhandlingframeworkfordispatchingevents.,T,6.5,fail to add plugin,,,,,1,4
+elypia/Commandler:documentation-Commandlerisanabstractcommandhandlingframeworkfordispatchingevents.,T,6.5,fail to add plugin,,,,,1,4
+elypia/Commandler:metrics-Commandlerisanabstractcommandhandlingframeworkfordispatchingevents.,T,6.5,fail to add plugin,,,,,1,4
+elypia/Commandler:newb-Commandlerisanabstractcommandhandlingframeworkfordispatchingevents.,T,6.5,fail to add plugin,,,,,1,4
+elypia/Commandler:validation-Commandlerisanabstractcommandhandlingframeworkfordispatchingevents.,T,6.5,fail to add plugin,,,,,1,4
+nebula-plugins/nebula-gradle-interop,T,8.2,fail to add plugin,,,,,2,8
+kirksl/karate-maven-gradle,T,5.4.1,fail to add plugin,,,,,1,4
+tkgregory/gradle-github-actions-example,T,7.6,fail to add plugin,,,,,1,4
+PorterAS/dependency-injection,T,6.6.1,fail to add plugin,,,,,1,4
+dfleta/bicipalma-streams-jacoco,T,6.1.1,fail to add plugin,,,,,0,4
+palantir/gradle-jdks:gradle-jdks-Palantiropensourceproject,T,7.4.2,fail to add plugin,,,,,3,8
+palantir/gradle-jdks:gradle-jdks-distributions-Palantiropensourceproject,T,7.4.2,fail to add plugin,,,,,3,8
+craigatk/opentelemetry-gradle-plugin,T,7.6.1,fail to add plugin,,,,,5,4
+jk1/TeamCity-dependencies-gradle-plugin:tcdeps-groovy-TeamCitydependenciespluginresolvesprojectdependenciesvialocalTeamCityserver,T,7.1.1,fail to add plugin,,,,,1,4
+jk1/TeamCity-dependencies-gradle-plugin:tcdeps-kt-TeamCitydependenciespluginresolvesprojectdependenciesvialocalTeamCityserver,T,7.1.1,fail to add plugin,,,,,1,4
+lovef/gradle-git-version-plugin:gradle-git-version-plugin-GradleGitVersionPlugin,T,5.1.1,fail to add plugin,,,,,1,8
+noodzhan/noodb-blog:back-end,T,7.1.1,fail to add plugin,,,,,2,4
+noodzhan/noodb-blog:front-end,T,7.1.1,fail to add plugin,,,,,2,4
+noodzhan/noodb-blog:nuxtapp,T,7.1.1,fail to add plugin,,,,,2,4
+palantir/gradle-launch-config-plugin,T,7.4.2,fail to add plugin,,,,,2,4
+nebula-plugins/nebula-kotlin-plugin,T,6.9,fail to add plugin,,,,,2,8
+palantir/gradle-graal,T,7.6,fail to add plugin,,,,,2,4
+CodelyTV/java-ddd-skeleton:analytics,T,7.4,fail to add plugin,,,,,1,4
+CodelyTV/java-ddd-skeleton:backoffice,T,7.4,fail to add plugin,,,,,1,4
+CodelyTV/java-ddd-skeleton:mooc,T,7.4,fail to add plugin,,,,,1,4
+CodelyTV/java-ddd-skeleton:shared,T,7.4,fail to add plugin,,,,,2,4
+scottsteen/oharra,T,5.4.1,fail to add plugin,,,,,1,4
+andyatkinson/micronaut-hello-world,T,6.1,fail to add plugin,,,,,1,4
+Gentleman1983/aoc2022:aoc01,T,7.6,fail to add plugin,,,,,2,4
+Gentleman1983/aoc2022:aoc02,T,7.6,fail to add plugin,,,,,2,4
+Gentleman1983/aoc2022:aoc03,T,7.6,fail to add plugin,,,,,2,4
+Gentleman1983/aoc2022:aoc04,T,7.6,fail to add plugin,,,,,2,4
+Gentleman1983/aoc2022:aoc05,T,7.6,fail to add plugin,,,,,2,4
+Gentleman1983/aoc2022:aoc06,T,7.6,fail to add plugin,,,,,2,4
+Gentleman1983/aoc2022:aoc07,T,7.6,fail to add plugin,,,,,2,4
+Gentleman1983/aoc2022:aoc08,T,7.6,fail to add plugin,,,,,2,4
+Gentleman1983/aoc2022:aoc09,T,7.6,fail to add plugin,,,,,3,4
+Gentleman1983/aoc2022:aoc10,T,7.6,fail to add plugin,,,,,3,4
+Gentleman1983/aoc2022:aoc11,T,7.6,fail to add plugin,,,,,3,4
+Gentleman1983/aoc2022:aoc12,T,7.6,fail to add plugin,,,,,3,4
+Gentleman1983/aoc2022:aoc13,T,7.6,fail to add plugin,,,,,3,4
+Gentleman1983/aoc2022:aoc14,T,7.6,fail to add plugin,,,,,3,4
+Gentleman1983/aoc2022:aoc15,T,7.6,fail to add plugin,,,,,3,4
+Gentleman1983/aoc2022:aoc16,T,7.6,fail to add plugin,,,,,3,4
+Gentleman1983/aoc2022:aoc17,T,7.6,fail to add plugin,,,,,3,4
+Gentleman1983/aoc2022:aoc18,T,7.6,fail to add plugin,,,,,3,4
+Gentleman1983/aoc2022:aoc19,T,7.6,fail to add plugin,,,,,4,4
+Gentleman1983/aoc2022:aoc20,T,7.6,fail to add plugin,,,,,4,4
+Gentleman1983/aoc2022:aoc21,T,7.6,fail to add plugin,,,,,4,4
+Gentleman1983/aoc2022:aoc22,T,7.6,fail to add plugin,,,,,4,4
+Gentleman1983/aoc2022:aoc23,T,7.6,fail to add plugin,,,,,4,4
+Gentleman1983/aoc2022:aoc24,T,7.6,fail to add plugin,,,,,4,4
+Gentleman1983/aoc2022:aoc25,T,7.6,fail to add plugin,,,,,4,4
+Gentleman1983/aoc2022:meili,T,7.6,fail to add plugin,,,,,4,4
+ricardorlg/aws-device-farm-tractor-gradle-plugin,T,7.6,fail to add plugin,,,,,2,4
+Griefed/docker-template-repo,T,7.4.2,fail to add plugin,,,,,2,8
+hexagonkt/todo_backend,T,8.1,fail to add plugin,,,,,1,4
+loonabus/dough,T,7.2,fail to add plugin,,,,,1,4
+wendreof/logisticsRestAPI,T,3.5.1,fail to add plugin,,,,,0,8
+arunkpatra/thingverse:thingverse-admin,T,6.7.1,fail to add plugin,,,,,8,8
+arunkpatra/thingverse:thingverse-api,T,6.7.1,fail to add plugin,,,,,8,8
+arunkpatra/thingverse:thingverse-assembly,T,6.7.1,fail to add plugin,,,,,8,8
+arunkpatra/thingverse:thingverse-backend,T,6.7.1,fail to add plugin,,,,,8,8
+arunkpatra/thingverse:thingverse-backend-api,T,6.7.1,fail to add plugin,,,,,8,8
+arunkpatra/thingverse:thingverse-bom,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-cassandra-backend,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-cli,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-common,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-consul-autoconfig,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-coverage-reporting,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-deployment,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-docs,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-grpc-client,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-grpc-common,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-kubernetes,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-launcher,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-logging,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-monitoring,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-resilience,T,6.7.1,fail to add plugin,,,,,9,8
+arunkpatra/thingverse:thingverse-scripts,T,6.7.1,fail to add plugin,,,,,10,8
+arunkpatra/thingverse:thingverse-security,T,6.7.1,fail to add plugin,,,,,10,8
+arunkpatra/thingverse:thingverse-stress-tests,T,6.7.1,fail to add plugin,,,,,10,8
+arunkpatra/thingverse:thingverse-test-cassandra-app,T,6.7.1,fail to add plugin,,,,,10,8
+arunkpatra/thingverse:thingverse-tracing,T,6.7.1,fail to add plugin,,,,,10,8
+arunkpatra/thingverse:thingverse-wrapper,T,6.7.1,fail to add plugin,,,,,10,8
+arunkpatra/thingverse:thingverse-zuul-proxy,T,6.7.1,fail to add plugin,,,,,10,8
+nebula-plugins/gradle-dependency-lock-plugin,T,8.2,fail to add plugin,,,,,22,8
+theapache64/readgen,T,6.1.1,fail to add plugin,,,,,0,4
+eruizc-dev/sml4j,T,7.6,fail to add plugin,,,,,0,4
+yoomoney/weblate-plugin,T,6.4.1,fail to add plugin,,,,,1,4
+gogradle/gogradle,T,6.3,fail to add plugin,,,,,2,8
+wgx731/moai-world:moai-java-ak47-common,T,6.0.1,fail to add plugin,,,,,3,4
+wgx731/moai-world:moai-java-ak47-processor,T,6.0.1,fail to add plugin,,,,,3,4
+wgx731/moai-world:moai-java-ak47-transferor,T,6.0.1,fail to add plugin,,,,,3,4
+wgx731/moai-world:moai-java-ak47-ui,T,6.0.1,fail to add plugin,,,,,3,4
+wgx731/moai-world:moai-java-threading,T,6.0.1,fail to add plugin,,,,,3,4
+wgx731/moai-world:moai-kotlin-common,T,6.0.1,fail to add plugin,,,,,4,4
+maxirosson/jdroid-gradle-plugin:jdroid-gradle-android-plugin-GradlePluginforAndroidprojects,T,6.7,fail to add plugin,,,,,3,8
+maxirosson/jdroid-gradle-plugin:jdroid-gradle-commons-plugin-GradlePluginCommons,T,6.7,fail to add plugin,,,,,3,8
+maxirosson/jdroid-gradle-plugin:jdroid-gradle-java-plugin-GradlePluginforJavaprojects,T,6.7,fail to add plugin,,,,,3,8
+maxirosson/jdroid-gradle-plugin:jdroid-gradle-java-webapp-plugin-GradlePluginforJavaWebprojects,T,6.7,fail to add plugin,,,,,3,8
+maxirosson/jdroid-gradle-plugin:jdroid-gradle-project-plugin-GradlePluginforGradlePluginprojects,T,6.7,fail to add plugin,,,,,3,8
+maxirosson/jdroid-gradle-plugin:jdroid-gradle-root-plugin-GradlePluginforRootprojects,T,6.7,fail to add plugin,,,,,3,8
+Lucas3oo/ots-sw-info-gradle-plugin,T,7.4,fail to add plugin,,,,,1,4
+hexagonkt/contact_application,T,5.4.1,fail to add plugin,,,,,1,4
+ableasdale/new-webapp-base,T,2.9,fail to add plugin,,,,,0,4
+ArdentDiscord/Ardent-2018,T,6.2.2,fail to add plugin,,,,,1,4
+SuK-IT/ChatBot,T,7.1.1,fail to add plugin,,,,,1,4
+zacikpetr/karate-gradle-test,T,6.1.1,fail to add plugin,,,,,0,8
+sakata1222/jacoco-markdown-gradle-plugin:example,T,8.1.1,run time error,3,3,0,0,4,8
+sakata1222/jacoco-markdown-gradle-plugin:plugin,T,8.1.1,run time error,73,73,0,0,6,8
+gregoranders/gradle-project-configuration,T,8.1.1,run time error,7,7,0,0,14,8
+geb/geb-example-gradle,T,7.5.1,run time error,,,,,0,4
+nebula-plugins/nebula-release-plugin,T,8.2,run time error,197,197,0,0,2,8
+eekboom/gradle-dual-tests,T,4.10.2,run time error,,,,,0,4
+AlexGrisin/appium-geb-spock-gradle-demo,T,4.7,run time error,,,,,0,4
+gbzarelli/klean-arch-sample:application:configuration-Wirestheapplicationtogether.,T,5.5.1,run time error,,,,,1,8
+gbzarelli/klean-arch-sample:application:core-Entities(domainobjects)andusescasesthatimplementthebusinesslogic,T,5.5.1,run time error,,,,,1,8
+remal-gradle-plugins/template,T,8.1.1,run time error,1,1,0,0,2,8
+etiennestuder/gradle-credentials-plugin,T,8.1.1,run time error,,,,,1,8
+m2ci-msp/gradle-pandoc-reveal-plugin,T,8.0.2,run time error,5,5,0,0,2,8
+productiveAnalytics/test-with-spring-boot-profiles:DI-POC,T,5.0,run time error,0,0,0,0,2,8
+micyo202/lion:lion-admin-服务监控管理,T,6.8.3,run time error,,,,,8,4
+micyo202/lion:lion-auth-权限认证服务,T,6.8.3,run time error,,,,,8,4
+micyo202/lion:lion-common-公共模块,T,6.8.3,run time error,,,,,9,4
+micyo202/lion:lion-demo-demo示例模块,T,6.8.3,run time error,,,,,9,4
+micyo202/lion:lion-demo:lion-demo-consumer-服务消费者demo,T,6.8.3,run time error,,,,,9,4
+micyo202/lion:lion-demo:lion-demo-provider-服务提供者demo,T,6.8.3,run time error,,,,,9,4
+micyo202/lion:lion-gateway-路由网关服务,T,6.8.3,run time error,,,,,9,4
+ParchmentMC/WrittenBooks,T,7.0.2,run time error,1,1,0,0,0,8
+nebula-plugins/gradle-netflixoss-project-plugin,T,8.2,run time error,53,53,0,0,3,8
+LibraryOfCongress/simple-artifact-uploader,T,3.0,run time error,0,0,0,0,2,24
+pgreze/gradle-experiments:base-AtrivialGradlebuild,T,4.0.1,run time error,,,,,0,8
+pgreze/gradle-experiments:jplugin-samples:app-Usageexampleofourlibplugin,T,4.0.1,run time error,,,,,1,8
+pgreze/gradle-experiments:jplugin-samples:lib-Usageexampleofourlibplugin,T,4.0.1,run time error,,,,,1,8
+kshyk/selenium-fw,T,7.6.1,run time error,17,0,17,0,1,156
+wpilibsuite/native-utils:ToolchainPlugin,T,8.1,run time error,4,1,0,3,2,8
+Multifuchs/kmf:core=>kmf.coreJavamodule,T,7.3.3,run time error,,,,,2,8
+Multifuchs/kmf:javafx=>kmf.javafxJavamodule,T,7.3.3,run time error,,,,,2,8
+Multifuchs/kmf:json=>kmf.jsonJavamodule,T,7.3.3,run time error,,,,,2,8
+Multifuchs/kmf:test-project=>nomodule-info.javafound,T,7.3.3,run time error,,,,,2,8
+wpilibsuite/GradleRIO,T,8.1,run time error,8,8,0,0,2,8
+Netflix/gradle-template:template-client-template-client,T,6.4,run time error,,,,,1,8
+Netflix/gradle-template:template-server-template-server,T,6.4,run time error,,,,,1,8
+jk1/Gradle-License-Report,T,8.1.1,run time error,139,137,0,2,5,8
+uPortal-Project/uPortal:uPortal-api,T,6.9.4,run time error,,,,,11,8
+uPortal-Project/uPortal:uPortal-api:uPortal-api-internal-ApereouPortalInternalAPI,T,6.9.4,run time error,,,,,11,8
+uPortal-Project/uPortal:uPortal-api:uPortal-api-rest-ApereouPortalRESTAPIs,T,6.9.4,run time error,,,,,11,8
+uPortal-Project/uPortal:uPortal-api:uPortal-api-search-ApereouPortalSearchAPI,T,6.9.4,run time error,,,,,11,8
+uPortal-Project/uPortal:uPortal-concurrency-ApereouPortalConcurrency,T,6.9.4,run time error,,,,,11,8
+uPortal-Project/uPortal:uPortal-content,T,6.9.4,run time error,,,,,12,8
+uPortal-Project/uPortal:uPortal-content:uPortal-content-portlet-ApereouPortalPortletSupport,T,6.9.4,run time error,,,,,12,8
+uPortal-Project/uPortal:uPortal-content:uPortal-content-publishing-ApereouPortalContentPublishing,T,6.9.4,run time error,,,,,13,8
+uPortal-Project/uPortal:uPortal-core-ApereouPortalCore,T,6.9.4,run time error,,,,,13,8
+uPortal-Project/uPortal:uPortal-events-ApereouPortalEvents,T,6.9.4,run time error,,,,,13,8
+uPortal-Project/uPortal:uPortal-groups,T,6.9.4,run time error,,,,,14,8
+uPortal-Project/uPortal:uPortal-groups:uPortal-groups-core-ApereouPortalGroupsCore,T,6.9.4,run time error,,,,,14,8
+uPortal-Project/uPortal:uPortal-groups:uPortal-groups-filesystem-ApereouPortalGroupsFilesystem,T,6.9.4,run time error,,,,,14,8
+uPortal-Project/uPortal:uPortal-groups:uPortal-groups-grouper-ApereouPortalGroupsGrouper,T,6.9.4,run time error,,,,,14,8
+uPortal-Project/uPortal:uPortal-groups:uPortal-groups-ldap-ApereouPortalGroupsLDAP,T,6.9.4,run time error,,,,,14,8
+uPortal-Project/uPortal:uPortal-groups:uPortal-groups-local-ApereouPortalGroupsLocal,T,6.9.4,run time error,,,,,14,8
+uPortal-Project/uPortal:uPortal-groups:uPortal-groups-pags-ApereouPortalGroupsPAGS,T,6.9.4,run time error,,,,,14,8
+uPortal-Project/uPortal:uPortal-groups:uPortal-groups-smartldap-ApereouPortalGroupsSmartLdap,T,6.9.4,run time error,,,,,14,8
+uPortal-Project/uPortal:uPortal-health-ApereouPortalHealthCheck,T,6.9.4,run time error,,,,,14,8
+uPortal-Project/uPortal:uPortal-hibernate-ApereouPortalHibernateUtilities,T,6.9.4,run time error,,,,,15,8
+uPortal-Project/uPortal:uPortal-hibernate:uPortal-hibernate3-dialects-ApereouPortalUsefullDialectsforhibernate3,T,6.9.4,run time error,,,,,15,8
+uPortal-Project/uPortal:uPortal-hibernate:uPortal-hibernate4-dialects-ApereouPortalUsefullDialectsforhibernate4,T,6.9.4,run time error,,,,,15,8
+uPortal-Project/uPortal:uPortal-i18n-ApereouPortali18n,T,6.9.4,run time error,,,,,15,8
+uPortal-Project/uPortal:uPortal-index-ApereouPortalSearchIndexing,T,6.9.4,run time error,,,,,15,8
+uPortal-Project/uPortal:uPortal-io,T,6.9.4,run time error,,,,,16,8
+uPortal-Project/uPortal:uPortal-layout,T,6.9.4,run time error,,,,,17,8
+uPortal-Project/uPortal:uPortal-layout:uPortal-layout-core-ApereouPortalLayout,T,6.9.4,run time error,,,,,17,8
+uPortal-Project/uPortal:uPortal-layout:uPortal-layout-impl-ApereouPortalLayoutManagerImplementations,T,6.9.4,run time error,,,,,18,8
+uPortal-Project/uPortal:uPortal-marketplace-ApereouPortalMarketplace,T,6.9.4,run time error,,,,,18,8
+uPortal-Project/uPortal:uPortal-persondir-ApereouPortalPersonDirectory,T,6.9.4,run time error,,,,,18,8
+uPortal-Project/uPortal:uPortal-portlets-ApereouPortalFrameworkPortlets,T,6.9.4,run time error,,,,,18,8
+uPortal-Project/uPortal:uPortal-rdbm-ApereouPortalRDBM,T,6.9.4,run time error,,,,,18,8
+uPortal-Project/uPortal:uPortal-rendering-ApereouPortalRendering,T,6.9.4,run time error,,,,,18,8
+uPortal-Project/uPortal:uPortal-security,T,6.9.4,run time error,,,,,19,8
+uPortal-Project/uPortal:uPortal-security:uPortal-security-authn-ApereouPortalSecurityAuthentication,T,6.9.4,run time error,,,,,19,8
+uPortal-Project/uPortal:uPortal-security:uPortal-security-core-ApereouPortalSecurityCore,T,6.9.4,run time error,,,,,19,8
+uPortal-Project/uPortal:uPortal-security:uPortal-security-filters-ApereouPortalSecurityFilters,T,6.9.4,run time error,,,,,19,8
+uPortal-Project/uPortal:uPortal-security:uPortal-security-mvc-ApereouPortalSecurityMVC,T,6.9.4,run time error,,,,,19,8
+uPortal-Project/uPortal:uPortal-security:uPortal-security-permissions-ApereouPortalSecurityPermissions,T,6.9.4,run time error,,,,,19,8
+uPortal-Project/uPortal:uPortal-security:uPortal-security-services-ApereouPortalSecurityMVC,T,6.9.4,run time error,,,,,19,8
+uPortal-Project/uPortal:uPortal-security:uPortal-security-xslt-ApereouPortalSecurityMVC,T,6.9.4,run time error,,,,,20,8
+uPortal-Project/uPortal:uPortal-soffit,T,6.9.4,run time error,,,,,21,8
+uPortal-Project/uPortal:uPortal-soffit:uPortal-soffit-connector-ApereouPortalSoffitConnector,T,6.9.4,run time error,,,,,21,8
+uPortal-Project/uPortal:uPortal-soffit:uPortal-soffit-core-ApereouPortalSoffitCore,T,6.9.4,run time error,,,,,21,8
+uPortal-Project/uPortal:uPortal-soffit:uPortal-soffit-renderer-ApereouPortalSoffitRenderer,T,6.9.4,run time error,,,,,21,8
+uPortal-Project/uPortal:uPortal-spring-ApereouPortalSpringComponents,T,6.9.4,run time error,,,,,21,8
+uPortal-Project/uPortal:uPortal-tenants-ApereouPortalTenants,T,6.9.4,run time error,,,,,21,8
+uPortal-Project/uPortal:uPortal-tools-ApereouPortalTools,T,6.9.4,run time error,,,,,21,8
+uPortal-Project/uPortal:uPortal-url-ApereouPortalURL,T,6.9.4,run time error,,,,,21,8
+uPortal-Project/uPortal:uPortal-utils,T,6.9.4,run time error,,,,,22,8
+uPortal-Project/uPortal:uPortal-utils:uPortal-utils-core-ApereouPortalUtilities,T,6.9.4,run time error,,,,,22,8
+uPortal-Project/uPortal:uPortal-utils:uPortal-utils-jmx-ApereouPortalJMXUtils,T,6.9.4,run time error,,,,,22,8
+uPortal-Project/uPortal:uPortal-utils:uPortal-utils-url-ApereouPortalUtilitiesUrl,T,6.9.4,run time error,,,,,22,8
+uPortal-Project/uPortal:uPortal-web-ApereouPortalWeb,T,6.9.4,run time error,,,,,23,8
+uPortal-Project/uPortal:uPortal-webapp-ApereouPortalWebapp(WAR),T,6.9.4,run time error,,,,,23,8
+nebula-plugins/gradle-git-scm-plugin,T,8.2,run time error,12,12,0,0,2,8
+CAAPIM/gateway-developer-plugin:config-builder-CorelibraryusedtocreatebundlesandapplyfortheCAAPIGateway,T,4.10,run time error,,,,,1,4
+CAAPIM/gateway-developer-plugin:environment-creator-application-ThisapplicationscanbeusedtoapplyenvironmentconfigurationstoaCAAPIGatewayContainer,T,4.10,run time error,,,,,1,4
+CAAPIM/gateway-developer-plugin:gateway-export-plugin-Thegateway-export-pluginenablesexportingfromgatewaysintoaformatthatiscompatiblewiththegateway-developer-plugin.,T,4.10,run time error,,,,,1,4
+CAAPIM/gateway-developer-plugin:gateway-import-plugin-Thegateway-import-pluginenablesimportinglocallygeneratedbundlestoanexistingrunninggatewayinstance.,T,4.10,run time error,,,,,1,4
+CAAPIM/gateway-developer-plugin:gateway-policy-plugin-Thegateway-policy-pluginenablesdevelopinggatewayconfiguration.,T,4.10,run time error,,,,,1,4
+nebula-plugins/gradle-extra-configurations-plugin,T,8.2,run time error,2,2,0,0,2,8
+CommodoreBeard/user-driven-test-example,T,3.5,run time error,,,,,19,4
+itsallcode/openfasttrace-gradle,T,8.0.2,run time error,30,30,0,0,3,8
+Nasdaq/semver-git,T,6.3,run time error,9,5,0,4,1,168
+corda/corda-gradle-plugins:api-scanner-GeneratesasummaryoftheartifactspublicAPI,T,7.6.1,run time error,,,,,14,8
+corda/corda-gradle-plugins:api-scanner:annotations-AlibraryofannotationsfortestingAPIScanner.,T,7.6.1,run time error,,,,,14,8
+corda/corda-gradle-plugins:cordapp-cpk2-ConfiguresthisprojecttocreateaCPKCorDapp,T,7.6.1,run time error,,,,,14,8
+corda/corda-gradle-plugins:jar-filter:unwanteds-Testartifactsforthejar-filterplugin.,T,7.6.1,run time error,,,,,14,8
+corda/corda-gradle-plugins:quasar-utils-AsmallgradlepluginforaddingsomebasicQuasartasksandconfigurationstoreducebuild.gradlebloat.,T,7.6.1,run time error,,,,,14,8
+zkovari/gradle-changelog-automation-plugin:changelog-automation-bin-ContainsscriptsforgeneratingnewchangelogentriesinYAML,T,6.2.2,run time error,,,,,1,8
+zkovari/gradle-changelog-automation-plugin:changelog-automation-core-CorelibraryforcontinuousCHANGELOG.mdgenerationfromYAMLentries,T,6.2.2,run time error,,,,,1,8
+zkovari/gradle-changelog-automation-plugin:changelog-automation-gradle-plugin-GradlepluginforcontinuousCHANGELOG.mdgenerationfromYAMLentries,T,6.2.2,run time error,,,,,1,8
+nebula-plugins/nebula-test,T,8.2,run time error,101,98,0,3,5,8
+melix/mrjar-gradle,T,6.8.1,run time error,1,1,0,0,1,8
+augi/gradle-docker-java,T,8.1.1,run time error,4,3,1,0,2,8
+nebula-plugins/gradle-info-plugin,T,8.2,run time error,48,41,5,2,5,8
+scoverage/gradle-scoverage,T,8.1.1,run time error,11,11,0,0,1,8
+javatmc/javatmc-core:apps-Commonautomationsformeasurements,T,6.6,run time error,,,,,1,4
+javatmc/javatmc-core:cli-Allowsbasicinteractionwithtestandmeasurementdevicesviaacommandlineinterface,T,6.6,run time error,,,,,1,4
+javatmc/javatmc-core:core-Corelibrary,T,6.6,run time error,,,,,1,4
+javatmc/javatmc-core:driver-siglent-JavaTMCSiglentDrivers,T,6.6,run time error,,,,,1,4
+javatmc/javatmc-core:signals-Signals,T,6.6,run time error,,,,,1,4
+javatmc/javatmc-core:spring-adapter-JMeasureSpringAdapter,T,6.6,run time error,,,,,1,4
+javatmc/javatmc-core:test-framework-JUnitbasedtestframeworkforautomatedmeasurements,T,6.6,run time error,,,,,1,4
+sdkman/sdkman-vendor-gradle-plugin,T,6.9,run time error,15,15,0,0,2,24
+nebula-plugins/gradle-contacts-plugin,T,8.2,run time error,46,46,0,0,2,8
+hmcts/cmc-claim-store:ccd-adapter,T,7.6.1,run time error,227,227,0,0,5,192
+hmcts/cmc-claim-store:domain-model,T,7.6.1,run time error,42,42,0,0,6,412
+hmcts/cmc-claim-store:email-client,T,7.6.1,run time error,20,20,0,0,6,24
+hmcts/cmc-claim-store:job-scheduler,T,7.6.1,run time error,8,8,0,0,7,12
+hmcts/cmc-claim-store:launch-darkly-client,T,7.6.1,run time error,3,3,0,0,7,12
+hmcts/cmc-claim-store:rpa-mapper,T,7.6.1,run time error,45,45,0,0,7,36
+inwc3/JMPQ3,T,7.3,run time error,19,19,0,0,2,12
+nebula-plugins/nebula-project-plugin,T,8.2,run time error,48,48,0,0,5,8
+nebula-plugins/gradle-resolution-rules,T,8.2,run time error,137,135,0,2,3,8
+csh0034/module-gradle:module-core,T,7.1,run time error,,,,,14,4
+etiennestuder/gradle-rocker-plugin,T,8.1.1,run time error,,,,,3,8
+nebula-plugins/gradle-scm-plugin,T,8.2,run time error,5,5,0,0,1,8
+hmcts/bulk-scan-payment-processor,T,7.6.1,run time error,47,47,0,0,3,60
+hcgoranson/LogBoot,T,7.4.2,run time error,3,3,0,0,3,12
+ForlornDark/hybrid:quick-start,T,6.0.1,run time error,,,,,7,8
+tkgregory/gradle-tutorial,T,8.1,run time error,1,1,0,0,0,8
+Milan097/Crio-Launch-Feb-2020-thummarm097-ME_QMONEY:qmoney,T,5.2.1,run time error,0,0,0,0,3,32
+marytts/gradle-marytts-component-plugin,T,7.5.1,run time error,64,64,0,0,5,24
+sopra-fs22-group-27/Pictionary-Server,T,6.8.1,run time error,106,106,0,0,3,136
+dubinsky/scalajs-gradle,T,8.0.2,run time error,6,6,0,0,2,8
+roebi/BehaviorDrivenDevelopmentBDD,T,3.0,run time error,,,,,1,8
+rmee/gradle-plugins:helm,T,5.5,run time error,0,0,0,0,3,12
+rmee/gradle-plugins:jpa-schema-gen,T,5.5,run time error,0,0,0,0,3,8
+rmee/gradle-plugins:kubectl,T,5.5,run time error,0,0,0,0,4,8
+rmee/gradle-plugins:oc,T,5.5,run time error,0,0,0,0,4,8
+rmee/gradle-plugins:systemd-application,T,5.5,run time error,0,0,0,0,4,8
+Argelbargel/sonarqube-multiproject-gradle-plugin,T,4.0.1,run time error,0,0,0,0,2,12
+Team-PandaN/Team-PandaN-Back,T,7.1.1,run time error,1,1,0,0,1,16
+saw303/gradle-java-rest-api:gradle-java-rest-api,T,7.4.2,run time error,,,,,2,208
+saw303/gradle-java-rest-api:rest-api-micronaut,T,7.4.2,run time error,,,,,3,48
+saw303/gradle-java-rest-api:rest-model,T,7.4.2,run time error,,,,,3,8
+isandratskiy/selenide-kotlin-example,T,6.2,run time error,8,0,8,0,1,16
+seu-as-code/seu-as-code.plugins:seuac-base-plugin-AGradleplugintosupportSEU-as-codebaseddevelopmentenvironmentsandeasydeveloperprovisioning.,T,6.7.1,run time error,,,,,2,4
+seu-as-code/seu-as-code.plugins:seuac-credentials-plugin-AGradlepluginforthesecurestorageofcredentials.,T,6.7.1,run time error,,,,,2,4
+seu-as-code/seu-as-code.plugins:seuac-git-plugin-AGradlepluginforhandlingGitrepositories.,T,6.7.1,run time error,,,,,2,4
+seu-as-code/seu-as-code.plugins:seuac-platform-plugin-AbasicGradleplugintoapplyplatformspecificconfigurationinaGradlebuildfile.,T,6.7.1,run time error,,,,,2,4
+seu-as-code/seu-as-code.plugins:seuac-svn-plugin-AGradlepluginforhandlingSVNrepositories.,T,6.7.1,run time error,,,,,2,4
+ParchmentMC/Compass,T,7.4.2,run time error,13,13,0,0,2,12
+kronicle-tech/gradle-static-analyzer:gradle-static-analyzer-AJavalibraryforperformingstaticanalysisonaGradlebuildscripttofindoutwhatdependenciesitisusing,T,7.4,run time error,,,,,1,4
+nebula-plugins/gradle-override-plugin,T,8.2,run time error,26,26,0,0,2,8
+qwazer/markdown-confluence-gradle-plugin,T,7.6,run time error,24,12,0,12,1,28
+stewartbryson/gradle-snowflake:gradle-snowflake-plugin,T,8.1.1,run time error,7,7,0,0,3,8
+remal-gradle-plugins/sonarlint:cross-compile--common,T,8.1.1,run time error,1,1,0,0,3,8
+augi/gradle-wartremover,T,8.1.1,run time error,2,2,0,0,1,8
+remal-gradle-plugins/lombok,T,8.1.1,run time error,53,53,0,0,4,8
+etiennestuder/gradle-build-scan-teamcity-plugin,T,8.1.1,run time error,5,2,0,3,2,8
+getgauge/gauge-gradle-plugin:sample-MyGaugeTests,T,6.3,run time error,,,,,6,8
+Stickerifier/Stickerify,T,8.1.1,run time error,30,22,8,0,1,8
+Vankka/DependencyDownload:runtime,T,8.1.1,run time error,0,0,0,0,1,8
+nebula-plugins/gradle-ospackage-plugin,T,8.2,run time error,239,213,0,26,5,8
+sofn/app-engine:example-deploy,T,7.4,run time error,,,,,5,8
+sofn/app-engine:example-task,T,7.4,run time error,,,,,5,8
+sofn/app-engine:example-user,T,7.4,run time error,,,,,5,8
+sofn/app-engine:frame,T,7.4,run time error,,,,,5,8
+jraska/modules-graph-assert:plugin,T,8.1.1,run time error,61,61,0,0,3,8
+cardsplus/demoscs:app-:icons:font,T,7.6,run time error,,,,,3,8
+cardsplus/demoscs:app:backend-api-:icons:font,T,7.6,run time error,,,,,3,8
+cardsplus/demoscs:app:backend-data-:icons:font,T,7.6,run time error,,,,,3,8
+cardsplus/demoscs:app:backend-test-:icons:font,T,7.6,run time error,,,,,3,8
+cardsplus/demoscs:app:client-:icons:font,T,7.6,run time error,,,,,3,8
+cardsplus/demoscs:app:deploy-:icons:font,T,7.6,run time error,,,,,3,8
+cardsplus/demoscs:app:server-:icons:font,T,7.6,run time error,,,,,3,8
+AlexBugrimov/otus-java:hw03-annotations,T,6.5.1,run time error,,,,,2,8
+AlexBugrimov/otus-java:hw04-gc,T,6.5.1,run time error,,,,,2,8
+AlexBugrimov/otus-java:hw07-message_handler,T,6.5.1,run time error,,,,,2,8
+AlexBugrimov/otus-java:hw08-json_object_writer,T,6.5.1,run time error,,,,,2,8
+AlexBugrimov/otus-java:hw09-jdbc,T,6.5.1,run time error,,,,,2,8
+AlexBugrimov/otus-java:hw10-hibernate,T,6.5.1,run time error,,,,,2,8
+AlexBugrimov/otus-java:hw12-web_server,T,6.5.1,run time error,,,,,2,8
+AlexBugrimov/otus-java:hw13-dependency_injection,T,6.5.1,run time error,,,,,3,8
+AlexBugrimov/otus-java:hw15-sequence_of_numbers,T,6.5.1,run time error,,,,,3,8
+rbiodies/Simple_Banking_System:Simple_Banking_System-task,T,7.3.3,run time error,1,1,0,0,1,8
+tkgregory/gradle-annotation-processor-example,T,8.0.1,run time error,1,1,0,0,0,8
+themoment-team/K2-server,T,7.1.1,run time error,45,42,0,3,2,12
+nebula-plugins/gradle-nothing-plugin,T,8.2,run time error,5,4,0,1,2,8
+mike-neck/gradle-native-example:java-app,T,6.5,run time error,0,0,0,0,0,8
+marytts/gradle-marytts-voicebuilding-plugin,T,6.3,run time error,27,21,1,5,15,1324
+knokko/custom-items-gradle:kci-nms12,T,7.5.1,run time error,,,,,2,8
+knokko/custom-items-gradle:kci-nms13,T,7.5.1,run time error,,,,,2,8
+knokko/custom-items-gradle:kci-nms14,T,7.5.1,run time error,,,,,2,8
+knokko/custom-items-gradle:kci-nms15,T,7.5.1,run time error,,,,,3,8
+knokko/custom-items-gradle:kci-nms16,T,7.5.1,run time error,,,,,3,8
+knokko/custom-items-gradle:kci-nms16plus,T,7.5.1,run time error,,,,,3,8
+knokko/custom-items-gradle:plug-in,T,7.5.1,run time error,,,,,3,8
+Devcognitio/serenitybdd_mobile_seed,T,8.0.2,run time error,2,0,2,0,2,8
+pivotal-chicago/java-library-gradle-travis-coveralls-bintray,T,2.7,run time error,0,0,0,0,1,8
+ceragon/GradleGeneratorPlugin:plugin,T,7.2,run time error,1,1,0,0,1,8
+selenide/selenide-gradle-template,T,8.0.2,run time error,1,0,1,0,0,8
+forest-code/spring_study_hyunsoo:spring-boot-jms,T,3.5,run time error,,,,,5,8
+forest-code/spring_study_hyunsoo:spring-boot-journal,T,3.5,run time error,,,,,5,8
+forest-code/spring_study_hyunsoo:spring-boot-journal-jdbc,T,3.5,run time error,,,,,12,8
+forest-code/spring_study_hyunsoo:spring-boot-journal-jpa,T,3.5,run time error,,,,,12,8
+forest-code/spring_study_hyunsoo:spring-boot-journal-mongodb,T,3.5,run time error,,,,,12,12
+forest-code/spring_study_hyunsoo:spring-boot-journal-test,T,3.5,run time error,,,,,23,8
+forest-code/spring_study_hyunsoo:spring-boot-rabbitmq,T,3.5,run time error,,,,,24,8
+forest-code/spring_study_hyunsoo:spring-boot-web-actuator,T,3.5,run time error,,,,,24,8
+forest-code/spring_study_hyunsoo:vol1,T,3.5,run time error,,,,,29,24
+forest-code/spring_study_hyunsoo:vol2,T,3.5,run time error,,,,,29,8
+dorongold/gradle-task-tree,T,6.8,run time error,12,12,0,0,2,12
+duckAsteroid/progress:api-APIforprogressreporting,T,7.0.2,run time error,,,,,1,8
+duckAsteroid/progress:client-Clientlibraryforframeworkreporting,T,7.0.2,run time error,,,,,1,8
+duckAsteroid/progress:console-Aconsole(System.out)implementationofprogressreporting,T,7.0.2,run time error,,,,,1,8
+duckAsteroid/progress:eclipse-AnEclipseIProgressMonitorimplementationofprogressreporting,T,7.0.2,run time error,,,,,1,8
+duckAsteroid/progress:example-Anexampleconsole(System.out)application,T,7.0.2,run time error,,,,,2,8
+duckAsteroid/progress:format-UtilitylibraryforturningProgressMonitorintoString,T,7.0.2,run time error,,,,,2,8
+duckAsteroid/progress:java-logging-AJavaloggingframeworkimplementationofprogressreporting,T,7.0.2,run time error,,,,,2,8
+duckAsteroid/progress:slf4j-AprogressimplementationforSLF4J,T,7.0.2,run time error,,,,,2,8
+duckAsteroid/progress:swing-AJavaSwingreadyimplementationofprogressreporting,T,7.0.2,run time error,,,,,2,8
+duckAsteroid/progress:utils-UtilityclassestohelpuseProgressMonitorsincode,T,7.0.2,run time error,,,,,2,8
+elia-mercatanti/guesthouse-reservations,T,6.8.3,run time error,102,71,31,0,1,96
+ngoanh2n/blur:blur,T,8.1.1,run time error,2,0,2,0,1,8
+vitech-team-sdlc/sdlc-java-gradle,T,6.3,run time error,39,39,0,0,23,104
+remal-gradle-plugins/toolkit:classpath,T,8.1.1,run time error,7,7,0,0,9,12
+remal-gradle-plugins/toolkit:testkit,T,8.1.1,run time error,83,37,0,46,10,12
+remal-gradle-plugins/toolkit:toolkit,T,8.1.1,run time error,157,157,0,0,12,12

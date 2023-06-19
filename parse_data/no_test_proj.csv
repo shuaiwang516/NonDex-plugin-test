@@ -1,0 +1,401 @@
+project name,compile,gradle version,flaky tests,total tests,successful tests,failed tests,skipped tests,time (mins),log size
+Lucas3oo/solrike-conventions-gradle-plugin,T,7.5.1,0,0,0,0,0,1,64
+eventuate-foundation/eventuate-plugins-gradle:eventuate-plugins-gradle-publish,T,6.9.1,no test,,,,,1,4
+evmag/contacts-book:core,T,5.6.2,no test,,,,,4,4
+evmag/contacts-book:web,T,5.6.2,no test,,,,,4,4
+arun0009/ocr-tess4j-rest,T,6.7.1,0,0,0,0,0,1,64
+pj153/gradle-blog:gradle-admin,T,7.5,no test,,,,,1,4
+pj153/gradle-blog:gradle-framework,T,7.5,no test,,,,,1,4
+daggerok/spring-cloud-turbine-example:docs,T,4.0.2,no test,,,,,3,8
+daggerok/spring-cloud-turbine-example:infrastructure,T,4.0.2,no test,,,,,3,8
+daggerok/spring-cloud-turbine-example:modules,T,4.0.2,no test,,,,,72,8
+daggerok/spring-cloud-turbine-example:tests,T,4.0.2,no test,,,,,100,8
+daggerok/spring-cloud-turbine-example:tests:aggregator,T,4.0.2,no test,,,,,100,8
+daggerok/spring-cloud-turbine-example:tests:app1,T,4.0.2,no test,,,,,100,8
+daggerok/spring-cloud-turbine-example:tests:dashboard,T,4.0.2,no test,,,,,100,8
+felipefzdz/gradle-heroku-plugin:example,T,5.2,no test,,,,,1,4
+FrancescoJo/spring-board-demo:app-main-integrationTest,T,6.9,no test,,,,,4,4
+triumphsun/gradle-declaring-dependencies-between-subprojects:module-cli,T,7.2,no test,1,1,0,0,0,4
+triumphsun/gradle-declaring-dependencies-between-subprojects:module-web,T,7.2,no test,,,,,1,4
+sanketsmali/junit-cucumber-browserstack-parallel-gradle,T,6.0,0,0,0,0,0,0,64
+gbzarelli/klean-arch-sample:application,T,5.5.1,no test,,,,,1,4
+DEBS-2022-GrandChallenge/debs2022-grpc-mm:common,T,7.1,no test,,,,,1,4
+DolphaGo/spring-multi-module-example:module-api,T,6.7,no test,,,,,0,4
+DolphaGo/spring-multi-module-example:module-core,T,6.7,0,0,0,0,0,0,64
+DolphaGo/spring-multi-module-example:module-service,T,6.7,no test,,,,,0,4
+DudekJakub/Kodilla-bootcamp-course:com.kodilla-sudoku,T,7.2,no test,,,,,2,4
+DudekJakub/Kodilla-bootcamp-course:com.kodilla.sudoku,T,7.2,no test,,,,,2,4
+DudekJakub/Kodilla-bootcamp-course:kodilla-good-patterns,T,7.2,no test,,,,,4,4
+DudekJakub/Kodilla-bootcamp-course:kodilla-good=patterns,T,7.2,no test,,,,,4,4
+DudekJakub/Kodilla-bootcamp-course:kodilla-rps,T,7.2,no test,,,,,51,4
+DudekJakub/Kodilla-bootcamp-course:kodilla-sudoku,T,7.2,no test,,,,,67,4
+DudekJakub/Kodilla-bootcamp-course:SOLID-practice,T,7.2,no test,,,,,71,4
+MrEvgeny13/SpringCloud_Microservices:account-service,T,6.8,no test,,,,,1,4
+MrEvgeny13/SpringCloud_Microservices:bill-service,T,6.8,no test,,,,,2,4
+MrEvgeny13/SpringCloud_Microservices:config-service,T,6.8,no test,,,,,2,4
+MrEvgeny13/SpringCloud_Microservices:gateway,T,6.8,no test,,,,,16,4
+MrEvgeny13/SpringCloud_Microservices:notification-service,T,6.8,no test,,,,,16,4
+MrEvgeny13/SpringCloud_Microservices:registry,T,6.8,no test,,,,,16,4
+ivankohut/git-branch-checks,T,6.9.1,0,0,0,0,0,1,60
+pazzesko/pokemon-alea:domain,T,6.4.1,no test,,,,,5,4
+pazzesko/pokemon-alea:persistence,T,6.4.1,no test,,,,,5,4
+reemi1510/springboot-psql-docker-gradle-project,T,6.3,0,0,0,0,0,2,64
+ssherwood/skel-boot-gradle:applications,T,4.2.1,no test,,,,,1,4
+ssherwood/skel-boot-gradle:components,T,4.2.1,no test,,,,,7,4
+kwon37xi/gradle-tutorial:tutorial-web,T,1.7,no test,,,,,0,4
+microsoft/azure-gradle-plugins:azure-gradle-plugins-common,T,6.8,no test,,,,,5,4
+microsoft/azure-gradle-plugins:azure-webapp-gradle-plugin,T,6.8,no test,,,,,6,4
+tol-smartio/markdown,T,7.4.2,0,0,0,0,0,1,60
+cotchan/gradle-multi-modules-template:application,T,7.4,no test,,,,,0,4
+cotchan/gradle-multi-modules-template:library,T,7.4,0,0,0,0,0,0,64
+oss-ethinking/gradle-escenic-plugin:escenic-report,T,6.8,no test,,,,,12,4
+GoogleContainerTools/jib:jib-gradle-plugin-extension-api,T,6.9.2,no test,,,,,75,4
+GoogleContainerTools/jib:jib-maven-plugin-extension-api,T,6.9.2,no test,,,,,105,4
+GoogleContainerTools/jib:jib-plugins-extension-common,T,6.9.2,no test,,,,,116,4
+ebersonra/selenium,T,4.10.3,0,0,0,0,0,1,56
+wynlo/springboot-boilerplate:api,T,6.4.1,no test,,,,,1,4
+wynlo/springboot-boilerplate:client,T,6.4.1,no test,,,,,1,4
+wynlo/springboot-boilerplate:controller,T,6.4.1,no test,,,,,1,4
+wynlo/springboot-boilerplate:entrypoint,T,6.4.1,no test,,,,,1,4
+wynlo/springboot-boilerplate:test,T,6.4.1,no test,,,,,1,4
+cemnura/helidon-lab:chapter1,T,4.8,no test,,,,,1,4
+cemnura/helidon-lab:chapter2,T,4.8,no test,,,,,1,4
+cemnura/helidon-lab:chapter4,T,4.8,no test,,,,,1,4
+cemnura/helidon-lab:chapter4-1,T,4.8,no test,,,,,2,4
+cemnura/helidon-lab:chapter5,T,4.8,no test,,,,,2,4
+cemnura/helidon-lab:chapter5:a-service,T,4.8,no test,,,,,2,4
+cemnura/helidon-lab:chapter5:b-service,T,4.8,no test,,,,,2,4
+cemnura/helidon-lab:demo,T,4.8,no test,,,,,2,4
+cemnura/helidon-lab:demo:quote,T,4.8,no test,,,,,2,4
+pgreze/gradle-experiments:japp,T,4.0.1,no test,,,,,0,4
+pgreze/gradle-experiments:jplugin-samples,T,4.0.1,no test,,,,,1,4
+fkorotkov/gradle-to-pants-converter:operator,T,2.14,no test,,,,,1,4
+philwebb/mutli-module-layered-gradle-example:aa,T,6.6.1,no test,,,,,0,4
+philwebb/mutli-module-layered-gradle-example:ab,T,6.6.1,no test,,,,,0,4
+philwebb/mutli-module-layered-gradle-example:ac,T,6.6.1,no test,,,,,0,4
+IBM/gradle-k8s-plugin,T,5.2.1,0,0,0,0,0,1,60
+DreamLi1314/angboot:api,T,6.0.1,no test,,,,,3,4
+DreamLi1314/angboot:api:common,T,6.0.1,no test,,,,,3,4
+DreamLi1314/angboot:api:constants,T,6.0.1,no test,,,,,3,4
+DreamLi1314/angboot:api:interfaces,T,6.0.1,no test,,,,,3,4
+DreamLi1314/angboot:api:models,T,6.0.1,no test,,,,,3,4
+DreamLi1314/angboot:client,T,6.0.1,no test,,,,,3,4
+DreamLi1314/angboot:client:web,T,6.0.1,no test,,,,,26,4
+SooStrator1136/CompileTimeInheritance:CtiDsl,T,7.5.1,no test,,,,,0,4
+SooStrator1136/CompileTimeInheritance:CtiPlugin,T,7.5.1,0,0,0,0,0,0,64
+allure-examples/allure-junit5-gradle,T,6.5,0,0,0,0,0,2,60
+Multifuchs/kmf:core,T,7.3.3,no test,,,,,2,4
+Multifuchs/kmf:javafx,T,7.3.3,no test,,,,,2,4
+Multifuchs/kmf:json,T,7.3.3,no test,,,,,3,4
+Egga/java-blank-gradle,T,2.2,0,0,0,0,0,0,60
+saw303/gradle-resource-bundle:cmd,T,4.8,no test,,,,,1,4
+saw303/gradle-resource-bundle:core,T,4.8,no test,,,,,1,4
+jeffchao/kafka-streams-on-heroku:streams-aggregator,T,4.3,no test,,,,,0,4
+jeffchao/kafka-streams-on-heroku:streams-anomaly-checker,T,4.3,no test,,,,,0,4
+jeffchao/kafka-streams-on-heroku:streams-text-processor,T,4.3,0,0,0,0,0,0,64
+kordamp/kordamp-gradle-plugins:bom-gradle-plugin,T,7.6.1,no test,,,,,29,4
+kordamp/kordamp-gradle-plugins:buildinfo-gradle-plugin,T,7.6.1,no test,,,,,30,4
+kordamp/kordamp-gradle-plugins:checkstyle-gradle-plugin,T,7.6.1,no test,,,,,30,4
+kordamp/kordamp-gradle-plugins:codenarc-gradle-plugin,T,7.6.1,no test,,,,,30,4
+kordamp/kordamp-gradle-plugins:coveralls-gradle-plugin,T,7.6.1,no test,,,,,30,4
+kordamp/kordamp-gradle-plugins:echo-gradle-plugin,T,7.6.1,no test,,,,,30,4
+kordamp/kordamp-gradle-plugins:errorprone-gradle-plugin,T,7.6.1,no test,,,,,30,4
+kordamp/kordamp-gradle-plugins:functionaltest-gradle-plugin,T,7.6.1,no test,,,,,31,4
+kordamp/kordamp-gradle-plugins:groovy-project-gradle-plugin,T,7.6.1,no test,,,,,31,16
+kordamp/kordamp-gradle-plugins:groovydoc-gradle-plugin,T,7.6.1,no test,,,,,31,4
+kordamp/kordamp-gradle-plugins:guide,T,7.6.1,no test,,,,,31,4
+kordamp/kordamp-gradle-plugins:guide-gradle-plugin,T,7.6.1,no test,,,,,32,4
+kordamp/kordamp-gradle-plugins:inline-gradle-plugin,T,7.6.1,no test,,,,,32,4
+kordamp/kordamp-gradle-plugins:insight-gradle-plugin,T,7.6.1,no test,,,,,32,4
+kordamp/kordamp-gradle-plugins:integrationtest-gradle-plugin,T,7.6.1,no test,,,,,32,4
+kordamp/kordamp-gradle-plugins:jacoco-gradle-plugin,T,7.6.1,no test,,,,,32,4
+kordamp/kordamp-gradle-plugins:jar-gradle-plugin,T,7.6.1,no test,,,,,33,4
+kordamp/kordamp-gradle-plugins:java-project-gradle-plugin,T,7.6.1,no test,,,,,33,12
+kordamp/kordamp-gradle-plugins:javadoc-gradle-plugin,T,7.6.1,no test,,,,,33,4
+kordamp/kordamp-gradle-plugins:licensing-gradle-plugin,T,7.6.1,no test,,,,,33,4
+kordamp/kordamp-gradle-plugins:minpom-gradle-plugin,T,7.6.1,no test,,,,,33,4
+kordamp/kordamp-gradle-plugins:plugin-gradle-plugin,T,7.6.1,no test,,,,,34,4
+kordamp/kordamp-gradle-plugins:pmd-gradle-plugin,T,7.6.1,no test,,,,,34,4
+kordamp/kordamp-gradle-plugins:profiles-gradle-plugin,T,7.6.1,no test,,,,,34,4
+kordamp/kordamp-gradle-plugins:project-gradle-plugin,T,7.6.1,no test,,,,,34,12
+kordamp/kordamp-gradle-plugins:properties-gradle-plugin,T,7.6.1,no test,,,,,34,4
+kordamp/kordamp-gradle-plugins:publishing-gradle-plugin,T,7.6.1,no test,,,,,35,4
+kordamp/kordamp-gradle-plugins:reproducible-gradle-plugin,T,7.6.1,no test,,,,,35,4
+kordamp/kordamp-gradle-plugins:settings-gradle-plugin,T,7.6.1,no test,,,,,35,4
+kordamp/kordamp-gradle-plugins:sonar-gradle-plugin,T,7.6.1,no test,,,,,35,4
+kordamp/kordamp-gradle-plugins:source-gradle-plugin,T,7.6.1,no test,,,,,35,4
+kordamp/kordamp-gradle-plugins:spotbugs-gradle-plugin,T,7.6.1,no test,,,,,38,4
+kordamp/kordamp-gradle-plugins:testing-gradle-plugin,T,7.6.1,no test,,,,,38,4
+int128/gradle-swagger-generator-plugin:template-project,T,7.6.1,no test,,,,,183,4
+yWorks/yGuard:annotation,T,5.6.4,no test,,,,,0,4
+yWorks/yGuard:retroguard,T,5.6.4,no test,,,,,0,4
+illumon-public/JavaCppGradleTemplate:cpplib1,T,4.8,no test,,,,,0,4
+illumon-public/JavaCppGradleTemplate:cpplib2,T,4.8,no test,,,,,0,4
+joseracero/multimodule:database-service,T,7.3.1,no test,,,,,0,4
+saantiaguilera/fiuba-aninfo-cucumber_tests,T,3.5,0,0,0,0,0,0,64
+MobileTribe/delivery-gradle-plugin:delivery-doc,T,4.10.1,no test,,,,,3,8
+retheviper/SpringBootSample:springbootsample-domain,T,7.1,no test,,,,,1,4
+MattJDavidson/xtc-london-test-commit-revert,T,4.4,0,0,0,0,0,0,64
+epchain/MakeDjvuPlugin:makedjvuplugin,T,4.3.1,0,0,0,0,0,1,60
+oss-ci-examples/gradle-artifactory-example:api,T,6.1,no test,,,,,0,4
+yacoota/dts-shop:dts-admin-api,T,6.1,no test,,,,,1,4
+yacoota/dts-shop:dts-wx-api,T,6.1,no test,,,,,4,4
+hyuuny/hipcommerce:common,T,6.8.1,0,0,0,0,0,54,60
+kyrielia/my-spring-boot-starter:my-spring-boot-starter-test,T,7.5,no test,,,,,5,4
+sourcemuse/GradleMongoPlugin,T,7.4.2,0,0,0,0,0,2,64
+zhoujiaping/hello-gradle,T,5.2.1,0,0,0,0,0,3,60
+DarkMuesli/CreationQuest:core,T,4.10.2,0,0,0,0,0,0,60
+DarkMuesli/CreationQuest:desktop,T,4.10.2,no test,,,,,0,4
+lgrignon/jsweet-gradle-plugin,T,6.7,0,0,0,0,0,1,60
+Sharparam/klox,T,4.4.1,0,0,0,0,0,0,56
+bentolor/microframeworks-showcase:spring5,T,6.6.1,no test,,,,,10,4
+pulkitent/thoughtworks-print-label-assignment,T,4.10,0,0,0,0,0,0,64
+godngu/ddd-layered-architecture-gradle-multi-module:member,T,4.10,no test,,,,,1,4
+godngu/ddd-layered-architecture-gradle-multi-module:member:member-domain,T,4.10,0,0,0,0,0,15,68
+pavankovurru/API_Automation_Framework,T,4.0,0,0,0,0,0,1,364
+hmcts/cmc-claim-store:ccd-sample-data,T,7.6.1,no test,,,,,6,4
+hmcts/cmc-claim-store:domain-sample-data,T,7.6.1,no test,,,,,6,4
+ashlives/SeleniumCucumberGradle,T,3.1,0,0,0,0,0,0,60
+davidnortonjr/spring-boot-gradle-war,T,2.2.1,0,0,0,0,0,0,60
+dwmkerr/java-gradle-standard-version-sample,T,5.4,0,0,0,0,0,0,64
+massimob76/gradle_multiple_module_multiple_sourceset:module-a,T,3.2.1,no test,,,,,0,4
+massimob76/gradle_multiple_module_multiple_sourceset:module-b,T,3.2.1,no test,,,,,0,4
+vierbergenlars/dev-conventions-gradle-plugin:fake-ci-detect,T,6.3,no test,,,,,1,4
+aksdev07/WebsiteAmazonAutomationGradle,T,5.2.1,0,0,0,0,0,0,60
+kissaten/kafka-streams-on-heroku:streams-aggregator,T,4.3,no test,,,,,0,4
+kissaten/kafka-streams-on-heroku:streams-anomaly-detector,T,4.3,no test,,,,,0,4
+kissaten/kafka-streams-on-heroku:streams-text-processor,T,4.3,0,0,0,0,0,0,64
+hjchanna/todo-app,T,5.1.1,0,0,0,0,0,1,88
+swaechter/jooq-gradle-testcontainer-flyway-example:generator,T,7.1,no test,,,,,10,4
+asodja/quarkus-gradle-idea-multi-module:module-1,T,6.5.1,no test,,,,,1,8
+lzjyzq2/annotation-processor-example:processor,T,7.1,no test,,,,,1,4
+herionZhang/gradle-parent:gradle-common,T,6.6.1,no test,,,,,1,8
+csh0034/module-gradle:module-sub,T,7.1,no test,,,,,29,4
+yangzp11/yangzp:yzp-auth,T,6.7,no test,,,,,10,8
+yangzp11/yangzp:yzp-common,T,6.7,no test,,,,,29,4
+yangzp11/yangzp:yzp-gateway,T,6.7,no test,,,,,29,4
+yangzp11/yangzp:yzp-rocketmq,T,6.7,no test,,,,,29,4
+ancientmc/acp-gradle:test_data,T,7.6,no test,,,,,1,4
+seanfrenzel/java-gradle-selenium-cucumber-parallel-skeleton,T,6.0,0,0,0,0,0,0,64
+bettercallshao/wiser:deluxe,T,5.2.1,0,0,0,0,0,1,60
+bettercallshao/wiser:manhattan,T,5.2.1,0,0,0,0,0,2,60
+bettercallshao/wiser:spice,T,5.2.1,0,0,0,0,0,3,60
+getgauge/template-java-gradle,T,6.8.2,0,0,0,0,0,0,60
+muehmar/gradle-openapi-schema:spring-example,T,7.6,no test,,,,,4,4
+jreleaser/jreleaser:jdks-gradle-plugin,T,7.6.1,no test,,,,,20,8
+jreleaser/jreleaser:jdks-maven-plugin,T,7.6.1,no test,,,,,21,8
+jreleaser/jreleaser:jreleaser,T,7.6.1,no test,,,,,21,20
+jreleaser/jreleaser:jreleaser-ant-tasks,T,7.6.1,no test,,,,,22,20
+jreleaser/jreleaser:jreleaser-artifactory-java-sdk,T,7.6.1,no test,,,,,23,8
+jreleaser/jreleaser:jreleaser-azure-java-sdk,T,7.6.1,no test,,,,,23,8
+jreleaser/jreleaser:jreleaser-codeberg-java-sdk,T,7.6.1,no test,,,,,32,8
+jreleaser/jreleaser:jreleaser-command-java-sdk,T,7.6.1,no test,,,,,32,8
+jreleaser/jreleaser:jreleaser-disco-java-sdk,T,7.6.1,no test,,,,,47,8
+jreleaser/jreleaser:jreleaser-discord-java-sdk,T,7.6.1,no test,,,,,48,8
+jreleaser/jreleaser:jreleaser-engine,T,7.6.1,no test,,,,,54,20
+jreleaser/jreleaser:jreleaser-ftp-java-sdk,T,7.6.1,no test,,,,,54,8
+jreleaser/jreleaser:jreleaser-genericgit-java-sdk,T,7.6.1,no test,,,,,55,8
+jreleaser/jreleaser:jreleaser-gitea-java-sdk,T,7.6.1,no test,,,,,63,8
+jreleaser/jreleaser:jreleaser-gitlab-java-sdk,T,7.6.1,no test,,,,,70,8
+jreleaser/jreleaser:jreleaser-gitter-java-sdk,T,7.6.1,no test,,,,,70,8
+jreleaser/jreleaser:jreleaser-google-chat-java-sdk,T,7.6.1,no test,,,,,71,8
+jreleaser/jreleaser:jreleaser-graalvm-sdk,T,7.6.1,no test,,,,,71,4
+jreleaser/jreleaser:jreleaser-gradle-plugin,T,7.6.1,no test,,,,,72,20
+jreleaser/jreleaser:jreleaser-http-java-sdk,T,7.6.1,no test,,,,,72,8
+jreleaser/jreleaser:jreleaser-java-sdk-commons,T,7.6.1,no test,,,,,73,8
+jreleaser/jreleaser:jreleaser-mattermost-java-sdk,T,7.6.1,no test,,,,,89,8
+jreleaser/jreleaser:jreleaser-maven-plugin,T,7.6.1,no test,,,,,89,20
+jreleaser/jreleaser:jreleaser-nativeimage-annotations,T,7.6.1,no test,,,,,96,4
+jreleaser/jreleaser:jreleaser-nativeimage-processor,T,7.6.1,no test,,,,,97,4
+jreleaser/jreleaser:jreleaser-nexus2-java-sdk,T,7.6.1,no test,,,,,97,8
+jreleaser/jreleaser:jreleaser-opencollective-java-sdk,T,7.6.1,no test,,,,,97,8
+jreleaser/jreleaser:jreleaser-resource-bundle,T,7.6.1,no test,,,,,98,4
+jreleaser/jreleaser:jreleaser-s3-java-sdk,T,7.6.1,no test,,,,,98,8
+jreleaser/jreleaser:jreleaser-signing-java-sdk,T,7.6.1,no test,,,,,105,8
+jreleaser/jreleaser:jreleaser-ssh-java-sdk,T,7.6.1,no test,,,,,115,8
+jreleaser/jreleaser:jreleaser-teams-java-sdk,T,7.6.1,no test,,,,,115,8
+jreleaser/jreleaser:jreleaser-test-support,T,7.6.1,no test,,,,,124,4
+jreleaser/jreleaser:jreleaser-tool-java-sdk,T,7.6.1,no test,,,,,124,8
+jreleaser/jreleaser:jreleaser-tool-provider,T,7.6.1,no test,,,,,124,20
+jreleaser/jreleaser:jreleaser-twitter-java-sdk,T,7.6.1,no test,,,,,125,8
+jreleaser/jreleaser:jreleaser-webhooks-java-sdk,T,7.6.1,no test,,,,,131,8
+ForlornDark/hybrid:admin-server,T,6.0.1,no test,,,,,6,4
+ForlornDark/hybrid:ers,T,6.0.1,no test,,,,,6,4
+ForlornDark/hybrid:hybrid-quartz,T,6.0.1,0,0,0,0,0,6,60
+ForlornDark/hybrid:monitor-hystrix-dashboard,T,6.0.1,no test,,,,,6,4
+ForlornDark/hybrid:monitor-server,T,6.0.1,no test,,,,,7,4
+ForlornDark/hybrid:monitor-turbine,T,6.0.1,no test,,,,,7,4
+ForlornDark/hybrid:server-feign,T,6.0.1,no test,,,,,7,4
+ForlornDark/hybrid:server-gateway,T,6.0.1,no test,,,,,7,4
+ForlornDark/hybrid:swagger-starter,T,6.0.1,no test,,,,,7,4
+sogis/gretl:runtimeImage,T,5.1.1,no test,,,,,100,4
+miho/VMF:vmf-runtime,T,7.4,no test,,,,,14,4
+mihaisoloi/gauge-scala-example,T,4.6,0,0,0,0,0,0,60
+hmmferreira/ninja-framework-with-gradle:submodule,T,2.10,no test,,,,,4,4
+david145noone/Student-Database,T,6.1,0,0,0,0,0,0,60
+Tomsawyerhu/jacoconut-front:java,T,7.1,no test,,,,,2,4
+seakayone/cicd-gradle-version-plugin:guide,T,6.5,no test,,,,,14,8
+kdabir/mksrc,T,7.0.1,0,0,0,0,0,1,56
+rmee/gradle-plugins:assemble-needed,T,5.5,no test,,,,,2,4
+rmee/gradle-plugins:az,T,5.5,no test,,,,,3,4
+rmee/gradle-plugins:build-on-change,T,5.5,no test,,,,,3,4
+rmee/gradle-plugins:cli-base,T,5.5,no test,,,,,3,4
+rmee/gradle-plugins:gcloud,T,5.5,no test,,,,,3,4
+rmee/gradle-plugins:jdk-bootstrap,T,5.5,no test,,,,,3,4
+rmee/gradle-plugins:terraform,T,5.5,no test,,,,,4,4
+Dynotum/mandala-game:frontend,T,7.2,no test,,,,,1,4
+rafaat/testng-gradle-demo,T,4.2,0,0,0,0,0,0,60
+Almighty-Alpaca/JDA-Butler:launcher,T,6.5,no test,,,,,9,4
+saw303/gradle-java-rest-api:common-pagination,T,7.4.2,no test,,,,,2,4
+saw303/gradle-java-rest-api:json-model,T,7.4.2,no test,,,,,2,4
+saw303/gradle-java-rest-api:rest-api-spring,T,7.4.2,no test,,,,,3,4
+GoodforGod/micronaut-library-template,T,7.3.3,0,0,0,0,0,2,64
+springframeworkguru/intro-junit5-gradle,T,4.8,0,0,0,0,0,0,60
+Kotlin/kotlinx-benchmark:examples,T,7.4.2,no test,,,,,10,4
+Kotlin/kotlinx-benchmark:examples:java,T,7.4.2,no test,,,,,10,4
+Kotlin/kotlinx-benchmark:examples:kotlin,T,7.4.2,no test,,,,,10,4
+Kotlin/kotlinx-benchmark:examples:kotlin-kts,T,7.4.2,no test,,,,,10,4
+Kotlin/kotlinx-benchmark:examples:kotlin-multiplatform,T,7.4.2,no test,,,,,10,4
+Kotlin/kotlinx-benchmark:kotlinx-benchmark-runtime,T,7.4.2,no test,,,,,237,4
+marklogic-community/marklogic-unit-test:marklogic-unit-test-modules,T,7.5.1,no test,,,,,5,4
+jnellis/jmh-gradle:examples,T,5.4.1,no test,,,,,0,4
+uklance/gradle-java-monkey-patch:spring-patch,T,4.1,no test,,,,,0,4
+Decathlon/gradle-plugin-phraseapp:api-gradle,T,7.2,no test,,,,,2,4
+AdamMK/roman-numerals-tdd,T,4.10,0,0,0,0,0,0,60
+Excse/captcha,T,6.7,0,0,0,0,0,1,60
+pulkitent/thoughtworks-split-wise-revised,T,4.10,0,0,0,0,0,0,64
+abnair24/rest-api-automation,T,5.2.1,0,0,0,0,0,0,60
+SpacialCircumstances/gradle-cucumber-reporting,T,5.6.4,no test,3,3,0,0,1,4
+jmprathab/MyHome:api,T,6.3,no test,,,,,2,4
+remal-gradle-plugins/sonarlint:cross-compile--sonarlint-8.11-lte,T,8.1.1,no test,,,,,3,4
+tsuyopon/GradleApp:services,T,7.2,no test,,,,,0,4
+thokari/gradle-workshop:examples,T,4.2,no test,,,,,0,8
+thokari/gradle-workshop:examples:02-tasks,T,4.2,no test,,,,,0,8
+thokari/gradle-workshop:examples:03-task-ordering,T,4.2,no test,,,,,0,8
+thokari/gradle-workshop:examples:04-custom-tasks,T,4.2,no test,,,,,0,8
+thokari/gradle-workshop:examples:05-build-lifecycle,T,4.2,no test,,,,,0,8
+thokari/gradle-workshop:examples:06-script-plugins,T,4.2,no test,,,,,0,8
+thokari/gradle-workshop:examples:08-eclipse-formatter,T,4.2,no test,,,,,1,8
+thokari/gradle-workshop:examples:09-multiple-artifacts,T,4.2,no test,,,,,1,8
+thokari/gradle-workshop:examples:10-versioning-with-git,T,4.2,no test,,,,,1,8
+thokari/gradle-workshop:examples:11-versioning-with-jenkins,T,4.2,no test,,,,,1,8
+thokari/gradle-workshop:sessions,T,4.2,no test,,,,,1,8
+thokari/gradle-workshop:sessions:01-task-basics,T,4.2,no test,,,,,1,8
+thokari/gradle-workshop:sessions:02-custom-tasks,T,4.2,no test,,,,,1,8
+thokari/gradle-workshop:sessions:03-plugins,T,4.2,no test,,,,,1,8
+thokari/gradle-workshop:sessions:04-java-project,T,4.2,no test,,,,,1,8
+thokari/gradle-workshop:sessions:05-multi-projects,T,4.2,no test,,,,,1,8
+beekpr/beekeeper-gradle-plugins:beekeeper-ide-plugin,T,7.6,no test,,,,,2,4
+beekpr/beekeeper-gradle-plugins:beekeeper-plugin-test-support,T,7.6,no test,,,,,3,4
+beekpr/beekeeper-gradle-plugins:beekeeper-quarkus-plugin,T,7.6,no test,,,,,3,4
+beekpr/beekeeper-gradle-plugins:beekeeper-testing-plugin,T,7.6,no test,,,,,3,4
+JavaanseHZ/cluecumber-report-gradle-plugin-example,T,5.6.2,0,0,0,0,0,1,64
+J-Man13/spring-boot-multidatasource-sample-gradle,T,5.6.2,0,0,0,0,0,0,64
+Tahanima/TheInternetAutomation,T,7.1,0,0,0,0,0,3,68
+pulkitent/thoughtworks-game-of-life-assignment,T,5.4,0,0,0,0,0,0,64
+helloworlde/Gauge-Java-Demo,T,2.14.1,0,0,0,0,0,0,60
+jskim1991/tdd-spring-boot-books-gradle:integration-test,T,6.8.3,no test,,,,,0,4
+beryx/badass-jar-plugin,T,7.2,0,0,0,0,0,1,60
+cebrailinanc/spring-couchbase-demo:domain,T,6.8,no test,,,,,1,4
+cebrailinanc/spring-couchbase-demo:infra,T,6.8,0,0,0,0,0,1,64
+JenvyDevelopment/Haitatsu,T,6.7,0,0,0,0,0,1,60
+rodm/teamcity-gradle-build-cache-plugin:common,T,7.1.1,no test,,,,,25,4
+Vankka/DependencyDownload:common,T,8.1.1,no test,,,,,1,4
+Vankka/DependencyDownload:gradle-plugin,T,8.1.1,no test,,,,,1,4
+Vankka/DependencyDownload:jarinjar,T,8.1.1,no test,,,,,1,4
+Vankka/DependencyDownload:jarinjar:jarinjar-bootstrap,T,8.1.1,no test,,,,,1,4
+Vankka/DependencyDownload:jarinjar:jarinjar-common,T,8.1.1,no test,,,,,1,4
+Vankka/DependencyDownload:jarinjar:jarinjar-loader,T,8.1.1,no test,,,,,1,4
+nekisse-lee/intellij-gradle-spring5-study:sp5-chap12-bv,T,4.4,no test,,,,,0,4
+nekisse-lee/intellij-gradle-spring5-study:sp5-chap12-gl,T,4.4,no test,,,,,0,4
+nekisse-lee/intellij-gradle-spring5-study:spring-chap08-db,T,4.4,no test,,,,,0,4
+nekisse-lee/intellij-gradle-spring5-study:spring5,T,4.4,no test,,,,,1,4
+nekisse-lee/intellij-gradle-spring5-study:spring5-chap04,T,4.4,no test,,,,,1,4
+nekisse-lee/intellij-gradle-spring5-study:spring5-chap05,T,4.4,no test,,,,,1,4
+nekisse-lee/intellij-gradle-spring5-study:spring5-chap06,T,4.4,no test,,,,,1,4
+nekisse-lee/intellij-gradle-spring5-study:spring5-chap07-aop,T,4.4,no test,,,,,1,4
+nekisse-lee/intellij-gradle-spring5-study:spring5-chap12,T,4.4,no test,,,,,1,4
+nekisse-lee/intellij-gradle-spring5-study:spring5-chap13-session,T,4.4,no test,,,,,1,4
+nekisse-lee/intellij-gradle-spring5-study:spring5-chap14,T,4.4,no test,,,,,1,4
+nekisse-lee/intellij-gradle-spring5-study:spring5-chsp16-json,T,4.4,no test,,,,,2,4
+nekisse-lee/intellij-gradle-spring5-study:sring5-chap09-mvc,T,4.4,no test,,,,,2,4
+michaelruocco/environment-properties-plugin,T,7.2,0,0,0,0,0,1,64
+acehjm/solby:xboot,T,5.6.3,no test,,,,,1,4
+acehjm/solby:xconfig,T,5.6.3,no test,,,,,1,4
+acehjm/solby:xfile,T,5.6.3,no test,,,,,1,4
+acehjm/solby:xoauth,T,5.6.3,no test,,,,,1,4
+acehjm/solby:xquartz,T,5.6.3,no test,,,,,1,4
+acehjm/solby:xtool,T,5.6.3,0,0,0,0,0,1,56
+AlexBugrimov/otus-java:hw01-gradle,T,6.5.1,no test,,,,,1,4
+AlexBugrimov/otus-java:hw05-auto_log,T,6.5.1,no test,,,,,2,4
+vacax/demo-serverless-openfaas:hola-mundo-java-openfaas,T,6.6.1,no test,,,,,3,4
+vacax/demo-serverless-openfaas:modelos_openfaas,T,6.6.1,no test,,,,,4,4
+phystem/cucumber-allure,T,5.2.1,0,0,0,0,0,1,60
+kosaka-bun/honoka-sdk:honoka-framework-utils,T,7.4,no test,,,,,1,4
+kosaka-bun/honoka-sdk:honoka-json,T,7.4,no test,,,,,2,4
+kosaka-bun/honoka-sdk:honoka-json:honoka-json-api,T,7.4,no test,,,,,2,4
+kosaka-bun/honoka-sdk:honoka-json:honoka-json-fastjson,T,7.4,no test,,,,,2,4
+rbiodies/Simple_Banking_System:util,T,7.3.3,no test,,,,,1,4
+choiis/Spring-WebServer-Oracle,T,7.5.1,0,0,0,0,0,2,64
+libgdx/gdx-jnigen:gdx-jnigen-gradle,T,6.3,no test,,,,,3,4
+libgdx/gdx-jnigen:gdx-jnigen-loader,T,6.3,no test,,,,,3,4
+Kulawy/Java_Gradle-Selenium-jqueryui-comTest,T,4.8,0,0,0,0,0,0,64
+DeKal/dtt-cms,T,5.2.1,0,0,0,0,0,1,56
+mike-neck/gradle-native-example:cpp-lib,T,6.5,no test,,,,,0,4
+NikolayShvedov/Spring-Boot-Rest-and-Vue.js,T,7.5,0,0,0,0,0,1,64
+VictorRChagas/plugin-gradle,T,6.3,0,0,0,0,0,1,60
+djuhnix/gradle-mvc:controller,T,6.7,no test,,,,,0,4
+djuhnix/gradle-mvc:view,T,6.7,no test,,,,,1,4
+samshadwell/gradle-sandbox:platform,T,6.9,no test,,,,,0,4
+whirvis/ketill:adapter,T,7.3.3,no test,,,,,1,4
+whirvis/ketill:device,T,7.3.3,no test,,,,,19,4
+KevinGG/diary:crypto-model,T,5.4.1,no test,,,,,2,4
+KevinGG/diary:crypto-research-batch,T,5.4.1,0,0,0,0,0,2,60
+KevinGG/diary:playground,T,5.4.1,0,0,0,0,0,2,60
+HyagoRodrigues/LinkeTinder-Gradle,T,5.1.1,0,0,0,0,0,1,92
+knokko/custom-items-gradle:bit-helper,T,7.5.1,no test,,,,,1,4
+knokko/custom-items-gradle:gui,T,7.5.1,no test,,,,,2,4
+knokko/custom-items-gradle:kci-nms,T,7.5.1,no test,,,,,2,4
+knokko/custom-items-gradle:kci-nms13plus,T,7.5.1,no test,,,,,2,4
+yon-cuadrado-projects/cucumber-selenium-and-gradle,T,2.9,0,0,0,0,0,0,64
+hypery2k/gradleJEE:demoapp.ear,T,2.0,no test,,,,,0,4
+hypery2k/gradleJEE:demoapp.web,T,2.0,no test,,,,,1,4
+IT-Academy-BCN/BusinessAssistantBCN-backend:BusinessAssistant-gateway,T,7.4.1,no test,,,,,2,4
+IT-Academy-BCN/BusinessAssistantBCN-backend:BusinessAssistant-gencat,T,7.4.1,no test,,,,,2,4
+IT-Academy-BCN/BusinessAssistantBCN-backend:BusinessAssistant-login,T,7.4.1,no test,,,,,2,4
+someok/gradle-multi-project-example:project-docs,T,3.4.1,no test,,,,,2,4
+forest-code/spring_study_hyunsoo:spring-boot-redis,T,3.5,no test,,,,,24,4
+java9-modularity/gradle-modules-plugin-example:greeter.api,T,4.8,no test,,,,,0,4
+java9-modularity/gradle-modules-plugin-example:greeter.runner,T,4.8,no test,,,,,2,4
+reluxa/multi-project-springboot:infra,T,4.3.1,no test,,,,,0,4
+reluxa/multi-project-springboot:runner,T,4.3.1,no test,,,,,2,4
+reluxa/multi-project-springboot:services,T,4.3.1,no test,,,,,2,4
+reluxa/multi-project-springboot:shared,T,4.3.1,no test,,,,,4,4
+architectury/mappings-layers:plugin,T,4.9,no test,,,,,4,4
+aleksch123/sbrf,T,4.10,0,0,0,0,0,0,56
+zpzpyy/spring-batch-mybatis-jpa,T,6.0.1,0,0,0,0,0,1,60
+andrewrlee/wiremock-mongo-request-store:mongo-3-6,T,4.10.2,no test,,,,,1,4
+andrewrlee/wiremock-mongo-request-store:sample,T,4.10.2,0,0,0,0,0,1,64
+mini2Dx/tilepacker:tilepacker-gradle-plugin,T,5.4.1,no test,,,,,1,4
+rozaydin/migrateplugin,T,5.4.1,0,0,0,0,0,1,60
+web3j/web3j-openapi-gradle-plugin,T,7.6,0,0,0,0,0,3,64
+hezhongfeng/spring-boot-rbac,T,7.4.1,0,0,0,0,0,1,60
+maryis/spring-gateway-graphql:export-service,T,6.3,no test,,,,,6,4
+maryis/spring-gateway-graphql:import-service,T,6.3,no test,,,,,7,4
+rubanantonyxavier/selenium-cucumber-java,T,7.4,0,0,0,0,0,1,64
+mimousewu/gradle-submodule-sample:domain,T,5.6,no test,,,,,27,4
+eroshenkoam/allure-gradle-multi-module:first-module,T,5.2.1,no test,,,,,0,4
+nekocode/GradleImportAar:buildSrc,T,4.4,no test,,,,,1,4
+nekocode/GradleImportAar:pureJavaLib,T,4.4,no test,,,,,1,4
+renpengcheng4612/gradlebootdemo:RegCenter,T,6.8.2,0,0,0,0,0,1,64
+remal-gradle-plugins/toolkit:build-logic,T,8.1.1,no test,,,,,9,8
+remal-gradle-plugins/toolkit:toolkit:cross-compile--common,T,8.1.1,no test,,,,,12,4
+remal-gradle-plugins/toolkit:toolkit:cross-compile--gradle-5.0-lte,T,8.1.1,no test,,,,,12,4
+remal-gradle-plugins/toolkit:toolkit:cross-compile--gradle-6.0-lt,T,8.1.1,no test,,,,,12,4
+remal-gradle-plugins/toolkit:toolkit:cross-compile--gradle-6.0-lte,T,8.1.1,no test,,,,,12,4
+remal-gradle-plugins/toolkit:toolkit:cross-compile--gradle-6.2-lte,T,8.1.1,no test,,,,,12,4
+remal-gradle-plugins/toolkit:toolkit:cross-compile--gradle-6.7-lte,T,8.1.1,no test,,,,,12,4
+remal-gradle-plugins/toolkit:toolkit:cross-compile--gradle-7-lte,T,8.1.1,no test,,,,,12,4
+remal-gradle-plugins/toolkit:toolkit:cross-compile--gradle-7.3-lte,T,8.1.1,no test,,,,,13,4
+remal-gradle-plugins/toolkit:toolkit:cross-compile--java-9-gte,T,8.1.1,no test,,,,,13,4
+remal-gradle-plugins/toolkit:toolkit-annotations,T,8.1.1,no test,,,,,13,4
