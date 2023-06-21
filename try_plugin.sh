@@ -34,7 +34,14 @@ function download_compile() {
 
     # ----------------------------------------------------build the project--------------------------------------------------------#
     echo ========= try to build the project
-	./gradlew tasks 1> build.log 2> build-err.log
+    ./gradlew tasks 1> build.log 2> build-err.log
+    # append to a output file
+    echo ========= try to build the project >> azure_build.log && cat build.log >> azure_build.log
+    echo ========= try to build the project >> azure_build_err.log && cat build-err.log >> azure_build_err.log
+    cp azure_build.log  ${path}/azure_build.log
+    cp azure_build_err.log ${path}/azure_build_err.log
+    
+    
     grep "BUILD SUCCESSFUL" build.log
     
     if [ $? == 0 ]; then # if build success
@@ -98,6 +105,12 @@ $(cat ${buildFile})" > ${buildFile}
 			if [[ ${total_tests} == '' ]]; then total_tests=",,,"; echo "========== error with tests in $1";fi
 			echo "========== run NonDex on $1"
 			./gradlew nondexTest --nondexRuns=50 1> nondex.log 2> nondex-err.log
+
+			echo "========== run NonDex on $1" >> azure_nondex.log && cat nondex.log >> azure_nondex.log
+			echo "========== run NonDex on $1" >> azure_nondex_err.log && cat nondex-err.log >> azure_nondex_err.log
+			cp azure_nondex.log  ${path}/azure_nondex.log
+			cp azure_nondex_err.log ${path}/azure_nondex_err.log
+
 			size_std=$(du nondex.log | cut -f1)
 			size_err=$(du nondex-err.log | cut -f1)
 			if ( grep "NonDex SUMMARY:" nondex.log ); then # if nondexTest is actually executed
@@ -121,6 +134,10 @@ $(cat ${buildFile})" > ${buildFile}
 				if [[ ${total_tests} == '' ]]; then total_tests=",,,"; echo "========== error with tests in $1$p";fi
 				echo "========== run NonDex on $1$p"
 				./gradlew $p:nondexTest  --nondexRuns=50 1> nondex$p.log 2> nondex-err$p.log
+				echo "========== run NonDex on $1$p" &&	cat nondex$p.log > azure_nondex$p.log
+				echo "========== run NonDex on $1$p" &&	cat nondex-err$p.log > azure_nondex_err$p.log
+				cp azure_nondex$p.log   ${path}/azure_nondex$p.log
+				cp azure_nondex_err$p.log ${path}/azure_nondex_err$p.log
 				size_std=$(du nondex$p.log | cut -f1)
 				size_err=$(du nondex-err$p.log | cut -f1)
 				if ( grep "NonDex SUMMARY:" nondex$p.log ); then # if nondexTest is actually executed
